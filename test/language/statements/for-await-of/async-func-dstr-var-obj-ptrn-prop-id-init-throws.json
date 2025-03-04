@@ -275,13 +275,13 @@
                           "end": 1897,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1886,
                           "end": 1897,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

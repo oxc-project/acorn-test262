@@ -36,7 +36,6 @@
                   "end": 554,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 554,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

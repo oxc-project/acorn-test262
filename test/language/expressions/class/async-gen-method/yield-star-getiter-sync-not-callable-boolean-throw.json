@@ -569,13 +569,13 @@
                                           "end": 1823,
                                           "name": "done"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1819,
                                           "end": 1823,
                                           "name": "done"
-                                        }
+                                        },
+                                        "kind": "init"
                                       },
                                       {
                                         "type": "Property",
@@ -590,13 +590,13 @@
                                           "end": 1830,
                                           "name": "value"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1825,
                                           "end": 1830,
                                           "name": "value"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

@@ -49,7 +49,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1557,
@@ -77,7 +76,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -803,13 +803,13 @@
                                           "end": 2349,
                                           "name": "done"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 2345,
                                           "end": 2349,
                                           "name": "done"
-                                        }
+                                        },
+                                        "kind": "init"
                                       },
                                       {
                                         "type": "Property",
@@ -824,13 +824,13 @@
                                           "end": 2356,
                                           "name": "value"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 2351,
                                           "end": 2356,
                                           "name": "value"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

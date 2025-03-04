@@ -371,13 +371,13 @@
                                     "end": 1500,
                                     "name": "overflow"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1492,
                                     "end": 1500,
                                     "name": "overflow"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

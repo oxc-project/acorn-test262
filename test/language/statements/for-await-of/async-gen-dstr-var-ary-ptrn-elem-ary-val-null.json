@@ -238,13 +238,13 @@
                           "end": 2077,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 2066,
                           "end": 2077,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

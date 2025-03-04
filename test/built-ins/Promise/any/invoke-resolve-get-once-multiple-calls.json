@@ -329,7 +329,6 @@
                   "end": 1154,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1154,
@@ -458,7 +457,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -599,13 +599,13 @@
                           "end": 1401,
                           "name": "errors"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1395,
                           "end": 1401,
                           "name": "errors"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

@@ -172,13 +172,13 @@
                                     "end": 417,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 408,
                                     "end": 417,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -641,13 +641,13 @@
                                     "end": 790,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 781,
                                     "end": 790,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",

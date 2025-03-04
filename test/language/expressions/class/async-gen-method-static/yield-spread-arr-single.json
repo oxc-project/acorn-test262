@@ -418,13 +418,13 @@
                           "end": 1035,
                           "name": "done"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1031,
                           "end": 1035,
                           "name": "done"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -439,13 +439,13 @@
                           "end": 1042,
                           "name": "value"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1037,
                           "end": 1042,
                           "name": "value"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

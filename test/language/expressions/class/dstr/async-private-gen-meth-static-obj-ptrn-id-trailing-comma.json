@@ -95,13 +95,13 @@
                               "end": 1991,
                               "name": "x"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1990,
                               "end": 1991,
                               "name": "x"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

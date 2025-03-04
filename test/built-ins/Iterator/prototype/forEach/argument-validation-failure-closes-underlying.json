@@ -96,7 +96,6 @@
                   "end": 429,
                   "name": "next"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 429,
@@ -138,7 +137,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -153,7 +153,6 @@
                   "end": 502,
                   "name": "return"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 502,
@@ -205,7 +204,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

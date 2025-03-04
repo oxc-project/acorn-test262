@@ -237,13 +237,13 @@
                             "end": 570,
                             "name": "numberingSystem"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 555,
                             "end": 570,
                             "name": "numberingSystem"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

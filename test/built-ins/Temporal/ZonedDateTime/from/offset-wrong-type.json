@@ -182,13 +182,13 @@
                         "end": 1186,
                         "name": "offset"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1180,
                         "end": 1186,
                         "name": "offset"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -670,13 +670,13 @@
                         "end": 1595,
                         "name": "offset"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1589,
                         "end": 1595,
                         "name": "offset"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

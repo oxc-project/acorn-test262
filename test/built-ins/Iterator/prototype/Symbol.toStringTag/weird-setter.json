@@ -168,13 +168,13 @@
                   "end": 802,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 799,
                   "end": 802,
                   "name": "get"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -189,13 +189,13 @@
                   "end": 807,
                   "name": "set"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 804,
                   "end": 807,
                   "name": "set"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

@@ -49,7 +49,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 872,
@@ -91,7 +90,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -119,7 +119,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 971,
@@ -184,7 +183,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -255,7 +255,6 @@
                     "end": 1077,
                     "name": "method"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1077,
@@ -338,7 +337,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -653,13 +653,13 @@
                                           "end": 1397,
                                           "name": "done"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1393,
                                           "end": 1397,
                                           "name": "done"
-                                        }
+                                        },
+                                        "kind": "init"
                                       },
                                       {
                                         "type": "Property",
@@ -674,13 +674,13 @@
                                           "end": 1404,
                                           "name": "value"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1399,
                                           "end": 1404,
                                           "name": "value"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

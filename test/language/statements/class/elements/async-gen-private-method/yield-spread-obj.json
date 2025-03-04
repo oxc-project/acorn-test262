@@ -904,13 +904,13 @@
                           "end": 1660,
                           "name": "done"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1656,
                           "end": 1660,
                           "name": "done"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -925,13 +925,13 @@
                           "end": 1667,
                           "name": "value"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1662,
                           "end": 1667,
                           "name": "value"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

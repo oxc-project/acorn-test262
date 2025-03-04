@@ -404,13 +404,13 @@
                                     "end": 555,
                                     "name": "overflow"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 547,
                                     "end": 555,
                                     "name": "overflow"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -578,13 +578,13 @@
                                     "end": 719,
                                     "name": "overflow"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 711,
                                     "end": 719,
                                     "name": "overflow"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

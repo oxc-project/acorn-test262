@@ -37,7 +37,6 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 636,
@@ -66,7 +65,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -103,7 +103,6 @@
                   "end": 679,
                   "name": "bar"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 679,
@@ -126,7 +125,8 @@
                     "end": 690,
                     "body": []
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

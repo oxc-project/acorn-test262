@@ -299,13 +299,13 @@
                                     "end": 1736,
                                     "name": "language"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1728,
                                     "end": 1736,
                                     "name": "language"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

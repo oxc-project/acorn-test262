@@ -49,7 +49,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1050,
@@ -91,7 +90,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -119,7 +119,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1149,
@@ -170,7 +169,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1026,13 +1026,13 @@
                                           "end": 2083,
                                           "name": "done"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 2079,
                                           "end": 2083,
                                           "name": "done"
-                                        }
+                                        },
+                                        "kind": "init"
                                       },
                                       {
                                         "type": "Property",
@@ -1047,13 +1047,13 @@
                                           "end": 2090,
                                           "name": "value"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 2085,
                                           "end": 2090,
                                           "name": "value"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

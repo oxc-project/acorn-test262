@@ -1028,7 +1028,6 @@
                   "end": 1680,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1680,
@@ -1062,7 +1061,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1517,7 +1517,6 @@
                   "end": 2182,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2182,
@@ -1551,7 +1550,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1998,7 +1998,6 @@
                   "end": 2680,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2680,
@@ -2032,7 +2031,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

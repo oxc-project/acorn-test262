@@ -240,13 +240,13 @@
                           "end": 1459,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1448,
                           "end": 1459,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

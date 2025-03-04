@@ -123,13 +123,13 @@
                       "end": 694,
                       "name": "source"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 688,
                       "end": 694,
                       "name": "source"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -519,13 +519,13 @@
                       "end": 1029,
                       "name": "tooBigForNumber"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1014,
                       "end": 1029,
                       "name": "tooBigForNumber"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

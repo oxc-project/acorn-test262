@@ -124,13 +124,13 @@
                   "end": 555,
                   "name": "relativeTo"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 545,
                   "end": 555,
                   "name": "relativeTo"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

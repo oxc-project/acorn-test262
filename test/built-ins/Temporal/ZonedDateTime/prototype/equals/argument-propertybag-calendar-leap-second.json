@@ -213,13 +213,13 @@
                   "end": 488,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 480,
                   "end": 488,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -234,13 +234,13 @@
                   "end": 498,
                   "name": "calendar"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 490,
                   "end": 498,
                   "name": "calendar"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

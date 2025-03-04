@@ -128,7 +128,6 @@
                         "end": 1657,
                         "name": "foo"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1657,
@@ -162,7 +161,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 },

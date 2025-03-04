@@ -36,7 +36,6 @@
                   "end": 615,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 615,
@@ -86,7 +85,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -127,7 +127,6 @@
                   "end": 678,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 678,
@@ -201,7 +200,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

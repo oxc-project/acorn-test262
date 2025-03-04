@@ -110,7 +110,6 @@
                         "end": 584,
                         "name": "valueOf"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 584,
@@ -153,7 +152,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -168,7 +168,6 @@
                         "end": 653,
                         "name": "toString"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 653,
@@ -202,7 +201,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

@@ -205,13 +205,13 @@
                                   "end": 848,
                                   "name": "currency"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 840,
                                   "end": 848,
                                   "name": "currency"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -226,13 +226,13 @@
                                   "end": 858,
                                   "name": "notation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 850,
                                   "end": 858,
                                   "name": "notation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

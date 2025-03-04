@@ -152,7 +152,6 @@
                           "end": 1968,
                           "name": "fn"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1966,
@@ -179,7 +178,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -194,7 +194,6 @@
                           "end": 1990,
                           "name": "xFn"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1987,
@@ -226,7 +225,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

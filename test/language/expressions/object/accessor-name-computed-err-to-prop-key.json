@@ -130,7 +130,6 @@
                             "end": 1292,
                             "name": "badKey"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 1293,
@@ -146,7 +145,8 @@
                               "end": 1298,
                               "body": []
                             }
-                          }
+                          },
+                          "kind": "get"
                         }
                       ]
                     }
@@ -240,7 +240,6 @@
                             "end": 1386,
                             "name": "badKey"
                           },
-                          "kind": "set",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 1387,
@@ -263,7 +262,8 @@
                               "end": 1393,
                               "body": []
                             }
-                          }
+                          },
+                          "kind": "set"
                         }
                       ]
                     }

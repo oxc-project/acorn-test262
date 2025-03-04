@@ -152,7 +152,6 @@
                           "end": 2000,
                           "name": "cover"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1995,
@@ -184,7 +183,8 @@
                               }
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -199,7 +199,6 @@
                           "end": 2027,
                           "name": "xCover"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2021,
@@ -245,7 +244,8 @@
                               ]
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

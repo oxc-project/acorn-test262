@@ -455,13 +455,13 @@
                             "end": 909,
                             "name": "signDisplay"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 898,
                             "end": 909,
                             "name": "signDisplay"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

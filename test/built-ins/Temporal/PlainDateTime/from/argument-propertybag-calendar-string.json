@@ -128,13 +128,13 @@
                   "end": 376,
                   "name": "calendar"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 368,
                   "end": 376,
                   "name": "calendar"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

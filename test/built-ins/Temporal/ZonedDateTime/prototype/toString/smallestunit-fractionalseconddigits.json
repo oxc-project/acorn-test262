@@ -300,13 +300,13 @@
                             "end": 757,
                             "name": "smallestUnit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 745,
                             "end": 757,
                             "name": "smallestUnit"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",

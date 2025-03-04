@@ -62,7 +62,6 @@
                   "end": 2155,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2155,
@@ -99,13 +98,13 @@
                                   "end": 2160,
                                   "name": "x"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2159,
                                   "end": 2160,
                                   "name": "x"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -120,13 +119,13 @@
                                   "end": 2163,
                                   "name": "y"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2162,
                                   "end": 2163,
                                   "name": "y"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -141,13 +140,13 @@
                                   "end": 2166,
                                   "name": "z"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2165,
                                   "end": 2166,
                                   "name": "z"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           },
@@ -406,7 +405,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

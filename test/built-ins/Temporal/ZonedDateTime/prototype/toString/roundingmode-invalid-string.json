@@ -256,13 +256,13 @@
                               "end": 591,
                               "name": "roundingMode"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 579,
                               "end": 591,
                               "name": "roundingMode"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

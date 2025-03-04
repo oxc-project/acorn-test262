@@ -86,13 +86,13 @@
                       "end": 741,
                       "name": "length"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 735,
                       "end": 741,
                       "name": "length"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -307,13 +307,13 @@
                           "end": 1074,
                           "name": "length"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1068,
                           "end": 1074,
                           "name": "length"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

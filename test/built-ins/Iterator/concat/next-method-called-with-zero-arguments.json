@@ -62,7 +62,6 @@
                   "end": 689,
                   "name": "next"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 689,
@@ -211,7 +210,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -265,7 +265,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 855,
@@ -293,7 +292,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

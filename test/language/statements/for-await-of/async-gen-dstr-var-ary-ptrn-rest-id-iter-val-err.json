@@ -220,7 +220,6 @@
                         "end": 2041,
                         "name": "next"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 2041,
@@ -248,7 +247,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -483,13 +483,13 @@
                           "end": 2297,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 2286,
                           "end": 2297,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

@@ -271,13 +271,13 @@
                                     "end": 506,
                                     "name": "timeZone"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 498,
                                     "end": 506,
                                     "name": "timeZone"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             },

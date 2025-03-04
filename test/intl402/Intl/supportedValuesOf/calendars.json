@@ -744,13 +744,13 @@
                               "end": 1937,
                               "name": "calendar"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1929,
                               "end": 1937,
                               "name": "calendar"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

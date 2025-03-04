@@ -91,13 +91,13 @@
                     "end": 918,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 917,
                     "end": 918,
                     "name": "x"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

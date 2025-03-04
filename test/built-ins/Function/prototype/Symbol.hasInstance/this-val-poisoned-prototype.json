@@ -64,7 +64,6 @@
                         "end": 578,
                         "name": "f"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 578,
@@ -80,7 +79,8 @@
                           "end": 583,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 },

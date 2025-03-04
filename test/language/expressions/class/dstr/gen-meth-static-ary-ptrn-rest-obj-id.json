@@ -104,13 +104,13 @@
                                     "end": 2734,
                                     "name": "length"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 2728,
                                     "end": 2734,
                                     "name": "length"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

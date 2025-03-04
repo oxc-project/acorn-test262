@@ -309,13 +309,13 @@
                   "end": 589,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 584,
                   "end": 589,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -330,13 +330,13 @@
                   "end": 595,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 591,
                   "end": 595,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

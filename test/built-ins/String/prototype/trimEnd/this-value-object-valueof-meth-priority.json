@@ -127,7 +127,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1602,
@@ -179,7 +178,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -194,7 +194,6 @@
                   "end": 1678,
                   "name": "toString"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1678,
@@ -246,7 +245,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -261,7 +261,6 @@
                   "end": 1750,
                   "name": "valueOf"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1750,
@@ -336,7 +335,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

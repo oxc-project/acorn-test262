@@ -103,7 +103,6 @@
                         "end": 970,
                         "name": "m"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 970,
@@ -243,7 +242,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

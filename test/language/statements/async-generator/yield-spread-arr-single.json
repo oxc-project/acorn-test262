@@ -338,13 +338,13 @@
                           "end": 887,
                           "name": "done"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 883,
                           "end": 887,
                           "name": "done"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -359,13 +359,13 @@
                           "end": 894,
                           "name": "value"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 889,
                           "end": 894,
                           "name": "value"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

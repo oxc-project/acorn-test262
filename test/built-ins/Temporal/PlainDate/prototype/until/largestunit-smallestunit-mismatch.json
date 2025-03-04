@@ -501,13 +501,13 @@
                                     "end": 734,
                                     "name": "largestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 723,
                                     "end": 734,
                                     "name": "largestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -522,13 +522,13 @@
                                     "end": 748,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 736,
                                     "end": 748,
                                     "name": "smallestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

@@ -286,13 +286,13 @@
                               "end": 1324,
                               "name": "overflow"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1316,
                               "end": 1324,
                               "name": "overflow"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

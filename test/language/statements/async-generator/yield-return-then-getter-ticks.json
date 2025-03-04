@@ -600,7 +600,6 @@
                   "end": 2587,
                   "name": "then"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2587,
@@ -656,7 +655,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

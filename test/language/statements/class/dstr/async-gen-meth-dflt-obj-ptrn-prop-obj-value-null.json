@@ -85,13 +85,13 @@
                                   "end": 1966,
                                   "name": "x"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1965,
                                   "end": 1966,
                                   "name": "x"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -106,13 +106,13 @@
                                   "end": 1969,
                                   "name": "y"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1968,
                                   "end": 1969,
                                   "name": "y"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -127,13 +127,13 @@
                                   "end": 1972,
                                   "name": "z"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1971,
                                   "end": 1972,
                                   "name": "z"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           },

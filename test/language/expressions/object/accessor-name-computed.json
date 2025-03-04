@@ -109,7 +109,6 @@
                     }
                   ]
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 955,
@@ -138,7 +137,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -186,7 +186,6 @@
                     }
                   ]
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1011,
@@ -233,7 +232,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

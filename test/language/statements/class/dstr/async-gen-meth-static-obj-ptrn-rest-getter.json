@@ -407,7 +407,6 @@
                               "end": 1961,
                               "name": "v"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1961,
@@ -454,7 +453,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

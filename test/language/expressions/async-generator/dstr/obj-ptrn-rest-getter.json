@@ -393,7 +393,6 @@
                               "end": 1000,
                               "name": "v"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1000,
@@ -440,7 +439,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

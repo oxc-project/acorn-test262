@@ -123,13 +123,13 @@
                               "end": 442,
                               "name": "source"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 436,
                               "end": 442,
                               "name": "source"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -572,13 +572,13 @@
                               "end": 947,
                               "name": "source"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 941,
                               "end": 947,
                               "name": "source"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

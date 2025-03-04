@@ -131,7 +131,6 @@
                         "end": 1683,
                         "name": "next"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1683,
@@ -204,7 +203,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -219,7 +219,6 @@
                         "end": 1747,
                         "name": "return"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1747,
@@ -271,7 +270,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -348,13 +348,13 @@
                             "end": 719,
                             "name": "smallestUnit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 707,
                             "end": 719,
                             "name": "smallestUnit"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",

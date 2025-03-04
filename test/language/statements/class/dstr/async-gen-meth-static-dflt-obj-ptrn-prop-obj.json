@@ -111,13 +111,13 @@
                                   "end": 1996,
                                   "name": "x"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1995,
                                   "end": 1996,
                                   "name": "x"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -132,13 +132,13 @@
                                   "end": 1999,
                                   "name": "y"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1998,
                                   "end": 1999,
                                   "name": "y"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -153,13 +153,13 @@
                                   "end": 2002,
                                   "name": "z"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2001,
                                   "end": 2002,
                                   "name": "z"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           },

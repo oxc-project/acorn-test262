@@ -208,13 +208,13 @@
                                     "end": 752,
                                     "name": "timeStyle"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 743,
                                     "end": 752,
                                     "name": "timeStyle"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

@@ -90,7 +90,6 @@
                         "end": 400,
                         "name": "f"
                       },
-                      "kind": "set",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 409,
@@ -113,7 +112,8 @@
                           "end": 450,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "set"
                     }
                   ]
                 },
@@ -202,7 +202,6 @@
                         "value": "g",
                         "raw": "\"g\""
                       },
-                      "kind": "set",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 573,
@@ -225,7 +224,8 @@
                           "end": 614,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "set"
                     }
                   ]
                 },
@@ -313,7 +313,6 @@
                         "end": 716,
                         "name": "x"
                       },
-                      "kind": "set",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 735,
@@ -336,7 +335,8 @@
                           "end": 776,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "set"
                     }
                   ]
                 },

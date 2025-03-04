@@ -98,13 +98,13 @@
               "end": 1137,
               "name": "x"
             },
-            "kind": "init",
             "value": {
               "type": "Identifier",
               "start": 1136,
               "end": 1137,
               "name": "x"
-            }
+            },
+            "kind": "init"
           },
           {
             "type": "Property",
@@ -119,13 +119,13 @@
               "end": 1140,
               "name": "y"
             },
-            "kind": "init",
             "value": {
               "type": "Identifier",
               "start": 1139,
               "end": 1140,
               "name": "y"
-            }
+            },
+            "kind": "init"
           }
         ]
       },

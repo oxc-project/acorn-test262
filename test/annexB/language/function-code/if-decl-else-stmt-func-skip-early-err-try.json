@@ -205,13 +205,13 @@
                             "end": 1943,
                             "name": "f"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1942,
                             "end": 1943,
                             "name": "f"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     },

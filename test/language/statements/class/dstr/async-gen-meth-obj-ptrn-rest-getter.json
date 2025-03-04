@@ -413,7 +413,6 @@
                               "end": 1936,
                               "name": "v"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1936,
@@ -460,7 +459,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

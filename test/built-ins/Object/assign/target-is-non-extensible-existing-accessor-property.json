@@ -86,7 +86,6 @@
                       "end": 982,
                       "name": "foo"
                     },
-                    "kind": "set",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 982,
@@ -133,7 +132,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "set"
                   }
                 ]
               }
@@ -347,7 +347,6 @@
                   "end": 1141,
                   "name": "sym"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1142,
@@ -394,7 +393,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

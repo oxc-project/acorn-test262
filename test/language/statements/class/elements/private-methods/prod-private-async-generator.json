@@ -888,13 +888,13 @@
                                       "end": 3209,
                                       "name": "value"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 3204,
                                       "end": 3209,
                                       "name": "value"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -909,13 +909,13 @@
                                       "end": 3215,
                                       "name": "done"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 3211,
                                       "end": 3215,
                                       "name": "done"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               }
@@ -1665,13 +1665,13 @@
                                       "end": 4238,
                                       "name": "value"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 4233,
                                       "end": 4238,
                                       "name": "value"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -1686,13 +1686,13 @@
                                       "end": 4244,
                                       "name": "done"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 4240,
                                       "end": 4244,
                                       "name": "done"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               }

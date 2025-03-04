@@ -68,7 +68,6 @@
                   "end": 304,
                   "name": "yield"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 304,
@@ -132,7 +131,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

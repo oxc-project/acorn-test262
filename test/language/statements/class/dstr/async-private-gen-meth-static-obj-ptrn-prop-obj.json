@@ -107,13 +107,13 @@
                                 "end": 2026,
                                 "name": "x"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2025,
                                 "end": 2026,
                                 "name": "x"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -128,13 +128,13 @@
                                 "end": 2029,
                                 "name": "y"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2028,
                                 "end": 2029,
                                 "name": "y"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -149,13 +149,13 @@
                                 "end": 2032,
                                 "name": "z"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2031,
                                 "end": 2032,
                                 "name": "z"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

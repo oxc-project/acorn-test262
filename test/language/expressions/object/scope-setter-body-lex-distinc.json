@@ -36,7 +36,6 @@
                   "end": 2059,
                   "name": "a"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2059,
@@ -106,7 +105,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

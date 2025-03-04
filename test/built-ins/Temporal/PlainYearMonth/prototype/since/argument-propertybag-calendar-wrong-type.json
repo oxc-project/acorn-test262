@@ -342,13 +342,13 @@
                         "end": 712,
                         "name": "calendar"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 704,
                         "end": 712,
                         "name": "calendar"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -772,13 +772,13 @@
                         "end": 1130,
                         "name": "calendar"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1122,
                         "end": 1130,
                         "name": "calendar"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

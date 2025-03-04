@@ -181,13 +181,13 @@
                         "end": 876,
                         "name": "y"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 875,
                         "end": 876,
                         "name": "y"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

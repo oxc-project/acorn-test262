@@ -353,7 +353,6 @@
                               "end": 818,
                               "name": "fakeIteratorSymbol"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 819,
@@ -395,7 +394,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -410,7 +410,6 @@
                               "end": 945,
                               "name": "fakeAsyncIteratorSymbol"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 946,
@@ -452,7 +451,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

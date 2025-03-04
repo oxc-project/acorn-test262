@@ -168,7 +168,6 @@
                                               "end": 1062,
                                               "name": "done"
                                             },
-                                            "kind": "get",
                                             "value": {
                                               "type": "FunctionExpression",
                                               "start": 1062,
@@ -202,7 +201,8 @@
                                                   }
                                                 ]
                                               }
-                                            }
+                                            },
+                                            "kind": "get"
                                           }
                                         ]
                                       }

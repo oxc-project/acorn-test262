@@ -37,7 +37,6 @@
                   "value": "a",
                   "raw": "'a'"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 317,
@@ -90,7 +89,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

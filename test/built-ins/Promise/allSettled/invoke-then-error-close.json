@@ -179,7 +179,6 @@
                         "end": 859,
                         "name": "next"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 859,
@@ -251,7 +250,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -266,7 +266,6 @@
                         "end": 949,
                         "name": "return"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 949,
@@ -318,7 +317,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

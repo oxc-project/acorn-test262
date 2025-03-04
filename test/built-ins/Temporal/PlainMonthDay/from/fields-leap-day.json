@@ -144,13 +144,13 @@
                                   "end": 431,
                                   "name": "overflow"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 423,
                                   "end": 431,
                                   "name": "overflow"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -369,13 +369,13 @@
                                   "end": 611,
                                   "name": "overflow"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 603,
                                   "end": 611,
                                   "name": "overflow"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -594,13 +594,13 @@
                                   "end": 793,
                                   "name": "overflow"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 785,
                                   "end": 793,
                                   "name": "overflow"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -841,13 +841,13 @@
                                   "end": 984,
                                   "name": "overflow"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 976,
                                   "end": 984,
                                   "name": "overflow"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

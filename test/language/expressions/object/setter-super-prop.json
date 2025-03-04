@@ -58,7 +58,6 @@
                   "end": 258,
                   "name": "x"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 258,
@@ -117,7 +116,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -158,7 +158,6 @@
                   "end": 318,
                   "name": "x"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 318,
@@ -217,7 +216,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

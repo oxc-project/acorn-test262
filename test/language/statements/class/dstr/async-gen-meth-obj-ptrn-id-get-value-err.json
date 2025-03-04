@@ -174,13 +174,13 @@
                         "end": 1964,
                         "name": "poisoned"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1956,
                         "end": 1964,
                         "name": "poisoned"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

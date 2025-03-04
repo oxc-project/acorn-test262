@@ -220,13 +220,13 @@
                                   "end": 517,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 505,
                                   "end": 517,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -825,13 +825,13 @@
                                     "end": 1519,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1507,
                                     "end": 1519,
                                     "name": "smallestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

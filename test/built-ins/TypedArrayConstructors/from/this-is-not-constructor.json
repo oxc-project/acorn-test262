@@ -40,7 +40,6 @@
                     "end": 493,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 493,
@@ -56,7 +55,8 @@
                       "end": 498,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

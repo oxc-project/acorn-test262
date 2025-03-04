@@ -59,13 +59,13 @@
                               "end": 1956,
                               "name": "x"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1955,
                               "end": 1956,
                               "name": "x"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -253,13 +253,13 @@
                           "end": 2121,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 2110,
                           "end": 2121,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

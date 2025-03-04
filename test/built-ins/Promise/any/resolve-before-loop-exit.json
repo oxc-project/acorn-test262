@@ -760,7 +760,6 @@
                   "end": 1934,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1934,
@@ -813,7 +812,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -854,7 +854,6 @@
                   "end": 2016,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2016,
@@ -936,7 +935,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -977,7 +977,6 @@
                   "end": 2133,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2133,
@@ -1033,7 +1032,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

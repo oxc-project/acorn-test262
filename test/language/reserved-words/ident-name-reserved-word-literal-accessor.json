@@ -56,7 +56,6 @@
                   "end": 305,
                   "name": "null"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 305,
@@ -104,7 +103,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -119,7 +119,6 @@
                   "end": 345,
                   "name": "null"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 345,
@@ -148,7 +147,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -163,7 +163,6 @@
                   "end": 380,
                   "name": "true"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 380,
@@ -211,7 +210,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -226,7 +226,6 @@
                   "end": 420,
                   "name": "true"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 420,
@@ -255,7 +254,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -270,7 +270,6 @@
                   "end": 456,
                   "name": "false"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 456,
@@ -318,7 +317,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -333,7 +333,6 @@
                   "end": 498,
                   "name": "false"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 498,
@@ -362,7 +361,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

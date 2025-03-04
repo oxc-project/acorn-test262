@@ -169,7 +169,6 @@
                       "end": 1155,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1155,
@@ -198,7 +197,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },
@@ -220,7 +220,6 @@
                       "end": 1189,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1189,
@@ -249,7 +248,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },
@@ -284,7 +284,6 @@
                       "computed": false,
                       "optional": false
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1234,
@@ -313,7 +312,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -435,13 +435,13 @@
                                   "end": 1442,
                                   "name": "granularity"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1431,
                                   "end": 1442,
                                   "name": "granularity"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

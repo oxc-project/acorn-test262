@@ -389,13 +389,13 @@
                         "end": 718,
                         "name": "calendar"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 710,
                         "end": 718,
                         "name": "calendar"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -547,13 +547,13 @@
                               "end": 857,
                               "name": "relativeTo"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 847,
                               "end": 857,
                               "name": "relativeTo"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -982,13 +982,13 @@
                         "end": 1398,
                         "name": "calendar"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1390,
                         "end": 1398,
                         "name": "calendar"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -1103,13 +1103,13 @@
                               "end": 1484,
                               "name": "relativeTo"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1474,
                               "end": 1484,
                               "name": "relativeTo"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

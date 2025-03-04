@@ -99,13 +99,13 @@
                                 "end": 2403,
                                 "name": "x"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2402,
                                 "end": 2403,
                                 "name": "x"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

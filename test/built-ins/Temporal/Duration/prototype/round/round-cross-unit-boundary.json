@@ -252,13 +252,13 @@
                           "end": 555,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 543,
                           "end": 555,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -273,13 +273,13 @@
                           "end": 567,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 557,
                           "end": 567,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -585,13 +585,13 @@
                           "end": 842,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 830,
                           "end": 842,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -606,13 +606,13 @@
                           "end": 854,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 844,
                           "end": 854,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -932,13 +932,13 @@
                           "end": 1145,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1133,
                           "end": 1145,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -1279,13 +1279,13 @@
                           "end": 1427,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1415,
                           "end": 1427,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -1577,13 +1577,13 @@
                           "end": 1718,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1706,
                           "end": 1718,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -1598,13 +1598,13 @@
                           "end": 1730,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1720,
                           "end": 1730,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

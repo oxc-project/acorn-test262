@@ -62,13 +62,13 @@
                   "end": 278,
                   "name": "let"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 275,
                   "end": 278,
                   "name": "let"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

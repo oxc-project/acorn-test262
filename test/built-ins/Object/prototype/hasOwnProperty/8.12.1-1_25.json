@@ -36,7 +36,6 @@
                   "end": 288,
                   "name": "foo"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 288,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -80,7 +80,6 @@
                   "end": 322,
                   "name": "foo"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 322,
@@ -109,7 +108,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

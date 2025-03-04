@@ -62,7 +62,6 @@
                   "end": 992,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 992,
@@ -115,7 +114,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -226,7 +226,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1161,
@@ -260,7 +259,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -275,7 +275,6 @@
                   "end": 1211,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1211,
@@ -304,7 +303,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -110,7 +110,6 @@
                   "end": 388,
                   "name": "calendarName"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 388,
@@ -178,7 +177,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

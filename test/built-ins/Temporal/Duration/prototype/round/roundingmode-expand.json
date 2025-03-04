@@ -2214,13 +2214,13 @@
                                   "end": 1722,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1710,
                                   "end": 1722,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -2256,13 +2256,13 @@
                                   "end": 1768,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1756,
                                   "end": 1768,
                                   "name": "roundingMode"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -2474,13 +2474,13 @@
                                   "end": 1984,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1972,
                                   "end": 1984,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -2516,13 +2516,13 @@
                                   "end": 2031,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2019,
                                   "end": 2031,
                                   "name": "roundingMode"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

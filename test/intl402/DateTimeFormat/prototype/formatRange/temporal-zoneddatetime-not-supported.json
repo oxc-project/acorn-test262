@@ -74,13 +74,13 @@
                   "end": 435,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 427,
                   "end": 435,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "RestElement",

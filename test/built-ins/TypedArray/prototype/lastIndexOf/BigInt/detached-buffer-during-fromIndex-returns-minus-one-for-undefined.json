@@ -111,7 +111,6 @@
                               "end": 1491,
                               "name": "valueOf"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1491,
@@ -178,7 +177,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

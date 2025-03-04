@@ -36,7 +36,6 @@
                   "end": 907,
                   "name": "let"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 907,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

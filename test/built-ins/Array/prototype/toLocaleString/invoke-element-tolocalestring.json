@@ -36,7 +36,6 @@
                   "end": 952,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 952,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -612,13 +612,13 @@
                     "end": 1486,
                     "name": "label"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1481,
                     "end": 1486,
                     "name": "label"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -633,13 +633,13 @@
                     "end": 1492,
                     "name": "args"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1488,
                     "end": 1492,
                     "name": "args"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -813,13 +813,13 @@
                     "end": 1651,
                     "name": "label"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1646,
                     "end": 1651,
                     "name": "label"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -834,13 +834,13 @@
                     "end": 1657,
                     "name": "args"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1653,
                     "end": 1657,
                     "name": "args"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -855,13 +855,13 @@
                     "end": 1671,
                     "name": "expectedArgs"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1659,
                     "end": 1671,
                     "name": "expectedArgs"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1071,13 +1071,13 @@
                           "end": 1855,
                           "name": "label"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1850,
                           "end": 1855,
                           "name": "label"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -1092,13 +1092,13 @@
                           "end": 1861,
                           "name": "args"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1857,
                           "end": 1861,
                           "name": "args"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -1151,7 +1151,6 @@
                               "end": 1918,
                               "name": "toLocaleString"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1918,
@@ -1271,7 +1270,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

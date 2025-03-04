@@ -138,13 +138,13 @@
                                 "end": 2730,
                                 "name": "a"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2729,
                                 "end": 2730,
                                 "name": "a"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -159,7 +159,6 @@
                                 "end": 2733,
                                 "name": "b"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2732,
@@ -183,7 +182,8 @@
                                   "arguments": [],
                                   "optional": false
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -198,7 +198,6 @@
                                 "end": 2748,
                                 "name": "c"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2747,
@@ -222,7 +221,8 @@
                                     "name": "initCount"
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

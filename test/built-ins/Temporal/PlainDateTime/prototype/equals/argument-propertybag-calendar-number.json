@@ -265,13 +265,13 @@
                         "end": 503,
                         "name": "calendar"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 495,
                         "end": 503,
                         "name": "calendar"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

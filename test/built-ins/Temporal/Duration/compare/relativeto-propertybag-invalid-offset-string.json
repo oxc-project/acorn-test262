@@ -373,13 +373,13 @@
                               "end": 735,
                               "name": "offset"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 729,
                               "end": 735,
                               "name": "offset"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -561,13 +561,13 @@
                                     "end": 887,
                                     "name": "relativeTo"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 877,
                                     "end": 887,
                                     "name": "relativeTo"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

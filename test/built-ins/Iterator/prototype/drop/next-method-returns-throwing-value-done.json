@@ -141,7 +141,6 @@
                             "end": 595,
                             "name": "value"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 595,
@@ -175,7 +174,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         }
                       ]
                     }

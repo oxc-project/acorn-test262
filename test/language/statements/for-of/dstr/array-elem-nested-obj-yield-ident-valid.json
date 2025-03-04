@@ -103,7 +103,6 @@
                   "end": 1259,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1258,
@@ -120,7 +119,8 @@
                     "end": 1267,
                     "name": "yield"
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

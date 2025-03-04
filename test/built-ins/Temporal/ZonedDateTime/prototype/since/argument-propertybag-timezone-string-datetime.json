@@ -265,13 +265,13 @@
                         "end": 513,
                         "name": "timeZone"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 505,
                         "end": 513,
                         "name": "timeZone"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -631,13 +631,13 @@
                                     "end": 1419,
                                     "name": "timeZone"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1411,
                                     "end": 1419,
                                     "name": "timeZone"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -827,13 +827,13 @@
                   "end": 1823,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1815,
                   "end": 1823,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1060,13 +1060,13 @@
                   "end": 2019,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 2011,
                   "end": 2019,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1293,13 +1293,13 @@
                   "end": 2211,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 2203,
                   "end": 2211,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1443,13 +1443,13 @@
                   "end": 2310,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 2302,
                   "end": 2310,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -1593,13 +1593,13 @@
                   "end": 2414,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 2406,
                   "end": 2414,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

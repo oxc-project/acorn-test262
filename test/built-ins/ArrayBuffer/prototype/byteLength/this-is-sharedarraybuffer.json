@@ -352,13 +352,13 @@
                               "end": 695,
                               "name": "byteLength"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 685,
                               "end": 695,
                               "name": "byteLength"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

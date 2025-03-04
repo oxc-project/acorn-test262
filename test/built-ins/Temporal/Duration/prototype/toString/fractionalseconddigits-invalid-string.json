@@ -275,13 +275,13 @@
                               "end": 1051,
                               "name": "fractionalSecondDigits"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1029,
                               "end": 1051,
                               "name": "fractionalSecondDigits"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

@@ -306,13 +306,13 @@
                                     "end": 500,
                                     "name": "roundingIncrement"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 483,
                                     "end": 500,
                                     "name": "roundingIncrement"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -658,13 +658,13 @@
                                                 "end": 817,
                                                 "name": "smallestUnit"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 805,
                                                 "end": 817,
                                                 "name": "smallestUnit"
-                                              }
+                                              },
+                                              "kind": "init"
                                             },
                                             {
                                               "type": "Property",
@@ -679,13 +679,13 @@
                                                 "end": 836,
                                                 "name": "roundingIncrement"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 819,
                                                 "end": 836,
                                                 "name": "roundingIncrement"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }
@@ -1089,13 +1089,13 @@
                                                 "end": 1227,
                                                 "name": "smallestUnit"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 1215,
                                                 "end": 1227,
                                                 "name": "smallestUnit"
-                                              }
+                                              },
+                                              "kind": "init"
                                             },
                                             {
                                               "type": "Property",
@@ -1110,13 +1110,13 @@
                                                 "end": 1246,
                                                 "name": "roundingIncrement"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 1229,
                                                 "end": 1246,
                                                 "name": "roundingIncrement"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }

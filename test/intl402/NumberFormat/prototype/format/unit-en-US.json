@@ -823,13 +823,13 @@
                                   "end": 1287,
                                   "name": "unitDisplay"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1276,
                                   "end": 1287,
                                   "name": "unitDisplay"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

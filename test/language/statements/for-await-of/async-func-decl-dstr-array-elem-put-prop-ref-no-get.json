@@ -68,7 +68,6 @@
                 "end": 1265,
                 "name": "y"
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1265,
@@ -110,7 +109,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             },
             {
               "type": "Property",
@@ -125,7 +125,6 @@
                 "end": 1350,
                 "name": "y"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1350,
@@ -172,7 +171,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

@@ -305,13 +305,13 @@
                       "end": 902,
                       "name": "done"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 898,
                       "end": 902,
                       "name": "done"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -326,13 +326,13 @@
                       "end": 909,
                       "name": "value"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 904,
                       "end": 909,
                       "name": "value"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -552,13 +552,13 @@
                           "end": 1034,
                           "name": "done"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1030,
                           "end": 1034,
                           "name": "done"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -573,13 +573,13 @@
                           "end": 1041,
                           "name": "value"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1036,
                           "end": 1041,
                           "name": "value"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

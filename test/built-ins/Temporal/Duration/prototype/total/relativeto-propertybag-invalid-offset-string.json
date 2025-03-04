@@ -333,13 +333,13 @@
                               "end": 727,
                               "name": "offset"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 721,
                               "end": 727,
                               "name": "offset"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -354,13 +354,13 @@
                               "end": 737,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 729,
                               "end": 737,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -517,13 +517,13 @@
                                     "end": 867,
                                     "name": "relativeTo"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 857,
                                     "end": 867,
                                     "name": "relativeTo"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

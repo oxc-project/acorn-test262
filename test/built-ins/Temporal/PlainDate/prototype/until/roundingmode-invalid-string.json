@@ -334,13 +334,13 @@
                               "end": 609,
                               "name": "roundingMode"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 597,
                               "end": 609,
                               "name": "roundingMode"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

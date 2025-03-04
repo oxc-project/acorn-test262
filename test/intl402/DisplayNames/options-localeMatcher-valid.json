@@ -162,13 +162,13 @@
                                   "end": 1463,
                                   "name": "localeMatcher"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1450,
                                   "end": 1463,
                                   "name": "localeMatcher"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",

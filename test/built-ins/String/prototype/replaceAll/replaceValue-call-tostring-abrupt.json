@@ -44,7 +44,6 @@
                     "end": 672,
                     "name": "toString"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 672,
@@ -78,7 +77,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }
@@ -228,7 +228,6 @@
                     "end": 842,
                     "name": "toString"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 842,
@@ -263,7 +262,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

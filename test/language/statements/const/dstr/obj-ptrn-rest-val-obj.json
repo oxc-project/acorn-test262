@@ -30,13 +30,13 @@
                   "end": 799,
                   "name": "a"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 798,
                   "end": 799,
                   "name": "a"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -51,13 +51,13 @@
                   "end": 802,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 801,
                   "end": 802,
                   "name": "b"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "RestElement",

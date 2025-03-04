@@ -90,13 +90,13 @@
                                 "end": 838,
                                 "name": "unresolvable"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 826,
                                 "end": 838,
                                 "name": "unresolvable"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

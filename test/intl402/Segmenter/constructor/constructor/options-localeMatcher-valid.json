@@ -161,13 +161,13 @@
                                   "end": 947,
                                   "name": "localeMatcher"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 934,
                                   "end": 947,
                                   "name": "localeMatcher"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

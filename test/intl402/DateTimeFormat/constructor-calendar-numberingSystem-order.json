@@ -61,7 +61,6 @@
                   "end": 862,
                   "name": "localeMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 862,
@@ -128,7 +127,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -143,7 +143,6 @@
                   "end": 942,
                   "name": "calendar"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 942,
@@ -210,7 +209,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -225,7 +225,6 @@
                   "end": 1024,
                   "name": "numberingSystem"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1024,
@@ -292,7 +291,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -307,7 +307,6 @@
                   "end": 1104,
                   "name": "hour12"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1104,
@@ -374,7 +373,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

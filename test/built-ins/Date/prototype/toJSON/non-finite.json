@@ -124,7 +124,6 @@
                       "end": 502,
                       "name": "toISOString"
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 502,
@@ -158,7 +157,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "get"
                   },
                   {
                     "type": "Property",

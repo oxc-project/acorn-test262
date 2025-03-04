@@ -385,7 +385,6 @@
                                   "end": 1751,
                                   "name": "get"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "FunctionExpression",
                                   "start": 1751,
@@ -414,7 +413,8 @@
                                       }
                                     ]
                                   }
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

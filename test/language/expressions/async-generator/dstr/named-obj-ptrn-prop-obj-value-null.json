@@ -92,13 +92,13 @@
                             "end": 1055,
                             "name": "x"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1054,
                             "end": 1055,
                             "name": "x"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -113,13 +113,13 @@
                             "end": 1058,
                             "name": "y"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1057,
                             "end": 1058,
                             "name": "y"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -134,13 +134,13 @@
                             "end": 1061,
                             "name": "z"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1060,
                             "end": 1061,
                             "name": "z"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     },

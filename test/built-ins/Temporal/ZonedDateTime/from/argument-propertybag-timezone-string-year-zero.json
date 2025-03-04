@@ -256,13 +256,13 @@
                                     "end": 517,
                                     "name": "timeZone"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 509,
                                     "end": 517,
                                     "name": "timeZone"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

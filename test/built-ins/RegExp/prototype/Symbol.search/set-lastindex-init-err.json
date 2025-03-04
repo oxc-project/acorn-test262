@@ -56,7 +56,6 @@
                   "end": 442,
                   "name": "lastIndex"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 442,
@@ -97,7 +96,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -112,7 +112,6 @@
                   "end": 487,
                   "name": "lastIndex"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 487,
@@ -153,7 +152,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -194,7 +194,6 @@
                   "end": 574,
                   "name": "lastIndex"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 574,
@@ -235,7 +234,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

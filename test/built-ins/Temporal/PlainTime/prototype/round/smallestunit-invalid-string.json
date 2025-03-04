@@ -370,13 +370,13 @@
                               "end": 743,
                               "name": "smallestUnit"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 731,
                               "end": 743,
                               "name": "smallestUnit"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

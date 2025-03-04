@@ -466,13 +466,13 @@
                               "end": 861,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 853,
                               "end": 861,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -732,13 +732,13 @@
                               "end": 1125,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1117,
                               "end": 1125,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -1113,13 +1113,13 @@
                               "end": 1497,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1489,
                               "end": 1497,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -1342,13 +1342,13 @@
                               "end": 1717,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1709,
                               "end": 1717,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

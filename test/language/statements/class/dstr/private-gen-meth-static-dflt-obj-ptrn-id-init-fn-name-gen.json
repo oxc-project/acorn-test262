@@ -89,7 +89,6 @@
                           "end": 2857,
                           "name": "gen"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2854,
@@ -116,7 +115,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -131,7 +131,6 @@
                           "end": 2881,
                           "name": "xGen"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2877,
@@ -163,7 +162,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

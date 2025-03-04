@@ -227,13 +227,13 @@
                           "end": 474,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 462,
                           "end": 474,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -486,13 +486,13 @@
                           "end": 702,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 690,
                           "end": 702,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -731,13 +731,13 @@
                           "end": 951,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 939,
                           "end": 951,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -1039,13 +1039,13 @@
                           "end": 1234,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1222,
                           "end": 1234,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -1270,13 +1270,13 @@
                           "end": 1511,
                           "name": "roundingMode"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1499,
                           "end": 1511,
                           "name": "roundingMode"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

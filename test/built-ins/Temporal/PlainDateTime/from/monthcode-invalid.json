@@ -194,13 +194,13 @@
                                     "end": 367,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 358,
                                     "end": 367,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -685,13 +685,13 @@
                                     "end": 752,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 743,
                                     "end": 752,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",

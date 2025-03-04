@@ -487,7 +487,6 @@
                         "computed": false,
                         "optional": false
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 913,
@@ -516,7 +515,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -531,7 +531,6 @@
                         "end": 948,
                         "name": "toString"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 948,
@@ -560,7 +559,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -575,7 +575,6 @@
                         "end": 979,
                         "name": "valueOf"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 979,
@@ -604,7 +603,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -829,7 +829,6 @@
                             "end": 1244,
                             "name": "apply"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 1244,
@@ -845,7 +844,8 @@
                               "end": 1249,
                               "body": []
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

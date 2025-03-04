@@ -74,7 +74,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 779,
@@ -152,7 +151,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -180,7 +180,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 866,
@@ -478,7 +477,6 @@
                                         "end": 1195,
                                         "name": "next"
                                       },
-                                      "kind": "get",
                                       "value": {
                                         "type": "FunctionExpression",
                                         "start": 1195,
@@ -796,7 +794,6 @@
                                                                     "end": 1608,
                                                                     "name": "then"
                                                                   },
-                                                                  "kind": "get",
                                                                   "value": {
                                                                     "type": "FunctionExpression",
                                                                     "start": 1608,
@@ -1086,7 +1083,6 @@
                                                                                               "end": 2086,
                                                                                               "name": "value"
                                                                                             },
-                                                                                            "kind": "get",
                                                                                             "value": {
                                                                                               "type": "FunctionExpression",
                                                                                               "start": 2086,
@@ -1196,7 +1192,8 @@
                                                                                                   }
                                                                                                 ]
                                                                                               }
-                                                                                            }
+                                                                                            },
+                                                                                            "kind": "get"
                                                                                           },
                                                                                           {
                                                                                             "type": "Property",
@@ -1211,7 +1208,6 @@
                                                                                               "end": 2352,
                                                                                               "name": "done"
                                                                                             },
-                                                                                            "kind": "get",
                                                                                             "value": {
                                                                                               "type": "FunctionExpression",
                                                                                               "start": 2352,
@@ -1321,7 +1317,8 @@
                                                                                                   }
                                                                                                 ]
                                                                                               }
-                                                                                            }
+                                                                                            },
+                                                                                            "kind": "get"
                                                                                           }
                                                                                         ]
                                                                                       }
@@ -1335,7 +1332,8 @@
                                                                         }
                                                                       ]
                                                                     }
-                                                                  }
+                                                                  },
+                                                                  "kind": "get"
                                                                 }
                                                               ]
                                                             }
@@ -1388,7 +1386,6 @@
                                                               "end": 2753,
                                                               "name": "then"
                                                             },
-                                                            "kind": "get",
                                                             "value": {
                                                               "type": "FunctionExpression",
                                                               "start": 2753,
@@ -1678,7 +1675,6 @@
                                                                                         "end": 3205,
                                                                                         "name": "value"
                                                                                       },
-                                                                                      "kind": "get",
                                                                                       "value": {
                                                                                         "type": "FunctionExpression",
                                                                                         "start": 3205,
@@ -1788,7 +1784,8 @@
                                                                                             }
                                                                                           ]
                                                                                         }
-                                                                                      }
+                                                                                      },
+                                                                                      "kind": "get"
                                                                                     },
                                                                                     {
                                                                                       "type": "Property",
@@ -1803,7 +1800,6 @@
                                                                                         "end": 3457,
                                                                                         "name": "done"
                                                                                       },
-                                                                                      "kind": "get",
                                                                                       "value": {
                                                                                         "type": "FunctionExpression",
                                                                                         "start": 3457,
@@ -1913,7 +1909,8 @@
                                                                                             }
                                                                                           ]
                                                                                         }
-                                                                                      }
+                                                                                      },
+                                                                                      "kind": "get"
                                                                                     }
                                                                                   ]
                                                                                 }
@@ -1927,7 +1924,8 @@
                                                                   }
                                                                 ]
                                                               }
-                                                            }
+                                                            },
+                                                            "kind": "get"
                                                           }
                                                         ]
                                                       }
@@ -1938,7 +1936,8 @@
                                             }
                                           ]
                                         }
-                                      }
+                                      },
+                                      "kind": "get"
                                     }
                                   ]
                                 }
@@ -1949,7 +1948,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

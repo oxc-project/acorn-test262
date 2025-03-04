@@ -62,7 +62,6 @@
                   "end": 1942,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1942,
@@ -94,7 +93,6 @@
                               "end": 1950,
                               "name": "arrow"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1945,
@@ -121,7 +119,8 @@
                                   "body": []
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -234,7 +233,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

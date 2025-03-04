@@ -95,7 +95,6 @@
                       "end": 1804,
                       "name": "arrow"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1799,
@@ -122,7 +121,8 @@
                           "body": []
                         }
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

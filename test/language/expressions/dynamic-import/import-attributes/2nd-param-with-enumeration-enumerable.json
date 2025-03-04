@@ -327,7 +327,6 @@
                             "end": 1413,
                             "name": "get"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 1413,
@@ -407,7 +406,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -422,7 +422,6 @@
                             "end": 1503,
                             "name": "getOwnPropertyDescriptor"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 1503,
@@ -530,7 +529,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

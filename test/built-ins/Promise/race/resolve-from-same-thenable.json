@@ -336,7 +336,6 @@
                   "end": 1199,
                   "name": "then"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1199,
@@ -389,7 +388,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

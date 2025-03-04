@@ -463,13 +463,13 @@
                               "end": 815,
                               "name": "smallestUnit"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 803,
                               "end": 815,
                               "name": "smallestUnit"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

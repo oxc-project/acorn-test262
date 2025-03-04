@@ -303,13 +303,13 @@
                                     "end": 573,
                                     "name": "timeZone"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 565,
                                     "end": 573,
                                     "name": "timeZone"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

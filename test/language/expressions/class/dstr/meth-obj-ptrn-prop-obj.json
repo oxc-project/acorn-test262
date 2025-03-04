@@ -117,13 +117,13 @@
                                       "end": 2430,
                                       "name": "x"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 2429,
                                       "end": 2430,
                                       "name": "x"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -138,13 +138,13 @@
                                       "end": 2433,
                                       "name": "y"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 2432,
                                       "end": 2433,
                                       "name": "y"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -159,13 +159,13 @@
                                       "end": 2436,
                                       "name": "z"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 2435,
                                       "end": 2436,
                                       "name": "z"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               },

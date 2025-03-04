@@ -233,13 +233,13 @@
                         "end": 553,
                         "name": "timeZone"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 545,
                         "end": 553,
                         "name": "timeZone"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },
@@ -466,13 +466,13 @@
                               "end": 746,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 738,
                               "end": 746,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },

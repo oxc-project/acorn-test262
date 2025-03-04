@@ -366,13 +366,13 @@
                             "end": 990,
                             "name": "resolve"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 983,
                             "end": 990,
                             "name": "resolve"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -387,13 +387,13 @@
                             "end": 998,
                             "name": "reject"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 992,
                             "end": 998,
                             "name": "reject"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

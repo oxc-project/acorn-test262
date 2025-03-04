@@ -36,7 +36,6 @@
                   "end": 769,
                   "name": "a"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 769,
@@ -95,7 +94,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

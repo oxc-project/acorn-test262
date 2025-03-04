@@ -36,7 +36,6 @@
                   "end": 987,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 987,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -886,13 +886,13 @@
                     "end": 1794,
                     "name": "label"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1789,
                     "end": 1794,
                     "name": "label"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -907,13 +907,13 @@
                     "end": 1800,
                     "name": "args"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1796,
                     "end": 1800,
                     "name": "args"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -928,13 +928,13 @@
                     "end": 1814,
                     "name": "expectedArgs"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1802,
                     "end": 1814,
                     "name": "expectedArgs"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1108,13 +1108,13 @@
                     "end": 1973,
                     "name": "label"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1968,
                     "end": 1973,
                     "name": "label"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1129,13 +1129,13 @@
                     "end": 1979,
                     "name": "args"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1975,
                     "end": 1979,
                     "name": "args"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1150,13 +1150,13 @@
                     "end": 1993,
                     "name": "expectedArgs"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1981,
                     "end": 1993,
                     "name": "expectedArgs"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1331,13 +1331,13 @@
                     "end": 2143,
                     "name": "label"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2138,
                     "end": 2143,
                     "name": "label"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1352,13 +1352,13 @@
                     "end": 2149,
                     "name": "args"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2145,
                     "end": 2149,
                     "name": "args"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1373,13 +1373,13 @@
                     "end": 2163,
                     "name": "expectedArgs"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2151,
                     "end": 2163,
                     "name": "expectedArgs"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1432,7 +1432,6 @@
                         "end": 2216,
                         "name": "toLocaleString"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 2216,
@@ -1552,7 +1551,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -193,7 +193,6 @@
                         "end": 931,
                         "name": "return"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 931,
@@ -244,7 +243,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 }

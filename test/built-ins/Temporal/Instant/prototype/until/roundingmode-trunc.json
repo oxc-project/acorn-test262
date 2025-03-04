@@ -1664,13 +1664,13 @@
                                   "end": 1454,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1443,
                                   "end": 1454,
                                   "name": "largestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1685,13 +1685,13 @@
                                   "end": 1468,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1456,
                                   "end": 1468,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1706,13 +1706,13 @@
                                   "end": 1482,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1470,
                                   "end": 1482,
                                   "name": "roundingMode"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -1910,13 +1910,13 @@
                                   "end": 1693,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1682,
                                   "end": 1693,
                                   "name": "largestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1931,13 +1931,13 @@
                                   "end": 1707,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1695,
                                   "end": 1707,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1952,13 +1952,13 @@
                                   "end": 1721,
                                   "name": "roundingMode"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1709,
                                   "end": 1721,
                                   "name": "roundingMode"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

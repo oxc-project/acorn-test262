@@ -71,7 +71,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 381,
@@ -105,7 +104,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }
@@ -202,13 +202,13 @@
                                   "end": 485,
                                   "name": "attr"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 481,
                                   "end": 485,
                                   "name": "attr"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

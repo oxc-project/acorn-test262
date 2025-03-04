@@ -54,7 +54,6 @@
                           "end": 1910,
                           "name": "x"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1909,
@@ -71,7 +70,8 @@
                             "end": 1934,
                             "name": "unresolvableReference"
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -229,13 +229,13 @@
                           "end": 2086,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 2075,
                           "end": 2086,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

@@ -63,7 +63,6 @@
                   "value": "a",
                   "raw": "'a'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 383,
@@ -105,7 +104,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -259,7 +259,6 @@
                   "end": 508,
                   "name": "b"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 508,
@@ -308,7 +307,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -324,7 +324,6 @@
                   "value": "b",
                   "raw": "'b'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 609,
@@ -366,7 +365,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -520,7 +520,6 @@
                   "end": 734,
                   "name": "c"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 734,
@@ -569,7 +568,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -585,7 +585,6 @@
                   "value": "c",
                   "raw": "'c'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 835,
@@ -634,7 +633,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -650,7 +650,6 @@
                   "value": "c",
                   "raw": "'c'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 946,
@@ -692,7 +691,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -847,7 +847,6 @@
                   "value": "d",
                   "raw": "'d'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1074,
@@ -896,7 +895,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -911,7 +911,6 @@
                   "end": 1175,
                   "name": "d"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1175,
@@ -953,7 +952,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

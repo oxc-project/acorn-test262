@@ -89,7 +89,6 @@
                           "end": 2219,
                           "name": "fn"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2217,
@@ -116,7 +115,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -131,7 +131,6 @@
                           "end": 2241,
                           "name": "xFn"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2238,
@@ -163,7 +162,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

@@ -56,7 +56,6 @@
                   "end": 521,
                   "name": "lastIndex"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 521,
@@ -96,7 +95,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -111,7 +111,6 @@
                   "end": 568,
                   "name": "lastIndex"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 568,
@@ -219,7 +218,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",

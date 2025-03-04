@@ -164,13 +164,13 @@
                             "end": 439,
                             "name": "timeZone"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 431,
                             "end": 439,
                             "name": "timeZone"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

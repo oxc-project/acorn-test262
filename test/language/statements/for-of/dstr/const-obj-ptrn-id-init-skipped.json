@@ -133,7 +133,6 @@
                     "end": 1599,
                     "name": "w"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1598,
@@ -157,7 +156,8 @@
                       "arguments": [],
                       "optional": false
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -172,7 +172,6 @@
                     "end": 1614,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1613,
@@ -196,7 +195,8 @@
                       "arguments": [],
                       "optional": false
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -211,7 +211,6 @@
                     "end": 1629,
                     "name": "y"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1628,
@@ -235,7 +234,8 @@
                       "arguments": [],
                       "optional": false
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -250,7 +250,6 @@
                     "end": 1644,
                     "name": "z"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1643,
@@ -274,7 +273,8 @@
                       "arguments": [],
                       "optional": false
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

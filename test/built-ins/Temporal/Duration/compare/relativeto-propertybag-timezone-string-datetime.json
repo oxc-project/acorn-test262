@@ -269,13 +269,13 @@
                               "end": 462,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 454,
                               "end": 462,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -728,13 +728,13 @@
                                           "end": 1445,
                                           "name": "timeZone"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1437,
                                           "end": 1445,
                                           "name": "timeZone"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   },
@@ -1141,13 +1141,13 @@
                                     "end": 2152,
                                     "name": "timeZone"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 2144,
                                     "end": 2152,
                                     "name": "timeZone"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             },

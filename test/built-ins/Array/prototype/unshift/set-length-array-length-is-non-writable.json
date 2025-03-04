@@ -126,7 +126,6 @@
                   "end": 998,
                   "name": "set"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 998,
@@ -242,7 +241,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

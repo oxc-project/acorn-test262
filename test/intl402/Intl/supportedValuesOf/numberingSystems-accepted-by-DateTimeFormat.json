@@ -156,13 +156,13 @@
                             "end": 1317,
                             "name": "numberingSystem"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1302,
                             "end": 1317,
                             "name": "numberingSystem"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -394,13 +394,13 @@
                             "end": 1583,
                             "name": "numberingSystem"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1568,
                             "end": 1583,
                             "name": "numberingSystem"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

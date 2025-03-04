@@ -134,7 +134,6 @@
                   "end": 1749,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1749,
@@ -166,7 +165,6 @@
                               "end": 1753,
                               "name": "w"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1752,
@@ -190,7 +188,8 @@
                                 "arguments": [],
                                 "optional": false
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -205,7 +204,6 @@
                               "end": 1768,
                               "name": "x"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1767,
@@ -229,7 +227,8 @@
                                 "arguments": [],
                                 "optional": false
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -244,7 +243,6 @@
                               "end": 1783,
                               "name": "y"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1782,
@@ -268,7 +266,8 @@
                                 "arguments": [],
                                 "optional": false
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -283,7 +282,6 @@
                               "end": 1798,
                               "name": "z"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1797,
@@ -307,7 +305,8 @@
                                 "arguments": [],
                                 "optional": false
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -676,7 +675,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

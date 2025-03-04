@@ -158,13 +158,13 @@
                                   "end": 505,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 499,
                                   "end": 505,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -496,13 +496,13 @@
                                   "end": 882,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 876,
                                   "end": 882,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -983,13 +983,13 @@
                                   "end": 1498,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1492,
                                   "end": 1498,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -1959,13 +1959,13 @@
                                   "end": 2657,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2651,
                                   "end": 2657,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

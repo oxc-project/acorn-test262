@@ -48,7 +48,6 @@
                       "end": 680,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 680,
@@ -114,7 +113,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

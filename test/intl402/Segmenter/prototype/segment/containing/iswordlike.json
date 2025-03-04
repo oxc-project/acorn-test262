@@ -285,13 +285,13 @@
                                   "end": 1963,
                                   "name": "granularity"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1952,
                                   "end": 1963,
                                   "name": "granularity"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

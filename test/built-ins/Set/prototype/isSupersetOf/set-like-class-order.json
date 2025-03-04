@@ -142,7 +142,6 @@
                     "end": 462,
                     "name": "next"
                   },
-                  "kind": "get",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 462,
@@ -275,7 +274,6 @@
                                           "end": 615,
                                           "name": "done"
                                         },
-                                        "kind": "get",
                                         "value": {
                                           "type": "FunctionExpression",
                                           "start": 615,
@@ -367,7 +365,8 @@
                                               }
                                             ]
                                           }
-                                        }
+                                        },
+                                        "kind": "get"
                                       },
                                       {
                                         "type": "Property",
@@ -382,7 +381,6 @@
                                           "end": 743,
                                           "name": "value"
                                         },
-                                        "kind": "get",
                                         "value": {
                                           "type": "FunctionExpression",
                                           "start": 743,
@@ -469,7 +467,8 @@
                                               }
                                             ]
                                           }
-                                        }
+                                        },
+                                        "kind": "get"
                                       }
                                     ]
                                   }
@@ -480,7 +479,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "get"
                 }
               ]
             }

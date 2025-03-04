@@ -140,7 +140,6 @@
                   "end": 370,
                   "name": "a"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 370,
@@ -169,7 +168,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -184,7 +184,6 @@
                   "end": 397,
                   "name": "sym1"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 398,
@@ -213,7 +212,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -228,7 +228,6 @@
                   "end": 421,
                   "name": "c"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 421,
@@ -257,7 +256,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -286,7 +286,6 @@
                   ],
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 453,
@@ -315,7 +314,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

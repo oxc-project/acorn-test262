@@ -210,13 +210,13 @@
                         "end": 589,
                         "name": "smallestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 577,
                         "end": 589,
                         "name": "smallestUnit"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

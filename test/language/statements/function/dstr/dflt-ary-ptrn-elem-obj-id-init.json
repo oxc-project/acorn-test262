@@ -74,13 +74,13 @@
                         "end": 1891,
                         "name": "x"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1890,
                         "end": 1891,
                         "name": "x"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -95,13 +95,13 @@
                         "end": 1894,
                         "name": "y"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1893,
                         "end": 1894,
                         "name": "y"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -116,13 +116,13 @@
                         "end": 1897,
                         "name": "z"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1896,
                         "end": 1897,
                         "name": "z"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

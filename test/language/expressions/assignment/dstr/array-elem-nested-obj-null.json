@@ -115,13 +115,13 @@
                                     "end": 815,
                                     "name": "x"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 814,
                                     "end": 815,
                                     "name": "x"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

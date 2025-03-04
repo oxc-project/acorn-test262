@@ -339,13 +339,13 @@
                                           "end": 729,
                                           "name": "timeZone"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 721,
                                           "end": 729,
                                           "name": "timeZone"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

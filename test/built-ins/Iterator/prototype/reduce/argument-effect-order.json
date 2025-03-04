@@ -148,7 +148,6 @@
                               "end": 485,
                               "name": "next"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 485,
@@ -281,7 +280,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       },
@@ -303,7 +303,6 @@
                               "end": 650,
                               "name": "valueOf"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 650,
@@ -359,7 +358,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -381,7 +381,6 @@
                               "end": 730,
                               "name": "valueOf"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 730,
@@ -437,7 +436,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -568,7 +568,6 @@
                   "end": 889,
                   "name": "next"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 889,
@@ -701,7 +700,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           },
@@ -739,7 +739,6 @@
                   "end": 1050,
                   "name": "valueOf"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1050,
@@ -795,7 +794,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

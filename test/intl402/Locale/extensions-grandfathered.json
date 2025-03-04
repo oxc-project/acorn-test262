@@ -383,13 +383,13 @@
                     "end": 1343,
                     "name": "tag"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1340,
                     "end": 1343,
                     "name": "tag"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -404,13 +404,13 @@
                     "end": 1352,
                     "name": "options"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1345,
                     "end": 1352,
                     "name": "options"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -425,13 +425,13 @@
                     "end": 1363,
                     "name": "canonical"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1354,
                     "end": 1363,
                     "name": "canonical"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

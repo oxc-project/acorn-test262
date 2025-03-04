@@ -36,7 +36,6 @@
                   "end": 554,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 554,
@@ -76,7 +75,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

@@ -108,7 +108,6 @@
                     "end": 1206,
                     "name": "p"
                   },
-                  "kind": "get",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1206,
@@ -164,7 +163,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "get"
                 }
               ]
             }
@@ -252,7 +252,6 @@
                     "end": 1329,
                     "name": "q"
                   },
-                  "kind": "set",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1329,
@@ -315,7 +314,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "set"
                 }
               ]
             }

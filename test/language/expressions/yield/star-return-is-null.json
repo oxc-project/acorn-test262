@@ -150,7 +150,6 @@
                   "end": 894,
                   "name": "return"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 894,
@@ -203,7 +202,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

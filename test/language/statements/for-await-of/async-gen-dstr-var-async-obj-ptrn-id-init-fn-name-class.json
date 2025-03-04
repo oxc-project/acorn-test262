@@ -152,7 +152,6 @@
                           "end": 1972,
                           "name": "cls"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1969,
@@ -176,7 +175,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -191,7 +191,6 @@
                           "end": 1989,
                           "name": "xCls"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1985,
@@ -220,7 +219,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -235,7 +235,6 @@
                           "end": 2009,
                           "name": "xCls2"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2004,
@@ -290,7 +289,8 @@
                               ]
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

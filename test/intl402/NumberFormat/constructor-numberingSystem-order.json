@@ -61,7 +61,6 @@
                   "end": 863,
                   "name": "localeMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 863,
@@ -128,7 +127,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -143,7 +143,6 @@
                   "end": 950,
                   "name": "numberingSystem"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 950,
@@ -210,7 +209,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -225,7 +225,6 @@
                   "end": 1029,
                   "name": "style"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1029,
@@ -292,7 +291,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

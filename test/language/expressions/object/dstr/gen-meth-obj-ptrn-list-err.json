@@ -101,7 +101,6 @@
                   "end": 2008,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2008,
@@ -129,13 +128,13 @@
                             "end": 2012,
                             "name": "a"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 2011,
                             "end": 2012,
                             "name": "a"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -150,7 +149,6 @@
                             "end": 2015,
                             "name": "b"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 2014,
@@ -174,7 +172,8 @@
                               "arguments": [],
                               "optional": false
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -189,7 +188,6 @@
                             "end": 2030,
                             "name": "c"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 2029,
@@ -213,7 +211,8 @@
                                 "name": "initCount"
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -224,7 +223,8 @@
                     "end": 2050,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

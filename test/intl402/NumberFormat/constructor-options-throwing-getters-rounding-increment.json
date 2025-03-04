@@ -104,7 +104,6 @@
                               "end": 454,
                               "name": "roundingIncrement"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 454,
@@ -138,7 +137,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

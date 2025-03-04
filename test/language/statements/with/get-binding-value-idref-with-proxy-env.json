@@ -61,13 +61,13 @@
                   "end": 1056,
                   "name": "Object"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1050,
                   "end": 1056,
                   "name": "Object"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -136,7 +136,6 @@
                           "end": 1112,
                           "name": "has"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1112,
@@ -275,7 +274,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -290,7 +290,6 @@
                           "end": 1198,
                           "name": "get"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1198,
@@ -441,7 +440,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

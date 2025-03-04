@@ -188,13 +188,13 @@
                       "end": 518,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 508,
                       "end": 518,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -360,13 +360,13 @@
                       "end": 722,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 712,
                       "end": 722,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -532,13 +532,13 @@
                       "end": 935,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 925,
                       "end": 935,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -732,13 +732,13 @@
                         "end": 1169,
                         "name": "relativeTo"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1159,
                         "end": 1169,
                         "name": "relativeTo"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

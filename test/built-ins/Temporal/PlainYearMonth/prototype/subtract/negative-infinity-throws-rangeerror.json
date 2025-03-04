@@ -467,13 +467,13 @@
                                                 "end": 736,
                                                 "name": "overflow"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 728,
                                                 "end": 736,
                                                 "name": "overflow"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }
@@ -558,7 +558,6 @@
                   "end": 791,
                   "name": "valueOf"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 791,
@@ -611,7 +610,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -854,13 +854,13 @@
                                                 "end": 1000,
                                                 "name": "overflow"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 992,
                                                 "end": 1000,
                                                 "name": "overflow"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }

@@ -264,13 +264,13 @@
                                     "end": 1039,
                                     "name": "numberingSystem"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1024,
                                     "end": 1039,
                                     "name": "numberingSystem"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

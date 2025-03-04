@@ -127,13 +127,13 @@
                       "end": 739,
                       "name": "cause"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 734,
                       "end": 739,
                       "name": "cause"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -157,7 +157,6 @@
                         "end": 2549,
                         "name": "w"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 2548,
@@ -181,7 +180,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -196,7 +196,6 @@
                         "end": 2564,
                         "name": "x"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 2563,
@@ -220,7 +219,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -235,7 +235,6 @@
                         "end": 2579,
                         "name": "y"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 2578,
@@ -259,7 +258,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -274,7 +274,6 @@
                         "end": 2594,
                         "name": "z"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 2593,
@@ -298,7 +297,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

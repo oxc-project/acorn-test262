@@ -2220,13 +2220,13 @@
                       "end": 1865,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1855,
                       "end": 1865,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2346,13 +2346,13 @@
                       "end": 1968,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1958,
                       "end": 1968,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2479,13 +2479,13 @@
                       "end": 2081,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2071,
                       "end": 2081,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2605,13 +2605,13 @@
                       "end": 2193,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2183,
                       "end": 2193,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2731,13 +2731,13 @@
                       "end": 2314,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2304,
                       "end": 2314,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2857,13 +2857,13 @@
                       "end": 2444,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2434,
                       "end": 2444,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2990,13 +2990,13 @@
                       "end": 2575,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2565,
                       "end": 2575,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -3123,13 +3123,13 @@
                       "end": 2691,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 2681,
                       "end": 2691,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -178,13 +178,13 @@
                             "end": 1128,
                             "name": "currency"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1120,
                             "end": 1128,
                             "name": "currency"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

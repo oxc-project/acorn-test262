@@ -36,7 +36,6 @@
                   "end": 429,
                   "name": "next"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 429,
@@ -248,7 +247,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

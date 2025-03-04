@@ -77,13 +77,13 @@
                   "end": 500,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 495,
                   "end": 500,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -98,13 +98,13 @@
                   "end": 506,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 502,
                   "end": 506,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

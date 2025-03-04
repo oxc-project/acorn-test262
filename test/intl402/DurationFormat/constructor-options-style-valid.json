@@ -150,7 +150,6 @@
                           "end": 694,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 694,
@@ -179,7 +178,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -215,7 +215,6 @@
                           "end": 743,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 743,
@@ -244,7 +243,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -280,7 +280,6 @@
                           "end": 790,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 790,
@@ -309,7 +308,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -345,7 +345,6 @@
                           "end": 841,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 841,
@@ -374,7 +373,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

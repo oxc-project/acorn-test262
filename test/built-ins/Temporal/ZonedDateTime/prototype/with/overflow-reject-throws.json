@@ -279,13 +279,13 @@
                         "end": 460,
                         "name": "overflow"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 452,
                         "end": 460,
                         "name": "overflow"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -411,13 +411,13 @@
                         "end": 530,
                         "name": "overflow"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 522,
                         "end": 530,
                         "name": "overflow"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -543,13 +543,13 @@
                         "end": 601,
                         "name": "overflow"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 593,
                         "end": 601,
                         "name": "overflow"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -675,13 +675,13 @@
                         "end": 680,
                         "name": "overflow"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 672,
                         "end": 680,
                         "name": "overflow"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -193,7 +193,6 @@
                   "end": 802,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 801,
@@ -223,7 +222,8 @@
                       "raw": "true"
                     }
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -238,7 +238,6 @@
                   "end": 820,
                   "name": "y"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 819,
@@ -268,7 +267,8 @@
                       "raw": "true"
                     }
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },

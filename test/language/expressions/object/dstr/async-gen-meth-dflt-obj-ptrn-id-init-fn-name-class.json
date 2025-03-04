@@ -62,7 +62,6 @@
                   "end": 1552,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1552,
@@ -94,7 +93,6 @@
                               "end": 1558,
                               "name": "cls"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1555,
@@ -118,7 +116,8 @@
                                   "body": []
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -133,7 +132,6 @@
                               "end": 1575,
                               "name": "xCls"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1571,
@@ -162,7 +160,8 @@
                                   "body": []
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -177,7 +176,6 @@
                               "end": 1595,
                               "name": "xCls2"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1590,
@@ -232,7 +230,8 @@
                                   ]
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -461,7 +460,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -209,13 +209,13 @@
                   "end": 468,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 460,
                   "end": 468,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

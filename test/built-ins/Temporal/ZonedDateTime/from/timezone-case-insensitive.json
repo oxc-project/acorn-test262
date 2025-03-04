@@ -165,13 +165,13 @@
                       "end": 367,
                       "name": "timeZone"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 359,
                       "end": 367,
                       "name": "timeZone"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

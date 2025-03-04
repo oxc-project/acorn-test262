@@ -36,7 +36,6 @@
                   "end": 1314,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1314,
@@ -86,13 +85,13 @@
                                     "end": 1323,
                                     "name": "x"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1322,
                                     "end": 1323,
                                     "name": "x"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -107,13 +106,13 @@
                                     "end": 1326,
                                     "name": "y"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1325,
                                     "end": 1326,
                                     "name": "y"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -128,13 +127,13 @@
                                     "end": 1329,
                                     "name": "z"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1328,
                                     "end": 1329,
                                     "name": "z"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             },
@@ -156,7 +155,8 @@
                     "end": 1357,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

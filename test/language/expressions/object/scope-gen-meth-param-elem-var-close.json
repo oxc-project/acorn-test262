@@ -115,7 +115,6 @@
                         "end": 768,
                         "name": "m"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 768,
@@ -313,7 +312,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

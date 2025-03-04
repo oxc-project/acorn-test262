@@ -36,7 +36,6 @@
                   "end": 899,
                   "name": "break"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 899,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

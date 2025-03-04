@@ -250,13 +250,13 @@
                                     "end": 974,
                                     "name": "numberingSystem"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 959,
                                     "end": 974,
                                     "name": "numberingSystem"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

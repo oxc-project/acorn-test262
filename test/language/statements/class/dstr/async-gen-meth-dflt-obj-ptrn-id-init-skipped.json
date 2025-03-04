@@ -161,7 +161,6 @@
                           "end": 1976,
                           "name": "w"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1975,
@@ -185,7 +184,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -200,7 +200,6 @@
                           "end": 1991,
                           "name": "x"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1990,
@@ -224,7 +223,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -239,7 +239,6 @@
                           "end": 2006,
                           "name": "y"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2005,
@@ -263,7 +262,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -278,7 +278,6 @@
                           "end": 2021,
                           "name": "z"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2020,
@@ -302,7 +301,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

@@ -260,13 +260,13 @@
                                   "end": 509,
                                   "name": "disambiguation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 495,
                                   "end": 509,
                                   "name": "disambiguation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

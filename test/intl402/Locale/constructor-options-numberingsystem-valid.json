@@ -352,13 +352,13 @@
                                 "end": 1835,
                                 "name": "numberingSystem"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1820,
                                 "end": 1835,
                                 "name": "numberingSystem"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -522,13 +522,13 @@
                                 "end": 2045,
                                 "name": "numberingSystem"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2030,
                                 "end": 2045,
                                 "name": "numberingSystem"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

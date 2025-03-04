@@ -103,7 +103,6 @@
                     "end": 1684,
                     "name": "xFnexp"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1678,
@@ -135,7 +134,8 @@
                         "body": []
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -150,7 +150,6 @@
                     "end": 1709,
                     "name": "fnexp"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1704,
@@ -177,7 +176,8 @@
                         "body": []
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

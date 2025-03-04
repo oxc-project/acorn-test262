@@ -41,7 +41,6 @@
                     "value": "f",
                     "raw": "\"f\""
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 339,
@@ -57,7 +56,8 @@
                       "end": 370,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -127,7 +127,6 @@
                             "end": 402,
                             "name": "a"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 402,
@@ -143,7 +142,8 @@
                               "end": 406,
                               "body": []
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     },
@@ -156,7 +156,6 @@
                     "computed": false,
                     "optional": false
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 412,
@@ -172,7 +171,8 @@
                       "end": 417,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

@@ -36,7 +36,6 @@
                   "end": 919,
                   "name": "package"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 919,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

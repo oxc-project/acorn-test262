@@ -1053,13 +1053,13 @@
                                   "end": 1518,
                                   "name": "localeMatcher"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1505,
                                   "end": 1518,
                                   "name": "localeMatcher"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -1469,13 +1469,13 @@
                                           "end": 1894,
                                           "name": "localeMatcher"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 1881,
                                           "end": 1894,
                                           "name": "localeMatcher"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

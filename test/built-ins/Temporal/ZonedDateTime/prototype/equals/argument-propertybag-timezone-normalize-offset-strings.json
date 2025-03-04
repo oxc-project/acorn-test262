@@ -194,13 +194,13 @@
                         "end": 505,
                         "name": "idToTest"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 497,
                         "end": 505,
                         "name": "idToTest"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -215,13 +215,13 @@
                         "end": 518,
                         "name": "description"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 507,
                         "end": 518,
                         "name": "description"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

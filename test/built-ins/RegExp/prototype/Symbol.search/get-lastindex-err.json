@@ -36,7 +36,6 @@
                   "end": 426,
                   "name": "lastIndex"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 426,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -144,7 +144,6 @@
                   "end": 766,
                   "name": "a"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 765,
@@ -174,7 +173,8 @@
                       "raw": "1"
                     }
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -189,7 +189,6 @@
                   "end": 778,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 777,
@@ -219,7 +218,8 @@
                       "raw": "2"
                     }
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },

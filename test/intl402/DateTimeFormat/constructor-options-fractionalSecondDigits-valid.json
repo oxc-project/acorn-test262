@@ -254,7 +254,6 @@
                           "end": 877,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 877,
@@ -283,7 +282,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -415,13 +415,13 @@
                             "end": 1039,
                             "name": "fractionalSecondDigits"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1017,
                             "end": 1039,
                             "name": "fractionalSecondDigits"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

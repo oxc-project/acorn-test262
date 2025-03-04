@@ -97,7 +97,6 @@
                   "end": 455,
                   "name": "fn"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 456,
@@ -126,7 +125,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -220,13 +220,13 @@
                             "end": 787,
                             "name": "granularity"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 776,
                             "end": 787,
                             "name": "granularity"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     },

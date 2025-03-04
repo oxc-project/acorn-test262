@@ -251,13 +251,13 @@
                       "end": 1029,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1024,
                       "end": 1029,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -353,13 +353,13 @@
                       "end": 1106,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1101,
                       "end": 1106,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -455,13 +455,13 @@
                       "end": 1188,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1183,
                       "end": 1188,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -557,13 +557,13 @@
                       "end": 1265,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1260,
                       "end": 1265,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -659,13 +659,13 @@
                       "end": 1348,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1343,
                       "end": 1348,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -761,13 +761,13 @@
                       "end": 1424,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1419,
                       "end": 1424,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",

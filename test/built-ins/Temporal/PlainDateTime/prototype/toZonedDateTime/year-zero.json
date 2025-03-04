@@ -253,13 +253,13 @@
                                   "end": 589,
                                   "name": "disambiguation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 575,
                                   "end": 589,
                                   "name": "disambiguation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -558,13 +558,13 @@
                                   "end": 962,
                                   "name": "disambiguation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 948,
                                   "end": 962,
                                   "name": "disambiguation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

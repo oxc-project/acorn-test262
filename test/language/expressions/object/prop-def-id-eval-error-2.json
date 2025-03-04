@@ -186,13 +186,13 @@
                                   "end": 456,
                                   "name": "attr"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 452,
                                   "end": 456,
                                   "name": "attr"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

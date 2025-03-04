@@ -72,7 +72,6 @@
               "end": 1117,
               "name": "prop"
             },
-            "kind": "init",
             "value": {
               "type": "AssignmentPattern",
               "start": 1113,
@@ -102,7 +101,8 @@
                   "properties": []
                 }
               }
-            }
+            },
+            "kind": "init"
           }
         ]
       },

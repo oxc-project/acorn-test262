@@ -96,13 +96,13 @@
                         "end": 1295,
                         "name": "x"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1294,
                         "end": 1295,
                         "name": "x"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -290,13 +290,13 @@
                           "end": 1441,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1430,
                           "end": 1441,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

@@ -128,13 +128,13 @@
                   "end": 335,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 327,
                   "end": 335,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

@@ -230,13 +230,13 @@
                                                       "end": 447,
                                                       "name": "ignorePunctuation"
                                                     },
-                                                    "kind": "init",
                                                     "value": {
                                                       "type": "Identifier",
                                                       "start": 430,
                                                       "end": 447,
                                                       "name": "ignorePunctuation"
-                                                    }
+                                                    },
+                                                    "kind": "init"
                                                   }
                                                 ]
                                               }

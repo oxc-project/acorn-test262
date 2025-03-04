@@ -99,7 +99,6 @@
                                 "end": 2715,
                                 "name": "cls"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2712,
@@ -123,7 +122,8 @@
                                     "body": []
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -138,7 +138,6 @@
                                 "end": 2732,
                                 "name": "xCls"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2728,
@@ -167,7 +166,8 @@
                                     "body": []
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -182,7 +182,6 @@
                                 "end": 2752,
                                 "name": "xCls2"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2747,
@@ -237,7 +236,8 @@
                                     ]
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

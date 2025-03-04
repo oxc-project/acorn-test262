@@ -44,7 +44,6 @@
                       "end": 2099,
                       "name": "function"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 2099,
@@ -60,7 +59,8 @@
                         "end": 2104,
                         "body": []
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -104,7 +104,6 @@
                     "end": 2122,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 2121,
@@ -137,7 +136,6 @@
                               "end": 2141,
                               "name": "function"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 2141,
@@ -153,12 +151,14 @@
                                 "end": 2146,
                                 "body": []
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

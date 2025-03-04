@@ -418,13 +418,13 @@
                                                 "end": 854,
                                                 "name": "offset"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 848,
                                                 "end": 854,
                                                 "name": "offset"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         },

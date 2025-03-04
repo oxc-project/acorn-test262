@@ -242,13 +242,13 @@
                                 "end": 595,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 584,
                                 "end": 595,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -460,13 +460,13 @@
                                 "end": 792,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 781,
                                 "end": 792,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -678,13 +678,13 @@
                                 "end": 1003,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 992,
                                 "end": 1003,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -896,13 +896,13 @@
                                 "end": 1214,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1203,
                                 "end": 1214,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -1241,13 +1241,13 @@
                                 "end": 1616,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1605,
                                 "end": 1616,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -1459,13 +1459,13 @@
                                 "end": 1813,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1802,
                                 "end": 1813,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -1677,13 +1677,13 @@
                                 "end": 2024,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2013,
                                 "end": 2024,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -2022,13 +2022,13 @@
                                 "end": 2446,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2435,
                                 "end": 2446,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -2240,13 +2240,13 @@
                                 "end": 2642,
                                 "name": "largestUnit"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2631,
                                 "end": 2642,
                                 "name": "largestUnit"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

@@ -339,13 +339,13 @@
                       "end": 587,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 582,
                       "end": 587,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

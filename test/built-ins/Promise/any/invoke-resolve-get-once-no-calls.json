@@ -201,7 +201,6 @@
                   "end": 1071,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1071,
@@ -330,7 +329,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -471,13 +471,13 @@
                           "end": 1312,
                           "name": "errors"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1306,
                           "end": 1312,
                           "name": "errors"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

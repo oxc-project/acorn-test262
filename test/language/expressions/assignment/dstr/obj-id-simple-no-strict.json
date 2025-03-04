@@ -163,13 +163,13 @@
                   "end": 791,
                   "name": "eval"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 787,
                   "end": 791,
                   "name": "eval"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -184,13 +184,13 @@
                   "end": 802,
                   "name": "arguments"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 793,
                   "end": 802,
                   "name": "arguments"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

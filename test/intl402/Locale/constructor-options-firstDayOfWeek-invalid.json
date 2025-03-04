@@ -194,13 +194,13 @@
                                     "end": 879,
                                     "name": "firstDayOfWeek"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 865,
                                     "end": 879,
                                     "name": "firstDayOfWeek"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

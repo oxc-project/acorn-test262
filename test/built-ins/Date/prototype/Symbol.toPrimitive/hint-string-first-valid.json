@@ -88,7 +88,6 @@
                   "end": 777,
                   "name": "valueOf"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 777,
@@ -129,7 +128,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

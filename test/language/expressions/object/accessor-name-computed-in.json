@@ -134,7 +134,6 @@
                   "name": "empty"
                 }
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 659,
@@ -163,7 +162,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -311,7 +311,6 @@
                   "name": "empty"
                 }
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 794,
@@ -358,7 +357,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

@@ -44,7 +44,6 @@
                     "end": 301,
                     "name": "then"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 301,
@@ -99,7 +98,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

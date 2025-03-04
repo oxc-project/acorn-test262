@@ -313,13 +313,13 @@
                                   "end": 1743,
                                   "name": "collation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1734,
                                   "end": 1743,
                                   "name": "collation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -657,13 +657,13 @@
                                   "end": 2065,
                                   "name": "collation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2056,
                                   "end": 2065,
                                   "name": "collation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

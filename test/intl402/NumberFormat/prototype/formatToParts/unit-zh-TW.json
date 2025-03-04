@@ -5852,13 +5852,13 @@
                                   "end": 4260,
                                   "name": "unitDisplay"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 4249,
                                   "end": 4260,
                                   "name": "unitDisplay"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

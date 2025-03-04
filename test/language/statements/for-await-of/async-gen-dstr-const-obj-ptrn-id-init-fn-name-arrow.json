@@ -80,7 +80,6 @@
                           "end": 1910,
                           "name": "arrow"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1905,
@@ -107,7 +106,8 @@
                               "body": []
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

@@ -61,13 +61,13 @@
                     "end": 1482,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1481,
                     "end": 1482,
                     "name": "x"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

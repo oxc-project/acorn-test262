@@ -376,13 +376,13 @@
                                     "end": 942,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 930,
                                     "end": 942,
                                     "name": "smallestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -397,13 +397,13 @@
                                     "end": 956,
                                     "name": "roundingMode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 944,
                                     "end": 956,
                                     "name": "roundingMode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

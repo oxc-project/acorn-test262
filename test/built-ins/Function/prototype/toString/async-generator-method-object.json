@@ -66,7 +66,6 @@
                     "end": 372,
                     "name": "f"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 381,
@@ -82,7 +81,8 @@
                       "end": 412,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -137,7 +137,6 @@
                     "value": "g",
                     "raw": "\"g\""
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 507,
@@ -153,7 +152,8 @@
                       "end": 538,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -207,7 +207,6 @@
                     "end": 612,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 631,
@@ -223,7 +222,8 @@
                       "end": 662,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

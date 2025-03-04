@@ -163,13 +163,13 @@
                         "end": 906,
                         "name": "timeZoneName"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 894,
                         "end": 906,
                         "name": "timeZoneName"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

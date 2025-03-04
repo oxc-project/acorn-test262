@@ -56,7 +56,6 @@
                   "end": 323,
                   "name": "undefined"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 323,
@@ -104,7 +103,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -119,7 +119,6 @@
                   "end": 373,
                   "name": "undefined"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 373,
@@ -148,7 +147,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -163,7 +163,6 @@
                   "end": 412,
                   "name": "NaN"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 412,
@@ -211,7 +210,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -226,7 +226,6 @@
                   "end": 450,
                   "name": "NaN"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 450,
@@ -255,7 +254,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -270,7 +270,6 @@
                   "end": 488,
                   "name": "Infinity"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 488,
@@ -318,7 +317,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -333,7 +333,6 @@
                   "end": 536,
                   "name": "Infinity"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 536,
@@ -362,7 +361,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

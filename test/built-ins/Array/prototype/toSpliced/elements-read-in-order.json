@@ -62,7 +62,6 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1120,
@@ -130,7 +129,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -146,7 +146,6 @@
                   "value": 1,
                   "raw": "1"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1161,
@@ -214,7 +213,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -253,7 +253,6 @@
                   "value": 3,
                   "raw": "3"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1215,
@@ -321,7 +320,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

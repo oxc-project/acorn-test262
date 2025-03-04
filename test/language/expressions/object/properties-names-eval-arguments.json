@@ -36,7 +36,6 @@
                   "end": 237,
                   "name": "eval"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 237,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -80,7 +80,6 @@
                   "end": 272,
                   "name": "arguments"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 272,
@@ -109,7 +108,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

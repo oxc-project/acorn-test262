@@ -56,7 +56,6 @@
                   "end": 365,
                   "name": "g"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 365,
@@ -119,7 +118,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

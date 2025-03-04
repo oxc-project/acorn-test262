@@ -62,7 +62,6 @@
                   "end": 1922,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1922,
@@ -90,7 +89,6 @@
                             "end": 1928,
                             "name": "gen"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1925,
@@ -117,7 +115,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -132,7 +131,6 @@
                             "end": 1952,
                             "name": "xGen"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1948,
@@ -164,7 +162,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -328,7 +327,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

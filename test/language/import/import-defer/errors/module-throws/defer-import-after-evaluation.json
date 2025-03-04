@@ -228,13 +228,13 @@
                               "end": 1094,
                               "name": "ns"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1092,
                               "end": 1094,
                               "name": "ns"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },

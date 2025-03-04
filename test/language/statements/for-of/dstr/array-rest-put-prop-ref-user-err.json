@@ -36,7 +36,6 @@
                   "end": 1128,
                   "name": "y"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1128,
@@ -77,7 +76,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

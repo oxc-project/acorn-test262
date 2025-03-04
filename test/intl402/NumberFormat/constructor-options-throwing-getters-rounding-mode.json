@@ -104,7 +104,6 @@
                               "end": 444,
                               "name": "roundingMode"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 444,
@@ -138,7 +137,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

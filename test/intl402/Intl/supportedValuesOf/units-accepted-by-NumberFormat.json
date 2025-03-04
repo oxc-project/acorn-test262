@@ -178,13 +178,13 @@
                             "end": 1002,
                             "name": "unit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 998,
                             "end": 1002,
                             "name": "unit"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -438,13 +438,13 @@
                             "end": 1229,
                             "name": "unit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1225,
                             "end": 1229,
                             "name": "unit"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

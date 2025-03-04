@@ -89,7 +89,6 @@
                   "end": 481,
                   "name": "timeZone"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 481,
@@ -123,7 +122,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

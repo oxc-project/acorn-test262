@@ -62,7 +62,6 @@
                   "end": 1320,
                   "name": "a"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1320,
@@ -97,7 +96,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

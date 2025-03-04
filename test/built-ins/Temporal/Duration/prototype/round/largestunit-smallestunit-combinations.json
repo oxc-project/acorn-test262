@@ -2268,13 +2268,13 @@
                                   "end": 1862,
                                   "name": "largestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1851,
                                   "end": 1862,
                                   "name": "largestUnit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -2289,13 +2289,13 @@
                                   "end": 1876,
                                   "name": "smallestUnit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1864,
                                   "end": 1876,
                                   "name": "smallestUnit"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

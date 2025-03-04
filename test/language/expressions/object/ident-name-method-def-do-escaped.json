@@ -36,7 +36,6 @@
                   "end": 890,
                   "name": "do"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 890,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

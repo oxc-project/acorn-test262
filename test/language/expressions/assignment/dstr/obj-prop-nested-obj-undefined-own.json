@@ -128,13 +128,13 @@
                                       "end": 831,
                                       "name": "x"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 830,
                                       "end": 831,
                                       "name": "x"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               },

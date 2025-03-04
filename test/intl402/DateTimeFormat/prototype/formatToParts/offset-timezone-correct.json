@@ -824,13 +824,13 @@
                                   "end": 808,
                                   "name": "timeZone"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 800,
                                   "end": 808,
                                   "name": "timeZone"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",

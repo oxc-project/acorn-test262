@@ -122,7 +122,6 @@
                               "end": 451,
                               "name": "then"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 452,
@@ -177,7 +176,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

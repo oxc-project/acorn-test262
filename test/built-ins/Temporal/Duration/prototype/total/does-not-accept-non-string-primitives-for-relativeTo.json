@@ -304,13 +304,13 @@
                                     "end": 482,
                                     "name": "relativeTo"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 472,
                                     "end": 482,
                                     "name": "relativeTo"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

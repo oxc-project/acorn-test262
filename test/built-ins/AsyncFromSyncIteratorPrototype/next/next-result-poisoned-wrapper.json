@@ -127,7 +127,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1761,
@@ -164,7 +163,6 @@
                                 "end": 1789,
                                 "name": "next"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1789,
@@ -291,7 +289,6 @@
                                                   "end": 1900,
                                                   "name": "get"
                                                 },
-                                                "kind": "init",
                                                 "value": {
                                                   "type": "FunctionExpression",
                                                   "start": 1900,
@@ -319,7 +316,8 @@
                                                       }
                                                     ]
                                                   }
-                                                }
+                                                },
+                                                "kind": "init"
                                               }
                                             ]
                                           }
@@ -384,7 +382,8 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -399,7 +398,6 @@
                                 "end": 2023,
                                 "name": "return"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 2023,
@@ -440,14 +438,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

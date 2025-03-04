@@ -62,7 +62,6 @@
                   "end": 544,
                   "name": "toString"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 544,
@@ -114,7 +113,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -129,7 +129,6 @@
                   "end": 615,
                   "name": "valueOf"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 615,
@@ -181,7 +180,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

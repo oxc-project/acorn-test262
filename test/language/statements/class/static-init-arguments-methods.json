@@ -262,7 +262,6 @@
                                         "end": 714,
                                         "name": "test262"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "AssignmentPattern",
                                         "start": 707,
@@ -291,7 +290,8 @@
                                             "name": "arguments"
                                           }
                                         }
-                                      }
+                                      },
+                                      "kind": "init"
                                     }
                                   ]
                                 }
@@ -422,7 +422,6 @@
                                         "end": 867,
                                         "name": "test262"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "AssignmentPattern",
                                         "start": 860,
@@ -451,7 +450,8 @@
                                             "name": "arguments"
                                           }
                                         }
-                                      }
+                                      },
+                                      "kind": "init"
                                     }
                                   ]
                                 }
@@ -528,7 +528,6 @@
                                         "end": 953,
                                         "name": "test262"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "AssignmentPattern",
                                         "start": 946,
@@ -557,7 +556,8 @@
                                             "name": "arguments"
                                           }
                                         }
-                                      }
+                                      },
+                                      "kind": "init"
                                     }
                                   ]
                                 }
@@ -634,7 +634,6 @@
                                         "end": 1052,
                                         "name": "test262"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "AssignmentPattern",
                                         "start": 1045,
@@ -663,7 +662,8 @@
                                             "name": "arguments"
                                           }
                                         }
-                                      }
+                                      },
+                                      "kind": "init"
                                     }
                                   ]
                                 }

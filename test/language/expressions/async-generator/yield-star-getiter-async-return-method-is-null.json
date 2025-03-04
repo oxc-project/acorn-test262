@@ -205,7 +205,6 @@
                   "end": 985,
                   "name": "return"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 985,
@@ -258,7 +257,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

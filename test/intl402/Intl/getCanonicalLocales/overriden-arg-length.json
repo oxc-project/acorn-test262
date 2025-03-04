@@ -1643,7 +1643,6 @@
                   "end": 2025,
                   "name": "length"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2025,
@@ -1716,7 +1715,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

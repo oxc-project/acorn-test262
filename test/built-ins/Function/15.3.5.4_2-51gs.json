@@ -36,7 +36,6 @@
                   "end": 369,
                   "name": "foo"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 369,
@@ -91,7 +90,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

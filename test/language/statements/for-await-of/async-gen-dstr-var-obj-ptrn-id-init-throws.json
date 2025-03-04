@@ -93,7 +93,6 @@
                           "end": 1767,
                           "name": "x"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1766,
@@ -117,7 +116,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -295,13 +295,13 @@
                           "end": 1939,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1928,
                           "end": 1939,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

@@ -113,7 +113,6 @@
                   "end": 956,
                   "name": "attr"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 956,
@@ -154,7 +153,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

@@ -35,13 +35,13 @@
                 "end": 788,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 787,
                 "end": 788,
                 "name": "x"
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -85,13 +85,13 @@
                 "end": 809,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 808,
                 "end": 809,
                 "name": "x"
-              }
+              },
+              "kind": "init"
             },
             {
               "type": "Property",
@@ -106,13 +106,13 @@
                 "end": 812,
                 "name": "y"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 811,
                 "end": 812,
                 "name": "y"
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -156,7 +156,6 @@
                 "end": 833,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "AssignmentPattern",
                 "start": 832,
@@ -174,7 +173,8 @@
                   "value": 42,
                   "raw": "42"
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -218,13 +218,13 @@
                 "end": 859,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 858,
                 "end": 859,
                 "name": "x"
-              }
+              },
+              "kind": "init"
             },
             {
               "type": "Property",
@@ -239,7 +239,6 @@
                 "end": 862,
                 "name": "y"
               },
-              "kind": "init",
               "value": {
                 "type": "AssignmentPattern",
                 "start": 861,
@@ -257,7 +256,8 @@
                   "value": 42,
                   "raw": "42"
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }

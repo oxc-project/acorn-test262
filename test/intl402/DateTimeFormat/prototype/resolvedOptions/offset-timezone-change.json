@@ -559,13 +559,13 @@
                                   "end": 812,
                                   "name": "timeZone"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 804,
                                   "end": 812,
                                   "name": "timeZone"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

@@ -62,7 +62,6 @@
                   "end": 747,
                   "name": "hasIndices"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 747,
@@ -103,7 +102,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -118,7 +118,6 @@
                   "end": 787,
                   "name": "global"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 787,
@@ -159,7 +158,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -174,7 +174,6 @@
                   "end": 831,
                   "name": "ignoreCase"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 831,
@@ -215,7 +214,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -230,7 +230,6 @@
                   "end": 874,
                   "name": "multiline"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 874,
@@ -271,7 +270,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -286,7 +286,6 @@
                   "end": 914,
                   "name": "dotAll"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 914,
@@ -327,7 +326,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -342,7 +342,6 @@
                   "end": 955,
                   "name": "unicode"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 955,
@@ -383,7 +382,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -398,7 +398,6 @@
                   "end": 995,
                   "name": "sticky"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 995,
@@ -439,7 +438,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

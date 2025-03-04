@@ -372,13 +372,13 @@
                                                             "end": 605,
                                                             "name": "overflow"
                                                           },
-                                                          "kind": "init",
                                                           "value": {
                                                             "type": "Identifier",
                                                             "start": 597,
                                                             "end": 605,
                                                             "name": "overflow"
-                                                          }
+                                                          },
+                                                          "kind": "init"
                                                         }
                                                       ]
                                                     }
@@ -659,13 +659,13 @@
                                                             "end": 847,
                                                             "name": "overflow"
                                                           },
-                                                          "kind": "init",
                                                           "value": {
                                                             "type": "Identifier",
                                                             "start": 839,
                                                             "end": 847,
                                                             "name": "overflow"
-                                                          }
+                                                          },
+                                                          "kind": "init"
                                                         }
                                                       ]
                                                     }

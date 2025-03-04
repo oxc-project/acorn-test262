@@ -226,13 +226,13 @@
                   "end": 536,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 528,
                   "end": 536,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -376,13 +376,13 @@
                   "end": 648,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 640,
                   "end": 648,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -526,13 +526,13 @@
                   "end": 765,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 757,
                   "end": 765,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -95,7 +95,6 @@
                             "end": 452,
                             "name": "value"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 452,
@@ -129,7 +128,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         }
                       ]
                     }

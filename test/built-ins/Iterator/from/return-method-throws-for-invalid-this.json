@@ -233,7 +233,6 @@
                       "end": 676,
                       "name": "return"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 676,
@@ -306,7 +305,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -2007,7 +2007,6 @@
                     "end": 2484,
                     "name": "valueOf"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 2484,
@@ -2036,7 +2035,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

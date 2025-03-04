@@ -185,7 +185,6 @@
                   "end": 743,
                   "name": "day"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 743,
@@ -253,7 +252,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -268,7 +268,6 @@
                   "end": 809,
                   "name": "era"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 809,
@@ -336,7 +335,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -351,7 +351,6 @@
                   "end": 882,
                   "name": "formatMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 882,
@@ -419,7 +418,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -434,7 +434,6 @@
                   "end": 960,
                   "name": "hour"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 960,
@@ -502,7 +501,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -517,7 +517,6 @@
                   "end": 1030,
                   "name": "hour12"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1030,
@@ -585,7 +584,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -600,7 +600,6 @@
                   "end": 1100,
                   "name": "hourCycle"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1100,
@@ -668,7 +667,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -683,7 +683,6 @@
                   "end": 1178,
                   "name": "localeMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1178,
@@ -751,7 +750,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -766,7 +766,6 @@
                   "end": 1258,
                   "name": "minute"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1258,
@@ -834,7 +833,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -849,7 +849,6 @@
                   "end": 1329,
                   "name": "month"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1329,
@@ -917,7 +916,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -932,7 +932,6 @@
                   "end": 1400,
                   "name": "second"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1400,
@@ -1000,7 +999,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -1015,7 +1015,6 @@
                   "end": 1474,
                   "name": "timeZone"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1474,
@@ -1083,7 +1082,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -1098,7 +1098,6 @@
                   "end": 1550,
                   "name": "timeZoneName"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1550,
@@ -1166,7 +1165,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -1181,7 +1181,6 @@
                   "end": 1626,
                   "name": "weekday"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1626,
@@ -1249,7 +1248,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -1264,7 +1264,6 @@
                   "end": 1694,
                   "name": "year"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1694,
@@ -1332,7 +1331,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

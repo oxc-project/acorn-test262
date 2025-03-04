@@ -135,13 +135,13 @@
                   "end": 802,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 801,
                   "end": 802,
                   "name": "x"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

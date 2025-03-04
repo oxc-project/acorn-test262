@@ -36,7 +36,6 @@
                   "end": 1974,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1974,
@@ -68,7 +67,6 @@
                               "end": 1978,
                               "name": "x"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1977,
@@ -85,7 +83,8 @@
                                 "end": 2002,
                                 "name": "unresolvableReference"
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -103,7 +102,8 @@
                     "end": 2013,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

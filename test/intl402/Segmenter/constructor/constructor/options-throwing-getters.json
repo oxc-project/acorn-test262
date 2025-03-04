@@ -201,7 +201,6 @@
                                     "end": 489,
                                     "name": "option"
                                   },
-                                  "kind": "get",
                                   "value": {
                                     "type": "FunctionExpression",
                                     "start": 490,
@@ -235,7 +234,8 @@
                                         }
                                       ]
                                     }
-                                  }
+                                  },
+                                  "kind": "get"
                                 }
                               ]
                             }

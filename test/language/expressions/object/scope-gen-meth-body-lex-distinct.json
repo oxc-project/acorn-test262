@@ -36,7 +36,6 @@
                   "end": 2068,
                   "name": "m"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2068,
@@ -99,7 +98,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

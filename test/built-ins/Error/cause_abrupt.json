@@ -99,7 +99,6 @@
                     "end": 764,
                     "name": "has"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 764,
@@ -209,7 +208,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }
@@ -342,7 +342,6 @@
                 "end": 1181,
                 "name": "cause"
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1181,
@@ -384,7 +383,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }

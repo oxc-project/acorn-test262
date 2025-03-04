@@ -135,7 +135,6 @@
                   "end": 499,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 499,
@@ -202,7 +201,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },
@@ -224,7 +224,6 @@
                   "end": 588,
                   "name": "cause"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 588,
@@ -291,7 +290,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

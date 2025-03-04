@@ -36,7 +36,6 @@
                   "end": 1938,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1938,
@@ -86,13 +85,13 @@
                                     "end": 1947,
                                     "name": "x"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1946,
                                     "end": 1947,
                                     "name": "x"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -107,13 +106,13 @@
                                     "end": 1950,
                                     "name": "y"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1949,
                                     "end": 1950,
                                     "name": "y"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -128,13 +127,13 @@
                                     "end": 1953,
                                     "name": "z"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1952,
                                     "end": 1953,
                                     "name": "z"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             },
@@ -156,7 +155,8 @@
                     "end": 1973,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

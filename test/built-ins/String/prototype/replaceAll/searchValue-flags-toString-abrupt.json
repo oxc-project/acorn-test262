@@ -147,7 +147,6 @@
                   "end": 894,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 894,
@@ -200,7 +199,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -304,7 +304,6 @@
                   "end": 1059,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1059,
@@ -333,7 +332,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -513,7 +513,6 @@
                 "end": 1261,
                 "name": "toString"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1261,
@@ -547,7 +546,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }

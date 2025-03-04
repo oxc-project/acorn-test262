@@ -36,7 +36,6 @@
                   "end": 553,
                   "name": "length"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 553,
@@ -78,7 +77,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

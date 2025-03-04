@@ -100,7 +100,6 @@
                   "end": 538,
                   "name": "length"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 538,
@@ -153,7 +152,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -168,7 +168,6 @@
                   "end": 599,
                   "name": "length"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 599,
@@ -239,7 +238,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

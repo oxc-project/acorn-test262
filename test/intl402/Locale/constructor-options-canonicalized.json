@@ -176,13 +176,13 @@
                     "end": 1253,
                     "name": "key"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1250,
                     "end": 1253,
                     "name": "key"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -197,13 +197,13 @@
                     "end": 1261,
                     "name": "option"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1255,
                     "end": 1261,
                     "name": "option"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -218,13 +218,13 @@
                     "end": 1268,
                     "name": "tests"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1263,
                     "end": 1268,
                     "name": "tests"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

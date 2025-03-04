@@ -226,13 +226,13 @@
                         "end": 520,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 509,
                         "end": 520,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -379,13 +379,13 @@
                         "end": 644,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 633,
                         "end": 644,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -532,13 +532,13 @@
                         "end": 770,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 759,
                         "end": 770,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -685,13 +685,13 @@
                         "end": 896,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 885,
                         "end": 896,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -838,13 +838,13 @@
                         "end": 1027,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1016,
                         "end": 1027,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -991,13 +991,13 @@
                         "end": 1158,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1147,
                         "end": 1158,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1144,13 +1144,13 @@
                         "end": 1348,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1337,
                         "end": 1348,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1297,13 +1297,13 @@
                         "end": 1472,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1461,
                         "end": 1472,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1450,13 +1450,13 @@
                         "end": 1598,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1587,
                         "end": 1598,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1603,13 +1603,13 @@
                         "end": 1724,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1713,
                         "end": 1724,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1756,13 +1756,13 @@
                         "end": 1857,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1846,
                         "end": 1857,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1909,13 +1909,13 @@
                         "end": 1990,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1979,
                         "end": 1990,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",

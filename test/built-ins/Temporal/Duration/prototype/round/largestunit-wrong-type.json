@@ -218,13 +218,13 @@
                         "end": 501,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 490,
                         "end": 501,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

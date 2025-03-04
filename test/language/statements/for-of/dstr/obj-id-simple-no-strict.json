@@ -84,13 +84,13 @@
               "end": 1124,
               "name": "eval"
             },
-            "kind": "init",
             "value": {
               "type": "Identifier",
               "start": 1120,
               "end": 1124,
               "name": "eval"
-            }
+            },
+            "kind": "init"
           },
           {
             "type": "Property",
@@ -105,13 +105,13 @@
               "end": 1135,
               "name": "arguments"
             },
-            "kind": "init",
             "value": {
               "type": "Identifier",
               "start": 1126,
               "end": 1135,
               "name": "arguments"
-            }
+            },
+            "kind": "init"
           }
         ]
       },

@@ -44,7 +44,6 @@
                       "end": 1881,
                       "name": "function"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1881,
@@ -60,7 +59,8 @@
                         "end": 1886,
                         "body": []
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -114,7 +114,6 @@
                       "end": 1923,
                       "name": "function"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1923,
@@ -130,7 +129,8 @@
                         "end": 1928,
                         "body": []
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

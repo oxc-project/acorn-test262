@@ -57,7 +57,6 @@
                   "value": "character\tescape",
                   "raw": "'character\\tescape'"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 998,
@@ -86,7 +85,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -102,7 +102,6 @@
                   "value": "character\tescape",
                   "raw": "'character\\tescape'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1054,
@@ -149,7 +148,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

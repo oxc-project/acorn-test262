@@ -100,7 +100,6 @@
                   "end": 533,
                   "name": "f"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 533,
@@ -171,7 +170,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

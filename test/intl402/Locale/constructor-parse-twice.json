@@ -178,13 +178,13 @@
                     "end": 1269,
                     "name": "tag"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1266,
                     "end": 1269,
                     "name": "tag"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -199,13 +199,13 @@
                     "end": 1278,
                     "name": "options"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1271,
                     "end": 1278,
                     "name": "options"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -220,13 +220,13 @@
                     "end": 1289,
                     "name": "canonical"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1280,
                     "end": 1289,
                     "name": "canonical"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

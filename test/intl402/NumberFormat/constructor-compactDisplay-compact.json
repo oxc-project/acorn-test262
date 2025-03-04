@@ -225,7 +225,6 @@
                             "end": 815,
                             "name": "notation"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 815,
@@ -293,7 +292,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",
@@ -308,7 +308,6 @@
                             "end": 907,
                             "name": "compactDisplay"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 907,
@@ -375,7 +374,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         }
                       ]
                     }

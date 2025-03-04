@@ -116,7 +116,6 @@
                               "end": 557,
                               "name": "method"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 557,
@@ -186,7 +185,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

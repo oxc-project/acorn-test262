@@ -76,13 +76,13 @@
                         "end": 1356,
                         "name": "unresolvable"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1344,
                         "end": 1356,
                         "name": "unresolvable"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

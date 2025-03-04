@@ -138,13 +138,13 @@
                                 "end": 479,
                                 "name": "notation"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 471,
                                 "end": 479,
                                 "name": "notation"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",

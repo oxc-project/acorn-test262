@@ -80,7 +80,6 @@
                   "end": 766,
                   "name": "localeMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 766,
@@ -156,7 +155,6 @@
                                 "end": 835,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 835,
@@ -224,14 +222,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -246,7 +246,6 @@
                   "end": 948,
                   "name": "type"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 948,
@@ -322,7 +321,6 @@
                                 "end": 1008,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1008,
@@ -390,14 +388,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -412,7 +412,6 @@
                   "end": 1109,
                   "name": "style"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1109,
@@ -488,7 +487,6 @@
                                 "end": 1170,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1170,
@@ -556,14 +554,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -164,7 +164,6 @@
                     "computed": false,
                     "optional": false
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1215,
@@ -259,7 +258,6 @@
                                   "end": 1293,
                                   "name": "next"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "FunctionExpression",
                                   "start": 1293,
@@ -334,14 +332,16 @@
                                       }
                                     ]
                                   }
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }
@@ -964,7 +964,6 @@
                   "end": 2169,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2169,
@@ -1031,7 +1030,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

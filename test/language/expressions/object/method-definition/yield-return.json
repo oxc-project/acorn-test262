@@ -36,7 +36,6 @@
                   "end": 284,
                   "name": "foo"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 284,
@@ -96,7 +95,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

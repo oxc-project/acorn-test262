@@ -156,13 +156,13 @@
                             "end": 770,
                             "name": "numberingSystem"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 755,
                             "end": 770,
                             "name": "numberingSystem"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

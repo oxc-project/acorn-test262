@@ -298,7 +298,6 @@
                           "end": 926,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 926,
@@ -326,7 +325,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -383,7 +383,6 @@
                           "end": 1005,
                           "name": "valueOf"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1005,
@@ -411,7 +410,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",

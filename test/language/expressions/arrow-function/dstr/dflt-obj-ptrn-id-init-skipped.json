@@ -167,7 +167,6 @@
                       "end": 1607,
                       "name": "w"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1606,
@@ -191,7 +190,8 @@
                         "arguments": [],
                         "optional": false
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -206,7 +206,6 @@
                       "end": 1622,
                       "name": "x"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1621,
@@ -230,7 +229,8 @@
                         "arguments": [],
                         "optional": false
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -245,7 +245,6 @@
                       "end": 1637,
                       "name": "y"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1636,
@@ -269,7 +268,8 @@
                         "arguments": [],
                         "optional": false
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -284,7 +284,6 @@
                       "end": 1652,
                       "name": "z"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1651,
@@ -308,7 +307,8 @@
                         "arguments": [],
                         "optional": false
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

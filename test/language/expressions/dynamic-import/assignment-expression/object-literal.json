@@ -115,7 +115,6 @@
                             "end": 975,
                             "name": "toString"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 975,
@@ -143,7 +142,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     },

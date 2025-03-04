@@ -264,13 +264,13 @@
                       "end": 493,
                       "name": "overflow"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 485,
                       "end": 493,
                       "name": "overflow"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -427,13 +427,13 @@
                       "end": 655,
                       "name": "overflow"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 647,
                       "end": 655,
                       "name": "overflow"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -590,13 +590,13 @@
                       "end": 818,
                       "name": "overflow"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 810,
                       "end": 818,
                       "name": "overflow"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -753,13 +753,13 @@
                       "end": 989,
                       "name": "overflow"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 981,
                       "end": 989,
                       "name": "overflow"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -329,13 +329,13 @@
                                     "end": 1164,
                                     "name": "numberingSystem"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1149,
                                     "end": 1164,
                                     "name": "numberingSystem"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

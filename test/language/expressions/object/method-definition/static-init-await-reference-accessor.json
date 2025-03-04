@@ -117,7 +117,6 @@
                               "end": 572,
                               "name": "accessor"
                             },
-                            "kind": "set",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 572,
@@ -187,7 +186,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "set"
                           }
                         ]
                       }

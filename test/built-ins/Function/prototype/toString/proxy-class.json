@@ -115,7 +115,6 @@
                         "end": 752,
                         "name": "apply"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 752,
@@ -131,7 +130,8 @@
                           "end": 757,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

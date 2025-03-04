@@ -303,7 +303,6 @@
                                                     "value": "0",
                                                     "raw": "'0'"
                                                   },
-                                                  "kind": "get",
                                                   "value": {
                                                     "type": "FunctionExpression",
                                                     "start": 1112,
@@ -332,7 +331,8 @@
                                                         }
                                                       ]
                                                     }
-                                                  }
+                                                  },
+                                                  "kind": "get"
                                                 },
                                                 {
                                                   "type": "Property",
@@ -348,7 +348,6 @@
                                                     "value": "1",
                                                     "raw": "'1'"
                                                   },
-                                                  "kind": "get",
                                                   "value": {
                                                     "type": "FunctionExpression",
                                                     "start": 1179,
@@ -382,7 +381,8 @@
                                                         }
                                                       ]
                                                     }
-                                                  }
+                                                  },
+                                                  "kind": "get"
                                                 }
                                               ]
                                             },

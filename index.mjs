@@ -78,16 +78,25 @@ console.log("Done.");
 //
 // Ensure `ExportNamedDeclaration` always has an `attributes` property.
 // https://github.com/acornjs/acorn/pull/1346
+//
+// Ensure `Property` always has `kind` property last.
+// https://github.com/acornjs/acorn/pull/1347
 function transformer(_key, value) {
   if (typeof value === "bigint") return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
   if (typeof value === "object" && value !== null) {
     if (value instanceof RegExp) return null;
 
-    if (
-      Object.hasOwn(value, "type") && value.type === "ExportNamedDeclaration" && !Object.hasOwn(value, "attributes")
-    ) {
-      value.attributes = [];
+    if (Object.hasOwn(value, "type")) {
+      if (value.type === "ExportNamedDeclaration") {
+        if (!Object.hasOwn(value, "attributes")) value.attributes = [];
+      } else if (value.type === "Property") {
+        if (Object.keys(value)[8] !== "kind") {
+          const kind = value.kind;
+          delete value.kind;
+          value.kind = kind;
+        }
+      }
     }
   }
   return value;

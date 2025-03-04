@@ -60,7 +60,6 @@
                     "end": 1827,
                     "name": "arrow"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1822,
@@ -87,7 +86,8 @@
                         "body": []
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

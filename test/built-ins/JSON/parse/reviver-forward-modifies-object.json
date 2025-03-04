@@ -656,13 +656,13 @@
                                 "end": 1076,
                                 "name": "source"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1070,
                                 "end": 1076,
                                 "name": "source"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -1686,13 +1686,13 @@
                                 "end": 2120,
                                 "name": "source"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2114,
                                 "end": 2120,
                                 "name": "source"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -2429,13 +2429,13 @@
                           "end": 2889,
                           "name": "source"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 2883,
                           "end": 2889,
                           "name": "source"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -3378,13 +3378,13 @@
                           "end": 3803,
                           "name": "source"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 3797,
                           "end": 3803,
                           "name": "source"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

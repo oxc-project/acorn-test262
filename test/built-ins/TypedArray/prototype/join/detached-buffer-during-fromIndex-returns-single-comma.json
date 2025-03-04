@@ -132,7 +132,6 @@
                               "end": 1376,
                               "name": "toString"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1376,
@@ -199,7 +198,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

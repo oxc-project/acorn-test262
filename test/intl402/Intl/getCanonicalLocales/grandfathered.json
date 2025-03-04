@@ -265,13 +265,13 @@
                     "end": 619,
                     "name": "tag"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 616,
                     "end": 619,
                     "name": "tag"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -286,13 +286,13 @@
                     "end": 630,
                     "name": "canonical"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 621,
                     "end": 630,
                     "name": "canonical"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

@@ -490,13 +490,13 @@
                               "end": 1684,
                               "name": "offset"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1678,
                               "end": 1684,
                               "name": "offset"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -647,13 +647,13 @@
                                     "end": 1843,
                                     "name": "offset"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1837,
                                     "end": 1843,
                                     "name": "offset"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -995,13 +995,13 @@
                                     "end": 2435,
                                     "name": "offset"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 2429,
                                     "end": 2435,
                                     "name": "offset"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

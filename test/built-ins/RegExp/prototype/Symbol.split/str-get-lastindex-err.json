@@ -119,7 +119,6 @@
                   "end": 729,
                   "name": "lastIndex"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 729,
@@ -142,7 +141,8 @@
                     "end": 735,
                     "body": []
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -157,7 +157,6 @@
                   "end": 752,
                   "name": "lastIndex"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 752,
@@ -191,7 +190,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

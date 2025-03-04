@@ -463,13 +463,13 @@
                               "end": 811,
                               "name": "largestUnit"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 800,
                               "end": 811,
                               "name": "largestUnit"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

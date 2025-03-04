@@ -126,7 +126,6 @@
                   "end": 919,
                   "name": "set"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 919,
@@ -242,7 +241,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

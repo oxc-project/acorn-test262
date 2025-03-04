@@ -138,13 +138,13 @@
                     "end": 1274,
                     "name": "y"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1273,
                     "end": 1274,
                     "name": "y"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

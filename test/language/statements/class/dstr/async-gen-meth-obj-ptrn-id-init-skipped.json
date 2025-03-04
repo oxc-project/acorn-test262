@@ -157,7 +157,6 @@
                         "end": 1934,
                         "name": "w"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 1933,
@@ -181,7 +180,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -196,7 +196,6 @@
                         "end": 1949,
                         "name": "x"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 1948,
@@ -220,7 +219,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -235,7 +235,6 @@
                         "end": 1964,
                         "name": "y"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 1963,
@@ -259,7 +258,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -274,7 +274,6 @@
                         "end": 1979,
                         "name": "z"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 1978,
@@ -298,7 +297,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

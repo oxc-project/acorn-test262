@@ -126,13 +126,13 @@
                           "end": 1152,
                           "name": "c"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1151,
                           "end": 1152,
                           "name": "c"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

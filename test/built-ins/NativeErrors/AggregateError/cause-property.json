@@ -158,13 +158,13 @@
                       "end": 811,
                       "name": "cause"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 806,
                       "end": 811,
                       "name": "cause"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

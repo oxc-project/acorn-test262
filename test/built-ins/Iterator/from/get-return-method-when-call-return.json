@@ -91,7 +91,6 @@
                       "end": 546,
                       "name": "return"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 547,
@@ -164,7 +163,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

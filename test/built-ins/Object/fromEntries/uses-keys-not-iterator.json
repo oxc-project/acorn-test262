@@ -292,7 +292,6 @@
                                                           "computed": false,
                                                           "optional": false
                                                         },
-                                                        "kind": "get",
                                                         "value": {
                                                           "type": "FunctionExpression",
                                                           "start": 593,
@@ -334,7 +333,8 @@
                                                               }
                                                             ]
                                                           }
-                                                        }
+                                                        },
+                                                        "kind": "get"
                                                       }
                                                     ]
                                                   },

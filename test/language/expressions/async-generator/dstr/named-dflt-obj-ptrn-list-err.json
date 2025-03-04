@@ -139,13 +139,13 @@
                       "end": 1146,
                       "name": "a"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1145,
                       "end": 1146,
                       "name": "a"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -160,7 +160,6 @@
                       "end": 1149,
                       "name": "b"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1148,
@@ -184,7 +183,8 @@
                         "arguments": [],
                         "optional": false
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -199,7 +199,6 @@
                       "end": 1164,
                       "name": "c"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1163,
@@ -223,7 +222,8 @@
                           "name": "initCount"
                         }
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

@@ -149,7 +149,6 @@
                           "end": 762,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 762,
@@ -178,7 +177,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -214,7 +214,6 @@
                           "end": 808,
                           "name": "valueOf"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 808,
@@ -243,7 +242,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -396,13 +396,13 @@
                             "end": 973,
                             "name": "dateStyle"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 964,
                             "end": 973,
                             "name": "dateStyle"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

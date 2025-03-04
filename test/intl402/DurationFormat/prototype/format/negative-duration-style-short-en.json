@@ -409,13 +409,13 @@
                       "end": 584,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 579,
                       "end": 584,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

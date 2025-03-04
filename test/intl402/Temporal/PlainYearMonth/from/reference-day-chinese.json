@@ -598,13 +598,13 @@
                         "end": 1491,
                         "name": "year"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1487,
                         "end": 1491,
                         "name": "year"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1965,13 +1965,13 @@
                             "end": 3754,
                             "name": "year"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 3750,
                             "end": 3754,
                             "name": "year"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -1986,13 +1986,13 @@
                             "end": 3765,
                             "name": "monthCode"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 3756,
                             "end": 3765,
                             "name": "monthCode"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",

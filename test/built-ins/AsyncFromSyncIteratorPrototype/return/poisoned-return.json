@@ -88,7 +88,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 952,
@@ -125,7 +124,6 @@
                                 "end": 980,
                                 "name": "next"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 980,
@@ -198,7 +196,8 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -213,7 +212,6 @@
                                 "end": 1048,
                                 "name": "return"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1048,
@@ -241,14 +239,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -689,13 +689,13 @@
                                                           "end": 1483,
                                                           "name": "done"
                                                         },
-                                                        "kind": "init",
                                                         "value": {
                                                           "type": "Identifier",
                                                           "start": 1479,
                                                           "end": 1483,
                                                           "name": "done"
-                                                        }
+                                                        },
+                                                        "kind": "init"
                                                       },
                                                       {
                                                         "type": "Property",
@@ -710,13 +710,13 @@
                                                           "end": 1490,
                                                           "name": "value"
                                                         },
-                                                        "kind": "init",
                                                         "value": {
                                                           "type": "Identifier",
                                                           "start": 1485,
                                                           "end": 1490,
                                                           "name": "value"
-                                                        }
+                                                        },
+                                                        "kind": "init"
                                                       }
                                                     ]
                                                   }

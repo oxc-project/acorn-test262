@@ -312,13 +312,13 @@
                               "end": 733,
                               "name": "offset"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 727,
                               "end": 733,
                               "name": "offset"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -333,13 +333,13 @@
                               "end": 743,
                               "name": "timeZone"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 735,
                               "end": 743,
                               "name": "timeZone"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

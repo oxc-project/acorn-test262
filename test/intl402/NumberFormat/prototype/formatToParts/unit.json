@@ -283,13 +283,13 @@
                             "end": 507,
                             "name": "unitDisplay"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 496,
                             "end": 507,
                             "name": "unitDisplay"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -474,13 +474,13 @@
                                           "end": 631,
                                           "name": "value"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 626,
                                           "end": 631,
                                           "name": "value"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }
@@ -631,13 +631,13 @@
                                       "end": 715,
                                       "name": "type"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 711,
                                       "end": 715,
                                       "name": "type"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               }

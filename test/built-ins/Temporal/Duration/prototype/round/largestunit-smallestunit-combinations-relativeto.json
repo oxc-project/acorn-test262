@@ -4746,13 +4746,13 @@
                                         "end": 3351,
                                         "name": "largestUnit"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "Identifier",
                                         "start": 3340,
                                         "end": 3351,
                                         "name": "largestUnit"
-                                      }
+                                      },
+                                      "kind": "init"
                                     },
                                     {
                                       "type": "Property",
@@ -4767,13 +4767,13 @@
                                         "end": 3365,
                                         "name": "smallestUnit"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "Identifier",
                                         "start": 3353,
                                         "end": 3365,
                                         "name": "smallestUnit"
-                                      }
+                                      },
+                                      "kind": "init"
                                     },
                                     {
                                       "type": "Property",
@@ -4788,13 +4788,13 @@
                                         "end": 3377,
                                         "name": "relativeTo"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "Identifier",
                                         "start": 3367,
                                         "end": 3377,
                                         "name": "relativeTo"
-                                      }
+                                      },
+                                      "kind": "init"
                                     }
                                   ]
                                 }
@@ -5104,13 +5104,13 @@
                             "end": 3843,
                             "name": "relativeTo"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 3833,
                             "end": 3843,
                             "name": "relativeTo"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

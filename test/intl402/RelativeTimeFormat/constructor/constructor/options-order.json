@@ -80,7 +80,6 @@
                   "end": 796,
                   "name": "localeMatcher"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 796,
@@ -156,7 +155,6 @@
                                 "end": 865,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 865,
@@ -224,14 +222,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -246,7 +246,6 @@
                   "end": 978,
                   "name": "style"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 978,
@@ -322,7 +321,6 @@
                                 "end": 1039,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1039,
@@ -390,14 +388,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -412,7 +412,6 @@
                   "end": 1150,
                   "name": "numberingSystem"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1150,
@@ -488,7 +487,6 @@
                                 "end": 1221,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1221,
@@ -556,14 +554,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -578,7 +578,6 @@
                   "end": 1333,
                   "name": "numeric"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1333,
@@ -654,7 +653,6 @@
                                 "end": 1396,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1396,
@@ -722,14 +720,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

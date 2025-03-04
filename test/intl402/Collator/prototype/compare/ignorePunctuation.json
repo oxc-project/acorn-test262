@@ -207,13 +207,13 @@
                                               "end": 494,
                                               "name": "ignorePunctuation"
                                             },
-                                            "kind": "init",
                                             "value": {
                                               "type": "Identifier",
                                               "start": 477,
                                               "end": 494,
                                               "name": "ignorePunctuation"
-                                            }
+                                            },
+                                            "kind": "init"
                                           }
                                         ]
                                       }

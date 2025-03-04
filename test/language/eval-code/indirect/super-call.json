@@ -312,7 +312,6 @@
                           "end": 830,
                           "name": "m"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 830,
@@ -374,7 +373,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

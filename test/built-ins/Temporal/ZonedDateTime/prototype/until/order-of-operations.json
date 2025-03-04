@@ -852,7 +852,6 @@
                   "end": 2344,
                   "name": "smallestUnit"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2332,
@@ -870,7 +869,8 @@
                     "value": "nanoseconds",
                     "raw": "\"nanoseconds\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -885,7 +885,6 @@
                   "end": 2373,
                   "name": "largestUnit"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2362,
@@ -903,7 +902,8 @@
                     "value": "auto",
                     "raw": "\"auto\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -918,7 +918,6 @@
                   "end": 2396,
                   "name": "roundingMode"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2384,
@@ -936,7 +935,8 @@
                     "value": "halfExpand",
                     "raw": "\"halfExpand\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -951,7 +951,6 @@
                   "end": 2430,
                   "name": "roundingIncrement"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2413,
@@ -969,7 +968,8 @@
                     "value": 1,
                     "raw": "1"
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },
@@ -1038,13 +1038,13 @@
                         "end": 2521,
                         "name": "roundingIncrement"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2504,
                         "end": 2521,
                         "name": "roundingIncrement"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1059,13 +1059,13 @@
                         "end": 2539,
                         "name": "roundingMode"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2527,
                         "end": 2539,
                         "name": "roundingMode"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1080,13 +1080,13 @@
                         "end": 2556,
                         "name": "largestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2545,
                         "end": 2556,
                         "name": "largestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1101,13 +1101,13 @@
                         "end": 2574,
                         "name": "smallestUnit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2562,
                         "end": 2574,
                         "name": "smallestUnit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",

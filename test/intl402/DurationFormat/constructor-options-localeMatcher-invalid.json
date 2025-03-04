@@ -228,13 +228,13 @@
                                     "end": 757,
                                     "name": "localeMatcher"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 744,
                                     "end": 757,
                                     "name": "localeMatcher"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

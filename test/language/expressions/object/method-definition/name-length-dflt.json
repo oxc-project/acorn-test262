@@ -40,7 +40,6 @@
                     "end": 1046,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1046,
@@ -75,7 +74,8 @@
                       "end": 1057,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -256,7 +256,6 @@
                     "end": 1186,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1186,
@@ -297,7 +296,8 @@
                       "end": 1200,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -478,7 +478,6 @@
                     "end": 1329,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1329,
@@ -519,7 +518,8 @@
                       "end": 1343,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -700,7 +700,6 @@
                     "end": 1472,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1472,
@@ -747,7 +746,8 @@
                       "end": 1489,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

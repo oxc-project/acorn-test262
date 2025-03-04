@@ -187,13 +187,13 @@
                   "end": 407,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 399,
                   "end": 407,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

@@ -126,7 +126,6 @@
                       "end": 405,
                       "name": "overflow"
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 405,
@@ -168,7 +167,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "get"
                   }
                 ]
               }

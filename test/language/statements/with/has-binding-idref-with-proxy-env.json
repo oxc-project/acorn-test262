@@ -114,7 +114,6 @@
                           "end": 672,
                           "name": "has"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 672,
@@ -253,7 +252,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

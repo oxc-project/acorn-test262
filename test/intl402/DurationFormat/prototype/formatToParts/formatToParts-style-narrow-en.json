@@ -1215,13 +1215,13 @@
                       "end": 1333,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1328,
                       "end": 1333,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

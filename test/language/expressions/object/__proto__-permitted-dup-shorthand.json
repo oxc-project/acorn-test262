@@ -62,13 +62,13 @@
                   "end": 766,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 757,
                   "end": 766,
                   "name": "__proto__"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -83,13 +83,13 @@
                   "end": 779,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 770,
                   "end": 779,
                   "name": "__proto__"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -167,13 +167,13 @@
                   "end": 792,
                   "name": "w"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 791,
                   "end": 792,
                   "name": "w"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -209,13 +209,13 @@
                   "end": 801,
                   "name": "y"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 800,
                   "end": 801,
                   "name": "y"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

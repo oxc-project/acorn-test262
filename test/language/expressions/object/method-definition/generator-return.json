@@ -56,7 +56,6 @@
                   "end": 299,
                   "name": "g1"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 299,
@@ -79,7 +78,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -94,7 +94,6 @@
                   "end": 320,
                   "name": "g2"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 320,
@@ -123,7 +122,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

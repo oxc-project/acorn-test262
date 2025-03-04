@@ -30,13 +30,13 @@
                   "end": 920,
                   "name": "Instant"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 913,
                   "end": 920,
                   "name": "Instant"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

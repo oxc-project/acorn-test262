@@ -140,7 +140,6 @@
                 "end": 543,
                 "name": "id"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 543,
@@ -163,7 +162,8 @@
                   "end": 549,
                   "body": []
                 }
-              }
+              },
+              "kind": "set"
             },
             {
               "type": "Property",
@@ -178,7 +178,6 @@
                 "end": 565,
                 "name": "anonSym"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 566,
@@ -201,7 +200,8 @@
                   "end": 572,
                   "body": []
                 }
-              }
+              },
+              "kind": "set"
             },
             {
               "type": "Property",
@@ -216,7 +216,6 @@
                 "end": 589,
                 "name": "namedSym"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 590,
@@ -239,7 +238,8 @@
                   "end": 596,
                   "body": []
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

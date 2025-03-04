@@ -95,7 +95,6 @@
                     "end": 733,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 733,
@@ -259,7 +258,8 @@
                       "end": 861,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

@@ -151,7 +151,6 @@
                   "end": 1351,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1351,
@@ -179,13 +178,13 @@
                             "end": 1362,
                             "name": "poisoned"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1354,
                             "end": 1362,
                             "name": "poisoned"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -196,7 +195,8 @@
                     "end": 1376,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

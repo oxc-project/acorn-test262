@@ -91,13 +91,13 @@
                     "end": 1241,
                     "name": "eval"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1237,
                     "end": 1241,
                     "name": "eval"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

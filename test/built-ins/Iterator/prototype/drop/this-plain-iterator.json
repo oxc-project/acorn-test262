@@ -36,7 +36,6 @@
                   "end": 486,
                   "name": "next"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 486,
@@ -248,7 +247,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }
@@ -368,13 +368,13 @@
                   "end": 723,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 719,
                   "end": 723,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -389,13 +389,13 @@
                   "end": 730,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 725,
                   "end": 730,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

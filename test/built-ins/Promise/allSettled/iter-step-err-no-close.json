@@ -169,7 +169,6 @@
                   "end": 992,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 992,
@@ -197,7 +196,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -264,7 +264,6 @@
                   "end": 1074,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1074,
@@ -280,7 +279,8 @@
                     "end": 1079,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -365,7 +365,6 @@
                         "end": 1151,
                         "name": "next"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1151,
@@ -393,7 +392,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -408,7 +408,6 @@
                         "end": 1200,
                         "name": "return"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1200,
@@ -460,7 +459,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

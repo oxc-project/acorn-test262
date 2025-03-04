@@ -91,7 +91,6 @@
                     "end": 1855,
                     "name": "cls"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1852,
@@ -115,7 +114,8 @@
                         "body": []
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -130,7 +130,6 @@
                     "end": 1872,
                     "name": "xCls"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1868,
@@ -159,7 +158,8 @@
                         "body": []
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -174,7 +174,6 @@
                     "end": 1892,
                     "name": "xCls2"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1887,
@@ -229,7 +228,8 @@
                         ]
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

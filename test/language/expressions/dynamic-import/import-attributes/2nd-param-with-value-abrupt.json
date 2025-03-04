@@ -102,7 +102,6 @@
                               "value": "",
                               "raw": "''"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1065,
@@ -130,7 +129,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       },

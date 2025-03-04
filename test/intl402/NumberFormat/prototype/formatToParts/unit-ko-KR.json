@@ -5216,13 +5216,13 @@
                                   "end": 3882,
                                   "name": "unitDisplay"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 3871,
                                   "end": 3882,
                                   "name": "unitDisplay"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

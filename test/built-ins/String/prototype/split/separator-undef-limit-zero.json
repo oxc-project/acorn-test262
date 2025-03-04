@@ -697,7 +697,6 @@
                     "end": 1354,
                     "name": "valueOf"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1354,
@@ -725,7 +724,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }
@@ -941,7 +941,6 @@
                     "end": 1575,
                     "name": "valueOf"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 1575,
@@ -970,7 +969,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

@@ -182,13 +182,13 @@
                         "end": 1267,
                         "name": "disambiguation"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1253,
                         "end": 1267,
                         "name": "disambiguation"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }
@@ -648,13 +648,13 @@
                         "end": 1686,
                         "name": "disambiguation"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1672,
                         "end": 1686,
                         "name": "disambiguation"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

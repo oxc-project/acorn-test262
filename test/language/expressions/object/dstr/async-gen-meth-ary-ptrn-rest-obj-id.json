@@ -62,7 +62,6 @@
                   "end": 1412,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1412,
@@ -99,13 +98,13 @@
                                   "end": 1425,
                                   "name": "length"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1419,
                                   "end": 1425,
                                   "name": "length"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -201,7 +200,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

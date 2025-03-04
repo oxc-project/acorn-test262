@@ -36,7 +36,6 @@
                   "end": 928,
                   "name": "implements"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 928,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

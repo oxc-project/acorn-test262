@@ -154,7 +154,6 @@
                 "raw": "1n",
                 "bigint": "1"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1050,
@@ -183,7 +182,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }

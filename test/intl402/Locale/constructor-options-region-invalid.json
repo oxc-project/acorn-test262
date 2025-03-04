@@ -264,13 +264,13 @@
                                     "end": 1298,
                                     "name": "region"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1292,
                                     "end": 1298,
                                     "name": "region"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

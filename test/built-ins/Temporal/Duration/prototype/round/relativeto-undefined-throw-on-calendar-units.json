@@ -930,13 +930,13 @@
                                                 "end": 1241,
                                                 "name": "largestUnit"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 1230,
                                                 "end": 1241,
                                                 "name": "largestUnit"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }

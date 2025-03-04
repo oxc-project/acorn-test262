@@ -163,13 +163,13 @@
                             "end": 630,
                             "name": "fractionalDigits"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 614,
                             "end": 630,
                             "name": "fractionalDigits"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

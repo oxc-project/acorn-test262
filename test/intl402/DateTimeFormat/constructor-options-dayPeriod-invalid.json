@@ -208,13 +208,13 @@
                                     "end": 686,
                                     "name": "dayPeriod"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 677,
                                     "end": 686,
                                     "name": "dayPeriod"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

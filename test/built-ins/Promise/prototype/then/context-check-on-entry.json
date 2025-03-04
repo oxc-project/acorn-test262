@@ -36,7 +36,6 @@
                   "end": 433,
                   "name": "constructor"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 433,
@@ -78,7 +77,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

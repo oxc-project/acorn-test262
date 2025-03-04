@@ -174,13 +174,13 @@
                                   "end": 874,
                                   "name": "timeZone"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 866,
                                   "end": 874,
                                   "name": "timeZone"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

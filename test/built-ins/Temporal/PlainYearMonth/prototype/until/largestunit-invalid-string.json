@@ -449,13 +449,13 @@
                               "end": 865,
                               "name": "largestUnit"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 854,
                               "end": 865,
                               "name": "largestUnit"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

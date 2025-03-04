@@ -148,13 +148,13 @@
                   "end": 421,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 416,
                   "end": 421,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -169,13 +169,13 @@
                   "end": 427,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 423,
                   "end": 427,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

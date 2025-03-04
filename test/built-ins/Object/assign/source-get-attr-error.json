@@ -36,7 +36,6 @@
                   "end": 609,
                   "name": "attr"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 609,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -100,7 +100,6 @@
                       "delegate": false,
                       "argument": null
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 670,
@@ -129,7 +128,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "get"
                   },
                   {
                     "type": "Property",
@@ -145,7 +145,6 @@
                       "delegate": false,
                       "argument": null
                     },
-                    "kind": "set",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 713,
@@ -192,7 +191,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "set"
                   }
                 ]
               }

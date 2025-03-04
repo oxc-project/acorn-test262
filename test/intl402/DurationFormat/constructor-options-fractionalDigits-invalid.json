@@ -187,13 +187,13 @@
                                     "end": 646,
                                     "name": "fractionalDigits"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 630,
                                     "end": 646,
                                     "name": "fractionalDigits"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

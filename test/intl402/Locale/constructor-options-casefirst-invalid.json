@@ -83,7 +83,6 @@
                       "end": 766,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 766,
@@ -112,7 +111,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -259,13 +259,13 @@
                                     "end": 921,
                                     "name": "caseFirst"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 912,
                                     "end": 921,
                                     "name": "caseFirst"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

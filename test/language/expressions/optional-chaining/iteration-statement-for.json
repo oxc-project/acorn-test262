@@ -619,7 +619,6 @@
                   "end": 801,
                   "name": "a"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 801,
@@ -665,7 +664,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

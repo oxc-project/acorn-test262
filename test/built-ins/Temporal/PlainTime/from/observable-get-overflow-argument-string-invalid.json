@@ -61,7 +61,6 @@
                   "end": 374,
                   "name": "overflow"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 374,
@@ -169,7 +168,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

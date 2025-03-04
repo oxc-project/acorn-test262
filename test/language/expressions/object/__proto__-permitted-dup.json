@@ -169,7 +169,6 @@
                   "end": 923,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 923,
@@ -185,7 +184,8 @@
                     "end": 928,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -200,7 +200,6 @@
                   "end": 943,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 943,
@@ -216,7 +215,8 @@
                     "end": 948,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -231,7 +231,6 @@
                   "end": 967,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 967,
@@ -247,7 +246,8 @@
                     "end": 972,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -262,7 +262,6 @@
                   "end": 993,
                   "name": "__proto__"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 993,
@@ -278,7 +277,8 @@
                     "end": 998,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -293,7 +293,6 @@
                   "end": 1015,
                   "name": "__proto__"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1015,
@@ -322,7 +321,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -337,7 +337,6 @@
                   "end": 1049,
                   "name": "__proto__"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1049,
@@ -373,7 +372,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

@@ -169,13 +169,13 @@
                           "end": 1750,
                           "name": "poisoned"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1742,
                           "end": 1750,
                           "name": "poisoned"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -353,13 +353,13 @@
                           "end": 1924,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1913,
                           "end": 1924,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

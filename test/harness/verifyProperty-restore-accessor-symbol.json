@@ -140,7 +140,6 @@
                   "end": 356,
                   "name": "get"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 356,
@@ -169,7 +168,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -184,7 +184,6 @@
                   "end": 378,
                   "name": "set"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 378,
@@ -200,7 +199,8 @@
                     "end": 383,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

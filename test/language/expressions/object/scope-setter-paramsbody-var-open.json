@@ -96,7 +96,6 @@
                     "end": 950,
                     "name": "a"
                   },
-                  "kind": "set",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 950,
@@ -236,7 +235,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "set"
                 }
               ]
             },

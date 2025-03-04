@@ -117,13 +117,13 @@
                     "end": 1265,
                     "name": "w"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1264,
                     "end": 1265,
                     "name": "w"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -138,13 +138,13 @@
                     "end": 1268,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1267,
                     "end": 1268,
                     "name": "x"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

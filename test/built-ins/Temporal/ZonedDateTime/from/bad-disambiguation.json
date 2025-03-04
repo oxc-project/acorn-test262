@@ -179,13 +179,13 @@
                                     "end": 420,
                                     "name": "disambiguation"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 406,
                                     "end": 420,
                                     "name": "disambiguation"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

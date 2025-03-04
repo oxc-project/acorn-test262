@@ -65,7 +65,6 @@
                   "end": 1276,
                   "name": "cls"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1273,
@@ -89,7 +88,8 @@
                       "body": []
                     }
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -104,7 +104,6 @@
                   "end": 1293,
                   "name": "xCls"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1289,
@@ -133,7 +132,8 @@
                       "body": []
                     }
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -148,7 +148,6 @@
                   "end": 1313,
                   "name": "xCls2"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1308,
@@ -203,7 +202,8 @@
                       ]
                     }
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },

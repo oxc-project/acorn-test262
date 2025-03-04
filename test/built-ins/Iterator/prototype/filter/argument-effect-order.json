@@ -148,7 +148,6 @@
                               "end": 487,
                               "name": "next"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 487,
@@ -281,7 +280,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       },

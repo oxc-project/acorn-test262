@@ -429,7 +429,6 @@
                   "end": 422,
                   "name": "d"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 422,
@@ -445,7 +444,8 @@
                     "end": 427,
                     "body": []
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -460,7 +460,6 @@
                   "end": 434,
                   "name": "e"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 434,
@@ -483,7 +482,8 @@
                     "end": 440,
                     "body": []
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

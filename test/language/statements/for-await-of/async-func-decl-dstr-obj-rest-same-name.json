@@ -207,13 +207,13 @@
                     "end": 1315,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1314,
                     "end": 1315,
                     "name": "x"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "RestElement",

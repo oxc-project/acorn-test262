@@ -489,13 +489,13 @@
                                     "end": 802,
                                     "name": "largestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 791,
                                     "end": 802,
                                     "name": "largestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -510,13 +510,13 @@
                                     "end": 816,
                                     "name": "smallestUnit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 804,
                                     "end": 816,
                                     "name": "smallestUnit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

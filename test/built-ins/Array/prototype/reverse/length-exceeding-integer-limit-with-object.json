@@ -58,7 +58,6 @@
                   "value": "9007199254740990",
                   "raw": "\"9007199254740990\""
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 539,
@@ -92,7 +91,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -108,7 +108,6 @@
                   "value": "9007199254740991",
                   "raw": "\"9007199254740991\""
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 603,
@@ -150,7 +149,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -166,7 +166,6 @@
                   "value": "9007199254740992",
                   "raw": "\"9007199254740992\""
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 690,
@@ -208,7 +207,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

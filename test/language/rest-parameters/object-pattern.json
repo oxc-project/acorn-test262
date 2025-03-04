@@ -789,13 +789,13 @@
                   "end": 919,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 918,
                   "end": 919,
                   "name": "b"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -933,13 +933,13 @@
                         "end": 986,
                         "name": "r"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 985,
                         "end": 986,
                         "name": "r"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },
@@ -976,7 +976,6 @@
                         "end": 994,
                         "name": "s"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 993,
@@ -994,7 +993,8 @@
                           "value": 0,
                           "raw": "0"
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

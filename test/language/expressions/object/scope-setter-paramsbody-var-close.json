@@ -58,7 +58,6 @@
                     "end": 947,
                     "name": "a"
                   },
-                  "kind": "set",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 947,
@@ -165,7 +164,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "set"
                 }
               ]
             },

@@ -101,7 +101,6 @@
                   "end": 696,
                   "name": "set"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 696,
@@ -136,7 +135,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -379,13 +379,13 @@
                   "end": 1114,
                   "name": "groups"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1108,
                   "end": 1114,
                   "name": "groups"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

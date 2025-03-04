@@ -554,7 +554,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1910,
@@ -601,7 +600,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -963,7 +963,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 2359,
@@ -1009,7 +1008,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -1371,7 +1371,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 2813,
@@ -1418,7 +1417,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -1659,7 +1659,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 3101,
@@ -1706,7 +1705,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -1947,7 +1947,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 3390,
@@ -1994,7 +1993,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -2235,7 +2235,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 3682,
@@ -2281,7 +2280,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -2522,7 +2522,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 3971,
@@ -2568,7 +2567,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }
@@ -2809,7 +2809,6 @@
                 "computed": false,
                 "optional": false
               },
-              "kind": "get",
               "value": {
                 "type": "FunctionExpression",
                 "start": 4260,
@@ -2862,7 +2861,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "get"
             }
           ]
         }

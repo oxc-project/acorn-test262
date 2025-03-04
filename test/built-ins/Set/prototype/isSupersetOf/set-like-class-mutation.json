@@ -118,7 +118,6 @@
                   "end": 431,
                   "name": "has"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 431,
@@ -167,7 +166,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -182,7 +182,6 @@
                   "end": 550,
                   "name": "keys"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 550,
@@ -352,7 +351,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

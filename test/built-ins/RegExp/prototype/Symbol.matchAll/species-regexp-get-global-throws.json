@@ -170,7 +170,6 @@
                                   "end": 732,
                                   "name": "get"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "FunctionExpression",
                                   "start": 732,
@@ -204,7 +203,8 @@
                                       }
                                     ]
                                   }
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

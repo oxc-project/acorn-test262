@@ -150,13 +150,13 @@
                   "end": 406,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 398,
                   "end": 406,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

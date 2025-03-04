@@ -528,13 +528,13 @@
                       "end": 1439,
                       "name": "plainTime"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1430,
                       "end": 1439,
                       "name": "plainTime"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",

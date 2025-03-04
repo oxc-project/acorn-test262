@@ -247,13 +247,13 @@
                           "end": 721,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 711,
                           "end": 721,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -524,13 +524,13 @@
                           "end": 1182,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1172,
                           "end": 1182,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

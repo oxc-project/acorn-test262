@@ -56,7 +56,6 @@
                   "end": 342,
                   "name": "g"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 342,
@@ -112,7 +111,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

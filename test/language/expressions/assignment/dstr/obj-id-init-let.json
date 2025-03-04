@@ -110,7 +110,6 @@
                                 "end": 756,
                                 "name": "x"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 755,
@@ -127,7 +126,8 @@
                                   "end": 760,
                                   "name": "y"
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

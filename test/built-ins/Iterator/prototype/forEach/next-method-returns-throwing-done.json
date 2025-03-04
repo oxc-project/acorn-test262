@@ -73,7 +73,6 @@
                             "end": 428,
                             "name": "done"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 428,
@@ -107,7 +106,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",

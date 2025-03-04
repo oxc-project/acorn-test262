@@ -170,13 +170,13 @@
                       "end": 482,
                       "name": "style"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 477,
                       "end": 482,
                       "name": "style"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",

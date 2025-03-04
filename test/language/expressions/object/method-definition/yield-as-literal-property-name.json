@@ -56,7 +56,6 @@
                   "end": 342,
                   "name": "g"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 342,
@@ -97,7 +96,6 @@
                                   "end": 363,
                                   "name": "yield"
                                 },
-                                "kind": "get",
                                 "value": {
                                   "type": "FunctionExpression",
                                   "start": 363,
@@ -126,7 +124,8 @@
                                       }
                                     ]
                                   }
-                                }
+                                },
+                                "kind": "get"
                               }
                             ]
                           }
@@ -134,7 +133,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

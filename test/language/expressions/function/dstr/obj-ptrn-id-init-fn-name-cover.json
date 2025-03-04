@@ -91,7 +91,6 @@
                     "end": 1832,
                     "name": "cover"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1827,
@@ -123,7 +122,8 @@
                         }
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -138,7 +138,6 @@
                     "end": 1859,
                     "name": "xCover"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1853,
@@ -184,7 +183,8 @@
                         ]
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

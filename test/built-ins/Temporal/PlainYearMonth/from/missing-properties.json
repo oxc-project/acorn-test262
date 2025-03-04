@@ -88,7 +88,6 @@
                   "end": 385,
                   "name": "month"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 385,
@@ -129,7 +128,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -144,7 +144,6 @@
                   "end": 431,
                   "name": "monthCode"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 431,
@@ -185,7 +184,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

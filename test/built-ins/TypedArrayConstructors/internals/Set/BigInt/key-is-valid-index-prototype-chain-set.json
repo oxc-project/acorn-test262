@@ -806,7 +806,6 @@
                                 "end": 1457,
                                 "name": "defineProperty"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 1457,
@@ -922,7 +921,8 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

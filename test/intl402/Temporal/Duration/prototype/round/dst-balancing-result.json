@@ -227,13 +227,13 @@
                           "end": 688,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 678,
                           "end": 688,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }
@@ -686,13 +686,13 @@
                           "end": 1257,
                           "name": "relativeTo"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1247,
                           "end": 1257,
                           "name": "relativeTo"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

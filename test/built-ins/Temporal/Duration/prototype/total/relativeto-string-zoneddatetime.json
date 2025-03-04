@@ -233,13 +233,13 @@
                                   "end": 559,
                                   "name": "relativeTo"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 549,
                                   "end": 559,
                                   "name": "relativeTo"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

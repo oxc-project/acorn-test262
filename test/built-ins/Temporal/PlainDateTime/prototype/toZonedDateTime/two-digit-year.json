@@ -253,13 +253,13 @@
                                   "end": 591,
                                   "name": "disambiguation"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 577,
                                   "end": 591,
                                   "name": "disambiguation"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

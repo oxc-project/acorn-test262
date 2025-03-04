@@ -193,13 +193,13 @@
                         "end": 1334,
                         "name": "region"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1328,
                         "end": 1334,
                         "name": "region"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

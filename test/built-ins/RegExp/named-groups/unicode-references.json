@@ -691,13 +691,13 @@
                   "end": 1667,
                   "name": "a"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1666,
                   "end": 1667,
                   "name": "a"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -712,13 +712,13 @@
                   "end": 1670,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1669,
                   "end": 1670,
                   "name": "b"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

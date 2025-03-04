@@ -179,13 +179,13 @@
                   "end": 907,
                   "name": "async"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 902,
                   "end": 907,
                   "name": "async"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -200,13 +200,13 @@
                   "end": 914,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 909,
                   "end": 914,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

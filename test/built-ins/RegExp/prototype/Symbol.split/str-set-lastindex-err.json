@@ -176,7 +176,6 @@
                         "end": 593,
                         "name": "lastIndex"
                       },
-                      "kind": "set",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 593,
@@ -217,7 +216,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "set"
                     },
                     {
                       "type": "Property",

@@ -563,13 +563,13 @@
                                                           "end": 1356,
                                                           "name": "done"
                                                         },
-                                                        "kind": "init",
                                                         "value": {
                                                           "type": "Identifier",
                                                           "start": 1352,
                                                           "end": 1356,
                                                           "name": "done"
-                                                        }
+                                                        },
+                                                        "kind": "init"
                                                       },
                                                       {
                                                         "type": "Property",
@@ -584,13 +584,13 @@
                                                           "end": 1363,
                                                           "name": "value"
                                                         },
-                                                        "kind": "init",
                                                         "value": {
                                                           "type": "Identifier",
                                                           "start": 1358,
                                                           "end": 1363,
                                                           "name": "value"
-                                                        }
+                                                        },
+                                                        "kind": "init"
                                                       }
                                                     ]
                                                   }

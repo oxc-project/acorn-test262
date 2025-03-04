@@ -219,7 +219,6 @@
                         "end": 914,
                         "name": "return"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 914,
@@ -270,7 +269,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 }

@@ -36,7 +36,6 @@
                   "end": 292,
                   "name": "foo"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 292,
@@ -76,7 +75,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

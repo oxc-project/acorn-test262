@@ -83,7 +83,6 @@
                   "value": 2,
                   "raw": "2"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1286,
@@ -117,7 +116,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

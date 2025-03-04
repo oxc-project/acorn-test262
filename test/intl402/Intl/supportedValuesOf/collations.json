@@ -744,13 +744,13 @@
                               "end": 1935,
                               "name": "collation"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1926,
                               "end": 1935,
                               "name": "collation"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

@@ -69,7 +69,6 @@
                       "end": 1416,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1416,
@@ -98,7 +97,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -306,13 +306,13 @@
                                 "end": 1625,
                                 "name": "caseFirst"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1616,
                                 "end": 1625,
                                 "name": "caseFirst"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -512,13 +512,13 @@
                                 "end": 1851,
                                 "name": "caseFirst"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1842,
                                 "end": 1851,
                                 "name": "caseFirst"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -678,13 +678,13 @@
                               "end": 2054,
                               "name": "caseFirst"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2045,
                               "end": 2054,
                               "name": "caseFirst"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

@@ -90,13 +90,13 @@
                           "end": 574,
                           "name": "await"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 569,
                           "end": 574,
                           "name": "await"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

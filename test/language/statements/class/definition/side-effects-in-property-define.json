@@ -91,7 +91,6 @@
                 "end": 276,
                 "name": "m"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 276,
@@ -133,7 +132,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

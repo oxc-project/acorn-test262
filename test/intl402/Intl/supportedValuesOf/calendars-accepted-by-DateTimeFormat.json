@@ -156,13 +156,13 @@
                             "end": 1093,
                             "name": "calendar"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1085,
                             "end": 1093,
                             "name": "calendar"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -394,13 +394,13 @@
                             "end": 1317,
                             "name": "calendar"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1309,
                             "end": 1317,
                             "name": "calendar"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

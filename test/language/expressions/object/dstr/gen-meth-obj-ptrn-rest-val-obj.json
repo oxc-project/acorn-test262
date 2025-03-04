@@ -62,7 +62,6 @@
                   "end": 1684,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1684,
@@ -90,13 +89,13 @@
                             "end": 1687,
                             "name": "a"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1686,
                             "end": 1687,
                             "name": "a"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -111,13 +110,13 @@
                             "end": 1690,
                             "name": "b"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1689,
                             "end": 1690,
                             "name": "b"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "RestElement",
@@ -544,7 +543,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

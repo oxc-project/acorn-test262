@@ -69,7 +69,6 @@
                       "end": 1411,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1411,
@@ -98,7 +97,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -306,13 +306,13 @@
                                 "end": 1620,
                                 "name": "hourCycle"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1611,
                                 "end": 1620,
                                 "name": "hourCycle"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -476,13 +476,13 @@
                                 "end": 1806,
                                 "name": "hourCycle"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1797,
                                 "end": 1806,
                                 "name": "hourCycle"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -646,13 +646,13 @@
                                 "end": 2001,
                                 "name": "hourCycle"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1992,
                                 "end": 2001,
                                 "name": "hourCycle"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -812,13 +812,13 @@
                               "end": 2196,
                               "name": "hourCycle"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2187,
                               "end": 2196,
                               "name": "hourCycle"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

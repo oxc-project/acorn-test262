@@ -74,7 +74,6 @@
                 "end": 1717,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "AssignmentPattern",
                 "start": 1716,
@@ -98,7 +97,8 @@
                   "arguments": [],
                   "optional": false
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }

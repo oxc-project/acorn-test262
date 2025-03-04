@@ -36,7 +36,6 @@
                   "end": 1983,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1983,
@@ -90,13 +89,13 @@
                                       "end": 1992,
                                       "name": "x"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 1991,
                                       "end": 1992,
                                       "name": "x"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -111,13 +110,13 @@
                                       "end": 1995,
                                       "name": "y"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 1994,
                                       "end": 1995,
                                       "name": "y"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -132,13 +131,13 @@
                                       "end": 1998,
                                       "name": "z"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 1997,
                                       "end": 1998,
                                       "name": "z"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               },
@@ -167,7 +166,8 @@
                     "end": 2024,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

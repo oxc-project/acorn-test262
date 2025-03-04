@@ -119,13 +119,13 @@
                           "end": 1765,
                           "name": "a"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1764,
                           "end": 1765,
                           "name": "a"
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -140,7 +140,6 @@
                           "end": 1768,
                           "name": "b"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1767,
@@ -164,7 +163,8 @@
                             "arguments": [],
                             "optional": false
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -179,7 +179,6 @@
                           "end": 1783,
                           "name": "c"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 1782,
@@ -203,7 +202,8 @@
                               "name": "initCount"
                             }
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -381,13 +381,13 @@
                           "end": 1957,
                           "name": "constructor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "Identifier",
                           "start": 1946,
                           "end": 1957,
                           "name": "constructor"
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

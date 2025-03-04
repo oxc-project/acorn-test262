@@ -267,13 +267,13 @@
                                     "end": 437,
                                     "name": "unit"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 433,
                                     "end": 437,
                                     "name": "unit"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

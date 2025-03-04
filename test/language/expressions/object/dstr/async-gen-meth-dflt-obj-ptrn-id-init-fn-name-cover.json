@@ -62,7 +62,6 @@
                   "end": 1578,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1578,
@@ -94,7 +93,6 @@
                               "end": 1586,
                               "name": "cover"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1581,
@@ -126,7 +124,8 @@
                                   }
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -141,7 +140,6 @@
                               "end": 1613,
                               "name": "xCover"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1607,
@@ -187,7 +185,8 @@
                                   ]
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -358,7 +357,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

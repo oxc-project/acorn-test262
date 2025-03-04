@@ -126,7 +126,6 @@
                       "end": 1051,
                       "name": "foo"
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1051,
@@ -142,7 +141,8 @@
                         "end": 1056,
                         "body": []
                       }
-                    }
+                    },
+                    "kind": "get"
                   },
                   {
                     "type": "Property",
@@ -157,7 +157,6 @@
                       "end": 1067,
                       "name": "foo"
                     },
-                    "kind": "set",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1067,
@@ -180,7 +179,8 @@
                         "end": 1074,
                         "body": []
                       }
-                    }
+                    },
+                    "kind": "set"
                   }
                 ]
               },

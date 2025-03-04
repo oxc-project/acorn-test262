@@ -30,13 +30,13 @@
                   "end": 298,
                   "name": "Duration"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 290,
                   "end": 298,
                   "name": "Duration"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

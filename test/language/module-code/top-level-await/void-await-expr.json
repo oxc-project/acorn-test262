@@ -62,7 +62,6 @@
                   "end": 560,
                   "name": "y"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 560,
@@ -103,7 +102,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -1137,13 +1137,13 @@
                       "end": 1267,
                       "name": "month"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1262,
                       "end": 1267,
                       "name": "month"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -1158,13 +1158,13 @@
                       "end": 1278,
                       "name": "monthCode"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1269,
                       "end": 1278,
                       "name": "monthCode"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -1179,13 +1179,13 @@
                       "end": 1291,
                       "name": "daysInMonth"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1280,
                       "end": 1291,
                       "name": "daysInMonth"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -1265,13 +1265,13 @@
                                   "end": 1350,
                                   "name": "month"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1345,
                                   "end": 1350,
                                   "name": "month"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1474,13 +1474,13 @@
                                 "end": 1533,
                                 "name": "monthCode"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1524,
                                 "end": 1533,
                                 "name": "monthCode"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",

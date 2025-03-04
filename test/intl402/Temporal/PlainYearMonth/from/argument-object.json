@@ -124,7 +124,6 @@
                   "end": 352,
                   "name": "day"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 352,
@@ -166,7 +165,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }
@@ -415,7 +415,6 @@
                   "end": 652,
                   "name": "day"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 652,
@@ -457,7 +456,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

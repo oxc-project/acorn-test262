@@ -1785,7 +1785,6 @@
                             "value": 0,
                             "raw": "0"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 2804,
@@ -1814,7 +1813,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",
@@ -1830,7 +1830,6 @@
                             "value": 0,
                             "raw": "0"
                           },
-                          "kind": "set",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 2831,
@@ -1879,7 +1878,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "set"
                         }
                       ]
                     }

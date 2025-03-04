@@ -137,7 +137,6 @@
                                     "end": 1878,
                                     "name": "valueOf"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "FunctionExpression",
                                     "start": 1878,
@@ -205,7 +204,8 @@
                                         }
                                       ]
                                     }
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             },

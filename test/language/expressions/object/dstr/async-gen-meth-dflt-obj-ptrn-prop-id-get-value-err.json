@@ -177,7 +177,6 @@
                   "end": 1390,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1390,
@@ -251,7 +250,8 @@
                     "end": 1455,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

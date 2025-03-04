@@ -401,13 +401,13 @@
                                     "end": 508,
                                     "name": "month"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 503,
                                     "end": 508,
                                     "name": "month"
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",

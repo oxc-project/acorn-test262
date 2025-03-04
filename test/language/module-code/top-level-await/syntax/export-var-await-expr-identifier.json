@@ -98,7 +98,6 @@
                     "end": 2126,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 2125,
@@ -120,7 +119,8 @@
                         "name": "foo"
                       }
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

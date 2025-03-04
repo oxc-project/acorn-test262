@@ -62,7 +62,6 @@
                   "end": 1898,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1898,
@@ -90,7 +89,6 @@
                             "end": 1903,
                             "name": "fn"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1901,
@@ -117,7 +115,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -132,7 +131,6 @@
                             "end": 1925,
                             "name": "xFn"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1922,
@@ -164,7 +162,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -328,7 +327,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

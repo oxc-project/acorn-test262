@@ -99,13 +99,13 @@
                                 "end": 2255,
                                 "name": "a"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2254,
                                 "end": 2255,
                                 "name": "a"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -120,13 +120,13 @@
                                 "end": 2258,
                                 "name": "b"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2257,
                                 "end": 2258,
                                 "name": "b"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "RestElement",

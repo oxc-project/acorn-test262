@@ -77,13 +77,13 @@
                   "end": 432,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 427,
                   "end": 432,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -98,13 +98,13 @@
                   "end": 438,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 434,
                   "end": 438,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },
@@ -332,13 +332,13 @@
                   "end": 574,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 569,
                   "end": 574,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -353,13 +353,13 @@
                   "end": 580,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 576,
                   "end": 580,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

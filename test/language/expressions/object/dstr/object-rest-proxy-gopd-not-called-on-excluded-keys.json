@@ -467,13 +467,13 @@
                   "end": 1651,
                   "name": "excludedString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1637,
                   "end": 1651,
                   "name": "excludedString"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

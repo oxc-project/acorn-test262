@@ -58,7 +58,6 @@
                   "end": 328,
                   "name": "b"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 328,
@@ -117,7 +116,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",

@@ -165,13 +165,13 @@
                   "end": 442,
                   "name": "calendar"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 434,
                   "end": 442,
                   "name": "calendar"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

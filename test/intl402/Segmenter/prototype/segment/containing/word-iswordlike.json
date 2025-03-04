@@ -216,13 +216,13 @@
                       "end": 1859,
                       "name": "granularity"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1848,
                       "end": 1859,
                       "name": "granularity"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

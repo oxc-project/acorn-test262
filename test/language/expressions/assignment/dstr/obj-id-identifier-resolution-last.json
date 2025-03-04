@@ -155,13 +155,13 @@
                   "end": 785,
                   "name": "w"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 784,
                   "end": 785,
                   "name": "w"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -176,13 +176,13 @@
                   "end": 788,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 787,
                   "end": 788,
                   "name": "x"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

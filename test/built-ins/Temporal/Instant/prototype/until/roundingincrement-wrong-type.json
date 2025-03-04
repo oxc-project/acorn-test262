@@ -201,13 +201,13 @@
                         "end": 957,
                         "name": "roundingIncrement"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 940,
                         "end": 957,
                         "name": "roundingIncrement"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -169,13 +169,13 @@
                         "end": 900,
                         "name": "calendarName"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 888,
                         "end": 900,
                         "name": "calendarName"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

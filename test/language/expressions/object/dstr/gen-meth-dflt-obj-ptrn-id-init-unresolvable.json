@@ -36,7 +36,6 @@
                   "end": 2214,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2214,
@@ -68,7 +67,6 @@
                               "end": 2218,
                               "name": "x"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 2217,
@@ -85,7 +83,8 @@
                                 "end": 2242,
                                 "name": "unresolvableReference"
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -103,7 +102,8 @@
                     "end": 2253,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -366,13 +366,13 @@
                         "end": 655,
                         "name": "unit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 651,
                         "end": 655,
                         "name": "unit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -387,13 +387,13 @@
                         "end": 667,
                         "name": "relativeTo"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 657,
                         "end": 667,
                         "name": "relativeTo"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

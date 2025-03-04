@@ -70,7 +70,6 @@
                 "end": 257,
                 "name": "m"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 257,
@@ -119,7 +118,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

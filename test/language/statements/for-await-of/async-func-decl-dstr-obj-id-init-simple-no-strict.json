@@ -103,7 +103,6 @@
                     "end": 1257,
                     "name": "eval"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1253,
@@ -121,7 +120,8 @@
                       "value": 3,
                       "raw": "3"
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -136,7 +136,6 @@
                     "end": 1272,
                     "name": "arguments"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 1263,
@@ -154,7 +153,8 @@
                       "value": 4,
                       "raw": "4"
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

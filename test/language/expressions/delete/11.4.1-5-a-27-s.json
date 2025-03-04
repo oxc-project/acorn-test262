@@ -58,7 +58,6 @@
                   "end": 400,
                   "name": "y"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 400,
@@ -87,7 +86,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

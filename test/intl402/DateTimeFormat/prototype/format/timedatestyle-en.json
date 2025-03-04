@@ -1245,13 +1245,13 @@
                             "end": 1738,
                             "name": "dateStyle"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1729,
                             "end": 1738,
                             "name": "dateStyle"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -1583,13 +1583,13 @@
                                         "end": 2058,
                                         "name": "timeStyle"
                                       },
-                                      "kind": "init",
                                       "value": {
                                         "type": "Identifier",
                                         "start": 2049,
                                         "end": 2058,
                                         "name": "timeStyle"
-                                      }
+                                      },
+                                      "kind": "init"
                                     },
                                     {
                                       "type": "Property",
@@ -2626,13 +2626,13 @@
                                   "end": 3260,
                                   "name": "dateStyle"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 3251,
                                   "end": 3260,
                                   "name": "dateStyle"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -2647,13 +2647,13 @@
                                   "end": 3277,
                                   "name": "timeStyle"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 3268,
                                   "end": 3277,
                                   "name": "timeStyle"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",

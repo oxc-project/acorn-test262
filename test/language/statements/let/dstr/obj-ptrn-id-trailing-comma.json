@@ -30,13 +30,13 @@
                   "end": 941,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 940,
                   "end": 941,
                   "name": "x"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

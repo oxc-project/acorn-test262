@@ -102,7 +102,6 @@
                   "end": 982,
                   "name": "w"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 981,
@@ -126,7 +125,8 @@
                     "arguments": [],
                     "optional": false
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -141,7 +141,6 @@
                   "end": 997,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 996,
@@ -165,7 +164,8 @@
                     "arguments": [],
                     "optional": false
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -180,7 +180,6 @@
                   "end": 1012,
                   "name": "y"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1011,
@@ -204,7 +203,8 @@
                     "arguments": [],
                     "optional": false
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -219,7 +219,6 @@
                   "end": 1027,
                   "name": "z"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 1026,
@@ -243,7 +242,8 @@
                     "arguments": [],
                     "optional": false
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },

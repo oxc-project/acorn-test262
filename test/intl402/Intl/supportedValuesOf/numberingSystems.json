@@ -744,13 +744,13 @@
                               "end": 2233,
                               "name": "numberingSystem"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2218,
                               "end": 2233,
                               "name": "numberingSystem"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

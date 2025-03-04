@@ -215,13 +215,13 @@
                       "end": 1085,
                       "name": "y"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1084,
                       "end": 1085,
                       "name": "y"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },
@@ -353,13 +353,13 @@
                         "end": 1193,
                         "name": "y"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1192,
                         "end": 1193,
                         "name": "y"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

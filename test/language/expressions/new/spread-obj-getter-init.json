@@ -457,7 +457,6 @@
                   "end": 921,
                   "name": "c"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 921,
@@ -498,7 +497,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

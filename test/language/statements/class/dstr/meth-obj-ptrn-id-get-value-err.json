@@ -174,13 +174,13 @@
                         "end": 2378,
                         "name": "poisoned"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2370,
                         "end": 2378,
                         "name": "poisoned"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -129,13 +129,13 @@
                   "end": 846,
                   "name": "yield"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 841,
                   "end": 846,
                   "name": "yield"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

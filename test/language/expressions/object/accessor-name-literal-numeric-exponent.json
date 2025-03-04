@@ -57,7 +57,6 @@
                   "value": 1000000000,
                   "raw": "1E+9"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 964,
@@ -86,7 +85,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -102,7 +102,6 @@
                   "value": 1000000000,
                   "raw": "1E+9"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1005,
@@ -149,7 +148,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

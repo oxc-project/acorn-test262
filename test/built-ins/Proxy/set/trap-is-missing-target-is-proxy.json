@@ -56,7 +56,6 @@
                   "end": 641,
                   "name": "foo"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 641,
@@ -72,7 +71,8 @@
                     "end": 646,
                     "body": []
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -87,7 +87,6 @@
                   "end": 657,
                   "name": "bar"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 657,
@@ -134,7 +133,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

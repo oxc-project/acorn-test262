@@ -96,7 +96,6 @@
                   "end": 293,
                   "name": "m"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 293,
@@ -174,7 +173,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -216,7 +216,6 @@
                   "value": "a",
                   "raw": "'a'"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 366,
@@ -284,7 +283,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -314,7 +314,6 @@
                   ],
                   "optional": false
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 407,
@@ -382,7 +381,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -398,7 +398,6 @@
                   "value": 0,
                   "raw": "0"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 442,
@@ -466,7 +465,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               },
               {
                 "type": "Property",
@@ -496,7 +496,6 @@
                   ],
                   "optional": false
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 481,
@@ -564,7 +563,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

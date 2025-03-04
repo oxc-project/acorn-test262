@@ -257,13 +257,13 @@
                                     "end": 941,
                                     "name": "hourCycle"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 932,
                                     "end": 941,
                                     "name": "hourCycle"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

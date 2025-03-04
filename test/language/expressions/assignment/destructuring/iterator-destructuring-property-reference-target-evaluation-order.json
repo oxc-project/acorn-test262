@@ -194,7 +194,6 @@
                                       "end": 1192,
                                       "name": "done"
                                     },
-                                    "kind": "get",
                                     "value": {
                                       "type": "FunctionExpression",
                                       "start": 1192,
@@ -262,7 +261,8 @@
                                           }
                                         ]
                                       }
-                                    }
+                                    },
+                                    "kind": "get"
                                   },
                                   {
                                     "type": "Property",
@@ -277,7 +277,6 @@
                                       "end": 1321,
                                       "name": "value"
                                     },
-                                    "kind": "get",
                                     "value": {
                                       "type": "FunctionExpression",
                                       "start": 1321,
@@ -333,7 +332,8 @@
                                           }
                                         ]
                                       }
-                                    }
+                                    },
+                                    "kind": "get"
                                   }
                                 ]
                               }
@@ -589,7 +589,6 @@
                       "end": 1712,
                       "name": "q"
                     },
-                    "kind": "set",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1712,
@@ -652,7 +651,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "set"
                   }
                 ]
               }

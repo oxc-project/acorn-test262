@@ -75,7 +75,6 @@
                   "end": 1379,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1379,
@@ -103,7 +102,6 @@
                             "end": 1383,
                             "name": "x"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1382,
@@ -127,7 +125,8 @@
                               "arguments": [],
                               "optional": false
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -138,7 +137,8 @@
                     "end": 1409,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

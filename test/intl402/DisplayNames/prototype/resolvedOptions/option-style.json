@@ -266,13 +266,13 @@
                                               "end": 2268,
                                               "name": "style"
                                             },
-                                            "kind": "init",
                                             "value": {
                                               "type": "Identifier",
                                               "start": 2263,
                                               "end": 2268,
                                               "name": "style"
-                                            }
+                                            },
+                                            "kind": "init"
                                           },
                                           {
                                             "type": "Property",
@@ -287,13 +287,13 @@
                                               "end": 2274,
                                               "name": "type"
                                             },
-                                            "kind": "init",
                                             "value": {
                                               "type": "Identifier",
                                               "start": 2270,
                                               "end": 2274,
                                               "name": "type"
-                                            }
+                                            },
+                                            "kind": "init"
                                           }
                                         ]
                                       }

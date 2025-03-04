@@ -119,7 +119,6 @@
                               "end": 405,
                               "name": "valueOf"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 405,
@@ -153,7 +152,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

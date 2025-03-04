@@ -518,13 +518,13 @@
                   "end": 749,
                   "name": "value"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 744,
                   "end": 749,
                   "name": "value"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -539,13 +539,13 @@
                   "end": 755,
                   "name": "done"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 751,
                   "end": 755,
                   "name": "done"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

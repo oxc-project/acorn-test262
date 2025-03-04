@@ -231,7 +231,6 @@
                   "end": 1409,
                   "name": "throw"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1409,
@@ -284,7 +283,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -299,7 +299,6 @@
                   "end": 1468,
                   "name": "return"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1468,
@@ -340,7 +339,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

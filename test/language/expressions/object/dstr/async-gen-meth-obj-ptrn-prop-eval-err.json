@@ -75,7 +75,6 @@
                   "end": 1251,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1251,
@@ -127,7 +126,8 @@
                     "end": 1282,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

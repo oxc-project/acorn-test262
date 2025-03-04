@@ -704,13 +704,13 @@
                   "end": 1119,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 1111,
                   "end": 1119,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -126,7 +126,6 @@
                                 "delegate": false,
                                 "argument": null
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 472,
@@ -142,7 +141,8 @@
                                   "end": 477,
                                   "body": []
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

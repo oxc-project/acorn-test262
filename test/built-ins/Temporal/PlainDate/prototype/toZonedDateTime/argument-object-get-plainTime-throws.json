@@ -124,7 +124,6 @@
                   "end": 739,
                   "name": "plainTime"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 739,
@@ -158,7 +157,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

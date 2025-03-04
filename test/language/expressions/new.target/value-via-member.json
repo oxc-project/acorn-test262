@@ -62,7 +62,6 @@
                   "end": 760,
                   "name": "m"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 760,
@@ -113,7 +112,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

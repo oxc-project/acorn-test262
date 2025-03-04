@@ -82,7 +82,6 @@
                   "end": 654,
                   "name": "yield"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 655,
@@ -111,7 +110,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -126,7 +126,6 @@
                   "end": 695,
                   "name": "yield"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 696,
@@ -173,7 +172,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

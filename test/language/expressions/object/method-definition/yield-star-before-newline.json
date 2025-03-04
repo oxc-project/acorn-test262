@@ -56,7 +56,6 @@
                   "end": 306,
                   "name": "g"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 306,
@@ -97,7 +96,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

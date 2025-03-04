@@ -179,13 +179,13 @@
                 "end": 1828,
                 "name": "f"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 1827,
                 "end": 1828,
                 "name": "f"
-              }
+              },
+              "kind": "init"
             }
           ]
         },

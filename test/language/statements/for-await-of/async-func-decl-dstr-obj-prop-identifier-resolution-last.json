@@ -117,13 +117,13 @@
                     "end": 1266,
                     "name": "w"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1265,
                     "end": 1266,
                     "name": "w"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",

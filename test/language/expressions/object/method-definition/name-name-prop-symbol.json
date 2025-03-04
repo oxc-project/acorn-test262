@@ -80,7 +80,6 @@
                     "end": 396,
                     "name": "m"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 397,
@@ -96,7 +95,8 @@
                       "end": 402,
                       "body": []
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

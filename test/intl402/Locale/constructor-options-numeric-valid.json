@@ -193,7 +193,6 @@
                           "end": 1496,
                           "name": "valueOf"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1496,
@@ -222,7 +221,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -419,13 +419,13 @@
                                 "end": 1697,
                                 "name": "numeric"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1690,
                                 "end": 1697,
                                 "name": "numeric"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -589,13 +589,13 @@
                                 "end": 1878,
                                 "name": "numeric"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1871,
                                 "end": 1878,
                                 "name": "numeric"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -755,13 +755,13 @@
                               "end": 2070,
                               "name": "numeric"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2063,
                               "end": 2070,
                               "name": "numeric"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

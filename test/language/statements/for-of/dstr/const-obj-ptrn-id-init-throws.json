@@ -122,7 +122,6 @@
                                 "end": 1700,
                                 "name": "x"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 1699,
@@ -146,7 +145,8 @@
                                   "arguments": [],
                                   "optional": false
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

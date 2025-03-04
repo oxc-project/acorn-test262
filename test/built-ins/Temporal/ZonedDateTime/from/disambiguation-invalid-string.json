@@ -628,13 +628,13 @@
                                     "end": 1658,
                                     "name": "disambiguation"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1644,
                                     "end": 1658,
                                     "name": "disambiguation"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

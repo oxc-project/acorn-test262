@@ -162,13 +162,13 @@
                                   "end": 1432,
                                   "name": "fallback"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1424,
                                   "end": 1432,
                                   "name": "fallback"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",

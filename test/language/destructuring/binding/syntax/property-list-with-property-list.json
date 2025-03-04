@@ -96,13 +96,13 @@
                       "end": 589,
                       "name": "r"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 588,
                       "end": 589,
                       "name": "r"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },
@@ -139,7 +139,6 @@
                       "end": 597,
                       "name": "s"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 596,
@@ -157,7 +156,8 @@
                         "value": 0,
                         "raw": "0"
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

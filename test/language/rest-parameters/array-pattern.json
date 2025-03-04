@@ -755,13 +755,13 @@
                       "end": 1020,
                       "name": "r"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1019,
                       "end": 1020,
                       "name": "r"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },
@@ -783,7 +783,6 @@
                       "end": 1025,
                       "name": "s"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "AssignmentPattern",
                       "start": 1024,
@@ -801,7 +800,8 @@
                         "value": 0,
                         "raw": "0"
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

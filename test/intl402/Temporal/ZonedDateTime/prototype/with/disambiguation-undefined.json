@@ -425,13 +425,13 @@
                                   "end": 1155,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1149,
                                   "end": 1155,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -590,13 +590,13 @@
                                   "end": 1333,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1327,
                                   "end": 1333,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

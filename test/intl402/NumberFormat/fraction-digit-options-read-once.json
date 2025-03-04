@@ -81,7 +81,6 @@
                   "end": 481,
                   "name": "minimumFractionDigits"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 481,
@@ -137,7 +136,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -152,7 +152,6 @@
                   "end": 580,
                   "name": "maximumFractionDigits"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 580,
@@ -208,7 +207,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

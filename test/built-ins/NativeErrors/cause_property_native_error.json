@@ -306,13 +306,13 @@
                             "end": 945,
                             "name": "cause"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 940,
                             "end": 945,
                             "name": "cause"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

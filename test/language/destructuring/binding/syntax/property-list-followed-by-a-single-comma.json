@@ -35,13 +35,13 @@
                 "end": 469,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 468,
                 "end": 469,
                 "name": "x"
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -157,13 +157,13 @@
                 "end": 526,
                 "name": "x"
               },
-              "kind": "init",
               "value": {
                 "type": "Identifier",
                 "start": 525,
                 "end": 526,
                 "name": "x"
-              }
+              },
+              "kind": "init"
             }
           ]
         }

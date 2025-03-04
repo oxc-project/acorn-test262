@@ -650,13 +650,13 @@
                                   "end": 947,
                                   "name": "firstDayOfWeek"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 933,
                                   "end": 947,
                                   "name": "firstDayOfWeek"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -833,13 +833,13 @@
                                   "end": 1177,
                                   "name": "firstDayOfWeek"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1163,
                                   "end": 1177,
                                   "name": "firstDayOfWeek"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

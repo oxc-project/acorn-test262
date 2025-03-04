@@ -286,13 +286,13 @@
                               "end": 1064,
                               "name": "calendarName"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1052,
                               "end": 1064,
                               "name": "calendarName"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

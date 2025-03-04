@@ -63,7 +63,6 @@
                           "end": 2620,
                           "name": "x"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "AssignmentPattern",
                           "start": 2619,
@@ -80,7 +79,8 @@
                             "end": 2644,
                             "name": "unresolvableReference"
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },

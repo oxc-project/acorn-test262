@@ -1766,13 +1766,13 @@
                                   "end": 1914,
                                   "name": "unit"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1910,
                                   "end": 1914,
                                   "name": "unit"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",
@@ -1787,13 +1787,13 @@
                                   "end": 1926,
                                   "name": "relativeTo"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1916,
                                   "end": 1926,
                                   "name": "relativeTo"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

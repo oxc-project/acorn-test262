@@ -238,13 +238,13 @@
                               "end": 1054,
                               "name": "timeZoneName"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1042,
                               "end": 1054,
                               "name": "timeZoneName"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

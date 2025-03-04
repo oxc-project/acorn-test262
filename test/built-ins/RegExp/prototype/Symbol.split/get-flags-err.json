@@ -36,7 +36,6 @@
                   "end": 396,
                   "name": "flags"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 396,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

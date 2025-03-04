@@ -75,7 +75,6 @@
                   "end": 2001,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2001,
@@ -138,7 +137,8 @@
                     "end": 2026,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -51,7 +51,6 @@
                         "end": 690,
                         "name": "method"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 690,
@@ -67,7 +66,8 @@
                           "end": 695,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },
@@ -144,7 +144,6 @@
                           "end": 751,
                           "name": "method"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 751,
@@ -160,7 +159,8 @@
                             "end": 756,
                             "body": []
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -191,7 +191,6 @@
                         "end": 774,
                         "name": "apply"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 774,
@@ -207,7 +206,8 @@
                           "end": 779,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

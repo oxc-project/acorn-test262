@@ -122,7 +122,6 @@
                   "end": 742,
                   "name": "attribute"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 742,
@@ -161,7 +160,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

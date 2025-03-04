@@ -124,13 +124,13 @@
                         "end": 1990,
                         "name": "a"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1989,
                         "end": 1990,
                         "name": "a"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -145,7 +145,6 @@
                         "end": 1993,
                         "name": "b"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 1992,
@@ -169,7 +168,8 @@
                           "arguments": [],
                           "optional": false
                         }
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -184,7 +184,6 @@
                         "end": 2008,
                         "name": "c"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "AssignmentPattern",
                         "start": 2007,
@@ -208,7 +207,8 @@
                             "name": "initCount"
                           }
                         }
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -84,13 +84,13 @@
                               "end": 293,
                               "name": "notDefined"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 283,
                               "end": 293,
                               "name": "notDefined"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

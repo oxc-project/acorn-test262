@@ -64,7 +64,6 @@
                     "computed": false,
                     "optional": false
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 718,
@@ -92,7 +91,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

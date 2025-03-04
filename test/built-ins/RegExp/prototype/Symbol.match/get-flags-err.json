@@ -57,7 +57,6 @@
                   "end": 546,
                   "name": "flags"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 546,
@@ -91,7 +90,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -106,7 +106,6 @@
                   "end": 597,
                   "name": "global"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 597,
@@ -148,7 +147,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -163,7 +163,6 @@
                   "end": 686,
                   "name": "unicode"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 686,
@@ -205,7 +204,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

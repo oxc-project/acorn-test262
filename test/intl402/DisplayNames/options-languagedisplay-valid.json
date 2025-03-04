@@ -162,13 +162,13 @@
                                   "end": 1509,
                                   "name": "languageDisplay"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 1494,
                                   "end": 1509,
                                   "name": "languageDisplay"
-                                }
+                                },
+                                "kind": "init"
                               },
                               {
                                 "type": "Property",

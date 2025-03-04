@@ -1280,13 +1280,13 @@
                                     "end": 1785,
                                     "name": "unitDisplay"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 1774,
                                     "end": 1785,
                                     "name": "unitDisplay"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

@@ -1284,13 +1284,13 @@
                     "end": 2360,
                     "name": "hours"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2355,
                     "end": 2360,
                     "name": "hours"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1305,13 +1305,13 @@
                     "end": 2373,
                     "name": "nanoseconds"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2362,
                     "end": 2373,
                     "name": "nanoseconds"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1653,13 +1653,13 @@
                             "end": 2852,
                             "name": "hours"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 2847,
                             "end": 2852,
                             "name": "hours"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -1674,13 +1674,13 @@
                             "end": 2865,
                             "name": "nanoseconds"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 2854,
                             "end": 2865,
                             "name": "nanoseconds"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

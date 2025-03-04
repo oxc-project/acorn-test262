@@ -142,7 +142,6 @@
                   "end": 577,
                   "name": "c"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 577,
@@ -190,7 +189,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",

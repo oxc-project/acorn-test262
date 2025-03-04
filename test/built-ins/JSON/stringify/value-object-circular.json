@@ -226,7 +226,6 @@
                               "end": 827,
                               "name": "p3"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 827,
@@ -254,7 +253,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       },

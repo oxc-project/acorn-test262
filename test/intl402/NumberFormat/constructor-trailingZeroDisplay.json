@@ -293,7 +293,6 @@
                             "end": 648,
                             "name": "roundingIncrement"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 648,
@@ -361,7 +360,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",
@@ -376,7 +376,6 @@
                             "end": 746,
                             "name": "trailingZeroDisplay"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 746,
@@ -443,7 +442,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         }
                       ]
                     }

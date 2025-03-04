@@ -128,7 +128,6 @@
                           "end": 592,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 592,
@@ -157,7 +156,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -193,7 +193,6 @@
                           "end": 642,
                           "name": "valueOf"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 642,
@@ -222,7 +221,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -375,13 +375,13 @@
                             "end": 807,
                             "name": "dayPeriod"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 798,
                             "end": 807,
                             "name": "dayPeriod"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

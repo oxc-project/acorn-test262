@@ -226,13 +226,13 @@
                   "end": 649,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 641,
                   "end": 649,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -415,13 +415,13 @@
                         "end": 803,
                         "name": "timeZone"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 795,
                         "end": 803,
                         "name": "timeZone"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

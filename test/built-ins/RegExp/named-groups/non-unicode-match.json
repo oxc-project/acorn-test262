@@ -971,13 +971,13 @@
                   "end": 936,
                   "name": "a"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 935,
                   "end": 936,
                   "name": "a"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -992,13 +992,13 @@
                   "end": 939,
                   "name": "b"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 938,
                   "end": 939,
                   "name": "b"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -1013,13 +1013,13 @@
                   "end": 942,
                   "name": "c"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 941,
                   "end": 942,
                   "name": "c"
-                }
+                },
+                "kind": "init"
               }
             ]
           },

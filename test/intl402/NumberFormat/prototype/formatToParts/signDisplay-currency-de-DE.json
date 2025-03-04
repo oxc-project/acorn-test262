@@ -8141,13 +8141,13 @@
                             "end": 5538,
                             "name": "signDisplay"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 5527,
                             "end": 5538,
                             "name": "signDisplay"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

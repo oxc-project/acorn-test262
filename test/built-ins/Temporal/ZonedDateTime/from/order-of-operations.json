@@ -824,7 +824,6 @@
                   "end": 2207,
                   "name": "overflow"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2199,
@@ -842,7 +841,8 @@
                     "value": "constrain",
                     "raw": "\"constrain\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -857,7 +857,6 @@
                   "end": 2237,
                   "name": "disambiguation"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2223,
@@ -875,7 +874,8 @@
                     "value": "compatible",
                     "raw": "\"compatible\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -890,7 +890,6 @@
                   "end": 2260,
                   "name": "offset"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 2254,
@@ -908,7 +907,8 @@
                     "value": "reject",
                     "raw": "\"reject\""
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },
@@ -977,13 +977,13 @@
                         "end": 2349,
                         "name": "overflow"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2341,
                         "end": 2349,
                         "name": "overflow"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -998,13 +998,13 @@
                         "end": 2369,
                         "name": "disambiguation"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2355,
                         "end": 2369,
                         "name": "disambiguation"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -1019,13 +1019,13 @@
                         "end": 2381,
                         "name": "offset"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 2375,
                         "end": 2381,
                         "name": "offset"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",

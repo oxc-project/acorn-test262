@@ -222,13 +222,13 @@
                   "end": 836,
                   "name": "x"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 835,
                   "end": 836,
                   "name": "x"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "RestElement",

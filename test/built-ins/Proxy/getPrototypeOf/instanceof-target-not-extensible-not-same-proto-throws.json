@@ -99,7 +99,6 @@
                       "end": 1201,
                       "name": "getPrototypeOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1201,
@@ -140,7 +139,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

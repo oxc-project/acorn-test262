@@ -876,7 +876,6 @@
                                     "end": 1398,
                                     "name": "set"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "FunctionExpression",
                                     "start": 1398,
@@ -1050,7 +1049,8 @@
                                         }
                                       ]
                                     }
-                                  }
+                                  },
+                                  "kind": "init"
                                 },
                                 {
                                   "type": "Property",
@@ -1065,7 +1065,6 @@
                                     "end": 1563,
                                     "name": "defineProperty"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "FunctionExpression",
                                     "start": 1563,
@@ -1239,7 +1238,8 @@
                                         }
                                       ]
                                     }
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

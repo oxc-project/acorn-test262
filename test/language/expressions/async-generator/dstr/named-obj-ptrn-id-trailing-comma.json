@@ -96,13 +96,13 @@
                     "end": 952,
                     "name": "x"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 951,
                     "end": 952,
                     "name": "x"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }

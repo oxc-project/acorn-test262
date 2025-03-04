@@ -92,7 +92,6 @@
                               "end": 361,
                               "name": "yield"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 361,
@@ -121,7 +120,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

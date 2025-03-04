@@ -36,7 +36,6 @@
                   "end": 377,
                   "name": "index"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 377,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

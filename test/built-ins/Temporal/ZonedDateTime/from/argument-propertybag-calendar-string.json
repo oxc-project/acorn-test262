@@ -154,13 +154,13 @@
                   "end": 368,
                   "name": "timeZone"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 360,
                   "end": 368,
                   "name": "timeZone"
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -175,13 +175,13 @@
                   "end": 378,
                   "name": "calendar"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 370,
                   "end": 378,
                   "name": "calendar"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

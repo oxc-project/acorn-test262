@@ -158,7 +158,6 @@
                   "end": 618,
                   "name": "superExpression"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 618,
@@ -219,7 +218,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -234,7 +234,6 @@
                   "end": 696,
                   "name": "superIdentifierName"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 696,
@@ -281,7 +280,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

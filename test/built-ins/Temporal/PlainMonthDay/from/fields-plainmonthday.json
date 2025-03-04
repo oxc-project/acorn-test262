@@ -108,7 +108,6 @@
                   "end": 458,
                   "name": "overflow"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 458,
@@ -216,7 +215,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

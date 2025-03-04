@@ -608,7 +608,6 @@
                             "end": 764,
                             "name": "notation"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 764,
@@ -676,7 +675,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",
@@ -691,7 +691,6 @@
                             "end": 860,
                             "name": "roundingIncrement"
                           },
-                          "kind": "get",
                           "value": {
                             "type": "FunctionExpression",
                             "start": 860,
@@ -758,7 +757,8 @@
                                 }
                               ]
                             }
-                          }
+                          },
+                          "kind": "get"
                         },
                         {
                           "type": "Property",

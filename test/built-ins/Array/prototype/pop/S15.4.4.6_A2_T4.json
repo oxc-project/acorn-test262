@@ -181,7 +181,6 @@
                 "end": 498,
                 "name": "valueOf"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 498,
@@ -210,7 +209,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -411,7 +411,6 @@
                 "end": 650,
                 "name": "valueOf"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 650,
@@ -440,7 +439,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             },
             {
               "type": "Property",
@@ -455,7 +455,6 @@
                 "end": 683,
                 "name": "toString"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 683,
@@ -484,7 +483,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -685,7 +685,6 @@
                 "end": 835,
                 "name": "valueOf"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 835,
@@ -714,7 +713,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             },
             {
               "type": "Property",
@@ -729,7 +729,6 @@
                 "end": 868,
                 "name": "toString"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 868,
@@ -757,7 +756,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -967,7 +967,6 @@
                       "end": 1033,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1033,
@@ -996,7 +995,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -1011,7 +1011,6 @@
                       "end": 1072,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1072,
@@ -1040,7 +1039,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -1315,7 +1315,6 @@
                 "end": 1324,
                 "name": "toString"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1324,
@@ -1344,7 +1343,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -1537,7 +1537,6 @@
                 "end": 1493,
                 "name": "valueOf"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1493,
@@ -1565,7 +1564,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             },
             {
               "type": "Property",
@@ -1580,7 +1580,6 @@
                 "end": 1527,
                 "name": "toString"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1527,
@@ -1609,7 +1608,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }
@@ -1811,7 +1811,6 @@
                       "end": 1707,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1707,
@@ -1840,7 +1839,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -1855,7 +1855,6 @@
                       "end": 1751,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1751,
@@ -1884,7 +1883,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
@@ -2151,7 +2151,6 @@
                       "end": 2102,
                       "name": "valueOf"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 2102,
@@ -2179,7 +2178,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -2194,7 +2194,6 @@
                       "end": 2142,
                       "name": "toString"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 2142,
@@ -2222,7 +2221,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -141,7 +141,6 @@
                                       "end": 567,
                                       "name": "value"
                                     },
-                                    "kind": "get",
                                     "value": {
                                       "type": "FunctionExpression",
                                       "start": 567,
@@ -175,7 +174,8 @@
                                           }
                                         ]
                                       }
-                                    }
+                                    },
+                                    "kind": "get"
                                   },
                                   {
                                     "type": "Property",

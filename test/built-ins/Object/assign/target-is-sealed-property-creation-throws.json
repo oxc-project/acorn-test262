@@ -178,7 +178,6 @@
                               "end": 1478,
                               "name": "bar"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 1478,
@@ -194,7 +193,8 @@
                                 "end": 1483,
                                 "body": []
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

@@ -200,13 +200,13 @@
                       "end": 1049,
                       "name": "relativeTo"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 1039,
                       "end": 1049,
                       "name": "relativeTo"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",

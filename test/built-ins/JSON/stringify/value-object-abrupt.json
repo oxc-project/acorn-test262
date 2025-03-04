@@ -97,7 +97,6 @@
                               "end": 508,
                               "name": "key"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 508,
@@ -131,7 +130,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

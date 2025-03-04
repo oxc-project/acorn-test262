@@ -36,7 +36,6 @@
                   "end": 741,
                   "name": "maxByteLength"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 741,
@@ -70,7 +69,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

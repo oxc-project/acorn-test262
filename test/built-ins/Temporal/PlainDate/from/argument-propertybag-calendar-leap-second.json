@@ -128,13 +128,13 @@
                   "end": 409,
                   "name": "calendar"
                 },
-                "kind": "init",
                 "value": {
                   "type": "Identifier",
                   "start": 401,
                   "end": 409,
                   "name": "calendar"
-                }
+                },
+                "kind": "init"
               }
             ]
           }

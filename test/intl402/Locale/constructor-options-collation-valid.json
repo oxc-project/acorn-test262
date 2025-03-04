@@ -352,13 +352,13 @@
                                 "end": 1792,
                                 "name": "collation"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1783,
                                 "end": 1792,
                                 "name": "collation"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -522,13 +522,13 @@
                                 "end": 1986,
                                 "name": "collation"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1977,
                                 "end": 1986,
                                 "name": "collation"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

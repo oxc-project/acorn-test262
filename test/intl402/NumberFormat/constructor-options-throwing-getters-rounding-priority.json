@@ -104,7 +104,6 @@
                               "end": 452,
                               "name": "roundingPriority"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 452,
@@ -138,7 +137,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

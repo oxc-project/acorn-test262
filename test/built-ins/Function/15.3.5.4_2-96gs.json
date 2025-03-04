@@ -36,7 +36,6 @@
                   "end": 381,
                   "name": "gNonStrict"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 381,
@@ -187,7 +186,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -100,13 +100,13 @@
                               "end": 376,
                               "name": "largestUnit"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 365,
                               "end": 376,
                               "name": "largestUnit"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

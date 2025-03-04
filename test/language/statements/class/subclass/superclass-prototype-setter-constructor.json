@@ -70,7 +70,6 @@
                 "end": 278,
                 "name": "constructor"
               },
-              "kind": "set",
               "value": {
                 "type": "FunctionExpression",
                 "start": 278,
@@ -119,7 +118,8 @@
                     }
                   ]
                 }
-              }
+              },
+              "kind": "set"
             }
           ]
         }

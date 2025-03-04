@@ -4000,13 +4000,13 @@
                             "end": 3013,
                             "name": "signDisplay"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 3002,
                             "end": 3013,
                             "name": "signDisplay"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

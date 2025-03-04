@@ -151,7 +151,6 @@
                   "end": 2020,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 2020,
@@ -183,13 +182,13 @@
                               "end": 2031,
                               "name": "poisoned"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2023,
                               "end": 2031,
                               "name": "poisoned"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -207,7 +206,8 @@
                     "end": 2056,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

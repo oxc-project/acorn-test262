@@ -375,13 +375,13 @@
                                           "end": 823,
                                           "name": "offset"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 817,
                                           "end": 823,
                                           "name": "offset"
-                                        }
+                                        },
+                                        "kind": "init"
                                       },
                                       {
                                         "type": "Property",
@@ -396,13 +396,13 @@
                                           "end": 833,
                                           "name": "timeZone"
                                         },
-                                        "kind": "init",
                                         "value": {
                                           "type": "Identifier",
                                           "start": 825,
                                           "end": 833,
                                           "name": "timeZone"
-                                        }
+                                        },
+                                        "kind": "init"
                                       }
                                     ]
                                   }

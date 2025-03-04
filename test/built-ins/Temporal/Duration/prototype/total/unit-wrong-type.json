@@ -176,13 +176,13 @@
                         "end": 1042,
                         "name": "unit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 1038,
                         "end": 1042,
                         "name": "unit"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

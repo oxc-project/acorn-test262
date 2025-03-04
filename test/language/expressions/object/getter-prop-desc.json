@@ -36,7 +36,6 @@
                   "end": 902,
                   "name": "m"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 902,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

@@ -62,7 +62,6 @@
                   "end": 1901,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1901,
@@ -90,7 +89,6 @@
                             "end": 1907,
                             "name": "cls"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1904,
@@ -114,7 +112,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -129,7 +128,6 @@
                             "end": 1924,
                             "name": "xCls"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1920,
@@ -158,7 +156,8 @@
                                 "body": []
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -173,7 +172,6 @@
                             "end": 1944,
                             "name": "xCls2"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "AssignmentPattern",
                             "start": 1939,
@@ -228,7 +226,8 @@
                                 ]
                               }
                             }
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }
@@ -450,7 +449,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

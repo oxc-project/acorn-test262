@@ -201,13 +201,13 @@
                                     "end": 865,
                                     "name": "calendar"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 857,
                                     "end": 865,
                                     "name": "calendar"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

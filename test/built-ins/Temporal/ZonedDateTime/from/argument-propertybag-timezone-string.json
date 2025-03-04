@@ -203,13 +203,13 @@
                                   "end": 386,
                                   "name": "timeZone"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 378,
                                   "end": 386,
                                   "name": "timeZone"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

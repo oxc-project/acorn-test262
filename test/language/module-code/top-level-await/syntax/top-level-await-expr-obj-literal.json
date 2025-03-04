@@ -29,7 +29,6 @@
                 "end": 1078,
                 "name": "function"
               },
-              "kind": "init",
               "value": {
                 "type": "FunctionExpression",
                 "start": 1078,
@@ -45,7 +44,8 @@
                   "end": 1083,
                   "body": []
                 }
-              }
+              },
+              "kind": "init"
             }
           ]
         }

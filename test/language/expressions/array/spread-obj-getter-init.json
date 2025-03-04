@@ -486,7 +486,6 @@
                         "end": 1164,
                         "name": "c"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 1164,
@@ -527,7 +526,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 }

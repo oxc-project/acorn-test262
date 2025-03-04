@@ -99,7 +99,6 @@
                                 "end": 2760,
                                 "name": "cover"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2755,
@@ -131,7 +130,8 @@
                                     }
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -146,7 +146,6 @@
                                 "end": 2787,
                                 "name": "xCover"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "AssignmentPattern",
                                 "start": 2781,
@@ -192,7 +191,8 @@
                                     ]
                                   }
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         },

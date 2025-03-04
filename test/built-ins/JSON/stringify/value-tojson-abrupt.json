@@ -97,7 +97,6 @@
                               "end": 669,
                               "name": "toJSON"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 669,
@@ -131,7 +130,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }
@@ -240,7 +240,6 @@
                               "end": 794,
                               "name": "toJSON"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 794,
@@ -274,7 +273,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

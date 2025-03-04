@@ -56,7 +56,6 @@
                   "end": 480,
                   "name": "attr"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 480,
@@ -102,7 +101,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }

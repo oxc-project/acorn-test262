@@ -118,7 +118,6 @@
                   "end": 533,
                   "name": "unit"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 529,
@@ -136,7 +135,8 @@
                     "value": "nanoseconds",
                     "raw": "\"nanoseconds\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -151,7 +151,6 @@
                   "end": 563,
                   "name": "roundingMode"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 551,
@@ -169,7 +168,8 @@
                     "value": "halfExpand",
                     "raw": "\"halfExpand\""
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -184,7 +184,6 @@
                   "end": 597,
                   "name": "roundingIncrement"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 580,
@@ -202,7 +201,8 @@
                     "value": 1,
                     "raw": "1"
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -217,7 +217,6 @@
                   "end": 613,
                   "name": "relativeTo"
                 },
-                "kind": "init",
                 "value": {
                   "type": "AssignmentPattern",
                   "start": 603,
@@ -234,7 +233,8 @@
                     "end": 625,
                     "name": "undefined"
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           },
@@ -303,13 +303,13 @@
                         "end": 699,
                         "name": "unit"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 695,
                         "end": 699,
                         "name": "unit"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -324,13 +324,13 @@
                         "end": 717,
                         "name": "roundingMode"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 705,
                         "end": 717,
                         "name": "roundingMode"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -345,13 +345,13 @@
                         "end": 740,
                         "name": "roundingIncrement"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 723,
                         "end": 740,
                         "name": "roundingIncrement"
-                      }
+                      },
+                      "kind": "init"
                     },
                     {
                       "type": "Property",
@@ -366,13 +366,13 @@
                         "end": 756,
                         "name": "relativeTo"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 746,
                         "end": 756,
                         "name": "relativeTo"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 },

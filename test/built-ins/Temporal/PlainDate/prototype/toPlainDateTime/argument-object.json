@@ -102,7 +102,6 @@
                   "end": 395,
                   "name": "toString"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 395,
@@ -131,7 +130,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }
@@ -529,13 +529,13 @@
                       "end": 771,
                       "name": "calendar"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 763,
                       "end": 771,
                       "name": "calendar"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }

@@ -36,7 +36,6 @@
                   "end": 908,
                   "name": "continue"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 908,
@@ -65,7 +64,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

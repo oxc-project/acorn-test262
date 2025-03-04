@@ -102,7 +102,6 @@
                   "end": 526,
                   "name": "timeZone"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 526,
@@ -136,7 +135,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

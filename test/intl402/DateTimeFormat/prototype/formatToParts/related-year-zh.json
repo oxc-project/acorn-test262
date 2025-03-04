@@ -578,13 +578,13 @@
                       "end": 824,
                       "name": "type"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 820,
                       "end": 824,
                       "name": "type"
-                    }
+                    },
+                    "kind": "init"
                   },
                   {
                     "type": "Property",
@@ -599,13 +599,13 @@
                       "end": 831,
                       "name": "value"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "Identifier",
                       "start": 826,
                       "end": 831,
                       "name": "value"
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               },

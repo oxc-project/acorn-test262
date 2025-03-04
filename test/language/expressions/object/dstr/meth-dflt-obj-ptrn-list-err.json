@@ -101,7 +101,6 @@
                   "end": 1813,
                   "name": "method"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1813,
@@ -133,13 +132,13 @@
                               "end": 1817,
                               "name": "a"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1816,
                               "end": 1817,
                               "name": "a"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -154,7 +153,6 @@
                               "end": 1820,
                               "name": "b"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1819,
@@ -178,7 +176,8 @@
                                 "arguments": [],
                                 "optional": false
                               }
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -193,7 +192,6 @@
                               "end": 1835,
                               "name": "c"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "AssignmentPattern",
                               "start": 1834,
@@ -217,7 +215,8 @@
                                   "name": "initCount"
                                 }
                               }
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       },
@@ -235,7 +234,8 @@
                     "end": 1860,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

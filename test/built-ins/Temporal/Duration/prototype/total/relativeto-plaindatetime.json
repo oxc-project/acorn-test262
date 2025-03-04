@@ -414,13 +414,13 @@
                             "end": 1219,
                             "name": "unit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1215,
                             "end": 1219,
                             "name": "unit"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",
@@ -509,13 +509,13 @@
                             "end": 1286,
                             "name": "unit"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1282,
                             "end": 1286,
                             "name": "unit"
-                          }
+                          },
+                          "kind": "init"
                         },
                         {
                           "type": "Property",

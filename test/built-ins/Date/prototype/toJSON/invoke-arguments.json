@@ -124,7 +124,6 @@
                   "end": 577,
                   "name": "toISOString"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 577,
@@ -278,7 +277,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

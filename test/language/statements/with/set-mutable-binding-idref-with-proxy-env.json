@@ -137,7 +137,6 @@
                           "end": 1384,
                           "name": "has"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1384,
@@ -276,7 +275,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -291,7 +291,6 @@
                           "end": 1470,
                           "name": "get"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1470,
@@ -442,7 +441,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -457,7 +457,6 @@
                           "end": 1562,
                           "name": "set"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1562,
@@ -620,7 +619,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -635,7 +635,6 @@
                           "end": 1681,
                           "name": "getOwnPropertyDescriptor"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1681,
@@ -774,7 +773,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       },
                       {
                         "type": "Property",
@@ -789,7 +789,6 @@
                           "end": 1820,
                           "name": "defineProperty"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1820,
@@ -940,7 +939,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   }

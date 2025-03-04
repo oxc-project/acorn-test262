@@ -250,13 +250,13 @@
                                   "end": 2010,
                                   "name": "dateStyle"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 2001,
                                   "end": 2010,
                                   "name": "dateStyle"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }
@@ -464,13 +464,13 @@
                                       "end": 2330,
                                       "name": "dateStyle"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 2321,
                                       "end": 2330,
                                       "name": "dateStyle"
-                                    }
+                                    },
+                                    "kind": "init"
                                   }
                                 ]
                               }
@@ -717,13 +717,13 @@
                                       "end": 2648,
                                       "name": "dateStyle"
                                     },
-                                    "kind": "init",
                                     "value": {
                                       "type": "Identifier",
                                       "start": 2639,
                                       "end": 2648,
                                       "name": "dateStyle"
-                                    }
+                                    },
+                                    "kind": "init"
                                   },
                                   {
                                     "type": "Property",
@@ -955,13 +955,13 @@
                                 "end": 2905,
                                 "name": "dateStyle"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 2896,
                                 "end": 2905,
                                 "name": "dateStyle"
-                              }
+                              },
+                              "kind": "init"
                             },
                             {
                               "type": "Property",
@@ -1191,13 +1191,13 @@
                               "end": 3132,
                               "name": "dateStyle"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 3123,
                               "end": 3132,
                               "name": "dateStyle"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",
@@ -1447,13 +1447,13 @@
                               "end": 3386,
                               "name": "dateStyle"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 3377,
                               "end": 3386,
                               "name": "dateStyle"
-                            }
+                            },
+                            "kind": "init"
                           },
                           {
                             "type": "Property",

@@ -441,13 +441,13 @@
                                   "end": 686,
                                   "name": "offset"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "Identifier",
                                   "start": 680,
                                   "end": 686,
                                   "name": "offset"
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

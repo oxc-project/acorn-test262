@@ -220,13 +220,13 @@
                               "end": 1067,
                               "name": "fractionalSecondDigits"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1045,
                               "end": 1067,
                               "name": "fractionalSecondDigits"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

@@ -194,13 +194,13 @@
                                     "end": 431,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 422,
                                     "end": 431,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }
@@ -641,13 +641,13 @@
                                     "end": 803,
                                     "name": "monthCode"
                                   },
-                                  "kind": "init",
                                   "value": {
                                     "type": "Identifier",
                                     "start": 794,
                                     "end": 803,
                                     "name": "monthCode"
-                                  }
+                                  },
+                                  "kind": "init"
                                 }
                               ]
                             }

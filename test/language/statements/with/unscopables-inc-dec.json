@@ -197,7 +197,6 @@
                       "computed": false,
                       "optional": false
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 753,
@@ -284,7 +283,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "get"
                   }
                 ]
               }
@@ -645,7 +645,6 @@
                       "computed": false,
                       "optional": false
                     },
-                    "kind": "get",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1105,
@@ -732,7 +731,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "get"
                   }
                 ]
               }

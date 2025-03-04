@@ -1214,13 +1214,13 @@
                                                 "end": 1590,
                                                 "name": "unit"
                                               },
-                                              "kind": "init",
                                               "value": {
                                                 "type": "Identifier",
                                                 "start": 1586,
                                                 "end": 1590,
                                                 "name": "unit"
-                                              }
+                                              },
+                                              "kind": "init"
                                             }
                                           ]
                                         }

@@ -36,7 +36,6 @@
                   "end": 394,
                   "name": "detachArrayBuffer"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 394,
@@ -78,7 +77,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -93,7 +93,6 @@
                   "end": 475,
                   "name": "destroy"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 475,
@@ -109,7 +108,8 @@
                     "end": 480,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

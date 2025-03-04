@@ -90,7 +90,6 @@
                         "end": 400,
                         "name": "f"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 409,
@@ -106,7 +105,8 @@
                           "end": 440,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 },
@@ -195,7 +195,6 @@
                         "value": "g",
                         "raw": "\"g\""
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 563,
@@ -211,7 +210,8 @@
                           "end": 594,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 },
@@ -299,7 +299,6 @@
                         "end": 696,
                         "name": "x"
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 715,
@@ -315,7 +314,8 @@
                           "end": 746,
                           "body": []
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 },

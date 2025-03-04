@@ -412,13 +412,13 @@
                     "end": 1687,
                     "name": "numericValue"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1675,
                     "end": 1687,
                     "name": "numericValue"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -433,13 +433,13 @@
                     "end": 1705,
                     "name": "fractionalDigits"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1689,
                     "end": 1705,
                     "name": "fractionalDigits"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -454,13 +454,13 @@
                     "end": 1715,
                     "name": "duration"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 1707,
                     "end": 1715,
                     "name": "duration"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -566,13 +566,13 @@
                             "end": 1815,
                             "name": "fractionalDigits"
                           },
-                          "kind": "init",
                           "value": {
                             "type": "Identifier",
                             "start": 1799,
                             "end": 1815,
                             "name": "fractionalDigits"
-                          }
+                          },
+                          "kind": "init"
                         }
                       ]
                     }

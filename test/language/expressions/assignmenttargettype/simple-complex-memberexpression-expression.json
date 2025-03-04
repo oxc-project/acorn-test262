@@ -84,7 +84,6 @@
                   "end": 457,
                   "name": "f"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 457,
@@ -100,7 +99,8 @@
                     "end": 462,
                     "body": []
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

@@ -75,7 +75,6 @@
                   "computed": false,
                   "optional": false
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 876,
@@ -102,7 +101,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -117,7 +117,6 @@
                   "end": 909,
                   "name": "next"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 909,
@@ -190,7 +189,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               },
               {
                 "type": "Property",
@@ -205,7 +205,6 @@
                   "end": 966,
                   "name": "throw"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 966,
@@ -258,7 +257,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

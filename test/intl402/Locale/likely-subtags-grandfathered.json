@@ -668,13 +668,13 @@
                     "end": 2306,
                     "name": "tag"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2303,
                     "end": 2306,
                     "name": "tag"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -689,13 +689,13 @@
                     "end": 2317,
                     "name": "canonical"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 2308,
                     "end": 2317,
                     "name": "canonical"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -710,7 +710,6 @@
                     "end": 2328,
                     "name": "maximized"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 2319,
@@ -727,7 +726,8 @@
                       "end": 2340,
                       "name": "canonical"
                     }
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -742,7 +742,6 @@
                     "end": 2351,
                     "name": "minimized"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "AssignmentPattern",
                     "start": 2342,
@@ -759,7 +758,8 @@
                       "end": 2363,
                       "name": "canonical"
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },
@@ -1754,13 +1754,13 @@
                     "end": 3385,
                     "name": "tag"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 3382,
                     "end": 3385,
                     "name": "tag"
-                  }
+                  },
+                  "kind": "init"
                 },
                 {
                   "type": "Property",
@@ -1775,13 +1775,13 @@
                     "end": 3396,
                     "name": "canonical"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "Identifier",
                     "start": 3387,
                     "end": 3396,
                     "name": "canonical"
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             },

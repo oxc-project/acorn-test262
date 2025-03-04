@@ -140,7 +140,6 @@
                         "computed": false,
                         "optional": false
                       },
-                      "kind": "get",
                       "value": {
                         "type": "FunctionExpression",
                         "start": 566,
@@ -182,7 +181,8 @@
                             }
                           ]
                         }
-                      }
+                      },
+                      "kind": "get"
                     }
                   ]
                 }

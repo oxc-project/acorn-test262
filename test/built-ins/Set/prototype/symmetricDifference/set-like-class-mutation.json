@@ -198,7 +198,6 @@
                     "end": 533,
                     "name": "next"
                   },
-                  "kind": "init",
                   "value": {
                     "type": "FunctionExpression",
                     "start": 533,
@@ -502,7 +501,8 @@
                         }
                       ]
                     }
-                  }
+                  },
+                  "kind": "init"
                 }
               ]
             }
@@ -565,7 +565,6 @@
                   "end": 832,
                   "name": "has"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 832,
@@ -668,7 +667,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               },
               {
                 "type": "Property",
@@ -683,7 +683,6 @@
                   "end": 1008,
                   "name": "keys"
                 },
-                "kind": "init",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1008,
@@ -718,7 +717,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "init"
               }
             ]
           }

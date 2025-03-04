@@ -130,7 +130,6 @@
                           "end": 1215,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1215,
@@ -159,7 +158,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -368,13 +368,13 @@
                                 "end": 1412,
                                 "name": "script"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1406,
                                 "end": 1412,
                                 "name": "script"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -615,13 +615,13 @@
                                 "end": 1644,
                                 "name": "script"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1638,
                                 "end": 1644,
                                 "name": "script"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -844,13 +844,13 @@
                                 "end": 1876,
                                 "name": "script"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1870,
                                 "end": 1876,
                                 "name": "script"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }

@@ -46,7 +46,6 @@
                           "end": 1190,
                           "name": "toString"
                         },
-                        "kind": "init",
                         "value": {
                           "type": "FunctionExpression",
                           "start": 1190,
@@ -75,7 +74,8 @@
                               }
                             ]
                           }
-                        }
+                        },
+                        "kind": "init"
                       }
                     ]
                   },
@@ -266,13 +266,13 @@
                                 "end": 1370,
                                 "name": "language"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1362,
                                 "end": 1370,
                                 "name": "language"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -490,13 +490,13 @@
                                 "end": 1586,
                                 "name": "language"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "Identifier",
                                 "start": 1578,
                                 "end": 1586,
                                 "name": "language"
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
@@ -667,13 +667,13 @@
                               "end": 1777,
                               "name": "language"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1769,
                               "end": 1777,
                               "name": "language"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -869,13 +869,13 @@
                               "end": 1986,
                               "name": "language"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1978,
                               "end": 1986,
                               "name": "language"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -978,13 +978,13 @@
                               "end": 2059,
                               "name": "language"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2051,
                               "end": 2059,
                               "name": "language"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }
@@ -1087,13 +1087,13 @@
                               "end": 2133,
                               "name": "language"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 2125,
                               "end": 2133,
                               "name": "language"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

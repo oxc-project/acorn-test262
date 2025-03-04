@@ -104,7 +104,6 @@
                               "end": 458,
                               "name": "trailingZeroDisplay"
                             },
-                            "kind": "get",
                             "value": {
                               "type": "FunctionExpression",
                               "start": 458,
@@ -138,7 +137,8 @@
                                   }
                                 ]
                               }
-                            }
+                            },
+                            "kind": "get"
                           }
                         ]
                       }

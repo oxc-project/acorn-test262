@@ -218,13 +218,13 @@
                         "end": 925,
                         "name": "calendarName"
                       },
-                      "kind": "init",
                       "value": {
                         "type": "Identifier",
                         "start": 913,
                         "end": 925,
                         "name": "calendarName"
-                      }
+                      },
+                      "kind": "init"
                     }
                   ]
                 }

@@ -174,7 +174,6 @@
                                   "end": 973,
                                   "name": "valueOf"
                                 },
-                                "kind": "init",
                                 "value": {
                                   "type": "FunctionExpression",
                                   "start": 973,
@@ -266,7 +265,8 @@
                                       }
                                     ]
                                   }
-                                }
+                                },
+                                "kind": "init"
                               }
                             ]
                           }

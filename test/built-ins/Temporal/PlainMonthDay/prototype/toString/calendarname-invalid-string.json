@@ -237,13 +237,13 @@
                               "end": 1031,
                               "name": "calendarName"
                             },
-                            "kind": "init",
                             "value": {
                               "type": "Identifier",
                               "start": 1019,
                               "end": 1031,
                               "name": "calendarName"
-                            }
+                            },
+                            "kind": "init"
                           }
                         ]
                       }

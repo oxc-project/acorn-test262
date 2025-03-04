@@ -108,7 +108,6 @@
                   "value": "0",
                   "raw": "'0'"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 869,
@@ -145,7 +144,6 @@
                                 "end": 901,
                                 "name": "toString"
                               },
-                              "kind": "init",
                               "value": {
                                 "type": "FunctionExpression",
                                 "start": 901,
@@ -174,14 +172,16 @@
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              "kind": "init"
                             }
                           ]
                         }
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }

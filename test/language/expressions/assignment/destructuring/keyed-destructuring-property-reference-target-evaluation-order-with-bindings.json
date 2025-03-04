@@ -279,7 +279,6 @@
                   "end": 1507,
                   "name": "p"
                 },
-                "kind": "get",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1507,
@@ -346,7 +345,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "get"
               }
             ]
           }
@@ -387,7 +387,6 @@
                   "end": 1592,
                   "name": "q"
                 },
-                "kind": "set",
                 "value": {
                   "type": "FunctionExpression",
                   "start": 1592,
@@ -450,7 +449,8 @@
                       }
                     ]
                   }
-                }
+                },
+                "kind": "set"
               }
             ]
           }
@@ -508,7 +508,6 @@
                       "end": 1666,
                       "name": "has"
                     },
-                    "kind": "init",
                     "value": {
                       "type": "FunctionExpression",
                       "start": 1666,
@@ -589,7 +588,8 @@
                           }
                         ]
                       }
-                    }
+                    },
+                    "kind": "init"
                   }
                 ]
               }
