@@ -26,7 +26,7 @@
             "raw": "/test262/ig",
             "regex": {
               "pattern": "test262",
-              "flags": "ig"
+              "flags": "gi"
             }
           }
         }

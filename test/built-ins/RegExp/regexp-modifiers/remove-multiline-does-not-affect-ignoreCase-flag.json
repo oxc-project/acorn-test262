@@ -317,7 +317,7 @@
             "raw": "/(?-m:es$)/mi",
             "regex": {
               "pattern": "(?-m:es$)",
-              "flags": "mi"
+              "flags": "im"
             }
           }
         }

@@ -317,7 +317,7 @@
             "raw": "/(?-s:.es$)/sm",
             "regex": {
               "pattern": "(?-s:.es$)",
-              "flags": "sm"
+              "flags": "ms"
             }
           }
         }

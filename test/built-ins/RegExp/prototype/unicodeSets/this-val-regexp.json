@@ -673,7 +673,7 @@
               "raw": "/./vd",
               "regex": {
                 "pattern": ".",
-                "flags": "vd"
+                "flags": "dv"
               }
             },
             "property": {
@@ -743,7 +743,7 @@
               "raw": "/./vg",
               "regex": {
                 "pattern": ".",
-                "flags": "vg"
+                "flags": "gv"
               }
             },
             "property": {
@@ -813,7 +813,7 @@
               "raw": "/./vi",
               "regex": {
                 "pattern": ".",
-                "flags": "vi"
+                "flags": "iv"
               }
             },
             "property": {
@@ -883,7 +883,7 @@
               "raw": "/./vm",
               "regex": {
                 "pattern": ".",
-                "flags": "vm"
+                "flags": "mv"
               }
             },
             "property": {
@@ -953,7 +953,7 @@
               "raw": "/./vs",
               "regex": {
                 "pattern": ".",
-                "flags": "vs"
+                "flags": "sv"
               }
             },
             "property": {

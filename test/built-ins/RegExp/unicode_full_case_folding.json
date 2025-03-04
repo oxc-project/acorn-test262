@@ -34,7 +34,7 @@
                 "raw": "/[\\u0390]/ui",
                 "regex": {
                   "pattern": "[\\u0390]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {
@@ -99,7 +99,7 @@
                 "raw": "/[\\u1fd3]/ui",
                 "regex": {
                   "pattern": "[\\u1fd3]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {
@@ -164,7 +164,7 @@
                 "raw": "/[\\u03b0]/ui",
                 "regex": {
                   "pattern": "[\\u03b0]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {
@@ -229,7 +229,7 @@
                 "raw": "/[\\u1fe3]/ui",
                 "regex": {
                   "pattern": "[\\u1fe3]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {
@@ -294,7 +294,7 @@
                 "raw": "/[\\ufb05]/ui",
                 "regex": {
                   "pattern": "[\\ufb05]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {
@@ -359,7 +359,7 @@
                 "raw": "/[\\ufb06]/ui",
                 "regex": {
                   "pattern": "[\\ufb06]",
-                  "flags": "ui"
+                  "flags": "iu"
                 }
               },
               "property": {

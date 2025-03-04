@@ -26,7 +26,7 @@
             "raw": "/./ug",
             "regex": {
               "pattern": ".",
-              "flags": "ug"
+              "flags": "gu"
             }
           }
         }

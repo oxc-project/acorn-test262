@@ -34,7 +34,7 @@
                 "raw": "/es$/mg",
                 "regex": {
                   "pattern": "es$",
-                  "flags": "mg"
+                  "flags": "gm"
                 }
               },
               "property": {

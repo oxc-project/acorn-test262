@@ -73,8 +73,11 @@ for await (const p of walk("./test262/test")) {
 console.log("Done.");
 
 // Replace `RegExp`s and `BigInt`s with `null`.
+//
 // Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
 // which will be replaced in JSON with `1e+400`.
+//
+// Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
 //
 // Ensure `ExportNamedDeclaration` always has an `attributes` property.
 // https://github.com/acornjs/acorn/pull/1346
@@ -84,19 +87,18 @@ console.log("Done.");
 function transformer(_key, value) {
   if (typeof value === "bigint") return null;
   if (value === Infinity) return INFINITY_PLACEHOLDER;
-  if (typeof value === "object" && value !== null) {
-    if (value instanceof RegExp) return null;
-
-    if (Object.hasOwn(value, "type")) {
-      if (value.type === "ExportNamedDeclaration") {
-        if (!Object.hasOwn(value, "attributes")) value.attributes = [];
-      } else if (value.type === "Property") {
-        if (Object.keys(value)[8] !== "kind") {
-          const kind = value.kind;
-          delete value.kind;
-          value.kind = kind;
-        }
+  if (typeof value === "object" && value !== null && Object.hasOwn(value, "type")) {
+    if (value.type === "ExportNamedDeclaration") {
+      if (!Object.hasOwn(value, "attributes")) value.attributes = [];
+    } else if (value.type === "Property") {
+      if (Object.keys(value)[8] !== "kind") {
+        const kind = value.kind;
+        delete value.kind;
+        value.kind = kind;
       }
+    } else if (value.type === "Literal" && Object.hasOwn(value, "regex")) {
+      value.regex.flags = [...value.regex.flags].sort().join("");
+      value.value = null;
     }
   }
   return value;

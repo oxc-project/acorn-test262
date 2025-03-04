@@ -79,7 +79,7 @@
         "raw": "/(?-si:)/si",
         "regex": {
           "pattern": "(?-si:)",
-          "flags": "si"
+          "flags": "is"
         }
       }
     },
@@ -95,7 +95,7 @@
         "raw": "/(?-sm:)/sm",
         "regex": {
           "pattern": "(?-sm:)",
-          "flags": "sm"
+          "flags": "ms"
         }
       }
     },
@@ -127,7 +127,7 @@
         "raw": "/(?-mi:)/mi",
         "regex": {
           "pattern": "(?-mi:)",
-          "flags": "mi"
+          "flags": "im"
         }
       }
     },
@@ -175,7 +175,7 @@
         "raw": "/(?-ism:)/ism",
         "regex": {
           "pattern": "(?-ism:)",
-          "flags": "ism"
+          "flags": "ims"
         }
       }
     },
@@ -191,7 +191,7 @@
         "raw": "/(?-sim:)/sim",
         "regex": {
           "pattern": "(?-sim:)",
-          "flags": "sim"
+          "flags": "ims"
         }
       }
     },
@@ -207,7 +207,7 @@
         "raw": "/(?-smi:)/smi",
         "regex": {
           "pattern": "(?-smi:)",
-          "flags": "smi"
+          "flags": "ims"
         }
       }
     },
@@ -223,7 +223,7 @@
         "raw": "/(?-mis:)/mis",
         "regex": {
           "pattern": "(?-mis:)",
-          "flags": "mis"
+          "flags": "ims"
         }
       }
     },
@@ -239,7 +239,7 @@
         "raw": "/(?-msi:)/msi",
         "regex": {
           "pattern": "(?-msi:)",
-          "flags": "msi"
+          "flags": "ims"
         }
       }
     },

@@ -20,6 +20,8 @@ Files producing the following errors are ignored:
 `RegExp`s and `BigInt`s are serialized as `null`, because JSON does not support `BigInt`s, and
 serializes `RegExp`s as `{}` (not useful).
 
+`Literal`s which are RegExps have `regex.flags` property sorted in alphabetical order, the way V8 does.
+
 `Literal` nodes which are `BigInt`s have a `bigint` field containing the `BigInt`'s value as a string.
 Similarly, `Literal` nodes which are `RegExp`s have a `regex` field containing `pattern` and `flags`.
 So in both cases, the `BigInt` / `RegExp` can be reconstructed from this extra data.

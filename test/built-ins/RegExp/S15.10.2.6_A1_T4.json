@@ -34,7 +34,7 @@
                 "raw": "/[^e]$/mg",
                 "regex": {
                   "pattern": "[^e]$",
-                  "flags": "mg"
+                  "flags": "gm"
                 }
               },
               "property": {

@@ -62,7 +62,7 @@
                           "raw": "/1?1/mig",
                           "regex": {
                             "pattern": "1?1",
-                            "flags": "mig"
+                            "flags": "gim"
                           }
                         },
                         {

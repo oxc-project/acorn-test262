@@ -52,7 +52,7 @@
             "raw": "/^.$/um",
             "regex": {
               "pattern": "^.$",
-              "flags": "um"
+              "flags": "mu"
             }
           }
         ]

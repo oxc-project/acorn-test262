@@ -60,7 +60,7 @@
                 "raw": "/[a-z]+/ig",
                 "regex": {
                   "pattern": "[a-z]+",
-                  "flags": "ig"
+                  "flags": "gi"
                 }
               },
               "property": {

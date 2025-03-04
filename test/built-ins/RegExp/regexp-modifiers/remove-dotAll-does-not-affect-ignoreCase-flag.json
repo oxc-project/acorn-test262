@@ -317,7 +317,7 @@
             "raw": "/(?-s:.es)/si",
             "regex": {
               "pattern": "(?-s:.es)",
-              "flags": "si"
+              "flags": "is"
             }
           }
         }

@@ -34,7 +34,7 @@
                 "raw": "/^|\\udf06/ug",
                 "regex": {
                   "pattern": "^|\\udf06",
-                  "flags": "ug"
+                  "flags": "gu"
                 }
               },
               "property": {

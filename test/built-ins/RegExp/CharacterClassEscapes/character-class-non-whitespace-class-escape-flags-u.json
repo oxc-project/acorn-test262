@@ -382,7 +382,7 @@
             "raw": "/\\S/ug",
             "regex": {
               "pattern": "\\S",
-              "flags": "ug"
+              "flags": "gu"
             }
           }
         }

@@ -52,7 +52,7 @@
             "raw": "/^.$/sm",
             "regex": {
               "pattern": "^.$",
-              "flags": "sm"
+              "flags": "ms"
             }
           }
         ]

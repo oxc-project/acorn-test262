@@ -52,7 +52,7 @@
             "raw": "/^.$/sum",
             "regex": {
               "pattern": "^.$",
-              "flags": "sum"
+              "flags": "msu"
             }
           }
         ]

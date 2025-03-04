@@ -52,7 +52,7 @@
             "raw": "/([a-z]+)([0-9]+)/ig",
             "regex": {
               "pattern": "([a-z]+)([0-9]+)",
-              "flags": "ig"
+              "flags": "gi"
             }
           }
         }

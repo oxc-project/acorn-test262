@@ -34,7 +34,7 @@
                 "raw": "/a/yg",
                 "regex": {
                   "pattern": "a",
-                  "flags": "yg"
+                  "flags": "gy"
                 }
               },
               "property": {

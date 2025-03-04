@@ -26,7 +26,7 @@
             "raw": "/(?-i:\\P{Lu})/ui",
             "regex": {
               "pattern": "(?-i:\\P{Lu})",
-              "flags": "ui"
+              "flags": "iu"
             }
           }
         }

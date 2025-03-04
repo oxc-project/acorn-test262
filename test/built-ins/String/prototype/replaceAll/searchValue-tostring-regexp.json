@@ -735,7 +735,7 @@
           "raw": "/./iyg",
           "regex": {
             "pattern": ".",
-            "flags": "iyg"
+            "flags": "giy"
           }
         }
       }

@@ -58,7 +58,7 @@
           "raw": "/abc/ig",
           "regex": {
             "pattern": "abc",
-            "flags": "ig"
+            "flags": "gi"
           }
         }
       }

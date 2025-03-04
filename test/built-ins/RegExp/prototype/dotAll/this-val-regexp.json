@@ -533,7 +533,7 @@
               "raw": "/./sg",
               "regex": {
                 "pattern": ".",
-                "flags": "sg"
+                "flags": "gs"
               }
             },
             "property": {

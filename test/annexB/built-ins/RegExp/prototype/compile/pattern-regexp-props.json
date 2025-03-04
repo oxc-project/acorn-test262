@@ -56,7 +56,7 @@
             "raw": "/def/mig",
             "regex": {
               "pattern": "def",
-              "flags": "mig"
+              "flags": "gim"
             }
           }
         }

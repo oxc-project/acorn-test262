@@ -180,7 +180,7 @@
             "raw": "/\\w/ug",
             "regex": {
               "pattern": "\\w",
-              "flags": "ug"
+              "flags": "gu"
             }
           }
         }

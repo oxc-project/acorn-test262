@@ -421,7 +421,7 @@
               "raw": "/./ug",
               "regex": {
                 "pattern": ".",
-                "flags": "ug"
+                "flags": "gu"
               }
             },
             "property": {
@@ -484,7 +484,7 @@
               "raw": "/./iug",
               "regex": {
                 "pattern": ".",
-                "flags": "iug"
+                "flags": "giu"
               }
             },
             "property": {

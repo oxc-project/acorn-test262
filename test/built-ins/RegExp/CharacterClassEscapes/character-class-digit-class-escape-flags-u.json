@@ -130,7 +130,7 @@
             "raw": "/\\d/ug",
             "regex": {
               "pattern": "\\d",
-              "flags": "ug"
+              "flags": "gu"
             }
           }
         }
