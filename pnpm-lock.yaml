@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       acorn:
-        specifier: 8.14.0
-        version: 8.14.0
+        specifier: 8.14.1
+        version: 8.14.1
       degit:
         specifier: ^2.8.4
         version: 2.8.4
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  acorn@8.14.0:
-    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
+  acorn@8.14.1:
+    resolution: {integrity: sha512-OvQ/2pUDKmgfCg++xsTX1wGxfTaszcHVcTctW4UJB4hibJx2HXxxO5UmVgyjMa+ZDsiaf5wWLXYpRWMmBI0QHg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -37,7 +37,7 @@ packages:
 
 snapshots:
 
-  acorn@8.14.0: {}
+  acorn@8.14.1: {}
 
   degit@2.8.4: {}
 

@@ -10,7 +10,7 @@
     "start": "node ./index.mjs"
   },
   "devDependencies": {
-    "acorn": "8.14.0",
+    "acorn": "8.14.1",
     "degit": "^2.8.4",
     "yaml": "^2.7.0"
   }
