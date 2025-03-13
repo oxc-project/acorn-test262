@@ -1,0 +1,1 @@
+<A>foo&rbrace;</A>

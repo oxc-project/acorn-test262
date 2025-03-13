@@ -37,6 +37,10 @@ A non-standard `hashbang` field is added to `Program`.
 pnpm run init
 pnpm run start
 git commit -m "update snapshots"
+
+# For acorn-jsx test suites
+pnpm run init-acorn-jsx
+node acorn-jsx.js
 ```
 
 [acorn]: https://github.com/acornjs/acorn
