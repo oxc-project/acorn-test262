@@ -1,0 +1,101 @@
+{
+  "type": "Program",
+  "start": 0,
+  "end": 27,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 27,
+      "expression": {
+        "type": "JSXElement",
+        "start": 0,
+        "end": 27,
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "start": 0,
+          "end": 27,
+          "attributes": [
+            {
+              "type": "JSXAttribute",
+              "start": 3,
+              "end": 24,
+              "name": {
+                "type": "JSXIdentifier",
+                "start": 3,
+                "end": 4,
+                "name": "b"
+              },
+              "value": {
+                "type": "JSXExpressionContainer",
+                "start": 5,
+                "end": 24,
+                "expression": {
+                  "type": "ConditionalExpression",
+                  "start": 6,
+                  "end": 23,
+                  "test": {
+                    "type": "Identifier",
+                    "start": 6,
+                    "end": 7,
+                    "name": "x"
+                  },
+                  "consequent": {
+                    "type": "JSXElement",
+                    "start": 10,
+                    "end": 15,
+                    "openingElement": {
+                      "type": "JSXOpeningElement",
+                      "start": 10,
+                      "end": 15,
+                      "attributes": [],
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 11,
+                        "end": 12,
+                        "name": "c"
+                      },
+                      "selfClosing": true
+                    },
+                    "closingElement": null,
+                    "children": []
+                  },
+                  "alternate": {
+                    "type": "JSXElement",
+                    "start": 18,
+                    "end": 23,
+                    "openingElement": {
+                      "type": "JSXOpeningElement",
+                      "start": 18,
+                      "end": 23,
+                      "attributes": [],
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "start": 19,
+                        "end": 20,
+                        "name": "d"
+                      },
+                      "selfClosing": true
+                    },
+                    "closingElement": null,
+                    "children": []
+                  }
+                }
+              }
+            }
+          ],
+          "name": {
+            "type": "JSXIdentifier",
+            "start": 1,
+            "end": 2,
+            "name": "a"
+          },
+          "selfClosing": true
+        },
+        "closingElement": null,
+        "children": []
+      }
+    }
+  ],
+  "sourceType": "module"
+}

@@ -5,6 +5,8 @@
     "binaryExpression.operatorPosition": "sameLine"
   },
   "excludes": [
+    "acorn-jsx",
+    "test-acorn-jsx",
     "test",
     "test262"
   ],
