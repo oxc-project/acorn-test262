@@ -40,7 +40,7 @@ git commit -m "update snapshots"
 
 # For acorn-jsx test suites
 pnpm run init-acorn-jsx
-node acorn-jsx.mjs
+node acorn-jsx.js
 ```
 
 [acorn]: https://github.com/acornjs/acorn

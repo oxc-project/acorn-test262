@@ -41,6 +41,7 @@ async function main() {
         allowHashBang: true,
         allowReturnOutsideFunction: true,
       });
+      ast.hashbang = null;
       result = { ok: true, value: JSON.stringify(ast, null, 2) };
     } catch (e) {
       result = { ok: false, value: JSON.stringify(e.message) };
