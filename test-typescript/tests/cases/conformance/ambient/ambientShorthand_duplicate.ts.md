@@ -2,62 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    22
-  ],
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 21,
       "kind": "module",
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 15,
+        "end": 20,
         "raw": "\"foo\"",
-        "value": "foo",
-        "range": [
-          15,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        21
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "foo"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -65,62 +29,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    22
-  ],
+  "start": 0,
+  "end": 22,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 21,
       "kind": "module",
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 15,
+        "end": 20,
         "raw": "\"foo\"",
-        "value": "foo",
-        "range": [
-          15,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        21
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "foo"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -128,100 +56,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    86,
-    109
-  ],
+  "start": 86,
+  "end": 109,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 86,
+      "end": 108,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 102,
+        "end": 107,
         "raw": "\"foo\"",
-        "value": "foo",
-        "range": [
-          102,
-          107
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 3
-          },
-          "start": {
-            "column": 16,
-            "line": 3
-          }
-        }
+        "value": "foo"
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "range": [
-            93,
-            96
-          ],
+          "start": 93,
+          "end": 96,
           "local": {
             "type": "Identifier",
+            "start": 93,
+            "end": 96,
             "decorators": [],
             "name": "foo",
-            "optional": false,
-            "range": [
-              93,
-              96
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 3
-              },
-              "start": {
-                "column": 7,
-                "line": 3
-              }
-            }
-          },
-          "loc": {
-            "end": {
-              "column": 10,
-              "line": 3
-            },
-            "start": {
-              "column": 7,
-              "line": 3
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        86,
-        108
-      ],
-      "loc": {
-        "end": {
-          "column": 22,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      ]
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```

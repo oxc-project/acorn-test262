@@ -2,138 +2,54 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    129
-  ],
+  "start": 0,
+  "end": 129,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 15,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 6,
+          "end": 15,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 6,
+            "end": 10,
             "decorators": [],
             "name": "Home",
-            "optional": false,
-            "range": [
-              6,
-              10
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 1
-              },
-              "start": {
-                "column": 6,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
-            "properties": [],
-            "range": [
-              13,
-              15
-            ],
-            "loc": {
-              "end": {
-                "column": 15,
-                "line": 1
-              },
-              "start": {
-                "column": 13,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            6,
-            15
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 1
-            },
-            "start": {
-              "column": 6,
-              "line": 1
-            }
+            "start": 13,
+            "end": 15,
+            "properties": []
           }
         }
       ],
       "declare": false,
-      "kind": "const",
-      "range": [
-        0,
-        15
-      ],
-      "loc": {
-        "end": {
-          "column": 15,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "const"
     },
     {
       "type": "ExportDefaultDeclaration",
+      "start": 17,
+      "end": 36,
       "declaration": {
         "type": "Identifier",
+        "start": 32,
+        "end": 36,
         "decorators": [],
         "name": "Home",
-        "optional": false,
-        "range": [
-          32,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 3
-          },
-          "start": {
-            "column": 15,
-            "line": 3
-          }
-        }
+        "optional": false
       },
-      "exportKind": "value",
-      "range": [
-        17,
-        36
-      ],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 92,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

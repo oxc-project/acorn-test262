@@ -2,53 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    38
-  ],
+  "start": 0,
+  "end": 38,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        37
-      ],
+      "start": 0,
+      "end": 37,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 7,
+        "end": 37,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            17,
-            37
-          ],
+          "start": 17,
+          "end": 37,
           "body": [
             {
               "type": "PropertyDefinition",
+              "start": 23,
+              "end": 35,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
+                "start": 23,
+                "end": 26,
                 "decorators": [],
                 "name": "foo",
-                "optional": false,
-                "range": [
-                  23,
-                  26
-                ],
-                "loc": {
-                  "end": {
-                    "column": 7,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 4,
-                    "line": 2
-                  }
-                }
+                "optional": false
               },
               "optional": false,
               "override": false,
@@ -56,131 +42,37 @@ __ESTREE_TEST__:PASS:
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "loc": {
-                  "end": {
-                    "column": 15,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 7,
-                    "line": 2
-                  }
-                },
-                "range": [
-                  26,
-                  34
-                ],
+                "start": 26,
+                "end": 34,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "range": [
-                    28,
-                    34
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 15,
-                      "line": 2
-                    },
-                    "start": {
-                      "column": 9,
-                      "line": 2
-                    }
-                  }
+                  "start": 28,
+                  "end": 34
                 }
               },
-              "value": null,
-              "range": [
-                23,
-                35
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
+              "value": null
             }
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 3
-            },
-            "start": {
-              "column": 17,
-              "line": 1
-            }
-          }
+          ]
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 13,
+          "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false,
-          "range": [
-            13,
-            16
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 1
-            },
-            "start": {
-              "column": 13,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          7,
-          37
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

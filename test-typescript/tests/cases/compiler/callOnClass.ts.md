@@ -2,181 +2,73 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    27
-  ],
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 11,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          8,
-          11
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
+        "start": 8,
+        "end": 11,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        11
-      ],
-      "loc": {
-        "end": {
-          "column": 11,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     },
     {
       "type": "VariableDeclaration",
+      "start": 12,
+      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 16,
+          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 16,
+            "end": 17,
             "decorators": [],
             "name": "c",
-            "optional": false,
-            "range": [
-              16,
-              17
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "CallExpression",
+            "start": 20,
+            "end": 23,
             "arguments": [],
             "callee": {
               "type": "Identifier",
+              "start": 20,
+              "end": 21,
               "decorators": [],
               "name": "C",
-              "optional": false,
-              "range": [
-                20,
-                21
-              ],
-              "loc": {
-                "end": {
-                  "column": 9,
-                  "line": 2
-                },
-                "start": {
-                  "column": 8,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "optional": false,
-            "range": [
-              20,
-              23
-            ],
-            "loc": {
-              "end": {
-                "column": 11,
-                "line": 2
-              },
-              "start": {
-                "column": 8,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            16,
-            23
-          ],
-          "loc": {
-            "end": {
-              "column": 11,
-              "line": 2
-            },
-            "start": {
-              "column": 4,
-              "line": 2
-            }
+            "optional": false
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        12,
-        24
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "kind": "var"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

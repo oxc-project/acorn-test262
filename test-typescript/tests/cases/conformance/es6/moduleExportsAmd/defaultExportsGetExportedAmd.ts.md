@@ -2,101 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    28
-  ],
+  "start": 0,
+  "end": 28,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "range": [
-        0,
-        27
-      ],
+      "start": 0,
+      "end": 27,
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 15,
+        "end": 27,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            25,
-            27
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 27,
-              "line": 1
-            },
-            "start": {
-              "column": 25,
-              "line": 1
-            }
-          }
+          "start": 25,
+          "end": 27,
+          "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 21,
+          "end": 24,
           "decorators": [],
           "name": "Foo",
-          "optional": false,
-          "range": [
-            21,
-            24
-          ],
-          "loc": {
-            "end": {
-              "column": 24,
-              "line": 1
-            },
-            "start": {
-              "column": 21,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          15,
-          27
-        ],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
-      "exportKind": "value",
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -104,101 +44,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    33
-  ],
+  "start": 0,
+  "end": 33,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "range": [
-        0,
-        32
-      ],
+      "start": 0,
+      "end": 32,
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 15,
+        "end": 32,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "body": [],
-          "range": [
-            30,
-            32
-          ],
-          "loc": {
-            "end": {
-              "column": 32,
-              "line": 1
-            },
-            "start": {
-              "column": 30,
-              "line": 1
-            }
-          }
+          "start": 30,
+          "end": 32,
+          "body": []
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 24,
+          "end": 27,
           "decorators": [],
           "name": "foo",
-          "optional": false,
-          "range": [
-            24,
-            27
-          ],
-          "loc": {
-            "end": {
-              "column": 27,
-              "line": 1
-            },
-            "start": {
-              "column": 24,
-              "line": 1
-            }
-          }
+          "optional": false
         },
-        "params": [],
-        "range": [
-          15,
-          32
-        ],
-        "loc": {
-          "end": {
-            "column": 32,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "params": []
       },
-      "exportKind": "value",
-      "loc": {
-        "end": {
-          "column": 32,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

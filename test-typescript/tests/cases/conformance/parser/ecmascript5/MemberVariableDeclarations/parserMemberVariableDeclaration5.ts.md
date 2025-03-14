@@ -2,130 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    26
-  ],
+  "start": 0,
+  "end": 26,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 26,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          8,
-          26
-        ],
+        "start": 8,
+        "end": 26,
         "body": [
           {
             "type": "PropertyDefinition",
+            "start": 12,
+            "end": 24,
             "computed": false,
             "declare": true,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
+              "start": 20,
+              "end": 23,
               "decorators": [],
               "name": "Foo",
-              "optional": false,
-              "range": [
-                20,
-                23
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 2
-                },
-                "start": {
-                  "column": 10,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
-            "value": null,
-            "range": [
-              12,
-              24
-            ],
-            "loc": {
-              "end": {
-                "column": 14,
-                "line": 2
-              },
-              "start": {
-                "column": 2,
-                "line": 2
-              }
-            }
+            "value": null
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        26
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,120 +2,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    23
-  ],
+  "start": 0,
+  "end": 23,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 9,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          7,
-          9
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "start": 7,
+        "end": 9,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "x",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     },
     {
       "type": "TSExportAssignment",
+      "start": 10,
+      "end": 21,
       "expression": {
         "type": "Identifier",
+        "start": 19,
+        "end": 20,
         "decorators": [],
         "name": "x",
-        "optional": false,
-        "range": [
-          19,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 2
-          },
-          "start": {
-            "column": 9,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        10,
-        21
-      ],
-      "loc": {
-        "end": {
-          "column": 11,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -123,112 +51,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    59
-  ],
+  "start": 0,
+  "end": 59,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 32,
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 11,
         "decorators": [],
         "name": "foo1",
-        "optional": false,
-        "range": [
-          7,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 14,
+        "end": 31,
         "expression": {
           "type": "Literal",
+          "start": 22,
+          "end": 30,
           "raw": "'./foo1'",
-          "value": "./foo1",
-          "range": [
-            22,
-            30
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 1
-            },
-            "start": {
-              "column": 22,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          14,
-          31
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 1
-          },
-          "start": {
-            "column": 14,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        32
-      ],
-      "loc": {
-        "end": {
-          "column": 32,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": "./foo1"
         }
       }
     },
     {
       "type": "TSExportAssignment",
+      "start": 34,
+      "end": 58,
       "expression": {
         "type": "ObjectExpression",
+        "start": 43,
+        "end": 58,
         "properties": [
           {
             "type": "Property",
+            "start": 49,
+            "end": 56,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 49,
+              "end": 50,
               "decorators": [],
               "name": "x",
-              "optional": false,
-              "range": [
-                49,
-                50
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 4,
-                  "line": 4
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -236,82 +108,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Identifier",
+              "start": 52,
+              "end": 56,
               "decorators": [],
               "name": "foo1",
-              "optional": false,
-              "range": [
-                52,
-                56
-              ],
-              "loc": {
-                "end": {
-                  "column": 11,
-                  "line": 4
-                },
-                "start": {
-                  "column": 7,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              49,
-              56
-            ],
-            "loc": {
-              "end": {
-                "column": 11,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 4
-              }
+              "optional": false
             }
           }
-        ],
-        "range": [
-          43,
-          58
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 9,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        34,
-        58
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        ]
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -319,215 +127,83 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    59
-  ],
+  "start": 0,
+  "end": 59,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 31,
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 11,
         "decorators": [],
         "name": "foo2",
-        "optional": false,
-        "range": [
-          7,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 14,
+        "end": 31,
         "expression": {
           "type": "Literal",
+          "start": 22,
+          "end": 30,
           "raw": "'./foo2'",
-          "value": "./foo2",
-          "range": [
-            22,
-            30
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 1
-            },
-            "start": {
-              "column": 22,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          14,
-          31
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 1
-          },
-          "start": {
-            "column": 14,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        31
-      ],
-      "loc": {
-        "end": {
-          "column": 31,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": "./foo2"
         }
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 32,
+      "end": 57,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          55,
-          57
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 2
-          },
-          "start": {
-            "column": 23,
-            "line": 2
-          }
-        }
+        "start": 55,
+        "end": 57,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 38,
+        "end": 39,
         "decorators": [],
         "name": "x",
-        "optional": false,
-        "range": [
-          38,
-          39
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 2
-          },
-          "start": {
-            "column": 6,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "MemberExpression",
+        "start": 48,
+        "end": 54,
         "computed": false,
         "object": {
           "type": "Identifier",
+          "start": 48,
+          "end": 52,
           "decorators": [],
           "name": "foo2",
-          "optional": false,
-          "range": [
-            48,
-            52
-          ],
-          "loc": {
-            "end": {
-              "column": 20,
-              "line": 2
-            },
-            "start": {
-              "column": 16,
-              "line": 2
-            }
-          }
+          "optional": false
         },
         "optional": false,
         "property": {
           "type": "Identifier",
+          "start": 53,
+          "end": 54,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            53,
-            54
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 2
-            },
-            "start": {
-              "column": 21,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          48,
-          54
-        ],
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 2
-          },
-          "start": {
-            "column": 16,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        32,
-        57
-      ],
-      "loc": {
-        "end": {
-          "column": 25,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
+          "optional": false
         }
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

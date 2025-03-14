@@ -2,160 +2,64 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    24
-  ],
+  "start": 0,
+  "end": 24,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 24,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          21,
-          24
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 1
-          },
-          "start": {
-            "column": 21,
-            "line": 1
-          }
-        }
+        "start": 21,
+        "end": 24,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "y",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        },
-        "range": [
-          7,
-          21
-        ],
+        "start": 7,
+        "end": 21,
         "params": [
           {
             "type": "TSTypeParameter",
+            "start": 8,
+            "end": 20,
             "const": false,
             "constraint": {
               "type": "TSTypeLiteral",
-              "members": [],
-              "range": [
-                18,
-                20
-              ],
-              "loc": {
-                "end": {
-                  "column": 20,
-                  "line": 1
-                },
-                "start": {
-                  "column": 18,
-                  "line": 1
-                }
-              }
+              "start": 18,
+              "end": 20,
+              "members": []
             },
             "in": false,
             "name": {
               "type": "Identifier",
+              "start": 8,
+              "end": 9,
               "decorators": [],
               "name": "T",
-              "optional": false,
-              "range": [
-                8,
-                9
-              ],
-              "loc": {
-                "end": {
-                  "column": 9,
-                  "line": 1
-                },
-                "start": {
-                  "column": 8,
-                  "line": 1
-                }
-              }
+              "optional": false
             },
-            "out": false,
-            "range": [
-              8,
-              20
-            ],
-            "loc": {
-              "end": {
-                "column": 20,
-                "line": 1
-              },
-              "start": {
-                "column": 8,
-                "line": 1
-              }
-            }
+            "out": false
           }
         ]
-      },
-      "range": [
-        0,
-        24
-      ],
-      "loc": {
-        "end": {
-          "column": 24,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 24,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

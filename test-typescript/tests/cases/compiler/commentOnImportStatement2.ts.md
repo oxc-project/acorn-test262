@@ -2,97 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    20,
-    50
-  ],
+  "start": 20,
+  "end": 50,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 20,
+      "end": 50,
       "id": {
         "type": "Identifier",
+        "start": 27,
+        "end": 30,
         "decorators": [],
         "name": "foo",
-        "optional": false,
-        "range": [
-          27,
-          30
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 33,
+        "end": 49,
         "expression": {
           "type": "Literal",
+          "start": 41,
+          "end": 48,
           "raw": "'./foo'",
-          "value": "./foo",
-          "range": [
-            41,
-            48
-          ],
-          "loc": {
-            "end": {
-              "column": 28,
-              "line": 2
-            },
-            "start": {
-              "column": 21,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          33,
-          49
-        ],
-        "loc": {
-          "end": {
-            "column": 29,
-            "line": 2
-          },
-          "start": {
-            "column": 13,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        20,
-        50
-      ],
-      "loc": {
-        "end": {
-          "column": 30,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
+          "value": "./foo"
         }
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 30,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,83 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    12
-  ],
+  "start": 0,
+  "end": 12,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 11,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          8,
-          11
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
+        "start": 8,
+        "end": 11,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "c",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        11
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -86,83 +38,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    26,
-    38
-  ],
+  "start": 26,
+  "end": 38,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 26,
+      "end": 37,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          34,
-          37
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 8,
-            "line": 2
-          }
-        }
+        "start": 34,
+        "end": 37,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 32,
+        "end": 33,
         "decorators": [],
         "name": "d",
-        "optional": false,
-        "range": [
-          32,
-          33
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 2
-          },
-          "start": {
-            "column": 6,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        26,
-        37
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

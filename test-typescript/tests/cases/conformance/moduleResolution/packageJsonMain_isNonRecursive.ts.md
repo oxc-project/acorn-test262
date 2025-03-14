@@ -2,97 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    29
-  ],
+  "start": 0,
+  "end": 29,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 28,
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 10,
         "decorators": [],
         "name": "foo",
-        "optional": false,
-        "range": [
-          7,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 13,
+        "end": 27,
         "expression": {
           "type": "Literal",
+          "start": 21,
+          "end": 26,
           "raw": "\"foo\"",
-          "value": "foo",
-          "range": [
-            21,
-            26
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 1
-            },
-            "start": {
-              "column": 21,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          13,
-          27
-        ],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 1
-          },
-          "start": {
-            "column": 13,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        28
-      ],
-      "loc": {
-        "end": {
-          "column": 28,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": "foo"
         }
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

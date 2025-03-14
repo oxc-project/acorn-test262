@@ -2,266 +2,110 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    91
-  ],
+  "start": 0,
+  "end": 91,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        34
-      ],
+      "start": 0,
+      "end": 34,
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 7,
+        "end": 34,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "body": [],
-          "range": [
-            32,
-            34
-          ],
-          "loc": {
-            "end": {
-              "column": 34,
-              "line": 1
-            },
-            "start": {
-              "column": 32,
-              "line": 1
-            }
-          }
+          "start": 32,
+          "end": 34,
+          "body": []
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 16,
+          "end": 29,
           "decorators": [],
           "name": "createElement",
-          "optional": false,
-          "range": [
-            16,
-            29
-          ],
-          "loc": {
-            "end": {
-              "column": 29,
-              "line": 1
-            },
-            "start": {
-              "column": 16,
-              "line": 1
-            }
-          }
+          "optional": false
         },
-        "params": [],
-        "range": [
-          7,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 34,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "params": []
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 34,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        35,
-        60
-      ],
+      "start": 35,
+      "end": 60,
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 42,
+        "end": 60,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "body": [],
-          "range": [
-            58,
-            60
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 2
-            },
-            "start": {
-              "column": 23,
-              "line": 2
-            }
-          }
+          "start": 58,
+          "end": 60,
+          "body": []
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 51,
+          "end": 55,
           "decorators": [],
           "name": "lazy",
-          "optional": false,
-          "range": [
-            51,
-            55
-          ],
-          "loc": {
-            "end": {
-              "column": 20,
-              "line": 2
-            },
-            "start": {
-              "column": 16,
-              "line": 2
-            }
-          }
+          "optional": false
         },
-        "params": [],
-        "range": [
-          42,
-          60
-        ],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "params": []
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 25,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        61,
-        90
-      ],
+      "start": 61,
+      "end": 90,
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 68,
+        "end": 90,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "body": [],
-          "range": [
-            88,
-            90
-          ],
-          "loc": {
-            "end": {
-              "column": 29,
-              "line": 3
-            },
-            "start": {
-              "column": 27,
-              "line": 3
-            }
-          }
+          "start": 88,
+          "end": 90,
+          "body": []
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 77,
+          "end": 85,
           "decorators": [],
           "name": "useState",
-          "optional": false,
-          "range": [
-            77,
-            85
-          ],
-          "loc": {
-            "end": {
-              "column": 24,
-              "line": 3
-            },
-            "start": {
-              "column": 16,
-              "line": 3
-            }
-          }
+          "optional": false
         },
-        "params": [],
-        "range": [
-          68,
-          90
-        ],
-        "loc": {
-          "end": {
-            "column": 29,
-            "line": 3
-          },
-          "start": {
-            "column": 7,
-            "line": 3
-          }
-        }
+        "params": []
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 29,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -269,118 +113,46 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    45
-  ],
+  "start": 0,
+  "end": 45,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        44
-      ],
+      "start": 0,
+      "end": 44,
       "attributes": [],
       "declaration": {
         "type": "TSImportEqualsDeclaration",
+        "start": 7,
+        "end": 44,
         "id": {
           "type": "Identifier",
+          "start": 14,
+          "end": 19,
           "decorators": [],
           "name": "React",
-          "optional": false,
-          "range": [
-            14,
-            19
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 1
-            },
-            "start": {
-              "column": 14,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "importKind": "value",
         "moduleReference": {
           "type": "TSExternalModuleReference",
+          "start": 22,
+          "end": 43,
           "expression": {
             "type": "Literal",
+            "start": 30,
+            "end": 42,
             "raw": "\"./react.js\"",
-            "value": "./react.js",
-            "range": [
-              30,
-              42
-            ],
-            "loc": {
-              "end": {
-                "column": 42,
-                "line": 1
-              },
-              "start": {
-                "column": 30,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            22,
-            43
-          ],
-          "loc": {
-            "end": {
-              "column": 43,
-              "line": 1
-            },
-            "start": {
-              "column": 22,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          44
-        ],
-        "loc": {
-          "end": {
-            "column": 44,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
+            "value": "./react.js"
           }
         }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 44,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,221 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    82
-  ],
+  "start": 0,
+  "end": 82,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 81,
       "body": {
         "type": "TSModuleBlock",
+        "start": 21,
+        "end": 81,
         "body": [
           {
             "type": "ClassDeclaration",
+            "start": 25,
+            "end": 59,
             "abstract": false,
             "body": {
               "type": "ClassBody",
-              "range": [
-                56,
-                59
-              ],
-              "body": [],
-              "loc": {
-                "end": {
-                  "column": 36,
-                  "line": 2
-                },
-                "start": {
-                  "column": 33,
-                  "line": 2
-                }
-              }
+              "start": 56,
+              "end": 59,
+              "body": []
             },
             "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "start": 31,
+              "end": 39,
               "decorators": [],
               "name": "SecondNS",
-              "optional": false,
-              "range": [
-                31,
-                39
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 2
-                },
-                "start": {
-                  "column": 8,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "implements": [],
             "superClass": {
               "type": "Identifier",
+              "start": 48,
+              "end": 55,
               "decorators": [],
               "name": "FirstNS",
-              "optional": false,
-              "range": [
-                48,
-                55
-              ],
-              "loc": {
-                "end": {
-                  "column": 32,
-                  "line": 2
-                },
-                "start": {
-                  "column": 25,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              25,
-              59
-            ],
-            "loc": {
-              "end": {
-                "column": 36,
-                "line": 2
-              },
-              "start": {
-                "column": 2,
-                "line": 2
-              }
+              "optional": false
             }
           },
           {
             "type": "ClassDeclaration",
+            "start": 62,
+            "end": 79,
             "abstract": false,
             "body": {
               "type": "ClassBody",
-              "range": [
-                76,
-                79
-              ],
-              "body": [],
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 3
-                },
-                "start": {
-                  "column": 16,
-                  "line": 3
-                }
-              }
+              "start": 76,
+              "end": 79,
+              "body": []
             },
             "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "start": 68,
+              "end": 75,
               "decorators": [],
               "name": "FirstNS",
-              "optional": false,
-              "range": [
-                68,
-                75
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 3
-                },
-                "start": {
-                  "column": 8,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
             "implements": [],
-            "superClass": null,
-            "range": [
-              62,
-              79
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 3
-              },
-              "start": {
-                "column": 2,
-                "line": 3
-              }
-            }
+            "superClass": null
           }
-        ],
-        "range": [
-          21,
-          81
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 21,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          18,
-          20
-        ],
+        "start": 18,
+        "end": 20,
         "decorators": [],
         "name": "ns",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 18,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        0,
-        81
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 5
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

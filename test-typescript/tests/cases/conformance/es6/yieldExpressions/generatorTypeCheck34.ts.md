@@ -2,235 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    76
-  ],
+  "start": 0,
+  "end": 76,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 76,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 14,
+        "end": 76,
         "body": [
           {
             "type": "ExpressionStatement",
+            "start": 20,
+            "end": 28,
             "expression": {
               "type": "YieldExpression",
+              "start": 20,
+              "end": 27,
               "argument": {
                 "type": "Literal",
+                "start": 26,
+                "end": 27,
                 "raw": "0",
-                "value": 0,
-                "range": [
-                  26,
-                  27
-                ],
-                "loc": {
-                  "end": {
-                    "column": 11,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 10,
-                    "line": 2
-                  }
-                }
+                "value": 0
               },
-              "delegate": false,
-              "range": [
-                20,
-                27
-              ],
-              "loc": {
-                "end": {
-                  "column": 11,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              20,
-              28
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "delegate": false
             }
           },
           {
             "type": "FunctionDeclaration",
+            "start": 33,
+            "end": 74,
             "async": false,
             "body": {
               "type": "BlockStatement",
+              "start": 48,
+              "end": 74,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "start": 58,
+                  "end": 68,
                   "argument": {
                     "type": "Literal",
+                    "start": 65,
+                    "end": 67,
                     "raw": "\"\"",
-                    "value": "",
-                    "range": [
-                      65,
-                      67
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 17,
-                        "line": 4
-                      },
-                      "start": {
-                        "column": 15,
-                        "line": 4
-                      }
-                    }
-                  },
-                  "range": [
-                    58,
-                    68
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 18,
-                      "line": 4
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 4
-                    }
+                    "value": ""
                   }
                 }
-              ],
-              "range": [
-                48,
-                74
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 5
-                },
-                "start": {
-                  "column": 19,
-                  "line": 3
-                }
-              }
+              ]
             },
             "declare": false,
             "expression": false,
             "generator": true,
             "id": {
               "type": "Identifier",
+              "start": 43,
+              "end": 45,
               "decorators": [],
               "name": "g2",
-              "optional": false,
-              "range": [
-                43,
-                45
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 3
-                },
-                "start": {
-                  "column": 14,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
-            "params": [],
-            "range": [
-              33,
-              74
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 5
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
-            }
+            "params": []
           }
-        ],
-        "range": [
-          14,
-          76
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 6
-          },
-          "start": {
-            "column": 14,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
+        "start": 10,
+        "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false,
-        "range": [
-          10,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "params": [],
-      "range": [
-        0,
-        76
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "params": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

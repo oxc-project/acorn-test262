@@ -2,141 +2,57 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    31
-  ],
+  "start": 0,
+  "end": 31,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        18
-      ],
+      "start": 0,
+      "end": 18,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 7,
+        "end": 18,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            15,
-            18
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 2
-            },
-            "start": {
-              "column": 15,
-              "line": 1
-            }
-          }
+          "start": 15,
+          "end": 18,
+          "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 13,
+          "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false,
-          "range": [
-            13,
-            14
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 1
-            },
-            "start": {
-              "column": 13,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          7,
-          18
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "TSExportAssignment",
+      "start": 20,
+      "end": 31,
       "expression": {
         "type": "Identifier",
+        "start": 29,
+        "end": 30,
         "decorators": [],
         "name": "B",
-        "optional": false,
-        "range": [
-          29,
-          30
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 4
-          },
-          "start": {
-            "column": 9,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        20,
-        31
-      ],
-      "loc": {
-        "end": {
-          "column": 11,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 11,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,104 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    21
-  ],
+  "start": 0,
+  "end": 21,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 21,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          18,
-          21
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 18,
-            "line": 1
-          }
-        }
+        "start": 18,
+        "end": 21,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 9,
+        "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false,
-        "range": [
-          9,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 11,
+          "end": 16,
           "decorators": [],
           "name": "await",
-          "optional": false,
-          "range": [
-            11,
-            16
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 1
-            },
-            "start": {
-              "column": 11,
-              "line": 1
-            }
-          }
+          "optional": false
         }
-      ],
-      "range": [
-        0,
-        21
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

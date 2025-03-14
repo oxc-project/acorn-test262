@@ -2,83 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    20
-  ],
+  "start": 0,
+  "end": 20,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 20,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          17,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 17,
-            "line": 1
-          }
-        }
+        "start": 17,
+        "end": 20,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
+        "start": 11,
+        "end": 14,
         "decorators": [],
         "name": "foo",
-        "optional": false,
-        "range": [
-          11,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 11,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "params": [],
-      "range": [
-        0,
-        20
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "params": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,221 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    12,
-    60
-  ],
+  "start": 12,
+  "end": 60,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        12,
-        36
-      ],
+      "start": 12,
+      "end": 36,
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
+        "start": 19,
+        "end": 36,
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 25,
+            "end": 35,
             "definite": false,
             "id": {
               "type": "Identifier",
+              "start": 25,
+              "end": 31,
               "decorators": [],
               "name": "COFFEE",
-              "optional": false,
-              "range": [
-                25,
-                31
-              ],
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 3
-                },
-                "start": {
-                  "column": 13,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
             "init": {
               "type": "Literal",
+              "start": 34,
+              "end": 35,
               "raw": "0",
-              "value": 0,
-              "range": [
-                34,
-                35
-              ],
-              "loc": {
-                "end": {
-                  "column": 23,
-                  "line": 3
-                },
-                "start": {
-                  "column": 22,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              25,
-              35
-            ],
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 3
-              },
-              "start": {
-                "column": 13,
-                "line": 3
-              }
+              "value": 0
             }
           }
         ],
         "declare": false,
-        "kind": "const",
-        "range": [
-          19,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 3
-          },
-          "start": {
-            "column": 7,
-            "line": 3
-          }
-        }
+        "kind": "const"
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 24,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        37,
-        58
-      ],
+      "start": 37,
+      "end": 58,
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
+        "start": 44,
+        "end": 58,
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 50,
+            "end": 57,
             "definite": false,
             "id": {
               "type": "Identifier",
+              "start": 50,
+              "end": 53,
               "decorators": [],
               "name": "TEA",
-              "optional": false,
-              "range": [
-                50,
-                53
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 4
-                },
-                "start": {
-                  "column": 13,
-                  "line": 4
-                }
-              }
+              "optional": false
             },
             "init": {
               "type": "Literal",
+              "start": 56,
+              "end": 57,
               "raw": "1",
-              "value": 1,
-              "range": [
-                56,
-                57
-              ],
-              "loc": {
-                "end": {
-                  "column": 20,
-                  "line": 4
-                },
-                "start": {
-                  "column": 19,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              50,
-              57
-            ],
-            "loc": {
-              "end": {
-                "column": 20,
-                "line": 4
-              },
-              "start": {
-                "column": 13,
-                "line": 4
-              }
+              "value": 1
             }
           }
         ],
         "declare": false,
-        "kind": "const",
-        "range": [
-          44,
-          58
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 4
-          },
-          "start": {
-            "column": 7,
-            "line": 4
-          }
-        }
+        "kind": "const"
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```
@@ -224,231 +92,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    66
-  ],
+  "start": 0,
+  "end": 66,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        26
-      ],
+      "start": 0,
+      "end": 26,
       "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
+        "start": 7,
+        "end": 26,
         "declare": false,
         "id": {
           "type": "Identifier",
+          "start": 12,
+          "end": 17,
           "decorators": [],
           "name": "Drink",
-          "optional": false,
-          "range": [
-            12,
-            17
-          ],
-          "loc": {
-            "end": {
-              "column": 17,
-              "line": 1
-            },
-            "start": {
-              "column": 12,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "typeAnnotation": {
           "type": "TSUnionType",
+          "start": 20,
+          "end": 25,
           "types": [
             {
               "type": "TSLiteralType",
+              "start": 20,
+              "end": 21,
               "literal": {
                 "type": "Literal",
+                "start": 20,
+                "end": 21,
                 "raw": "0",
-                "value": 0,
-                "range": [
-                  20,
-                  21
-                ],
-                "loc": {
-                  "end": {
-                    "column": 21,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 20,
-                    "line": 1
-                  }
-                }
-              },
-              "range": [
-                20,
-                21
-              ],
-              "loc": {
-                "end": {
-                  "column": 21,
-                  "line": 1
-                },
-                "start": {
-                  "column": 20,
-                  "line": 1
-                }
+                "value": 0
               }
             },
             {
               "type": "TSLiteralType",
+              "start": 24,
+              "end": 25,
               "literal": {
                 "type": "Literal",
+                "start": 24,
+                "end": 25,
                 "raw": "1",
-                "value": 1,
-                "range": [
-                  24,
-                  25
-                ],
-                "loc": {
-                  "end": {
-                    "column": 25,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 24,
-                    "line": 1
-                  }
-                }
-              },
-              "range": [
-                24,
-                25
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 1
-                },
-                "start": {
-                  "column": 24,
-                  "line": 1
-                }
+                "value": 1
               }
             }
-          ],
-          "range": [
-            20,
-            25
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 1
-            },
-            "start": {
-              "column": 20,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          26
-        ],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
+          ]
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportAllDeclaration",
+      "start": 27,
+      "end": 64,
       "attributes": [],
       "exported": {
         "type": "Identifier",
+        "start": 39,
+        "end": 44,
         "decorators": [],
         "name": "Drink",
-        "optional": false,
-        "range": [
-          39,
-          44
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 2
-          },
-          "start": {
-            "column": 12,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 50,
+        "end": 63,
         "raw": "\"./constants\"",
-        "value": "./constants",
-        "range": [
-          50,
-          63
-        ],
-        "loc": {
-          "end": {
-            "column": 36,
-            "line": 2
-          },
-          "start": {
-            "column": 23,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        27,
-        64
-      ],
-      "loc": {
-        "end": {
-          "column": 37,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "value": "./constants"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -456,293 +180,113 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    129
-  ],
+  "start": 0,
+  "end": 129,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 0,
+      "end": 32,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 22,
+        "end": 31,
         "raw": "\"./drink\"",
-        "value": "./drink",
-        "range": [
-          22,
-          31
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 1
-          },
-          "start": {
-            "column": 22,
-            "line": 1
-          }
-        }
+        "value": "./drink"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "start": 9,
+          "end": 14,
           "imported": {
             "type": "Identifier",
+            "start": 9,
+            "end": 14,
             "decorators": [],
             "name": "Drink",
-            "optional": false,
-            "range": [
-              9,
-              14
-            ],
-            "loc": {
-              "end": {
-                "column": 14,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 9,
+            "end": 14,
             "decorators": [],
             "name": "Drink",
-            "optional": false,
-            "range": [
-              9,
-              14
-            ],
-            "loc": {
-              "end": {
-                "column": 14,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            9,
-            14
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 1
-            },
-            "start": {
-              "column": 9,
-              "line": 1
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        0,
-        32
-      ],
-      "loc": {
-        "end": {
-          "column": 32,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     },
     {
       "type": "VariableDeclaration",
+      "start": 101,
+      "end": 128,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 107,
+          "end": 127,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 107,
+            "end": 115,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 14,
-                  "line": 3
-                },
-                "start": {
-                  "column": 7,
-                  "line": 3
-                }
-              },
-              "range": [
-                108,
-                115
-              ],
+              "start": 108,
+              "end": 115,
               "typeAnnotation": {
                 "type": "TSTypeReference",
+                "start": 110,
+                "end": 115,
                 "typeName": {
                   "type": "Identifier",
+                  "start": 110,
+                  "end": 115,
                   "decorators": [],
                   "name": "Drink",
-                  "optional": false,
-                  "range": [
-                    110,
-                    115
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 14,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 9,
-                      "line": 3
-                    }
-                  }
-                },
-                "range": [
-                  110,
-                  115
-                ],
-                "loc": {
-                  "end": {
-                    "column": 14,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 9,
-                    "line": 3
-                  }
+                  "optional": false
                 }
-              }
-            },
-            "range": [
-              107,
-              115
-            ],
-            "loc": {
-              "end": {
-                "column": 14,
-                "line": 3
-              },
-              "start": {
-                "column": 6,
-                "line": 3
               }
             }
           },
           "init": {
             "type": "MemberExpression",
+            "start": 118,
+            "end": 127,
             "computed": false,
             "object": {
               "type": "Identifier",
+              "start": 118,
+              "end": 123,
               "decorators": [],
               "name": "Drink",
-              "optional": false,
-              "range": [
-                118,
-                123
-              ],
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 3
-                },
-                "start": {
-                  "column": 17,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "property": {
               "type": "Identifier",
+              "start": 124,
+              "end": 127,
               "decorators": [],
               "name": "TEA",
-              "optional": false,
-              "range": [
-                124,
-                127
-              ],
-              "loc": {
-                "end": {
-                  "column": 26,
-                  "line": 3
-                },
-                "start": {
-                  "column": 23,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              118,
-              127
-            ],
-            "loc": {
-              "end": {
-                "column": 26,
-                "line": 3
-              },
-              "start": {
-                "column": 17,
-                "line": 3
-              }
-            }
-          },
-          "range": [
-            107,
-            127
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 3
-            },
-            "start": {
-              "column": 6,
-              "line": 3
+              "optional": false
             }
           }
         }
       ],
       "declare": false,
-      "kind": "const",
-      "range": [
-        101,
-        128
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "kind": "const"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

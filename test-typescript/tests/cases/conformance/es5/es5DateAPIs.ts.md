@@ -2,138 +2,54 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    31
-  ],
+  "start": 0,
+  "end": 31,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 15,
       "expression": {
         "type": "CallExpression",
+        "start": 0,
+        "end": 14,
         "arguments": [
           {
             "type": "Literal",
+            "start": 9,
+            "end": 13,
             "raw": "2017",
-            "value": 2017,
-            "range": [
-              9,
-              13
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
+            "value": 2017
           }
         ],
         "callee": {
           "type": "MemberExpression",
+          "start": 0,
+          "end": 8,
           "computed": false,
           "object": {
             "type": "Identifier",
+            "start": 0,
+            "end": 4,
             "decorators": [],
             "name": "Date",
-            "optional": false,
-            "range": [
-              0,
-              4
-            ],
-            "loc": {
-              "end": {
-                "column": 4,
-                "line": 1
-              },
-              "start": {
-                "column": 0,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "optional": false,
           "property": {
             "type": "Identifier",
+            "start": 5,
+            "end": 8,
             "decorators": [],
             "name": "UTC",
-            "optional": false,
-            "range": [
-              5,
-              8
-            ],
-            "loc": {
-              "end": {
-                "column": 8,
-                "line": 1
-              },
-              "start": {
-                "column": 5,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            0,
-            8
-          ],
-          "loc": {
-            "end": {
-              "column": 8,
-              "line": 1
-            },
-            "start": {
-              "column": 0,
-              "line": 1
-            }
+            "optional": false
           }
         },
-        "optional": false,
-        "range": [
-          0,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        15
-      ],
-      "loc": {
-        "end": {
-          "column": 15,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 31,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

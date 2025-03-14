@@ -2,221 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    40
-  ],
+  "start": 0,
+  "end": 40,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        19
-      ],
+      "start": 0,
+      "end": 19,
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
+        "start": 7,
+        "end": 19,
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 13,
+            "end": 18,
             "definite": false,
             "id": {
               "type": "Identifier",
+              "start": 13,
+              "end": 14,
               "decorators": [],
               "name": "a",
-              "optional": false,
-              "range": [
-                13,
-                14
-              ],
-              "loc": {
-                "end": {
-                  "column": 14,
-                  "line": 1
-                },
-                "start": {
-                  "column": 13,
-                  "line": 1
-                }
-              }
+              "optional": false
             },
             "init": {
               "type": "Literal",
+              "start": 17,
+              "end": 18,
               "raw": "1",
-              "value": 1,
-              "range": [
-                17,
-                18
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 1
-                },
-                "start": {
-                  "column": 17,
-                  "line": 1
-                }
-              }
-            },
-            "range": [
-              13,
-              18
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 1
-              },
-              "start": {
-                "column": 13,
-                "line": 1
-              }
+              "value": 1
             }
           }
         ],
         "declare": false,
-        "kind": "const",
-        "range": [
-          7,
-          19
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "kind": "const"
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        20,
-        39
-      ],
+      "start": 20,
+      "end": 39,
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
+        "start": 27,
+        "end": 39,
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 33,
+            "end": 38,
             "definite": false,
             "id": {
               "type": "Identifier",
+              "start": 33,
+              "end": 34,
               "decorators": [],
               "name": "b",
-              "optional": false,
-              "range": [
-                33,
-                34
-              ],
-              "loc": {
-                "end": {
-                  "column": 14,
-                  "line": 2
-                },
-                "start": {
-                  "column": 13,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "init": {
               "type": "Literal",
+              "start": 37,
+              "end": 38,
               "raw": "2",
-              "value": 2,
-              "range": [
-                37,
-                38
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 2
-                },
-                "start": {
-                  "column": 17,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              33,
-              38
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 2
-              },
-              "start": {
-                "column": 13,
-                "line": 2
-              }
+              "value": 2
             }
           }
         ],
         "declare": false,
-        "kind": "const",
-        "range": [
-          27,
-          39
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "kind": "const"
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -224,68 +92,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    182
-  ],
+  "start": 0,
+  "end": 182,
   "body": [
     {
       "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 42,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 28,
+          "end": 40,
           "key": {
             "type": "Identifier",
+            "start": 28,
+            "end": 32,
             "decorators": [],
             "name": "type",
-            "optional": false,
-            "range": [
-              28,
-              32
-            ],
-            "loc": {
-              "end": {
-                "column": 32,
-                "line": 1
-              },
-              "start": {
-                "column": 28,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 34,
+            "end": 40,
             "raw": "\"json\"",
-            "value": "json",
-            "range": [
-              34,
-              40
-            ],
-            "loc": {
-              "end": {
-                "column": 40,
-                "line": 1
-              },
-              "start": {
-                "column": 34,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            28,
-            40
-          ],
-          "loc": {
-            "end": {
-              "column": 40,
-              "line": 1
-            },
-            "start": {
-              "column": 28,
-              "line": 1
-            }
+            "value": "json"
           }
         }
       ],
@@ -293,96 +125,36 @@ __ESTREE_TEST__:PASS:
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 15,
+        "end": 20,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          15,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "value": "./0"
       },
-      "specifiers": [],
-      "range": [
-        0,
-        42
-      ],
-      "loc": {
-        "end": {
-          "column": 42,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     },
     {
       "type": "ExportNamedDeclaration",
+      "start": 43,
+      "end": 91,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 77,
+          "end": 89,
           "key": {
             "type": "Identifier",
+            "start": 77,
+            "end": 81,
             "decorators": [],
             "name": "type",
-            "optional": false,
-            "range": [
-              77,
-              81
-            ],
-            "loc": {
-              "end": {
-                "column": 38,
-                "line": 2
-              },
-              "start": {
-                "column": 34,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 83,
+            "end": 89,
             "raw": "\"json\"",
-            "value": "json",
-            "range": [
-              83,
-              89
-            ],
-            "loc": {
-              "end": {
-                "column": 46,
-                "line": 2
-              },
-              "start": {
-                "column": 40,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            77,
-            89
-          ],
-          "loc": {
-            "end": {
-              "column": 46,
-              "line": 2
-            },
-            "start": {
-              "column": 34,
-              "line": 2
-            }
+            "value": "json"
           }
         }
       ],
@@ -390,213 +162,81 @@ __ESTREE_TEST__:PASS:
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 64,
+        "end": 69,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          64,
-          69
-        ],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 2
-          },
-          "start": {
-            "column": 21,
-            "line": 2
-          }
-        }
+        "value": "./0"
       },
       "specifiers": [
         {
           "type": "ExportSpecifier",
+          "start": 52,
+          "end": 53,
           "exported": {
             "type": "Identifier",
+            "start": 52,
+            "end": 53,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              52,
-              53
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 2
-              },
-              "start": {
-                "column": 9,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 52,
+            "end": 53,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              52,
-              53
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 2
-              },
-              "start": {
-                "column": 9,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            52,
-            53
-          ],
-          "loc": {
-            "end": {
-              "column": 10,
-              "line": 2
-            },
-            "start": {
-              "column": 9,
-              "line": 2
-            }
+            "optional": false
           }
         },
         {
           "type": "ExportSpecifier",
+          "start": 55,
+          "end": 56,
           "exported": {
             "type": "Identifier",
+            "start": 55,
+            "end": 56,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              55,
-              56
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 2
-              },
-              "start": {
-                "column": 12,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 55,
+            "end": 56,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              55,
-              56
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 2
-              },
-              "start": {
-                "column": 12,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            55,
-            56
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 2
-            },
-            "start": {
-              "column": 12,
-              "line": 2
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        43,
-        91
-      ],
-      "loc": {
-        "end": {
-          "column": 48,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      ]
     },
     {
       "type": "ExportAllDeclaration",
+      "start": 92,
+      "end": 133,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 119,
+          "end": 131,
           "key": {
             "type": "Identifier",
+            "start": 119,
+            "end": 123,
             "decorators": [],
             "name": "type",
-            "optional": false,
-            "range": [
-              119,
-              123
-            ],
-            "loc": {
-              "end": {
-                "column": 31,
-                "line": 3
-              },
-              "start": {
-                "column": 27,
-                "line": 3
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 125,
+            "end": 131,
             "raw": "\"json\"",
-            "value": "json",
-            "range": [
-              125,
-              131
-            ],
-            "loc": {
-              "end": {
-                "column": 39,
-                "line": 3
-              },
-              "start": {
-                "column": 33,
-                "line": 3
-              }
-            }
-          },
-          "range": [
-            119,
-            131
-          ],
-          "loc": {
-            "end": {
-              "column": 39,
-              "line": 3
-            },
-            "start": {
-              "column": 27,
-              "line": 3
-            }
+            "value": "json"
           }
         }
       ],
@@ -604,165 +244,57 @@ __ESTREE_TEST__:PASS:
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 106,
+        "end": 111,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          106,
-          111
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 3
-          },
-          "start": {
-            "column": 14,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        92,
-        133
-      ],
-      "loc": {
-        "end": {
-          "column": 41,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "value": "./0"
       }
     },
     {
       "type": "ExportAllDeclaration",
+      "start": 134,
+      "end": 181,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 167,
+          "end": 179,
           "key": {
             "type": "Identifier",
+            "start": 167,
+            "end": 171,
             "decorators": [],
             "name": "type",
-            "optional": false,
-            "range": [
-              167,
-              171
-            ],
-            "loc": {
-              "end": {
-                "column": 37,
-                "line": 4
-              },
-              "start": {
-                "column": 33,
-                "line": 4
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 173,
+            "end": 179,
             "raw": "\"json\"",
-            "value": "json",
-            "range": [
-              173,
-              179
-            ],
-            "loc": {
-              "end": {
-                "column": 45,
-                "line": 4
-              },
-              "start": {
-                "column": 39,
-                "line": 4
-              }
-            }
-          },
-          "range": [
-            167,
-            179
-          ],
-          "loc": {
-            "end": {
-              "column": 45,
-              "line": 4
-            },
-            "start": {
-              "column": 33,
-              "line": 4
-            }
+            "value": "json"
           }
         }
       ],
       "exported": {
         "type": "Identifier",
+        "start": 146,
+        "end": 148,
         "decorators": [],
         "name": "ns",
-        "optional": false,
-        "range": [
-          146,
-          148
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 4
-          },
-          "start": {
-            "column": 12,
-            "line": 4
-          }
-        }
+        "optional": false
       },
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 154,
+        "end": 159,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          154,
-          159
-        ],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 4
-          },
-          "start": {
-            "column": 20,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        134,
-        181
-      ],
-      "loc": {
-        "end": {
-          "column": 47,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "value": "./0"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 5
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -770,337 +302,133 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    104
-  ],
+  "start": 0,
+  "end": 104,
   "body": [
     {
       "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 34,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 21,
+        "end": 26,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          21,
-          26
-        ],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 1
-          },
-          "start": {
-            "column": 21,
-            "line": 1
-          }
-        }
+        "value": "./0"
       },
       "specifiers": [
         {
           "type": "ExportSpecifier",
+          "start": 9,
+          "end": 10,
           "exported": {
             "type": "Identifier",
+            "start": 9,
+            "end": 10,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              9,
-              10
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 9,
+            "end": 10,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              9,
-              10
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            9,
-            10
-          ],
-          "loc": {
-            "end": {
-              "column": 10,
-              "line": 1
-            },
-            "start": {
-              "column": 9,
-              "line": 1
-            }
+            "optional": false
           }
         },
         {
           "type": "ExportSpecifier",
+          "start": 12,
+          "end": 13,
           "exported": {
             "type": "Identifier",
+            "start": 12,
+            "end": 13,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              12,
-              13
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 1
-              },
-              "start": {
-                "column": 12,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 12,
+            "end": 13,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              12,
-              13
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 1
-              },
-              "start": {
-                "column": 12,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            12,
-            13
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 1
-            },
-            "start": {
-              "column": 12,
-              "line": 1
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        0,
-        34
-      ],
-      "loc": {
-        "end": {
-          "column": 34,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     },
     {
       "type": "ExportNamedDeclaration",
+      "start": 35,
+      "end": 103,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 79,
+          "end": 85,
           "key": {
             "type": "Identifier",
+            "start": 79,
+            "end": 80,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              79,
-              80
-            ],
-            "loc": {
-              "end": {
-                "column": 45,
-                "line": 2
-              },
-              "start": {
-                "column": 44,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 82,
+            "end": 85,
             "raw": "\"a\"",
-            "value": "a",
-            "range": [
-              82,
-              85
-            ],
-            "loc": {
-              "end": {
-                "column": 50,
-                "line": 2
-              },
-              "start": {
-                "column": 47,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            79,
-            85
-          ],
-          "loc": {
-            "end": {
-              "column": 50,
-              "line": 2
-            },
-            "start": {
-              "column": 44,
-              "line": 2
-            }
+            "value": "a"
           }
         },
         {
           "type": "ImportAttribute",
+          "start": 87,
+          "end": 93,
           "key": {
             "type": "Identifier",
+            "start": 87,
+            "end": 88,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              87,
-              88
-            ],
-            "loc": {
-              "end": {
-                "column": 53,
-                "line": 2
-              },
-              "start": {
-                "column": 52,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 90,
+            "end": 93,
             "raw": "\"b\"",
-            "value": "b",
-            "range": [
-              90,
-              93
-            ],
-            "loc": {
-              "end": {
-                "column": 58,
-                "line": 2
-              },
-              "start": {
-                "column": 55,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            87,
-            93
-          ],
-          "loc": {
-            "end": {
-              "column": 58,
-              "line": 2
-            },
-            "start": {
-              "column": 52,
-              "line": 2
-            }
+            "value": "b"
           }
         },
         {
           "type": "ImportAttribute",
+          "start": 95,
+          "end": 101,
           "key": {
             "type": "Identifier",
+            "start": 95,
+            "end": 96,
             "decorators": [],
             "name": "c",
-            "optional": false,
-            "range": [
-              95,
-              96
-            ],
-            "loc": {
-              "end": {
-                "column": 61,
-                "line": 2
-              },
-              "start": {
-                "column": 60,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 98,
+            "end": 101,
             "raw": "\"c\"",
-            "value": "c",
-            "range": [
-              98,
-              101
-            ],
-            "loc": {
-              "end": {
-                "column": 66,
-                "line": 2
-              },
-              "start": {
-                "column": 63,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            95,
-            101
-          ],
-          "loc": {
-            "end": {
-              "column": 66,
-              "line": 2
-            },
-            "start": {
-              "column": 60,
-              "line": 2
-            }
+            "value": "c"
           }
         }
       ],
@@ -1108,168 +436,60 @@ __ESTREE_TEST__:PASS:
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 66,
+        "end": 71,
         "raw": "'./0'",
-        "value": "./0",
-        "range": [
-          66,
-          71
-        ],
-        "loc": {
-          "end": {
-            "column": 36,
-            "line": 2
-          },
-          "start": {
-            "column": 31,
-            "line": 2
-          }
-        }
+        "value": "./0"
       },
       "specifiers": [
         {
           "type": "ExportSpecifier",
+          "start": 44,
+          "end": 50,
           "exported": {
             "type": "Identifier",
+            "start": 49,
+            "end": 50,
             "decorators": [],
             "name": "c",
-            "optional": false,
-            "range": [
-              49,
-              50
-            ],
-            "loc": {
-              "end": {
-                "column": 15,
-                "line": 2
-              },
-              "start": {
-                "column": 14,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 44,
+            "end": 45,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              44,
-              45
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 2
-              },
-              "start": {
-                "column": 9,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            44,
-            50
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 2
-            },
-            "start": {
-              "column": 9,
-              "line": 2
-            }
+            "optional": false
           }
         },
         {
           "type": "ExportSpecifier",
+          "start": 52,
+          "end": 58,
           "exported": {
             "type": "Identifier",
+            "start": 57,
+            "end": 58,
             "decorators": [],
             "name": "d",
-            "optional": false,
-            "range": [
-              57,
-              58
-            ],
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 2
-              },
-              "start": {
-                "column": 22,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 52,
+            "end": 53,
             "decorators": [],
             "name": "b",
-            "optional": false,
-            "range": [
-              52,
-              53
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 2
-              },
-              "start": {
-                "column": 17,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            52,
-            58
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 2
-            },
-            "start": {
-              "column": 17,
-              "line": 2
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        35,
-        103
-      ],
-      "loc": {
-        "end": {
-          "column": 68,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      ]
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

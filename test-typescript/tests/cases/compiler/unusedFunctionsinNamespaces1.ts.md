@@ -2,142 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    57
-  ],
+  "start": 0,
+  "end": 57,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 57,
       "body": {
         "type": "TSModuleBlock",
+        "start": 21,
+        "end": 57,
         "body": [
           {
             "type": "FunctionDeclaration",
+            "start": 27,
+            "end": 55,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "body": [],
-              "range": [
-                48,
-                55
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 3
-                },
-                "start": {
-                  "column": 25,
-                  "line": 2
-                }
-              }
+              "start": 48,
+              "end": 55,
+              "body": []
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
+              "start": 36,
+              "end": 45,
               "decorators": [],
               "name": "function1",
-              "optional": false,
-              "range": [
-                36,
-                45
-              ],
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 2
-                },
-                "start": {
-                  "column": 13,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "params": [],
-            "range": [
-              27,
-              55
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "params": []
           }
-        ],
-        "range": [
-          21,
-          57
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 21,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          10,
-          20
-        ],
+        "start": 10,
+        "end": 20,
         "decorators": [],
         "name": "Validation",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        0,
-        57
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

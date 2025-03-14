@@ -2,53 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    69
-  ],
+  "start": 0,
+  "end": 69,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        68
-      ],
+      "start": 0,
+      "end": 68,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 7,
+        "end": 68,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            23,
-            68
-          ],
+          "start": 23,
+          "end": 68,
           "body": [
             {
               "type": "PropertyDefinition",
+              "start": 29,
+              "end": 66,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
+                "start": 29,
+                "end": 36,
                 "decorators": [],
                 "name": "content",
-                "optional": false,
-                "range": [
-                  29,
-                  36
-                ],
-                "loc": {
-                  "end": {
-                    "column": 11,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 4,
-                    "line": 2
-                  }
-                }
+                "optional": false
               },
               "optional": false,
               "override": false,
@@ -56,170 +42,52 @@ __ESTREE_TEST__:PASS:
               "static": false,
               "value": {
                 "type": "ArrowFunctionExpression",
+                "start": 39,
+                "end": 66,
                 "async": false,
                 "body": {
                   "type": "JSXFragment",
+                  "start": 55,
+                  "end": 60,
                   "children": [],
                   "closingFragment": {
                     "type": "JSXClosingFragment",
-                    "range": [
-                      57,
-                      60
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 10,
-                        "line": 3
-                      }
-                    }
+                    "start": 57,
+                    "end": 60
                   },
                   "openingFragment": {
                     "type": "JSXOpeningFragment",
-                    "range": [
-                      55,
-                      57
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 3
-                      }
-                    }
-                  },
-                  "range": [
-                    55,
-                    60
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 13,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 3
-                    }
+                    "start": 55,
+                    "end": 57
                   }
                 },
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": [],
-                "range": [
-                  39,
-                  66
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 14,
-                    "line": 2
-                  }
-                }
-              },
-              "range": [
-                29,
-                66
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
+                "params": []
               }
             }
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 5
-            },
-            "start": {
-              "column": 23,
-              "line": 1
-            }
-          }
+          ]
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 13,
+          "end": 22,
           "decorators": [],
           "name": "LoggedOut",
-          "optional": false,
-          "range": [
-            13,
-            22
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 1
-            },
-            "start": {
-              "column": 13,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          7,
-          68
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

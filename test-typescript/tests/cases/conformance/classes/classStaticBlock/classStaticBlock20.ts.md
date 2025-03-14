@@ -2,138 +2,54 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    164
-  ],
+  "start": 0,
+  "end": 164,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 163,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          8,
-          163
-        ],
+        "start": 8,
+        "end": 163,
         "body": [
           {
             "type": "StaticBlock",
-            "body": [],
-            "range": [
-              14,
-              55
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "start": 14,
+            "end": 55,
+            "body": []
           },
           {
             "type": "StaticBlock",
-            "body": [],
-            "range": [
-              61,
-              103
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 8
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
-            }
+            "start": 61,
+            "end": 103,
+            "body": []
           },
           {
             "type": "StaticBlock",
-            "body": [],
-            "range": [
-              109,
-              161
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 12
-              },
-              "start": {
-                "column": 4,
-                "line": 10
-              }
-            }
+            "start": 109,
+            "end": 161,
+            "body": []
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 13
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        163
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 13
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 14
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

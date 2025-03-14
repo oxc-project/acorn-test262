@@ -2,83 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    19
-  ],
+  "start": 0,
+  "end": 19,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 19,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          16,
-          19
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 16,
-            "line": 1
-          }
-        }
+        "start": 16,
+        "end": 19,
+        "body": []
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 14,
+        "end": 15,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          14,
-          15
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 1
-          },
-          "start": {
-            "column": 14,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        19
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

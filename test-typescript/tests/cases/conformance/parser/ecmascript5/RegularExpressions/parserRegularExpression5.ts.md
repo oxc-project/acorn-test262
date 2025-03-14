@@ -2,219 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    45
-  ],
+  "start": 0,
+  "end": 45,
   "body": [
     {
       "type": "IfStatement",
+      "start": 0,
+      "end": 45,
       "alternate": null,
       "consequent": {
         "type": "ExpressionStatement",
+        "start": 7,
+        "end": 45,
         "expression": {
           "type": "CallExpression",
+          "start": 7,
+          "end": 44,
           "arguments": [
             {
               "type": "MemberExpression",
+              "start": 37,
+              "end": 43,
               "computed": false,
               "object": {
                 "type": "Identifier",
+                "start": 37,
+                "end": 38,
                 "decorators": [],
                 "name": "c",
-                "optional": false,
-                "range": [
-                  37,
-                  38
-                ],
-                "loc": {
-                  "end": {
-                    "column": 38,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 37,
-                    "line": 1
-                  }
-                }
+                "optional": false
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
+                "start": 39,
+                "end": 43,
                 "decorators": [],
                 "name": "href",
-                "optional": false,
-                "range": [
-                  39,
-                  43
-                ],
-                "loc": {
-                  "end": {
-                    "column": 43,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 39,
-                    "line": 1
-                  }
-                }
-              },
-              "range": [
-                37,
-                43
-              ],
-              "loc": {
-                "end": {
-                  "column": 43,
-                  "line": 1
-                },
-                "start": {
-                  "column": 37,
-                  "line": 1
-                }
+                "optional": false
               }
             }
           ],
           "callee": {
             "type": "MemberExpression",
+            "start": 7,
+            "end": 36,
             "computed": false,
             "object": {
               "type": "Literal",
+              "start": 7,
+              "end": 30,
               "raw": "/ (\\\\ ? | & ) rct = j /",
               "regex": {
                 "flags": "",
                 "pattern": " (\\\\ ? | & ) rct = j "
               },
-              "value": null,
-              "range": [
-                7,
-                30
-              ],
-              "loc": {
-                "end": {
-                  "column": 30,
-                  "line": 1
-                },
-                "start": {
-                  "column": 7,
-                  "line": 1
-                }
-              }
+              "value": null
             },
             "optional": false,
             "property": {
               "type": "Identifier",
+              "start": 32,
+              "end": 36,
               "decorators": [],
               "name": "test",
-              "optional": false,
-              "range": [
-                32,
-                36
-              ],
-              "loc": {
-                "end": {
-                  "column": 36,
-                  "line": 1
-                },
-                "start": {
-                  "column": 32,
-                  "line": 1
-                }
-              }
-            },
-            "range": [
-              7,
-              36
-            ],
-            "loc": {
-              "end": {
-                "column": 36,
-                "line": 1
-              },
-              "start": {
-                "column": 7,
-                "line": 1
-              }
+              "optional": false
             }
           },
-          "optional": false,
-          "range": [
-            7,
-            44
-          ],
-          "loc": {
-            "end": {
-              "column": 44,
-              "line": 1
-            },
-            "start": {
-              "column": 7,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          45
-        ],
-        "loc": {
-          "end": {
-            "column": 45,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
+          "optional": false
         }
       },
       "test": {
         "type": "Identifier",
+        "start": 4,
+        "end": 5,
         "decorators": [],
         "name": "a",
-        "optional": false,
-        "range": [
-          4,
-          5
-        ],
-        "loc": {
-          "end": {
-            "column": 5,
-            "line": 1
-          },
-          "start": {
-            "column": 4,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        45
-      ],
-      "loc": {
-        "end": {
-          "column": 45,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 45,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

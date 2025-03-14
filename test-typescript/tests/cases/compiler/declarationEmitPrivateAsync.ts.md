@@ -2,52 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    68
-  ],
+  "start": 0,
+  "end": 68,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        68
-      ],
+      "start": 0,
+      "end": 68,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 7,
+        "end": 68,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            17,
-            68
-          ],
+          "start": 17,
+          "end": 68,
           "body": [
             {
               "type": "MethodDefinition",
+              "start": 23,
+              "end": 66,
               "accessibility": "private",
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
+                "start": 37,
+                "end": 40,
                 "decorators": [],
                 "name": "baz",
-                "optional": false,
-                "range": [
-                  37,
-                  40
-                ],
-                "loc": {
-                  "end": {
-                    "column": 21,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 2
-                  }
-                }
+                "optional": false
               },
               "kind": "method",
               "optional": false,
@@ -55,156 +41,50 @@ __ESTREE_TEST__:PASS:
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "range": [
-                  40,
-                  66
-                ],
+                "start": 40,
+                "end": 66,
                 "async": true,
                 "body": {
                   "type": "BlockStatement",
+                  "start": 43,
+                  "end": 66,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "argument": null,
-                      "range": [
-                        53,
-                        60
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 3
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 3
-                        }
-                      }
+                      "start": 53,
+                      "end": 60,
+                      "argument": null
                     }
-                  ],
-                  "range": [
-                    43,
-                    66
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 4
-                    },
-                    "start": {
-                      "column": 24,
-                      "line": 2
-                    }
-                  }
+                  ]
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": [],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 21,
-                    "line": 2
-                  }
-                }
-              },
-              "range": [
-                23,
-                66
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
+                "params": []
               }
             }
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 5
-            },
-            "start": {
-              "column": 17,
-              "line": 1
-            }
-          }
+          ]
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 13,
+          "end": 16,
           "decorators": [],
           "name": "Foo",
-          "optional": false,
-          "range": [
-            13,
-            16
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 1
-            },
-            "start": {
-              "column": 13,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          7,
-          68
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 5
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

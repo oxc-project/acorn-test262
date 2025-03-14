@@ -2,120 +2,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    39
-  ],
+  "start": 0,
+  "end": 39,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        39
-      ],
+      "start": 0,
+      "end": 39,
       "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
+        "start": 7,
+        "end": 39,
         "async": false,
         "declare": true,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 24,
+          "end": 30,
           "decorators": [],
           "name": "iosfoo",
-          "optional": false,
-          "range": [
-            24,
-            30
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 1
-            },
-            "start": {
-              "column": 24,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "loc": {
-            "end": {
-              "column": 38,
-              "line": 1
-            },
-            "start": {
-              "column": 32,
-              "line": 1
-            }
-          },
-          "range": [
-            32,
-            38
-          ],
+          "start": 32,
+          "end": 38,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
-            "range": [
-              34,
-              38
-            ],
-            "loc": {
-              "end": {
-                "column": 38,
-                "line": 1
-              },
-              "start": {
-                "column": 34,
-                "line": 1
-              }
-            }
-          }
-        },
-        "range": [
-          7,
-          39
-        ],
-        "loc": {
-          "end": {
-            "column": 39,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
+            "start": 34,
+            "end": 38
           }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 39,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 39,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -123,120 +51,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    41
-  ],
+  "start": 0,
+  "end": 41,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        40
-      ],
+      "start": 0,
+      "end": 40,
       "attributes": [],
       "declaration": {
         "type": "TSDeclareFunction",
+        "start": 7,
+        "end": 40,
         "async": false,
         "declare": true,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 24,
+          "end": 31,
           "decorators": [],
           "name": "basefoo",
-          "optional": false,
-          "range": [
-            24,
-            31
-          ],
-          "loc": {
-            "end": {
-              "column": 31,
-              "line": 1
-            },
-            "start": {
-              "column": 24,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "loc": {
-            "end": {
-              "column": 39,
-              "line": 1
-            },
-            "start": {
-              "column": 33,
-              "line": 1
-            }
-          },
-          "range": [
-            33,
-            39
-          ],
+          "start": 33,
+          "end": 39,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
-            "range": [
-              35,
-              39
-            ],
-            "loc": {
-              "end": {
-                "column": 39,
-                "line": 1
-              },
-              "start": {
-                "column": 35,
-                "line": 1
-              }
-            }
-          }
-        },
-        "range": [
-          7,
-          40
-        ],
-        "loc": {
-          "end": {
-            "column": 40,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
+            "start": 35,
+            "end": 39
           }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 40,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -244,121 +100,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    43
-  ],
+  "start": 0,
+  "end": 43,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 0,
+      "end": 42,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 23,
+        "end": 41,
         "raw": "\"some-library/foo\"",
-        "value": "some-library/foo",
-        "range": [
-          23,
-          41
-        ],
-        "loc": {
-          "end": {
-            "column": 41,
-            "line": 1
-          },
-          "start": {
-            "column": 23,
-            "line": 1
-          }
-        }
+        "value": "some-library/foo"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "start": 9,
+          "end": 15,
           "imported": {
             "type": "Identifier",
+            "start": 9,
+            "end": 15,
             "decorators": [],
             "name": "iosfoo",
-            "optional": false,
-            "range": [
-              9,
-              15
-            ],
-            "loc": {
-              "end": {
-                "column": 15,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 9,
+            "end": 15,
             "decorators": [],
             "name": "iosfoo",
-            "optional": false,
-            "range": [
-              9,
-              15
-            ],
-            "loc": {
-              "end": {
-                "column": 15,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            9,
-            15
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 1
-            },
-            "start": {
-              "column": 9,
-              "line": 1
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        0,
-        42
-      ],
-      "loc": {
-        "end": {
-          "column": 42,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

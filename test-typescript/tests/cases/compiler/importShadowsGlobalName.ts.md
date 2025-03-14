@@ -2,120 +2,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    27
-  ],
+  "start": 0,
+  "end": 27,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 12,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          10,
-          12
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "start": 10,
+        "end": 12,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 9,
         "decorators": [],
         "name": "Foo",
-        "optional": false,
-        "range": [
-          6,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        12
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     },
     {
       "type": "TSExportAssignment",
+      "start": 13,
+      "end": 26,
       "expression": {
         "type": "Identifier",
+        "start": 22,
+        "end": 25,
         "decorators": [],
         "name": "Foo",
-        "optional": false,
-        "range": [
-          22,
-          25
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 2
-          },
-          "start": {
-            "column": 9,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        13,
-        26
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -123,213 +51,81 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    71
-  ],
+  "start": 0,
+  "end": 71,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 30,
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 12,
         "decorators": [],
         "name": "Error",
-        "optional": false,
-        "range": [
-          7,
-          12
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 15,
+        "end": 29,
         "expression": {
           "type": "Literal",
+          "start": 23,
+          "end": 28,
           "raw": "'Foo'",
-          "value": "Foo",
-          "range": [
-            23,
-            28
-          ],
-          "loc": {
-            "end": {
-              "column": 28,
-              "line": 1
-            },
-            "start": {
-              "column": 23,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          15,
-          29
-        ],
-        "loc": {
-          "end": {
-            "column": 29,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        30
-      ],
-      "loc": {
-        "end": {
-          "column": 30,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": "Foo"
         }
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 31,
+      "end": 57,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          55,
-          57
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 2
-          },
-          "start": {
-            "column": 24,
-            "line": 2
-          }
-        }
+        "start": 55,
+        "end": 57,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 37,
+        "end": 40,
         "decorators": [],
         "name": "Bar",
-        "optional": false,
-        "range": [
-          37,
-          40
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 2
-          },
-          "start": {
-            "column": 6,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 49,
+        "end": 54,
         "decorators": [],
         "name": "Error",
-        "optional": false,
-        "range": [
-          49,
-          54
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 2
-          },
-          "start": {
-            "column": 18,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        31,
-        57
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "optional": false
       }
     },
     {
       "type": "TSExportAssignment",
+      "start": 58,
+      "end": 71,
       "expression": {
         "type": "Identifier",
+        "start": 67,
+        "end": 70,
         "decorators": [],
         "name": "Bar",
-        "optional": false,
-        "range": [
-          67,
-          70
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 3
-          },
-          "start": {
-            "column": 9,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        58,
-        71
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 13,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

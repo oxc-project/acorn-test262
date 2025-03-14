@@ -2,99 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    24
-  ],
+  "start": 0,
+  "end": 24,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        23
-      ],
+      "start": 0,
+      "end": 23,
       "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
+        "start": 7,
+        "end": 23,
         "declare": false,
         "id": {
           "type": "Identifier",
+          "start": 12,
+          "end": 13,
           "decorators": [],
           "name": "T",
-          "optional": false,
-          "range": [
-            12,
-            13
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 1
-            },
-            "start": {
-              "column": 12,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "typeAnnotation": {
           "type": "TSNumberKeyword",
-          "range": [
-            16,
-            22
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 1
-            },
-            "start": {
-              "column": 16,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          23
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
+          "start": 16,
+          "end": 22
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 23,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -102,62 +42,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    21
-  ],
+  "start": 0,
+  "end": 21,
   "body": [
     {
       "type": "ExportAllDeclaration",
+      "start": 0,
+      "end": 20,
       "attributes": [],
       "exported": null,
       "exportKind": "value",
       "source": {
         "type": "Literal",
+        "start": 14,
+        "end": 19,
         "raw": "\"./a\"",
-        "value": "./a",
-        "range": [
-          14,
-          19
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 1
-          },
-          "start": {
-            "column": 14,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        20
-      ],
-      "loc": {
-        "end": {
-          "column": 20,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "./a"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

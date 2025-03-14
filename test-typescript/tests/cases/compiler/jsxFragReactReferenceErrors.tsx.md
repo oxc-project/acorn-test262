@@ -2,194 +2,74 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    103,
-    150
-  ],
+  "start": 103,
+  "end": 150,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        103,
-        150
-      ],
+      "start": 103,
+      "end": 150,
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 110,
+        "end": 150,
         "async": false,
         "body": {
           "type": "BlockStatement",
+          "start": 130,
+          "end": 150,
           "body": [
             {
               "type": "ReturnStatement",
+              "start": 133,
+              "end": 148,
               "argument": {
                 "type": "JSXFragment",
+                "start": 140,
+                "end": 148,
                 "children": [
                   {
                     "type": "JSXText",
-                    "range": [
-                      142,
-                      145
-                    ],
+                    "start": 142,
+                    "end": 145,
                     "raw": "\n  ",
-                    "value": "\n  ",
-                    "loc": {
-                      "end": {
-                        "column": 2,
-                        "line": 6
-                      },
-                      "start": {
-                        "column": 9,
-                        "line": 5
-                      }
-                    }
+                    "value": "\n  "
                   }
                 ],
                 "closingFragment": {
                   "type": "JSXClosingFragment",
-                  "range": [
-                    145,
-                    148
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 6
-                    },
-                    "start": {
-                      "column": 2,
-                      "line": 6
-                    }
-                  }
+                  "start": 145,
+                  "end": 148
                 },
                 "openingFragment": {
                   "type": "JSXOpeningFragment",
-                  "range": [
-                    140,
-                    142
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 9,
-                      "line": 5
-                    },
-                    "start": {
-                      "column": 7,
-                      "line": 5
-                    }
-                  }
-                },
-                "range": [
-                  140,
-                  148
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 7,
-                    "line": 5
-                  }
-                }
-              },
-              "range": [
-                133,
-                148
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 6
-                },
-                "start": {
-                  "column": 0,
-                  "line": 5
+                  "start": 140,
+                  "end": 142
                 }
               }
             }
-          ],
-          "range": [
-            130,
-            150
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 7
-            },
-            "start": {
-              "column": 27,
-              "line": 3
-            }
-          }
+          ]
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
+          "start": 119,
+          "end": 128,
           "decorators": [],
           "name": "Component",
-          "optional": false,
-          "range": [
-            119,
-            128
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 3
-            },
-            "start": {
-              "column": 16,
-              "line": 3
-            }
-          }
+          "optional": false
         },
-        "params": [],
-        "range": [
-          110,
-          150
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 7,
-            "line": 3
-          }
-        }
+        "params": []
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 7
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```

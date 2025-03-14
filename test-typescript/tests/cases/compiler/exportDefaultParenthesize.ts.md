@@ -2,73 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    480
-  ],
+  "start": 0,
+  "end": 480,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 479,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 15,
+        "end": 478,
         "properties": [
           {
             "type": "Property",
+            "start": 21,
+            "end": 35,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 22,
+              "end": 30,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 22,
+                "end": 27,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  22,
-                  27
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 2
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 28,
+                "end": 30,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  28,
-                  30
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 2
-                  }
-                }
-              },
-              "range": [
-                22,
-                30
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 2
-                },
-                "start": {
-                  "column": 5,
-                  "line": 2
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -77,95 +45,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 33,
+              "end": 35,
               "raw": "42",
-              "value": 42,
-              "range": [
-                33,
-                35
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 2
-                },
-                "start": {
-                  "column": 16,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              21,
-              35
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 41,
+            "end": 55,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 42,
+              "end": 50,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 42,
+                "end": 47,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  42,
-                  47
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 3
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 48,
+                "end": 50,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  48,
-                  50
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 3
-                  }
-                }
-              },
-              "range": [
-                42,
-                50
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 3
-                },
-                "start": {
-                  "column": 5,
-                  "line": 3
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -174,95 +82,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 53,
+              "end": 55,
               "raw": "42",
-              "value": 42,
-              "range": [
-                53,
-                55
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 3
-                },
-                "start": {
-                  "column": 16,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              41,
-              55
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 61,
+            "end": 75,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 62,
+              "end": 70,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 62,
+                "end": 67,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  62,
-                  67
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 4
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 68,
+                "end": 70,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  68,
-                  70
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 4
-                  }
-                }
-              },
-              "range": [
-                62,
-                70
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 4
-                },
-                "start": {
-                  "column": 5,
-                  "line": 4
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -271,95 +119,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 73,
+              "end": 75,
               "raw": "42",
-              "value": 42,
-              "range": [
-                73,
-                75
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 4
-                },
-                "start": {
-                  "column": 16,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              61,
-              75
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 4
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 81,
+            "end": 95,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 82,
+              "end": 90,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 82,
+                "end": 87,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  82,
-                  87
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 5
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 88,
+                "end": 90,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  88,
-                  90
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 5
-                  }
-                }
-              },
-              "range": [
-                82,
-                90
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 5
-                },
-                "start": {
-                  "column": 5,
-                  "line": 5
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -368,95 +156,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 93,
+              "end": 95,
               "raw": "42",
-              "value": 42,
-              "range": [
-                93,
-                95
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 5
-                },
-                "start": {
-                  "column": 16,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              81,
-              95
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 5
-              },
-              "start": {
-                "column": 4,
-                "line": 5
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 101,
+            "end": 115,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 102,
+              "end": 110,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 102,
+                "end": 107,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  102,
-                  107
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 6
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 108,
+                "end": 110,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  108,
-                  110
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 6
-                  }
-                }
-              },
-              "range": [
-                102,
-                110
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 6
-                },
-                "start": {
-                  "column": 5,
-                  "line": 6
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -465,95 +193,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 113,
+              "end": 115,
               "raw": "42",
-              "value": 42,
-              "range": [
-                113,
-                115
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 6
-                },
-                "start": {
-                  "column": 16,
-                  "line": 6
-                }
-              }
-            },
-            "range": [
-              101,
-              115
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 121,
+            "end": 135,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 122,
+              "end": 130,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 122,
+                "end": 127,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  122,
-                  127
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 7
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 7
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 128,
+                "end": 130,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  128,
-                  130
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 7
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 7
-                  }
-                }
-              },
-              "range": [
-                122,
-                130
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 7
-                },
-                "start": {
-                  "column": 5,
-                  "line": 7
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -562,95 +230,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 133,
+              "end": 135,
               "raw": "42",
-              "value": 42,
-              "range": [
-                133,
-                135
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 7
-                },
-                "start": {
-                  "column": 16,
-                  "line": 7
-                }
-              }
-            },
-            "range": [
-              121,
-              135
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 7
-              },
-              "start": {
-                "column": 4,
-                "line": 7
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 141,
+            "end": 155,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 142,
+              "end": 150,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 142,
+                "end": 147,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  142,
-                  147
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 8
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 8
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 148,
+                "end": 150,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  148,
-                  150
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 8
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 8
-                  }
-                }
-              },
-              "range": [
-                142,
-                150
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 8
-                },
-                "start": {
-                  "column": 5,
-                  "line": 8
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -659,95 +267,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 153,
+              "end": 155,
               "raw": "42",
-              "value": 42,
-              "range": [
-                153,
-                155
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 8
-                },
-                "start": {
-                  "column": 16,
-                  "line": 8
-                }
-              }
-            },
-            "range": [
-              141,
-              155
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 8
-              },
-              "start": {
-                "column": 4,
-                "line": 8
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 161,
+            "end": 175,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 162,
+              "end": 170,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 162,
+                "end": 167,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  162,
-                  167
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 9
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 9
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 168,
+                "end": 170,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  168,
-                  170
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 9
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 9
-                  }
-                }
-              },
-              "range": [
-                162,
-                170
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 9
-                },
-                "start": {
-                  "column": 5,
-                  "line": 9
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -756,95 +304,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 173,
+              "end": 175,
               "raw": "42",
-              "value": 42,
-              "range": [
-                173,
-                175
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 9
-                },
-                "start": {
-                  "column": 16,
-                  "line": 9
-                }
-              }
-            },
-            "range": [
-              161,
-              175
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 9
-              },
-              "start": {
-                "column": 4,
-                "line": 9
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 181,
+            "end": 195,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 182,
+              "end": 190,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 182,
+                "end": 187,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  182,
-                  187
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 10
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 10
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 188,
+                "end": 190,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  188,
-                  190
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 10
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 10
-                  }
-                }
-              },
-              "range": [
-                182,
-                190
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 10
-                },
-                "start": {
-                  "column": 5,
-                  "line": 10
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -853,95 +341,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 193,
+              "end": 195,
               "raw": "42",
-              "value": 42,
-              "range": [
-                193,
-                195
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 10
-                },
-                "start": {
-                  "column": 16,
-                  "line": 10
-                }
-              }
-            },
-            "range": [
-              181,
-              195
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 10
-              },
-              "start": {
-                "column": 4,
-                "line": 10
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 201,
+            "end": 215,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 202,
+              "end": 210,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 202,
+                "end": 207,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  202,
-                  207
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 11
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 11
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 208,
+                "end": 210,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  208,
-                  210
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 11
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 11
-                  }
-                }
-              },
-              "range": [
-                202,
-                210
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 11
-                },
-                "start": {
-                  "column": 5,
-                  "line": 11
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -950,95 +378,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 213,
+              "end": 215,
               "raw": "42",
-              "value": 42,
-              "range": [
-                213,
-                215
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 11
-                },
-                "start": {
-                  "column": 16,
-                  "line": 11
-                }
-              }
-            },
-            "range": [
-              201,
-              215
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 11
-              },
-              "start": {
-                "column": 4,
-                "line": 11
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 221,
+            "end": 235,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 222,
+              "end": 230,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 222,
+                "end": 227,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  222,
-                  227
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 12
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 12
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 228,
+                "end": 230,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  228,
-                  230
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 12
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 12
-                  }
-                }
-              },
-              "range": [
-                222,
-                230
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 12
-                },
-                "start": {
-                  "column": 5,
-                  "line": 12
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1047,95 +415,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 233,
+              "end": 235,
               "raw": "42",
-              "value": 42,
-              "range": [
-                233,
-                235
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 12
-                },
-                "start": {
-                  "column": 16,
-                  "line": 12
-                }
-              }
-            },
-            "range": [
-              221,
-              235
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 12
-              },
-              "start": {
-                "column": 4,
-                "line": 12
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 241,
+            "end": 255,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 242,
+              "end": 250,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 242,
+                "end": 247,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  242,
-                  247
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 13
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 13
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 248,
+                "end": 250,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  248,
-                  250
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 13
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 13
-                  }
-                }
-              },
-              "range": [
-                242,
-                250
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 13
-                },
-                "start": {
-                  "column": 5,
-                  "line": 13
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1144,95 +452,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 253,
+              "end": 255,
               "raw": "42",
-              "value": 42,
-              "range": [
-                253,
-                255
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 13
-                },
-                "start": {
-                  "column": 16,
-                  "line": 13
-                }
-              }
-            },
-            "range": [
-              241,
-              255
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 13
-              },
-              "start": {
-                "column": 4,
-                "line": 13
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 261,
+            "end": 275,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 262,
+              "end": 270,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 262,
+                "end": 267,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  262,
-                  267
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 14
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 14
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 268,
+                "end": 270,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  268,
-                  270
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 14
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 14
-                  }
-                }
-              },
-              "range": [
-                262,
-                270
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 14
-                },
-                "start": {
-                  "column": 5,
-                  "line": 14
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1241,95 +489,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 273,
+              "end": 275,
               "raw": "42",
-              "value": 42,
-              "range": [
-                273,
-                275
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 14
-                },
-                "start": {
-                  "column": 16,
-                  "line": 14
-                }
-              }
-            },
-            "range": [
-              261,
-              275
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 14
-              },
-              "start": {
-                "column": 4,
-                "line": 14
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 281,
+            "end": 295,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 282,
+              "end": 290,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 282,
+                "end": 287,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  282,
-                  287
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 15
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 15
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 288,
+                "end": 290,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  288,
-                  290
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 15
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 15
-                  }
-                }
-              },
-              "range": [
-                282,
-                290
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 15
-                },
-                "start": {
-                  "column": 5,
-                  "line": 15
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1338,95 +526,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 293,
+              "end": 295,
               "raw": "42",
-              "value": 42,
-              "range": [
-                293,
-                295
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 15
-                },
-                "start": {
-                  "column": 16,
-                  "line": 15
-                }
-              }
-            },
-            "range": [
-              281,
-              295
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 15
-              },
-              "start": {
-                "column": 4,
-                "line": 15
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 301,
+            "end": 315,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 302,
+              "end": 310,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 302,
+                "end": 307,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  302,
-                  307
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 16
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 16
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 308,
+                "end": 310,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  308,
-                  310
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 16
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 16
-                  }
-                }
-              },
-              "range": [
-                302,
-                310
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 16
-                },
-                "start": {
-                  "column": 5,
-                  "line": 16
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1435,95 +563,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 313,
+              "end": 315,
               "raw": "42",
-              "value": 42,
-              "range": [
-                313,
-                315
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 16
-                },
-                "start": {
-                  "column": 16,
-                  "line": 16
-                }
-              }
-            },
-            "range": [
-              301,
-              315
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 16
-              },
-              "start": {
-                "column": 4,
-                "line": 16
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 321,
+            "end": 335,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 322,
+              "end": 330,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 322,
+                "end": 327,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  322,
-                  327
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 17
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 17
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 328,
+                "end": 330,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  328,
-                  330
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 17
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 17
-                  }
-                }
-              },
-              "range": [
-                322,
-                330
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 17
-                },
-                "start": {
-                  "column": 5,
-                  "line": 17
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1532,95 +600,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 333,
+              "end": 335,
               "raw": "42",
-              "value": 42,
-              "range": [
-                333,
-                335
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 17
-                },
-                "start": {
-                  "column": 16,
-                  "line": 17
-                }
-              }
-            },
-            "range": [
-              321,
-              335
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 17
-              },
-              "start": {
-                "column": 4,
-                "line": 17
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 341,
+            "end": 355,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 342,
+              "end": 350,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 342,
+                "end": 347,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  342,
-                  347
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 18
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 18
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 348,
+                "end": 350,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  348,
-                  350
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 18
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 18
-                  }
-                }
-              },
-              "range": [
-                342,
-                350
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 18
-                },
-                "start": {
-                  "column": 5,
-                  "line": 18
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1629,95 +637,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 353,
+              "end": 355,
               "raw": "42",
-              "value": 42,
-              "range": [
-                353,
-                355
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 18
-                },
-                "start": {
-                  "column": 16,
-                  "line": 18
-                }
-              }
-            },
-            "range": [
-              341,
-              355
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 18
-              },
-              "start": {
-                "column": 4,
-                "line": 18
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 361,
+            "end": 375,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 362,
+              "end": 370,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 362,
+                "end": 367,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  362,
-                  367
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 19
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 19
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 368,
+                "end": 370,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  368,
-                  370
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 19
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 19
-                  }
-                }
-              },
-              "range": [
-                362,
-                370
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 19
-                },
-                "start": {
-                  "column": 5,
-                  "line": 19
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1726,95 +674,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 373,
+              "end": 375,
               "raw": "42",
-              "value": 42,
-              "range": [
-                373,
-                375
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 19
-                },
-                "start": {
-                  "column": 16,
-                  "line": 19
-                }
-              }
-            },
-            "range": [
-              361,
-              375
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 19
-              },
-              "start": {
-                "column": 4,
-                "line": 19
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 381,
+            "end": 395,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 382,
+              "end": 390,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 382,
+                "end": 387,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  382,
-                  387
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 20
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 20
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 388,
+                "end": 390,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  388,
-                  390
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 20
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 20
-                  }
-                }
-              },
-              "range": [
-                382,
-                390
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 20
-                },
-                "start": {
-                  "column": 5,
-                  "line": 20
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1823,95 +711,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 393,
+              "end": 395,
               "raw": "42",
-              "value": 42,
-              "range": [
-                393,
-                395
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 20
-                },
-                "start": {
-                  "column": 16,
-                  "line": 20
-                }
-              }
-            },
-            "range": [
-              381,
-              395
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 20
-              },
-              "start": {
-                "column": 4,
-                "line": 20
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 401,
+            "end": 415,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 402,
+              "end": 410,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 402,
+                "end": 407,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  402,
-                  407
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 21
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 21
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 408,
+                "end": 410,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  408,
-                  410
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 21
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 21
-                  }
-                }
-              },
-              "range": [
-                402,
-                410
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 21
-                },
-                "start": {
-                  "column": 5,
-                  "line": 21
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -1920,95 +748,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 413,
+              "end": 415,
               "raw": "42",
-              "value": 42,
-              "range": [
-                413,
-                415
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 21
-                },
-                "start": {
-                  "column": 16,
-                  "line": 21
-                }
-              }
-            },
-            "range": [
-              401,
-              415
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 21
-              },
-              "start": {
-                "column": 4,
-                "line": 21
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 421,
+            "end": 435,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 422,
+              "end": 430,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 422,
+                "end": 427,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  422,
-                  427
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 22
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 22
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 428,
+                "end": 430,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  428,
-                  430
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 22
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 22
-                  }
-                }
-              },
-              "range": [
-                422,
-                430
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 22
-                },
-                "start": {
-                  "column": 5,
-                  "line": 22
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -2017,95 +785,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 433,
+              "end": 435,
               "raw": "42",
-              "value": 42,
-              "range": [
-                433,
-                435
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 22
-                },
-                "start": {
-                  "column": 16,
-                  "line": 22
-                }
-              }
-            },
-            "range": [
-              421,
-              435
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 22
-              },
-              "start": {
-                "column": 4,
-                "line": 22
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 441,
+            "end": 455,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 442,
+              "end": 450,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 442,
+                "end": 447,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  442,
-                  447
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 23
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 23
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 448,
+                "end": 450,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  448,
-                  450
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 23
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 23
-                  }
-                }
-              },
-              "range": [
-                442,
-                450
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 23
-                },
-                "start": {
-                  "column": 5,
-                  "line": 23
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -2114,95 +822,35 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 453,
+              "end": 455,
               "raw": "42",
-              "value": 42,
-              "range": [
-                453,
-                455
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 23
-                },
-                "start": {
-                  "column": 16,
-                  "line": 23
-                }
-              }
-            },
-            "range": [
-              441,
-              455
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 23
-              },
-              "start": {
-                "column": 4,
-                "line": 23
-              }
+              "value": 42
             }
           },
           {
             "type": "Property",
+            "start": 461,
+            "end": 475,
             "computed": true,
             "key": {
               "type": "BinaryExpression",
+              "start": 462,
+              "end": 470,
               "operator": "+",
               "left": {
                 "type": "Literal",
+                "start": 462,
+                "end": 467,
                 "raw": "'foo'",
-                "value": "foo",
-                "range": [
-                  462,
-                  467
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 24
-                  },
-                  "start": {
-                    "column": 5,
-                    "line": 24
-                  }
-                }
+                "value": "foo"
               },
               "right": {
                 "type": "Literal",
+                "start": 468,
+                "end": 470,
                 "raw": "''",
-                "value": "",
-                "range": [
-                  468,
-                  470
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 24
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 24
-                  }
-                }
-              },
-              "range": [
-                462,
-                470
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 24
-                },
-                "start": {
-                  "column": 5,
-                  "line": 24
-                }
+                "value": ""
               }
             },
             "kind": "init",
@@ -2211,82 +859,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 473,
+              "end": 475,
               "raw": "42",
-              "value": 42,
-              "range": [
-                473,
-                475
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 24
-                },
-                "start": {
-                  "column": 16,
-                  "line": 24
-                }
-              }
-            },
-            "range": [
-              461,
-              475
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 24
-              },
-              "start": {
-                "column": 4,
-                "line": 24
-              }
+              "value": 42
             }
           }
-        ],
-        "range": [
-          15,
-          478
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 25
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        0,
-        479
-      ],
-      "loc": {
-        "end": {
-          "column": 2,
-          "line": 25
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 26
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -2294,37 +878,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    36
-  ],
+  "start": 0,
+  "end": 36,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 35,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 15,
+        "end": 34,
         "properties": [
           {
             "type": "Property",
+            "start": 21,
+            "end": 32,
             "computed": true,
             "key": {
               "type": "Literal",
+              "start": 22,
+              "end": 27,
               "raw": "'foo'",
-              "value": "foo",
-              "range": [
-                22,
-                27
-              ],
-              "loc": {
-                "end": {
-                  "column": 10,
-                  "line": 2
-                },
-                "start": {
-                  "column": 5,
-                  "line": 2
-                }
-              }
+              "value": "foo"
             },
             "kind": "init",
             "method": false,
@@ -2332,82 +908,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 30,
+              "end": 32,
               "raw": "42",
-              "value": 42,
-              "range": [
-                30,
-                32
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 2
-                },
-                "start": {
-                  "column": 13,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              21,
-              32
-            ],
-            "loc": {
-              "end": {
-                "column": 15,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "value": 42
             }
           }
-        ],
-        "range": [
-          15,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        0,
-        35
-      ],
-      "loc": {
-        "end": {
-          "column": 2,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -2415,82 +927,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    25
-  ],
+  "start": 0,
+  "end": 25,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 24,
       "declaration": {
         "type": "ArrowFunctionExpression",
+        "start": 15,
+        "end": 23,
         "async": false,
         "body": {
           "type": "Literal",
+          "start": 21,
+          "end": 23,
           "raw": "42",
-          "value": 42,
-          "range": [
-            21,
-            23
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 1
-            },
-            "start": {
-              "column": 21,
-              "line": 1
-            }
-          }
+          "value": 42
         },
         "expression": true,
         "generator": false,
         "id": null,
-        "params": [],
-        "range": [
-          15,
-          23
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "params": []
       },
-      "exportKind": "value",
-      "range": [
-        0,
-        24
-      ],
-      "loc": {
-        "end": {
-          "column": 24,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

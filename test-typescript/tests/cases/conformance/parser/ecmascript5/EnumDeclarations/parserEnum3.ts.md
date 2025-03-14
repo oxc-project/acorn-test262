@@ -2,101 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    4,
-    38
-  ],
+  "start": 4,
+  "end": 38,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        4,
-        38
-      ],
+      "start": 4,
+      "end": 38,
       "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
+        "start": 11,
+        "end": 38,
         "body": {
           "type": "TSEnumBody",
-          "range": [
-            31,
-            38
-          ],
-          "members": [],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 2
-            },
-            "start": {
-              "column": 31,
-              "line": 1
-            }
-          }
+          "start": 31,
+          "end": 38,
+          "members": []
         },
         "const": false,
         "declare": false,
         "id": {
           "type": "Identifier",
+          "start": 16,
+          "end": 30,
           "decorators": [],
           "name": "SignatureFlags",
-          "optional": false,
-          "range": [
-            16,
-            30
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 1
-            },
-            "start": {
-              "column": 16,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          11,
-          38
-        ],
-        "loc": {
-          "end": {
-            "column": 5,
-            "line": 2
-          },
-          "start": {
-            "column": 11,
-            "line": 1
-          }
+          "optional": false
         }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 5,
-          "line": 2
-        },
-        "start": {
-          "column": 4,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 5,
-      "line": 2
-    },
-    "start": {
-      "column": 4,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

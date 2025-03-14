@@ -2,272 +2,104 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    41
-  ],
+  "start": 1,
+  "end": 41,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 1,
+      "end": 12,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          9,
-          12
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 1
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        "start": 9,
+        "end": 12,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          7,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        1,
-        12
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 1
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
-      }
+      "superClass": null
     },
     {
       "type": "TSTypeAliasDeclaration",
+      "start": 13,
+      "end": 26,
       "declare": false,
       "id": {
         "type": "Identifier",
+        "start": 18,
+        "end": 21,
         "decorators": [],
         "name": "baz",
-        "optional": false,
-        "range": [
-          18,
-          21
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 2
-          },
-          "start": {
-            "column": 5,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "typeAnnotation": {
         "type": "TSTypeReference",
+        "start": 24,
+        "end": 25,
         "typeName": {
           "type": "Identifier",
+          "start": 24,
+          "end": 25,
           "decorators": [],
           "name": "C",
-          "optional": false,
-          "range": [
-            24,
-            25
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 2
-            },
-            "start": {
-              "column": 11,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          24,
-          25
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 2
-          },
-          "start": {
-            "column": 11,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        13,
-        26
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
+          "optional": false
         }
       }
     },
     {
       "type": "VariableDeclaration",
+      "start": 27,
+      "end": 40,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 31,
+          "end": 39,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 31,
+            "end": 39,
             "decorators": [],
             "name": "baz",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 3
-                },
-                "start": {
-                  "column": 7,
-                  "line": 3
-                }
-              },
-              "range": [
-                34,
-                39
-              ],
+              "start": 34,
+              "end": 39,
               "typeAnnotation": {
                 "type": "TSTypeReference",
+                "start": 36,
+                "end": 39,
                 "typeName": {
                   "type": "Identifier",
+                  "start": 36,
+                  "end": 39,
                   "decorators": [],
                   "name": "baz",
-                  "optional": false,
-                  "range": [
-                    36,
-                    39
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 12,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 9,
-                      "line": 3
-                    }
-                  }
-                },
-                "range": [
-                  36,
-                  39
-                ],
-                "loc": {
-                  "end": {
-                    "column": 12,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 9,
-                    "line": 3
-                  }
+                  "optional": false
                 }
-              }
-            },
-            "range": [
-              31,
-              39
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
               }
             }
           },
-          "init": null,
-          "range": [
-            31,
-            39
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 3
-            },
-            "start": {
-              "column": 4,
-              "line": 3
-            }
-          }
+          "init": null
         }
       ],
       "declare": false,
-      "kind": "let",
-      "range": [
-        27,
-        40
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "kind": "let"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

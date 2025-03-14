@@ -2,264 +2,96 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    65
-  ],
+  "start": 0,
+  "end": 65,
   "body": [
     {
       "type": "IfStatement",
+      "start": 0,
+      "end": 27,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          22,
-          27
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 22,
-            "line": 1
-          }
-        }
+        "start": 22,
+        "end": 27,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 4,
+        "end": 20,
         "operator": "!==",
         "left": {
           "type": "UnaryExpression",
+          "start": 4,
+          "end": 11,
           "argument": {
             "type": "UnaryExpression",
+            "start": 5,
+            "end": 11,
             "argument": {
               "type": "Literal",
+              "start": 10,
+              "end": 11,
               "raw": "0",
-              "value": 0,
-              "range": [
-                10,
-                11
-              ],
-              "loc": {
-                "end": {
-                  "column": 11,
-                  "line": 1
-                },
-                "start": {
-                  "column": 10,
-                  "line": 1
-                }
-              }
+              "value": 0
             },
             "operator": "void",
-            "prefix": true,
-            "range": [
-              5,
-              11
-            ],
-            "loc": {
-              "end": {
-                "column": 11,
-                "line": 1
-              },
-              "start": {
-                "column": 5,
-                "line": 1
-              }
-            }
+            "prefix": true
           },
           "operator": "!",
-          "prefix": true,
-          "range": [
-            4,
-            11
-          ],
-          "loc": {
-            "end": {
-              "column": 11,
-              "line": 1
-            },
-            "start": {
-              "column": 4,
-              "line": 1
-            }
-          }
+          "prefix": true
         },
         "right": {
           "type": "Literal",
+          "start": 16,
+          "end": 20,
           "raw": "true",
-          "value": true,
-          "range": [
-            16,
-            20
-          ],
-          "loc": {
-            "end": {
-              "column": 20,
-              "line": 1
-            },
-            "start": {
-              "column": 16,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          4,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 4,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        27
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": true
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 39,
+      "end": 64,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          59,
-          64
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 8
-          },
-          "start": {
-            "column": 20,
-            "line": 6
-          }
-        }
+        "start": 59,
+        "end": 64,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 43,
+        "end": 57,
         "operator": "!==",
         "left": {
           "type": "UnaryExpression",
+          "start": 43,
+          "end": 48,
           "argument": {
             "type": "Literal",
+            "start": 44,
+            "end": 48,
             "raw": "null",
-            "value": null,
-            "range": [
-              44,
-              48
-            ],
-            "loc": {
-              "end": {
-                "column": 9,
-                "line": 6
-              },
-              "start": {
-                "column": 5,
-                "line": 6
-              }
-            }
+            "value": null
           },
           "operator": "!",
-          "prefix": true,
-          "range": [
-            43,
-            48
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 6
-            },
-            "start": {
-              "column": 4,
-              "line": 6
-            }
-          }
+          "prefix": true
         },
         "right": {
           "type": "Literal",
+          "start": 53,
+          "end": 57,
           "raw": "true",
-          "value": true,
-          "range": [
-            53,
-            57
-          ],
-          "loc": {
-            "end": {
-              "column": 18,
-              "line": 6
-            },
-            "start": {
-              "column": 14,
-              "line": 6
-            }
-          }
-        },
-        "range": [
-          43,
-          57
-        ],
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 6
-          },
-          "start": {
-            "column": 4,
-            "line": 6
-          }
-        }
-      },
-      "range": [
-        39,
-        64
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 6
+          "value": true
         }
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 9
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

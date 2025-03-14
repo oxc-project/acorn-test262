@@ -2,116 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    77
-  ],
+  "start": 1,
+  "end": 77,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "range": [
-        1,
-        27
-      ],
+      "start": 1,
+      "end": 27,
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 16,
+        "end": 27,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            24,
-            27
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 27,
-              "line": 1
-            },
-            "start": {
-              "column": 24,
-              "line": 1
-            }
-          }
+          "start": 24,
+          "end": 27,
+          "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 22,
+          "end": 23,
           "decorators": [],
           "name": "C",
-          "optional": false,
-          "range": [
-            22,
-            23
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 1
-            },
-            "start": {
-              "column": 22,
-              "line": 1
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          16,
-          27
-        ],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 1
-          },
-          "start": {
-            "column": 16,
-            "line": 1
-          }
-        }
+        "superClass": null
       },
-      "exportKind": "value",
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 1
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
+      "start": 29,
+      "end": 77,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 44,
+        "end": 76,
         "properties": [
           {
             "type": "Property",
+            "start": 50,
+            "end": 73,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 50,
+              "end": 54,
               "decorators": [],
               "name": "uhoh",
-              "optional": false,
-              "range": [
-                50,
-                54
-              ],
-              "loc": {
-                "end": {
-                  "column": 8,
-                  "line": 4
-                },
-                "start": {
-                  "column": 4,
-                  "line": 4
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -119,82 +63,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 56,
+              "end": 73,
               "raw": "\"another default\"",
-              "value": "another default",
-              "range": [
-                56,
-                73
-              ],
-              "loc": {
-                "end": {
-                  "column": 27,
-                  "line": 4
-                },
-                "start": {
-                  "column": 10,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              50,
-              73
-            ],
-            "loc": {
-              "end": {
-                "column": 27,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 4
-              }
+              "value": "another default"
             }
           }
-        ],
-        "range": [
-          44,
-          76
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 15,
-            "line": 3
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        29,
-        77
-      ],
-      "loc": {
-        "end": {
-          "column": 2,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 2,
-      "line": 5
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

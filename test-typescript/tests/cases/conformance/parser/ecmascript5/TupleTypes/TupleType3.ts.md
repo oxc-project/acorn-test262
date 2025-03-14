@@ -2,118 +2,46 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    9
-  ],
+  "start": 0,
+  "end": 9,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 9,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 4,
+          "end": 9,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 4,
+            "end": 9,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 9,
-                  "line": 1
-                },
-                "start": {
-                  "column": 5,
-                  "line": 1
-                }
-              },
-              "range": [
-                5,
-                9
-              ],
+              "start": 5,
+              "end": 9,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "elementTypes": [],
-                "range": [
-                  7,
-                  9
-                ],
-                "loc": {
-                  "end": {
-                    "column": 9,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 7,
-                    "line": 1
-                  }
-                }
-              }
-            },
-            "range": [
-              4,
-              9
-            ],
-            "loc": {
-              "end": {
-                "column": 9,
-                "line": 1
-              },
-              "start": {
-                "column": 4,
-                "line": 1
+                "start": 7,
+                "end": 9,
+                "elementTypes": []
               }
             }
           },
-          "init": null,
-          "range": [
-            4,
-            9
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 1
-            },
-            "start": {
-              "column": 4,
-              "line": 1
-            }
-          }
+          "init": null
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "var"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 9,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

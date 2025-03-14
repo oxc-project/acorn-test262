@@ -2,138 +2,54 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    48
-  ],
+  "start": 0,
+  "end": 48,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 47,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 23,
+        "end": 47,
         "body": [
           {
             "type": "ExpressionStatement",
+            "start": 29,
+            "end": 45,
             "expression": {
               "type": "YieldExpression",
+              "start": 29,
+              "end": 44,
               "argument": {
                 "type": "Literal",
+                "start": 35,
+                "end": 44,
                 "raw": "'literal'",
-                "value": "literal",
-                "range": [
-                  35,
-                  44
-                ],
-                "loc": {
-                  "end": {
-                    "column": 19,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 10,
-                    "line": 2
-                  }
-                }
+                "value": "literal"
               },
-              "delegate": false,
-              "range": [
-                29,
-                44
-              ],
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              29,
-              45
-            ],
-            "loc": {
-              "end": {
-                "column": 20,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "delegate": false
             }
           }
-        ],
-        "range": [
-          23,
-          47
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 23,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 9,
+        "end": 20,
         "decorators": [],
         "name": "yieldString",
-        "optional": false,
-        "range": [
-          9,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "params": [],
-      "range": [
-        0,
-        47
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "params": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

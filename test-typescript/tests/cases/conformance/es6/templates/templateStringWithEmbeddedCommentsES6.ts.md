@@ -2,165 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    17,
-    127
-  ],
+  "start": 17,
+  "end": 127,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 17,
+      "end": 127,
       "expression": {
         "type": "TemplateLiteral",
+        "start": 17,
+        "end": 126,
         "expressions": [
           {
             "type": "Literal",
+            "start": 48,
+            "end": 50,
             "raw": "10",
-            "value": 10,
-            "range": [
-              48,
-              50
-            ],
-            "loc": {
-              "end": {
-                "column": 2,
-                "line": 3
-              },
-              "start": {
-                "column": 0,
-                "line": 3
-              }
-            }
+            "value": 10
           },
           {
             "type": "Literal",
+            "start": 96,
+            "end": 98,
             "raw": "20",
-            "value": 20,
-            "range": [
-              96,
-              98
-            ],
-            "loc": {
-              "end": {
-                "column": 3,
-                "line": 10
-              },
-              "start": {
-                "column": 1,
-                "line": 10
-              }
-            }
+            "value": 20
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
+            "start": 17,
+            "end": 24,
             "tail": false,
             "value": {
               "cooked": "head",
               "raw": "head"
-            },
-            "range": [
-              17,
-              24
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 2
-              },
-              "start": {
-                "column": 0,
-                "line": 2
-              }
             }
           },
           {
             "type": "TemplateElement",
+            "start": 51,
+            "end": 61,
             "tail": false,
             "value": {
               "cooked": "\nmiddle",
               "raw": "\nmiddle"
-            },
-            "range": [
-              51,
-              61
-            ],
-            "loc": {
-              "end": {
-                "column": 8,
-                "line": 5
-              },
-              "start": {
-                "column": 0,
-                "line": 4
-              }
             }
           },
           {
             "type": "TemplateElement",
+            "start": 119,
+            "end": 126,
             "tail": true,
             "value": {
               "cooked": "\ntail",
               "raw": "\ntail"
-            },
-            "range": [
-              119,
-              126
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 13
-              },
-              "start": {
-                "column": 0,
-                "line": 12
-              }
             }
           }
-        ],
-        "range": [
-          17,
-          126
-        ],
-        "loc": {
-          "end": {
-            "column": 5,
-            "line": 13
-          },
-          "start": {
-            "column": 0,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        17,
-        127
-      ],
-      "loc": {
-        "end": {
-          "column": 6,
-          "line": 13
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        ]
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 6,
-      "line": 13
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

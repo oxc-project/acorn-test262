@@ -2,219 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    58
-  ],
+  "start": 0,
+  "end": 58,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 58,
       "body": {
         "type": "TSModuleBlock",
+        "start": 9,
+        "end": 58,
         "body": [
           {
             "type": "TSModuleDeclaration",
+            "start": 15,
+            "end": 31,
             "body": {
               "type": "TSModuleBlock",
-              "body": [],
-              "range": [
-                24,
-                31
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 3
-                },
-                "start": {
-                  "column": 13,
-                  "line": 2
-                }
-              }
+              "start": 24,
+              "end": 31,
+              "body": []
             },
             "declare": false,
             "global": false,
             "id": {
               "type": "Identifier",
-              "range": [
-                22,
-                23
-              ],
+              "start": 22,
+              "end": 23,
               "decorators": [],
               "name": "N",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 2
-                },
-                "start": {
-                  "column": 11,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "kind": "module",
-            "range": [
-              15,
-              31
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "kind": "module"
           },
           {
             "type": "ExportNamedDeclaration",
-            "range": [
-              36,
-              56
-            ],
+            "start": 36,
+            "end": 56,
             "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
+              "start": 43,
+              "end": 56,
               "id": {
                 "type": "Identifier",
+                "start": 50,
+                "end": 51,
                 "decorators": [],
                 "name": "X",
-                "optional": false,
-                "range": [
-                  50,
-                  51
-                ],
-                "loc": {
-                  "end": {
-                    "column": 19,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 4
-                  }
-                }
+                "optional": false
               },
               "importKind": "value",
               "moduleReference": {
                 "type": "Identifier",
+                "start": 54,
+                "end": 55,
                 "decorators": [],
                 "name": "N",
-                "optional": false,
-                "range": [
-                  54,
-                  55
-                ],
-                "loc": {
-                  "end": {
-                    "column": 23,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 22,
-                    "line": 4
-                  }
-                }
-              },
-              "range": [
-                43,
-                56
-              ],
-              "loc": {
-                "end": {
-                  "column": 24,
-                  "line": 4
-                },
-                "start": {
-                  "column": 11,
-                  "line": 4
-                }
+                "optional": false
               }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": [],
-            "loc": {
-              "end": {
-                "column": 24,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 4
-              }
-            }
+            "specifiers": []
           }
-        ],
-        "range": [
-          9,
-          58
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          7,
-          8
-        ],
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        0,
-        58
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 5
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

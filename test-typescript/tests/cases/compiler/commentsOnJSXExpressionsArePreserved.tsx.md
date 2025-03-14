@@ -2,102 +2,54 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    148,
-    494
-  ],
+  "start": 148,
+  "end": 494,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 148,
+      "end": 164,
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          162,
-          164
-        ],
-        "loc": {
-          "end": {
-            "column": 16,
-            "line": 2
-          },
-          "start": {
-            "column": 14,
-            "line": 2
-          }
-        }
+        "start": 162,
+        "end": 164,
+        "body": []
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          158,
-          161
-        ],
+        "start": 158,
+        "end": 161,
         "decorators": [],
         "name": "JSX",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 2
-          },
-          "start": {
-            "column": 10,
-            "line": 2
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        148,
-        164
-      ],
-      "loc": {
-        "end": {
-          "column": 16,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "kind": "namespace"
     },
     {
       "type": "ClassDeclaration",
+      "start": 165,
+      "end": 494,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          181,
-          494
-        ],
+        "start": 181,
+        "end": 494,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 187,
+            "end": 492,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "start": 187,
+              "end": 193,
               "decorators": [],
               "name": "render",
-              "optional": false,
-              "range": [
-                187,
-                193
-              ],
-              "loc": {
-                "end": {
-                  "column": 10,
-                  "line": 4
-                },
-                "start": {
-                  "column": 4,
-                  "line": 4
-                }
-              }
+              "optional": false
             },
             "kind": "method",
             "optional": false,
@@ -105,571 +57,187 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                193,
-                492
-              ],
+              "start": 193,
+              "end": 492,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 196,
+                "end": 492,
                 "body": [
                   {
                     "type": "ReturnStatement",
+                    "start": 206,
+                    "end": 486,
                     "argument": {
                       "type": "JSXElement",
+                      "start": 213,
+                      "end": 485,
                       "children": [
                         {
                           "type": "JSXText",
-                          "range": [
-                            218,
-                            231
-                          ],
+                          "start": 218,
+                          "end": 231,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 6
-                            },
-                            "start": {
-                              "column": 20,
-                              "line": 5
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 231,
+                          "end": 246,
                           "expression": {
                             "type": "JSXEmptyExpression",
-                            "range": [
-                              232,
-                              245
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 26,
-                                "line": 6
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 6
-                              }
-                            }
-                          },
-                          "range": [
-                            231,
-                            246
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 27,
-                              "line": 6
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 6
-                            }
+                            "start": 232,
+                            "end": 245
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            246,
-                            259
-                          ],
+                          "start": 246,
+                          "end": 259,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 7
-                            },
-                            "start": {
-                              "column": 27,
-                              "line": 6
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 259,
+                          "end": 280,
                           "expression": {
                             "type": "Literal",
+                            "start": 260,
+                            "end": 264,
                             "raw": "null",
-                            "value": null,
-                            "range": [
-                              260,
-                              264
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 17,
-                                "line": 7
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 7
-                              }
-                            }
-                          },
-                          "range": [
-                            259,
-                            280
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 33,
-                              "line": 7
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 7
-                            }
+                            "value": null
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            280,
-                            293
-                          ],
+                          "start": 280,
+                          "end": 293,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 8
-                            },
-                            "start": {
-                              "column": 33,
-                              "line": 7
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 293,
+                          "end": 333,
                           "expression": {
                             "type": "JSXEmptyExpression",
-                            "range": [
-                              294,
-                              332
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 12,
-                                "line": 10
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 8
-                              }
-                            }
-                          },
-                          "range": [
-                            293,
-                            333
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 13,
-                              "line": 10
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 8
-                            }
+                            "start": 294,
+                            "end": 332
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            333,
-                            346
-                          ],
+                          "start": 333,
+                          "end": 346,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 11
-                            },
-                            "start": {
-                              "column": 13,
-                              "line": 10
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 346,
+                          "end": 370,
                           "expression": {
                             "type": "JSXEmptyExpression",
-                            "range": [
-                              347,
-                              369
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 12,
-                                "line": 12
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 11
-                              }
-                            }
-                          },
-                          "range": [
-                            346,
-                            370
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 13,
-                              "line": 12
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 11
-                            }
+                            "start": 347,
+                            "end": 369
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            370,
-                            383
-                          ],
+                          "start": 370,
+                          "end": 383,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 13
-                            },
-                            "start": {
-                              "column": 13,
-                              "line": 12
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 383,
+                          "end": 406,
                           "expression": {
                             "type": "JSXEmptyExpression",
-                            "range": [
-                              384,
-                              405
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 12,
-                                "line": 14
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 13
-                              }
-                            }
-                          },
-                          "range": [
-                            383,
-                            406
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 13,
-                              "line": 14
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 13
-                            }
+                            "start": 384,
+                            "end": 405
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            406,
-                            419
-                          ],
+                          "start": 406,
+                          "end": 419,
                           "raw": "\n            ",
-                          "value": "\n            ",
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 15
-                            },
-                            "start": {
-                              "column": 13,
-                              "line": 14
-                            }
-                          }
+                          "value": "\n            "
                         },
                         {
                           "type": "JSXExpressionContainer",
+                          "start": 419,
+                          "end": 470,
                           "expression": {
                             "type": "JSXEmptyExpression",
-                            "range": [
-                              420,
-                              469
-                            ],
-                            "loc": {
-                              "end": {
-                                "column": 23,
-                                "line": 17
-                              },
-                              "start": {
-                                "column": 13,
-                                "line": 15
-                              }
-                            }
-                          },
-                          "range": [
-                            419,
-                            470
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 24,
-                              "line": 17
-                            },
-                            "start": {
-                              "column": 12,
-                              "line": 15
-                            }
+                            "start": 420,
+                            "end": 469
                           }
                         },
                         {
                           "type": "JSXText",
-                          "range": [
-                            470,
-                            479
-                          ],
+                          "start": 470,
+                          "end": 479,
                           "raw": "\n        ",
-                          "value": "\n        ",
-                          "loc": {
-                            "end": {
-                              "column": 8,
-                              "line": 18
-                            },
-                            "start": {
-                              "column": 24,
-                              "line": 17
-                            }
-                          }
+                          "value": "\n        "
                         }
                       ],
                       "closingElement": {
                         "type": "JSXClosingElement",
+                        "start": 479,
+                        "end": 485,
                         "name": {
                           "type": "JSXIdentifier",
-                          "name": "div",
-                          "range": [
-                            481,
-                            484
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 13,
-                              "line": 18
-                            },
-                            "start": {
-                              "column": 10,
-                              "line": 18
-                            }
-                          }
-                        },
-                        "range": [
-                          479,
-                          485
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 14,
-                            "line": 18
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 18
-                          }
+                          "start": 481,
+                          "end": 484,
+                          "name": "div"
                         }
                       },
                       "openingElement": {
                         "type": "JSXOpeningElement",
+                        "start": 213,
+                        "end": 218,
                         "attributes": [],
                         "name": {
                           "type": "JSXIdentifier",
-                          "name": "div",
-                          "range": [
-                            214,
-                            217
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 19,
-                              "line": 5
-                            },
-                            "start": {
-                              "column": 16,
-                              "line": 5
-                            }
-                          }
+                          "start": 214,
+                          "end": 217,
+                          "name": "div"
                         },
-                        "selfClosing": false,
-                        "range": [
-                          213,
-                          218
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 20,
-                            "line": 5
-                          },
-                          "start": {
-                            "column": 15,
-                            "line": 5
-                          }
-                        }
-                      },
-                      "range": [
-                        213,
-                        485
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 18
-                        },
-                        "start": {
-                          "column": 15,
-                          "line": 5
-                        }
-                      }
-                    },
-                    "range": [
-                      206,
-                      486
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 18
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 5
+                        "selfClosing": false
                       }
                     }
                   }
-                ],
-                "range": [
-                  196,
-                  492
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 19
-                  },
-                  "start": {
-                    "column": 13,
-                    "line": 4
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 19
-                },
-                "start": {
-                  "column": 10,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              187,
-              492
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 19
-              },
-              "start": {
-                "column": 4,
-                "line": 4
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 20
-          },
-          "start": {
-            "column": 16,
-            "line": 3
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 171,
+        "end": 180,
         "decorators": [],
         "name": "Component",
-        "optional": false,
-        "range": [
-          171,
-          180
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 3
-          },
-          "start": {
-            "column": 6,
-            "line": 3
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        165,
-        494
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 20
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 20
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

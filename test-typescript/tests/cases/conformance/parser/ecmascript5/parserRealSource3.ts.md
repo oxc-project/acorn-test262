@@ -2,4343 +2,1607 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    211,
-    2117
-  ],
+  "start": 211,
+  "end": 2117,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 211,
+      "end": 2117,
       "body": {
         "type": "TSModuleBlock",
+        "start": 229,
+        "end": 2117,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "range": [
-              343,
-              2115
-            ],
+            "start": 343,
+            "end": 2115,
             "attributes": [],
             "declaration": {
               "type": "TSEnumDeclaration",
+              "start": 350,
+              "end": 2115,
               "body": {
                 "type": "TSEnumBody",
-                "range": [
-                  364,
-                  2115
-                ],
+                "start": 364,
+                "end": 2115,
                 "members": [
                   {
                     "type": "TSEnumMember",
+                    "start": 374,
+                    "end": 378,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 374,
+                      "end": 378,
                       "decorators": [],
                       "name": "None",
-                      "optional": false,
-                      "range": [
-                        374,
-                        378
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 9
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 9
-                        }
-                      }
-                    },
-                    "range": [
-                      374,
-                      378
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 9
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 9
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 388,
+                    "end": 393,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 388,
+                      "end": 393,
                       "decorators": [],
                       "name": "Empty",
-                      "optional": false,
-                      "range": [
-                        388,
-                        393
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 10
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 10
-                        }
-                      }
-                    },
-                    "range": [
-                      388,
-                      393
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 10
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 10
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 403,
+                    "end": 412,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 403,
+                      "end": 412,
                       "decorators": [],
                       "name": "EmptyExpr",
-                      "optional": false,
-                      "range": [
-                        403,
-                        412
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 17,
-                          "line": 11
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 11
-                        }
-                      }
-                    },
-                    "range": [
-                      403,
-                      412
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 17,
-                        "line": 11
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 11
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 422,
+                    "end": 426,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 422,
+                      "end": 426,
                       "decorators": [],
                       "name": "True",
-                      "optional": false,
-                      "range": [
-                        422,
-                        426
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 12
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 12
-                        }
-                      }
-                    },
-                    "range": [
-                      422,
-                      426
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 12
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 12
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 436,
+                    "end": 441,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 436,
+                      "end": 441,
                       "decorators": [],
                       "name": "False",
-                      "optional": false,
-                      "range": [
-                        436,
-                        441
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 13
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 13
-                        }
-                      }
-                    },
-                    "range": [
-                      436,
-                      441
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 13
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 13
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 451,
+                    "end": 455,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 451,
+                      "end": 455,
                       "decorators": [],
                       "name": "This",
-                      "optional": false,
-                      "range": [
-                        451,
-                        455
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 14
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 14
-                        }
-                      }
-                    },
-                    "range": [
-                      451,
-                      455
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 14
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 14
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 465,
+                    "end": 470,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 465,
+                      "end": 470,
                       "decorators": [],
                       "name": "Super",
-                      "optional": false,
-                      "range": [
-                        465,
-                        470
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 15
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 15
-                        }
-                      }
-                    },
-                    "range": [
-                      465,
-                      470
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 15
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 15
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 480,
+                    "end": 487,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 480,
+                      "end": 487,
                       "decorators": [],
                       "name": "QString",
-                      "optional": false,
-                      "range": [
-                        480,
-                        487
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 16
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 16
-                        }
-                      }
-                    },
-                    "range": [
-                      480,
-                      487
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 16
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 16
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 497,
+                    "end": 502,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 497,
+                      "end": 502,
                       "decorators": [],
                       "name": "Regex",
-                      "optional": false,
-                      "range": [
-                        497,
-                        502
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 17
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 17
-                        }
-                      }
-                    },
-                    "range": [
-                      497,
-                      502
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 17
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 17
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 512,
+                    "end": 516,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 512,
+                      "end": 516,
                       "decorators": [],
                       "name": "Null",
-                      "optional": false,
-                      "range": [
-                        512,
-                        516
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 18
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 18
-                        }
-                      }
-                    },
-                    "range": [
-                      512,
-                      516
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 18
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 18
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 526,
+                    "end": 534,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 526,
+                      "end": 534,
                       "decorators": [],
                       "name": "ArrayLit",
-                      "optional": false,
-                      "range": [
-                        526,
-                        534
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 16,
-                          "line": 19
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 19
-                        }
-                      }
-                    },
-                    "range": [
-                      526,
-                      534
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 19
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 19
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 544,
+                    "end": 553,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 544,
+                      "end": 553,
                       "decorators": [],
                       "name": "ObjectLit",
-                      "optional": false,
-                      "range": [
-                        544,
-                        553
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 17,
-                          "line": 20
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 20
-                        }
-                      }
-                    },
-                    "range": [
-                      544,
-                      553
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 17,
-                        "line": 20
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 20
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 563,
+                    "end": 567,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 563,
+                      "end": 567,
                       "decorators": [],
                       "name": "Void",
-                      "optional": false,
-                      "range": [
-                        563,
-                        567
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 21
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 21
-                        }
-                      }
-                    },
-                    "range": [
-                      563,
-                      567
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 21
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 21
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 577,
+                    "end": 582,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 577,
+                      "end": 582,
                       "decorators": [],
                       "name": "Comma",
-                      "optional": false,
-                      "range": [
-                        577,
-                        582
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 22
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 22
-                        }
-                      }
-                    },
-                    "range": [
-                      577,
-                      582
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 22
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 22
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 592,
+                    "end": 595,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 592,
+                      "end": 595,
                       "decorators": [],
                       "name": "Pos",
-                      "optional": false,
-                      "range": [
-                        592,
-                        595
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 23
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 23
-                        }
-                      }
-                    },
-                    "range": [
-                      592,
-                      595
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 23
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 23
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 605,
+                    "end": 608,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 605,
+                      "end": 608,
                       "decorators": [],
                       "name": "Neg",
-                      "optional": false,
-                      "range": [
-                        605,
-                        608
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 24
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 24
-                        }
-                      }
-                    },
-                    "range": [
-                      605,
-                      608
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 24
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 24
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 618,
+                    "end": 624,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 618,
+                      "end": 624,
                       "decorators": [],
                       "name": "Delete",
-                      "optional": false,
-                      "range": [
-                        618,
-                        624
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 25
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 25
-                        }
-                      }
-                    },
-                    "range": [
-                      618,
-                      624
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 25
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 25
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 634,
+                    "end": 639,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 634,
+                      "end": 639,
                       "decorators": [],
                       "name": "Await",
-                      "optional": false,
-                      "range": [
-                        634,
-                        639
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 26
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 26
-                        }
-                      }
-                    },
-                    "range": [
-                      634,
-                      639
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 26
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 26
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 649,
+                    "end": 651,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 649,
+                      "end": 651,
                       "decorators": [],
                       "name": "In",
-                      "optional": false,
-                      "range": [
-                        649,
-                        651
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 27
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 27
-                        }
-                      }
-                    },
-                    "range": [
-                      649,
-                      651
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 27
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 27
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 661,
+                    "end": 664,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 661,
+                      "end": 664,
                       "decorators": [],
                       "name": "Dot",
-                      "optional": false,
-                      "range": [
-                        661,
-                        664
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 28
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 28
-                        }
-                      }
-                    },
-                    "range": [
-                      661,
-                      664
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 28
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 28
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 674,
+                    "end": 678,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 674,
+                      "end": 678,
                       "decorators": [],
                       "name": "From",
-                      "optional": false,
-                      "range": [
-                        674,
-                        678
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 29
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 29
-                        }
-                      }
-                    },
-                    "range": [
-                      674,
-                      678
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 29
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 29
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 688,
+                    "end": 690,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 688,
+                      "end": 690,
                       "decorators": [],
                       "name": "Is",
-                      "optional": false,
-                      "range": [
-                        688,
-                        690
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 30
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 30
-                        }
-                      }
-                    },
-                    "range": [
-                      688,
-                      690
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 30
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 30
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 700,
+                    "end": 706,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 700,
+                      "end": 706,
                       "decorators": [],
                       "name": "InstOf",
-                      "optional": false,
-                      "range": [
-                        700,
-                        706
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 31
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 31
-                        }
-                      }
-                    },
-                    "range": [
-                      700,
-                      706
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 31
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 31
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 716,
+                    "end": 722,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 716,
+                      "end": 722,
                       "decorators": [],
                       "name": "Typeof",
-                      "optional": false,
-                      "range": [
-                        716,
-                        722
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 32
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 32
-                        }
-                      }
-                    },
-                    "range": [
-                      716,
-                      722
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 32
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 32
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 732,
+                    "end": 741,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 732,
+                      "end": 741,
                       "decorators": [],
                       "name": "NumberLit",
-                      "optional": false,
-                      "range": [
-                        732,
-                        741
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 17,
-                          "line": 33
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 33
-                        }
-                      }
-                    },
-                    "range": [
-                      732,
-                      741
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 17,
-                        "line": 33
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 33
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 751,
+                    "end": 755,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 751,
+                      "end": 755,
                       "decorators": [],
                       "name": "Name",
-                      "optional": false,
-                      "range": [
-                        751,
-                        755
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 34
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 34
-                        }
-                      }
-                    },
-                    "range": [
-                      751,
-                      755
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 34
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 34
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 765,
+                    "end": 772,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 765,
+                      "end": 772,
                       "decorators": [],
                       "name": "TypeRef",
-                      "optional": false,
-                      "range": [
-                        765,
-                        772
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 35
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 35
-                        }
-                      }
-                    },
-                    "range": [
-                      765,
-                      772
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 35
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 35
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 782,
+                    "end": 787,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 782,
+                      "end": 787,
                       "decorators": [],
                       "name": "Index",
-                      "optional": false,
-                      "range": [
-                        782,
-                        787
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 36
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 36
-                        }
-                      }
-                    },
-                    "range": [
-                      782,
-                      787
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 36
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 36
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 797,
+                    "end": 801,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 797,
+                      "end": 801,
                       "decorators": [],
                       "name": "Call",
-                      "optional": false,
-                      "range": [
-                        797,
-                        801
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 37
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 37
-                        }
-                      }
-                    },
-                    "range": [
-                      797,
-                      801
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 37
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 37
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 811,
+                    "end": 814,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 811,
+                      "end": 814,
                       "decorators": [],
                       "name": "New",
-                      "optional": false,
-                      "range": [
-                        811,
-                        814
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 38
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 38
-                        }
-                      }
-                    },
-                    "range": [
-                      811,
-                      814
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 38
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 38
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 824,
+                    "end": 827,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 824,
+                      "end": 827,
                       "decorators": [],
                       "name": "Asg",
-                      "optional": false,
-                      "range": [
-                        824,
-                        827
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 39
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 39
-                        }
-                      }
-                    },
-                    "range": [
-                      824,
-                      827
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 39
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 39
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 837,
+                    "end": 843,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 837,
+                      "end": 843,
                       "decorators": [],
                       "name": "AsgAdd",
-                      "optional": false,
-                      "range": [
-                        837,
-                        843
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 40
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 40
-                        }
-                      }
-                    },
-                    "range": [
-                      837,
-                      843
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 40
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 40
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 853,
+                    "end": 859,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 853,
+                      "end": 859,
                       "decorators": [],
                       "name": "AsgSub",
-                      "optional": false,
-                      "range": [
-                        853,
-                        859
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 41
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 41
-                        }
-                      }
-                    },
-                    "range": [
-                      853,
-                      859
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 41
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 41
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 869,
+                    "end": 875,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 869,
+                      "end": 875,
                       "decorators": [],
                       "name": "AsgDiv",
-                      "optional": false,
-                      "range": [
-                        869,
-                        875
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 42
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 42
-                        }
-                      }
-                    },
-                    "range": [
-                      869,
-                      875
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 42
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 42
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 885,
+                    "end": 891,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 885,
+                      "end": 891,
                       "decorators": [],
                       "name": "AsgMul",
-                      "optional": false,
-                      "range": [
-                        885,
-                        891
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 43
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 43
-                        }
-                      }
-                    },
-                    "range": [
-                      885,
-                      891
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 43
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 43
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 901,
+                    "end": 907,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 901,
+                      "end": 907,
                       "decorators": [],
                       "name": "AsgMod",
-                      "optional": false,
-                      "range": [
-                        901,
-                        907
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 44
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 44
-                        }
-                      }
-                    },
-                    "range": [
-                      901,
-                      907
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 44
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 44
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 917,
+                    "end": 923,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 917,
+                      "end": 923,
                       "decorators": [],
                       "name": "AsgAnd",
-                      "optional": false,
-                      "range": [
-                        917,
-                        923
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 45
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 45
-                        }
-                      }
-                    },
-                    "range": [
-                      917,
-                      923
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 45
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 45
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 933,
+                    "end": 939,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 933,
+                      "end": 939,
                       "decorators": [],
                       "name": "AsgXor",
-                      "optional": false,
-                      "range": [
-                        933,
-                        939
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 46
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 46
-                        }
-                      }
-                    },
-                    "range": [
-                      933,
-                      939
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 46
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 46
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 949,
+                    "end": 954,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 949,
+                      "end": 954,
                       "decorators": [],
                       "name": "AsgOr",
-                      "optional": false,
-                      "range": [
-                        949,
-                        954
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 47
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 47
-                        }
-                      }
-                    },
-                    "range": [
-                      949,
-                      954
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 47
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 47
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 964,
+                    "end": 970,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 964,
+                      "end": 970,
                       "decorators": [],
                       "name": "AsgLsh",
-                      "optional": false,
-                      "range": [
-                        964,
-                        970
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 48
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 48
-                        }
-                      }
-                    },
-                    "range": [
-                      964,
-                      970
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 48
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 48
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 980,
+                    "end": 986,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 980,
+                      "end": 986,
                       "decorators": [],
                       "name": "AsgRsh",
-                      "optional": false,
-                      "range": [
-                        980,
-                        986
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 49
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 49
-                        }
-                      }
-                    },
-                    "range": [
-                      980,
-                      986
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 49
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 49
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 996,
+                    "end": 1002,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 996,
+                      "end": 1002,
                       "decorators": [],
                       "name": "AsgRs2",
-                      "optional": false,
-                      "range": [
-                        996,
-                        1002
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 50
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 50
-                        }
-                      }
-                    },
-                    "range": [
-                      996,
-                      1002
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 50
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 50
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1012,
+                    "end": 1033,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1012,
+                      "end": 1033,
                       "decorators": [],
                       "name": "ConditionalExpression",
-                      "optional": false,
-                      "range": [
-                        1012,
-                        1033
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 29,
-                          "line": 51
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 51
-                        }
-                      }
-                    },
-                    "range": [
-                      1012,
-                      1033
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 29,
-                        "line": 51
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 51
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1043,
+                    "end": 1048,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1043,
+                      "end": 1048,
                       "decorators": [],
                       "name": "LogOr",
-                      "optional": false,
-                      "range": [
-                        1043,
-                        1048
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 52
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 52
-                        }
-                      }
-                    },
-                    "range": [
-                      1043,
-                      1048
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 52
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 52
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1058,
+                    "end": 1064,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1058,
+                      "end": 1064,
                       "decorators": [],
                       "name": "LogAnd",
-                      "optional": false,
-                      "range": [
-                        1058,
-                        1064
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 53
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 53
-                        }
-                      }
-                    },
-                    "range": [
-                      1058,
-                      1064
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 53
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 53
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1074,
+                    "end": 1076,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1074,
+                      "end": 1076,
                       "decorators": [],
                       "name": "Or",
-                      "optional": false,
-                      "range": [
-                        1074,
-                        1076
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 54
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 54
-                        }
-                      }
-                    },
-                    "range": [
-                      1074,
-                      1076
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 54
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 54
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1086,
+                    "end": 1089,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1086,
+                      "end": 1089,
                       "decorators": [],
                       "name": "Xor",
-                      "optional": false,
-                      "range": [
-                        1086,
-                        1089
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 55
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 55
-                        }
-                      }
-                    },
-                    "range": [
-                      1086,
-                      1089
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 55
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 55
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1099,
+                    "end": 1102,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1099,
+                      "end": 1102,
                       "decorators": [],
                       "name": "And",
-                      "optional": false,
-                      "range": [
-                        1099,
-                        1102
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 56
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 56
-                        }
-                      }
-                    },
-                    "range": [
-                      1099,
-                      1102
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 56
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 56
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1112,
+                    "end": 1114,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1112,
+                      "end": 1114,
                       "decorators": [],
                       "name": "Eq",
-                      "optional": false,
-                      "range": [
-                        1112,
-                        1114
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 57
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 57
-                        }
-                      }
-                    },
-                    "range": [
-                      1112,
-                      1114
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 57
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 57
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1124,
+                    "end": 1126,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1124,
+                      "end": 1126,
                       "decorators": [],
                       "name": "Ne",
-                      "optional": false,
-                      "range": [
-                        1124,
-                        1126
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 58
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 58
-                        }
-                      }
-                    },
-                    "range": [
-                      1124,
-                      1126
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 58
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 58
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1136,
+                    "end": 1139,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1136,
+                      "end": 1139,
                       "decorators": [],
                       "name": "Eqv",
-                      "optional": false,
-                      "range": [
-                        1136,
-                        1139
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 59
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 59
-                        }
-                      }
-                    },
-                    "range": [
-                      1136,
-                      1139
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 59
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 59
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1149,
+                    "end": 1153,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1149,
+                      "end": 1153,
                       "decorators": [],
                       "name": "NEqv",
-                      "optional": false,
-                      "range": [
-                        1149,
-                        1153
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 60
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 60
-                        }
-                      }
-                    },
-                    "range": [
-                      1149,
-                      1153
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 60
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 60
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1163,
+                    "end": 1165,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1163,
+                      "end": 1165,
                       "decorators": [],
                       "name": "Lt",
-                      "optional": false,
-                      "range": [
-                        1163,
-                        1165
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 61
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 61
-                        }
-                      }
-                    },
-                    "range": [
-                      1163,
-                      1165
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 61
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 61
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1175,
+                    "end": 1177,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1175,
+                      "end": 1177,
                       "decorators": [],
                       "name": "Le",
-                      "optional": false,
-                      "range": [
-                        1175,
-                        1177
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 62
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 62
-                        }
-                      }
-                    },
-                    "range": [
-                      1175,
-                      1177
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 62
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 62
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1187,
+                    "end": 1189,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1187,
+                      "end": 1189,
                       "decorators": [],
                       "name": "Gt",
-                      "optional": false,
-                      "range": [
-                        1187,
-                        1189
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 63
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 63
-                        }
-                      }
-                    },
-                    "range": [
-                      1187,
-                      1189
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 63
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 63
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1199,
+                    "end": 1201,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1199,
+                      "end": 1201,
                       "decorators": [],
                       "name": "Ge",
-                      "optional": false,
-                      "range": [
-                        1199,
-                        1201
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 64
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 64
-                        }
-                      }
-                    },
-                    "range": [
-                      1199,
-                      1201
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 64
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 64
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1211,
+                    "end": 1214,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1211,
+                      "end": 1214,
                       "decorators": [],
                       "name": "Add",
-                      "optional": false,
-                      "range": [
-                        1211,
-                        1214
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 65
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 65
-                        }
-                      }
-                    },
-                    "range": [
-                      1211,
-                      1214
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 65
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 65
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1224,
+                    "end": 1227,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1224,
+                      "end": 1227,
                       "decorators": [],
                       "name": "Sub",
-                      "optional": false,
-                      "range": [
-                        1224,
-                        1227
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 66
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 66
-                        }
-                      }
-                    },
-                    "range": [
-                      1224,
-                      1227
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 66
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 66
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1237,
+                    "end": 1240,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1237,
+                      "end": 1240,
                       "decorators": [],
                       "name": "Mul",
-                      "optional": false,
-                      "range": [
-                        1237,
-                        1240
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 67
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 67
-                        }
-                      }
-                    },
-                    "range": [
-                      1237,
-                      1240
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 67
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 67
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1250,
+                    "end": 1253,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1250,
+                      "end": 1253,
                       "decorators": [],
                       "name": "Div",
-                      "optional": false,
-                      "range": [
-                        1250,
-                        1253
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 68
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 68
-                        }
-                      }
-                    },
-                    "range": [
-                      1250,
-                      1253
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 68
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 68
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1263,
+                    "end": 1266,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1263,
+                      "end": 1266,
                       "decorators": [],
                       "name": "Mod",
-                      "optional": false,
-                      "range": [
-                        1263,
-                        1266
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 69
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 69
-                        }
-                      }
-                    },
-                    "range": [
-                      1263,
-                      1266
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 69
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 69
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1276,
+                    "end": 1279,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1276,
+                      "end": 1279,
                       "decorators": [],
                       "name": "Lsh",
-                      "optional": false,
-                      "range": [
-                        1276,
-                        1279
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 70
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 70
-                        }
-                      }
-                    },
-                    "range": [
-                      1276,
-                      1279
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 70
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 70
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1289,
+                    "end": 1292,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1289,
+                      "end": 1292,
                       "decorators": [],
                       "name": "Rsh",
-                      "optional": false,
-                      "range": [
-                        1289,
-                        1292
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 71
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 71
-                        }
-                      }
-                    },
-                    "range": [
-                      1289,
-                      1292
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 71
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 71
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1302,
+                    "end": 1305,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1302,
+                      "end": 1305,
                       "decorators": [],
                       "name": "Rs2",
-                      "optional": false,
-                      "range": [
-                        1302,
-                        1305
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 72
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 72
-                        }
-                      }
-                    },
-                    "range": [
-                      1302,
-                      1305
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 72
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 72
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1315,
+                    "end": 1318,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1315,
+                      "end": 1318,
                       "decorators": [],
                       "name": "Not",
-                      "optional": false,
-                      "range": [
-                        1315,
-                        1318
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 73
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 73
-                        }
-                      }
-                    },
-                    "range": [
-                      1315,
-                      1318
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 73
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 73
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1328,
+                    "end": 1334,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1328,
+                      "end": 1334,
                       "decorators": [],
                       "name": "LogNot",
-                      "optional": false,
-                      "range": [
-                        1328,
-                        1334
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 74
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 74
-                        }
-                      }
-                    },
-                    "range": [
-                      1328,
-                      1334
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 74
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 74
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1344,
+                    "end": 1350,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1344,
+                      "end": 1350,
                       "decorators": [],
                       "name": "IncPre",
-                      "optional": false,
-                      "range": [
-                        1344,
-                        1350
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 75
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 75
-                        }
-                      }
-                    },
-                    "range": [
-                      1344,
-                      1350
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 75
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 75
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1360,
+                    "end": 1366,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1360,
+                      "end": 1366,
                       "decorators": [],
                       "name": "DecPre",
-                      "optional": false,
-                      "range": [
-                        1360,
-                        1366
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 76
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 76
-                        }
-                      }
-                    },
-                    "range": [
-                      1360,
-                      1366
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 76
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 76
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1376,
+                    "end": 1383,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1376,
+                      "end": 1383,
                       "decorators": [],
                       "name": "IncPost",
-                      "optional": false,
-                      "range": [
-                        1376,
-                        1383
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 77
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 77
-                        }
-                      }
-                    },
-                    "range": [
-                      1376,
-                      1383
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 77
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 77
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1393,
+                    "end": 1400,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1393,
+                      "end": 1400,
                       "decorators": [],
                       "name": "DecPost",
-                      "optional": false,
-                      "range": [
-                        1393,
-                        1400
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 78
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 78
-                        }
-                      }
-                    },
-                    "range": [
-                      1393,
-                      1400
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 78
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 78
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1410,
+                    "end": 1423,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1410,
+                      "end": 1423,
                       "decorators": [],
                       "name": "TypeAssertion",
-                      "optional": false,
-                      "range": [
-                        1410,
-                        1423
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 21,
-                          "line": 79
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 79
-                        }
-                      }
-                    },
-                    "range": [
-                      1410,
-                      1423
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 21,
-                        "line": 79
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 79
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1433,
+                    "end": 1441,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1433,
+                      "end": 1441,
                       "decorators": [],
                       "name": "FuncDecl",
-                      "optional": false,
-                      "range": [
-                        1433,
-                        1441
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 16,
-                          "line": 80
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 80
-                        }
-                      }
-                    },
-                    "range": [
-                      1433,
-                      1441
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 80
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 80
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1451,
+                    "end": 1457,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1451,
+                      "end": 1457,
                       "decorators": [],
                       "name": "Member",
-                      "optional": false,
-                      "range": [
-                        1451,
-                        1457
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 81
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 81
-                        }
-                      }
-                    },
-                    "range": [
-                      1451,
-                      1457
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 81
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 81
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1467,
+                    "end": 1474,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1467,
+                      "end": 1474,
                       "decorators": [],
                       "name": "VarDecl",
-                      "optional": false,
-                      "range": [
-                        1467,
-                        1474
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 82
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 82
-                        }
-                      }
-                    },
-                    "range": [
-                      1467,
-                      1474
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 82
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 82
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1484,
+                    "end": 1491,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1484,
+                      "end": 1491,
                       "decorators": [],
                       "name": "ArgDecl",
-                      "optional": false,
-                      "range": [
-                        1484,
-                        1491
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 83
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 83
-                        }
-                      }
-                    },
-                    "range": [
-                      1484,
-                      1491
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 83
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 83
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1501,
+                    "end": 1507,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1501,
+                      "end": 1507,
                       "decorators": [],
                       "name": "Return",
-                      "optional": false,
-                      "range": [
-                        1501,
-                        1507
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 84
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 84
-                        }
-                      }
-                    },
-                    "range": [
-                      1501,
-                      1507
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 84
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 84
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1517,
+                    "end": 1522,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1517,
+                      "end": 1522,
                       "decorators": [],
                       "name": "Break",
-                      "optional": false,
-                      "range": [
-                        1517,
-                        1522
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 85
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 85
-                        }
-                      }
-                    },
-                    "range": [
-                      1517,
-                      1522
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 85
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 85
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1532,
+                    "end": 1540,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1532,
+                      "end": 1540,
                       "decorators": [],
                       "name": "Continue",
-                      "optional": false,
-                      "range": [
-                        1532,
-                        1540
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 16,
-                          "line": 86
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 86
-                        }
-                      }
-                    },
-                    "range": [
-                      1532,
-                      1540
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 86
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 86
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1550,
+                    "end": 1555,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1550,
+                      "end": 1555,
                       "decorators": [],
                       "name": "Throw",
-                      "optional": false,
-                      "range": [
-                        1550,
-                        1555
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 87
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 87
-                        }
-                      }
-                    },
-                    "range": [
-                      1550,
-                      1555
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 87
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 87
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1565,
+                    "end": 1568,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1565,
+                      "end": 1568,
                       "decorators": [],
                       "name": "For",
-                      "optional": false,
-                      "range": [
-                        1565,
-                        1568
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 88
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 88
-                        }
-                      }
-                    },
-                    "range": [
-                      1565,
-                      1568
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 88
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 88
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1578,
+                    "end": 1583,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1578,
+                      "end": 1583,
                       "decorators": [],
                       "name": "ForIn",
-                      "optional": false,
-                      "range": [
-                        1578,
-                        1583
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 89
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 89
-                        }
-                      }
-                    },
-                    "range": [
-                      1578,
-                      1583
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 89
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 89
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1593,
+                    "end": 1595,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1593,
+                      "end": 1595,
                       "decorators": [],
                       "name": "If",
-                      "optional": false,
-                      "range": [
-                        1593,
-                        1595
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 90
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 90
-                        }
-                      }
-                    },
-                    "range": [
-                      1593,
-                      1595
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 10,
-                        "line": 90
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 90
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1605,
+                    "end": 1610,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1605,
+                      "end": 1610,
                       "decorators": [],
                       "name": "While",
-                      "optional": false,
-                      "range": [
-                        1605,
-                        1610
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 91
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 91
-                        }
-                      }
-                    },
-                    "range": [
-                      1605,
-                      1610
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 91
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 91
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1620,
+                    "end": 1627,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1620,
+                      "end": 1627,
                       "decorators": [],
                       "name": "DoWhile",
-                      "optional": false,
-                      "range": [
-                        1620,
-                        1627
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 92
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 92
-                        }
-                      }
-                    },
-                    "range": [
-                      1620,
-                      1627
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 92
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 92
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1637,
+                    "end": 1642,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1637,
+                      "end": 1642,
                       "decorators": [],
                       "name": "Block",
-                      "optional": false,
-                      "range": [
-                        1637,
-                        1642
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 93
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 93
-                        }
-                      }
-                    },
-                    "range": [
-                      1637,
-                      1642
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 93
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 93
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1652,
+                    "end": 1656,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1652,
+                      "end": 1656,
                       "decorators": [],
                       "name": "Case",
-                      "optional": false,
-                      "range": [
-                        1652,
-                        1656
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 94
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 94
-                        }
-                      }
-                    },
-                    "range": [
-                      1652,
-                      1656
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 94
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 94
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1666,
+                    "end": 1672,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1666,
+                      "end": 1672,
                       "decorators": [],
                       "name": "Switch",
-                      "optional": false,
-                      "range": [
-                        1666,
-                        1672
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 95
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 95
-                        }
-                      }
-                    },
-                    "range": [
-                      1666,
-                      1672
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 95
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 95
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1682,
+                    "end": 1685,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1682,
+                      "end": 1685,
                       "decorators": [],
                       "name": "Try",
-                      "optional": false,
-                      "range": [
-                        1682,
-                        1685
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 11,
-                          "line": 96
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 96
-                        }
-                      }
-                    },
-                    "range": [
-                      1682,
-                      1685
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 96
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 96
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1695,
+                    "end": 1703,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1695,
+                      "end": 1703,
                       "decorators": [],
                       "name": "TryCatch",
-                      "optional": false,
-                      "range": [
-                        1695,
-                        1703
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 16,
-                          "line": 97
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 97
-                        }
-                      }
-                    },
-                    "range": [
-                      1695,
-                      1703
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 97
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 97
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1713,
+                    "end": 1723,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1713,
+                      "end": 1723,
                       "decorators": [],
                       "name": "TryFinally",
-                      "optional": false,
-                      "range": [
-                        1713,
-                        1723
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 18,
-                          "line": 98
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 98
-                        }
-                      }
-                    },
-                    "range": [
-                      1713,
-                      1723
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 18,
-                        "line": 98
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 98
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1733,
+                    "end": 1740,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1733,
+                      "end": 1740,
                       "decorators": [],
                       "name": "Finally",
-                      "optional": false,
-                      "range": [
-                        1733,
-                        1740
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 99
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 99
-                        }
-                      }
-                    },
-                    "range": [
-                      1733,
-                      1740
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 99
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 99
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1750,
+                    "end": 1755,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1750,
+                      "end": 1755,
                       "decorators": [],
                       "name": "Catch",
-                      "optional": false,
-                      "range": [
-                        1750,
-                        1755
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 100
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 100
-                        }
-                      }
-                    },
-                    "range": [
-                      1750,
-                      1755
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 100
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 100
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1765,
+                    "end": 1769,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1765,
+                      "end": 1769,
                       "decorators": [],
                       "name": "List",
-                      "optional": false,
-                      "range": [
-                        1765,
-                        1769
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 101
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 101
-                        }
-                      }
-                    },
-                    "range": [
-                      1765,
-                      1769
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 101
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 101
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1779,
+                    "end": 1785,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1779,
+                      "end": 1785,
                       "decorators": [],
                       "name": "Script",
-                      "optional": false,
-                      "range": [
-                        1779,
-                        1785
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 102
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 102
-                        }
-                      }
-                    },
-                    "range": [
-                      1779,
-                      1785
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 102
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 102
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1795,
+                    "end": 1811,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1795,
+                      "end": 1811,
                       "decorators": [],
                       "name": "ClassDeclaration",
-                      "optional": false,
-                      "range": [
-                        1795,
-                        1811
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 24,
-                          "line": 103
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 103
-                        }
-                      }
-                    },
-                    "range": [
-                      1795,
-                      1811
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 24,
-                        "line": 103
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 103
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1821,
+                    "end": 1841,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1821,
+                      "end": 1841,
                       "decorators": [],
                       "name": "InterfaceDeclaration",
-                      "optional": false,
-                      "range": [
-                        1821,
-                        1841
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 28,
-                          "line": 104
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 104
-                        }
-                      }
-                    },
-                    "range": [
-                      1821,
-                      1841
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 28,
-                        "line": 104
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 104
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1851,
+                    "end": 1868,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1851,
+                      "end": 1868,
                       "decorators": [],
                       "name": "ModuleDeclaration",
-                      "optional": false,
-                      "range": [
-                        1851,
-                        1868
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 25,
-                          "line": 105
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 105
-                        }
-                      }
-                    },
-                    "range": [
-                      1851,
-                      1868
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 25,
-                        "line": 105
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 105
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1878,
+                    "end": 1895,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1878,
+                      "end": 1895,
                       "decorators": [],
                       "name": "ImportDeclaration",
-                      "optional": false,
-                      "range": [
-                        1878,
-                        1895
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 25,
-                          "line": 106
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 106
-                        }
-                      }
-                    },
-                    "range": [
-                      1878,
-                      1895
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 25,
-                        "line": 106
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 106
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1905,
+                    "end": 1909,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1905,
+                      "end": 1909,
                       "decorators": [],
                       "name": "With",
-                      "optional": false,
-                      "range": [
-                        1905,
-                        1909
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 12,
-                          "line": 107
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 107
-                        }
-                      }
-                    },
-                    "range": [
-                      1905,
-                      1909
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 12,
-                        "line": 107
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 107
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1919,
+                    "end": 1924,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1919,
+                      "end": 1924,
                       "decorators": [],
                       "name": "Label",
-                      "optional": false,
-                      "range": [
-                        1919,
-                        1924
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 108
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 108
-                        }
-                      }
-                    },
-                    "range": [
-                      1919,
-                      1924
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 108
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 108
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1934,
+                    "end": 1950,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1934,
+                      "end": 1950,
                       "decorators": [],
                       "name": "LabeledStatement",
-                      "optional": false,
-                      "range": [
-                        1934,
-                        1950
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 24,
-                          "line": 109
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 109
-                        }
-                      }
-                    },
-                    "range": [
-                      1934,
-                      1950
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 24,
-                        "line": 109
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 109
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1960,
+                    "end": 1967,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1960,
+                      "end": 1967,
                       "decorators": [],
                       "name": "EBStart",
-                      "optional": false,
-                      "range": [
-                        1960,
-                        1967
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 110
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 110
-                        }
-                      }
-                    },
-                    "range": [
-                      1960,
-                      1967
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 110
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 110
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1977,
+                    "end": 1983,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1977,
+                      "end": 1983,
                       "decorators": [],
                       "name": "GotoEB",
-                      "optional": false,
-                      "range": [
-                        1977,
-                        1983
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 14,
-                          "line": 111
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 111
-                        }
-                      }
-                    },
-                    "range": [
-                      1977,
-                      1983
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 14,
-                        "line": 111
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 111
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 1993,
+                    "end": 2000,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 1993,
+                      "end": 2000,
                       "decorators": [],
                       "name": "EndCode",
-                      "optional": false,
-                      "range": [
-                        1993,
-                        2000
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 112
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 112
-                        }
-                      }
-                    },
-                    "range": [
-                      1993,
-                      2000
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 112
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 112
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 2010,
+                    "end": 2015,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 2010,
+                      "end": 2015,
                       "decorators": [],
                       "name": "Error",
-                      "optional": false,
-                      "range": [
-                        2010,
-                        2015
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 13,
-                          "line": 113
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 113
-                        }
-                      }
-                    },
-                    "range": [
-                      2010,
-                      2015
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 13,
-                        "line": 113
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 113
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 2025,
+                    "end": 2032,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 2025,
+                      "end": 2032,
                       "decorators": [],
                       "name": "Comment",
-                      "optional": false,
-                      "range": [
-                        2025,
-                        2032
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 114
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 114
-                        }
-                      }
-                    },
-                    "range": [
-                      2025,
-                      2032
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 15,
-                        "line": 114
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 114
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 2042,
+                    "end": 2050,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 2042,
+                      "end": 2050,
                       "decorators": [],
                       "name": "Debugger",
-                      "optional": false,
-                      "range": [
-                        2042,
-                        2050
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 16,
-                          "line": 115
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 115
-                        }
-                      }
-                    },
-                    "range": [
-                      2042,
-                      2050
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 115
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 115
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 2060,
+                    "end": 2082,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 2060,
+                      "end": 2071,
                       "decorators": [],
                       "name": "GeneralNode",
-                      "optional": false,
-                      "range": [
-                        2060,
-                        2071
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 19,
-                          "line": 116
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 116
-                        }
-                      }
+                      "optional": false
                     },
                     "initializer": {
                       "type": "Identifier",
+                      "start": 2074,
+                      "end": 2082,
                       "decorators": [],
                       "name": "FuncDecl",
-                      "optional": false,
-                      "range": [
-                        2074,
-                        2082
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 30,
-                          "line": 116
-                        },
-                        "start": {
-                          "column": 22,
-                          "line": 116
-                        }
-                      }
-                    },
-                    "range": [
-                      2060,
-                      2082
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 30,
-                        "line": 116
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 116
-                      }
+                      "optional": false
                     }
                   },
                   {
                     "type": "TSEnumMember",
+                    "start": 2092,
+                    "end": 2108,
                     "computed": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 2092,
+                      "end": 2099,
                       "decorators": [],
                       "name": "LastAsg",
-                      "optional": false,
-                      "range": [
-                        2092,
-                        2099
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 117
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 117
-                        }
-                      }
+                      "optional": false
                     },
                     "initializer": {
                       "type": "Identifier",
+                      "start": 2102,
+                      "end": 2108,
                       "decorators": [],
                       "name": "AsgRs2",
-                      "optional": false,
-                      "range": [
-                        2102,
-                        2108
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 24,
-                          "line": 117
-                        },
-                        "start": {
-                          "column": 18,
-                          "line": 117
-                        }
-                      }
-                    },
-                    "range": [
-                      2092,
-                      2108
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 24,
-                        "line": 117
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 117
-                      }
+                      "optional": false
                     }
                   }
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 118
-                  },
-                  "start": {
-                    "column": 25,
-                    "line": 8
-                  }
-                }
+                ]
               },
               "const": false,
               "declare": false,
               "id": {
                 "type": "Identifier",
+                "start": 355,
+                "end": 363,
                 "decorators": [],
                 "name": "NodeType",
-                "optional": false,
-                "range": [
-                  355,
-                  363
-                ],
-                "loc": {
-                  "end": {
-                    "column": 24,
-                    "line": 8
-                  },
-                  "start": {
-                    "column": 16,
-                    "line": 8
-                  }
-                }
-              },
-              "range": [
-                350,
-                2115
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 118
-                },
-                "start": {
-                  "column": 11,
-                  "line": 8
-                }
+                "optional": false
               }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": [],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 118
-              },
-              "start": {
-                "column": 4,
-                "line": 8
-              }
-            }
+            "specifiers": []
           }
-        ],
-        "range": [
-          229,
-          2117
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 119
-          },
-          "start": {
-            "column": 18,
-            "line": 6
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          218,
-          228
-        ],
+        "start": 218,
+        "end": 228,
         "decorators": [],
         "name": "TypeScript",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 6
-          },
-          "start": {
-            "column": 7,
-            "line": 6
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        211,
-        2117
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 119
-        },
-        "start": {
-          "column": 0,
-          "line": 6
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 119
-    },
-    "start": {
-      "column": 0,
-      "line": 6
-    }
-  },
   "hashbang": null
 }
 ```

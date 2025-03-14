@@ -2,78 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    79,
-    105
-  ],
+  "start": 79,
+  "end": 105,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
+      "start": 79,
+      "end": 104,
       "declare": false,
       "id": {
         "type": "Identifier",
+        "start": 84,
+        "end": 96,
         "decorators": [],
         "name": "LoadCallback",
-        "optional": false,
-        "range": [
-          84,
-          96
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 6
-          },
-          "start": {
-            "column": 5,
-            "line": 6
-          }
-        }
+        "optional": false
       },
       "typeAnnotation": {
         "type": "TSVoidKeyword",
-        "range": [
-          99,
-          103
-        ],
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 6
-          },
-          "start": {
-            "column": 20,
-            "line": 6
-          }
-        }
-      },
-      "range": [
-        79,
-        104
-      ],
-      "loc": {
-        "end": {
-          "column": 25,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 6
-        }
+        "start": 99,
+        "end": 103
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 7
-    },
-    "start": {
-      "column": 0,
-      "line": 6
-    }
-  },
   "hashbang": null
 }
 ```

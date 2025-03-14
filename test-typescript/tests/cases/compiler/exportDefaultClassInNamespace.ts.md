@@ -2,259 +2,103 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    121
-  ],
+  "start": 0,
+  "end": 121,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 50,
       "body": {
         "type": "TSModuleBlock",
+        "start": 19,
+        "end": 50,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "range": [
-              25,
-              48
-            ],
+            "start": 25,
+            "end": 48,
             "declaration": {
               "type": "ClassDeclaration",
+              "start": 40,
+              "end": 48,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "range": [
-                  46,
-                  48
-                ],
-                "body": [],
-                "loc": {
-                  "end": {
-                    "column": 27,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 25,
-                    "line": 2
-                  }
-                }
+                "start": 46,
+                "end": 48,
+                "body": []
               },
               "declare": false,
               "decorators": [],
               "id": null,
               "implements": [],
-              "superClass": null,
-              "range": [
-                40,
-                48
-              ],
-              "loc": {
-                "end": {
-                  "column": 27,
-                  "line": 2
-                },
-                "start": {
-                  "column": 19,
-                  "line": 2
-                }
-              }
+              "superClass": null
             },
-            "exportKind": "value",
-            "loc": {
-              "end": {
-                "column": 27,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "exportKind": "value"
           }
-        ],
-        "range": [
-          19,
-          50
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 19,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          10,
-          18
-        ],
+        "start": 10,
+        "end": 18,
         "decorators": [],
         "name": "ns_class",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        0,
-        50
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "namespace"
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 52,
+      "end": 120,
       "body": {
         "type": "TSModuleBlock",
+        "start": 80,
+        "end": 120,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "range": [
-              86,
-              118
-            ],
+            "start": 86,
+            "end": 118,
             "declaration": {
               "type": "ClassDeclaration",
+              "start": 101,
+              "end": 118,
               "abstract": true,
               "body": {
                 "type": "ClassBody",
-                "range": [
-                  116,
-                  118
-                ],
-                "body": [],
-                "loc": {
-                  "end": {
-                    "column": 36,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 34,
-                    "line": 6
-                  }
-                }
+                "start": 116,
+                "end": 118,
+                "body": []
               },
               "declare": false,
               "decorators": [],
               "id": null,
               "implements": [],
-              "superClass": null,
-              "range": [
-                101,
-                118
-              ],
-              "loc": {
-                "end": {
-                  "column": 36,
-                  "line": 6
-                },
-                "start": {
-                  "column": 19,
-                  "line": 6
-                }
-              }
+              "superClass": null
             },
-            "exportKind": "value",
-            "loc": {
-              "end": {
-                "column": 36,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
-            }
+            "exportKind": "value"
           }
-        ],
-        "range": [
-          80,
-          120
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 28,
-            "line": 5
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          62,
-          79
-        ],
+        "start": 62,
+        "end": 79,
         "decorators": [],
         "name": "ns_abstract_class",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 5
-          },
-          "start": {
-            "column": 10,
-            "line": 5
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        52,
-        120
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

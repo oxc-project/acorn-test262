@@ -2,219 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    58
-  ],
+  "start": 0,
+  "end": 58,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 58,
       "body": {
         "type": "TSModuleBlock",
+        "start": 9,
+        "end": 58,
         "body": [
           {
             "type": "TSModuleDeclaration",
+            "start": 15,
+            "end": 30,
             "body": {
               "type": "TSModuleBlock",
-              "body": [],
-              "range": [
-                27,
-                30
-              ],
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 2
-                },
-                "start": {
-                  "column": 16,
-                  "line": 2
-                }
-              }
+              "start": 27,
+              "end": 30,
+              "body": []
             },
             "declare": false,
             "global": false,
             "id": {
               "type": "Identifier",
-              "range": [
-                25,
-                26
-              ],
+              "start": 25,
+              "end": 26,
               "decorators": [],
               "name": "B",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 2
-                },
-                "start": {
-                  "column": 14,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "kind": "namespace",
-            "range": [
-              15,
-              30
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "kind": "namespace"
           },
           {
             "type": "ExportNamedDeclaration",
-            "range": [
-              35,
-              56
-            ],
+            "start": 35,
+            "end": 56,
             "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
+              "start": 42,
+              "end": 56,
               "body": {
                 "type": "TSModuleBlock",
-                "body": [],
-                "range": [
-                  54,
-                  56
-                ],
-                "loc": {
-                  "end": {
-                    "column": 25,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 23,
-                    "line": 3
-                  }
-                }
+                "start": 54,
+                "end": 56,
+                "body": []
               },
               "declare": false,
               "global": false,
               "id": {
                 "type": "Identifier",
-                "range": [
-                  52,
-                  53
-                ],
+                "start": 52,
+                "end": 53,
                 "decorators": [],
                 "name": "C",
-                "optional": false,
-                "loc": {
-                  "end": {
-                    "column": 22,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 21,
-                    "line": 3
-                  }
-                }
+                "optional": false
               },
-              "kind": "namespace",
-              "range": [
-                42,
-                56
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 3
-                },
-                "start": {
-                  "column": 11,
-                  "line": 3
-                }
-              }
+              "kind": "namespace"
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": [],
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
-            }
+            "specifiers": []
           }
-        ],
-        "range": [
-          9,
-          58
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          7,
-          8
-        ],
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "A",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        0,
-        58
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

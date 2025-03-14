@@ -2,157 +2,61 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    58
-  ],
+  "start": 0,
+  "end": 58,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 0,
+      "end": 58,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 43,
+          "end": 55,
           "key": {
             "type": "Identifier",
+            "start": 43,
+            "end": 47,
             "decorators": [],
             "name": "type",
-            "optional": false,
-            "range": [
-              43,
-              47
-            ],
-            "loc": {
-              "end": {
-                "column": 47,
-                "line": 1
-              },
-              "start": {
-                "column": 43,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "value": {
             "type": "Literal",
+            "start": 49,
+            "end": 55,
             "raw": "\"json\"",
-            "value": "json",
-            "range": [
-              49,
-              55
-            ],
-            "loc": {
-              "end": {
-                "column": 55,
-                "line": 1
-              },
-              "start": {
-                "column": 49,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            43,
-            55
-          ],
-          "loc": {
-            "end": {
-              "column": 55,
-              "line": 1
-            },
-            "start": {
-              "column": 43,
-              "line": 1
-            }
+            "value": "json"
           }
         }
       ],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 17,
+        "end": 33,
         "raw": "\"./package.json\"",
-        "value": "./package.json",
-        "range": [
-          17,
-          33
-        ],
-        "loc": {
-          "end": {
-            "column": 33,
-            "line": 1
-          },
-          "start": {
-            "column": 17,
-            "line": 1
-          }
-        }
+        "value": "./package.json"
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "range": [
-            7,
-            11
-          ],
+          "start": 7,
+          "end": 11,
           "local": {
             "type": "Identifier",
+            "start": 7,
+            "end": 11,
             "decorators": [],
             "name": "json",
-            "optional": false,
-            "range": [
-              7,
-              11
-            ],
-            "loc": {
-              "end": {
-                "column": 11,
-                "line": 1
-              },
-              "start": {
-                "column": 7,
-                "line": 1
-              }
-            }
-          },
-          "loc": {
-            "end": {
-              "column": 11,
-              "line": 1
-            },
-            "start": {
-              "column": 7,
-              "line": 1
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        0,
-        58
-      ],
-      "loc": {
-        "end": {
-          "column": 58,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 58,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

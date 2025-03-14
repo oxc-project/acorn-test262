@@ -2,46 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    46
-  ],
+  "start": 0,
+  "end": 46,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 30,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          10,
-          30
-        ],
+        "start": 10,
+        "end": 30,
         "body": [
           {
             "type": "PropertyDefinition",
+            "start": 16,
+            "end": 28,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
+              "start": 16,
+              "end": 19,
               "decorators": [],
               "name": "foo",
-              "optional": false,
-              "range": [
-                16,
-                19
-              ],
-              "loc": {
-                "end": {
-                  "column": 7,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "override": false,
@@ -49,154 +37,46 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 2
-                },
-                "start": {
-                  "column": 7,
-                  "line": 2
-                }
-              },
-              "range": [
-                19,
-                27
-              ],
+              "start": 19,
+              "end": 27,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "range": [
-                  21,
-                  27
-                ],
-                "loc": {
-                  "end": {
-                    "column": 15,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 9,
-                    "line": 2
-                  }
-                }
+                "start": 21,
+                "end": 27
               }
             },
-            "value": null,
-            "range": [
-              16,
-              28
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "value": null
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 9,
         "decorators": [],
         "name": "Car",
-        "optional": false,
-        "range": [
-          6,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        30
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     },
     {
       "type": "TSExportAssignment",
+      "start": 32,
+      "end": 45,
       "expression": {
         "type": "Identifier",
+        "start": 41,
+        "end": 44,
         "decorators": [],
         "name": "Car",
-        "optional": false,
-        "range": [
-          41,
-          44
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 5
-          },
-          "start": {
-            "column": 9,
-            "line": 5
-          }
-        }
-      },
-      "range": [
-        32,
-        45
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -204,97 +84,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    49,
-    224
-  ],
+  "start": 49,
+  "end": 224,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 49,
+      "end": 98,
       "id": {
         "type": "Identifier",
+        "start": 56,
+        "end": 59,
         "decorators": [],
         "name": "Car",
-        "optional": false,
-        "range": [
-          56,
-          59
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 62,
+        "end": 97,
         "expression": {
           "type": "Literal",
+          "start": 70,
+          "end": 96,
           "raw": "'./arrayOfExportedClass_0'",
-          "value": "./arrayOfExportedClass_0",
-          "range": [
-            70,
-            96
-          ],
-          "loc": {
-            "end": {
-              "column": 47,
-              "line": 2
-            },
-            "start": {
-              "column": 21,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          62,
-          97
-        ],
-        "loc": {
-          "end": {
-            "column": 48,
-            "line": 2
-          },
-          "start": {
-            "column": 13,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        49,
-        98
-      ],
-      "loc": {
-        "end": {
-          "column": 49,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
+          "value": "./arrayOfExportedClass_0"
         }
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 100,
+      "end": 207,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          111,
-          207
-        ],
+        "start": 111,
+        "end": 207,
         "body": [
           {
             "type": "PropertyDefinition",
+            "start": 118,
+            "end": 137,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -302,23 +134,11 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
+              "start": 125,
+              "end": 129,
               "decorators": [],
               "name": "cars",
-              "optional": false,
-              "range": [
-                125,
-                129
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 6
-                },
-                "start": {
-                  "column": 11,
-                  "line": 6
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "override": false,
@@ -326,115 +146,43 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 6
-                },
-                "start": {
-                  "column": 15,
-                  "line": 6
-                }
-              },
-              "range": [
-                129,
-                136
-              ],
+              "start": 129,
+              "end": 136,
               "typeAnnotation": {
                 "type": "TSArrayType",
+                "start": 131,
+                "end": 136,
                 "elementType": {
                   "type": "TSTypeReference",
+                  "start": 131,
+                  "end": 134,
                   "typeName": {
                     "type": "Identifier",
+                    "start": 131,
+                    "end": 134,
                     "decorators": [],
                     "name": "Car",
-                    "optional": false,
-                    "range": [
-                      131,
-                      134
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 20,
-                        "line": 6
-                      },
-                      "start": {
-                        "column": 17,
-                        "line": 6
-                      }
-                    }
-                  },
-                  "range": [
-                    131,
-                    134
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 20,
-                      "line": 6
-                    },
-                    "start": {
-                      "column": 17,
-                      "line": 6
-                    }
-                  }
-                },
-                "range": [
-                  131,
-                  136
-                ],
-                "loc": {
-                  "end": {
-                    "column": 22,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 17,
-                    "line": 6
+                    "optional": false
                   }
                 }
               }
             },
-            "value": null,
-            "range": [
-              118,
-              137
-            ],
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
-            }
+            "value": null
           },
           {
             "type": "MethodDefinition",
+            "start": 143,
+            "end": 205,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "start": 150,
+              "end": 157,
               "decorators": [],
               "name": "AddCars",
-              "optional": false,
-              "range": [
-                150,
-                157
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 8
-                },
-                "start": {
-                  "column": 11,
-                  "line": 8
-                }
-              }
+              "optional": false
             },
             "kind": "method",
             "optional": false,
@@ -442,140 +190,54 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                157,
-                205
-              ],
+              "start": 157,
+              "end": 205,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 171,
+                "end": 205,
                 "body": [
                   {
                     "type": "ExpressionStatement",
+                    "start": 182,
+                    "end": 199,
                     "expression": {
                       "type": "AssignmentExpression",
+                      "start": 182,
+                      "end": 198,
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
+                        "start": 182,
+                        "end": 191,
                         "computed": false,
                         "object": {
                           "type": "ThisExpression",
-                          "range": [
-                            182,
-                            186
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 12,
-                              "line": 10
-                            },
-                            "start": {
-                              "column": 8,
-                              "line": 10
-                            }
-                          }
+                          "start": 182,
+                          "end": 186
                         },
                         "optional": false,
                         "property": {
                           "type": "Identifier",
+                          "start": 187,
+                          "end": 191,
                           "decorators": [],
                           "name": "cars",
-                          "optional": false,
-                          "range": [
-                            187,
-                            191
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 17,
-                              "line": 10
-                            },
-                            "start": {
-                              "column": 13,
-                              "line": 10
-                            }
-                          }
-                        },
-                        "range": [
-                          182,
-                          191
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 17,
-                            "line": 10
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 10
-                          }
+                          "optional": false
                         }
                       },
                       "right": {
                         "type": "Identifier",
+                        "start": 194,
+                        "end": 198,
                         "decorators": [],
                         "name": "cars",
-                        "optional": false,
-                        "range": [
-                          194,
-                          198
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 24,
-                            "line": 10
-                          },
-                          "start": {
-                            "column": 20,
-                            "line": 10
-                          }
-                        }
-                      },
-                      "range": [
-                        182,
-                        198
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 24,
-                          "line": 10
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 10
-                        }
-                      }
-                    },
-                    "range": [
-                      182,
-                      199
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 25,
-                        "line": 10
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 10
+                        "optional": false
                       }
                     }
                   }
-                ],
-                "range": [
-                  171,
-                  205
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 11
-                  },
-                  "start": {
-                    "column": 32,
-                    "line": 8
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
@@ -584,222 +246,68 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
+                  "start": 158,
+                  "end": 169,
                   "decorators": [],
                   "name": "cars",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "loc": {
-                      "end": {
-                        "column": 30,
-                        "line": 8
-                      },
-                      "start": {
-                        "column": 23,
-                        "line": 8
-                      }
-                    },
-                    "range": [
-                      162,
-                      169
-                    ],
+                    "start": 162,
+                    "end": 169,
                     "typeAnnotation": {
                       "type": "TSArrayType",
+                      "start": 164,
+                      "end": 169,
                       "elementType": {
                         "type": "TSTypeReference",
+                        "start": 164,
+                        "end": 167,
                         "typeName": {
                           "type": "Identifier",
+                          "start": 164,
+                          "end": 167,
                           "decorators": [],
                           "name": "Car",
-                          "optional": false,
-                          "range": [
-                            164,
-                            167
-                          ],
-                          "loc": {
-                            "end": {
-                              "column": 28,
-                              "line": 8
-                            },
-                            "start": {
-                              "column": 25,
-                              "line": 8
-                            }
-                          }
-                        },
-                        "range": [
-                          164,
-                          167
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 28,
-                            "line": 8
-                          },
-                          "start": {
-                            "column": 25,
-                            "line": 8
-                          }
-                        }
-                      },
-                      "range": [
-                        164,
-                        169
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 30,
-                          "line": 8
-                        },
-                        "start": {
-                          "column": 25,
-                          "line": 8
+                          "optional": false
                         }
                       }
-                    }
-                  },
-                  "range": [
-                    158,
-                    169
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 30,
-                      "line": 8
-                    },
-                    "start": {
-                      "column": 19,
-                      "line": 8
                     }
                   }
                 }
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 11
-                },
-                "start": {
-                  "column": 18,
-                  "line": 8
-                }
-              }
-            },
-            "range": [
-              143,
-              205
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 11
-              },
-              "start": {
-                "column": 4,
-                "line": 8
-              }
+              ]
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 12
-          },
-          "start": {
-            "column": 11,
-            "line": 4
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 106,
+        "end": 110,
         "decorators": [],
         "name": "Road",
-        "optional": false,
-        "range": [
-          106,
-          110
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 4
-          },
-          "start": {
-            "column": 6,
-            "line": 4
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        100,
-        207
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 12
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
-      }
+      "superClass": null
     },
     {
       "type": "TSExportAssignment",
+      "start": 209,
+      "end": 223,
       "expression": {
         "type": "Identifier",
+        "start": 218,
+        "end": 222,
         "decorators": [],
         "name": "Road",
-        "optional": false,
-        "range": [
-          218,
-          222
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 14
-          },
-          "start": {
-            "column": 9,
-            "line": 14
-          }
-        }
-      },
-      "range": [
-        209,
-        223
-      ],
-      "loc": {
-        "end": {
-          "column": 14,
-          "line": 14
-        },
-        "start": {
-          "column": 0,
-          "line": 14
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 15
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

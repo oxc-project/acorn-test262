@@ -14,63 +14,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    15
-  ],
+  "start": 0,
+  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 14,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 14,
         "raw": "/\\u{10_ffff}/u",
         "regex": {
           "flags": "u",
           "pattern": "\\u{10_ffff}"
         },
-        "value": null,
-        "range": [
-          0,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        14
-      ],
-      "loc": {
-        "end": {
-          "column": 14,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -90,63 +54,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    11
-  ],
+  "start": 0,
+  "end": 11,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 10,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 10,
         "raw": "/\\uff_ff/u",
         "regex": {
           "flags": "u",
           "pattern": "\\uff_ff"
         },
-        "value": null,
-        "range": [
-          0,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        10
-      ],
-      "loc": {
-        "end": {
-          "column": 10,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -166,63 +94,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    9
-  ],
+  "start": 0,
+  "end": 9,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 8,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 8,
         "raw": "/\\xf_f/u",
         "regex": {
           "flags": "u",
           "pattern": "\\xf_f"
         },
-        "value": null,
-        "range": [
-          0,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        8
-      ],
-      "loc": {
-        "end": {
-          "column": 8,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -242,63 +134,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    15
-  ],
+  "start": 0,
+  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 14,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 14,
         "raw": "/\\u{_10ffff}/u",
         "regex": {
           "flags": "u",
           "pattern": "\\u{_10ffff}"
         },
-        "value": null,
-        "range": [
-          0,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        14
-      ],
-      "loc": {
-        "end": {
-          "column": 14,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -318,63 +174,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    11
-  ],
+  "start": 0,
+  "end": 11,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 10,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 10,
         "raw": "/\\u_ffff/u",
         "regex": {
           "flags": "u",
           "pattern": "\\u_ffff"
         },
-        "value": null,
-        "range": [
-          0,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        10
-      ],
-      "loc": {
-        "end": {
-          "column": 10,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -394,63 +214,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    9
-  ],
+  "start": 0,
+  "end": 9,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 8,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 8,
         "raw": "/\\x_ff/u",
         "regex": {
           "flags": "u",
           "pattern": "\\x_ff"
         },
-        "value": null,
-        "range": [
-          0,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        8
-      ],
-      "loc": {
-        "end": {
-          "column": 8,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -470,63 +254,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    15
-  ],
+  "start": 0,
+  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 14,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 14,
         "raw": "/\\u{10ffff_}/u",
         "regex": {
           "flags": "u",
           "pattern": "\\u{10ffff_}"
         },
-        "value": null,
-        "range": [
-          0,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        14
-      ],
-      "loc": {
-        "end": {
-          "column": 14,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -534,60 +282,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    10
-  ],
+  "start": 0,
+  "end": 10,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 9,
       "directive": "\\uffff_",
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 9,
         "raw": "\"\\uffff_\"",
-        "value": "￿_",
-        "range": [
-          0,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "￿_"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -595,60 +307,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    10
-  ],
+  "start": 0,
+  "end": 10,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 9,
       "directive": "\\uffff_",
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 9,
         "raw": "'\\uffff_'",
-        "value": "￿_",
-        "range": [
-          0,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "￿_"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -656,82 +332,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    10
-  ],
+  "start": 0,
+  "end": 10,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 9,
       "expression": {
         "type": "TemplateLiteral",
+        "start": 0,
+        "end": 9,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
+            "start": 0,
+            "end": 9,
             "tail": true,
             "value": {
               "cooked": "￿_",
               "raw": "\\uffff_"
-            },
-            "range": [
-              0,
-              9
-            ],
-            "loc": {
-              "end": {
-                "column": 9,
-                "line": 1
-              },
-              "start": {
-                "column": 0,
-                "line": 1
-              }
             }
           }
-        ],
-        "range": [
-          0,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        ]
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -739,63 +367,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    11
-  ],
+  "start": 0,
+  "end": 11,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 10,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 10,
         "raw": "/\\uffff_/u",
         "regex": {
           "flags": "u",
           "pattern": "\\uffff_"
         },
-        "value": null,
-        "range": [
-          0,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        10
-      ],
-      "loc": {
-        "end": {
-          "column": 10,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -803,60 +395,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    8
-  ],
+  "start": 0,
+  "end": 8,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 7,
       "directive": "\\xff_",
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 7,
         "raw": "\"\\xff_\"",
-        "value": "ÿ_",
-        "range": [
-          0,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        7
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "ÿ_"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -864,60 +420,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    8
-  ],
+  "start": 0,
+  "end": 8,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 7,
       "directive": "\\xff_",
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 7,
         "raw": "'\\xff_'",
-        "value": "ÿ_",
-        "range": [
-          0,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        7
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "ÿ_"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -925,82 +445,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    8
-  ],
+  "start": 0,
+  "end": 8,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 7,
       "expression": {
         "type": "TemplateLiteral",
+        "start": 0,
+        "end": 7,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
+            "start": 0,
+            "end": 7,
             "tail": true,
             "value": {
               "cooked": "ÿ_",
               "raw": "\\xff_"
-            },
-            "range": [
-              0,
-              7
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 1
-              },
-              "start": {
-                "column": 0,
-                "line": 1
-              }
             }
           }
-        ],
-        "range": [
-          0,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        7
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        ]
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -1008,63 +480,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    9
-  ],
+  "start": 0,
+  "end": 9,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 8,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 8,
         "raw": "/\\xff_/u",
         "regex": {
           "flags": "u",
           "pattern": "\\xff_"
         },
-        "value": null,
-        "range": [
-          0,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        8
-      ],
-      "loc": {
-        "end": {
-          "column": 8,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -1084,63 +520,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    16
-  ],
+  "start": 0,
+  "end": 16,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 15,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 15,
         "raw": "/\\u{10__ffff}/u",
         "regex": {
           "flags": "u",
           "pattern": "\\u{10__ffff}"
         },
-        "value": null,
-        "range": [
-          0,
-          15
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        15
-      ],
-      "loc": {
-        "end": {
-          "column": 15,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -1160,63 +560,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    12
-  ],
+  "start": 0,
+  "end": 12,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 11,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 11,
         "raw": "/\\uff__ff/u",
         "regex": {
           "flags": "u",
           "pattern": "\\uff__ff"
         },
-        "value": null,
-        "range": [
-          0,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        11
-      ],
-      "loc": {
-        "end": {
-          "column": 11,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -1236,63 +600,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    10
-  ],
+  "start": 0,
+  "end": 10,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 9,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 9,
         "raw": "/\\xf__f/u",
         "regex": {
           "flags": "u",
           "pattern": "\\xf__f"
         },
-        "value": null,
-        "range": [
-          0,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        9
-      ],
-      "loc": {
-        "end": {
-          "column": 9,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

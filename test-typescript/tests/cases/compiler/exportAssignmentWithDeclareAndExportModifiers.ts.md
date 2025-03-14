@@ -2,120 +2,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    22,
-    55
-  ],
+  "start": 22,
+  "end": 55,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 22,
+      "end": 28,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 26,
+          "end": 27,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 26,
+            "end": 27,
             "decorators": [],
             "name": "x",
-            "optional": false,
-            "range": [
-              26,
-              27
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "optional": false
           },
-          "init": null,
-          "range": [
-            26,
-            27
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 2
-            },
-            "start": {
-              "column": 4,
-              "line": 2
-            }
-          }
+          "init": null
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        22,
-        28
-      ],
-      "loc": {
-        "end": {
-          "column": 6,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "TSExportAssignment",
+      "start": 29,
+      "end": 55,
       "expression": {
         "type": "Identifier",
+        "start": 53,
+        "end": 54,
         "decorators": [],
         "name": "x",
-        "optional": false,
-        "range": [
-          53,
-          54
-        ],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 3
-          },
-          "start": {
-            "column": 24,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        29,
-        55
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 26,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

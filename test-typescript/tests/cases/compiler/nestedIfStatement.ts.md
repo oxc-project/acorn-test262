@@ -2,257 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    67
-  ],
+  "start": 0,
+  "end": 67,
   "body": [
     {
       "type": "IfStatement",
+      "start": 0,
+      "end": 67,
       "alternate": {
         "type": "IfStatement",
+        "start": 16,
+        "end": 67,
         "alternate": {
           "type": "IfStatement",
+          "start": 32,
+          "end": 67,
           "alternate": {
             "type": "IfStatement",
+            "start": 48,
+            "end": 67,
             "alternate": {
               "type": "BlockStatement",
-              "body": [],
-              "range": [
-                64,
-                67
-              ],
-              "loc": {
-                "end": {
-                  "column": 1,
-                  "line": 6
-                },
-                "start": {
-                  "column": 7,
-                  "line": 5
-                }
-              }
+              "start": 64,
+              "end": 67,
+              "body": []
             },
             "consequent": {
               "type": "BlockStatement",
-              "body": [],
-              "range": [
-                55,
-                58
-              ],
-              "loc": {
-                "end": {
-                  "column": 1,
-                  "line": 5
-                },
-                "start": {
-                  "column": 14,
-                  "line": 4
-                }
-              }
+              "start": 55,
+              "end": 58,
+              "body": []
             },
             "test": {
               "type": "Literal",
+              "start": 52,
+              "end": 53,
               "raw": "3",
-              "value": 3,
-              "range": [
-                52,
-                53
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 4
-                },
-                "start": {
-                  "column": 11,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              48,
-              67
-            ],
-            "loc": {
-              "end": {
-                "column": 1,
-                "line": 6
-              },
-              "start": {
-                "column": 7,
-                "line": 4
-              }
+              "value": 3
             }
           },
           "consequent": {
             "type": "BlockStatement",
-            "body": [],
-            "range": [
-              39,
-              42
-            ],
-            "loc": {
-              "end": {
-                "column": 1,
-                "line": 4
-              },
-              "start": {
-                "column": 14,
-                "line": 3
-              }
-            }
+            "start": 39,
+            "end": 42,
+            "body": []
           },
           "test": {
             "type": "Literal",
+            "start": 36,
+            "end": 37,
             "raw": "2",
-            "value": 2,
-            "range": [
-              36,
-              37
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 3
-              },
-              "start": {
-                "column": 11,
-                "line": 3
-              }
-            }
-          },
-          "range": [
-            32,
-            67
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 6
-            },
-            "start": {
-              "column": 7,
-              "line": 3
-            }
+            "value": 2
           }
         },
         "consequent": {
           "type": "BlockStatement",
-          "body": [],
-          "range": [
-            23,
-            26
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 3
-            },
-            "start": {
-              "column": 14,
-              "line": 2
-            }
-          }
+          "start": 23,
+          "end": 26,
+          "body": []
         },
         "test": {
           "type": "Literal",
+          "start": 20,
+          "end": 21,
           "raw": "1",
-          "value": 1,
-          "range": [
-            20,
-            21
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 2
-            },
-            "start": {
-              "column": 11,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          16,
-          67
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 6
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
+          "value": 1
         }
       },
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          7,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "start": 7,
+        "end": 10,
+        "body": []
       },
       "test": {
         "type": "Literal",
+        "start": 4,
+        "end": 5,
         "raw": "0",
-        "value": 0,
-        "range": [
-          4,
-          5
-        ],
-        "loc": {
-          "end": {
-            "column": 5,
-            "line": 1
-          },
-          "start": {
-            "column": 4,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        67
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": 0
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

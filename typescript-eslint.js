@@ -1,8 +1,8 @@
 import * as parser from "@typescript-eslint/parser";
 import fs from "node:fs";
 import path from "node:path";
+import { jsonStringify } from "./utils/json.js";
 import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
-import { jsonStringify } from "./utils/json.js"
 
 async function main() {
   const srcDir = "typescript";
@@ -13,19 +13,6 @@ async function main() {
     cwd: srcDir,
     withFileTypes: true,
   }).filter(e => !e.isDirectory()).map(e => path.join(e.parentPath, e.name));
-
-  // match acorn-like estree output
-  function jsonReplacer(_k, v) {
-    if (v && typeof v === "object") {
-      if ("loc" in v) {
-        v = { ...v, loc: undefined };
-      }
-      if ("range" in v) {
-        v = { type: v.type, start: v.range[0], end: v.range[1], ...v, range: undefined };
-      }
-    }
-    return v;
-  }
 
   const destDir = "test-typescript";
   fs.rmSync(destDir, { recursive: true, force: true });

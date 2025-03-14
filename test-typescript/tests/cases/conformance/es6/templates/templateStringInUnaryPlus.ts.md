@@ -2,185 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    27
-  ],
+  "start": 1,
+  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 1,
+      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 5,
+          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 5,
+            "end": 6,
             "decorators": [],
             "name": "x",
-            "optional": false,
-            "range": [
-              5,
-              6
-            ],
-            "loc": {
-              "end": {
-                "column": 6,
-                "line": 1
-              },
-              "start": {
-                "column": 5,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "UnaryExpression",
+            "start": 9,
+            "end": 26,
             "argument": {
               "type": "TemplateLiteral",
+              "start": 10,
+              "end": 26,
               "expressions": [
                 {
                   "type": "Literal",
+                  "start": 17,
+                  "end": 20,
                   "raw": "123",
-                  "value": 123,
-                  "range": [
-                    17,
-                    20
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 20,
-                      "line": 1
-                    },
-                    "start": {
-                      "column": 17,
-                      "line": 1
-                    }
-                  }
+                  "value": 123
                 }
               ],
               "quasis": [
                 {
                   "type": "TemplateElement",
+                  "start": 10,
+                  "end": 16,
                   "tail": false,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
-                  },
-                  "range": [
-                    10,
-                    16
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 16,
-                      "line": 1
-                    },
-                    "start": {
-                      "column": 10,
-                      "line": 1
-                    }
                   }
                 },
                 {
                   "type": "TemplateElement",
+                  "start": 21,
+                  "end": 26,
                   "tail": true,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  },
-                  "range": [
-                    21,
-                    26
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 26,
-                      "line": 1
-                    },
-                    "start": {
-                      "column": 21,
-                      "line": 1
-                    }
                   }
                 }
-              ],
-              "range": [
-                10,
-                26
-              ],
-              "loc": {
-                "end": {
-                  "column": 26,
-                  "line": 1
-                },
-                "start": {
-                  "column": 10,
-                  "line": 1
-                }
-              }
+              ]
             },
             "operator": "+",
-            "prefix": true,
-            "range": [
-              9,
-              26
-            ],
-            "loc": {
-              "end": {
-                "column": 26,
-                "line": 1
-              },
-              "start": {
-                "column": 9,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            5,
-            26
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 1
-            },
-            "start": {
-              "column": 5,
-              "line": 1
-            }
+            "prefix": true
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        1,
-        27
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 1
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
-      }
+      "kind": "var"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 27,
-      "line": 1
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

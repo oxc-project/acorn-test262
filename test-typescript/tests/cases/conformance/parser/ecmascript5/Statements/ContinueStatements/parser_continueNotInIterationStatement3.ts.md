@@ -2,99 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    39
-  ],
+  "start": 0,
+  "end": 39,
   "body": [
     {
       "type": "SwitchStatement",
+      "start": 0,
+      "end": 39,
       "cases": [
         {
           "type": "SwitchCase",
+          "start": 15,
+          "end": 37,
           "consequent": [
             {
               "type": "ContinueStatement",
-              "label": null,
-              "range": [
-                28,
-                37
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 3
-                },
-                "start": {
-                  "column": 4,
-                  "line": 3
-                }
-              }
+              "start": 28,
+              "end": 37,
+              "label": null
             }
           ],
-          "test": null,
-          "range": [
-            15,
-            37
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 3
-            },
-            "start": {
-              "column": 2,
-              "line": 2
-            }
-          }
+          "test": null
         }
       ],
       "discriminant": {
         "type": "Literal",
+        "start": 8,
+        "end": 9,
         "raw": "0",
-        "value": 0,
-        "range": [
-          8,
-          9
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 1
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        39
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": 0
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,41 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    2
-  ],
+  "start": 0,
+  "end": 2,
   "body": [
     {
       "type": "BlockStatement",
-      "body": [],
-      "range": [
-        0,
-        2
-      ],
-      "loc": {
-        "end": {
-          "column": 2,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "start": 0,
+      "end": 2,
+      "body": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 2,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

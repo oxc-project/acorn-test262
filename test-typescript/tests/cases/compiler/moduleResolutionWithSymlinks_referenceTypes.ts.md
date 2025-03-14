@@ -2,23 +2,23 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    329,
-    374
-  ],
+  "start": 329,
+  "end": 374,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 329,
+      "end": 373,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          351,
-          373
-        ],
+        "start": 351,
+        "end": 373,
         "body": [
           {
             "type": "PropertyDefinition",
+            "start": 353,
+            "end": 371,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,23 +26,11 @@ __ESTREE_TEST__:PASS:
             "definite": false,
             "key": {
               "type": "Identifier",
+              "start": 361,
+              "end": 362,
               "decorators": [],
               "name": "x",
-              "optional": false,
-              "range": [
-                361,
-                362
-              ],
-              "loc": {
-                "end": {
-                  "column": 33,
-                  "line": 7
-                },
-                "start": {
-                  "column": 32,
-                  "line": 7
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "override": false,
@@ -50,117 +38,33 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 41,
-                  "line": 7
-                },
-                "start": {
-                  "column": 33,
-                  "line": 7
-                }
-              },
-              "range": [
-                362,
-                370
-              ],
+              "start": 362,
+              "end": 370,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "range": [
-                  364,
-                  370
-                ],
-                "loc": {
-                  "end": {
-                    "column": 41,
-                    "line": 7
-                  },
-                  "start": {
-                    "column": 35,
-                    "line": 7
-                  }
-                }
+                "start": 364,
+                "end": 370
               }
             },
-            "value": null,
-            "range": [
-              353,
-              371
-            ],
-            "loc": {
-              "end": {
-                "column": 42,
-                "line": 7
-              },
-              "start": {
-                "column": 24,
-                "line": 7
-              }
-            }
+            "value": null
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 44,
-            "line": 7
-          },
-          "start": {
-            "column": 22,
-            "line": 7
-          }
-        }
+        ]
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 343,
+        "end": 350,
         "decorators": [],
         "name": "MyClass",
-        "optional": false,
-        "range": [
-          343,
-          350
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 7
-          },
-          "start": {
-            "column": 14,
-            "line": 7
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        329,
-        373
-      ],
-      "loc": {
-        "end": {
-          "column": 44,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 7
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 7
-    }
-  },
   "hashbang": null
 }
 ```
@@ -168,22 +72,10 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    36,
-    36
-  ],
+  "start": 36,
+  "end": 36,
   "body": [],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```
@@ -191,22 +83,10 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    72,
-    72
-  ],
+  "start": 72,
+  "end": 72,
   "body": [],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```

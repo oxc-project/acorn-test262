@@ -2,508 +2,184 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    98
-  ],
+  "start": 0,
+  "end": 98,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 12,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict",
-        "range": [
-          0,
-          12
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        12
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "use strict"
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 14,
+      "end": 21,
       "expression": {
         "type": "UpdateExpression",
+        "start": 14,
+        "end": 20,
         "argument": {
           "type": "Identifier",
+          "start": 16,
+          "end": 20,
           "decorators": [],
           "name": "eval",
-          "optional": false,
-          "range": [
-            16,
-            20
-          ],
-          "loc": {
-            "end": {
-              "column": 6,
-              "line": 3
-            },
-            "start": {
-              "column": 2,
-              "line": 3
-            }
-          }
+          "optional": false
         },
         "operator": "++",
-        "prefix": true,
-        "range": [
-          14,
-          20
-        ],
-        "loc": {
-          "end": {
-            "column": 6,
-            "line": 3
-          },
-          "start": {
-            "column": 0,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        14,
-        21
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "prefix": true
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 22,
+      "end": 29,
       "expression": {
         "type": "UpdateExpression",
+        "start": 22,
+        "end": 28,
         "argument": {
           "type": "Identifier",
+          "start": 24,
+          "end": 28,
           "decorators": [],
           "name": "eval",
-          "optional": false,
-          "range": [
-            24,
-            28
-          ],
-          "loc": {
-            "end": {
-              "column": 6,
-              "line": 4
-            },
-            "start": {
-              "column": 2,
-              "line": 4
-            }
-          }
+          "optional": false
         },
         "operator": "--",
-        "prefix": true,
-        "range": [
-          22,
-          28
-        ],
-        "loc": {
-          "end": {
-            "column": 6,
-            "line": 4
-          },
-          "start": {
-            "column": 0,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        22,
-        29
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "prefix": true
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 30,
+      "end": 42,
       "expression": {
         "type": "UpdateExpression",
+        "start": 30,
+        "end": 41,
         "argument": {
           "type": "Identifier",
+          "start": 32,
+          "end": 41,
           "decorators": [],
           "name": "arguments",
-          "optional": false,
-          "range": [
-            32,
-            41
-          ],
-          "loc": {
-            "end": {
-              "column": 11,
-              "line": 5
-            },
-            "start": {
-              "column": 2,
-              "line": 5
-            }
-          }
+          "optional": false
         },
         "operator": "++",
-        "prefix": true,
-        "range": [
-          30,
-          41
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 5
-          },
-          "start": {
-            "column": 0,
-            "line": 5
-          }
-        }
-      },
-      "range": [
-        30,
-        42
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
+        "prefix": true
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 43,
+      "end": 55,
       "expression": {
         "type": "UpdateExpression",
+        "start": 43,
+        "end": 54,
         "argument": {
           "type": "Identifier",
+          "start": 45,
+          "end": 54,
           "decorators": [],
           "name": "arguments",
-          "optional": false,
-          "range": [
-            45,
-            54
-          ],
-          "loc": {
-            "end": {
-              "column": 11,
-              "line": 6
-            },
-            "start": {
-              "column": 2,
-              "line": 6
-            }
-          }
+          "optional": false
         },
         "operator": "--",
-        "prefix": true,
-        "range": [
-          43,
-          54
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 6
-          },
-          "start": {
-            "column": 0,
-            "line": 6
-          }
-        }
-      },
-      "range": [
-        43,
-        55
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 6
-        }
+        "prefix": true
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 56,
+      "end": 63,
       "expression": {
         "type": "UpdateExpression",
+        "start": 56,
+        "end": 62,
         "argument": {
           "type": "Identifier",
+          "start": 56,
+          "end": 60,
           "decorators": [],
           "name": "eval",
-          "optional": false,
-          "range": [
-            56,
-            60
-          ],
-          "loc": {
-            "end": {
-              "column": 4,
-              "line": 7
-            },
-            "start": {
-              "column": 0,
-              "line": 7
-            }
-          }
+          "optional": false
         },
         "operator": "++",
-        "prefix": false,
-        "range": [
-          56,
-          62
-        ],
-        "loc": {
-          "end": {
-            "column": 6,
-            "line": 7
-          },
-          "start": {
-            "column": 0,
-            "line": 7
-          }
-        }
-      },
-      "range": [
-        56,
-        63
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 7
-        }
+        "prefix": false
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 64,
+      "end": 71,
       "expression": {
         "type": "UpdateExpression",
+        "start": 64,
+        "end": 70,
         "argument": {
           "type": "Identifier",
+          "start": 64,
+          "end": 68,
           "decorators": [],
           "name": "eval",
-          "optional": false,
-          "range": [
-            64,
-            68
-          ],
-          "loc": {
-            "end": {
-              "column": 4,
-              "line": 8
-            },
-            "start": {
-              "column": 0,
-              "line": 8
-            }
-          }
+          "optional": false
         },
         "operator": "--",
-        "prefix": false,
-        "range": [
-          64,
-          70
-        ],
-        "loc": {
-          "end": {
-            "column": 6,
-            "line": 8
-          },
-          "start": {
-            "column": 0,
-            "line": 8
-          }
-        }
-      },
-      "range": [
-        64,
-        71
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 8
-        }
+        "prefix": false
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 72,
+      "end": 84,
       "expression": {
         "type": "UpdateExpression",
+        "start": 72,
+        "end": 83,
         "argument": {
           "type": "Identifier",
+          "start": 72,
+          "end": 81,
           "decorators": [],
           "name": "arguments",
-          "optional": false,
-          "range": [
-            72,
-            81
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 9
-            },
-            "start": {
-              "column": 0,
-              "line": 9
-            }
-          }
+          "optional": false
         },
         "operator": "++",
-        "prefix": false,
-        "range": [
-          72,
-          83
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 9
-          },
-          "start": {
-            "column": 0,
-            "line": 9
-          }
-        }
-      },
-      "range": [
-        72,
-        84
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 9
-        },
-        "start": {
-          "column": 0,
-          "line": 9
-        }
+        "prefix": false
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 85,
+      "end": 97,
       "expression": {
         "type": "UpdateExpression",
+        "start": 85,
+        "end": 96,
         "argument": {
           "type": "Identifier",
+          "start": 85,
+          "end": 94,
           "decorators": [],
           "name": "arguments",
-          "optional": false,
-          "range": [
-            85,
-            94
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 10
-            },
-            "start": {
-              "column": 0,
-              "line": 10
-            }
-          }
+          "optional": false
         },
         "operator": "--",
-        "prefix": false,
-        "range": [
-          85,
-          96
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 10
-          },
-          "start": {
-            "column": 0,
-            "line": 10
-          }
-        }
-      },
-      "range": [
-        85,
-        97
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 10
-        },
-        "start": {
-          "column": 0,
-          "line": 10
-        }
+        "prefix": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 11
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

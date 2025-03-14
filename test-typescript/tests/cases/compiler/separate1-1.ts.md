@@ -2,118 +2,46 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    6
-  ],
+  "start": 0,
+  "end": 6,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 6,
       "expression": {
         "type": "CallExpression",
+        "start": 0,
+        "end": 5,
         "arguments": [],
         "callee": {
           "type": "MemberExpression",
+          "start": 0,
+          "end": 3,
           "computed": false,
           "object": {
             "type": "Identifier",
+            "start": 0,
+            "end": 1,
             "decorators": [],
             "name": "X",
-            "optional": false,
-            "range": [
-              0,
-              1
-            ],
-            "loc": {
-              "end": {
-                "column": 1,
-                "line": 1
-              },
-              "start": {
-                "column": 0,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "optional": false,
           "property": {
             "type": "Identifier",
+            "start": 2,
+            "end": 3,
             "decorators": [],
             "name": "f",
-            "optional": false,
-            "range": [
-              2,
-              3
-            ],
-            "loc": {
-              "end": {
-                "column": 3,
-                "line": 1
-              },
-              "start": {
-                "column": 2,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            0,
-            3
-          ],
-          "loc": {
-            "end": {
-              "column": 3,
-              "line": 1
-            },
-            "start": {
-              "column": 0,
-              "line": 1
-            }
+            "optional": false
           }
         },
-        "optional": false,
-        "range": [
-          0,
-          5
-        ],
-        "loc": {
-          "end": {
-            "column": 5,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        6
-      ],
-      "loc": {
-        "end": {
-          "column": 6,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 6,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

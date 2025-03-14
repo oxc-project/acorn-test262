@@ -2,180 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    41
-  ],
+  "start": 0,
+  "end": 41,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 40,
       "expression": {
         "type": "CallExpression",
+        "start": 1,
+        "end": 38,
         "arguments": [
           {
             "type": "Identifier",
+            "start": 5,
+            "end": 6,
             "decorators": [],
             "name": "x",
-            "optional": false,
-            "range": [
-              5,
-              6
-            ],
-            "loc": {
-              "end": {
-                "column": 6,
-                "line": 1
-              },
-              "start": {
-                "column": 5,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           {
             "type": "ArrowFunctionExpression",
+            "start": 12,
+            "end": 20,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "body": [],
-              "range": [
-                18,
-                20
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 2
-                },
-                "start": {
-                  "column": 10,
-                  "line": 2
-                }
-              }
+              "start": 18,
+              "end": 20,
+              "body": []
             },
             "expression": false,
             "generator": false,
             "id": null,
-            "params": [],
-            "range": [
-              12,
-              20
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "params": []
           },
           {
             "type": "ArrowFunctionExpression",
+            "start": 26,
+            "end": 34,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "body": [],
-              "range": [
-                32,
-                34
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 3
-                },
-                "start": {
-                  "column": 10,
-                  "line": 3
-                }
-              }
+              "start": 32,
+              "end": 34,
+              "body": []
             },
             "expression": false,
             "generator": false,
             "id": null,
-            "params": [],
-            "range": [
-              26,
-              34
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
-            }
+            "params": []
           }
         ],
         "callee": {
           "type": "Identifier",
+          "start": 1,
+          "end": 4,
           "decorators": [],
           "name": "bar",
-          "optional": false,
-          "range": [
-            1,
-            4
-          ],
-          "loc": {
-            "end": {
-              "column": 4,
-              "line": 1
-            },
-            "start": {
-              "column": 1,
-              "line": 1
-            }
-          }
+          "optional": false
         },
-        "optional": false,
-        "range": [
-          1,
-          38
-        ],
-        "loc": {
-          "end": {
-            "column": 3,
-            "line": 4
-          },
-          "start": {
-            "column": 1,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        40
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

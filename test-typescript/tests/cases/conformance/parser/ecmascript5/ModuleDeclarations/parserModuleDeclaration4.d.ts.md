@@ -2,140 +2,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    38
-  ],
+  "start": 0,
+  "end": 38,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 38,
       "body": {
         "type": "TSModuleBlock",
+        "start": 9,
+        "end": 38,
         "body": [
           {
             "type": "TSModuleDeclaration",
+            "start": 13,
+            "end": 36,
             "body": {
               "type": "TSModuleBlock",
-              "body": [],
-              "range": [
-                31,
-                36
-              ],
-              "loc": {
-                "end": {
-                  "column": 3,
-                  "line": 3
-                },
-                "start": {
-                  "column": 20,
-                  "line": 2
-                }
-              }
+              "start": 31,
+              "end": 36,
+              "body": []
             },
             "declare": true,
             "global": false,
             "id": {
               "type": "Identifier",
-              "range": [
-                28,
-                30
-              ],
+              "start": 28,
+              "end": 30,
               "decorators": [],
               "name": "M1",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 2
-                },
-                "start": {
-                  "column": 17,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "kind": "module",
-            "range": [
-              13,
-              36
-            ],
-            "loc": {
-              "end": {
-                "column": 3,
-                "line": 3
-              },
-              "start": {
-                "column": 2,
-                "line": 2
-              }
-            }
+            "kind": "module"
           }
-        ],
-        "range": [
-          9,
-          38
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 9,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          7,
-          8
-        ],
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "M",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        0,
-        38
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

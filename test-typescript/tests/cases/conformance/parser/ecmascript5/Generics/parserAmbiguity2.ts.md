@@ -2,195 +2,75 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    12
-  ],
+  "start": 0,
+  "end": 12,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 12,
       "expression": {
         "type": "CallExpression",
+        "start": 0,
+        "end": 11,
         "arguments": [
           {
             "type": "BinaryExpression",
+            "start": 2,
+            "end": 5,
             "operator": "<",
             "left": {
               "type": "Identifier",
+              "start": 2,
+              "end": 3,
               "decorators": [],
               "name": "g",
-              "optional": false,
-              "range": [
-                2,
-                3
-              ],
-              "loc": {
-                "end": {
-                  "column": 3,
-                  "line": 1
-                },
-                "start": {
-                  "column": 2,
-                  "line": 1
-                }
-              }
+              "optional": false
             },
             "right": {
               "type": "Identifier",
+              "start": 4,
+              "end": 5,
               "decorators": [],
               "name": "A",
-              "optional": false,
-              "range": [
-                4,
-                5
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 1
-                },
-                "start": {
-                  "column": 4,
-                  "line": 1
-                }
-              }
-            },
-            "range": [
-              2,
-              5
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 1
-              },
-              "start": {
-                "column": 2,
-                "line": 1
-              }
+              "optional": false
             }
           },
           {
             "type": "BinaryExpression",
+            "start": 7,
+            "end": 10,
             "operator": ">",
             "left": {
               "type": "Identifier",
+              "start": 7,
+              "end": 8,
               "decorators": [],
               "name": "B",
-              "optional": false,
-              "range": [
-                7,
-                8
-              ],
-              "loc": {
-                "end": {
-                  "column": 8,
-                  "line": 1
-                },
-                "start": {
-                  "column": 7,
-                  "line": 1
-                }
-              }
+              "optional": false
             },
             "right": {
               "type": "Literal",
+              "start": 9,
+              "end": 10,
               "raw": "7",
-              "value": 7,
-              "range": [
-                9,
-                10
-              ],
-              "loc": {
-                "end": {
-                  "column": 10,
-                  "line": 1
-                },
-                "start": {
-                  "column": 9,
-                  "line": 1
-                }
-              }
-            },
-            "range": [
-              7,
-              10
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 1
-              },
-              "start": {
-                "column": 7,
-                "line": 1
-              }
+              "value": 7
             }
           }
         ],
         "callee": {
           "type": "Identifier",
+          "start": 0,
+          "end": 1,
           "decorators": [],
           "name": "f",
-          "optional": false,
-          "range": [
-            0,
-            1
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 1
-            },
-            "start": {
-              "column": 0,
-              "line": 1
-            }
-          }
+          "optional": false
         },
-        "optional": false,
-        "range": [
-          0,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        12
-      ],
-      "loc": {
-        "end": {
-          "column": 12,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 12,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

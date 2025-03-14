@@ -2,234 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    181
-  ],
+  "start": 0,
+  "end": 181,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 180,
       "body": {
         "type": "TSModuleBlock",
+        "start": 20,
+        "end": 180,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
+            "start": 26,
+            "end": 47,
             "body": {
               "type": "TSInterfaceBody",
-              "range": [
-                44,
-                47
-              ],
-              "body": [],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 2
-                },
-                "start": {
-                  "column": 22,
-                  "line": 2
-                }
-              }
+              "start": 44,
+              "end": 47,
+              "body": []
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
+              "start": 36,
+              "end": 43,
               "decorators": [],
               "name": "istring",
-              "optional": false,
-              "range": [
-                36,
-                43
-              ],
-              "loc": {
-                "end": {
-                  "column": 21,
-                  "line": 2
-                },
-                "start": {
-                  "column": 14,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              26,
-              47
-            ],
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "optional": false
             }
           },
           {
             "type": "TSImportEqualsDeclaration",
+            "start": 149,
+            "end": 178,
             "id": {
               "type": "Identifier",
+              "start": 156,
+              "end": 162,
               "decorators": [],
               "name": "string",
-              "optional": false,
-              "range": [
-                156,
-                162
-              ],
-              "loc": {
-                "end": {
-                  "column": 17,
-                  "line": 5
-                },
-                "start": {
-                  "column": 11,
-                  "line": 5
-                }
-              }
+              "optional": false
             },
             "importKind": "value",
             "moduleReference": {
               "type": "TSQualifiedName",
+              "start": 165,
+              "end": 177,
               "left": {
                 "type": "Identifier",
+                "start": 165,
+                "end": 169,
                 "decorators": [],
                 "name": "test",
-                "optional": false,
-                "range": [
-                  165,
-                  169
-                ],
-                "loc": {
-                  "end": {
-                    "column": 24,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 20,
-                    "line": 5
-                  }
-                }
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
+                "start": 170,
+                "end": 177,
                 "decorators": [],
                 "name": "istring",
-                "optional": false,
-                "range": [
-                  170,
-                  177
-                ],
-                "loc": {
-                  "end": {
-                    "column": 32,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 25,
-                    "line": 5
-                  }
-                }
-              },
-              "range": [
-                165,
-                177
-              ],
-              "loc": {
-                "end": {
-                  "column": 32,
-                  "line": 5
-                },
-                "start": {
-                  "column": 20,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              149,
-              178
-            ],
-            "loc": {
-              "end": {
-                "column": 33,
-                "line": 5
-              },
-              "start": {
-                "column": 4,
-                "line": 5
+                "optional": false
               }
             }
           }
-        ],
-        "range": [
-          20,
-          180
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 6
-          },
-          "start": {
-            "column": 20,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          15,
-          19
-        ],
+        "start": 15,
+        "end": 19,
         "decorators": [],
         "name": "test",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        0,
-        180
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 7
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

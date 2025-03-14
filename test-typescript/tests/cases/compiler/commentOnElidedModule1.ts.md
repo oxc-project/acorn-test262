@@ -2,139 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    105,
-    183
-  ],
+  "start": 105,
+  "end": 183,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 105,
+      "end": 128,
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          125,
-          128
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 8
-          },
-          "start": {
-            "column": 20,
-            "line": 7
-          }
-        }
+        "start": 125,
+        "end": 128,
+        "body": []
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          112,
-          124
-        ],
+        "start": 112,
+        "end": 124,
         "decorators": [],
         "name": "ElidedModule",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 7
-          },
-          "start": {
-            "column": 7,
-            "line": 7
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        105,
-        128
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 7
-        }
-      }
+      "kind": "module"
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 158,
+      "end": 182,
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          179,
-          182
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 12
-          },
-          "start": {
-            "column": 21,
-            "line": 11
-          }
-        }
+        "start": 179,
+        "end": 182,
+        "body": []
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          165,
-          178
-        ],
+        "start": 165,
+        "end": 178,
         "decorators": [],
         "name": "ElidedModule2",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 11
-          },
-          "start": {
-            "column": 7,
-            "line": 11
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        158,
-        182
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 12
-        },
-        "start": {
-          "column": 0,
-          "line": 11
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 13
-    },
-    "start": {
-      "column": 0,
-      "line": 7
-    }
-  },
   "hashbang": null
 }
 ```
@@ -142,81 +58,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    28,
-    52
-  ],
+  "start": 28,
+  "end": 52,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 28,
+      "end": 52,
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          49,
-          52
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 21,
-            "line": 2
-          }
-        }
+        "start": 49,
+        "end": 52,
+        "body": []
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          35,
-          48
-        ],
+        "start": 35,
+        "end": 48,
         "decorators": [],
         "name": "ElidedModule3",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "optional": false
       },
-      "kind": "module",
-      "range": [
-        28,
-        52
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "kind": "module"
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

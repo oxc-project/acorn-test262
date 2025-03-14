@@ -2,191 +2,71 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    34
-  ],
+  "start": 0,
+  "end": 34,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 20,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 4,
+          "end": 19,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 4,
+            "end": 19,
             "decorators": [],
             "name": "exports",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 1
-                },
-                "start": {
-                  "column": 11,
-                  "line": 1
-                }
-              },
-              "range": [
-                11,
-                19
-              ],
+              "start": 11,
+              "end": 19,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "range": [
-                  13,
-                  19
-                ],
-                "loc": {
-                  "end": {
-                    "column": 19,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 13,
-                    "line": 1
-                  }
-                }
-              }
-            },
-            "range": [
-              4,
-              19
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 1
-              },
-              "start": {
-                "column": 4,
-                "line": 1
+                "start": 13,
+                "end": 19
               }
             }
           },
-          "init": null,
-          "range": [
-            4,
-            19
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 1
-            },
-            "start": {
-              "column": 4,
-              "line": 1
-            }
-          }
+          "init": null
         }
       ],
       "declare": false,
-      "kind": "let",
-      "range": [
-        0,
-        20
-      ],
-      "loc": {
-        "end": {
-          "column": 20,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "let"
     },
     {
       "type": "ExpressionStatement",
+      "start": 21,
+      "end": 34,
       "expression": {
         "type": "AssignmentExpression",
+        "start": 21,
+        "end": 33,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "start": 21,
+          "end": 28,
           "decorators": [],
           "name": "exports",
-          "optional": false,
-          "range": [
-            21,
-            28
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 2
-            },
-            "start": {
-              "column": 0,
-              "line": 2
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Literal",
+          "start": 31,
+          "end": 33,
           "raw": "''",
-          "value": "",
-          "range": [
-            31,
-            33
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 2
-            },
-            "start": {
-              "column": 10,
-              "line": 2
-            }
-          }
-        },
-        "range": [
-          21,
-          33
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 2
-          },
-          "start": {
-            "column": 0,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        21,
-        34
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
+          "value": ""
         }
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 13,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

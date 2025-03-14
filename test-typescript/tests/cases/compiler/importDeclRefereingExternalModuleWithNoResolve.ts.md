@@ -2,229 +2,85 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    106
-  ],
+  "start": 0,
+  "end": 106,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 0,
+      "end": 37,
       "id": {
         "type": "Identifier",
+        "start": 7,
+        "end": 8,
         "decorators": [],
         "name": "b",
-        "optional": false,
-        "range": [
-          7,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 11,
+        "end": 36,
         "expression": {
           "type": "Literal",
+          "start": 19,
+          "end": 35,
           "raw": "\"externalModule\"",
-          "value": "externalModule",
-          "range": [
-            19,
-            35
-          ],
-          "loc": {
-            "end": {
-              "column": 35,
-              "line": 1
-            },
-            "start": {
-              "column": 19,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          11,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 36,
-            "line": 1
-          },
-          "start": {
-            "column": 11,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        37
-      ],
-      "loc": {
-        "end": {
-          "column": 37,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": "externalModule"
         }
       }
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 38,
+      "end": 105,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
+        "start": 58,
+        "end": 105,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
+            "start": 64,
+            "end": 103,
             "id": {
               "type": "Identifier",
+              "start": 71,
+              "end": 74,
               "decorators": [],
               "name": "im2",
-              "optional": false,
-              "range": [
-                71,
-                74
-              ],
-              "loc": {
-                "end": {
-                  "column": 14,
-                  "line": 3
-                },
-                "start": {
-                  "column": 11,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
             "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
+              "start": 77,
+              "end": 102,
               "expression": {
                 "type": "Literal",
+                "start": 85,
+                "end": 101,
                 "raw": "\"externalModule\"",
-                "value": "externalModule",
-                "range": [
-                  85,
-                  101
-                ],
-                "loc": {
-                  "end": {
-                    "column": 41,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 25,
-                    "line": 3
-                  }
-                }
-              },
-              "range": [
-                77,
-                102
-              ],
-              "loc": {
-                "end": {
-                  "column": 42,
-                  "line": 3
-                },
-                "start": {
-                  "column": 17,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              64,
-              103
-            ],
-            "loc": {
-              "end": {
-                "column": 43,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
+                "value": "externalModule"
               }
             }
           }
-        ],
-        "range": [
-          58,
-          105
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 20,
-            "line": 2
-          }
-        }
+        ]
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 53,
+        "end": 57,
         "raw": "\"m1\"",
-        "value": "m1",
-        "range": [
-          53,
-          57
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 2
-          },
-          "start": {
-            "column": 15,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        38,
-        105
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "value": "m1"
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 5
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

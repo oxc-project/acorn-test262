@@ -2,259 +2,103 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    133
-  ],
+  "start": 0,
+  "end": 133,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 59,
       "body": {
         "type": "TSModuleBlock",
+        "start": 22,
+        "end": 59,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "range": [
-              28,
-              57
-            ],
+            "start": 28,
+            "end": 57,
             "declaration": {
               "type": "FunctionDeclaration",
+              "start": 43,
+              "end": 57,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "body": [],
-                "range": [
-                  55,
-                  57
-                ],
-                "loc": {
-                  "end": {
-                    "column": 33,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 31,
-                    "line": 2
-                  }
-                }
+                "start": 55,
+                "end": 57,
+                "body": []
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "range": [
-                43,
-                57
-              ],
-              "loc": {
-                "end": {
-                  "column": 33,
-                  "line": 2
-                },
-                "start": {
-                  "column": 19,
-                  "line": 2
-                }
-              }
+              "params": []
             },
-            "exportKind": "value",
-            "loc": {
-              "end": {
-                "column": 33,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "exportKind": "value"
           }
-        ],
-        "range": [
-          22,
-          59
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 22,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          10,
-          21
-        ],
+        "start": 10,
+        "end": 21,
         "decorators": [],
         "name": "ns_function",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        0,
-        59
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "namespace"
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 61,
+      "end": 132,
       "body": {
         "type": "TSModuleBlock",
+        "start": 89,
+        "end": 132,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "range": [
-              95,
-              130
-            ],
+            "start": 95,
+            "end": 130,
             "declaration": {
               "type": "FunctionDeclaration",
+              "start": 110,
+              "end": 130,
               "async": true,
               "body": {
                 "type": "BlockStatement",
-                "body": [],
-                "range": [
-                  128,
-                  130
-                ],
-                "loc": {
-                  "end": {
-                    "column": 39,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 37,
-                    "line": 6
-                  }
-                }
+                "start": 128,
+                "end": 130,
+                "body": []
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "range": [
-                110,
-                130
-              ],
-              "loc": {
-                "end": {
-                  "column": 39,
-                  "line": 6
-                },
-                "start": {
-                  "column": 19,
-                  "line": 6
-                }
-              }
+              "params": []
             },
-            "exportKind": "value",
-            "loc": {
-              "end": {
-                "column": 39,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
-            }
+            "exportKind": "value"
           }
-        ],
-        "range": [
-          89,
-          132
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 28,
-            "line": 5
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          71,
-          88
-        ],
+        "start": 71,
+        "end": 88,
         "decorators": [],
         "name": "ns_async_function",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 5
-          },
-          "start": {
-            "column": 10,
-            "line": 5
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        61,
-        132
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

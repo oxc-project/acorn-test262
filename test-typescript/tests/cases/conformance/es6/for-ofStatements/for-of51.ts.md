@@ -2,137 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    16,
-    38
-  ],
+  "start": 16,
+  "end": 38,
   "body": [
     {
       "type": "ForOfStatement",
+      "start": 16,
+      "end": 38,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          36,
-          38
-        ],
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 2
-          },
-          "start": {
-            "column": 20,
-            "line": 2
-          }
-        }
+        "start": 36,
+        "end": 38,
+        "body": []
       },
       "left": {
         "type": "VariableDeclaration",
+        "start": 21,
+        "end": 28,
         "declarations": [
           {
             "type": "VariableDeclarator",
+            "start": 25,
+            "end": 28,
             "definite": false,
             "id": {
               "type": "Identifier",
+              "start": 25,
+              "end": 28,
               "decorators": [],
               "name": "let",
-              "optional": false,
-              "range": [
-                25,
-                28
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 2
-                },
-                "start": {
-                  "column": 9,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
-            "init": null,
-            "range": [
-              25,
-              28
-            ],
-            "loc": {
-              "end": {
-                "column": 12,
-                "line": 2
-              },
-              "start": {
-                "column": 9,
-                "line": 2
-              }
-            }
+            "init": null
           }
         ],
         "declare": false,
-        "kind": "let",
-        "range": [
-          21,
-          28
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 2
-          },
-          "start": {
-            "column": 5,
-            "line": 2
-          }
-        }
+        "kind": "let"
       },
       "right": {
         "type": "ArrayExpression",
-        "elements": [],
-        "range": [
-          32,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 2
-          },
-          "start": {
-            "column": 16,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        16,
-        38
-      ],
-      "loc": {
-        "end": {
-          "column": 22,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "start": 32,
+        "end": 34,
+        "elements": []
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 22,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

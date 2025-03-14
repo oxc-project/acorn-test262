@@ -2,38 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    11,
-    70
-  ],
+  "start": 11,
+  "end": 70,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
+      "start": 11,
+      "end": 70,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 26,
+        "end": 70,
         "properties": [
           {
             "type": "Property",
+            "start": 30,
+            "end": 37,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 30,
+              "end": 33,
               "decorators": [],
               "name": "foo",
-              "optional": false,
-              "range": [
-                30,
-                33
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 3
-                },
-                "start": {
-                  "column": 2,
-                  "line": 3
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -41,59 +33,23 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "ArrayExpression",
-              "elements": [],
-              "range": [
-                35,
-                37
-              ],
-              "loc": {
-                "end": {
-                  "column": 9,
-                  "line": 3
-                },
-                "start": {
-                  "column": 7,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              30,
-              37
-            ],
-            "loc": {
-              "end": {
-                "column": 9,
-                "line": 3
-              },
-              "start": {
-                "column": 2,
-                "line": 3
-              }
+              "start": 35,
+              "end": 37,
+              "elements": []
             }
           },
           {
             "type": "Property",
+            "start": 41,
+            "end": 55,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 41,
+              "end": 44,
               "decorators": [],
               "name": "bar",
-              "optional": false,
-              "range": [
-                41,
-                44
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 2,
-                  "line": 4
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -101,61 +57,25 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Identifier",
+              "start": 46,
+              "end": 55,
               "decorators": [],
               "name": "undefined",
-              "optional": false,
-              "range": [
-                46,
-                55
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 4
-                },
-                "start": {
-                  "column": 7,
-                  "line": 4
-                }
-              }
-            },
-            "range": [
-              41,
-              55
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 4
-              },
-              "start": {
-                "column": 2,
-                "line": 4
-              }
+              "optional": false
             }
           },
           {
             "type": "Property",
+            "start": 59,
+            "end": 68,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 59,
+              "end": 62,
               "decorators": [],
               "name": "baz",
-              "optional": false,
-              "range": [
-                59,
-                62
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 5
-                },
-                "start": {
-                  "column": 2,
-                  "line": 5
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -163,82 +83,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 64,
+              "end": 68,
               "raw": "null",
-              "value": null,
-              "range": [
-                64,
-                68
-              ],
-              "loc": {
-                "end": {
-                  "column": 11,
-                  "line": 5
-                },
-                "start": {
-                  "column": 7,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              59,
-              68
-            ],
-            "loc": {
-              "end": {
-                "column": 11,
-                "line": 5
-              },
-              "start": {
-                "column": 2,
-                "line": 5
-              }
+              "value": null
             }
           }
-        ],
-        "range": [
-          26,
-          70
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 6
-          },
-          "start": {
-            "column": 15,
-            "line": 2
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        11,
-        70
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

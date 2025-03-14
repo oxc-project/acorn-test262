@@ -2,313 +2,121 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    10,
-    115
-  ],
+  "start": 10,
+  "end": 115,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 10,
+      "end": 60,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 43,
+        "end": 60,
         "body": [
           {
             "type": "ReturnStatement",
+            "start": 49,
+            "end": 58,
             "argument": {
               "type": "Identifier",
+              "start": 56,
+              "end": 57,
               "decorators": [],
               "name": "n",
-              "optional": false,
-              "range": [
-                56,
-                57
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 3
-                },
-                "start": {
-                  "column": 11,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              49,
-              58
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
+              "optional": false
             }
           }
-        ],
-        "range": [
-          43,
-          60
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 33,
-            "line": 2
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 19,
+        "end": 31,
         "decorators": [],
         "name": "ExpandoMerge",
-        "optional": false,
-        "range": [
-          19,
-          31
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 2
-          },
-          "start": {
-            "column": 9,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 32,
+          "end": 41,
           "decorators": [],
           "name": "n",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 31,
-                "line": 2
-              },
-              "start": {
-                "column": 23,
-                "line": 2
-              }
-            },
-            "range": [
-              33,
-              41
-            ],
+            "start": 33,
+            "end": 41,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                35,
-                41
-              ],
-              "loc": {
-                "end": {
-                  "column": 31,
-                  "line": 2
-                },
-                "start": {
-                  "column": 25,
-                  "line": 2
-                }
-              }
-            }
-          },
-          "range": [
-            32,
-            41
-          ],
-          "loc": {
-            "end": {
-              "column": 31,
-              "line": 2
-            },
-            "start": {
-              "column": 22,
-              "line": 2
+              "start": 35,
+              "end": 41
             }
           }
         }
-      ],
-      "range": [
-        10,
-        60
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      ]
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 61,
+      "end": 114,
       "body": {
         "type": "TSModuleBlock",
+        "start": 84,
+        "end": 114,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "range": [
-              90,
-              112
-            ],
+            "start": 90,
+            "end": 112,
             "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
+              "start": 97,
+              "end": 112,
               "body": {
                 "type": "TSInterfaceBody",
-                "range": [
-                  109,
-                  112
-                ],
-                "body": [],
-                "loc": {
-                  "end": {
-                    "column": 26,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 23,
-                    "line": 6
-                  }
-                }
+                "start": 109,
+                "end": 112,
+                "body": []
               },
               "declare": false,
               "extends": [],
               "id": {
                 "type": "Identifier",
+                "start": 107,
+                "end": 108,
                 "decorators": [],
                 "name": "I",
-                "optional": false,
-                "range": [
-                  107,
-                  108
-                ],
-                "loc": {
-                  "end": {
-                    "column": 22,
-                    "line": 6
-                  },
-                  "start": {
-                    "column": 21,
-                    "line": 6
-                  }
-                }
-              },
-              "range": [
-                97,
-                112
-              ],
-              "loc": {
-                "end": {
-                  "column": 26,
-                  "line": 6
-                },
-                "start": {
-                  "column": 11,
-                  "line": 6
-                }
+                "optional": false
               }
             },
             "exportKind": "type",
             "source": null,
-            "specifiers": [],
-            "loc": {
-              "end": {
-                "column": 26,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
-            }
+            "specifiers": []
           }
-        ],
-        "range": [
-          84,
-          114
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 23,
-            "line": 5
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          71,
-          83
-        ],
+        "start": 71,
+        "end": 83,
         "decorators": [],
         "name": "ExpandoMerge",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 5
-          },
-          "start": {
-            "column": 10,
-            "line": 5
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        61,
-        114
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

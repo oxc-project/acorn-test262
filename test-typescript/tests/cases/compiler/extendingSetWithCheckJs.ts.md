@@ -2,44 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    302
-  ],
+  "start": 0,
+  "end": 302,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 70,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          24,
-          70
-        ],
+        "start": 24,
+        "end": 70,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 30,
+            "end": 68,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "range": [
-                30,
-                41
-              ],
+              "start": 30,
+              "end": 41,
               "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "kind": "constructor",
             "optional": false,
@@ -47,217 +35,85 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                41,
-                68
-              ],
+              "start": 41,
+              "end": 68,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 44,
+                "end": 68,
                 "body": [
                   {
                     "type": "ExpressionStatement",
+                    "start": 54,
+                    "end": 62,
                     "expression": {
                       "type": "CallExpression",
+                      "start": 54,
+                      "end": 61,
                       "arguments": [],
                       "callee": {
                         "type": "Super",
-                        "range": [
-                          54,
-                          59
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 13,
-                            "line": 3
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 3
-                          }
-                        }
+                        "start": 54,
+                        "end": 59
                       },
-                      "optional": false,
-                      "range": [
-                        54,
-                        61
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 3
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 3
-                        }
-                      }
-                    },
-                    "range": [
-                      54,
-                      62
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 3
-                      }
+                      "optional": false
                     }
                   }
-                ],
-                "range": [
-                  44,
-                  68
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 2
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 15,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              30,
-              68
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 5
-          },
-          "start": {
-            "column": 24,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 11,
         "decorators": [],
         "name": "MySet",
-        "optional": false,
-        "range": [
-          6,
-          11
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 20,
+        "end": 23,
         "decorators": [],
         "name": "Set",
-        "optional": false,
-        "range": [
-          20,
-          23
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 1
-          },
-          "start": {
-            "column": 20,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        70
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 72,
+      "end": 150,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          104,
-          150
-        ],
+        "start": 104,
+        "end": 150,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 110,
+            "end": 148,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "range": [
-                110,
-                121
-              ],
+              "start": 110,
+              "end": 121,
               "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 8
-                },
-                "start": {
-                  "column": 4,
-                  "line": 8
-                }
-              }
+              "optional": false
             },
             "kind": "constructor",
             "optional": false,
@@ -265,217 +121,85 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                121,
-                148
-              ],
+              "start": 121,
+              "end": 148,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 124,
+                "end": 148,
                 "body": [
                   {
                     "type": "ExpressionStatement",
+                    "start": 134,
+                    "end": 142,
                     "expression": {
                       "type": "CallExpression",
+                      "start": 134,
+                      "end": 141,
                       "arguments": [],
                       "callee": {
                         "type": "Super",
-                        "range": [
-                          134,
-                          139
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 13,
-                            "line": 9
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 9
-                          }
-                        }
+                        "start": 134,
+                        "end": 139
                       },
-                      "optional": false,
-                      "range": [
-                        134,
-                        141
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 9
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 9
-                        }
-                      }
-                    },
-                    "range": [
-                      134,
-                      142
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 9
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 9
-                      }
+                      "optional": false
                     }
                   }
-                ],
-                "range": [
-                  124,
-                  148
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 10
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 8
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 10
-                },
-                "start": {
-                  "column": 15,
-                  "line": 8
-                }
-              }
-            },
-            "range": [
-              110,
-              148
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 10
-              },
-              "start": {
-                "column": 4,
-                "line": 8
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 11
-          },
-          "start": {
-            "column": 32,
-            "line": 7
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 78,
+        "end": 87,
         "decorators": [],
         "name": "MyWeakSet",
-        "optional": false,
-        "range": [
-          78,
-          87
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 7
-          },
-          "start": {
-            "column": 6,
-            "line": 7
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 96,
+        "end": 103,
         "decorators": [],
         "name": "WeakSet",
-        "optional": false,
-        "range": [
-          96,
-          103
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 7
-          },
-          "start": {
-            "column": 24,
-            "line": 7
-          }
-        }
-      },
-      "range": [
-        72,
-        150
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 11
-        },
-        "start": {
-          "column": 0,
-          "line": 7
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 152,
+      "end": 222,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          176,
-          222
-        ],
+        "start": 176,
+        "end": 222,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 182,
+            "end": 220,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "range": [
-                182,
-                193
-              ],
+              "start": 182,
+              "end": 193,
               "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 14
-                },
-                "start": {
-                  "column": 4,
-                  "line": 14
-                }
-              }
+              "optional": false
             },
             "kind": "constructor",
             "optional": false,
@@ -483,217 +207,85 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                193,
-                220
-              ],
+              "start": 193,
+              "end": 220,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 196,
+                "end": 220,
                 "body": [
                   {
                     "type": "ExpressionStatement",
+                    "start": 206,
+                    "end": 214,
                     "expression": {
                       "type": "CallExpression",
+                      "start": 206,
+                      "end": 213,
                       "arguments": [],
                       "callee": {
                         "type": "Super",
-                        "range": [
-                          206,
-                          211
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 13,
-                            "line": 15
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 15
-                          }
-                        }
+                        "start": 206,
+                        "end": 211
                       },
-                      "optional": false,
-                      "range": [
-                        206,
-                        213
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 15
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 15
-                        }
-                      }
-                    },
-                    "range": [
-                      206,
-                      214
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 15
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 15
-                      }
+                      "optional": false
                     }
                   }
-                ],
-                "range": [
-                  196,
-                  220
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 16
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 14
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 16
-                },
-                "start": {
-                  "column": 15,
-                  "line": 14
-                }
-              }
-            },
-            "range": [
-              182,
-              220
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 16
-              },
-              "start": {
-                "column": 4,
-                "line": 14
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 17
-          },
-          "start": {
-            "column": 24,
-            "line": 13
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 158,
+        "end": 163,
         "decorators": [],
         "name": "MyMap",
-        "optional": false,
-        "range": [
-          158,
-          163
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 13
-          },
-          "start": {
-            "column": 6,
-            "line": 13
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 172,
+        "end": 175,
         "decorators": [],
         "name": "Map",
-        "optional": false,
-        "range": [
-          172,
-          175
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 13
-          },
-          "start": {
-            "column": 20,
-            "line": 13
-          }
-        }
-      },
-      "range": [
-        152,
-        222
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 17
-        },
-        "start": {
-          "column": 0,
-          "line": 13
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 224,
+      "end": 302,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          256,
-          302
-        ],
+        "start": 256,
+        "end": 302,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 262,
+            "end": 300,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "range": [
-                262,
-                273
-              ],
+              "start": 262,
+              "end": 273,
               "decorators": [],
               "name": "constructor",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 20
-                },
-                "start": {
-                  "column": 4,
-                  "line": 20
-                }
-              }
+              "optional": false
             },
             "kind": "constructor",
             "optional": false,
@@ -701,196 +293,64 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                273,
-                300
-              ],
+              "start": 273,
+              "end": 300,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 276,
+                "end": 300,
                 "body": [
                   {
                     "type": "ExpressionStatement",
+                    "start": 286,
+                    "end": 294,
                     "expression": {
                       "type": "CallExpression",
+                      "start": 286,
+                      "end": 293,
                       "arguments": [],
                       "callee": {
                         "type": "Super",
-                        "range": [
-                          286,
-                          291
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 13,
-                            "line": 21
-                          },
-                          "start": {
-                            "column": 8,
-                            "line": 21
-                          }
-                        }
+                        "start": 286,
+                        "end": 291
                       },
-                      "optional": false,
-                      "range": [
-                        286,
-                        293
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 15,
-                          "line": 21
-                        },
-                        "start": {
-                          "column": 8,
-                          "line": 21
-                        }
-                      }
-                    },
-                    "range": [
-                      286,
-                      294
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 16,
-                        "line": 21
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 21
-                      }
+                      "optional": false
                     }
                   }
-                ],
-                "range": [
-                  276,
-                  300
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 22
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 20
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 22
-                },
-                "start": {
-                  "column": 15,
-                  "line": 20
-                }
-              }
-            },
-            "range": [
-              262,
-              300
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 22
-              },
-              "start": {
-                "column": 4,
-                "line": 20
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 23
-          },
-          "start": {
-            "column": 32,
-            "line": 19
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 230,
+        "end": 239,
         "decorators": [],
         "name": "MyWeakMap",
-        "optional": false,
-        "range": [
-          230,
-          239
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 19
-          },
-          "start": {
-            "column": 6,
-            "line": 19
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 248,
+        "end": 255,
         "decorators": [],
         "name": "WeakMap",
-        "optional": false,
-        "range": [
-          248,
-          255
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 19
-          },
-          "start": {
-            "column": 24,
-            "line": 19
-          }
-        }
-      },
-      "range": [
-        224,
-        302
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 23
-        },
-        "start": {
-          "column": 0,
-          "line": 19
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 23
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

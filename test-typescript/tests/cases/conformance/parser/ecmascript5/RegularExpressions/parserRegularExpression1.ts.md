@@ -2,63 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    38
-  ],
+  "start": 0,
+  "end": 38,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 38,
       "expression": {
         "type": "Literal",
+        "start": 0,
+        "end": 37,
         "raw": "/(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)/g",
         "regex": {
           "flags": "g",
           "pattern": "(#?-?\\d*\\.\\d\\w*%?)|(@?#?[\\w-?]+%?)"
         },
-        "value": null,
-        "range": [
-          0,
-          37
-        ],
-        "loc": {
-          "end": {
-            "column": 37,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        38
-      ],
-      "loc": {
-        "end": {
-          "column": 38,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": null
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 38,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

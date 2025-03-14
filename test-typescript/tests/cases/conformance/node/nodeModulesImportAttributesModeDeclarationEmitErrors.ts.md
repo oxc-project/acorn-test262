@@ -2,101 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    35
-  ],
+  "start": 0,
+  "end": 35,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        35
-      ],
+      "start": 0,
+      "end": 35,
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
+        "start": 7,
+        "end": 35,
         "body": {
           "type": "TSInterfaceBody",
-          "range": [
-            33,
-            35
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 35,
-              "line": 1
-            },
-            "start": {
-              "column": 33,
-              "line": 1
-            }
-          }
+          "start": 33,
+          "end": 35,
+          "body": []
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
+          "start": 17,
+          "end": 32,
           "decorators": [],
           "name": "ImportInterface",
-          "optional": false,
-          "range": [
-            17,
-            32
-          ],
-          "loc": {
-            "end": {
-              "column": 32,
-              "line": 1
-            },
-            "start": {
-              "column": 17,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          35
-        ],
-        "loc": {
-          "end": {
-            "column": 35,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
+          "optional": false
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 35,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 35,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -104,101 +44,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    36
-  ],
+  "start": 0,
+  "end": 36,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        0,
-        36
-      ],
+      "start": 0,
+      "end": 36,
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
+        "start": 7,
+        "end": 36,
         "body": {
           "type": "TSInterfaceBody",
-          "range": [
-            34,
-            36
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 36,
-              "line": 1
-            },
-            "start": {
-              "column": 34,
-              "line": 1
-            }
-          }
+          "start": 34,
+          "end": 36,
+          "body": []
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
+          "start": 17,
+          "end": 33,
           "decorators": [],
           "name": "RequireInterface",
-          "optional": false,
-          "range": [
-            17,
-            33
-          ],
-          "loc": {
-            "end": {
-              "column": 33,
-              "line": 1
-            },
-            "start": {
-              "column": 17,
-              "line": 1
-            }
-          }
-        },
-        "range": [
-          7,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 36,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
+          "optional": false
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 36,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 36,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -206,696 +86,264 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    18,
-    417
-  ],
+  "start": 18,
+  "end": 417,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 18,
+      "end": 99,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 69,
+          "end": 96,
           "key": {
             "type": "Literal",
+            "start": 69,
+            "end": 86,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode",
-            "range": [
-              69,
-              86
-            ],
-            "loc": {
-              "end": {
-                "column": 68,
-                "line": 2
-              },
-              "start": {
-                "column": 51,
-                "line": 2
-              }
-            }
+            "value": "resolution-mode"
           },
           "value": {
             "type": "Literal",
+            "start": 88,
+            "end": 96,
             "raw": "\"foobar\"",
-            "value": "foobar",
-            "range": [
-              88,
-              96
-            ],
-            "loc": {
-              "end": {
-                "column": 78,
-                "line": 2
-              },
-              "start": {
-                "column": 70,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            69,
-            96
-          ],
-          "loc": {
-            "end": {
-              "column": 78,
-              "line": 2
-            },
-            "start": {
-              "column": 51,
-              "line": 2
-            }
+            "value": "foobar"
           }
         }
       ],
       "importKind": "type",
       "source": {
         "type": "Literal",
+        "start": 56,
+        "end": 61,
         "raw": "\"pkg\"",
-        "value": "pkg",
-        "range": [
-          56,
-          61
-        ],
-        "loc": {
-          "end": {
-            "column": 43,
-            "line": 2
-          },
-          "start": {
-            "column": 38,
-            "line": 2
-          }
-        }
+        "value": "pkg"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "start": 32,
+          "end": 48,
           "imported": {
             "type": "Identifier",
+            "start": 32,
+            "end": 48,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false,
-            "range": [
-              32,
-              48
-            ],
-            "loc": {
-              "end": {
-                "column": 30,
-                "line": 2
-              },
-              "start": {
-                "column": 14,
-                "line": 2
-              }
-            }
+            "optional": false
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 32,
+            "end": 48,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false,
-            "range": [
-              32,
-              48
-            ],
-            "loc": {
-              "end": {
-                "column": 30,
-                "line": 2
-              },
-              "start": {
-                "column": 14,
-                "line": 2
-              }
-            }
-          },
-          "range": [
-            32,
-            48
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 2
-            },
-            "start": {
-              "column": 14,
-              "line": 2
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        18,
-        99
-      ],
-      "loc": {
-        "end": {
-          "column": 81,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      ]
     },
     {
       "type": "ImportDeclaration",
+      "start": 117,
+      "end": 192,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 162,
+          "end": 189,
           "key": {
             "type": "Literal",
+            "start": 162,
+            "end": 179,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode",
-            "range": [
-              162,
-              179
-            ],
-            "loc": {
-              "end": {
-                "column": 62,
-                "line": 4
-              },
-              "start": {
-                "column": 45,
-                "line": 4
-              }
-            }
+            "value": "resolution-mode"
           },
           "value": {
             "type": "Literal",
+            "start": 181,
+            "end": 189,
             "raw": "\"import\"",
-            "value": "import",
-            "range": [
-              181,
-              189
-            ],
-            "loc": {
-              "end": {
-                "column": 72,
-                "line": 4
-              },
-              "start": {
-                "column": 64,
-                "line": 4
-              }
-            }
-          },
-          "range": [
-            162,
-            189
-          ],
-          "loc": {
-            "end": {
-              "column": 72,
-              "line": 4
-            },
-            "start": {
-              "column": 45,
-              "line": 4
-            }
+            "value": "import"
           }
         }
       ],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 149,
+        "end": 154,
         "raw": "\"pkg\"",
-        "value": "pkg",
-        "range": [
-          149,
-          154
-        ],
-        "loc": {
-          "end": {
-            "column": 37,
-            "line": 4
-          },
-          "start": {
-            "column": 32,
-            "line": 4
-          }
-        }
+        "value": "pkg"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "start": 126,
+          "end": 141,
           "imported": {
             "type": "Identifier",
+            "start": 126,
+            "end": 141,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false,
-            "range": [
-              126,
-              141
-            ],
-            "loc": {
-              "end": {
-                "column": 24,
-                "line": 4
-              },
-              "start": {
-                "column": 9,
-                "line": 4
-              }
-            }
+            "optional": false
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 126,
+            "end": 141,
             "decorators": [],
             "name": "ImportInterface",
-            "optional": false,
-            "range": [
-              126,
-              141
-            ],
-            "loc": {
-              "end": {
-                "column": 24,
-                "line": 4
-              },
-              "start": {
-                "column": 9,
-                "line": 4
-              }
-            }
-          },
-          "range": [
-            126,
-            141
-          ],
-          "loc": {
-            "end": {
-              "column": 24,
-              "line": 4
-            },
-            "start": {
-              "column": 9,
-              "line": 4
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        117,
-        192
-      ],
-      "loc": {
-        "end": {
-          "column": 75,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
-      }
+      ]
     },
     {
       "type": "ImportDeclaration",
+      "start": 222,
+      "end": 335,
       "attributes": [
         {
           "type": "ImportAttribute",
+          "start": 304,
+          "end": 332,
           "key": {
             "type": "Literal",
+            "start": 304,
+            "end": 321,
             "raw": "\"resolution-mode\"",
-            "value": "resolution-mode",
-            "range": [
-              304,
-              321
-            ],
-            "loc": {
-              "end": {
-                "column": 99,
-                "line": 6
-              },
-              "start": {
-                "column": 82,
-                "line": 6
-              }
-            }
+            "value": "resolution-mode"
           },
           "value": {
             "type": "Literal",
+            "start": 323,
+            "end": 332,
             "raw": "\"require\"",
-            "value": "require",
-            "range": [
-              323,
-              332
-            ],
-            "loc": {
-              "end": {
-                "column": 110,
-                "line": 6
-              },
-              "start": {
-                "column": 101,
-                "line": 6
-              }
-            }
-          },
-          "range": [
-            304,
-            332
-          ],
-          "loc": {
-            "end": {
-              "column": 110,
-              "line": 6
-            },
-            "start": {
-              "column": 82,
-              "line": 6
-            }
+            "value": "require"
           }
         }
       ],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 291,
+        "end": 296,
         "raw": "\"pkg\"",
-        "value": "pkg",
-        "range": [
-          291,
-          296
-        ],
-        "loc": {
-          "end": {
-            "column": 74,
-            "line": 6
-          },
-          "start": {
-            "column": 69,
-            "line": 6
-          }
-        }
+        "value": "pkg"
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "start": 230,
+          "end": 258,
           "imported": {
             "type": "Identifier",
+            "start": 235,
+            "end": 251,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false,
-            "range": [
-              235,
-              251
-            ],
-            "loc": {
-              "end": {
-                "column": 29,
-                "line": 6
-              },
-              "start": {
-                "column": 13,
-                "line": 6
-              }
-            }
+            "optional": false
           },
           "importKind": "type",
           "local": {
             "type": "Identifier",
+            "start": 255,
+            "end": 258,
             "decorators": [],
             "name": "Req",
-            "optional": false,
-            "range": [
-              255,
-              258
-            ],
-            "loc": {
-              "end": {
-                "column": 36,
-                "line": 6
-              },
-              "start": {
-                "column": 33,
-                "line": 6
-              }
-            }
-          },
-          "range": [
-            230,
-            258
-          ],
-          "loc": {
-            "end": {
-              "column": 36,
-              "line": 6
-            },
-            "start": {
-              "column": 8,
-              "line": 6
-            }
+            "optional": false
           }
         },
         {
           "type": "ImportSpecifier",
+          "start": 260,
+          "end": 284,
           "imported": {
             "type": "Identifier",
+            "start": 260,
+            "end": 276,
             "decorators": [],
             "name": "RequireInterface",
-            "optional": false,
-            "range": [
-              260,
-              276
-            ],
-            "loc": {
-              "end": {
-                "column": 54,
-                "line": 6
-              },
-              "start": {
-                "column": 38,
-                "line": 6
-              }
-            }
+            "optional": false
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
+            "start": 280,
+            "end": 284,
             "decorators": [],
             "name": "Req2",
-            "optional": false,
-            "range": [
-              280,
-              284
-            ],
-            "loc": {
-              "end": {
-                "column": 62,
-                "line": 6
-              },
-              "start": {
-                "column": 58,
-                "line": 6
-              }
-            }
-          },
-          "range": [
-            260,
-            284
-          ],
-          "loc": {
-            "end": {
-              "column": 62,
-              "line": 6
-            },
-            "start": {
-              "column": 38,
-              "line": 6
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        222,
-        335
-      ],
-      "loc": {
-        "end": {
-          "column": 113,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 6
-        }
-      }
+      ]
     },
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        337,
-        413
-      ],
+      "start": 337,
+      "end": 413,
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
+        "start": 344,
+        "end": 413,
         "body": {
           "type": "TSInterfaceBody",
-          "range": [
-            411,
-            413
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 76,
-              "line": 8
-            },
-            "start": {
-              "column": 74,
-              "line": 8
-            }
-          }
+          "start": 411,
+          "end": 413,
+          "body": []
         },
         "declare": false,
         "extends": [
           {
             "type": "TSInterfaceHeritage",
+            "start": 377,
+            "end": 393,
             "expression": {
               "type": "Identifier",
+              "start": 377,
+              "end": 393,
               "decorators": [],
               "name": "RequireInterface",
-              "optional": false,
-              "range": [
-                377,
-                393
-              ],
-              "loc": {
-                "end": {
-                  "column": 56,
-                  "line": 8
-                },
-                "start": {
-                  "column": 40,
-                  "line": 8
-                }
-              }
-            },
-            "range": [
-              377,
-              393
-            ],
-            "loc": {
-              "end": {
-                "column": 56,
-                "line": 8
-              },
-              "start": {
-                "column": 40,
-                "line": 8
-              }
+              "optional": false
             }
           },
           {
             "type": "TSInterfaceHeritage",
+            "start": 395,
+            "end": 410,
             "expression": {
               "type": "Identifier",
+              "start": 395,
+              "end": 410,
               "decorators": [],
               "name": "ImportInterface",
-              "optional": false,
-              "range": [
-                395,
-                410
-              ],
-              "loc": {
-                "end": {
-                  "column": 73,
-                  "line": 8
-                },
-                "start": {
-                  "column": 58,
-                  "line": 8
-                }
-              }
-            },
-            "range": [
-              395,
-              410
-            ],
-            "loc": {
-              "end": {
-                "column": 73,
-                "line": 8
-              },
-              "start": {
-                "column": 58,
-                "line": 8
-              }
+              "optional": false
             }
           }
         ],
         "id": {
           "type": "Identifier",
+          "start": 354,
+          "end": 368,
           "decorators": [],
           "name": "LocalInterface",
-          "optional": false,
-          "range": [
-            354,
-            368
-          ],
-          "loc": {
-            "end": {
-              "column": 31,
-              "line": 8
-            },
-            "start": {
-              "column": 17,
-              "line": 8
-            }
-          }
-        },
-        "range": [
-          344,
-          413
-        ],
-        "loc": {
-          "end": {
-            "column": 76,
-            "line": 8
-          },
-          "start": {
-            "column": 7,
-            "line": 8
-          }
+          "optional": false
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 76,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 8
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 12
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,164 +2,68 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    65
-  ],
+  "start": 0,
+  "end": 65,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 65,
       "body": {
         "type": "TSModuleBlock",
+        "start": 21,
+        "end": 65,
         "body": [
           {
             "type": "VariableDeclaration",
+            "start": 27,
+            "end": 63,
             "declarations": [
               {
                 "type": "VariableDeclarator",
+                "start": 33,
+                "end": 62,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
+                  "start": 33,
+                  "end": 46,
                   "decorators": [],
                   "name": "lettersRegexp",
-                  "optional": false,
-                  "range": [
-                    33,
-                    46
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 23,
-                      "line": 2
-                    },
-                    "start": {
-                      "column": 10,
-                      "line": 2
-                    }
-                  }
+                  "optional": false
                 },
                 "init": {
                   "type": "Literal",
+                  "start": 49,
+                  "end": 62,
                   "raw": "/^[A-Za-z]+$/",
                   "regex": {
                     "flags": "",
                     "pattern": "^[A-Za-z]+$"
                   },
-                  "value": null,
-                  "range": [
-                    49,
-                    62
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 39,
-                      "line": 2
-                    },
-                    "start": {
-                      "column": 26,
-                      "line": 2
-                    }
-                  }
-                },
-                "range": [
-                  33,
-                  62
-                ],
-                "loc": {
-                  "end": {
-                    "column": 39,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 10,
-                    "line": 2
-                  }
+                  "value": null
                 }
               }
             ],
             "declare": false,
-            "kind": "const",
-            "range": [
-              27,
-              63
-            ],
-            "loc": {
-              "end": {
-                "column": 40,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
-            }
+            "kind": "const"
           }
-        ],
-        "range": [
-          21,
-          65
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 21,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "range": [
-          10,
-          20
-        ],
+        "start": 10,
+        "end": 20,
         "decorators": [],
         "name": "Validation",
-        "optional": false,
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "kind": "namespace",
-      "range": [
-        0,
-        65
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "namespace"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

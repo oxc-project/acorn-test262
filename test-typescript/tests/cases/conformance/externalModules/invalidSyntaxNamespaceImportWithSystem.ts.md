@@ -2,104 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    20,
-    39
-  ],
+  "start": 20,
+  "end": 39,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "range": [
-        20,
-        38
-      ],
+      "start": 20,
+      "end": 38,
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
+        "start": 27,
+        "end": 38,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "range": [
-            35,
-            38
-          ],
-          "body": [],
-          "loc": {
-            "end": {
-              "column": 18,
-              "line": 2
-            },
-            "start": {
-              "column": 15,
-              "line": 2
-            }
-          }
+          "start": 35,
+          "end": 38,
+          "body": []
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "start": 33,
+          "end": 34,
           "decorators": [],
           "name": "C",
-          "optional": false,
-          "range": [
-            33,
-            34
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 2
-            },
-            "start": {
-              "column": 13,
-              "line": 2
-            }
-          }
+          "optional": false
         },
         "implements": [],
-        "superClass": null,
-        "range": [
-          27,
-          38
-        ],
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
+        "superClass": null
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": [],
-      "loc": {
-        "end": {
-          "column": 18,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
-      }
+      "specifiers": []
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

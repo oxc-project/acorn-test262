@@ -2,43 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    95
-  ],
+  "start": 0,
+  "end": 95,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 95,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          8,
-          95
-        ],
+        "start": 8,
+        "end": 95,
         "body": [
           {
             "type": "MethodDefinition",
+            "start": 14,
+            "end": 51,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
+              "start": 15,
+              "end": 22,
               "raw": "\"hello\"",
-              "value": "hello",
-              "range": [
-                15,
-                22
-              ],
-              "loc": {
-                "end": {
-                  "column": 12,
-                  "line": 2
-                },
-                "start": {
-                  "column": 5,
-                  "line": 2
-                }
-              }
+              "value": "hello"
             },
             "kind": "method",
             "optional": false,
@@ -46,100 +34,40 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                23,
-                51
-              ],
+              "start": 23,
+              "end": 51,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 26,
+                "end": 51,
                 "body": [
                   {
                     "type": "DebuggerStatement",
-                    "range": [
-                      36,
-                      45
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 17,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 3
-                      }
-                    }
+                    "start": 36,
+                    "end": 45
                   }
-                ],
-                "range": [
-                  26,
-                  51
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 16,
-                    "line": 2
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 13,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              14,
-              51
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "params": []
             }
           },
           {
             "type": "MethodDefinition",
+            "start": 56,
+            "end": 93,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
+              "start": 61,
+              "end": 70,
               "raw": "\"goodbye\"",
-              "value": "goodbye",
-              "range": [
-                61,
-                70
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 5
-                },
-                "start": {
-                  "column": 9,
-                  "line": 5
-                }
-              }
+              "value": "goodbye"
             },
             "kind": "get",
             "optional": false,
@@ -147,160 +75,52 @@ __ESTREE_TEST__:PASS:
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "range": [
-                71,
-                93
-              ],
+              "start": 71,
+              "end": 93,
               "async": false,
               "body": {
                 "type": "BlockStatement",
+                "start": 74,
+                "end": 93,
                 "body": [
                   {
                     "type": "ReturnStatement",
+                    "start": 78,
+                    "end": 87,
                     "argument": {
                       "type": "Literal",
+                      "start": 85,
+                      "end": 86,
                       "raw": "0",
-                      "value": 0,
-                      "range": [
-                        85,
-                        86
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 10,
-                          "line": 6
-                        },
-                        "start": {
-                          "column": 9,
-                          "line": 6
-                        }
-                      }
-                    },
-                    "range": [
-                      78,
-                      87
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 6
-                      },
-                      "start": {
-                        "column": 2,
-                        "line": 6
-                      }
+                      "value": 0
                     }
                   }
-                ],
-                "range": [
-                  74,
-                  93
-                ],
-                "loc": {
-                  "end": {
-                    "column": 5,
-                    "line": 7
-                  },
-                  "start": {
-                    "column": 22,
-                    "line": 5
-                  }
-                }
+                ]
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": [],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 7
-                },
-                "start": {
-                  "column": 19,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              56,
-              93
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 7
-              },
-              "start": {
-                "column": 4,
-                "line": 5
-              }
+              "params": []
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 8
-          },
-          "start": {
-            "column": 8,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false,
-        "range": [
-          6,
-          7
-        ],
-        "loc": {
-          "end": {
-            "column": 7,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
-      "superClass": null,
-      "range": [
-        0,
-        95
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "superClass": null
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

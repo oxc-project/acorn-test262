@@ -2,96 +2,36 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    28
-  ],
+  "start": 0,
+  "end": 28,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 28,
       "expression": {
         "type": "AssignmentExpression",
+        "start": 0,
+        "end": 27,
         "operator": ">>>=",
         "left": {
           "type": "Literal",
+          "start": 0,
+          "end": 1,
           "raw": "1",
-          "value": 1,
-          "range": [
-            0,
-            1
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 1
-            },
-            "start": {
-              "column": 0,
-              "line": 1
-            }
-          }
+          "value": 1
         },
         "right": {
           "type": "Literal",
+          "start": 26,
+          "end": 27,
           "raw": "2",
-          "value": 2,
-          "range": [
-            26,
-            27
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 4
-            },
-            "start": {
-              "column": 0,
-              "line": 4
-            }
-          }
-        },
-        "range": [
-          0,
-          27
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        28
-      ],
-      "loc": {
-        "end": {
-          "column": 2,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
+          "value": 2
         }
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 2,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,98 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    7
-  ],
+  "start": 0,
+  "end": 7,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 7,
       "expression": {
         "type": "SequenceExpression",
+        "start": 1,
+        "end": 6,
         "expressions": [
           {
             "type": "Identifier",
+            "start": 1,
+            "end": 2,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              1,
-              2
-            ],
-            "loc": {
-              "end": {
-                "column": 2,
-                "line": 1
-              },
-              "start": {
-                "column": 1,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           {
             "type": "Literal",
+            "start": 4,
+            "end": 6,
             "raw": "''",
-            "value": "",
-            "range": [
-              4,
-              6
-            ],
-            "loc": {
-              "end": {
-                "column": 2,
-                "line": 2
-              },
-              "start": {
-                "column": 0,
-                "line": 2
-              }
-            }
+            "value": ""
           }
-        ],
-        "range": [
-          1,
-          6
-        ],
-        "loc": {
-          "end": {
-            "column": 2,
-            "line": 2
-          },
-          "start": {
-            "column": 1,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        7
-      ],
-      "loc": {
-        "end": {
-          "column": 3,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        ]
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 3,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

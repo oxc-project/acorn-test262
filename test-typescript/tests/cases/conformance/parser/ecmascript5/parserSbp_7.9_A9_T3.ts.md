@@ -2,131 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    312,
-    343
-  ],
+  "start": 312,
+  "end": 343,
   "body": [
     {
       "type": "DoWhileStatement",
+      "start": 312,
+      "end": 336,
       "body": {
         "type": "BlockStatement",
+        "start": 315,
+        "end": 322,
         "body": [
           {
             "type": "EmptyStatement",
-            "range": [
-              319,
-              320
-            ],
-            "loc": {
-              "end": {
-                "column": 3,
-                "line": 13
-              },
-              "start": {
-                "column": 2,
-                "line": 13
-              }
-            }
+            "start": 319,
+            "end": 320
           }
-        ],
-        "range": [
-          315,
-          322
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 14
-          },
-          "start": {
-            "column": 3,
-            "line": 12
-          }
-        }
+        ]
       },
       "test": {
         "type": "Literal",
+        "start": 330,
+        "end": 335,
         "raw": "false",
-        "value": false,
-        "range": [
-          330,
-          335
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 14
-          },
-          "start": {
-            "column": 9,
-            "line": 14
-          }
-        }
-      },
-      "range": [
-        312,
-        336
-      ],
-      "loc": {
-        "end": {
-          "column": 15,
-          "line": 14
-        },
-        "start": {
-          "column": 0,
-          "line": 12
-        }
+        "value": false
       }
     },
     {
       "type": "ExpressionStatement",
+      "start": 337,
+      "end": 341,
       "expression": {
         "type": "Literal",
+        "start": 337,
+        "end": 341,
         "raw": "true",
-        "value": true,
-        "range": [
-          337,
-          341
-        ],
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 14
-          },
-          "start": {
-            "column": 16,
-            "line": 14
-          }
-        }
-      },
-      "range": [
-        337,
-        341
-      ],
-      "loc": {
-        "end": {
-          "column": 20,
-          "line": 14
-        },
-        "start": {
-          "column": 16,
-          "line": 14
-        }
+        "value": true
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 16
-    },
-    "start": {
-      "column": 0,
-      "line": 12
-    }
-  },
   "hashbang": null
 }
 ```

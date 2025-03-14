@@ -2,144 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    46
-  ],
+  "start": 0,
+  "end": 46,
   "body": [
     {
       "type": "BlockStatement",
+      "start": 0,
+      "end": 46,
       "body": [
         {
           "type": "TSDeclareFunction",
+          "start": 6,
+          "end": 21,
           "async": false,
           "declare": false,
           "expression": false,
           "generator": false,
           "id": {
             "type": "Identifier",
+            "start": 15,
+            "end": 18,
             "decorators": [],
             "name": "foo",
-            "optional": false,
-            "range": [
-              15,
-              18
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 2
-              },
-              "start": {
-                "column": 13,
-                "line": 2
-              }
-            }
+            "optional": false
           },
-          "params": [],
-          "range": [
-            6,
-            21
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 2
-            },
-            "start": {
-              "column": 4,
-              "line": 2
-            }
-          }
+          "params": []
         },
         {
           "type": "FunctionDeclaration",
+          "start": 26,
+          "end": 44,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "body": [],
-            "range": [
-              41,
-              44
-            ],
-            "loc": {
-              "end": {
-                "column": 22,
-                "line": 3
-              },
-              "start": {
-                "column": 19,
-                "line": 3
-              }
-            }
+            "start": 41,
+            "end": 44,
+            "body": []
           },
           "declare": false,
           "expression": false,
           "generator": false,
           "id": {
             "type": "Identifier",
+            "start": 35,
+            "end": 38,
             "decorators": [],
             "name": "bar",
-            "optional": false,
-            "range": [
-              35,
-              38
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 3
-              },
-              "start": {
-                "column": 13,
-                "line": 3
-              }
-            }
+            "optional": false
           },
-          "params": [],
-          "range": [
-            26,
-            44
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 3
-            },
-            "start": {
-              "column": 4,
-              "line": 3
-            }
-          }
+          "params": []
         }
-      ],
-      "range": [
-        0,
-        46
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      ]
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

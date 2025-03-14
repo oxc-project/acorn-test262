@@ -2,225 +2,93 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    29
-  ],
+  "start": 1,
+  "end": 29,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 1,
+      "end": 29,
       "expression": {
         "type": "CallExpression",
+        "start": 1,
+        "end": 28,
         "arguments": [
           {
             "type": "TemplateLiteral",
+            "start": 22,
+            "end": 27,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
+                "start": 22,
+                "end": 27,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                },
-                "range": [
-                  22,
-                  27
-                ],
-                "loc": {
-                  "end": {
-                    "column": 27,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 22,
-                    "line": 1
-                  }
                 }
               }
-            ],
-            "range": [
-              22,
-              27
-            ],
-            "loc": {
-              "end": {
-                "column": 27,
-                "line": 1
-              },
-              "start": {
-                "column": 22,
-                "line": 1
-              }
-            }
+            ]
           }
         ],
         "callee": {
           "type": "MemberExpression",
+          "start": 1,
+          "end": 21,
           "computed": false,
           "object": {
             "type": "TemplateLiteral",
+            "start": 1,
+            "end": 13,
             "expressions": [
               {
                 "type": "Literal",
+                "start": 7,
+                "end": 8,
                 "raw": "0",
-                "value": 0,
-                "range": [
-                  7,
-                  8
-                ],
-                "loc": {
-                  "end": {
-                    "column": 8,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 7,
-                    "line": 1
-                  }
-                }
+                "value": 0
               }
             ],
             "quasis": [
               {
                 "type": "TemplateElement",
+                "start": 1,
+                "end": 7,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                },
-                "range": [
-                  1,
-                  7
-                ],
-                "loc": {
-                  "end": {
-                    "column": 7,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 1,
-                    "line": 1
-                  }
                 }
               },
               {
                 "type": "TemplateElement",
+                "start": 8,
+                "end": 13,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
-                },
-                "range": [
-                  8,
-                  13
-                ],
-                "loc": {
-                  "end": {
-                    "column": 13,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 8,
-                    "line": 1
-                  }
                 }
               }
-            ],
-            "range": [
-              1,
-              13
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 1
-              },
-              "start": {
-                "column": 1,
-                "line": 1
-              }
-            }
+            ]
           },
           "optional": false,
           "property": {
             "type": "Identifier",
+            "start": 14,
+            "end": 21,
             "decorators": [],
             "name": "indexOf",
-            "optional": false,
-            "range": [
-              14,
-              21
-            ],
-            "loc": {
-              "end": {
-                "column": 21,
-                "line": 1
-              },
-              "start": {
-                "column": 14,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            1,
-            21
-          ],
-          "loc": {
-            "end": {
-              "column": 21,
-              "line": 1
-            },
-            "start": {
-              "column": 1,
-              "line": 1
-            }
+            "optional": false
           }
         },
-        "optional": false,
-        "range": [
-          1,
-          28
-        ],
-        "loc": {
-          "end": {
-            "column": 28,
-            "line": 1
-          },
-          "start": {
-            "column": 1,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        1,
-        29
-      ],
-      "loc": {
-        "end": {
-          "column": 29,
-          "line": 1
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 29,
-      "line": 1
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

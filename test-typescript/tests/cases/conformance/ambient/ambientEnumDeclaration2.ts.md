@@ -2,291 +2,111 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    202,
-    311
-  ],
+  "start": 202,
+  "end": 311,
   "body": [
     {
       "type": "TSEnumDeclaration",
+      "start": 202,
+      "end": 248,
       "body": {
         "type": "TSEnumBody",
-        "range": [
-          217,
-          248
-        ],
+        "start": 217,
+        "end": 248,
         "members": [
           {
             "type": "TSEnumMember",
+            "start": 223,
+            "end": 224,
             "computed": false,
             "id": {
               "type": "Identifier",
+              "start": 223,
+              "end": 224,
               "decorators": [],
               "name": "a",
-              "optional": false,
-              "range": [
-                223,
-                224
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 5
-                },
-                "start": {
-                  "column": 4,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              223,
-              224
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 5
-              },
-              "start": {
-                "column": 4,
-                "line": 5
-              }
+              "optional": false
             }
           },
           {
             "type": "TSEnumMember",
+            "start": 237,
+            "end": 238,
             "computed": false,
             "id": {
               "type": "Identifier",
+              "start": 237,
+              "end": 238,
               "decorators": [],
               "name": "b",
-              "optional": false,
-              "range": [
-                237,
-                238
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 6
-                },
-                "start": {
-                  "column": 4,
-                  "line": 6
-                }
-              }
-            },
-            "range": [
-              237,
-              238
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
+              "optional": false
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 15,
-            "line": 4
-          }
-        }
+        ]
       },
       "const": false,
       "declare": true,
       "id": {
         "type": "Identifier",
+        "start": 215,
+        "end": 216,
         "decorators": [],
         "name": "E",
-        "optional": false,
-        "range": [
-          215,
-          216
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 4
-          },
-          "start": {
-            "column": 13,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        202,
-        248
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "optional": false
       }
     },
     {
       "type": "TSEnumDeclaration",
+      "start": 250,
+      "end": 311,
       "body": {
         "type": "TSEnumBody",
-        "range": [
-          272,
-          311
-        ],
+        "start": 272,
+        "end": 311,
         "members": [
           {
             "type": "TSEnumMember",
+            "start": 278,
+            "end": 279,
             "computed": false,
             "id": {
               "type": "Identifier",
+              "start": 278,
+              "end": 279,
               "decorators": [],
               "name": "a",
-              "optional": false,
-              "range": [
-                278,
-                279
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 10
-                },
-                "start": {
-                  "column": 4,
-                  "line": 10
-                }
-              }
-            },
-            "range": [
-              278,
-              279
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 10
-              },
-              "start": {
-                "column": 4,
-                "line": 10
-              }
+              "optional": false
             }
           },
           {
             "type": "TSEnumMember",
+            "start": 296,
+            "end": 297,
             "computed": false,
             "id": {
               "type": "Identifier",
+              "start": 296,
+              "end": 297,
               "decorators": [],
               "name": "b",
-              "optional": false,
-              "range": [
-                296,
-                297
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 11
-                },
-                "start": {
-                  "column": 4,
-                  "line": 11
-                }
-              }
-            },
-            "range": [
-              296,
-              297
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 11
-              },
-              "start": {
-                "column": 4,
-                "line": 11
-              }
+              "optional": false
             }
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 12
-          },
-          "start": {
-            "column": 22,
-            "line": 9
-          }
-        }
+        ]
       },
       "const": true,
       "declare": true,
       "id": {
         "type": "Identifier",
+        "start": 269,
+        "end": 271,
         "decorators": [],
         "name": "E1",
-        "optional": false,
-        "range": [
-          269,
-          271
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 9
-          },
-          "start": {
-            "column": 19,
-            "line": 9
-          }
-        }
-      },
-      "range": [
-        250,
-        311
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 12
-        },
-        "start": {
-          "column": 0,
-          "line": 9
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 12
-    },
-    "start": {
-      "column": 0,
-      "line": 4
-    }
-  },
   "hashbang": null
 }
 ```

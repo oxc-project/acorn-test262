@@ -2,118 +2,46 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    16
-  ],
+  "start": 0,
+  "end": 16,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 0,
+      "end": 15,
       "expression": {
         "type": "CallExpression",
+        "start": 0,
+        "end": 14,
         "arguments": [
           {
             "type": "Literal",
+            "start": 4,
+            "end": 9,
             "raw": "false",
-            "value": false,
-            "range": [
-              4,
-              9
-            ],
-            "loc": {
-              "end": {
-                "column": 9,
-                "line": 1
-              },
-              "start": {
-                "column": 4,
-                "line": 1
-              }
-            }
+            "value": false
           },
           {
             "type": "Literal",
+            "start": 11,
+            "end": 13,
             "raw": "''",
-            "value": "",
-            "range": [
-              11,
-              13
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 1
-              },
-              "start": {
-                "column": 11,
-                "line": 1
-              }
-            }
+            "value": ""
           }
         ],
         "callee": {
           "type": "Identifier",
+          "start": 0,
+          "end": 3,
           "decorators": [],
           "name": "foo",
-          "optional": false,
-          "range": [
-            0,
-            3
-          ],
-          "loc": {
-            "end": {
-              "column": 3,
-              "line": 1
-            },
-            "start": {
-              "column": 0,
-              "line": 1
-            }
-          }
+          "optional": false
         },
-        "optional": false,
-        "range": [
-          0,
-          14
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 1
-          },
-          "start": {
-            "column": 0,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        15
-      ],
-      "loc": {
-        "end": {
-          "column": 15,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 2
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

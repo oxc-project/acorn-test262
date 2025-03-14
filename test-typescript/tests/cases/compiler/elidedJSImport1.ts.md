@@ -2,407 +2,155 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    217
-  ],
+  "start": 0,
+  "end": 217,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 217,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
+        "start": 35,
+        "end": 217,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
+            "start": 41,
+            "end": 94,
             "body": {
               "type": "TSInterfaceBody",
-              "range": [
-                66,
-                94
-              ],
+              "start": 66,
+              "end": 94,
               "body": [
                 {
                   "type": "TSPropertySignature",
+                  "start": 76,
+                  "end": 88,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
+                    "start": 76,
+                    "end": 79,
                     "decorators": [],
                     "name": "foo",
-                    "optional": false,
-                    "range": [
-                      76,
-                      79
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 11,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 8,
-                        "line": 3
-                      }
-                    }
+                    "optional": false
                   },
                   "optional": false,
                   "readonly": false,
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "loc": {
-                      "end": {
-                        "column": 19,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 11,
-                        "line": 3
-                      }
-                    },
-                    "range": [
-                      79,
-                      87
-                    ],
+                    "start": 79,
+                    "end": 87,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "range": [
-                        81,
-                        87
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 19,
-                          "line": 3
-                        },
-                        "start": {
-                          "column": 13,
-                          "line": 3
-                        }
-                      }
-                    }
-                  },
-                  "range": [
-                    76,
-                    88
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 20,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 3
+                      "start": 81,
+                      "end": 87
                     }
                   }
                 }
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 4
-                },
-                "start": {
-                  "column": 29,
-                  "line": 2
-                }
-              }
+              ]
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
+              "start": 51,
+              "end": 65,
               "decorators": [],
               "name": "ContractObject",
-              "optional": false,
-              "range": [
-                51,
-                65
-              ],
-              "loc": {
-                "end": {
-                  "column": 28,
-                  "line": 2
-                },
-                "start": {
-                  "column": 14,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              41,
-              94
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 4
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "optional": false
             }
           },
           {
             "type": "TSModuleDeclaration",
+            "start": 99,
+            "end": 179,
             "body": {
               "type": "TSModuleBlock",
+              "start": 125,
+              "end": 179,
               "body": [
                 {
                   "type": "ExportNamedDeclaration",
-                  "range": [
-                    135,
-                    173
-                  ],
+                  "start": 135,
+                  "end": 173,
                   "attributes": [],
                   "declaration": {
                     "type": "TSTypeAliasDeclaration",
+                    "start": 142,
+                    "end": 173,
                     "declare": false,
                     "id": {
                       "type": "Identifier",
+                      "start": 147,
+                      "end": 155,
                       "decorators": [],
                       "name": "Contract",
-                      "optional": false,
-                      "range": [
-                        147,
-                        155
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 28,
-                          "line": 6
-                        },
-                        "start": {
-                          "column": 20,
-                          "line": 6
-                        }
-                      }
+                      "optional": false
                     },
                     "typeAnnotation": {
                       "type": "TSTypeReference",
+                      "start": 158,
+                      "end": 172,
                       "typeName": {
                         "type": "Identifier",
+                        "start": 158,
+                        "end": 172,
                         "decorators": [],
                         "name": "ContractObject",
-                        "optional": false,
-                        "range": [
-                          158,
-                          172
-                        ],
-                        "loc": {
-                          "end": {
-                            "column": 45,
-                            "line": 6
-                          },
-                          "start": {
-                            "column": 31,
-                            "line": 6
-                          }
-                        }
-                      },
-                      "range": [
-                        158,
-                        172
-                      ],
-                      "loc": {
-                        "end": {
-                          "column": 45,
-                          "line": 6
-                        },
-                        "start": {
-                          "column": 31,
-                          "line": 6
-                        }
-                      }
-                    },
-                    "range": [
-                      142,
-                      173
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 46,
-                        "line": 6
-                      },
-                      "start": {
-                        "column": 15,
-                        "line": 6
+                        "optional": false
                       }
                     }
                   },
                   "exportKind": "type",
                   "source": null,
-                  "specifiers": [],
-                  "loc": {
-                    "end": {
-                      "column": 46,
-                      "line": 6
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 6
-                    }
-                  }
+                  "specifiers": []
                 }
-              ],
-              "range": [
-                125,
-                179
-              ],
-              "loc": {
-                "end": {
-                  "column": 5,
-                  "line": 7
-                },
-                "start": {
-                  "column": 30,
-                  "line": 5
-                }
-              }
+              ]
             },
             "declare": false,
             "global": false,
             "id": {
               "type": "Identifier",
-              "range": [
-                109,
-                124
-              ],
+              "start": 109,
+              "end": 124,
               "decorators": [],
               "name": "TruffleContract",
-              "optional": false,
-              "loc": {
-                "end": {
-                  "column": 29,
-                  "line": 5
-                },
-                "start": {
-                  "column": 14,
-                  "line": 5
-                }
-              }
+              "optional": false
             },
-            "kind": "namespace",
-            "range": [
-              99,
-              179
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 7
-              },
-              "start": {
-                "column": 4,
-                "line": 5
-              }
-            }
+            "kind": "namespace"
           },
           {
             "type": "ExportDefaultDeclaration",
+            "start": 184,
+            "end": 215,
             "declaration": {
               "type": "Identifier",
+              "start": 199,
+              "end": 214,
               "decorators": [],
               "name": "TruffleContract",
-              "optional": false,
-              "range": [
-                199,
-                214
-              ],
-              "loc": {
-                "end": {
-                  "column": 34,
-                  "line": 8
-                },
-                "start": {
-                  "column": 19,
-                  "line": 8
-                }
-              }
+              "optional": false
             },
-            "exportKind": "value",
-            "range": [
-              184,
-              215
-            ],
-            "loc": {
-              "end": {
-                "column": 35,
-                "line": 8
-              },
-              "start": {
-                "column": 4,
-                "line": 8
-              }
-            }
+            "exportKind": "value"
           }
-        ],
-        "range": [
-          35,
-          217
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 9
-          },
-          "start": {
-            "column": 35,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 15,
+        "end": 34,
         "raw": "\"@truffle/contract\"",
-        "value": "@truffle/contract",
-        "range": [
-          15,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 34,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        217
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 9
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "@truffle/contract"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 9
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

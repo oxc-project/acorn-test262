@@ -2,158 +2,62 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    25
-  ],
+  "start": 1,
+  "end": 25,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 1,
+      "end": 25,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 15,
+        "end": 25,
         "body": [
           {
             "type": "ExpressionStatement",
+            "start": 16,
+            "end": 24,
             "expression": {
               "type": "MetaProperty",
+              "start": 16,
+              "end": 24,
               "meta": {
                 "type": "Identifier",
+                "start": 16,
+                "end": 19,
                 "decorators": [],
                 "name": "new",
-                "optional": false,
-                "range": [
-                  16,
-                  19
-                ],
-                "loc": {
-                  "end": {
-                    "column": 19,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 16,
-                    "line": 1
-                  }
-                }
+                "optional": false
               },
               "property": {
                 "type": "Identifier",
+                "start": 20,
+                "end": 24,
                 "decorators": [],
                 "name": "targ",
-                "optional": false,
-                "range": [
-                  20,
-                  24
-                ],
-                "loc": {
-                  "end": {
-                    "column": 24,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 20,
-                    "line": 1
-                  }
-                }
-              },
-              "range": [
-                16,
-                24
-              ],
-              "loc": {
-                "end": {
-                  "column": 24,
-                  "line": 1
-                },
-                "start": {
-                  "column": 16,
-                  "line": 1
-                }
-              }
-            },
-            "range": [
-              16,
-              24
-            ],
-            "loc": {
-              "end": {
-                "column": 24,
-                "line": 1
-              },
-              "start": {
-                "column": 16,
-                "line": 1
+                "optional": false
               }
             }
           }
-        ],
-        "range": [
-          15,
-          25
-        ],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 10,
+        "end": 13,
         "decorators": [],
         "name": "foo",
-        "optional": false,
-        "range": [
-          10,
-          13
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 1
-          },
-          "start": {
-            "column": 10,
-            "line": 1
-          }
-        }
+        "optional": false
       },
-      "params": [],
-      "range": [
-        1,
-        25
-      ],
-      "loc": {
-        "end": {
-          "column": 25,
-          "line": 1
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
-      }
+      "params": []
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 25,
-      "line": 1
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

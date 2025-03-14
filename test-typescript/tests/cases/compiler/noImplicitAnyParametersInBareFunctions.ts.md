@@ -2,1585 +2,605 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    54,
-    1002
-  ],
+  "start": 54,
+  "end": 1002,
   "body": [
     {
       "type": "FunctionDeclaration",
+      "start": 54,
+      "end": 77,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          74,
-          77
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 4
-          },
-          "start": {
-            "column": 20,
-            "line": 4
-          }
-        }
+        "start": 74,
+        "end": 77,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 63,
+        "end": 65,
         "decorators": [],
         "name": "f1",
-        "optional": false,
-        "range": [
-          63,
-          65
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 4
-          },
-          "start": {
-            "column": 9,
-            "line": 4
-          }
-        }
+        "optional": false
       },
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 4
-          },
-          "start": {
-            "column": 13,
-            "line": 4
-          }
-        },
-        "range": [
-          67,
-          73
-        ],
+        "start": 67,
+        "end": 73,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            69,
-            73
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 4
-            },
-            "start": {
-              "column": 15,
-              "line": 4
-            }
-          }
-        }
-      },
-      "range": [
-        54,
-        77
-      ],
-      "loc": {
-        "end": {
-          "column": 23,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
+          "start": 69,
+          "end": 73
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 110,
+      "end": 134,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          131,
-          134
-        ],
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 7
-          },
-          "start": {
-            "column": 21,
-            "line": 7
-          }
-        }
+        "start": 131,
+        "end": 134,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 119,
+        "end": 121,
         "decorators": [],
         "name": "f2",
-        "optional": false,
-        "range": [
-          119,
-          121
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 7
-          },
-          "start": {
-            "column": 9,
-            "line": 7
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 122,
+          "end": 123,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            122,
-            123
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 7
-            },
-            "start": {
-              "column": 12,
-              "line": 7
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 20,
-            "line": 7
-          },
-          "start": {
-            "column": 14,
-            "line": 7
-          }
-        },
-        "range": [
-          124,
-          130
-        ],
+        "start": 124,
+        "end": 130,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            126,
-            130
-          ],
-          "loc": {
-            "end": {
-              "column": 20,
-              "line": 7
-            },
-            "start": {
-              "column": 16,
-              "line": 7
-            }
-          }
-        }
-      },
-      "range": [
-        110,
-        134
-      ],
-      "loc": {
-        "end": {
-          "column": 24,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 7
+          "start": 126,
+          "end": 130
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 165,
+      "end": 194,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          191,
-          194
-        ],
-        "loc": {
-          "end": {
-            "column": 29,
-            "line": 10
-          },
-          "start": {
-            "column": 26,
-            "line": 10
-          }
-        }
+        "start": 191,
+        "end": 194,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 174,
+        "end": 176,
         "decorators": [],
         "name": "f3",
-        "optional": false,
-        "range": [
-          174,
-          176
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 10
-          },
-          "start": {
-            "column": 9,
-            "line": 10
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 177,
+          "end": 183,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 10
-              },
-              "start": {
-                "column": 13,
-                "line": 10
-              }
-            },
-            "range": [
-              178,
-              183
-            ],
+            "start": 178,
+            "end": 183,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "range": [
-                180,
-                183
-              ],
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 10
-                },
-                "start": {
-                  "column": 15,
-                  "line": 10
-                }
-              }
-            }
-          },
-          "range": [
-            177,
-            183
-          ],
-          "loc": {
-            "end": {
-              "column": 18,
-              "line": 10
-            },
-            "start": {
-              "column": 12,
-              "line": 10
+              "start": 180,
+              "end": 183
             }
           }
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 10
-          },
-          "start": {
-            "column": 19,
-            "line": 10
-          }
-        },
-        "range": [
-          184,
-          190
-        ],
+        "start": 184,
+        "end": 190,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            186,
-            190
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 10
-            },
-            "start": {
-              "column": 21,
-              "line": 10
-            }
-          }
-        }
-      },
-      "range": [
-        165,
-        194
-      ],
-      "loc": {
-        "end": {
-          "column": 29,
-          "line": 10
-        },
-        "start": {
-          "column": 0,
-          "line": 10
+          "start": 186,
+          "end": 190
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 238,
+      "end": 268,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          265,
-          268
-        ],
-        "loc": {
-          "end": {
-            "column": 30,
-            "line": 13
-          },
-          "start": {
-            "column": 27,
-            "line": 13
-          }
-        }
+        "start": 265,
+        "end": 268,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 247,
+        "end": 249,
         "decorators": [],
         "name": "f4",
-        "optional": false,
-        "range": [
-          247,
-          249
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 13
-          },
-          "start": {
-            "column": 9,
-            "line": 13
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 250,
+          "end": 251,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            250,
-            251
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 13
-            },
-            "start": {
-              "column": 12,
-              "line": 13
-            }
-          }
+          "optional": false
         },
         {
           "type": "Identifier",
+          "start": 253,
+          "end": 254,
           "decorators": [],
           "name": "y",
-          "optional": false,
-          "range": [
-            253,
-            254
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 13
-            },
-            "start": {
-              "column": 15,
-              "line": 13
-            }
-          }
+          "optional": false
         },
         {
           "type": "Identifier",
+          "start": 256,
+          "end": 257,
           "decorators": [],
           "name": "z",
-          "optional": false,
-          "range": [
-            256,
-            257
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 13
-            },
-            "start": {
-              "column": 18,
-              "line": 13
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 13
-          },
-          "start": {
-            "column": 20,
-            "line": 13
-          }
-        },
-        "range": [
-          258,
-          264
-        ],
+        "start": 258,
+        "end": 264,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            260,
-            264
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 13
-            },
-            "start": {
-              "column": 22,
-              "line": 13
-            }
-          }
-        }
-      },
-      "range": [
-        238,
-        268
-      ],
-      "loc": {
-        "end": {
-          "column": 30,
-          "line": 13
-        },
-        "start": {
-          "column": 0,
-          "line": 13
+          "start": 260,
+          "end": 264
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 309,
+      "end": 344,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          341,
-          344
-        ],
-        "loc": {
-          "end": {
-            "column": 35,
-            "line": 16
-          },
-          "start": {
-            "column": 32,
-            "line": 16
-          }
-        }
+        "start": 341,
+        "end": 344,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 318,
+        "end": 320,
         "decorators": [],
         "name": "f5",
-        "optional": false,
-        "range": [
-          318,
-          320
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 16
-          },
-          "start": {
-            "column": 9,
-            "line": 16
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 321,
+          "end": 322,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            321,
-            322
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 16
-            },
-            "start": {
-              "column": 12,
-              "line": 16
-            }
-          }
+          "optional": false
         },
         {
           "type": "Identifier",
+          "start": 324,
+          "end": 330,
           "decorators": [],
           "name": "y",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 21,
-                "line": 16
-              },
-              "start": {
-                "column": 16,
-                "line": 16
-              }
-            },
-            "range": [
-              325,
-              330
-            ],
+            "start": 325,
+            "end": 330,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "range": [
-                327,
-                330
-              ],
-              "loc": {
-                "end": {
-                  "column": 21,
-                  "line": 16
-                },
-                "start": {
-                  "column": 18,
-                  "line": 16
-                }
-              }
-            }
-          },
-          "range": [
-            324,
-            330
-          ],
-          "loc": {
-            "end": {
-              "column": 21,
-              "line": 16
-            },
-            "start": {
-              "column": 15,
-              "line": 16
+              "start": 327,
+              "end": 330
             }
           }
         },
         {
           "type": "Identifier",
+          "start": 332,
+          "end": 333,
           "decorators": [],
           "name": "z",
-          "optional": false,
-          "range": [
-            332,
-            333
-          ],
-          "loc": {
-            "end": {
-              "column": 24,
-              "line": 16
-            },
-            "start": {
-              "column": 23,
-              "line": 16
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 16
-          },
-          "start": {
-            "column": 25,
-            "line": 16
-          }
-        },
-        "range": [
-          334,
-          340
-        ],
+        "start": 334,
+        "end": 340,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            336,
-            340
-          ],
-          "loc": {
-            "end": {
-              "column": 31,
-              "line": 16
-            },
-            "start": {
-              "column": 27,
-              "line": 16
-            }
-          }
-        }
-      },
-      "range": [
-        309,
-        344
-      ],
-      "loc": {
-        "end": {
-          "column": 35,
-          "line": 16
-        },
-        "start": {
-          "column": 0,
-          "line": 16
+          "start": 336,
+          "end": 340
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 379,
+      "end": 406,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          403,
-          406
-        ],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 19
-          },
-          "start": {
-            "column": 24,
-            "line": 19
-          }
-        }
+        "start": 403,
+        "end": 406,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 388,
+        "end": 390,
         "decorators": [],
         "name": "f6",
-        "optional": false,
-        "range": [
-          388,
-          390
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 19
-          },
-          "start": {
-            "column": 9,
-            "line": 19
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "RestElement",
+          "start": 391,
+          "end": 395,
           "argument": {
             "type": "Identifier",
+            "start": 394,
+            "end": 395,
             "decorators": [],
             "name": "r",
-            "optional": false,
-            "range": [
-              394,
-              395
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 19
-              },
-              "start": {
-                "column": 15,
-                "line": 19
-              }
-            }
+            "optional": false
           },
           "decorators": [],
-          "optional": false,
-          "range": [
-            391,
-            395
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 19
-            },
-            "start": {
-              "column": 12,
-              "line": 19
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 19
-          },
-          "start": {
-            "column": 17,
-            "line": 19
-          }
-        },
-        "range": [
-          396,
-          402
-        ],
+        "start": 396,
+        "end": 402,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            398,
-            402
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 19
-            },
-            "start": {
-              "column": 19,
-              "line": 19
-            }
-          }
-        }
-      },
-      "range": [
-        379,
-        406
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 19
-        },
-        "start": {
-          "column": 0,
-          "line": 19
+          "start": 398,
+          "end": 402
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 451,
+      "end": 481,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          478,
-          481
-        ],
-        "loc": {
-          "end": {
-            "column": 30,
-            "line": 22
-          },
-          "start": {
-            "column": 27,
-            "line": 22
-          }
-        }
+        "start": 478,
+        "end": 481,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 460,
+        "end": 462,
         "decorators": [],
         "name": "f7",
-        "optional": false,
-        "range": [
-          460,
-          462
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 22
-          },
-          "start": {
-            "column": 9,
-            "line": 22
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 463,
+          "end": 464,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            463,
-            464
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 22
-            },
-            "start": {
-              "column": 12,
-              "line": 22
-            }
-          }
+          "optional": false
         },
         {
           "type": "RestElement",
+          "start": 466,
+          "end": 470,
           "argument": {
             "type": "Identifier",
+            "start": 469,
+            "end": 470,
             "decorators": [],
             "name": "r",
-            "optional": false,
-            "range": [
-              469,
-              470
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 22
-              },
-              "start": {
-                "column": 18,
-                "line": 22
-              }
-            }
+            "optional": false
           },
           "decorators": [],
-          "optional": false,
-          "range": [
-            466,
-            470
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 22
-            },
-            "start": {
-              "column": 15,
-              "line": 22
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 22
-          },
-          "start": {
-            "column": 20,
-            "line": 22
-          }
-        },
-        "range": [
-          471,
-          477
-        ],
+        "start": 471,
+        "end": 477,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
-          "range": [
-            473,
-            477
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 22
-            },
-            "start": {
-              "column": 22,
-              "line": 22
-            }
-          }
-        }
-      },
-      "range": [
-        451,
-        481
-      ],
-      "loc": {
-        "end": {
-          "column": 30,
-          "line": 22
-        },
-        "start": {
-          "column": 0,
-          "line": 22
+          "start": 473,
+          "end": 477
         }
       }
     },
     {
       "type": "TSDeclareFunction",
+      "start": 532,
+      "end": 565,
       "async": false,
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 541,
+        "end": 543,
         "decorators": [],
         "name": "f8",
-        "optional": false,
-        "range": [
-          541,
-          543
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 25
-          },
-          "start": {
-            "column": 9,
-            "line": 25
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 544,
+          "end": 546,
           "decorators": [],
           "name": "x1",
-          "optional": false,
-          "range": [
-            544,
-            546
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 25
-            },
-            "start": {
-              "column": 12,
-              "line": 25
-            }
-          }
+          "optional": false
         },
         {
           "type": "Identifier",
+          "start": 548,
+          "end": 558,
           "decorators": [],
           "name": "y1",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 26,
-                "line": 25
-              },
-              "start": {
-                "column": 18,
-                "line": 25
-              }
-            },
-            "range": [
-              550,
-              558
-            ],
+            "start": 550,
+            "end": 558,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                552,
-                558
-              ],
-              "loc": {
-                "end": {
-                  "column": 26,
-                  "line": 25
-                },
-                "start": {
-                  "column": 20,
-                  "line": 25
-                }
-              }
-            }
-          },
-          "range": [
-            548,
-            558
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 25
-            },
-            "start": {
-              "column": 16,
-              "line": 25
+              "start": 552,
+              "end": 558
             }
           }
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 32,
-            "line": 25
-          },
-          "start": {
-            "column": 27,
-            "line": 25
-          }
-        },
-        "range": [
-          559,
-          564
-        ],
+        "start": 559,
+        "end": 564,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
-          "range": [
-            561,
-            564
-          ],
-          "loc": {
-            "end": {
-              "column": 32,
-              "line": 25
-            },
-            "start": {
-              "column": 29,
-              "line": 25
-            }
-          }
-        }
-      },
-      "range": [
-        532,
-        565
-      ],
-      "loc": {
-        "end": {
-          "column": 33,
-          "line": 25
-        },
-        "start": {
-          "column": 0,
-          "line": 25
+          "start": 561,
+          "end": 564
         }
       }
     },
     {
       "type": "TSDeclareFunction",
+      "start": 566,
+      "end": 599,
       "async": false,
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 575,
+        "end": 577,
         "decorators": [],
         "name": "f8",
-        "optional": false,
-        "range": [
-          575,
-          577
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 26
-          },
-          "start": {
-            "column": 9,
-            "line": 26
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 578,
+          "end": 588,
           "decorators": [],
           "name": "x2",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 22,
-                "line": 26
-              },
-              "start": {
-                "column": 14,
-                "line": 26
-              }
-            },
-            "range": [
-              580,
-              588
-            ],
+            "start": 580,
+            "end": 588,
             "typeAnnotation": {
               "type": "TSStringKeyword",
-              "range": [
-                582,
-                588
-              ],
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 26
-                },
-                "start": {
-                  "column": 16,
-                  "line": 26
-                }
-              }
-            }
-          },
-          "range": [
-            578,
-            588
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 26
-            },
-            "start": {
-              "column": 12,
-              "line": 26
+              "start": 582,
+              "end": 588
             }
           }
         },
         {
           "type": "Identifier",
+          "start": 590,
+          "end": 592,
           "decorators": [],
           "name": "y2",
-          "optional": false,
-          "range": [
-            590,
-            592
-          ],
-          "loc": {
-            "end": {
-              "column": 26,
-              "line": 26
-            },
-            "start": {
-              "column": 24,
-              "line": 26
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 32,
-            "line": 26
-          },
-          "start": {
-            "column": 27,
-            "line": 26
-          }
-        },
-        "range": [
-          593,
-          598
-        ],
+        "start": 593,
+        "end": 598,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
-          "range": [
-            595,
-            598
-          ],
-          "loc": {
-            "end": {
-              "column": 32,
-              "line": 26
-            },
-            "start": {
-              "column": 29,
-              "line": 26
-            }
-          }
-        }
-      },
-      "range": [
-        566,
-        599
-      ],
-      "loc": {
-        "end": {
-          "column": 33,
-          "line": 26
-        },
-        "start": {
-          "column": 0,
-          "line": 26
+          "start": 595,
+          "end": 598
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 600,
+      "end": 628,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          625,
-          628
-        ],
-        "loc": {
-          "end": {
-            "column": 28,
-            "line": 27
-          },
-          "start": {
-            "column": 25,
-            "line": 27
-          }
-        }
+        "start": 625,
+        "end": 628,
+        "body": []
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 609,
+        "end": 611,
         "decorators": [],
         "name": "f8",
-        "optional": false,
-        "range": [
-          609,
-          611
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 27
-          },
-          "start": {
-            "column": 9,
-            "line": 27
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 612,
+          "end": 614,
           "decorators": [],
           "name": "x3",
-          "optional": false,
-          "range": [
-            612,
-            614
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 27
-            },
-            "start": {
-              "column": 12,
-              "line": 27
-            }
-          }
+          "optional": false
         },
         {
           "type": "Identifier",
+          "start": 616,
+          "end": 618,
           "decorators": [],
           "name": "y3",
-          "optional": false,
-          "range": [
-            616,
-            618
-          ],
-          "loc": {
-            "end": {
-              "column": 18,
-              "line": 27
-            },
-            "start": {
-              "column": 16,
-              "line": 27
-            }
-          }
+          "optional": false
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 27
-          },
-          "start": {
-            "column": 19,
-            "line": 27
-          }
-        },
-        "range": [
-          619,
-          624
-        ],
+        "start": 619,
+        "end": 624,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
-          "range": [
-            621,
-            624
-          ],
-          "loc": {
-            "end": {
-              "column": 24,
-              "line": 27
-            },
-            "start": {
-              "column": 21,
-              "line": 27
-            }
-          }
-        }
-      },
-      "range": [
-        600,
-        628
-      ],
-      "loc": {
-        "end": {
-          "column": 28,
-          "line": 27
-        },
-        "start": {
-          "column": 0,
-          "line": 27
+          "start": 621,
+          "end": 624
         }
       }
     },
     {
       "type": "VariableDeclaration",
+      "start": 660,
+      "end": 678,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 664,
+          "end": 677,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 664,
+            "end": 666,
             "decorators": [],
             "name": "f9",
-            "optional": false,
-            "range": [
-              664,
-              666
-            ],
-            "loc": {
-              "end": {
-                "column": 6,
-                "line": 30
-              },
-              "start": {
-                "column": 4,
-                "line": 30
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 669,
+            "end": 677,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 675,
+              "end": 677,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                675,
-                677
-              ],
-              "loc": {
-                "end": {
-                  "column": 17,
-                  "line": 30
-                },
-                "start": {
-                  "column": 15,
-                  "line": 30
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": [],
-            "range": [
-              669,
-              677
-            ],
-            "loc": {
-              "end": {
-                "column": 17,
-                "line": 30
-              },
-              "start": {
-                "column": 9,
-                "line": 30
-              }
-            }
-          },
-          "range": [
-            664,
-            677
-          ],
-          "loc": {
-            "end": {
-              "column": 17,
-              "line": 30
-            },
-            "start": {
-              "column": 4,
-              "line": 30
-            }
+            "params": []
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        660,
-        678
-      ],
-      "loc": {
-        "end": {
-          "column": 18,
-          "line": 30
-        },
-        "start": {
-          "column": 0,
-          "line": 30
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "VariableDeclaration",
+      "start": 712,
+      "end": 732,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 716,
+          "end": 731,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 716,
+            "end": 719,
             "decorators": [],
             "name": "f10",
-            "optional": false,
-            "range": [
-              716,
-              719
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 33
-              },
-              "start": {
-                "column": 4,
-                "line": 33
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 722,
+            "end": 731,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 729,
+              "end": 731,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                729,
-                731
-              ],
-              "loc": {
-                "end": {
-                  "column": 19,
-                  "line": 33
-                },
-                "start": {
-                  "column": 17,
-                  "line": 33
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
@@ -1588,120 +608,48 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
+                "start": 723,
+                "end": 724,
                 "decorators": [],
                 "name": "x",
-                "optional": false,
-                "range": [
-                  723,
-                  724
-                ],
-                "loc": {
-                  "end": {
-                    "column": 12,
-                    "line": 33
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 33
-                  }
-                }
+                "optional": false
               }
-            ],
-            "range": [
-              722,
-              731
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 33
-              },
-              "start": {
-                "column": 10,
-                "line": 33
-              }
-            }
-          },
-          "range": [
-            716,
-            731
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 33
-            },
-            "start": {
-              "column": 4,
-              "line": 33
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        712,
-        732
-      ],
-      "loc": {
-        "end": {
-          "column": 20,
-          "line": 33
-        },
-        "start": {
-          "column": 0,
-          "line": 33
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "VariableDeclaration",
+      "start": 776,
+      "end": 802,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 780,
+          "end": 801,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 780,
+            "end": 783,
             "decorators": [],
             "name": "f11",
-            "optional": false,
-            "range": [
-              780,
-              783
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 36
-              },
-              "start": {
-                "column": 4,
-                "line": 36
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 786,
+            "end": 801,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 799,
+              "end": 801,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                799,
-                801
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 36
-                },
-                "start": {
-                  "column": 23,
-                  "line": 36
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
@@ -1709,160 +657,64 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
+                "start": 787,
+                "end": 788,
                 "decorators": [],
                 "name": "x",
-                "optional": false,
-                "range": [
-                  787,
-                  788
-                ],
-                "loc": {
-                  "end": {
-                    "column": 12,
-                    "line": 36
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 36
-                  }
-                }
+                "optional": false
               },
               {
                 "type": "Identifier",
+                "start": 790,
+                "end": 791,
                 "decorators": [],
                 "name": "y",
-                "optional": false,
-                "range": [
-                  790,
-                  791
-                ],
-                "loc": {
-                  "end": {
-                    "column": 15,
-                    "line": 36
-                  },
-                  "start": {
-                    "column": 14,
-                    "line": 36
-                  }
-                }
+                "optional": false
               },
               {
                 "type": "Identifier",
+                "start": 793,
+                "end": 794,
                 "decorators": [],
                 "name": "z",
-                "optional": false,
-                "range": [
-                  793,
-                  794
-                ],
-                "loc": {
-                  "end": {
-                    "column": 18,
-                    "line": 36
-                  },
-                  "start": {
-                    "column": 17,
-                    "line": 36
-                  }
-                }
+                "optional": false
               }
-            ],
-            "range": [
-              786,
-              801
-            ],
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 36
-              },
-              "start": {
-                "column": 10,
-                "line": 36
-              }
-            }
-          },
-          "range": [
-            780,
-            801
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 36
-            },
-            "start": {
-              "column": 4,
-              "line": 36
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        776,
-        802
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 36
-        },
-        "start": {
-          "column": 0,
-          "line": 36
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "VariableDeclaration",
+      "start": 842,
+      "end": 873,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 846,
+          "end": 872,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 846,
+            "end": 849,
             "decorators": [],
             "name": "f12",
-            "optional": false,
-            "range": [
-              846,
-              849
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 39
-              },
-              "start": {
-                "column": 4,
-                "line": 39
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 852,
+            "end": 872,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 870,
+              "end": 872,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                870,
-                872
-              ],
-              "loc": {
-                "end": {
-                  "column": 30,
-                  "line": 39
-                },
-                "start": {
-                  "column": 28,
-                  "line": 39
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
@@ -1870,194 +722,74 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
+                "start": 853,
+                "end": 854,
                 "decorators": [],
                 "name": "x",
-                "optional": false,
-                "range": [
-                  853,
-                  854
-                ],
-                "loc": {
-                  "end": {
-                    "column": 12,
-                    "line": 39
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 39
-                  }
-                }
+                "optional": false
               },
               {
                 "type": "Identifier",
+                "start": 856,
+                "end": 862,
                 "decorators": [],
                 "name": "y",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "loc": {
-                    "end": {
-                      "column": 20,
-                      "line": 39
-                    },
-                    "start": {
-                      "column": 15,
-                      "line": 39
-                    }
-                  },
-                  "range": [
-                    857,
-                    862
-                  ],
+                  "start": 857,
+                  "end": 862,
                   "typeAnnotation": {
                     "type": "TSAnyKeyword",
-                    "range": [
-                      859,
-                      862
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 20,
-                        "line": 39
-                      },
-                      "start": {
-                        "column": 17,
-                        "line": 39
-                      }
-                    }
-                  }
-                },
-                "range": [
-                  856,
-                  862
-                ],
-                "loc": {
-                  "end": {
-                    "column": 20,
-                    "line": 39
-                  },
-                  "start": {
-                    "column": 14,
-                    "line": 39
+                    "start": 859,
+                    "end": 862
                   }
                 }
               },
               {
                 "type": "Identifier",
+                "start": 864,
+                "end": 865,
                 "decorators": [],
                 "name": "z",
-                "optional": false,
-                "range": [
-                  864,
-                  865
-                ],
-                "loc": {
-                  "end": {
-                    "column": 23,
-                    "line": 39
-                  },
-                  "start": {
-                    "column": 22,
-                    "line": 39
-                  }
-                }
+                "optional": false
               }
-            ],
-            "range": [
-              852,
-              872
-            ],
-            "loc": {
-              "end": {
-                "column": 30,
-                "line": 39
-              },
-              "start": {
-                "column": 10,
-                "line": 39
-              }
-            }
-          },
-          "range": [
-            846,
-            872
-          ],
-          "loc": {
-            "end": {
-              "column": 30,
-              "line": 39
-            },
-            "start": {
-              "column": 4,
-              "line": 39
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        842,
-        873
-      ],
-      "loc": {
-        "end": {
-          "column": 31,
-          "line": 39
-        },
-        "start": {
-          "column": 0,
-          "line": 39
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "VariableDeclaration",
+      "start": 908,
+      "end": 931,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 912,
+          "end": 930,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 912,
+            "end": 915,
             "decorators": [],
             "name": "f13",
-            "optional": false,
-            "range": [
-              912,
-              915
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 42
-              },
-              "start": {
-                "column": 4,
-                "line": 42
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 918,
+            "end": 930,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 928,
+              "end": 930,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                928,
-                930
-              ],
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 42
-                },
-                "start": {
-                  "column": 20,
-                  "line": 42
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
@@ -2065,139 +797,55 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "RestElement",
+                "start": 919,
+                "end": 923,
                 "argument": {
                   "type": "Identifier",
+                  "start": 922,
+                  "end": 923,
                   "decorators": [],
                   "name": "r",
-                  "optional": false,
-                  "range": [
-                    922,
-                    923
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 15,
-                      "line": 42
-                    },
-                    "start": {
-                      "column": 14,
-                      "line": 42
-                    }
-                  }
+                  "optional": false
                 },
                 "decorators": [],
-                "optional": false,
-                "range": [
-                  919,
-                  923
-                ],
-                "loc": {
-                  "end": {
-                    "column": 15,
-                    "line": 42
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 42
-                  }
-                }
+                "optional": false
               }
-            ],
-            "range": [
-              918,
-              930
-            ],
-            "loc": {
-              "end": {
-                "column": 22,
-                "line": 42
-              },
-              "start": {
-                "column": 10,
-                "line": 42
-              }
-            }
-          },
-          "range": [
-            912,
-            930
-          ],
-          "loc": {
-            "end": {
-              "column": 22,
-              "line": 42
-            },
-            "start": {
-              "column": 4,
-              "line": 42
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        908,
-        931
-      ],
-      "loc": {
-        "end": {
-          "column": 23,
-          "line": 42
-        },
-        "start": {
-          "column": 0,
-          "line": 42
-        }
-      }
+      "kind": "var"
     },
     {
       "type": "VariableDeclaration",
+      "start": 976,
+      "end": 1002,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 980,
+          "end": 1001,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 980,
+            "end": 983,
             "decorators": [],
             "name": "f14",
-            "optional": false,
-            "range": [
-              980,
-              983
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 45
-              },
-              "start": {
-                "column": 4,
-                "line": 45
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ArrowFunctionExpression",
+            "start": 986,
+            "end": 1001,
             "async": false,
             "body": {
               "type": "Literal",
+              "start": 999,
+              "end": 1001,
               "raw": "\"\"",
-              "value": "",
-              "range": [
-                999,
-                1001
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 45
-                },
-                "start": {
-                  "column": 23,
-                  "line": 45
-                }
-              }
+              "value": ""
             },
             "expression": true,
             "generator": false,
@@ -2205,124 +853,36 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
+                "start": 987,
+                "end": 988,
                 "decorators": [],
                 "name": "x",
-                "optional": false,
-                "range": [
-                  987,
-                  988
-                ],
-                "loc": {
-                  "end": {
-                    "column": 12,
-                    "line": 45
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 45
-                  }
-                }
+                "optional": false
               },
               {
                 "type": "RestElement",
+                "start": 990,
+                "end": 994,
                 "argument": {
                   "type": "Identifier",
+                  "start": 993,
+                  "end": 994,
                   "decorators": [],
                   "name": "r",
-                  "optional": false,
-                  "range": [
-                    993,
-                    994
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 18,
-                      "line": 45
-                    },
-                    "start": {
-                      "column": 17,
-                      "line": 45
-                    }
-                  }
+                  "optional": false
                 },
                 "decorators": [],
-                "optional": false,
-                "range": [
-                  990,
-                  994
-                ],
-                "loc": {
-                  "end": {
-                    "column": 18,
-                    "line": 45
-                  },
-                  "start": {
-                    "column": 14,
-                    "line": 45
-                  }
-                }
+                "optional": false
               }
-            ],
-            "range": [
-              986,
-              1001
-            ],
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 45
-              },
-              "start": {
-                "column": 10,
-                "line": 45
-              }
-            }
-          },
-          "range": [
-            980,
-            1001
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 45
-            },
-            "start": {
-              "column": 4,
-              "line": 45
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        976,
-        1002
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 45
-        },
-        "start": {
-          "column": 0,
-          "line": 45
-        }
-      }
+      "kind": "var"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 26,
-      "line": 45
-    },
-    "start": {
-      "column": 0,
-      "line": 4
-    }
-  },
   "hashbang": null
 }
 ```

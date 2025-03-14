@@ -2,137 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    37
-  ],
+  "start": 0,
+  "end": 37,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 13,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          11,
-          13
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 1
-          },
-          "start": {
-            "column": 11,
-            "line": 1
-          }
-        }
+        "start": 11,
+        "end": 13,
+        "body": []
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 7,
+        "end": 10,
         "raw": "'M'",
-        "value": "M",
-        "range": [
-          7,
-          10
-        ],
-        "loc": {
-          "end": {
-            "column": 10,
-            "line": 1
-          },
-          "start": {
-            "column": 7,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        13
-      ],
-      "loc": {
-        "end": {
-          "column": 13,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "M"
       }
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 15,
+      "end": 37,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          35,
-          37
-        ],
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 3
-          },
-          "start": {
-            "column": 20,
-            "line": 3
-          }
-        }
+        "start": 35,
+        "end": 37,
+        "body": []
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 30,
+        "end": 34,
         "raw": "'M2'",
-        "value": "M2",
-        "range": [
-          30,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 3
-          },
-          "start": {
-            "column": 15,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        15,
-        37
-      ],
-      "loc": {
-        "end": {
-          "column": 22,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "value": "M2"
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 22,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

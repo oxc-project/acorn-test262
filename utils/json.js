@@ -17,6 +17,15 @@ function transformer(_key, value) {
     value.regex.flags = [...value.regex.flags].sort().join("");
     value.value = null;
   }
+  // normalize span property for typescript-eslint parsers
+  if (typeof value === "object" && value !== null && typeof value.start === "undefined") {
+    if ("loc" in value) {
+      value = { ...value, loc: undefined };
+    }
+    if ("range" in value) {
+      value = { type: value.type, start: value.range[0], end: value.range[1], ...value, range: undefined };
+    }
+  }
   return value;
 }
 

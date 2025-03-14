@@ -2,249 +2,93 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    124
-  ],
+  "start": 0,
+  "end": 124,
   "body": [
     {
       "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 25,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
-        "body": [],
-        "range": [
-          22,
-          25
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 2
-          },
-          "start": {
-            "column": 22,
-            "line": 1
-          }
-        }
+        "start": 22,
+        "end": 25,
+        "body": []
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 15,
+        "end": 21,
         "raw": "\"http\"",
-        "value": "http",
-        "range": [
-          15,
-          21
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 1
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        25
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "value": "http"
       }
     },
     {
       "type": "TSModuleDeclaration",
+      "start": 27,
+      "end": 123,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
+        "start": 66,
+        "end": 123,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
+            "start": 72,
+            "end": 102,
             "id": {
               "type": "Identifier",
+              "start": 79,
+              "end": 83,
               "decorators": [],
               "name": "http",
-              "optional": false,
-              "range": [
-                79,
-                83
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 5
-                },
-                "start": {
-                  "column": 11,
-                  "line": 5
-                }
-              }
+              "optional": false
             },
             "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
+              "start": 86,
+              "end": 101,
               "expression": {
                 "type": "Literal",
+                "start": 94,
+                "end": 100,
                 "raw": "'http'",
-                "value": "http",
-                "range": [
-                  94,
-                  100
-                ],
-                "loc": {
-                  "end": {
-                    "column": 32,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 26,
-                    "line": 5
-                  }
-                }
-              },
-              "range": [
-                86,
-                101
-              ],
-              "loc": {
-                "end": {
-                  "column": 33,
-                  "line": 5
-                },
-                "start": {
-                  "column": 18,
-                  "line": 5
-                }
-              }
-            },
-            "range": [
-              72,
-              102
-            ],
-            "loc": {
-              "end": {
-                "column": 34,
-                "line": 5
-              },
-              "start": {
-                "column": 4,
-                "line": 5
+                "value": "http"
               }
             }
           },
           {
             "type": "TSExportAssignment",
+            "start": 107,
+            "end": 121,
             "expression": {
               "type": "Identifier",
+              "start": 116,
+              "end": 120,
               "decorators": [],
               "name": "http",
-              "optional": false,
-              "range": [
-                116,
-                120
-              ],
-              "loc": {
-                "end": {
-                  "column": 17,
-                  "line": 6
-                },
-                "start": {
-                  "column": 13,
-                  "line": 6
-                }
-              }
-            },
-            "range": [
-              107,
-              121
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
+              "optional": false
             }
           }
-        ],
-        "range": [
-          66,
-          123
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 39,
-            "line": 4
-          }
-        }
+        ]
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
+        "start": 42,
+        "end": 65,
         "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http",
-        "range": [
-          42,
-          65
-        ],
-        "loc": {
-          "end": {
-            "column": 38,
-            "line": 4
-          },
-          "start": {
-            "column": 15,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        27,
-        123
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "value": "intern/dojo/node!http"
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 8
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
@@ -252,100 +96,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    32,
-    78
-  ],
+  "start": 32,
+  "end": 78,
   "body": [
     {
       "type": "ImportDeclaration",
+      "start": 32,
+      "end": 78,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
+        "start": 54,
+        "end": 77,
         "raw": "'intern/dojo/node!http'",
-        "value": "intern/dojo/node!http",
-        "range": [
-          54,
-          77
-        ],
-        "loc": {
-          "end": {
-            "column": 45,
-            "line": 3
-          },
-          "start": {
-            "column": 22,
-            "line": 3
-          }
-        }
+        "value": "intern/dojo/node!http"
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
+          "start": 39,
+          "end": 48,
           "local": {
             "type": "Identifier",
+            "start": 44,
+            "end": 48,
             "decorators": [],
             "name": "http",
-            "optional": false,
-            "range": [
-              44,
-              48
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 3
-              },
-              "start": {
-                "column": 12,
-                "line": 3
-              }
-            }
-          },
-          "range": [
-            39,
-            48
-          ],
-          "loc": {
-            "end": {
-              "column": 16,
-              "line": 3
-            },
-            "start": {
-              "column": 7,
-              "line": 3
-            }
+            "optional": false
           }
         }
-      ],
-      "range": [
-        32,
-        78
-      ],
-      "loc": {
-        "end": {
-          "column": 46,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
-      }
+      ]
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 46,
-      "line": 3
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```

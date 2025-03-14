@@ -2,2566 +2,934 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    604
-  ],
+  "start": 0,
+  "end": 604,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 14,
+          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 14,
+            "end": 23,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 23,
-                  "line": 1
-                },
-                "start": {
-                  "column": 15,
-                  "line": 1
-                }
-              },
-              "range": [
-                15,
-                23
-              ],
+              "start": 15,
+              "end": 23,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "range": [
-                  17,
-                  23
-                ],
-                "loc": {
-                  "end": {
-                    "column": 23,
-                    "line": 1
-                  },
-                  "start": {
-                    "column": 17,
-                    "line": 1
-                  }
-                }
-              }
-            },
-            "range": [
-              14,
-              23
-            ],
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 1
-              },
-              "start": {
-                "column": 14,
-                "line": 1
+                "start": 17,
+                "end": 23
               }
             }
           },
-          "init": null,
-          "range": [
-            14,
-            23
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 1
-            },
-            "start": {
-              "column": 14,
-              "line": 1
-            }
-          }
+          "init": null
         }
       ],
       "declare": true,
-      "kind": "const",
-      "range": [
-        0,
-        24
-      ],
-      "loc": {
-        "end": {
-          "column": 24,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "const"
     },
     {
       "type": "IfStatement",
+      "start": 26,
+      "end": 43,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          41,
-          43
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 3
-          },
-          "start": {
-            "column": 15,
-            "line": 3
-          }
-        }
+        "start": 41,
+        "end": 43,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 30,
+        "end": 39,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 30,
+          "end": 31,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            30,
-            31
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 3
-            },
-            "start": {
-              "column": 4,
-              "line": 3
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 36,
+          "end": 39,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            36,
-            39
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 3
-            },
-            "start": {
-              "column": 10,
-              "line": 3
-            }
-          }
-        },
-        "range": [
-          30,
-          39
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 3
-          },
-          "start": {
-            "column": 4,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        26,
-        43
-      ],
-      "loc": {
-        "end": {
-          "column": 17,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 44,
+      "end": 61,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          59,
-          61
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 4
-          },
-          "start": {
-            "column": 15,
-            "line": 4
-          }
-        }
+        "start": 59,
+        "end": 61,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 48,
+        "end": 57,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 48,
+          "end": 51,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            48,
-            51
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 4
-            },
-            "start": {
-              "column": 4,
-              "line": 4
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 56,
+          "end": 57,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            56,
-            57
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 4
-            },
-            "start": {
-              "column": 12,
-              "line": 4
-            }
-          }
-        },
-        "range": [
-          48,
-          57
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 4
-          },
-          "start": {
-            "column": 4,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        44,
-        61
-      ],
-      "loc": {
-        "end": {
-          "column": 17,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 63,
+      "end": 79,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          77,
-          79
-        ],
-        "loc": {
-          "end": {
-            "column": 16,
-            "line": 6
-          },
-          "start": {
-            "column": 14,
-            "line": 6
-          }
-        }
+        "start": 77,
+        "end": 79,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 67,
+        "end": 75,
         "operator": "==",
         "left": {
           "type": "Identifier",
+          "start": 67,
+          "end": 68,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            67,
-            68
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 6
-            },
-            "start": {
-              "column": 4,
-              "line": 6
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 72,
+          "end": 75,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            72,
-            75
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 6
-            },
-            "start": {
-              "column": 9,
-              "line": 6
-            }
-          }
-        },
-        "range": [
-          67,
-          75
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 6
-          },
-          "start": {
-            "column": 4,
-            "line": 6
-          }
-        }
-      },
-      "range": [
-        63,
-        79
-      ],
-      "loc": {
-        "end": {
-          "column": 16,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 6
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 80,
+      "end": 96,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          94,
-          96
-        ],
-        "loc": {
-          "end": {
-            "column": 16,
-            "line": 7
-          },
-          "start": {
-            "column": 14,
-            "line": 7
-          }
-        }
+        "start": 94,
+        "end": 96,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 84,
+        "end": 92,
         "operator": "==",
         "left": {
           "type": "Identifier",
+          "start": 84,
+          "end": 87,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            84,
-            87
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 7
-            },
-            "start": {
-              "column": 4,
-              "line": 7
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 91,
+          "end": 92,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            91,
-            92
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 7
-            },
-            "start": {
-              "column": 11,
-              "line": 7
-            }
-          }
-        },
-        "range": [
-          84,
-          92
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 7
-          },
-          "start": {
-            "column": 4,
-            "line": 7
-          }
-        }
-      },
-      "range": [
-        80,
-        96
-      ],
-      "loc": {
-        "end": {
-          "column": 16,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 7
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 98,
+      "end": 115,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          113,
-          115
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 9
-          },
-          "start": {
-            "column": 15,
-            "line": 9
-          }
-        }
+        "start": 113,
+        "end": 115,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 102,
+        "end": 111,
         "operator": "!==",
         "left": {
           "type": "Identifier",
+          "start": 102,
+          "end": 103,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            102,
-            103
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 9
-            },
-            "start": {
-              "column": 4,
-              "line": 9
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 108,
+          "end": 111,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            108,
-            111
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 9
-            },
-            "start": {
-              "column": 10,
-              "line": 9
-            }
-          }
-        },
-        "range": [
-          102,
-          111
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 9
-          },
-          "start": {
-            "column": 4,
-            "line": 9
-          }
-        }
-      },
-      "range": [
-        98,
-        115
-      ],
-      "loc": {
-        "end": {
-          "column": 17,
-          "line": 9
-        },
-        "start": {
-          "column": 0,
-          "line": 9
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 116,
+      "end": 133,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          131,
-          133
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 10
-          },
-          "start": {
-            "column": 15,
-            "line": 10
-          }
-        }
+        "start": 131,
+        "end": 133,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 120,
+        "end": 129,
         "operator": "!==",
         "left": {
           "type": "Identifier",
+          "start": 120,
+          "end": 123,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            120,
-            123
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 10
-            },
-            "start": {
-              "column": 4,
-              "line": 10
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 128,
+          "end": 129,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            128,
-            129
-          ],
-          "loc": {
-            "end": {
-              "column": 13,
-              "line": 10
-            },
-            "start": {
-              "column": 12,
-              "line": 10
-            }
-          }
-        },
-        "range": [
-          120,
-          129
-        ],
-        "loc": {
-          "end": {
-            "column": 13,
-            "line": 10
-          },
-          "start": {
-            "column": 4,
-            "line": 10
-          }
-        }
-      },
-      "range": [
-        116,
-        133
-      ],
-      "loc": {
-        "end": {
-          "column": 17,
-          "line": 10
-        },
-        "start": {
-          "column": 0,
-          "line": 10
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 135,
+      "end": 151,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          149,
-          151
-        ],
-        "loc": {
-          "end": {
-            "column": 16,
-            "line": 12
-          },
-          "start": {
-            "column": 14,
-            "line": 12
-          }
-        }
+        "start": 149,
+        "end": 151,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 139,
+        "end": 147,
         "operator": "!=",
         "left": {
           "type": "Identifier",
+          "start": 139,
+          "end": 140,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            139,
-            140
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 12
-            },
-            "start": {
-              "column": 4,
-              "line": 12
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 144,
+          "end": 147,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            144,
-            147
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 12
-            },
-            "start": {
-              "column": 9,
-              "line": 12
-            }
-          }
-        },
-        "range": [
-          139,
-          147
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 12
-          },
-          "start": {
-            "column": 4,
-            "line": 12
-          }
-        }
-      },
-      "range": [
-        135,
-        151
-      ],
-      "loc": {
-        "end": {
-          "column": 16,
-          "line": 12
-        },
-        "start": {
-          "column": 0,
-          "line": 12
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 152,
+      "end": 168,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          166,
-          168
-        ],
-        "loc": {
-          "end": {
-            "column": 16,
-            "line": 13
-          },
-          "start": {
-            "column": 14,
-            "line": 13
-          }
-        }
+        "start": 166,
+        "end": 168,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 156,
+        "end": 164,
         "operator": "!=",
         "left": {
           "type": "Identifier",
+          "start": 156,
+          "end": 159,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            156,
-            159
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 13
-            },
-            "start": {
-              "column": 4,
-              "line": 13
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 163,
+          "end": 164,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            163,
-            164
-          ],
-          "loc": {
-            "end": {
-              "column": 12,
-              "line": 13
-            },
-            "start": {
-              "column": 11,
-              "line": 13
-            }
-          }
-        },
-        "range": [
-          156,
-          164
-        ],
-        "loc": {
-          "end": {
-            "column": 12,
-            "line": 13
-          },
-          "start": {
-            "column": 4,
-            "line": 13
-          }
-        }
-      },
-      "range": [
-        152,
-        168
-      ],
-      "loc": {
-        "end": {
-          "column": 16,
-          "line": 13
-        },
-        "start": {
-          "column": 0,
-          "line": 13
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 170,
+      "end": 191,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          189,
-          191
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 15
-          },
-          "start": {
-            "column": 19,
-            "line": 15
-          }
-        }
+        "start": 189,
+        "end": 191,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 174,
+        "end": 187,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 174,
+          "end": 175,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            174,
-            175
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 15
-            },
-            "start": {
-              "column": 4,
-              "line": 15
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 182,
+          "end": 185,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            182,
-            185
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 15
-            },
-            "start": {
-              "column": 12,
-              "line": 15
-            }
-          }
-        },
-        "range": [
-          174,
-          187
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 15
-          },
-          "start": {
-            "column": 4,
-            "line": 15
-          }
-        }
-      },
-      "range": [
-        170,
-        191
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 15
-        },
-        "start": {
-          "column": 0,
-          "line": 15
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 192,
+      "end": 213,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          211,
-          213
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 16
-          },
-          "start": {
-            "column": 19,
-            "line": 16
-          }
-        }
+        "start": 211,
+        "end": 213,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 196,
+        "end": 209,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 198,
+          "end": 201,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            198,
-            201
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 16
-            },
-            "start": {
-              "column": 6,
-              "line": 16
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 208,
+          "end": 209,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            208,
-            209
-          ],
-          "loc": {
-            "end": {
-              "column": 17,
-              "line": 16
-            },
-            "start": {
-              "column": 16,
-              "line": 16
-            }
-          }
-        },
-        "range": [
-          196,
-          209
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 16
-          },
-          "start": {
-            "column": 4,
-            "line": 16
-          }
-        }
-      },
-      "range": [
-        192,
-        213
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 16
-        },
-        "start": {
-          "column": 0,
-          "line": 16
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 215,
+      "end": 236,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          234,
-          236
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 18
-          },
-          "start": {
-            "column": 19,
-            "line": 18
-          }
-        }
+        "start": 234,
+        "end": 236,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 219,
+        "end": 232,
         "operator": "!==",
         "left": {
           "type": "Identifier",
+          "start": 219,
+          "end": 220,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            219,
-            220
-          ],
-          "loc": {
-            "end": {
-              "column": 5,
-              "line": 18
-            },
-            "start": {
-              "column": 4,
-              "line": 18
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 227,
+          "end": 230,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            227,
-            230
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 18
-            },
-            "start": {
-              "column": 12,
-              "line": 18
-            }
-          }
-        },
-        "range": [
-          219,
-          232
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 18
-          },
-          "start": {
-            "column": 4,
-            "line": 18
-          }
-        }
-      },
-      "range": [
-        215,
-        236
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 18
-        },
-        "start": {
-          "column": 0,
-          "line": 18
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 237,
+      "end": 258,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          256,
-          258
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 19
-          },
-          "start": {
-            "column": 19,
-            "line": 19
-          }
-        }
+        "start": 256,
+        "end": 258,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 241,
+        "end": 254,
         "operator": "!==",
         "left": {
           "type": "Identifier",
+          "start": 243,
+          "end": 246,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            243,
-            246
-          ],
-          "loc": {
-            "end": {
-              "column": 9,
-              "line": 19
-            },
-            "start": {
-              "column": 6,
-              "line": 19
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 253,
+          "end": 254,
           "decorators": [],
           "name": "x",
-          "optional": false,
-          "range": [
-            253,
-            254
-          ],
-          "loc": {
-            "end": {
-              "column": 17,
-              "line": 19
-            },
-            "start": {
-              "column": 16,
-              "line": 19
-            }
-          }
-        },
-        "range": [
-          241,
-          254
-        ],
-        "loc": {
-          "end": {
-            "column": 17,
-            "line": 19
-          },
-          "start": {
-            "column": 4,
-            "line": 19
-          }
-        }
-      },
-      "range": [
-        237,
-        258
-      ],
-      "loc": {
-        "end": {
-          "column": 21,
-          "line": 19
-        },
-        "start": {
-          "column": 0,
-          "line": 19
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 260,
+      "end": 279,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          277,
-          279
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 21
-          },
-          "start": {
-            "column": 17,
-            "line": 21
-          }
-        }
+        "start": 277,
+        "end": 279,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 264,
+        "end": 275,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 264,
+          "end": 267,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            264,
-            267
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 21
-            },
-            "start": {
-              "column": 4,
-              "line": 21
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 272,
+          "end": 275,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            272,
-            275
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 21
-            },
-            "start": {
-              "column": 12,
-              "line": 21
-            }
-          }
-        },
-        "range": [
-          264,
-          275
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 21
-          },
-          "start": {
-            "column": 4,
-            "line": 21
-          }
-        }
-      },
-      "range": [
-        260,
-        279
-      ],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 21
-        },
-        "start": {
-          "column": 0,
-          "line": 21
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 280,
+      "end": 299,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          297,
-          299
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 22
-          },
-          "start": {
-            "column": 17,
-            "line": 22
-          }
-        }
+        "start": 297,
+        "end": 299,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 284,
+        "end": 295,
         "operator": "!==",
         "left": {
           "type": "Identifier",
+          "start": 284,
+          "end": 287,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            284,
-            287
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 22
-            },
-            "start": {
-              "column": 4,
-              "line": 22
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 292,
+          "end": 295,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            292,
-            295
-          ],
-          "loc": {
-            "end": {
-              "column": 15,
-              "line": 22
-            },
-            "start": {
-              "column": 12,
-              "line": 22
-            }
-          }
-        },
-        "range": [
-          284,
-          295
-        ],
-        "loc": {
-          "end": {
-            "column": 15,
-            "line": 22
-          },
-          "start": {
-            "column": 4,
-            "line": 22
-          }
-        }
-      },
-      "range": [
-        280,
-        299
-      ],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 22
-        },
-        "start": {
-          "column": 0,
-          "line": 22
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 301,
+      "end": 319,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          317,
-          319
-        ],
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 24
-          },
-          "start": {
-            "column": 16,
-            "line": 24
-          }
-        }
+        "start": 317,
+        "end": 319,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 305,
+        "end": 315,
         "operator": "==",
         "left": {
           "type": "Identifier",
+          "start": 305,
+          "end": 308,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            305,
-            308
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 24
-            },
-            "start": {
-              "column": 4,
-              "line": 24
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 312,
+          "end": 315,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            312,
-            315
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 24
-            },
-            "start": {
-              "column": 11,
-              "line": 24
-            }
-          }
-        },
-        "range": [
-          305,
-          315
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 24
-          },
-          "start": {
-            "column": 4,
-            "line": 24
-          }
-        }
-      },
-      "range": [
-        301,
-        319
-      ],
-      "loc": {
-        "end": {
-          "column": 18,
-          "line": 24
-        },
-        "start": {
-          "column": 0,
-          "line": 24
+          "optional": false
         }
       }
     },
     {
       "type": "IfStatement",
+      "start": 320,
+      "end": 338,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          336,
-          338
-        ],
-        "loc": {
-          "end": {
-            "column": 18,
-            "line": 25
-          },
-          "start": {
-            "column": 16,
-            "line": 25
-          }
-        }
+        "start": 336,
+        "end": 338,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 324,
+        "end": 334,
         "operator": "!=",
         "left": {
           "type": "Identifier",
+          "start": 324,
+          "end": 327,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            324,
-            327
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 25
-            },
-            "start": {
-              "column": 4,
-              "line": 25
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "Identifier",
+          "start": 331,
+          "end": 334,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            331,
-            334
-          ],
-          "loc": {
-            "end": {
-              "column": 14,
-              "line": 25
-            },
-            "start": {
-              "column": 11,
-              "line": 25
-            }
-          }
-        },
-        "range": [
-          324,
-          334
-        ],
-        "loc": {
-          "end": {
-            "column": 14,
-            "line": 25
-          },
-          "start": {
-            "column": 4,
-            "line": 25
-          }
-        }
-      },
-      "range": [
-        320,
-        338
-      ],
-      "loc": {
-        "end": {
-          "column": 18,
-          "line": 25
-        },
-        "start": {
-          "column": 0,
-          "line": 25
+          "optional": false
         }
       }
     },
     {
       "type": "VariableDeclaration",
+      "start": 347,
+      "end": 366,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 359,
+          "end": 365,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 359,
+            "end": 365,
             "decorators": [],
             "name": "y",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "loc": {
-                "end": {
-                  "column": 18,
-                  "line": 28
-                },
-                "start": {
-                  "column": 13,
-                  "line": 28
-                }
-              },
-              "range": [
-                360,
-                365
-              ],
+              "start": 360,
+              "end": 365,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "range": [
-                  362,
-                  365
-                ],
-                "loc": {
-                  "end": {
-                    "column": 18,
-                    "line": 28
-                  },
-                  "start": {
-                    "column": 15,
-                    "line": 28
-                  }
-                }
-              }
-            },
-            "range": [
-              359,
-              365
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 28
-              },
-              "start": {
-                "column": 12,
-                "line": 28
+                "start": 362,
+                "end": 365
               }
             }
           },
-          "init": null,
-          "range": [
-            359,
-            365
-          ],
-          "loc": {
-            "end": {
-              "column": 18,
-              "line": 28
-            },
-            "start": {
-              "column": 12,
-              "line": 28
-            }
-          }
+          "init": null
         }
       ],
       "declare": true,
-      "kind": "let",
-      "range": [
-        347,
-        366
-      ],
-      "loc": {
-        "end": {
-          "column": 19,
-          "line": 28
-        },
-        "start": {
-          "column": 0,
-          "line": 28
-        }
-      }
+      "kind": "let"
     },
     {
       "type": "IfStatement",
+      "start": 367,
+      "end": 390,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "body": [],
-        "range": [
-          388,
-          390
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 29
-          },
-          "start": {
-            "column": 21,
-            "line": 29
-          }
-        }
+        "start": 388,
+        "end": 390,
+        "body": []
       },
       "test": {
         "type": "BinaryExpression",
+        "start": 371,
+        "end": 386,
         "operator": "===",
         "left": {
           "type": "Identifier",
+          "start": 371,
+          "end": 374,
           "decorators": [],
           "name": "NaN",
-          "optional": false,
-          "range": [
-            371,
-            374
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 29
-            },
-            "start": {
-              "column": 4,
-              "line": 29
-            }
-          }
+          "optional": false
         },
         "right": {
           "type": "MemberExpression",
+          "start": 379,
+          "end": 386,
           "computed": true,
           "object": {
             "type": "MemberExpression",
+            "start": 379,
+            "end": 383,
             "computed": true,
             "object": {
               "type": "Identifier",
+              "start": 379,
+              "end": 380,
               "decorators": [],
               "name": "y",
-              "optional": false,
-              "range": [
-                379,
-                380
-              ],
-              "loc": {
-                "end": {
-                  "column": 13,
-                  "line": 29
-                },
-                "start": {
-                  "column": 12,
-                  "line": 29
-                }
-              }
+              "optional": false
             },
             "optional": false,
             "property": {
               "type": "Literal",
+              "start": 381,
+              "end": 382,
               "raw": "0",
-              "value": 0,
-              "range": [
-                381,
-                382
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 29
-                },
-                "start": {
-                  "column": 14,
-                  "line": 29
-                }
-              }
-            },
-            "range": [
-              379,
-              383
-            ],
-            "loc": {
-              "end": {
-                "column": 16,
-                "line": 29
-              },
-              "start": {
-                "column": 12,
-                "line": 29
-              }
+              "value": 0
             }
           },
           "optional": false,
           "property": {
             "type": "Literal",
+            "start": 384,
+            "end": 385,
             "raw": "1",
-            "value": 1,
-            "range": [
-              384,
-              385
-            ],
-            "loc": {
-              "end": {
-                "column": 18,
-                "line": 29
-              },
-              "start": {
-                "column": 17,
-                "line": 29
-              }
-            }
-          },
-          "range": [
-            379,
-            386
-          ],
-          "loc": {
-            "end": {
-              "column": 19,
-              "line": 29
-            },
-            "start": {
-              "column": 12,
-              "line": 29
-            }
+            "value": 1
           }
-        },
-        "range": [
-          371,
-          386
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 29
-          },
-          "start": {
-            "column": 4,
-            "line": 29
-          }
-        }
-      },
-      "range": [
-        367,
-        390
-      ],
-      "loc": {
-        "end": {
-          "column": 23,
-          "line": 29
-        },
-        "start": {
-          "column": 0,
-          "line": 29
         }
       }
     },
     {
       "type": "FunctionDeclaration",
+      "start": 392,
+      "end": 467,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 432,
+        "end": 467,
         "body": [
           {
             "type": "ReturnStatement",
+            "start": 438,
+            "end": 459,
             "argument": {
               "type": "BinaryExpression",
+              "start": 445,
+              "end": 458,
               "operator": "===",
               "left": {
                 "type": "Identifier",
+                "start": 445,
+                "end": 450,
                 "decorators": [],
                 "name": "value",
-                "optional": false,
-                "range": [
-                  445,
-                  450
-                ],
-                "loc": {
-                  "end": {
-                    "column": 16,
-                    "line": 32
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 32
-                  }
-                }
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
+                "start": 455,
+                "end": 458,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false,
-                "range": [
-                  455,
-                  458
-                ],
-                "loc": {
-                  "end": {
-                    "column": 24,
-                    "line": 32
-                  },
-                  "start": {
-                    "column": 21,
-                    "line": 32
-                  }
-                }
-              },
-              "range": [
-                445,
-                458
-              ],
-              "loc": {
-                "end": {
-                  "column": 24,
-                  "line": 32
-                },
-                "start": {
-                  "column": 11,
-                  "line": 32
-                }
-              }
-            },
-            "range": [
-              438,
-              459
-            ],
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 32
-              },
-              "start": {
-                "column": 4,
-                "line": 32
+                "optional": false
               }
             }
           }
-        ],
-        "range": [
-          432,
-          467
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 33
-          },
-          "start": {
-            "column": 40,
-            "line": 31
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 401,
+        "end": 403,
         "decorators": [],
         "name": "t1",
-        "optional": false,
-        "range": [
-          401,
-          403
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 31
-          },
-          "start": {
-            "column": 9,
-            "line": 31
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 404,
+          "end": 417,
           "decorators": [],
           "name": "value",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 31
-              },
-              "start": {
-                "column": 17,
-                "line": 31
-              }
-            },
-            "range": [
-              409,
-              417
-            ],
+            "start": 409,
+            "end": 417,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                411,
-                417
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 31
-                },
-                "start": {
-                  "column": 19,
-                  "line": 31
-                }
-              }
-            }
-          },
-          "range": [
-            404,
-            417
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 31
-            },
-            "start": {
-              "column": 12,
-              "line": 31
+              "start": 411,
+              "end": 417
             }
           }
         },
         {
           "type": "Identifier",
+          "start": 419,
+          "end": 430,
           "decorators": [],
           "name": "NaN",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 38,
-                "line": 31
-              },
-              "start": {
-                "column": 30,
-                "line": 31
-              }
-            },
-            "range": [
-              422,
-              430
-            ],
+            "start": 422,
+            "end": 430,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                424,
-                430
-              ],
-              "loc": {
-                "end": {
-                  "column": 38,
-                  "line": 31
-                },
-                "start": {
-                  "column": 32,
-                  "line": 31
-                }
-              }
-            }
-          },
-          "range": [
-            419,
-            430
-          ],
-          "loc": {
-            "end": {
-              "column": 38,
-              "line": 31
-            },
-            "start": {
-              "column": 27,
-              "line": 31
+              "start": 424,
+              "end": 430
             }
           }
         }
-      ],
-      "range": [
-        392,
-        467
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 33
-        },
-        "start": {
-          "column": 0,
-          "line": 31
-        }
-      }
+      ]
     },
     {
       "type": "FunctionDeclaration",
+      "start": 469,
+      "end": 543,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 509,
+        "end": 543,
         "body": [
           {
             "type": "ReturnStatement",
+            "start": 515,
+            "end": 535,
             "argument": {
               "type": "BinaryExpression",
+              "start": 522,
+              "end": 534,
               "operator": "==",
               "left": {
                 "type": "Identifier",
+                "start": 522,
+                "end": 525,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false,
-                "range": [
-                  522,
-                  525
-                ],
-                "loc": {
-                  "end": {
-                    "column": 14,
-                    "line": 36
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 36
-                  }
-                }
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
+                "start": 529,
+                "end": 534,
                 "decorators": [],
                 "name": "value",
-                "optional": false,
-                "range": [
-                  529,
-                  534
-                ],
-                "loc": {
-                  "end": {
-                    "column": 23,
-                    "line": 36
-                  },
-                  "start": {
-                    "column": 18,
-                    "line": 36
-                  }
-                }
-              },
-              "range": [
-                522,
-                534
-              ],
-              "loc": {
-                "end": {
-                  "column": 23,
-                  "line": 36
-                },
-                "start": {
-                  "column": 11,
-                  "line": 36
-                }
-              }
-            },
-            "range": [
-              515,
-              535
-            ],
-            "loc": {
-              "end": {
-                "column": 24,
-                "line": 36
-              },
-              "start": {
-                "column": 4,
-                "line": 36
+                "optional": false
               }
             }
           }
-        ],
-        "range": [
-          509,
-          543
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 37
-          },
-          "start": {
-            "column": 40,
-            "line": 35
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 478,
+        "end": 480,
         "decorators": [],
         "name": "t2",
-        "optional": false,
-        "range": [
-          478,
-          480
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 35
-          },
-          "start": {
-            "column": 9,
-            "line": 35
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 481,
+          "end": 494,
           "decorators": [],
           "name": "value",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 25,
-                "line": 35
-              },
-              "start": {
-                "column": 17,
-                "line": 35
-              }
-            },
-            "range": [
-              486,
-              494
-            ],
+            "start": 486,
+            "end": 494,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                488,
-                494
-              ],
-              "loc": {
-                "end": {
-                  "column": 25,
-                  "line": 35
-                },
-                "start": {
-                  "column": 19,
-                  "line": 35
-                }
-              }
-            }
-          },
-          "range": [
-            481,
-            494
-          ],
-          "loc": {
-            "end": {
-              "column": 25,
-              "line": 35
-            },
-            "start": {
-              "column": 12,
-              "line": 35
+              "start": 488,
+              "end": 494
             }
           }
         },
         {
           "type": "Identifier",
+          "start": 496,
+          "end": 507,
           "decorators": [],
           "name": "NaN",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 38,
-                "line": 35
-              },
-              "start": {
-                "column": 30,
-                "line": 35
-              }
-            },
-            "range": [
-              499,
-              507
-            ],
+            "start": 499,
+            "end": 507,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                501,
-                507
-              ],
-              "loc": {
-                "end": {
-                  "column": 38,
-                  "line": 35
-                },
-                "start": {
-                  "column": 32,
-                  "line": 35
-                }
-              }
-            }
-          },
-          "range": [
-            496,
-            507
-          ],
-          "loc": {
-            "end": {
-              "column": 38,
-              "line": 35
-            },
-            "start": {
-              "column": 27,
-              "line": 35
+              "start": 501,
+              "end": 507
             }
           }
         }
-      ],
-      "range": [
-        469,
-        543
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 37
-        },
-        "start": {
-          "column": 0,
-          "line": 35
-        }
-      }
+      ]
     },
     {
       "type": "FunctionDeclaration",
+      "start": 545,
+      "end": 603,
       "async": false,
       "body": {
         "type": "BlockStatement",
+        "start": 570,
+        "end": 603,
         "body": [
           {
             "type": "ReturnStatement",
+            "start": 576,
+            "end": 595,
             "argument": {
               "type": "BinaryExpression",
+              "start": 583,
+              "end": 594,
               "operator": "===",
               "left": {
                 "type": "Identifier",
+                "start": 583,
+                "end": 586,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false,
-                "range": [
-                  583,
-                  586
-                ],
-                "loc": {
-                  "end": {
-                    "column": 14,
-                    "line": 40
-                  },
-                  "start": {
-                    "column": 11,
-                    "line": 40
-                  }
-                }
+                "optional": false
               },
               "right": {
                 "type": "Identifier",
+                "start": 591,
+                "end": 594,
                 "decorators": [],
                 "name": "NaN",
-                "optional": false,
-                "range": [
-                  591,
-                  594
-                ],
-                "loc": {
-                  "end": {
-                    "column": 22,
-                    "line": 40
-                  },
-                  "start": {
-                    "column": 19,
-                    "line": 40
-                  }
-                }
-              },
-              "range": [
-                583,
-                594
-              ],
-              "loc": {
-                "end": {
-                  "column": 22,
-                  "line": 40
-                },
-                "start": {
-                  "column": 11,
-                  "line": 40
-                }
-              }
-            },
-            "range": [
-              576,
-              595
-            ],
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 40
-              },
-              "start": {
-                "column": 4,
-                "line": 40
+                "optional": false
               }
             }
           }
-        ],
-        "range": [
-          570,
-          603
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 41
-          },
-          "start": {
-            "column": 25,
-            "line": 39
-          }
-        }
+        ]
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
+        "start": 554,
+        "end": 556,
         "decorators": [],
         "name": "t3",
-        "optional": false,
-        "range": [
-          554,
-          556
-        ],
-        "loc": {
-          "end": {
-            "column": 11,
-            "line": 39
-          },
-          "start": {
-            "column": 9,
-            "line": 39
-          }
-        }
+        "optional": false
       },
       "params": [
         {
           "type": "Identifier",
+          "start": 557,
+          "end": 568,
           "decorators": [],
           "name": "NaN",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "loc": {
-              "end": {
-                "column": 23,
-                "line": 39
-              },
-              "start": {
-                "column": 15,
-                "line": 39
-              }
-            },
-            "range": [
-              560,
-              568
-            ],
+            "start": 560,
+            "end": 568,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
-              "range": [
-                562,
-                568
-              ],
-              "loc": {
-                "end": {
-                  "column": 23,
-                  "line": 39
-                },
-                "start": {
-                  "column": 17,
-                  "line": 39
-                }
-              }
-            }
-          },
-          "range": [
-            557,
-            568
-          ],
-          "loc": {
-            "end": {
-              "column": 23,
-              "line": 39
-            },
-            "start": {
-              "column": 12,
-              "line": 39
+              "start": 562,
+              "end": 568
             }
           }
         }
-      ],
-      "range": [
-        545,
-        603
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 41
-        },
-        "start": {
-          "column": 0,
-          "line": 39
-        }
-      }
+      ]
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 42
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

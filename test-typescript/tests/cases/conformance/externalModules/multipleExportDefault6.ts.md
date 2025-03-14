@@ -2,38 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    1,
-    61
-  ],
+  "start": 1,
+  "end": 61,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
+      "start": 1,
+      "end": 30,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 16,
+        "end": 30,
         "properties": [
           {
             "type": "Property",
+            "start": 22,
+            "end": 28,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 22,
+              "end": 25,
               "decorators": [],
               "name": "lol",
-              "optional": false,
-              "range": [
-                22,
-                25
-              ],
-              "loc": {
-                "end": {
-                  "column": 7,
-                  "line": 2
-                },
-                "start": {
-                  "column": 4,
-                  "line": 2
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -41,97 +33,37 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 27,
+              "end": 28,
               "raw": "1",
-              "value": 1,
-              "range": [
-                27,
-                28
-              ],
-              "loc": {
-                "end": {
-                  "column": 10,
-                  "line": 2
-                },
-                "start": {
-                  "column": 9,
-                  "line": 2
-                }
-              }
-            },
-            "range": [
-              22,
-              28
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 2
-              },
-              "start": {
-                "column": 4,
-                "line": 2
-              }
+              "value": 1
             }
           }
-        ],
-        "range": [
-          16,
-          30
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 16,
-            "line": 1
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        1,
-        30
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 1,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     },
     {
       "type": "ExportDefaultDeclaration",
+      "start": 32,
+      "end": 61,
       "declaration": {
         "type": "ObjectExpression",
+        "start": 47,
+        "end": 61,
         "properties": [
           {
             "type": "Property",
+            "start": 53,
+            "end": 59,
             "computed": false,
             "key": {
               "type": "Identifier",
+              "start": 53,
+              "end": 56,
               "decorators": [],
               "name": "lol",
-              "optional": false,
-              "range": [
-                53,
-                56
-              ],
-              "loc": {
-                "end": {
-                  "column": 7,
-                  "line": 6
-                },
-                "start": {
-                  "column": 4,
-                  "line": 6
-                }
-              }
+              "optional": false
             },
             "kind": "init",
             "method": false,
@@ -139,82 +71,18 @@ __ESTREE_TEST__:PASS:
             "shorthand": false,
             "value": {
               "type": "Literal",
+              "start": 58,
+              "end": 59,
               "raw": "2",
-              "value": 2,
-              "range": [
-                58,
-                59
-              ],
-              "loc": {
-                "end": {
-                  "column": 10,
-                  "line": 6
-                },
-                "start": {
-                  "column": 9,
-                  "line": 6
-                }
-              }
-            },
-            "range": [
-              53,
-              59
-            ],
-            "loc": {
-              "end": {
-                "column": 10,
-                "line": 6
-              },
-              "start": {
-                "column": 4,
-                "line": 6
-              }
+              "value": 2
             }
           }
-        ],
-        "range": [
-          47,
-          61
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 7
-          },
-          "start": {
-            "column": 15,
-            "line": 5
-          }
-        }
+        ]
       },
-      "exportKind": "value",
-      "range": [
-        32,
-        61
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 7
-    },
-    "start": {
-      "column": 1,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

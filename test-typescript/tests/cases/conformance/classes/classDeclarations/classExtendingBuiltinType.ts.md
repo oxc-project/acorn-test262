@@ -2,849 +2,333 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    287
-  ],
+  "start": 0,
+  "end": 287,
   "body": [
     {
       "type": "ClassDeclaration",
+      "start": 0,
+      "end": 27,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          24,
-          27
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 1
-          },
-          "start": {
-            "column": 24,
-            "line": 1
-          }
-        }
+        "start": 24,
+        "end": 27,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 6,
+        "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false,
-        "range": [
-          6,
-          8
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 1
-          },
-          "start": {
-            "column": 6,
-            "line": 1
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 17,
+        "end": 23,
         "decorators": [],
         "name": "Object",
-        "optional": false,
-        "range": [
-          17,
-          23
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 1
-          },
-          "start": {
-            "column": 17,
-            "line": 1
-          }
-        }
-      },
-      "range": [
-        0,
-        27
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 28,
+      "end": 57,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          54,
-          57
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 29,
-            "line": 2
-          },
-          "start": {
-            "column": 26,
-            "line": 2
-          }
-        }
+        "start": 54,
+        "end": 57,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 34,
+        "end": 36,
         "decorators": [],
         "name": "C2",
-        "optional": false,
-        "range": [
-          34,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 2
-          },
-          "start": {
-            "column": 6,
-            "line": 2
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 45,
+        "end": 53,
         "decorators": [],
         "name": "Function",
-        "optional": false,
-        "range": [
-          45,
-          53
-        ],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 2
-          },
-          "start": {
-            "column": 17,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        28,
-        57
-      ],
-      "loc": {
-        "end": {
-          "column": 29,
-          "line": 2
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 58,
+      "end": 85,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          82,
-          85
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 3
-          },
-          "start": {
-            "column": 24,
-            "line": 3
-          }
-        }
+        "start": 82,
+        "end": 85,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 64,
+        "end": 66,
         "decorators": [],
         "name": "C3",
-        "optional": false,
-        "range": [
-          64,
-          66
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 3
-          },
-          "start": {
-            "column": 6,
-            "line": 3
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 75,
+        "end": 81,
         "decorators": [],
         "name": "String",
-        "optional": false,
-        "range": [
-          75,
-          81
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 3
-          },
-          "start": {
-            "column": 17,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        58,
-        85
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 86,
+      "end": 114,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          111,
-          114
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 28,
-            "line": 4
-          },
-          "start": {
-            "column": 25,
-            "line": 4
-          }
-        }
+        "start": 111,
+        "end": 114,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 92,
+        "end": 94,
         "decorators": [],
         "name": "C4",
-        "optional": false,
-        "range": [
-          92,
-          94
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 4
-          },
-          "start": {
-            "column": 6,
-            "line": 4
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 103,
+        "end": 110,
         "decorators": [],
         "name": "Boolean",
-        "optional": false,
-        "range": [
-          103,
-          110
-        ],
-        "loc": {
-          "end": {
-            "column": 24,
-            "line": 4
-          },
-          "start": {
-            "column": 17,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        86,
-        114
-      ],
-      "loc": {
-        "end": {
-          "column": 28,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 115,
+      "end": 142,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          139,
-          142
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 5
-          },
-          "start": {
-            "column": 24,
-            "line": 5
-          }
-        }
+        "start": 139,
+        "end": 142,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 121,
+        "end": 123,
         "decorators": [],
         "name": "C5",
-        "optional": false,
-        "range": [
-          121,
-          123
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 5
-          },
-          "start": {
-            "column": 6,
-            "line": 5
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 132,
+        "end": 138,
         "decorators": [],
         "name": "Number",
-        "optional": false,
-        "range": [
-          132,
-          138
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 5
-          },
-          "start": {
-            "column": 17,
-            "line": 5
-          }
-        }
-      },
-      "range": [
-        115,
-        142
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 5
-        },
-        "start": {
-          "column": 0,
-          "line": 5
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 143,
+      "end": 168,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          165,
-          168
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 25,
-            "line": 6
-          },
-          "start": {
-            "column": 22,
-            "line": 6
-          }
-        }
+        "start": 165,
+        "end": 168,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 149,
+        "end": 151,
         "decorators": [],
         "name": "C6",
-        "optional": false,
-        "range": [
-          149,
-          151
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 6
-          },
-          "start": {
-            "column": 6,
-            "line": 6
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 160,
+        "end": 164,
         "decorators": [],
         "name": "Date",
-        "optional": false,
-        "range": [
-          160,
-          164
-        ],
-        "loc": {
-          "end": {
-            "column": 21,
-            "line": 6
-          },
-          "start": {
-            "column": 17,
-            "line": 6
-          }
-        }
-      },
-      "range": [
-        143,
-        168
-      ],
-      "loc": {
-        "end": {
-          "column": 25,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 6
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 169,
+      "end": 196,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          193,
-          196
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 27,
-            "line": 7
-          },
-          "start": {
-            "column": 24,
-            "line": 7
-          }
-        }
+        "start": 193,
+        "end": 196,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 175,
+        "end": 177,
         "decorators": [],
         "name": "C7",
-        "optional": false,
-        "range": [
-          175,
-          177
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 7
-          },
-          "start": {
-            "column": 6,
-            "line": 7
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 186,
+        "end": 192,
         "decorators": [],
         "name": "RegExp",
-        "optional": false,
-        "range": [
-          186,
-          192
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 7
-          },
-          "start": {
-            "column": 17,
-            "line": 7
-          }
-        }
-      },
-      "range": [
-        169,
-        196
-      ],
-      "loc": {
-        "end": {
-          "column": 27,
-          "line": 7
-        },
-        "start": {
-          "column": 0,
-          "line": 7
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 197,
+      "end": 223,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          220,
-          223
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 8
-          },
-          "start": {
-            "column": 23,
-            "line": 8
-          }
-        }
+        "start": 220,
+        "end": 223,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 203,
+        "end": 205,
         "decorators": [],
         "name": "C8",
-        "optional": false,
-        "range": [
-          203,
-          205
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 8
-          },
-          "start": {
-            "column": 6,
-            "line": 8
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 214,
+        "end": 219,
         "decorators": [],
         "name": "Error",
-        "optional": false,
-        "range": [
-          214,
-          219
-        ],
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 8
-          },
-          "start": {
-            "column": 17,
-            "line": 8
-          }
-        }
-      },
-      "range": [
-        197,
-        223
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 8
-        },
-        "start": {
-          "column": 0,
-          "line": 8
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 224,
+      "end": 250,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          247,
-          250
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 26,
-            "line": 9
-          },
-          "start": {
-            "column": 23,
-            "line": 9
-          }
-        }
+        "start": 247,
+        "end": 250,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 230,
+        "end": 232,
         "decorators": [],
         "name": "C9",
-        "optional": false,
-        "range": [
-          230,
-          232
-        ],
-        "loc": {
-          "end": {
-            "column": 8,
-            "line": 9
-          },
-          "start": {
-            "column": 6,
-            "line": 9
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 241,
+        "end": 246,
         "decorators": [],
         "name": "Array",
-        "optional": false,
-        "range": [
-          241,
-          246
-        ],
-        "loc": {
-          "end": {
-            "column": 22,
-            "line": 9
-          },
-          "start": {
-            "column": 17,
-            "line": 9
-          }
-        }
-      },
-      "range": [
-        224,
-        250
-      ],
-      "loc": {
-        "end": {
-          "column": 26,
-          "line": 9
-        },
-        "start": {
-          "column": 0,
-          "line": 9
-        }
+        "optional": false
       }
     },
     {
       "type": "ClassDeclaration",
+      "start": 251,
+      "end": 286,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "range": [
-          283,
-          286
-        ],
-        "body": [],
-        "loc": {
-          "end": {
-            "column": 35,
-            "line": 10
-          },
-          "start": {
-            "column": 32,
-            "line": 10
-          }
-        }
+        "start": 283,
+        "end": 286,
+        "body": []
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "start": 257,
+        "end": 260,
         "decorators": [],
         "name": "C10",
-        "optional": false,
-        "range": [
-          257,
-          260
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 10
-          },
-          "start": {
-            "column": 6,
-            "line": 10
-          }
-        }
+        "optional": false
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
+        "start": 269,
+        "end": 274,
         "decorators": [],
         "name": "Array",
-        "optional": false,
-        "range": [
-          269,
-          274
-        ],
-        "loc": {
-          "end": {
-            "column": 23,
-            "line": 10
-          },
-          "start": {
-            "column": 18,
-            "line": 10
-          }
-        }
+        "optional": false
       },
       "superTypeArguments": {
         "type": "TSTypeParameterInstantiation",
-        "range": [
-          274,
-          282
-        ],
+        "start": 274,
+        "end": 282,
         "params": [
           {
             "type": "TSNumberKeyword",
-            "range": [
-              275,
-              281
-            ],
-            "loc": {
-              "end": {
-                "column": 30,
-                "line": 10
-              },
-              "start": {
-                "column": 24,
-                "line": 10
-              }
-            }
+            "start": 275,
+            "end": 281
           }
-        ],
-        "loc": {
-          "end": {
-            "column": 31,
-            "line": 10
-          },
-          "start": {
-            "column": 23,
-            "line": 10
-          }
-        }
-      },
-      "range": [
-        251,
-        286
-      ],
-      "loc": {
-        "end": {
-          "column": 35,
-          "line": 10
-        },
-        "start": {
-          "column": 0,
-          "line": 10
-        }
+        ]
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 11
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

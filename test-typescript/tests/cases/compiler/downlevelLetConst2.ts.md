@@ -2,83 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    7
-  ],
+  "start": 0,
+  "end": 7,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 7,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 6,
+          "end": 7,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 6,
+            "end": 7,
             "decorators": [],
             "name": "a",
-            "optional": false,
-            "range": [
-              6,
-              7
-            ],
-            "loc": {
-              "end": {
-                "column": 7,
-                "line": 1
-              },
-              "start": {
-                "column": 6,
-                "line": 1
-              }
-            }
+            "optional": false
           },
-          "init": null,
-          "range": [
-            6,
-            7
-          ],
-          "loc": {
-            "end": {
-              "column": 7,
-              "line": 1
-            },
-            "start": {
-              "column": 6,
-              "line": 1
-            }
-          }
+          "init": null
         }
       ],
       "declare": false,
-      "kind": "const",
-      "range": [
-        0,
-        7
-      ],
-      "loc": {
-        "end": {
-          "column": 7,
-          "line": 1
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "const"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 7,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

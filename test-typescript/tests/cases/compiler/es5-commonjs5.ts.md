@@ -2,119 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    47
-  ],
+  "start": 0,
+  "end": 47,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "range": [
-        0,
-        46
-      ],
+      "start": 0,
+      "end": 46,
       "declaration": {
         "type": "FunctionDeclaration",
+        "start": 15,
+        "end": 46,
         "async": false,
         "body": {
           "type": "BlockStatement",
+          "start": 27,
+          "end": 46,
           "body": [
             {
               "type": "ReturnStatement",
+              "start": 30,
+              "end": 44,
               "argument": {
                 "type": "Literal",
+                "start": 37,
+                "end": 43,
                 "raw": "\"test\"",
-                "value": "test",
-                "range": [
-                  37,
-                  43
-                ],
-                "loc": {
-                  "end": {
-                    "column": 14,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 8,
-                    "line": 2
-                  }
-                }
-              },
-              "range": [
-                30,
-                44
-              ],
-              "loc": {
-                "end": {
-                  "column": 15,
-                  "line": 2
-                },
-                "start": {
-                  "column": 1,
-                  "line": 2
-                }
+                "value": "test"
               }
             }
-          ],
-          "range": [
-            27,
-            46
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 3
-            },
-            "start": {
-              "column": 27,
-              "line": 1
-            }
-          }
+          ]
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": null,
-        "params": [],
-        "range": [
-          15,
-          46
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 3
-          },
-          "start": {
-            "column": 15,
-            "line": 1
-          }
-        }
+        "params": []
       },
-      "exportKind": "value",
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "exportKind": "value"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

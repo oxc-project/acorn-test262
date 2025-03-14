@@ -2,244 +2,100 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    17,
-    59
-  ],
+  "start": 17,
+  "end": 59,
   "body": [
     {
       "type": "WhileStatement",
+      "start": 17,
+      "end": 59,
       "body": {
         "type": "BlockStatement",
+        "start": 38,
+        "end": 59,
         "body": [
           {
             "type": "ExpressionStatement",
+            "start": 44,
+            "end": 57,
             "expression": {
               "type": "TemplateLiteral",
+              "start": 44,
+              "end": 56,
               "expressions": [
                 {
                   "type": "Literal",
+                  "start": 50,
+                  "end": 51,
                   "raw": "1",
-                  "value": 1,
-                  "range": [
-                    50,
-                    51
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 11,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 10,
-                      "line": 3
-                    }
-                  }
+                  "value": 1
                 }
               ],
               "quasis": [
                 {
                   "type": "TemplateElement",
+                  "start": 44,
+                  "end": 50,
                   "tail": false,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  },
-                  "range": [
-                    44,
-                    50
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 10,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 4,
-                      "line": 3
-                    }
                   }
                 },
                 {
                   "type": "TemplateElement",
+                  "start": 51,
+                  "end": 56,
                   "tail": true,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
-                  },
-                  "range": [
-                    51,
-                    56
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 16,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 11,
-                      "line": 3
-                    }
                   }
                 }
-              ],
-              "range": [
-                44,
-                56
-              ],
-              "loc": {
-                "end": {
-                  "column": 16,
-                  "line": 3
-                },
-                "start": {
-                  "column": 4,
-                  "line": 3
-                }
-              }
-            },
-            "range": [
-              44,
-              57
-            ],
-            "loc": {
-              "end": {
-                "column": 17,
-                "line": 3
-              },
-              "start": {
-                "column": 4,
-                "line": 3
-              }
+              ]
             }
           }
-        ],
-        "range": [
-          38,
-          59
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 4
-          },
-          "start": {
-            "column": 21,
-            "line": 2
-          }
-        }
+        ]
       },
       "test": {
         "type": "TemplateLiteral",
+        "start": 24,
+        "end": 36,
         "expressions": [
           {
             "type": "Literal",
+            "start": 30,
+            "end": 31,
             "raw": "0",
-            "value": 0,
-            "range": [
-              30,
-              31
-            ],
-            "loc": {
-              "end": {
-                "column": 14,
-                "line": 2
-              },
-              "start": {
-                "column": 13,
-                "line": 2
-              }
-            }
+            "value": 0
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
+            "start": 24,
+            "end": 30,
             "tail": false,
             "value": {
               "cooked": "abc",
               "raw": "abc"
-            },
-            "range": [
-              24,
-              30
-            ],
-            "loc": {
-              "end": {
-                "column": 13,
-                "line": 2
-              },
-              "start": {
-                "column": 7,
-                "line": 2
-              }
             }
           },
           {
             "type": "TemplateElement",
+            "start": 31,
+            "end": 36,
             "tail": true,
             "value": {
               "cooked": "abc",
               "raw": "abc"
-            },
-            "range": [
-              31,
-              36
-            ],
-            "loc": {
-              "end": {
-                "column": 19,
-                "line": 2
-              },
-              "start": {
-                "column": 14,
-                "line": 2
-              }
             }
           }
-        ],
-        "range": [
-          24,
-          36
-        ],
-        "loc": {
-          "end": {
-            "column": 19,
-            "line": 2
-          },
-          "start": {
-            "column": 7,
-            "line": 2
-          }
-        }
-      },
-      "range": [
-        17,
-        59
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 4
-        },
-        "start": {
-          "column": 0,
-          "line": 2
-        }
+        ]
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 2
-    }
-  },
   "hashbang": null
 }
 ```

@@ -2,80 +2,50 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    59
-  ],
+  "start": 0,
+  "end": 59,
   "body": [
     {
       "type": "VariableDeclaration",
+      "start": 0,
+      "end": 58,
       "declarations": [
         {
           "type": "VariableDeclarator",
+          "start": 4,
+          "end": 58,
           "definite": false,
           "id": {
             "type": "Identifier",
+            "start": 4,
+            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false,
-            "range": [
-              4,
-              5
-            ],
-            "loc": {
-              "end": {
-                "column": 5,
-                "line": 1
-              },
-              "start": {
-                "column": 4,
-                "line": 1
-              }
-            }
+            "optional": false
           },
           "init": {
             "type": "ObjectExpression",
+            "start": 8,
+            "end": 58,
             "properties": [
               {
                 "type": "Property",
+                "start": 12,
+                "end": 20,
                 "computed": true,
                 "key": {
                   "type": "UnaryExpression",
+                  "start": 13,
+                  "end": 15,
                   "argument": {
                     "type": "Literal",
+                    "start": 14,
+                    "end": 15,
                     "raw": "1",
-                    "value": 1,
-                    "range": [
-                      14,
-                      15
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 5,
-                        "line": 2
-                      },
-                      "start": {
-                        "column": 4,
-                        "line": 2
-                      }
-                    }
+                    "value": 1
                   },
                   "operator": "-",
-                  "prefix": true,
-                  "range": [
-                    13,
-                    15
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 2
-                    },
-                    "start": {
-                      "column": 3,
-                      "line": 2
-                    }
-                  }
+                  "prefix": true
                 },
                 "kind": "init",
                 "method": false,
@@ -83,77 +53,29 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "properties": [],
-                  "range": [
-                    18,
-                    20
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 10,
-                      "line": 2
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 2
-                    }
-                  }
-                },
-                "range": [
-                  12,
-                  20
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 2
-                  },
-                  "start": {
-                    "column": 2,
-                    "line": 2
-                  }
+                  "start": 18,
+                  "end": 20,
+                  "properties": []
                 }
               },
               {
                 "type": "Property",
+                "start": 24,
+                "end": 32,
                 "computed": true,
                 "key": {
                   "type": "UnaryExpression",
+                  "start": 25,
+                  "end": 27,
                   "argument": {
                     "type": "Literal",
+                    "start": 26,
+                    "end": 27,
                     "raw": "1",
-                    "value": 1,
-                    "range": [
-                      26,
-                      27
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 5,
-                        "line": 3
-                      },
-                      "start": {
-                        "column": 4,
-                        "line": 3
-                      }
-                    }
+                    "value": 1
                   },
                   "operator": "+",
-                  "prefix": true,
-                  "range": [
-                    25,
-                    27
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 3,
-                      "line": 3
-                    }
-                  }
+                  "prefix": true
                 },
                 "kind": "init",
                 "method": false,
@@ -161,77 +83,29 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "properties": [],
-                  "range": [
-                    30,
-                    32
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 10,
-                      "line": 3
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 3
-                    }
-                  }
-                },
-                "range": [
-                  24,
-                  32
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 3
-                  },
-                  "start": {
-                    "column": 2,
-                    "line": 3
-                  }
+                  "start": 30,
+                  "end": 32,
+                  "properties": []
                 }
               },
               {
                 "type": "Property",
+                "start": 36,
+                "end": 44,
                 "computed": true,
                 "key": {
                   "type": "UnaryExpression",
+                  "start": 37,
+                  "end": 39,
                   "argument": {
                     "type": "Literal",
+                    "start": 38,
+                    "end": 39,
                     "raw": "1",
-                    "value": 1,
-                    "range": [
-                      38,
-                      39
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 5,
-                        "line": 4
-                      },
-                      "start": {
-                        "column": 4,
-                        "line": 4
-                      }
-                    }
+                    "value": 1
                   },
                   "operator": "~",
-                  "prefix": true,
-                  "range": [
-                    37,
-                    39
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 4
-                    },
-                    "start": {
-                      "column": 3,
-                      "line": 4
-                    }
-                  }
+                  "prefix": true
                 },
                 "kind": "init",
                 "method": false,
@@ -239,77 +113,29 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "properties": [],
-                  "range": [
-                    42,
-                    44
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 10,
-                      "line": 4
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 4
-                    }
-                  }
-                },
-                "range": [
-                  36,
-                  44
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 4
-                  },
-                  "start": {
-                    "column": 2,
-                    "line": 4
-                  }
+                  "start": 42,
+                  "end": 44,
+                  "properties": []
                 }
               },
               {
                 "type": "Property",
+                "start": 48,
+                "end": 56,
                 "computed": true,
                 "key": {
                   "type": "UnaryExpression",
+                  "start": 49,
+                  "end": 51,
                   "argument": {
                     "type": "Literal",
+                    "start": 50,
+                    "end": 51,
                     "raw": "1",
-                    "value": 1,
-                    "range": [
-                      50,
-                      51
-                    ],
-                    "loc": {
-                      "end": {
-                        "column": 5,
-                        "line": 5
-                      },
-                      "start": {
-                        "column": 4,
-                        "line": 5
-                      }
-                    }
+                    "value": 1
                   },
                   "operator": "!",
-                  "prefix": true,
-                  "range": [
-                    49,
-                    51
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 5,
-                      "line": 5
-                    },
-                    "start": {
-                      "column": 3,
-                      "line": 5
-                    }
-                  }
+                  "prefix": true
                 },
                 "kind": "init",
                 "method": false,
@@ -317,98 +143,20 @@ __ESTREE_TEST__:PASS:
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "properties": [],
-                  "range": [
-                    54,
-                    56
-                  ],
-                  "loc": {
-                    "end": {
-                      "column": 10,
-                      "line": 5
-                    },
-                    "start": {
-                      "column": 8,
-                      "line": 5
-                    }
-                  }
-                },
-                "range": [
-                  48,
-                  56
-                ],
-                "loc": {
-                  "end": {
-                    "column": 10,
-                    "line": 5
-                  },
-                  "start": {
-                    "column": 2,
-                    "line": 5
-                  }
+                  "start": 54,
+                  "end": 56,
+                  "properties": []
                 }
               }
-            ],
-            "range": [
-              8,
-              58
-            ],
-            "loc": {
-              "end": {
-                "column": 1,
-                "line": 6
-              },
-              "start": {
-                "column": 8,
-                "line": 1
-              }
-            }
-          },
-          "range": [
-            4,
-            58
-          ],
-          "loc": {
-            "end": {
-              "column": 1,
-              "line": 6
-            },
-            "start": {
-              "column": 4,
-              "line": 1
-            }
+            ]
           }
         }
       ],
       "declare": false,
-      "kind": "var",
-      "range": [
-        0,
-        58
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 1
-        }
-      }
+      "kind": "var"
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 7
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```

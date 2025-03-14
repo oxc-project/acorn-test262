@@ -2,82 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    28,
-    33
-  ],
+  "start": 28,
+  "end": 33,
   "body": [
     {
       "type": "ExpressionStatement",
+      "start": 28,
+      "end": 33,
       "expression": {
         "type": "TemplateLiteral",
+        "start": 28,
+        "end": 33,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
+            "start": 28,
+            "end": 33,
             "tail": true,
             "value": {
               "cooked": "\n",
               "raw": "\n\\\n"
-            },
-            "range": [
-              28,
-              33
-            ],
-            "loc": {
-              "end": {
-                "column": 1,
-                "line": 6
-              },
-              "start": {
-                "column": 0,
-                "line": 4
-              }
             }
           }
-        ],
-        "range": [
-          28,
-          33
-        ],
-        "loc": {
-          "end": {
-            "column": 1,
-            "line": 6
-          },
-          "start": {
-            "column": 0,
-            "line": 4
-          }
-        }
-      },
-      "range": [
-        28,
-        33
-      ],
-      "loc": {
-        "end": {
-          "column": 1,
-          "line": 6
-        },
-        "start": {
-          "column": 0,
-          "line": 4
-        }
+        ]
       }
     }
   ],
   "sourceType": "script",
-  "loc": {
-    "end": {
-      "column": 1,
-      "line": 6
-    },
-    "start": {
-      "column": 0,
-      "line": 4
-    }
-  },
   "hashbang": null
 }
 ```

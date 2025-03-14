@@ -2,97 +2,37 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    25,
-    75
-  ],
+  "start": 25,
+  "end": 75,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
+      "start": 25,
+      "end": 74,
       "id": {
         "type": "Identifier",
+        "start": 32,
+        "end": 34,
         "decorators": [],
         "name": "fs",
-        "optional": false,
-        "range": [
-          32,
-          34
-        ],
-        "loc": {
-          "end": {
-            "column": 9,
-            "line": 3
-          },
-          "start": {
-            "column": 7,
-            "line": 3
-          }
-        }
+        "optional": false
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
+        "start": 37,
+        "end": 73,
         "expression": {
           "type": "Literal",
+          "start": 45,
+          "end": 72,
           "raw": "'./requireOfAnEmptyFile1_b'",
-          "value": "./requireOfAnEmptyFile1_b",
-          "range": [
-            45,
-            72
-          ],
-          "loc": {
-            "end": {
-              "column": 47,
-              "line": 3
-            },
-            "start": {
-              "column": 20,
-              "line": 3
-            }
-          }
-        },
-        "range": [
-          37,
-          73
-        ],
-        "loc": {
-          "end": {
-            "column": 48,
-            "line": 3
-          },
-          "start": {
-            "column": 12,
-            "line": 3
-          }
-        }
-      },
-      "range": [
-        25,
-        74
-      ],
-      "loc": {
-        "end": {
-          "column": 49,
-          "line": 3
-        },
-        "start": {
-          "column": 0,
-          "line": 3
+          "value": "./requireOfAnEmptyFile1_b"
         }
       }
     }
   ],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 4
-    },
-    "start": {
-      "column": 0,
-      "line": 3
-    }
-  },
   "hashbang": null
 }
 ```
@@ -100,22 +40,10 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "range": [
-    0,
-    0
-  ],
+  "start": 0,
+  "end": 0,
   "body": [],
   "sourceType": "module",
-  "loc": {
-    "end": {
-      "column": 0,
-      "line": 1
-    },
-    "start": {
-      "column": 0,
-      "line": 1
-    }
-  },
   "hashbang": null
 }
 ```
