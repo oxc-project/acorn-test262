@@ -1,0 +1,16 @@
+sourceMap-SemiColon1.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 2,
+  "body": [
+    {
+      "type": "EmptyStatement",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "sourceType": "script"
+}
+```

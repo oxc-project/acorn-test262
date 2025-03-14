@@ -1,0 +1,4 @@
+missingCloseParenStatements.ts
+```json
+')' expected.
+```

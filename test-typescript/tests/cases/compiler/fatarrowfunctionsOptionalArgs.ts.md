@@ -1,0 +1,4 @@
+fatarrowfunctionsOptionalArgs.ts
+```json
+';' expected.
+```

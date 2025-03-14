@@ -1,0 +1,274 @@
+ambientExternalModuleWithInternalImportDeclaration_0.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 150,
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 149,
+      "kind": "module",
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 19,
+        "end": 149,
+        "body": [
+          {
+            "type": "TSModuleDeclaration",
+            "start": 25,
+            "end": 71,
+            "body": {
+              "type": "TSModuleBlock",
+              "start": 34,
+              "end": 71,
+              "body": [
+                {
+                  "type": "ExportNamedDeclaration",
+                  "start": 44,
+                  "end": 65,
+                  "attributes": [],
+                  "declaration": {
+                    "type": "VariableDeclaration",
+                    "start": 51,
+                    "end": 65,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 55,
+                        "end": 64,
+                        "definite": false,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 55,
+                          "end": 64,
+                          "decorators": [],
+                          "name": "f",
+                          "optional": false,
+                          "typeAnnotation": {
+                            "type": "TSTypeAnnotation",
+                            "start": 56,
+                            "end": 64,
+                            "typeAnnotation": {
+                              "type": "TSNumberKeyword",
+                              "start": 58,
+                              "end": 64
+                            }
+                          }
+                        },
+                        "init": null
+                      }
+                    ],
+                    "declare": false,
+                    "kind": "var"
+                  },
+                  "exportKind": "value",
+                  "source": null,
+                  "specifiers": []
+                }
+              ]
+            },
+            "declare": false,
+            "global": false,
+            "id": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 33,
+              "decorators": [],
+              "name": "C",
+              "optional": false
+            },
+            "kind": "module"
+          },
+          {
+            "type": "ClassDeclaration",
+            "start": 76,
+            "end": 112,
+            "abstract": false,
+            "body": {
+              "type": "ClassBody",
+              "start": 84,
+              "end": 112,
+              "body": [
+                {
+                  "type": "MethodDefinition",
+                  "start": 94,
+                  "end": 106,
+                  "computed": false,
+                  "decorators": [],
+                  "key": {
+                    "type": "Identifier",
+                    "start": 94,
+                    "end": 97,
+                    "decorators": [],
+                    "name": "foo",
+                    "optional": false
+                  },
+                  "kind": "method",
+                  "optional": false,
+                  "override": false,
+                  "static": false,
+                  "value": {
+                    "type": "TSEmptyBodyFunctionExpression",
+                    "start": 97,
+                    "end": 106,
+                    "async": false,
+                    "body": null,
+                    "declare": false,
+                    "expression": false,
+                    "generator": false,
+                    "id": null,
+                    "params": [],
+                    "returnType": {
+                      "type": "TSTypeAnnotation",
+                      "start": 99,
+                      "end": 105,
+                      "typeAnnotation": {
+                        "type": "TSVoidKeyword",
+                        "start": 101,
+                        "end": 105
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "declare": false,
+            "decorators": [],
+            "id": {
+              "type": "Identifier",
+              "start": 82,
+              "end": 83,
+              "decorators": [],
+              "name": "C",
+              "optional": false
+            },
+            "implements": [],
+            "superClass": null
+          },
+          {
+            "type": "TSImportEqualsDeclaration",
+            "start": 117,
+            "end": 130,
+            "id": {
+              "type": "Identifier",
+              "start": 124,
+              "end": 125,
+              "decorators": [],
+              "name": "X",
+              "optional": false
+            },
+            "importKind": "value",
+            "moduleReference": {
+              "type": "Identifier",
+              "start": 128,
+              "end": 129,
+              "decorators": [],
+              "name": "C",
+              "optional": false
+            }
+          },
+          {
+            "type": "TSExportAssignment",
+            "start": 135,
+            "end": 146,
+            "expression": {
+              "type": "Identifier",
+              "start": 144,
+              "end": 145,
+              "decorators": [],
+              "name": "X",
+              "optional": false
+            }
+          }
+        ]
+      },
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Literal",
+        "start": 15,
+        "end": 18,
+        "raw": "'M'",
+        "value": "M"
+      }
+    }
+  ],
+  "sourceType": "module"
+}
+```
+ambientExternalModuleWithInternalImportDeclaration_1.ts
+```json
+{
+  "type": "Program",
+  "start": 79,
+  "end": 120,
+  "body": [
+    {
+      "type": "TSImportEqualsDeclaration",
+      "start": 79,
+      "end": 103,
+      "id": {
+        "type": "Identifier",
+        "start": 86,
+        "end": 87,
+        "decorators": [],
+        "name": "A",
+        "optional": false
+      },
+      "importKind": "value",
+      "moduleReference": {
+        "type": "TSExternalModuleReference",
+        "start": 90,
+        "end": 102,
+        "expression": {
+          "type": "Literal",
+          "start": 98,
+          "end": 101,
+          "raw": "'M'",
+          "value": "M"
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 104,
+      "end": 120,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 108,
+          "end": 119,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 108,
+            "end": 109,
+            "decorators": [],
+            "name": "c",
+            "optional": false
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 112,
+            "end": 119,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 116,
+              "end": 117,
+              "decorators": [],
+              "name": "A",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "module"
+}
+```

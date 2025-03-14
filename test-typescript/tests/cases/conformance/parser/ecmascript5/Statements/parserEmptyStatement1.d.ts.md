@@ -1,0 +1,16 @@
+parserEmptyStatement1.d.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 1,
+  "body": [
+    {
+      "type": "EmptyStatement",
+      "start": 0,
+      "end": 1
+    }
+  ],
+  "sourceType": "script"
+}
+```

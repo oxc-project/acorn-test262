@@ -1,0 +1,383 @@
+classAbstractMixedWithModifiers.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 346,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 0,
+      "end": 345,
+      "abstract": true,
+      "body": {
+        "type": "ClassBody",
+        "start": 17,
+        "end": 345,
+        "body": [
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 23,
+            "end": 40,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 32,
+              "end": 37,
+              "decorators": [],
+              "name": "foo_a",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 37,
+              "end": 40,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 46,
+            "end": 70,
+            "accessibility": "public",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 62,
+              "end": 67,
+              "decorators": [],
+              "name": "foo_b",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 67,
+              "end": 70,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 75,
+            "end": 102,
+            "accessibility": "protected",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 94,
+              "end": 99,
+              "decorators": [],
+              "name": "foo_c",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 99,
+              "end": 102,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 107,
+            "end": 132,
+            "accessibility": "private",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 124,
+              "end": 129,
+              "decorators": [],
+              "name": "foo_d",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 129,
+              "end": 132,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 138,
+            "end": 163,
+            "accessibility": "public",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 154,
+              "end": 160,
+              "decorators": [],
+              "name": "foo_bb",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 160,
+              "end": 163,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 168,
+            "end": 196,
+            "accessibility": "protected",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 187,
+              "end": 193,
+              "decorators": [],
+              "name": "foo_cc",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 193,
+              "end": 196,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 201,
+            "end": 227,
+            "accessibility": "private",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 218,
+              "end": 224,
+              "decorators": [],
+              "name": "foo_dd",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 224,
+              "end": 227,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 233,
+            "end": 257,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 249,
+              "end": 254,
+              "decorators": [],
+              "name": "foo_d",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": true,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 254,
+              "end": 257,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 262,
+            "end": 286,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 278,
+              "end": 283,
+              "decorators": [],
+              "name": "foo_e",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": true,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 283,
+              "end": 286,
+              "async": false,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 292,
+            "end": 315,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 307,
+              "end": 312,
+              "decorators": [],
+              "name": "foo_f",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 312,
+              "end": 315,
+              "async": true,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          },
+          {
+            "type": "TSAbstractMethodDefinition",
+            "start": 320,
+            "end": 343,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 335,
+              "end": 340,
+              "decorators": [],
+              "name": "foo_g",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "TSEmptyBodyFunctionExpression",
+              "start": 340,
+              "end": 343,
+              "async": true,
+              "body": null,
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": []
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "decorators": [],
+        "name": "A",
+        "optional": false
+      },
+      "implements": [],
+      "superClass": null
+    }
+  ],
+  "sourceType": "script"
+}
+```

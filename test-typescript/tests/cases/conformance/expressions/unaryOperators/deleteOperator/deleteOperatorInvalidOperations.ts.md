@@ -1,0 +1,4 @@
+deleteOperatorInvalidOperations.ts
+```json
+',' expected.
+```

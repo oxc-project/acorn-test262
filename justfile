@@ -1,3 +1,4 @@
+# Copied from oxc-project/oxc/justfile
 [unix]
 clone-submodule dir url sha:
   cd {{dir}} || git init {{dir}}

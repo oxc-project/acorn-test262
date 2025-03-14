@@ -1,0 +1,4 @@
+errorRecoveryInClassDeclaration.ts
+```json
+',' expected.
+```

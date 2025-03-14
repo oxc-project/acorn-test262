@@ -1,0 +1,4 @@
+objectLiteralShorthandPropertiesErrorFromNotUsingIdentifier.ts
+```json
+':' expected.
+```

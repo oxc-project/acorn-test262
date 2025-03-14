@@ -1,0 +1,170 @@
+functionCall6.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 73,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 24,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 24,
+        "body": []
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 13,
+          "end": 21,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 14,
+            "end": 21,
+            "typeAnnotation": {
+              "type": "TSStringKeyword",
+              "start": 15,
+              "end": 21
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "EmptyStatement",
+      "start": 24,
+      "end": 25
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 27,
+      "end": 38,
+      "expression": {
+        "type": "CallExpression",
+        "start": 27,
+        "end": 37,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 31,
+            "end": 36,
+            "raw": "'bar'",
+            "value": "bar"
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 27,
+          "end": 30,
+          "decorators": [],
+          "name": "foo",
+          "optional": false
+        },
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 39,
+      "end": 46,
+      "expression": {
+        "type": "CallExpression",
+        "start": 39,
+        "end": 45,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 43,
+            "end": 44,
+            "raw": "2",
+            "value": 2
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 39,
+          "end": 42,
+          "decorators": [],
+          "name": "foo",
+          "optional": false
+        },
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 47,
+      "end": 65,
+      "expression": {
+        "type": "CallExpression",
+        "start": 47,
+        "end": 64,
+        "arguments": [
+          {
+            "type": "Literal",
+            "start": 51,
+            "end": 56,
+            "raw": "'foo'",
+            "value": "foo"
+          },
+          {
+            "type": "Literal",
+            "start": 58,
+            "end": 63,
+            "raw": "'bar'",
+            "value": "bar"
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 47,
+          "end": 50,
+          "decorators": [],
+          "name": "foo",
+          "optional": false
+        },
+        "optional": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 66,
+      "end": 72,
+      "expression": {
+        "type": "CallExpression",
+        "start": 66,
+        "end": 71,
+        "arguments": [],
+        "callee": {
+          "type": "Identifier",
+          "start": 66,
+          "end": 69,
+          "decorators": [],
+          "name": "foo",
+          "optional": false
+        },
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+```

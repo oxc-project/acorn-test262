@@ -1,0 +1,10 @@
+/a.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 0,
+  "body": [],
+  "sourceType": "module"
+}
+```

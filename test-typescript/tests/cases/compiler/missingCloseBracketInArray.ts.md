@@ -1,0 +1,4 @@
+missingCloseBracketInArray.ts
+```json
+']' expected.
+```

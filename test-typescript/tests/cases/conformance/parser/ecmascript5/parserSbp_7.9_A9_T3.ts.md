@@ -1,0 +1,47 @@
+parserSbp_7.9_A9_T3.ts
+```json
+{
+  "type": "Program",
+  "start": 312,
+  "end": 343,
+  "body": [
+    {
+      "type": "DoWhileStatement",
+      "start": 312,
+      "end": 336,
+      "body": {
+        "type": "BlockStatement",
+        "start": 315,
+        "end": 322,
+        "body": [
+          {
+            "type": "EmptyStatement",
+            "start": 319,
+            "end": 320
+          }
+        ]
+      },
+      "test": {
+        "type": "Literal",
+        "start": 330,
+        "end": 335,
+        "raw": "false",
+        "value": false
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 337,
+      "end": 341,
+      "expression": {
+        "type": "Literal",
+        "start": 337,
+        "end": 341,
+        "raw": "true",
+        "value": true
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+```

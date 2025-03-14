@@ -1,0 +1,4 @@
+binaryIntegerLiteralError.ts
+```json
+',' expected.
+```

@@ -1,0 +1,446 @@
+comparisonOperatorWithIdenticalTypeParameter.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 193,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 193,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 193,
+        "body": [
+          {
+            "type": "VariableDeclaration",
+            "start": 28,
+            "end": 43,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 32,
+                "end": 42,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 32,
+                  "end": 34,
+                  "decorators": [],
+                  "name": "r1",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 37,
+                  "end": 42,
+                  "operator": "<",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 37,
+                    "end": 38,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 41,
+                    "end": 42,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 48,
+            "end": 63,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 52,
+                "end": 62,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 52,
+                  "end": 54,
+                  "decorators": [],
+                  "name": "r2",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 57,
+                  "end": 62,
+                  "operator": ">",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 57,
+                    "end": 58,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 61,
+                    "end": 62,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 68,
+            "end": 84,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 72,
+                "end": 83,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 72,
+                  "end": 74,
+                  "decorators": [],
+                  "name": "r3",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 77,
+                  "end": 83,
+                  "operator": "<=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 77,
+                    "end": 78,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 82,
+                    "end": 83,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 89,
+            "end": 105,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 93,
+                "end": 104,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 93,
+                  "end": 95,
+                  "decorators": [],
+                  "name": "r4",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 98,
+                  "end": 104,
+                  "operator": ">=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 98,
+                    "end": 99,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 103,
+                    "end": 104,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 110,
+            "end": 126,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 114,
+                "end": 125,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 114,
+                  "end": 116,
+                  "decorators": [],
+                  "name": "r5",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 119,
+                  "end": 125,
+                  "operator": "==",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 119,
+                    "end": 120,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 124,
+                    "end": 125,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 131,
+            "end": 147,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 135,
+                "end": 146,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 135,
+                  "end": 137,
+                  "decorators": [],
+                  "name": "r6",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 140,
+                  "end": 146,
+                  "operator": "!=",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 140,
+                    "end": 141,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 145,
+                    "end": 146,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 152,
+            "end": 169,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 156,
+                "end": 168,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 156,
+                  "end": 158,
+                  "decorators": [],
+                  "name": "r7",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 161,
+                  "end": 168,
+                  "operator": "===",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 161,
+                    "end": 162,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 167,
+                    "end": 168,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          },
+          {
+            "type": "VariableDeclaration",
+            "start": 174,
+            "end": 191,
+            "declarations": [
+              {
+                "type": "VariableDeclarator",
+                "start": 178,
+                "end": 190,
+                "definite": false,
+                "id": {
+                  "type": "Identifier",
+                  "start": 178,
+                  "end": 180,
+                  "decorators": [],
+                  "name": "r8",
+                  "optional": false
+                },
+                "init": {
+                  "type": "BinaryExpression",
+                  "start": 183,
+                  "end": 190,
+                  "operator": "!==",
+                  "left": {
+                    "type": "Identifier",
+                    "start": 183,
+                    "end": 184,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "start": 189,
+                    "end": 190,
+                    "decorators": [],
+                    "name": "t",
+                    "optional": false
+                  }
+                }
+              }
+            ],
+            "declare": false,
+            "kind": "var"
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 16,
+          "end": 20,
+          "decorators": [],
+          "name": "t",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 17,
+            "end": 20,
+            "typeAnnotation": {
+              "type": "TSTypeReference",
+              "start": 19,
+              "end": 20,
+              "typeName": {
+                "type": "Identifier",
+                "start": 19,
+                "end": 20,
+                "decorators": [],
+                "name": "T",
+                "optional": false
+              }
+            }
+          }
+        }
+      ],
+      "typeParameters": {
+        "type": "TSTypeParameterDeclaration",
+        "start": 12,
+        "end": 15,
+        "params": [
+          {
+            "type": "TSTypeParameter",
+            "start": 13,
+            "end": 14,
+            "const": false,
+            "in": false,
+            "name": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 14,
+              "decorators": [],
+              "name": "T",
+              "optional": false
+            },
+            "out": false
+          }
+        ]
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+```

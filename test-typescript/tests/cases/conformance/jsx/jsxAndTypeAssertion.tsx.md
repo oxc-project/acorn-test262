@@ -1,0 +1,4 @@
+jsxAndTypeAssertion.tsx
+```json
+'}' expected.
+```

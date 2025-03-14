@@ -1,0 +1,4 @@
+constructorWithIncompleteTypeAnnotation.ts
+```json
+';' expected.
+```

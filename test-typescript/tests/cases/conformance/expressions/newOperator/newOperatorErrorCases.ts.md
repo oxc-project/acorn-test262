@@ -1,0 +1,4 @@
+newOperatorErrorCases.ts
+```json
+',' expected.
+```

@@ -1,0 +1,48 @@
+commentOnArrayElement14.ts
+```json
+{
+  "type": "Program",
+  "start": 1,
+  "end": 34,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 1,
+      "end": 33,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 7,
+          "end": 32,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 7,
+            "end": 12,
+            "decorators": [],
+            "name": "array",
+            "optional": false
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 15,
+            "end": 32,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 16,
+                "end": 17,
+                "raw": "1",
+                "value": 1
+              }
+            ]
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "const"
+    }
+  ],
+  "sourceType": "script"
+}
+```

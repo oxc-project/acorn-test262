@@ -1,0 +1,4 @@
+exportInFunction.ts
+```json
+'}' expected.
+```

@@ -1,0 +1,4 @@
+canFollowGetSetKeyword.ts
+```json
+',' expected.
+```

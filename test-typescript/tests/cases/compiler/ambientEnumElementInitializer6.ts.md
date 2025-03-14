@@ -1,0 +1,77 @@
+ambientEnumElementInitializer6.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 53,
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 53,
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 17,
+        "end": 53,
+        "body": [
+          {
+            "type": "TSEnumDeclaration",
+            "start": 23,
+            "end": 51,
+            "body": {
+              "type": "TSEnumBody",
+              "start": 30,
+              "end": 51,
+              "members": [
+                {
+                  "type": "TSEnumMember",
+                  "start": 40,
+                  "end": 45,
+                  "computed": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 40,
+                    "end": 41,
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false
+                  },
+                  "initializer": {
+                    "type": "Literal",
+                    "start": 44,
+                    "end": 45,
+                    "raw": "3",
+                    "value": 3
+                  }
+                }
+              ]
+            },
+            "const": false,
+            "declare": false,
+            "id": {
+              "type": "Identifier",
+              "start": 28,
+              "end": 29,
+              "decorators": [],
+              "name": "E",
+              "optional": false
+            }
+          }
+        ]
+      },
+      "declare": true,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "start": 15,
+        "end": 16,
+        "decorators": [],
+        "name": "M",
+        "optional": false
+      },
+      "kind": "module"
+    }
+  ],
+  "sourceType": "script"
+}
+```

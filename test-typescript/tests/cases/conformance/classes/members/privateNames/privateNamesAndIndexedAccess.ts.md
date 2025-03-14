@@ -1,0 +1,4 @@
+privateNamesAndIndexedAccess.ts
+```json
+']' expected.
+```

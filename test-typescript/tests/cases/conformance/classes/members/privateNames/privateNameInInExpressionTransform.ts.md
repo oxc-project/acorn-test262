@@ -1,0 +1,4 @@
+privateNameInInExpressionTransform.ts
+```json
+';' expected.
+```

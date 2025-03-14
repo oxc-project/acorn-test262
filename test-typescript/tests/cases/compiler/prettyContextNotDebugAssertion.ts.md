@@ -1,0 +1,4 @@
+index.ts
+```json
+'}' expected.
+```

@@ -1,0 +1,4 @@
+staticsInAFunction.ts
+```json
+'(' expected.
+```

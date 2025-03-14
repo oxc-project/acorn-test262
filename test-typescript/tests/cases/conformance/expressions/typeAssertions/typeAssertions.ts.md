@@ -1,0 +1,4 @@
+typeAssertions.ts
+```json
+'>' expected.
+```

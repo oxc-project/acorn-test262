@@ -1,0 +1,55 @@
+arrayLiteral1.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 17,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 17,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 16,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 4,
+            "end": 7,
+            "decorators": [],
+            "name": "v30",
+            "optional": false
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 10,
+            "end": 16,
+            "elements": [
+              {
+                "type": "Literal",
+                "start": 11,
+                "end": 12,
+                "raw": "1",
+                "value": 1
+              },
+              {
+                "type": "Literal",
+                "start": 14,
+                "end": 15,
+                "raw": "2",
+                "value": 2
+              }
+            ]
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}
+```

@@ -1,0 +1,4 @@
+decrementOperatorWithAnyOtherTypeInvalidOperations.ts
+```json
+';' expected.
+```

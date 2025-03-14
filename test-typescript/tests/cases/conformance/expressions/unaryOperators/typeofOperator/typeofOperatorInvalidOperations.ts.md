@@ -1,0 +1,4 @@
+typeofOperatorInvalidOperations.ts
+```json
+',' expected.
+```

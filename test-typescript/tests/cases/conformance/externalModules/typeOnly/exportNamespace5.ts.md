@@ -1,0 +1,732 @@
+/a.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 54,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 17,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 7,
+        "end": 17,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 15,
+          "end": 17,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 13,
+          "end": 14,
+          "decorators": [],
+          "name": "A",
+          "optional": false
+        },
+        "implements": [],
+        "superClass": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 18,
+      "end": 35,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 25,
+        "end": 35,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 33,
+          "end": 35,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 31,
+          "end": 32,
+          "decorators": [],
+          "name": "B",
+          "optional": false
+        },
+        "implements": [],
+        "superClass": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 36,
+      "end": 53,
+      "attributes": [],
+      "declaration": {
+        "type": "ClassDeclaration",
+        "start": 43,
+        "end": 53,
+        "abstract": false,
+        "body": {
+          "type": "ClassBody",
+          "start": 51,
+          "end": 53,
+          "body": []
+        },
+        "declare": false,
+        "decorators": [],
+        "id": {
+          "type": "Identifier",
+          "start": 49,
+          "end": 50,
+          "decorators": [],
+          "name": "X",
+          "optional": false
+        },
+        "implements": [],
+        "superClass": null
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module"
+}
+```
+/b.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 51,
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "start": 0,
+      "end": 25,
+      "attributes": [],
+      "exported": null,
+      "exportKind": "type",
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "raw": "\"./a\"",
+        "value": "./a"
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 26,
+      "end": 50,
+      "attributes": [],
+      "declaration": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 44,
+        "end": 49,
+        "raw": "\"./a\"",
+        "value": "./a"
+      },
+      "specifiers": [
+        {
+          "type": "ExportSpecifier",
+          "start": 35,
+          "end": 36,
+          "exported": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 36,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          },
+          "exportKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 36,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module"
+}
+```
+/c.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 126,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 35,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 29,
+        "end": 34,
+        "raw": "\"./b\"",
+        "value": "./b"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 10,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "A",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "A",
+            "optional": false
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 12,
+          "end": 18,
+          "imported": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 13,
+            "decorators": [],
+            "name": "B",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 17,
+            "end": 18,
+            "decorators": [],
+            "name": "C",
+            "optional": false
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 20,
+          "end": 21,
+          "imported": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 21,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 20,
+            "end": 21,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 36,
+      "end": 55,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 40,
+          "end": 54,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 40,
+            "end": 44,
+            "decorators": [],
+            "name": "_",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 41,
+              "end": 44,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 43,
+                "end": 44,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 43,
+                  "end": 44,
+                  "decorators": [],
+                  "name": "A",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 47,
+            "end": 54,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 51,
+              "end": 52,
+              "decorators": [],
+              "name": "A",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 67,
+      "end": 87,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 71,
+          "end": 86,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 71,
+            "end": 76,
+            "decorators": [],
+            "name": "__",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 73,
+              "end": 76,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 75,
+                "end": 76,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 75,
+                  "end": 76,
+                  "decorators": [],
+                  "name": "C",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 79,
+            "end": 86,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 83,
+              "end": 84,
+              "decorators": [],
+              "name": "C",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 98,
+      "end": 119,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 102,
+          "end": 118,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 102,
+            "end": 108,
+            "decorators": [],
+            "name": "___",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 105,
+              "end": 108,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 107,
+                "end": 108,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 107,
+                  "end": 108,
+                  "decorators": [],
+                  "name": "X",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 111,
+            "end": 118,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 115,
+              "end": 116,
+              "decorators": [],
+              "name": "X",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    }
+  ],
+  "sourceType": "module"
+}
+```
+/d.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 47,
+  "body": [
+    {
+      "type": "ExportAllDeclaration",
+      "start": 0,
+      "end": 25,
+      "attributes": [],
+      "exported": null,
+      "exportKind": "type",
+      "source": {
+        "type": "Literal",
+        "start": 19,
+        "end": 24,
+        "raw": "\"./a\"",
+        "value": "./a"
+      }
+    },
+    {
+      "type": "ExportAllDeclaration",
+      "start": 26,
+      "end": 46,
+      "attributes": [],
+      "exported": null,
+      "exportKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 40,
+        "end": 45,
+        "raw": "\"./a\"",
+        "value": "./a"
+      }
+    }
+  ],
+  "sourceType": "module"
+}
+```
+/e.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 114,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 30,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 24,
+        "end": 29,
+        "raw": "\"./d\"",
+        "value": "./d"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 9,
+          "end": 10,
+          "imported": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "A",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 9,
+            "end": 10,
+            "decorators": [],
+            "name": "A",
+            "optional": false
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 12,
+          "end": 13,
+          "imported": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 13,
+            "decorators": [],
+            "name": "B",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 12,
+            "end": 13,
+            "decorators": [],
+            "name": "B",
+            "optional": false
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "start": 15,
+          "end": 16,
+          "imported": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 16,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 15,
+            "end": 16,
+            "decorators": [],
+            "name": "X",
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 31,
+      "end": 50,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 35,
+          "end": 49,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 35,
+            "end": 39,
+            "decorators": [],
+            "name": "_",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 36,
+              "end": 39,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 38,
+                "end": 39,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 38,
+                  "end": 39,
+                  "decorators": [],
+                  "name": "A",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 42,
+            "end": 49,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 46,
+              "end": 47,
+              "decorators": [],
+              "name": "A",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 59,
+      "end": 79,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 63,
+          "end": 78,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 63,
+            "end": 68,
+            "decorators": [],
+            "name": "__",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 65,
+              "end": 68,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 67,
+                "end": 68,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 67,
+                  "end": 68,
+                  "decorators": [],
+                  "name": "B",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 71,
+            "end": 78,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 75,
+              "end": 76,
+              "decorators": [],
+              "name": "B",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 87,
+      "end": 108,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 91,
+          "end": 107,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 91,
+            "end": 97,
+            "decorators": [],
+            "name": "___",
+            "optional": false,
+            "typeAnnotation": {
+              "type": "TSTypeAnnotation",
+              "start": 94,
+              "end": 97,
+              "typeAnnotation": {
+                "type": "TSTypeReference",
+                "start": 96,
+                "end": 97,
+                "typeName": {
+                  "type": "Identifier",
+                  "start": 96,
+                  "end": 97,
+                  "decorators": [],
+                  "name": "X",
+                  "optional": false
+                }
+              }
+            }
+          },
+          "init": {
+            "type": "NewExpression",
+            "start": 100,
+            "end": 107,
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "start": 104,
+              "end": 105,
+              "decorators": [],
+              "name": "X",
+              "optional": false
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "let"
+    }
+  ],
+  "sourceType": "module"
+}
+```

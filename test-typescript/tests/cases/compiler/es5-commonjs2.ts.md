@@ -1,0 +1,24 @@
+es5-commonjs2.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 18,
+  "body": [
+    {
+      "type": "ExportDefaultDeclaration",
+      "start": 0,
+      "end": 17,
+      "declaration": {
+        "type": "Literal",
+        "start": 15,
+        "end": 16,
+        "raw": "1",
+        "value": 1
+      },
+      "exportKind": "value"
+    }
+  ],
+  "sourceType": "script"
+}
+```

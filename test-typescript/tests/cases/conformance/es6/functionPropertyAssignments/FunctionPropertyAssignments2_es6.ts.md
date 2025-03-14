@@ -1,0 +1,4 @@
+FunctionPropertyAssignments2_es6.ts
+```json
+Identifier expected.
+```

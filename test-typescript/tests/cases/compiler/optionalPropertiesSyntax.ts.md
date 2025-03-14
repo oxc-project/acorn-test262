@@ -1,0 +1,4 @@
+optionalPropertiesSyntax.ts
+```json
+';' expected.
+```

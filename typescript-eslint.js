@@ -1,49 +1,57 @@
 import * as parser from "@typescript-eslint/parser";
 import fs from "node:fs";
 import path from "node:path";
+import { makeUnitsFromTest } from "./typescript-make-units-from-test.cjs";
 
 async function main() {
-  // https://github.com/typescript-eslint/typescript-eslint/blob/53c9d7926e281aa3e26ca13a6a3b8c585d2576b5/packages/ast-spec/tests/fixtures.test.ts#L42-L48
-  const srcDir = "typescript-eslint/packages/ast-spec/src";
-  const globFiles = fs.globSync("**/fixtures/*/fixture.{ts,tsx}", {
+  const srcDir = "typescript";
+  const srcFiles = fs.globSync([
+    "tests/cases/compiler/**/*",
+    "tests/cases/conformance/**/*",
+  ], {
     cwd: srcDir,
-  });
+    withFileTypes: true,
+  }).filter(e => !e.isDirectory()).map(e => path.join(e.parentPath, e.name));
 
-  // https://github.com/typescript-eslint/typescript-eslint/blob/53c9d7926e281aa3e26ca13a6a3b8c585d2576b5/packages/ast-spec/tests/util/parsers/typescript-estree.ts#L11-L19
-  function parseTSESTree(file, code) {
-    const result = parser.parseForESLint(code, {
-      sourceType: "module",
-      ecmaFeatures: {
-        jsx: file.endsWith("x"),
-      },
-    });
-    const { comments, tokens, ...program } = result.ast;
-    return program;
-  }
-
+  // match acorn-like estree output
   function jsonReplacer(_k, v) {
     if (v && typeof v === "object") {
       if ("loc" in v) {
         v = { ...v, loc: undefined };
       }
       if ("range" in v) {
-        v = { ...v, start: v.range[0], end: v.range[1], range: undefined };
+        v = { type: v.type, start: v.range[0], end: v.range[1], ...v, range: undefined };
       }
     }
     return v;
   }
 
-  const destDir = "typescript-eslint-output";
-  for (const globFile of globFiles) {
-    const srcFile = path.join(srcDir, globFile);
-    const code = fs.readFileSync(srcFile, "utf8");
-    const result = parseTSESTree(globFile, code);
-    const resultJson = JSON.stringify(result, jsonReplacer, 2);
+  const destDir = "test-typescript";
+  fs.rmSync(destDir, { recursive: true, force: true });
 
-    const destFile = path.join(destDir, globFile + ".json");
+  for (const srcFile of srcFiles) {
+    const code = fs.readFileSync(srcFile, "utf-8");
+    const { tests } = makeUnitsFromTest(srcFile, code);
+    let output = ``;
+    for (const test of tests) {
+      try {
+        const result = parser.parseForESLint(test.content, {
+          filePath: srcFile,
+          sourceType: test.sourceType.module ? "module" : "script",
+          ecmaFeatures: {
+            jsx: test.sourceType.jsx,
+          },
+        });
+        const { comments, tokens, ...program } = result.ast;
+        const astJson = JSON.stringify(program, jsonReplacer, 2);
+        output += test.name + "\n```json\n" + astJson + "\n```\n";
+      } catch (e) {
+        output += test.name + "\n```json\n" + e.message + "\n```\n";
+      }
+    }
+    const destFile = path.join(destDir, path.relative(srcDir, srcFile) + ".md");
     fs.mkdirSync(path.dirname(destFile), { recursive: true });
-    fs.writeFileSync(destFile, resultJson);
-    fs.cpSync(srcFile, path.join(destDir, globFile));
+    fs.writeFileSync(destFile, output);
   }
 }
 

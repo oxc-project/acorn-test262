@@ -1,0 +1,4 @@
+missingCloseBraceInObjectLiteral.ts
+```json
+'}' expected.
+```

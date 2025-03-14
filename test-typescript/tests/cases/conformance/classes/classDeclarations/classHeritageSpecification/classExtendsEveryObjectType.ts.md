@@ -1,0 +1,4 @@
+classExtendsEveryObjectType.ts
+```json
+',' expected.
+```

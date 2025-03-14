@@ -1,0 +1,4 @@
+moduleKeywordRepeatError.ts
+```json
+';' expected.
+```

@@ -1,0 +1,86 @@
+functionOverloads11.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 59,
+  "body": [
+    {
+      "type": "TSDeclareFunction",
+      "start": 0,
+      "end": 22,
+      "async": false,
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 12,
+        "decorators": [],
+        "name": "foo",
+        "optional": false
+      },
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 14,
+        "end": 21,
+        "typeAnnotation": {
+          "type": "TSNumberKeyword",
+          "start": 15,
+          "end": 21
+        }
+      }
+    },
+    {
+      "type": "FunctionDeclaration",
+      "start": 23,
+      "end": 58,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 45,
+        "end": 58,
+        "body": [
+          {
+            "type": "ReturnStatement",
+            "start": 47,
+            "end": 56,
+            "argument": {
+              "type": "Literal",
+              "start": 54,
+              "end": 56,
+              "raw": "\"\"",
+              "value": ""
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 32,
+        "end": 35,
+        "decorators": [],
+        "name": "foo",
+        "optional": false
+      },
+      "params": [],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 37,
+        "end": 44,
+        "typeAnnotation": {
+          "type": "TSStringKeyword",
+          "start": 38,
+          "end": 44
+        }
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+```

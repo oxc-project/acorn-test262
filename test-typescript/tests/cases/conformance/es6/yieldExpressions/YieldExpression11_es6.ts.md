@@ -1,0 +1,92 @@
+YieldExpression11_es6.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 42,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 0,
+      "end": 42,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 8,
+        "end": 42,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 12,
+            "end": 40,
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 13,
+              "end": 16,
+              "decorators": [],
+              "name": "foo",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 16,
+              "end": 40,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 19,
+                "end": 40,
+                "body": [
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 25,
+                    "end": 36,
+                    "expression": {
+                      "type": "YieldExpression",
+                      "start": 25,
+                      "end": 35,
+                      "argument": {
+                        "type": "Identifier",
+                        "start": 31,
+                        "end": 34,
+                        "decorators": [],
+                        "name": "foo",
+                        "optional": false
+                      },
+                      "delegate": false
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": true,
+              "id": null,
+              "params": []
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 7,
+        "decorators": [],
+        "name": "C",
+        "optional": false
+      },
+      "implements": [],
+      "superClass": null
+    }
+  ],
+  "sourceType": "script"
+}
+```

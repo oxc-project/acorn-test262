@@ -1,0 +1,4 @@
+quickIntersectionCheckCorrectlyCachesErrors.tsx
+```json
+'>' expected.
+```

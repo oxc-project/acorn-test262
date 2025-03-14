@@ -1,0 +1,392 @@
+c:/root/folder1/file1.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 92,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 31,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 16,
+        "end": 31,
+        "raw": "\"folder2/file2\"",
+        "value": "folder2/file2"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 8,
+          "end": 9,
+          "imported": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 9,
+            "decorators": [],
+            "name": "x",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 9,
+            "decorators": [],
+            "name": "x",
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "TSDeclareFunction",
+      "start": 32,
+      "end": 67,
+      "async": false,
+      "declare": true,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 49,
+        "end": 52,
+        "decorators": [],
+        "name": "use",
+        "optional": false
+      },
+      "params": [
+        {
+          "type": "Identifier",
+          "start": 53,
+          "end": 59,
+          "decorators": [],
+          "name": "a",
+          "optional": false,
+          "typeAnnotation": {
+            "type": "TSTypeAnnotation",
+            "start": 54,
+            "end": 59,
+            "typeAnnotation": {
+              "type": "TSAnyKeyword",
+              "start": 56,
+              "end": 59
+            }
+          }
+        }
+      ],
+      "returnType": {
+        "type": "TSTypeAnnotation",
+        "start": 60,
+        "end": 66,
+        "typeAnnotation": {
+          "type": "TSVoidKeyword",
+          "start": 62,
+          "end": 66
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 68,
+      "end": 91,
+      "expression": {
+        "type": "CallExpression",
+        "start": 68,
+        "end": 90,
+        "arguments": [
+          {
+            "type": "CallExpression",
+            "start": 72,
+            "end": 89,
+            "arguments": [],
+            "callee": {
+              "type": "MemberExpression",
+              "start": 72,
+              "end": 87,
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "start": 72,
+                "end": 73,
+                "decorators": [],
+                "name": "x",
+                "optional": false
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "start": 74,
+                "end": 87,
+                "decorators": [],
+                "name": "toExponential",
+                "optional": false
+              }
+            },
+            "optional": false
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 68,
+          "end": 71,
+          "decorators": [],
+          "name": "use",
+          "optional": false
+        },
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "module"
+}
+```
+c:/root/folder2/file2.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 131,
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "start": 0,
+      "end": 30,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 21,
+        "end": 30,
+        "raw": "\"./file3\"",
+        "value": "./file3"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 8,
+          "end": 14,
+          "imported": {
+            "type": "Identifier",
+            "start": 8,
+            "end": 9,
+            "decorators": [],
+            "name": "x",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 13,
+            "end": 14,
+            "decorators": [],
+            "name": "a",
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "start": 54,
+      "end": 82,
+      "attributes": [],
+      "importKind": "value",
+      "source": {
+        "type": "Literal",
+        "start": 75,
+        "end": 82,
+        "raw": "\"file4\"",
+        "value": "file4"
+      },
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "start": 62,
+          "end": 68,
+          "imported": {
+            "type": "Identifier",
+            "start": 62,
+            "end": 63,
+            "decorators": [],
+            "name": "y",
+            "optional": false
+          },
+          "importKind": "value",
+          "local": {
+            "type": "Identifier",
+            "start": 67,
+            "end": 68,
+            "decorators": [],
+            "name": "b",
+            "optional": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 109,
+      "end": 130,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 116,
+        "end": 130,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 120,
+            "end": 129,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 120,
+              "end": 121,
+              "decorators": [],
+              "name": "x",
+              "optional": false
+            },
+            "init": {
+              "type": "BinaryExpression",
+              "start": 124,
+              "end": 129,
+              "operator": "+",
+              "left": {
+                "type": "Identifier",
+                "start": 124,
+                "end": 125,
+                "decorators": [],
+                "name": "a",
+                "optional": false
+              },
+              "right": {
+                "type": "Identifier",
+                "start": 128,
+                "end": 129,
+                "decorators": [],
+                "name": "b",
+                "optional": false
+              }
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "var"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module"
+}
+```
+c:/root/folder2/file3.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 18,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 17,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 7,
+        "end": 17,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 11,
+            "end": 16,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 12,
+              "decorators": [],
+              "name": "x",
+              "optional": false
+            },
+            "init": {
+              "type": "Literal",
+              "start": 15,
+              "end": 16,
+              "raw": "1",
+              "value": 1
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "var"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module"
+}
+```
+c:/node_modules/file4/index.d.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 21,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 21,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 7,
+        "end": 21,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 11,
+            "end": 20,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 11,
+              "end": 20,
+              "decorators": [],
+              "name": "y",
+              "optional": false,
+              "typeAnnotation": {
+                "type": "TSTypeAnnotation",
+                "start": 12,
+                "end": 20,
+                "typeAnnotation": {
+                  "type": "TSNumberKeyword",
+                  "start": 14,
+                  "end": 20
+                }
+              }
+            },
+            "init": null
+          }
+        ],
+        "declare": false,
+        "kind": "var"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "module"
+}
+```

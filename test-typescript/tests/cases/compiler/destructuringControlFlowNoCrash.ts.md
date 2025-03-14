@@ -1,0 +1,4 @@
+destructuringControlFlowNoCrash.ts
+```json
+'=>' expected.
+```

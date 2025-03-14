@@ -1,0 +1,75 @@
+parserAmbiguity2.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 12,
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "start": 0,
+      "end": 12,
+      "expression": {
+        "type": "CallExpression",
+        "start": 0,
+        "end": 11,
+        "arguments": [
+          {
+            "type": "BinaryExpression",
+            "start": 2,
+            "end": 5,
+            "operator": "<",
+            "left": {
+              "type": "Identifier",
+              "start": 2,
+              "end": 3,
+              "decorators": [],
+              "name": "g",
+              "optional": false
+            },
+            "right": {
+              "type": "Identifier",
+              "start": 4,
+              "end": 5,
+              "decorators": [],
+              "name": "A",
+              "optional": false
+            }
+          },
+          {
+            "type": "BinaryExpression",
+            "start": 7,
+            "end": 10,
+            "operator": ">",
+            "left": {
+              "type": "Identifier",
+              "start": 7,
+              "end": 8,
+              "decorators": [],
+              "name": "B",
+              "optional": false
+            },
+            "right": {
+              "type": "Literal",
+              "start": 9,
+              "end": 10,
+              "raw": "7",
+              "value": 7
+            }
+          }
+        ],
+        "callee": {
+          "type": "Identifier",
+          "start": 0,
+          "end": 1,
+          "decorators": [],
+          "name": "f",
+          "optional": false
+        },
+        "optional": false
+      }
+    }
+  ],
+  "sourceType": "script"
+}
+```

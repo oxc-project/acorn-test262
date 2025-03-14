@@ -1,0 +1,4 @@
+functionTypesLackingReturnTypes.ts
+```json
+'=>' expected.
+```

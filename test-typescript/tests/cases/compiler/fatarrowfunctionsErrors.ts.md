@@ -1,0 +1,4 @@
+fatarrowfunctionsErrors.ts
+```json
+',' expected.
+```

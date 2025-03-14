@@ -1,0 +1,4 @@
+incrementOperatorWithAnyOtherTypeInvalidOperations.ts
+```json
+';' expected.
+```

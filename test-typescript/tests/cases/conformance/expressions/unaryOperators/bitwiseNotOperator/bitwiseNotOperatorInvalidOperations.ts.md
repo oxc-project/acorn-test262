@@ -1,0 +1,4 @@
+bitwiseNotOperatorInvalidOperations.ts
+```json
+',' expected.
+```

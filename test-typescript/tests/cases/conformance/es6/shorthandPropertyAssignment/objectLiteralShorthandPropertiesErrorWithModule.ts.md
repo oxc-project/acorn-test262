@@ -1,0 +1,4 @@
+objectLiteralShorthandPropertiesErrorWithModule.ts
+```json
+',' expected.
+```

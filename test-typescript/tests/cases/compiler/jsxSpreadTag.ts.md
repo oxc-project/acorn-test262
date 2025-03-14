@@ -1,0 +1,4 @@
+/a.tsx
+```json
+'>' expected.
+```

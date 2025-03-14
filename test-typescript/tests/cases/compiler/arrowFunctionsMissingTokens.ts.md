@@ -1,0 +1,4 @@
+arrowFunctionsMissingTokens.ts
+```json
+'=>' expected.
+```

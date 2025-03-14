@@ -1,0 +1,4 @@
+classAbstractConstructor.ts
+```json
+'abstract' modifier can only appear on a class, method, or property declaration.
+```

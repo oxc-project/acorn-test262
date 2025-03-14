@@ -1,0 +1,4 @@
+templateStringWithEmbeddedYieldKeyword.ts
+```json
+'(' expected.
+```

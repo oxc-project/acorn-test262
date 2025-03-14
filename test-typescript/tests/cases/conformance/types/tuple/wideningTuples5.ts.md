@@ -1,0 +1,73 @@
+wideningTuples5.ts
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 31,
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 31,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 4,
+          "end": 30,
+          "definite": false,
+          "id": {
+            "type": "ArrayPattern",
+            "start": 4,
+            "end": 10,
+            "decorators": [],
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 5,
+                "end": 6,
+                "decorators": [],
+                "name": "a",
+                "optional": false
+              },
+              {
+                "type": "Identifier",
+                "start": 8,
+                "end": 9,
+                "decorators": [],
+                "name": "b",
+                "optional": false
+              }
+            ],
+            "optional": false
+          },
+          "init": {
+            "type": "ArrayExpression",
+            "start": 13,
+            "end": 30,
+            "elements": [
+              {
+                "type": "Identifier",
+                "start": 14,
+                "end": 23,
+                "decorators": [],
+                "name": "undefined",
+                "optional": false
+              },
+              {
+                "type": "Literal",
+                "start": 25,
+                "end": 29,
+                "raw": "null",
+                "value": null
+              }
+            ]
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script"
+}
+```

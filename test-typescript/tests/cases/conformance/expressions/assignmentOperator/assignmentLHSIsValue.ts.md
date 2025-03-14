@@ -1,0 +1,4 @@
+assignmentLHSIsValue.ts
+```json
+Declaration or statement expected. This '=' follows a block of statements, so if you intended to write a destructuring assignment, you might need to wrap the whole assignment in parentheses.
+```

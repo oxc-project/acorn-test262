@@ -1,0 +1,4 @@
+overloadingStaticFunctionsInFunctions.ts
+```json
+'(' expected.
+```

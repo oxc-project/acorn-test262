@@ -1,0 +1,4 @@
+assertInWrapSomeTypeParameter.ts
+```json
+'>' expected.
+```

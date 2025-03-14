@@ -1,0 +1,4 @@
+numericNamedPropertyDuplicates.ts
+```json
+',' expected.
+```
