@@ -1,0 +1,168 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 133,
+  "body": [
+    {
+      "type": "ClassDeclaration",
+      "start": 0,
+      "end": 133,
+      "abstract": false,
+      "body": {
+        "type": "ClassBody",
+        "start": 12,
+        "end": 133,
+        "body": [
+          {
+            "type": "MethodDefinition",
+            "start": 18,
+            "end": 131,
+            "accessibility": "public",
+            "computed": false,
+            "decorators": [],
+            "key": {
+              "type": "Identifier",
+              "start": 25,
+              "end": 32,
+              "decorators": [],
+              "name": "greeter",
+              "optional": false
+            },
+            "kind": "method",
+            "optional": false,
+            "override": false,
+            "static": false,
+            "value": {
+              "type": "FunctionExpression",
+              "start": 32,
+              "end": 131,
+              "async": false,
+              "body": {
+                "type": "BlockStatement",
+                "start": 66,
+                "end": 131,
+                "body": [
+                  {
+                    "type": "VariableDeclaration",
+                    "start": 76,
+                    "end": 92,
+                    "declarations": [
+                      {
+                        "type": "VariableDeclarator",
+                        "start": 80,
+                        "end": 91,
+                        "definite": false,
+                        "id": {
+                          "type": "Identifier",
+                          "start": 80,
+                          "end": 86,
+                          "decorators": [],
+                          "name": "unused",
+                          "optional": false
+                        },
+                        "init": {
+                          "type": "Literal",
+                          "start": 89,
+                          "end": 91,
+                          "raw": "20",
+                          "value": 20
+                        }
+                      }
+                    ],
+                    "declare": false,
+                    "kind": "var"
+                  },
+                  {
+                    "type": "ExpressionStatement",
+                    "start": 101,
+                    "end": 125,
+                    "expression": {
+                      "type": "AssignmentExpression",
+                      "start": 101,
+                      "end": 124,
+                      "operator": "=",
+                      "left": {
+                        "type": "Identifier",
+                        "start": 101,
+                        "end": 108,
+                        "decorators": [],
+                        "name": "person2",
+                        "optional": false
+                      },
+                      "right": {
+                        "type": "Literal",
+                        "start": 111,
+                        "end": 124,
+                        "raw": "\"dummy value\"",
+                        "value": "dummy value"
+                      }
+                    }
+                  }
+                ]
+              },
+              "declare": false,
+              "expression": false,
+              "generator": false,
+              "id": null,
+              "params": [
+                {
+                  "type": "Identifier",
+                  "start": 33,
+                  "end": 47,
+                  "decorators": [],
+                  "name": "person",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 39,
+                    "end": 47,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 41,
+                      "end": 47
+                    }
+                  }
+                },
+                {
+                  "type": "Identifier",
+                  "start": 49,
+                  "end": 64,
+                  "decorators": [],
+                  "name": "person2",
+                  "optional": false,
+                  "typeAnnotation": {
+                    "type": "TSTypeAnnotation",
+                    "start": 56,
+                    "end": 64,
+                    "typeAnnotation": {
+                      "type": "TSStringKeyword",
+                      "start": 58,
+                      "end": 64
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "declare": false,
+      "decorators": [],
+      "id": {
+        "type": "Identifier",
+        "start": 6,
+        "end": 11,
+        "decorators": [],
+        "name": "Dummy",
+        "optional": false
+      },
+      "implements": [],
+      "superClass": null
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```

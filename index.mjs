@@ -2,9 +2,7 @@ import { Parser } from "acorn";
 import fs from "fs/promises";
 import path from "path";
 import YAML from "yaml";
-
-const INFINITY_PLACEHOLDER = "__INFINITY__INFINITY__INFINITY__";
-const INFINITY_REGEXP = new RegExp(`"${INFINITY_PLACEHOLDER}"`, "g");
+import { jsonStringify } from "./utils/json.js";
 
 async function* walk(dir) {
   for await (const d of await fs.opendir(dir)) {
@@ -56,12 +54,7 @@ for await (const p of walk("./test262/test")) {
       // It defaults to `true` for modules, `false` for scripts, which is what we want.
     });
 
-    // Add `hashbang` field
-    ast.hashbang = null;
-
-    // Serialize to JSON, with modifications
-    let json = JSON.stringify(ast, transformer, 2);
-    json = json.replace(INFINITY_REGEXP, "1e+400");
+    const json = jsonStringify(ast);
 
     await fs.writeFile(writeFile, json);
   } catch (err) {
@@ -71,22 +64,3 @@ for await (const p of walk("./test262/test")) {
 }
 
 console.log("Done.");
-
-// Replace `RegExp`s and `BigInt`s with `null`.
-//
-// Replace `Infinity` with `"__INFINITY__INFINITY__INFINITY__"` placeholder
-// which will be replaced in JSON with `1e+400`.
-//
-// Sort RegExp `Literal`s' `regex.flags` property in alphabetical order, the way V8 does.
-function transformer(_key, value) {
-  if (typeof value === "bigint") return null;
-  if (value === Infinity) return INFINITY_PLACEHOLDER;
-  if (
-    typeof value === "object" && value !== null && Object.hasOwn(value, "type") && value.type === "Literal" &&
-    Object.hasOwn(value, "regex")
-  ) {
-    value.regex.flags = [...value.regex.flags].sort().join("");
-    value.value = null;
-  }
-  return value;
-}

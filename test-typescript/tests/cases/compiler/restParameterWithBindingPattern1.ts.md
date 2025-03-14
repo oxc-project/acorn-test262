@@ -1,0 +1,105 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 25,
+  "body": [
+    {
+      "type": "FunctionDeclaration",
+      "start": 0,
+      "end": 25,
+      "async": false,
+      "body": {
+        "type": "BlockStatement",
+        "start": 22,
+        "end": 25,
+        "body": []
+      },
+      "declare": false,
+      "expression": false,
+      "generator": false,
+      "id": {
+        "type": "Identifier",
+        "start": 9,
+        "end": 10,
+        "decorators": [],
+        "name": "a",
+        "optional": false
+      },
+      "params": [
+        {
+          "type": "RestElement",
+          "start": 11,
+          "end": 20,
+          "argument": {
+            "type": "ObjectPattern",
+            "start": 14,
+            "end": 20,
+            "decorators": [],
+            "optional": false,
+            "properties": [
+              {
+                "type": "Property",
+                "start": 15,
+                "end": 16,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 15,
+                  "end": 16,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "start": 15,
+                  "end": 16,
+                  "decorators": [],
+                  "name": "a",
+                  "optional": false
+                }
+              },
+              {
+                "type": "Property",
+                "start": 18,
+                "end": 19,
+                "computed": false,
+                "key": {
+                  "type": "Identifier",
+                  "start": 18,
+                  "end": 19,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": true,
+                "value": {
+                  "type": "Identifier",
+                  "start": 18,
+                  "end": 19,
+                  "decorators": [],
+                  "name": "b",
+                  "optional": false
+                }
+              }
+            ]
+          },
+          "decorators": [],
+          "optional": false
+        }
+      ]
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```

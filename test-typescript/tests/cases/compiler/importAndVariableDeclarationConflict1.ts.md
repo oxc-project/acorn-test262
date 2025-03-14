@@ -1,0 +1,139 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 63,
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "start": 0,
+      "end": 33,
+      "body": {
+        "type": "TSModuleBlock",
+        "start": 9,
+        "end": 33,
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "start": 13,
+            "end": 31,
+            "attributes": [],
+            "declaration": {
+              "type": "VariableDeclaration",
+              "start": 20,
+              "end": 31,
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "start": 24,
+                  "end": 30,
+                  "definite": false,
+                  "id": {
+                    "type": "Identifier",
+                    "start": 24,
+                    "end": 25,
+                    "decorators": [],
+                    "name": "m",
+                    "optional": false
+                  },
+                  "init": {
+                    "type": "Literal",
+                    "start": 28,
+                    "end": 30,
+                    "raw": "''",
+                    "value": ""
+                  }
+                }
+              ],
+              "declare": false,
+              "kind": "var"
+            },
+            "exportKind": "value",
+            "source": null,
+            "specifiers": []
+          }
+        ]
+      },
+      "declare": false,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "start": 7,
+        "end": 8,
+        "decorators": [],
+        "name": "m",
+        "optional": false
+      },
+      "kind": "module"
+    },
+    {
+      "type": "TSImportEqualsDeclaration",
+      "start": 35,
+      "end": 50,
+      "id": {
+        "type": "Identifier",
+        "start": 42,
+        "end": 43,
+        "decorators": [],
+        "name": "x",
+        "optional": false
+      },
+      "importKind": "value",
+      "moduleReference": {
+        "type": "TSQualifiedName",
+        "start": 46,
+        "end": 49,
+        "left": {
+          "type": "Identifier",
+          "start": 46,
+          "end": 47,
+          "decorators": [],
+          "name": "m",
+          "optional": false
+        },
+        "right": {
+          "type": "Identifier",
+          "start": 48,
+          "end": 49,
+          "decorators": [],
+          "name": "m",
+          "optional": false
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 51,
+      "end": 62,
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "start": 55,
+          "end": 61,
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "start": 55,
+            "end": 56,
+            "decorators": [],
+            "name": "x",
+            "optional": false
+          },
+          "init": {
+            "type": "Literal",
+            "start": 59,
+            "end": 61,
+            "raw": "''",
+            "value": ""
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var"
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```

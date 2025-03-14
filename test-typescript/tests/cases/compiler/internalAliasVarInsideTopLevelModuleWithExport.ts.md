@@ -1,0 +1,167 @@
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "start": 0,
+  "end": 89,
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 0,
+      "end": 42,
+      "attributes": [],
+      "declaration": {
+        "type": "TSModuleDeclaration",
+        "start": 7,
+        "end": 42,
+        "body": {
+          "type": "TSModuleBlock",
+          "start": 16,
+          "end": 42,
+          "body": [
+            {
+              "type": "ExportNamedDeclaration",
+              "start": 22,
+              "end": 40,
+              "attributes": [],
+              "declaration": {
+                "type": "VariableDeclaration",
+                "start": 29,
+                "end": 40,
+                "declarations": [
+                  {
+                    "type": "VariableDeclarator",
+                    "start": 33,
+                    "end": 39,
+                    "definite": false,
+                    "id": {
+                      "type": "Identifier",
+                      "start": 33,
+                      "end": 34,
+                      "decorators": [],
+                      "name": "x",
+                      "optional": false
+                    },
+                    "init": {
+                      "type": "Literal",
+                      "start": 37,
+                      "end": 39,
+                      "raw": "10",
+                      "value": 10
+                    }
+                  }
+                ],
+                "declare": false,
+                "kind": "var"
+              },
+              "exportKind": "value",
+              "source": null,
+              "specifiers": []
+            }
+          ]
+        },
+        "declare": false,
+        "global": false,
+        "id": {
+          "type": "Identifier",
+          "start": 14,
+          "end": 15,
+          "decorators": [],
+          "name": "a",
+          "optional": false
+        },
+        "kind": "module"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 44,
+      "end": 66,
+      "attributes": [],
+      "declaration": {
+        "type": "TSImportEqualsDeclaration",
+        "start": 51,
+        "end": 66,
+        "id": {
+          "type": "Identifier",
+          "start": 58,
+          "end": 59,
+          "decorators": [],
+          "name": "b",
+          "optional": false
+        },
+        "importKind": "value",
+        "moduleReference": {
+          "type": "TSQualifiedName",
+          "start": 62,
+          "end": 65,
+          "left": {
+            "type": "Identifier",
+            "start": 62,
+            "end": 63,
+            "decorators": [],
+            "name": "a",
+            "optional": false
+          },
+          "right": {
+            "type": "Identifier",
+            "start": 64,
+            "end": 65,
+            "decorators": [],
+            "name": "x",
+            "optional": false
+          }
+        }
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "start": 67,
+      "end": 87,
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "start": 74,
+        "end": 87,
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "start": 78,
+            "end": 86,
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "start": 78,
+              "end": 82,
+              "decorators": [],
+              "name": "bVal",
+              "optional": false
+            },
+            "init": {
+              "type": "Identifier",
+              "start": 85,
+              "end": 86,
+              "decorators": [],
+              "name": "b",
+              "optional": false
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "var"
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": []
+    }
+  ],
+  "sourceType": "script",
+  "hashbang": null
+}
+```
