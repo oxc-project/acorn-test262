@@ -7,6 +7,8 @@
   "excludes": [
     "acorn-jsx",
     "test-acorn-jsx",
+    "typescript",
+    "test-typescript",
     "test",
     "test262"
   ],

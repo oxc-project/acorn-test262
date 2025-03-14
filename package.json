@@ -8,9 +8,11 @@
   "scripts": {
     "init": "degit tc39/test262#bc5c14176e2b11a78859571eb693f028c8822458 test262",
     "init-acorn-jsx": "degit acornjs/acorn-jsx#8ed96d6ddec2065204ba07d924bb2e7bca539ea6 acorn-jsx",
+    "init-typescript": "just clone-submodule typescript https://github.com/microsoft/TypeScript.git 15392346d05045742e653eab5c87538ff2a3c863",
     "start": "node ./index.mjs"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^8.26.1",
     "acorn": "8.14.1",
     "degit": "^2.8.4",
     "yaml": "^2.7.0"
