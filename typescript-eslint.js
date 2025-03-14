@@ -24,7 +24,11 @@ async function main() {
     const srcFile = srcFiles[i];
     const code = fs.readFileSync(srcFile, "utf-8");
     const { tests } = makeUnitsFromTest(srcFile, code);
+    if (tests.length === 0) {
+      continue;
+    }
     let output = ``;
+    let hasError = false;
     for (const test of tests) {
       try {
         const result = parser.parseForESLint(test.content, {
@@ -39,7 +43,12 @@ async function main() {
         output += `__ESTREE_TEST__:PASS:` + "\n```json\n" + astJson + "\n```\n";
       } catch (e) {
         output += `__ESTREE_TEST__:FAIL:` + "\n```json\n" + e.message + "\n```\n";
+        hasError = true;
+        break;
       }
+    }
+    if (hasError) {
+      continue;
     }
     const destFile = path.join(destDir, path.relative(srcDir, srcFile) + ".md");
     fs.mkdirSync(path.dirname(destFile), { recursive: true });
