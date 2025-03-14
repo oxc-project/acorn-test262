@@ -54,7 +54,7 @@ for await (const p of walk("./test262/test")) {
       // It defaults to `true` for modules, `false` for scripts, which is what we want.
     });
 
-    const json = jsonStringify(ast)
+    const json = jsonStringify(ast);
 
     await fs.writeFile(writeFile, json);
   } catch (err) {
