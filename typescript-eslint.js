@@ -1,7 +1,7 @@
 import * as parser from "@typescript-eslint/parser";
 import fs from "node:fs";
 import path from "node:path";
-import { makeUnitsFromTest } from "./typescript-make-units-from-test.cjs";
+import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
 
 async function main() {
   const srcDir = "typescript";
@@ -44,9 +44,9 @@ async function main() {
         });
         const { comments, tokens, ...program } = result.ast;
         const astJson = JSON.stringify(program, jsonReplacer, 2);
-        output += test.name + "\n```json\n" + astJson + "\n```\n";
+        output += `__ESTREE_TEST__:PASS:` + "\n```json\n" + astJson + "\n```\n";
       } catch (e) {
-        output += test.name + "\n```json\n" + e.message + "\n```\n";
+        output += `__ESTREE_TEST__:FAIL:` + "\n```json\n" + e.message + "\n```\n";
       }
     }
     const destFile = path.join(destDir, path.relative(srcDir, srcFile) + ".md");
