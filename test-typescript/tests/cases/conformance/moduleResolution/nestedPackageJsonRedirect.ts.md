@@ -1,47 +1,109 @@
-/node_modules/@restart/hooks/esm/useMergedRefs.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
+  "range": [
+    0,
+    11
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/main.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
+  "range": [
+    0,
+    47
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 46,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 45,
         "raw": "\"@restart/hooks/useMergedRefs\"",
-        "value": "@restart/hooks/useMergedRefs"
+        "value": "@restart/hooks/useMergedRefs",
+        "range": [
+          15,
+          45
+        ],
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        46
+      ],
+      "loc": {
+        "end": {
+          "column": 46,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

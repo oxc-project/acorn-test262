@@ -1,36 +1,97 @@
-breakInIterationOrSwitchStatement2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
+  "range": [
+    0,
+    29
+  ],
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 0,
-      "end": 29,
       "body": {
         "type": "BlockStatement",
-        "start": 3,
-        "end": 15,
         "body": [
           {
             "type": "BreakStatement",
-            "start": 7,
-            "end": 13,
-            "label": null
+            "label": null,
+            "range": [
+              7,
+              13
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          3,
+          15
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 3,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 23,
-        "end": 27,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          23,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        0,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 13,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

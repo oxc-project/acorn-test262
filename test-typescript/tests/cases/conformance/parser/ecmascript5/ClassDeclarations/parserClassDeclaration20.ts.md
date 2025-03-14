@@ -1,32 +1,44 @@
-parserClassDeclaration20.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
+  "range": [
+    0,
+    34
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 34,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 34,
+        "range": [
+          8,
+          34
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 18,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 14,
-              "end": 15,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                14,
+                15
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -34,29 +46,65 @@ parserClassDeclaration20.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 15,
-              "end": 18,
+              "range": [
+                15,
+                18
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 5,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 23,
-            "end": 32,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 23,
-              "end": 26,
               "raw": "\"0\"",
-              "value": "0"
+              "value": "0",
+              "range": [
+                23,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -64,38 +112,123 @@ parserClassDeclaration20.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 26,
-              "end": 32,
+              "range": [
+                26,
+                32
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 29,
-                "end": 32,
-                "body": []
+                "body": [],
+                "range": [
+                  29,
+                  32
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              23,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,55 +1,140 @@
-unusedInterfaceinNamespace1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
+  "range": [
+    0,
+    50
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 50,
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 50,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 27,
-            "end": 48,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 40,
-              "end": 48,
-              "body": []
+              "range": [
+                40,
+                48
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 17,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 37,
-              "end": 39,
               "decorators": [],
               "name": "i1",
-              "optional": false
+              "optional": false,
+              "range": [
+                37,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              27,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          21,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
+        "range": [
+          10,
+          20
+        ],
         "decorators": [],
         "name": "Validation",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        0,
+        50
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,278 +1,747 @@
-prefixUnaryOperatorsOnExportedVariables.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 175,
+  "range": [
+    0,
+    175
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 21,
+      "range": [
+        0,
+        21
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 21,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 20,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                11,
+                12
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 1
+                },
+                "start": {
+                  "column": 11,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 20,
               "raw": "false",
-              "value": false
+              "value": false,
+              "range": [
+                15,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              11,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 11,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          7,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 22,
-      "end": 39,
+      "range": [
+        22,
+        39
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 29,
-        "end": 39,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 33,
-            "end": 38,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                33,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 37,
-              "end": 38,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                37,
+                38
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              33,
+              38
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 11,
+                "line": 2
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          29,
+          39
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "IfStatement",
-      "start": 40,
-      "end": 56,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 48,
-        "end": 56,
-        "body": []
+        "body": [],
+        "range": [
+          48,
+          56
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 8,
+            "line": 3
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 44,
-        "end": 46,
         "argument": {
           "type": "Identifier",
-          "start": 45,
-          "end": 46,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            45,
+            46
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 3
+            },
+            "start": {
+              "column": 5,
+              "line": 3
+            }
+          }
         },
         "operator": "!",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          44,
+          46
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 3
+          },
+          "start": {
+            "column": 4,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        40,
+        56
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 58,
-      "end": 74,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 66,
-        "end": 74,
-        "body": []
+        "body": [],
+        "range": [
+          66,
+          74
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 8,
+            "line": 7
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 62,
-        "end": 64,
         "argument": {
           "type": "Identifier",
-          "start": 63,
-          "end": 64,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            63,
+            64
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 7
+            },
+            "start": {
+              "column": 5,
+              "line": 7
+            }
+          }
         },
         "operator": "+",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          62,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 7
+          },
+          "start": {
+            "column": 4,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        58,
+        74
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 76,
-      "end": 92,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 84,
-        "end": 92,
-        "body": []
+        "body": [],
+        "range": [
+          84,
+          92
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 8,
+            "line": 11
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 80,
-        "end": 82,
         "argument": {
           "type": "Identifier",
-          "start": 81,
-          "end": 82,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            81,
+            82
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 11
+            },
+            "start": {
+              "column": 5,
+              "line": 11
+            }
+          }
         },
         "operator": "-",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          80,
+          82
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 11
+          },
+          "start": {
+            "column": 4,
+            "line": 11
+          }
+        }
+      },
+      "range": [
+        76,
+        92
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 94,
-      "end": 110,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 102,
-        "end": 110,
-        "body": []
+        "body": [],
+        "range": [
+          102,
+          110
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 17
+          },
+          "start": {
+            "column": 8,
+            "line": 15
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 98,
-        "end": 100,
         "argument": {
           "type": "Identifier",
-          "start": 99,
-          "end": 100,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            99,
+            100
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 15
+            },
+            "start": {
+              "column": 5,
+              "line": 15
+            }
+          }
         },
         "operator": "~",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          98,
+          100
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 15
+          },
+          "start": {
+            "column": 4,
+            "line": 15
+          }
+        }
+      },
+      "range": [
+        94,
+        110
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 15
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 112,
-      "end": 132,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 124,
-        "end": 132,
-        "body": []
+        "body": [],
+        "range": [
+          124,
+          132
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 21
+          },
+          "start": {
+            "column": 12,
+            "line": 19
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 116,
-        "end": 122,
         "argument": {
           "type": "Identifier",
-          "start": 121,
-          "end": 122,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            121,
+            122
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 19
+            },
+            "start": {
+              "column": 9,
+              "line": 19
+            }
+          }
         },
         "operator": "void",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          116,
+          122
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 19
+          },
+          "start": {
+            "column": 4,
+            "line": 19
+          }
+        }
+      },
+      "range": [
+        112,
+        132
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 21
+        },
+        "start": {
+          "column": 0,
+          "line": 19
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 134,
-      "end": 156,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 148,
-        "end": 156,
-        "body": []
+        "body": [],
+        "range": [
+          148,
+          156
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 25
+          },
+          "start": {
+            "column": 14,
+            "line": 23
+          }
+        }
       },
       "test": {
         "type": "UnaryExpression",
-        "start": 138,
-        "end": 146,
         "argument": {
           "type": "Identifier",
-          "start": 145,
-          "end": 146,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            145,
+            146
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 23
+            },
+            "start": {
+              "column": 11,
+              "line": 23
+            }
+          }
         },
         "operator": "typeof",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          138,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 23
+          },
+          "start": {
+            "column": 4,
+            "line": 23
+          }
+        }
+      },
+      "range": [
+        134,
+        156
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 25
+        },
+        "start": {
+          "column": 0,
+          "line": 23
+        }
       }
     },
     {
       "type": "IfStatement",
-      "start": 158,
-      "end": 175,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 167,
-        "end": 175,
-        "body": []
+        "body": [],
+        "range": [
+          167,
+          175
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 29
+          },
+          "start": {
+            "column": 9,
+            "line": 27
+          }
+        }
       },
       "test": {
         "type": "UpdateExpression",
-        "start": 162,
-        "end": 165,
         "argument": {
           "type": "Identifier",
-          "start": 164,
-          "end": 165,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "range": [
+            164,
+            165
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 27
+            },
+            "start": {
+              "column": 6,
+              "line": 27
+            }
+          }
         },
         "operator": "++",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          162,
+          165
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 27
+          },
+          "start": {
+            "column": 4,
+            "line": 27
+          }
+        }
+      },
+      "range": [
+        158,
+        175
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 29
+        },
+        "start": {
+          "column": 0,
+          "line": 27
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 29
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

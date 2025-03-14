@@ -1,103 +1,272 @@
-modulePreserveTopLevelAwait1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
+  "range": [
+    0,
+    66
+  ],
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 28,
       "await": true,
       "body": {
         "type": "BlockStatement",
-        "start": 26,
-        "end": 28,
-        "body": []
+        "body": [],
+        "range": [
+          26,
+          28
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1
+          },
+          "start": {
+            "column": 26,
+            "line": 1
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 11,
-        "end": 18,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 17,
-            "end": 18,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 17,
-              "end": 18,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                17,
+                18
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 1
+                },
+                "start": {
+                  "column": 17,
+                  "line": 1
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              17,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 1
+              },
+              "start": {
+                "column": 17,
+                "line": 1
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          11,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 11,
+            "line": 1
+          }
+        }
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 22,
-        "end": 24,
-        "elements": []
+        "elements": [],
+        "range": [
+          22,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 53,
       "expression": {
         "type": "AwaitExpression",
-        "start": 29,
-        "end": 52,
         "argument": {
           "type": "CallExpression",
-          "start": 35,
-          "end": 52,
           "arguments": [],
           "callee": {
             "type": "MemberExpression",
-            "start": 35,
-            "end": 50,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 35,
-              "end": 42,
               "decorators": [],
               "name": "Promise",
-              "optional": false
+              "optional": false,
+              "range": [
+                35,
+                42
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 2
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 43,
-              "end": 50,
               "decorators": [],
               "name": "resolve",
-              "optional": false
+              "optional": false,
+              "range": [
+                43,
+                50
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              35,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
             }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            35,
+            52
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          29,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        29,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 55,
-      "end": 65,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        55,
+        65
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

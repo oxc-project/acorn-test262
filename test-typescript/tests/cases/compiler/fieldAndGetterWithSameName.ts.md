@@ -1,40 +1,54 @@
-fieldAndGetterWithSameName.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
+  "range": [
+    0,
+    65
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 65,
+      "range": [
+        0,
+        65
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 65,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 15,
-          "end": 65,
+          "range": [
+            15,
+            65
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 21,
-              "end": 31,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 21,
-                "end": 22,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "range": [
+                  21,
+                  22
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -42,29 +56,77 @@ fieldAndGetterWithSameName.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 22,
-                "end": 30,
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  22,
+                  30
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 24,
-                  "end": 30
+                  "range": [
+                    24,
+                    30
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 2
+                    }
+                  }
                 }
               },
-              "value": null
+              "value": null,
+              "range": [
+                21,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             {
               "type": "MethodDefinition",
-              "start": 34,
-              "end": 63,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 38,
-                "end": 39,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "range": [
+                  38,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
               },
               "kind": "get",
               "optional": false,
@@ -72,27 +134,65 @@ fieldAndGetterWithSameName.ts
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 39,
-                "end": 63,
+                "range": [
+                  39,
+                  63
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 50,
-                  "end": 63,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 52,
-                      "end": 61,
                       "argument": {
                         "type": "Literal",
-                        "start": 59,
-                        "end": 60,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "range": [
+                          59,
+                          60
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 28,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 27,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        52,
+                        61
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 20,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    50,
+                    63
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 3
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
@@ -101,36 +201,141 @@ fieldAndGetterWithSameName.ts
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 41,
-                  "end": 49,
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 3
+                    }
+                  },
+                  "range": [
+                    41,
+                    49
+                  ],
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 43,
-                    "end": 49
+                    "range": [
+                      43,
+                      49
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 3
+                      }
+                    }
                   }
+                },
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                34,
+                63
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 15,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            14
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          7,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

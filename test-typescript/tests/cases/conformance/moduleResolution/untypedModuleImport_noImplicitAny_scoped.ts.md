@@ -1,40 +1,101 @@
-/a.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
+  "range": [
+    0,
+    33
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 32,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 21,
-        "end": 31,
         "raw": "\"@foo/bar\"",
-        "value": "@foo/bar"
+        "value": "@foo/bar",
+        "range": [
+          21,
+          31
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1
+          },
+          "start": {
+            "column": 21,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 15,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 15,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              12,
+              15
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            7,
+            15
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        32
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

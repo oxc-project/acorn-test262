@@ -1,23 +1,60 @@
-scannerES3NumericLiteral7.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 4,
+  "range": [
+    0,
+    4
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 4,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 4,
         "raw": "1e+0",
-        "value": 1
+        "value": 1,
+        "range": [
+          0,
+          4
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        4
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 4,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

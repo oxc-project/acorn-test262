@@ -1,24 +1,24 @@
-unusedPrivateVariableInClass1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
+  "range": [
+    0,
+    40
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 40,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 40,
+        "range": [
+          14,
+          40
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 20,
-            "end": 38,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,11 +26,23 @@ unusedPrivateVariableInClass1.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 28,
-              "end": 29,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                28,
+                29
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -38,32 +50,117 @@ unusedPrivateVariableInClass1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 29,
-              "end": 37,
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              },
+              "range": [
+                29,
+                37
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 31,
-                "end": 37
+                "range": [
+                  31,
+                  37
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 2
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              20,
+              38
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "greeter",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          13
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

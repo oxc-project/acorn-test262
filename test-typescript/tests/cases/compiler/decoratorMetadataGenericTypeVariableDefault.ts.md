@@ -1,54 +1,92 @@
-decoratorMetadataGenericTypeVariableDefault.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
+  "range": [
+    0,
+    78
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 77,
+      "range": [
+        0,
+        77
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 77,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 38,
-          "end": 77,
+          "range": [
+            38,
+            77
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 42,
-              "end": 75,
               "computed": false,
               "declare": false,
               "decorators": [
                 {
                   "type": "Decorator",
-                  "start": 42,
-                  "end": 51,
                   "expression": {
                     "type": "Identifier",
-                    "start": 43,
-                    "end": 51,
                     "decorators": [],
                     "name": "Decorate",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      43,
+                      51
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    42,
+                    51
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 2
+                    }
                   }
                 }
               ],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 54,
-                "end": 60,
                 "decorators": [],
                 "name": "member",
-                "optional": false
+                "optional": false,
+                "range": [
+                  54,
+                  60
+                ],
+                "loc": {
+                  "end": {
+                    "column": 8,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 3
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -56,72 +94,227 @@ decoratorMetadataGenericTypeVariableDefault.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 60,
-                "end": 74,
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  60,
+                  74
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 62,
-                  "end": 74,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 62,
-                    "end": 74,
                     "decorators": [],
                     "name": "TypeVariable",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      62,
+                      74
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    62,
+                    74
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 3
+                    }
                   }
                 }
               },
-              "value": null
+              "value": null,
+              "range": [
+                42,
+                75
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
+              }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 38,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            14
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
         },
         "implements": [],
         "superClass": null,
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 14,
-          "end": 37,
+          "loc": {
+            "end": {
+              "column": 37,
+              "line": 1
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
+          },
+          "range": [
+            14,
+            37
+          ],
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 15,
-              "end": 36,
               "const": false,
               "default": {
                 "type": "TSStringKeyword",
-                "start": 30,
-                "end": 36
+                "range": [
+                  30,
+                  36
+                ],
+                "loc": {
+                  "end": {
+                    "column": 36,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 30,
+                    "line": 1
+                  }
+                }
               },
               "in": false,
               "name": {
                 "type": "Identifier",
-                "start": 15,
-                "end": 27,
                 "decorators": [],
                 "name": "TypeVariable",
-                "optional": false
+                "optional": false,
+                "range": [
+                  15,
+                  27
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 1
+                  }
+                }
               },
-              "out": false
+              "out": false,
+              "range": [
+                15,
+                36
+              ],
+              "loc": {
+                "end": {
+                  "column": 36,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
             }
           ]
+        },
+        "range": [
+          7,
+          77
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

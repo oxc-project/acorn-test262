@@ -1,80 +1,202 @@
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
+  "range": [
+    0,
+    25
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 24,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 23,
         "raw": "\"./not-a-module\"",
-        "value": "./not-a-module"
+        "value": "./not-a-module",
+        "range": [
+          7,
+          23
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-not-a-module.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
+  "range": [
+    0,
+    30
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 29,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 28,
         "arguments": [
           {
             "type": "Literal",
-            "start": 12,
-            "end": 27,
             "raw": "\"Hello, world!\"",
-            "value": "Hello, world!"
+            "value": "Hello, world!",
+            "range": [
+              12,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 11,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 7,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "range": [
+              0,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 0,
+                "line": 1
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 8,
-            "end": 11,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "range": [
+              8,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            0,
+            11
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          28
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

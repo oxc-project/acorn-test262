@@ -1,35 +1,84 @@
-parseThrowsTag.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 31,
-  "end": 47,
+  "range": [
+    31,
+    47
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 31,
-      "end": 46,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 44,
-        "end": 46,
-        "body": []
+        "body": [],
+        "range": [
+          44,
+          46
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 2
+          },
+          "start": {
+            "column": 13,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 40,
-        "end": 41,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          41
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 9,
+            "line": 2
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        31,
+        46
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

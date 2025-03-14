@@ -1,72 +1,146 @@
-esDecorators-classDeclaration-commonjs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 90,
+  "range": [
+    0,
+    90
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 21,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 21,
             "decorators": [],
             "name": "deco",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 16,
-              "end": 21,
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 1
+                },
+                "start": {
+                  "column": 16,
+                  "line": 1
+                }
+              },
+              "range": [
+                16,
+                21
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 18,
-                "end": 21
+                "range": [
+                  18,
+                  21
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              12,
+              21
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            21
+          ],
+          "loc": {
+            "end": {
+              "column": 21,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        22
+      ],
+      "loc": {
+        "end": {
+          "column": 22,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 30,
-      "end": 74,
+      "range": [
+        30,
+        74
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 37,
-        "end": 74,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 51,
-          "end": 74,
+          "range": [
+            51,
+            74
+          ],
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 57,
-              "end": 72,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 64,
-                "end": 67,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  64,
+                  67
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 5
+                  }
+                }
               },
               "kind": "method",
               "optional": false,
@@ -74,91 +148,270 @@ esDecorators-classDeclaration-commonjs.ts
               "static": true,
               "value": {
                 "type": "FunctionExpression",
-                "start": 67,
-                "end": 72,
+                "range": [
+                  67,
+                  72
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 70,
-                  "end": 72,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    70,
+                    72
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 5
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                57,
+                72
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 6
+            },
+            "start": {
+              "column": 21,
+              "line": 4
+            }
+          }
         },
         "declare": false,
         "decorators": [
           {
             "type": "Decorator",
-            "start": 24,
-            "end": 29,
             "expression": {
               "type": "Identifier",
-              "start": 25,
-              "end": 29,
               "decorators": [],
               "name": "deco",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                29
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 3
+                },
+                "start": {
+                  "column": 1,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              24,
+              29
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
             }
           }
         ],
         "id": {
           "type": "Identifier",
-          "start": 43,
-          "end": 50,
           "decorators": [],
           "name": "Example",
-          "optional": false
+          "optional": false,
+          "range": [
+            43,
+            50
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 4
+            },
+            "start": {
+              "column": 13,
+              "line": 4
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          37,
+          74
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 7,
+            "line": 4
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 76,
-      "end": 90,
       "expression": {
         "type": "CallExpression",
-        "start": 76,
-        "end": 89,
         "arguments": [],
         "callee": {
           "type": "MemberExpression",
-          "start": 76,
-          "end": 87,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 76,
-            "end": 83,
             "decorators": [],
             "name": "Example",
-            "optional": false
+            "optional": false,
+            "range": [
+              76,
+              83
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 8
+              },
+              "start": {
+                "column": 0,
+                "line": 8
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 84,
-            "end": 87,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              84,
+              87
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 8
+              },
+              "start": {
+                "column": 8,
+                "line": 8
+              }
+            }
+          },
+          "range": [
+            76,
+            87
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 8
+            },
+            "start": {
+              "column": 0,
+              "line": 8
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          76,
+          89
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 8
+          },
+          "start": {
+            "column": 0,
+            "line": 8
+          }
+        }
+      },
+      "range": [
+        76,
+        90
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 14,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,87 +1,244 @@
-awaitExpressionInnerCommentEmit.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 101,
+  "range": [
+    0,
+    101
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 101,
       "async": true,
       "body": {
         "type": "BlockStatement",
-        "start": 21,
-        "end": 101,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 40,
-            "end": 48,
             "expression": {
               "type": "AwaitExpression",
-              "start": 40,
-              "end": 47,
               "argument": {
                 "type": "Literal",
-                "start": 46,
-                "end": 47,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  46,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                40,
+                47
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 2
+                },
+                "start": {
+                  "column": 17,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              40,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 2
+              },
+              "start": {
+                "column": 17,
+                "line": 2
               }
             }
           },
           {
             "type": "ExpressionStatement",
-            "start": 53,
-            "end": 74,
             "expression": {
               "type": "AwaitExpression",
-              "start": 53,
-              "end": 73,
               "argument": {
                 "type": "Literal",
-                "start": 72,
-                "end": 73,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "range": [
+                  72,
+                  73
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                53,
+                73
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              53,
+              74
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
               }
             }
           },
           {
             "type": "ExpressionStatement",
-            "start": 79,
-            "end": 86,
             "expression": {
               "type": "AwaitExpression",
-              "start": 79,
-              "end": 86,
               "argument": {
                 "type": "Literal",
-                "start": 85,
-                "end": 86,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "range": [
+                  85,
+                  86
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                79,
+                86
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              79,
+              86
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
               }
             }
           }
-        ]
+        ],
+        "range": [
+          21,
+          101
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 21,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          15,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        0,
+        101
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

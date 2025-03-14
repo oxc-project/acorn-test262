@@ -1,4 +1,4 @@
-awaitUsingDeclarationsInForOf.3.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'await using' declarations may not have binding patterns.
 ```

@@ -1,125 +1,319 @@
-/node_modules/dual/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
+  "range": [
+    0,
+    26
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
+      "range": [
+        0,
+        25
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 25,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 24,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 24,
               "decorators": [],
               "name": "esm",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 16,
-                "end": 24,
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
+                },
+                "range": [
+                  16,
+                  24
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 18,
-                  "end": 24
+                  "range": [
+                    18,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 1
+                    }
+                  }
+                }
+              },
+              "range": [
+                13,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
                 }
               }
             },
-            "init": null
+            "init": null,
+            "range": [
+              13,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          25
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/main.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
+  "range": [
+    0,
+    33
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 32,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 25,
-        "end": 31,
         "raw": "\"dual\"",
-        "value": "dual"
+        "value": "dual",
+        "range": [
+          25,
+          31
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1
+          },
+          "start": {
+            "column": 25,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "esm",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "esm",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            9,
+            12
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 1
+            },
+            "start": {
+              "column": 9,
+              "line": 1
+            }
           }
         },
         {
           "type": "ImportSpecifier",
-          "start": 14,
-          "end": 17,
           "imported": {
             "type": "Identifier",
-            "start": 14,
-            "end": 17,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              14,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 1
+              },
+              "start": {
+                "column": 14,
+                "line": 1
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 14,
-            "end": 17,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              14,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 1
+              },
+              "start": {
+                "column": 14,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            14,
+            17
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 1
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        32
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

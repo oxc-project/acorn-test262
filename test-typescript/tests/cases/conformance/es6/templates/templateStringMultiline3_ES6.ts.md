@@ -1,34 +1,83 @@
-templateStringMultiline3_ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 38,
-  "end": 43,
+  "range": [
+    38,
+    43
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 38,
-      "end": 43,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 38,
-        "end": 43,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 38,
-            "end": 43,
             "tail": true,
             "value": {
               "cooked": "\n",
               "raw": "\r\\\r"
+            },
+            "range": [
+              38,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 6
+              },
+              "start": {
+                "column": 0,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          38,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        38,
+        43
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 4
+    }
+  },
+  "hashbang": null
 }
 ```

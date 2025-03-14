@@ -1,63 +1,160 @@
-verbatimModuleSyntaxConstEnum.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
+  "range": [
+    0,
+    35
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 34,
+      "range": [
+        0,
+        34
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 34,
         "body": {
           "type": "TSEnumBody",
-          "start": 20,
-          "end": 34,
+          "range": [
+            20,
+            34
+          ],
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 26,
-              "end": 31,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 27,
                 "decorators": [],
                 "name": "A",
-                "optional": false
+                "optional": false,
+                "range": [
+                  26,
+                  27
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "initializer": {
                 "type": "Literal",
-                "start": 30,
-                "end": 31,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  30,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                26,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 20,
+              "line": 1
+            }
+          }
         },
         "const": true,
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 18,
-          "end": 19,
           "decorators": [],
           "name": "E",
-          "optional": false
+          "optional": false,
+          "range": [
+            18,
+            19
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 1
+            },
+            "start": {
+              "column": 18,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          34
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,39 +1,53 @@
-declFileClassWithStaticMethodReturningConstructor.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
+  "range": [
+    0,
+    85
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 85,
+      "range": [
+        0,
+        85
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 85,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 25,
-          "end": 85,
+          "range": [
+            25,
+            85
+          ],
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 31,
-              "end": 83,
               "accessibility": "public",
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 52,
                 "decorators": [],
                 "name": "getType",
-                "optional": false
+                "optional": false,
+                "range": [
+                  45,
+                  52
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 2
+                  }
+                }
               },
               "kind": "method",
               "optional": false,
@@ -41,53 +55,172 @@ declFileClassWithStaticMethodReturningConstructor.ts
               "static": true,
               "value": {
                 "type": "FunctionExpression",
-                "start": 52,
-                "end": 83,
+                "range": [
+                  52,
+                  83
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 55,
-                  "end": 83,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 65,
-                      "end": 77,
                       "argument": {
                         "type": "ThisExpression",
-                        "start": 72,
-                        "end": 76
+                        "range": [
+                          72,
+                          76
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 15,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        65,
+                        77
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 20,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    55,
+                    83
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 28,
+                      "line": 2
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                31,
+                83
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 25,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 24,
           "decorators": [],
           "name": "Enhancement",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          7,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

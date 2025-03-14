@@ -1,33 +1,45 @@
-twoAccessorsWithSameName2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 240,
+  "range": [
+    0,
+    240
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 86,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 86,
+        "range": [
+          8,
+          86
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 42,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 25,
-              "end": 26,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -35,48 +47,120 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 26,
-              "end": 42,
+              "range": [
+                26,
+                42
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 29,
-                "end": 42,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 31,
-                    "end": 40,
                     "argument": {
                       "type": "Literal",
-                      "start": 38,
-                      "end": 39,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        38,
+                        39
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 28,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      31,
+                      40
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 2
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  29,
+                  42
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 2
+                },
+                "start": {
+                  "column": 16,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              42
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 47,
-            "end": 75,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 58,
-              "end": 59,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                58,
+                59
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -84,73 +168,181 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 59,
-              "end": 75,
+              "range": [
+                59,
+                75
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 62,
-                "end": 75,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 64,
-                    "end": 73,
                     "argument": {
                       "type": "Literal",
-                      "start": 71,
-                      "end": 72,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        71,
+                        72
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 28,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      64,
+                      73
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 3
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  62,
+                  75
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 3
+                },
+                "start": {
+                  "column": 16,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              47,
+              75
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 88,
-      "end": 158,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 96,
-        "end": 158,
+        "range": [
+          96,
+          158
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 102,
-            "end": 122,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 113,
-              "end": 114,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                113,
+                114
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 7
+                },
+                "start": {
+                  "column": 15,
+                  "line": 7
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -158,14 +350,28 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 114,
-              "end": 122,
+              "range": [
+                114,
+                122
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 118,
-                "end": 122,
-                "body": []
+                "body": [],
+                "range": [
+                  118,
+                  122
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 7
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -174,28 +380,74 @@ twoAccessorsWithSameName2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 115,
-                  "end": 116,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    115,
+                    116
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 7
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 7
+                },
+                "start": {
+                  "column": 16,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              102,
+              122
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 127,
-            "end": 147,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 138,
-              "end": 139,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                138,
+                139
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 8
+                },
+                "start": {
+                  "column": 15,
+                  "line": 8
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -203,14 +455,28 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 139,
-              "end": 147,
+              "range": [
+                139,
+                147
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 143,
-                "end": 147,
-                "body": []
+                "body": [],
+                "range": [
+                  143,
+                  147
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -219,53 +485,135 @@ twoAccessorsWithSameName2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 140,
-                  "end": 141,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    140,
+                    141
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 8
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 8
+                },
+                "start": {
+                  "column": 16,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              127,
+              147
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 8,
+            "line": 6
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 94,
-        "end": 95,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "range": [
+          94,
+          95
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 6
+          },
+          "start": {
+            "column": 6,
+            "line": 6
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        88,
+        158
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 160,
-      "end": 240,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 168,
-        "end": 240,
+        "range": [
+          168,
+          240
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 174,
-            "end": 214,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 185,
-              "end": 186,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                185,
+                186
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 12
+                },
+                "start": {
+                  "column": 15,
+                  "line": 12
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -273,48 +621,120 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 186,
-              "end": 214,
+              "range": [
+                186,
+                214
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 189,
-                "end": 214,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 199,
-                    "end": 208,
                     "argument": {
                       "type": "Literal",
-                      "start": 206,
-                      "end": 207,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        206,
+                        207
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 16,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 13
+                        }
+                      }
+                    },
+                    "range": [
+                      199,
+                      208
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 13
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  189,
+                  214
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 12
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 14
+                },
+                "start": {
+                  "column": 16,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              174,
+              214
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 14
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 219,
-            "end": 238,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 230,
-              "end": 231,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                230,
+                231
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 15
+                },
+                "start": {
+                  "column": 15,
+                  "line": 15
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -322,14 +742,28 @@ twoAccessorsWithSameName2.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 231,
-              "end": 238,
+              "range": [
+                231,
+                238
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 235,
-                "end": 238,
-                "body": []
+                "body": [],
+                "range": [
+                  235,
+                  238
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 15
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -338,31 +772,114 @@ twoAccessorsWithSameName2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 232,
-                  "end": 233,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    232,
+                    233
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 15
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 15
+                },
+                "start": {
+                  "column": 16,
+                  "line": 15
+                }
+              }
+            },
+            "range": [
+              219,
+              238
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 15
+              },
+              "start": {
+                "column": 4,
+                "line": 15
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 16
+          },
+          "start": {
+            "column": 8,
+            "line": 11
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 166,
-        "end": 167,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "range": [
+          166,
+          167
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 11
+          },
+          "start": {
+            "column": 6,
+            "line": 11
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        160,
+        240
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 16
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

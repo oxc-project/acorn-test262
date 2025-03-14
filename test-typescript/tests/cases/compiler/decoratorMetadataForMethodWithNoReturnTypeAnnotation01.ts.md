@@ -1,67 +1,139 @@
-decoratorMetadataForMethodWithNoReturnTypeAnnotation01.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 144,
+  "range": [
+    0,
+    144
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 26,
             "decorators": [],
             "name": "decorator",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 21,
-              "end": 26,
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 1
+                },
+                "start": {
+                  "column": 21,
+                  "line": 1
+                }
+              },
+              "range": [
+                21,
+                26
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 23,
-                "end": 26
+                "range": [
+                  23,
+                  26
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              12,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            26
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        27
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 29,
-      "end": 143,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 43,
-        "end": 143,
+        "range": [
+          43,
+          143
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 49,
-            "end": 98,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 49,
-              "end": 60,
+              "range": [
+                49,
+                60
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -69,14 +141,28 @@ decoratorMetadataForMethodWithNoReturnTypeAnnotation01.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 60,
-              "end": 98,
+              "range": [
+                60,
+                98
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 90,
-                "end": 98,
-                "body": []
+                "body": [],
+                "range": [
+                  90,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -85,70 +171,200 @@ decoratorMetadataForMethodWithNoReturnTypeAnnotation01.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 61,
-                  "end": 73,
                   "decorators": [],
                   "name": "test",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 65,
-                    "end": 73,
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      65,
+                      73
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 67,
-                      "end": 73
+                      "range": [
+                        67,
+                        73
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 4
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    61,
+                    73
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 28,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 4
                     }
                   }
                 },
                 {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 88,
                   "decorators": [],
                   "name": "test2",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 80,
-                    "end": 88,
+                    "loc": {
+                      "end": {
+                        "column": 43,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 35,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      80,
+                      88
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 82,
-                      "end": 88
+                      "range": [
+                        82,
+                        88
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 43,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 37,
+                          "line": 4
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    75,
+                    88
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 30,
+                      "line": 4
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              49,
+              98
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 104,
-            "end": 141,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 104,
-                "end": 114,
                 "expression": {
                   "type": "Identifier",
-                  "start": 105,
-                  "end": 114,
                   "decorators": [],
                   "name": "decorator",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    105,
+                    114
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 8
+                    }
+                  }
+                },
+                "range": [
+                  104,
+                  114
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 8
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 119,
-              "end": 130,
               "decorators": [],
               "name": "doSomething",
-              "optional": false
+              "optional": false,
+              "range": [
+                119,
+                130
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 9
+                },
+                "start": {
+                  "column": 4,
+                  "line": 9
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -156,38 +372,123 @@ decoratorMetadataForMethodWithNoReturnTypeAnnotation01.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 130,
-              "end": 141,
+              "range": [
+                130,
+                141
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 133,
-                "end": 141,
-                "body": []
+                "body": [],
+                "range": [
+                  133,
+                  141
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 9
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 11
+                },
+                "start": {
+                  "column": 15,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              104,
+              141
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 12
+          },
+          "start": {
+            "column": 14,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 42,
         "decorators": [],
         "name": "MyClass",
-        "optional": false
+        "optional": false,
+        "range": [
+          35,
+          42
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        29,
+        143
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

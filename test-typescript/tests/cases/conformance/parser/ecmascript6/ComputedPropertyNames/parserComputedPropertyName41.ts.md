@@ -1,55 +1,97 @@
-parserComputedPropertyName41.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
+  "range": [
+    0,
+    31
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 31,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 31,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 29,
                 "computed": true,
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 15,
-                  "end": 22,
                   "operator": "in",
                   "left": {
                     "type": "Literal",
-                    "start": 15,
-                    "end": 16,
                     "raw": "0",
-                    "value": 0
+                    "value": 0,
+                    "range": [
+                      15,
+                      16
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 6,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 2
+                      }
+                    }
                   },
                   "right": {
                     "type": "ArrayExpression",
-                    "start": 20,
-                    "end": 22,
-                    "elements": []
+                    "elements": [],
+                    "range": [
+                      20,
+                      22
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 12,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    15,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
+                    }
                   }
                 },
                 "kind": "init",
@@ -58,20 +100,99 @@ parserComputedPropertyName41.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 25,
-                  "end": 29,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "range": [
+                    25,
+                    29
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  14,
+                  29
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            31
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        31
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

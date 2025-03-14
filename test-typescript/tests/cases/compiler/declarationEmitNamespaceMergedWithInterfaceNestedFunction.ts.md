@@ -1,97 +1,217 @@
-declarationEmitNamespaceMergedWithInterfaceNestedFunction.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 146,
+  "range": [
+    0,
+    146
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 39,
+      "range": [
+        0,
+        39
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 39,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 21,
-          "end": 39,
+          "range": [
+            21,
+            39
+          ],
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 27,
-              "end": 37,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 27,
-                "end": 31,
                 "decorators": [],
                 "name": "item",
-                "optional": false
+                "optional": false,
+                "range": [
+                  27,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 8,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "readonly": false,
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 31,
-                "end": 36,
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  31,
+                  36
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 33,
-                  "end": 36,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 33,
-                    "end": 36,
                     "decorators": [],
                     "name": "Bar",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      33,
+                      36
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 13,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    33,
+                    36
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 2
+                    }
                   }
+                }
+              },
+              "range": [
+                27,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 21,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 20,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            17,
+            20
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 1
+            },
+            "start": {
+              "column": 17,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          39
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 41,
-      "end": 75,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 55,
-        "end": 75,
+        "range": [
+          55,
+          75
+        ],
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 61,
-            "end": 73,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 61,
-              "end": 64,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "range": [
+                61,
+                64
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -99,99 +219,292 @@ declarationEmitNamespaceMergedWithInterfaceNestedFunction.ts
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 66,
-              "end": 72,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 6
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6
+                }
+              },
+              "range": [
+                66,
+                72
+              ],
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
-                "start": 68,
-                "end": 72
+                "range": [
+                  68,
+                  72
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 6
+                  }
+                }
               }
             },
-            "static": false
+            "static": false,
+            "range": [
+              61,
+              73
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 14,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 54,
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "range": [
+          51,
+          54
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        41,
+        75
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 77,
-      "end": 146,
       "body": {
         "type": "TSModuleBlock",
-        "start": 91,
-        "end": 146,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 97,
-            "end": 144,
+            "range": [
+              97,
+              144
+            ],
             "attributes": [],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 104,
-              "end": 144,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 119,
-                "end": 144,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 129,
-                    "end": 138,
                     "argument": {
                       "type": "Literal",
-                      "start": 136,
-                      "end": 137,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "range": [
+                        136,
+                        137
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 16,
+                          "line": 11
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 11
+                        }
+                      }
+                    },
+                    "range": [
+                      129,
+                      138
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 11
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 11
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  119,
+                  144
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": {
                 "type": "Identifier",
-                "start": 113,
-                "end": 116,
                 "decorators": [],
                 "name": "biz",
-                "optional": false
+                "optional": false,
+                "range": [
+                  113,
+                  116
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 10
+                  }
+                }
               },
-              "params": []
+              "params": [],
+              "range": [
+                104,
+                144
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 12
+                },
+                "start": {
+                  "column": 11,
+                  "line": 10
+                }
+              }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          91,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 14,
+            "line": 9
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 87,
-        "end": 90,
+        "range": [
+          87,
+          90
+        ],
         "decorators": [],
         "name": "Bar",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 9
+          },
+          "start": {
+            "column": 10,
+            "line": 9
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        77,
+        146
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

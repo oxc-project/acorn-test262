@@ -1,45 +1,63 @@
-conditionalEqualityOnLiteralObjects.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 577,
+  "range": [
+    0,
+    577
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 18,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 18,
             "properties": [
               {
                 "type": "Property",
-                "start": 12,
-                "end": 16,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    12,
+                    13
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,89 +65,233 @@ conditionalEqualityOnLiteralObjects.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 15,
-                  "end": 16,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    15,
+                    16
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  12,
+                  16
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              10,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            18
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        18
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 19,
-      "end": 32,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 25,
-          "end": 32,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 25,
-            "end": 26,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "range": [
+              25,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 29,
-            "end": 32,
             "elements": [
               {
                 "type": "Literal",
-                "start": 30,
-                "end": 31,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  30,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              29,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 2
+              },
+              "start": {
+                "column": 10,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            25,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        19,
+        32
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "IfStatement",
-      "start": 34,
-      "end": 64,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 61,
-        "end": 64,
-        "body": []
+        "body": [],
+        "range": [
+          61,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 27,
+            "line": 4
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 38,
-        "end": 59,
         "operator": "===",
         "left": {
           "type": "ObjectExpression",
-          "start": 38,
-          "end": 46,
           "properties": [
             {
               "type": "Property",
-              "start": 40,
-              "end": 44,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 40,
-                "end": 41,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  40,
+                  41
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 4
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -137,31 +299,79 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 43,
-                "end": 44,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  43,
+                  44
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                40,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 4
+                },
+                "start": {
+                  "column": 6,
+                  "line": 4
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            38,
+            46
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 4
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 51,
-          "end": 59,
           "properties": [
             {
               "type": "Property",
-              "start": 53,
-              "end": 57,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 53,
-                "end": 54,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  53,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 4
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -169,103 +379,283 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 56,
-                "end": 57,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  56,
+                  57
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                53,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 4
+                },
+                "start": {
+                  "column": 19,
+                  "line": 4
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            51,
+            59
+          ],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 4
+            },
+            "start": {
+              "column": 17,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          38,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 4
+          },
+          "start": {
+            "column": 4,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        34,
+        64
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 4
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 65,
-      "end": 85,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 82,
-        "end": 85,
-        "body": []
+        "body": [],
+        "range": [
+          82,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 17,
+            "line": 6
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 69,
-        "end": 80,
         "operator": "===",
         "left": {
           "type": "ArrayExpression",
-          "start": 69,
-          "end": 72,
           "elements": [
             {
               "type": "Literal",
-              "start": 70,
-              "end": 71,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                70,
+                71
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 6
+                },
+                "start": {
+                  "column": 5,
+                  "line": 6
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            69,
+            72
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 77,
-          "end": 80,
           "elements": [
             {
               "type": "Literal",
-              "start": 78,
-              "end": 79,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                78,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 6
+                },
+                "start": {
+                  "column": 13,
+                  "line": 6
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            77,
+            80
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 6
+            },
+            "start": {
+              "column": 12,
+              "line": 6
+            }
+          }
+        },
+        "range": [
+          69,
+          80
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 6
+          },
+          "start": {
+            "column": 4,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        65,
+        85
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 6
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 86,
-      "end": 109,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 106,
-        "end": 109,
-        "body": []
+        "body": [],
+        "range": [
+          106,
+          109
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 20,
+            "line": 8
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 90,
-        "end": 104,
         "operator": "===",
         "left": {
           "type": "Identifier",
-          "start": 90,
-          "end": 91,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            90,
+            91
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 8
+            },
+            "start": {
+              "column": 4,
+              "line": 8
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 96,
-          "end": 104,
           "properties": [
             {
               "type": "Property",
-              "start": 98,
-              "end": 102,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 98,
-                "end": 99,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  98,
+                  99
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 8
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -273,89 +663,245 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 101,
-                "end": 102,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  101,
+                  102
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                98,
+                102
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 8
+                },
+                "start": {
+                  "column": 12,
+                  "line": 8
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            96,
+            104
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 8
+            },
+            "start": {
+              "column": 10,
+              "line": 8
+            }
+          }
+        },
+        "range": [
+          90,
+          104
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 8
+          },
+          "start": {
+            "column": 4,
+            "line": 8
+          }
+        }
+      },
+      "range": [
+        86,
+        109
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 8
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 110,
-      "end": 128,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 125,
-        "end": 128,
-        "body": []
+        "body": [],
+        "range": [
+          125,
+          128
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 15,
+            "line": 10
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 114,
-        "end": 123,
         "operator": "===",
         "left": {
           "type": "Identifier",
-          "start": 114,
-          "end": 115,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            114,
+            115
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 10
+            },
+            "start": {
+              "column": 4,
+              "line": 10
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 120,
-          "end": 123,
           "elements": [
             {
               "type": "Literal",
-              "start": 121,
-              "end": 122,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                121,
+                122
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 10
+                },
+                "start": {
+                  "column": 11,
+                  "line": 10
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            120,
+            123
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 10
+            },
+            "start": {
+              "column": 10,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          114,
+          123
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 10
+          },
+          "start": {
+            "column": 4,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        110,
+        128
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 10
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 129,
-      "end": 152,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 149,
-        "end": 152,
-        "body": []
+        "body": [],
+        "range": [
+          149,
+          152
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 20,
+            "line": 12
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 133,
-        "end": 147,
         "operator": "===",
         "left": {
           "type": "ObjectExpression",
-          "start": 133,
-          "end": 141,
           "properties": [
             {
               "type": "Property",
-              "start": 135,
-              "end": 139,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 135,
-                "end": 136,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  135,
+                  136
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 12
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -363,97 +909,265 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 138,
-                "end": 139,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  138,
+                  139
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 12
+                  }
+                }
+              },
+              "range": [
+                135,
+                139
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 12
+                },
+                "start": {
+                  "column": 6,
+                  "line": 12
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            133,
+            141
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 12
+            },
+            "start": {
+              "column": 4,
+              "line": 12
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 146,
-          "end": 147,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            146,
+            147
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 12
+            },
+            "start": {
+              "column": 17,
+              "line": 12
+            }
+          }
+        },
+        "range": [
+          133,
+          147
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 12
+          },
+          "start": {
+            "column": 4,
+            "line": 12
+          }
+        }
+      },
+      "range": [
+        129,
+        152
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 12
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 153,
-      "end": 171,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 168,
-        "end": 171,
-        "body": []
+        "body": [],
+        "range": [
+          168,
+          171
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 15
+          },
+          "start": {
+            "column": 15,
+            "line": 14
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 157,
-        "end": 166,
         "operator": "===",
         "left": {
           "type": "ArrayExpression",
-          "start": 157,
-          "end": 160,
           "elements": [
             {
               "type": "Literal",
-              "start": 158,
-              "end": 159,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                158,
+                159
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 14
+                },
+                "start": {
+                  "column": 5,
+                  "line": 14
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            157,
+            160
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 14
+            },
+            "start": {
+              "column": 4,
+              "line": 14
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 165,
-          "end": 166,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            165,
+            166
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 14
+            },
+            "start": {
+              "column": 12,
+              "line": 14
+            }
+          }
+        },
+        "range": [
+          157,
+          166
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 14
+          },
+          "start": {
+            "column": 4,
+            "line": 14
+          }
+        }
+      },
+      "range": [
+        153,
+        171
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 14
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 173,
-      "end": 203,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 200,
-        "end": 203,
-        "body": []
+        "body": [],
+        "range": [
+          200,
+          203
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 18
+          },
+          "start": {
+            "column": 27,
+            "line": 17
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 177,
-        "end": 198,
         "operator": "!==",
         "left": {
           "type": "ObjectExpression",
-          "start": 177,
-          "end": 185,
           "properties": [
             {
               "type": "Property",
-              "start": 179,
-              "end": 183,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 179,
-                "end": 180,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  179,
+                  180
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 17
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -461,31 +1175,79 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 182,
-                "end": 183,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  182,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 17
+                  }
+                }
+              },
+              "range": [
+                179,
+                183
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 17
+                },
+                "start": {
+                  "column": 6,
+                  "line": 17
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            177,
+            185
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 17
+            },
+            "start": {
+              "column": 4,
+              "line": 17
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 190,
-          "end": 198,
           "properties": [
             {
               "type": "Property",
-              "start": 192,
-              "end": 196,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 192,
-                "end": 193,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  192,
+                  193
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 17
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -493,103 +1255,283 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 195,
-                "end": 196,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  195,
+                  196
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 17
+                  }
+                }
+              },
+              "range": [
+                192,
+                196
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 17
+                },
+                "start": {
+                  "column": 19,
+                  "line": 17
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            190,
+            198
+          ],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 17
+            },
+            "start": {
+              "column": 17,
+              "line": 17
+            }
+          }
+        },
+        "range": [
+          177,
+          198
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 17
+          },
+          "start": {
+            "column": 4,
+            "line": 17
+          }
+        }
+      },
+      "range": [
+        173,
+        203
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 18
+        },
+        "start": {
+          "column": 0,
+          "line": 17
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 204,
-      "end": 224,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 221,
-        "end": 224,
-        "body": []
+        "body": [],
+        "range": [
+          221,
+          224
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 20
+          },
+          "start": {
+            "column": 17,
+            "line": 19
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 208,
-        "end": 219,
         "operator": "!==",
         "left": {
           "type": "ArrayExpression",
-          "start": 208,
-          "end": 211,
           "elements": [
             {
               "type": "Literal",
-              "start": 209,
-              "end": 210,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                209,
+                210
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 19
+                },
+                "start": {
+                  "column": 5,
+                  "line": 19
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            208,
+            211
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 19
+            },
+            "start": {
+              "column": 4,
+              "line": 19
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 216,
-          "end": 219,
           "elements": [
             {
               "type": "Literal",
-              "start": 217,
-              "end": 218,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                217,
+                218
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 19
+                },
+                "start": {
+                  "column": 13,
+                  "line": 19
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            216,
+            219
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 19
+            },
+            "start": {
+              "column": 12,
+              "line": 19
+            }
+          }
+        },
+        "range": [
+          208,
+          219
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 19
+          },
+          "start": {
+            "column": 4,
+            "line": 19
+          }
+        }
+      },
+      "range": [
+        204,
+        224
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 20
+        },
+        "start": {
+          "column": 0,
+          "line": 19
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 225,
-      "end": 248,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 245,
-        "end": 248,
-        "body": []
+        "body": [],
+        "range": [
+          245,
+          248
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 22
+          },
+          "start": {
+            "column": 20,
+            "line": 21
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 229,
-        "end": 243,
         "operator": "!==",
         "left": {
           "type": "Identifier",
-          "start": 229,
-          "end": 230,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            229,
+            230
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 21
+            },
+            "start": {
+              "column": 4,
+              "line": 21
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 235,
-          "end": 243,
           "properties": [
             {
               "type": "Property",
-              "start": 237,
-              "end": 241,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 237,
-                "end": 238,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  237,
+                  238
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 21
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -597,89 +1539,245 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 240,
-                "end": 241,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  240,
+                  241
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 21
+                  }
+                }
+              },
+              "range": [
+                237,
+                241
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 21
+                },
+                "start": {
+                  "column": 12,
+                  "line": 21
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            235,
+            243
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 21
+            },
+            "start": {
+              "column": 10,
+              "line": 21
+            }
+          }
+        },
+        "range": [
+          229,
+          243
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 21
+          },
+          "start": {
+            "column": 4,
+            "line": 21
+          }
+        }
+      },
+      "range": [
+        225,
+        248
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 22
+        },
+        "start": {
+          "column": 0,
+          "line": 21
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 249,
-      "end": 267,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 264,
-        "end": 267,
-        "body": []
+        "body": [],
+        "range": [
+          264,
+          267
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 24
+          },
+          "start": {
+            "column": 15,
+            "line": 23
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 253,
-        "end": 262,
         "operator": "!==",
         "left": {
           "type": "Identifier",
-          "start": 253,
-          "end": 254,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            253,
+            254
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 23
+            },
+            "start": {
+              "column": 4,
+              "line": 23
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 259,
-          "end": 262,
           "elements": [
             {
               "type": "Literal",
-              "start": 260,
-              "end": 261,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                260,
+                261
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 23
+                },
+                "start": {
+                  "column": 11,
+                  "line": 23
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            259,
+            262
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 23
+            },
+            "start": {
+              "column": 10,
+              "line": 23
+            }
+          }
+        },
+        "range": [
+          253,
+          262
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 23
+          },
+          "start": {
+            "column": 4,
+            "line": 23
+          }
+        }
+      },
+      "range": [
+        249,
+        267
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 24
+        },
+        "start": {
+          "column": 0,
+          "line": 23
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 268,
-      "end": 291,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 288,
-        "end": 291,
-        "body": []
+        "body": [],
+        "range": [
+          288,
+          291
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 26
+          },
+          "start": {
+            "column": 20,
+            "line": 25
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 272,
-        "end": 286,
         "operator": "!==",
         "left": {
           "type": "ObjectExpression",
-          "start": 272,
-          "end": 280,
           "properties": [
             {
               "type": "Property",
-              "start": 274,
-              "end": 278,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 274,
-                "end": 275,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  274,
+                  275
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 25
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -687,97 +1785,265 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 277,
-                "end": 278,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  277,
+                  278
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 25
+                  }
+                }
+              },
+              "range": [
+                274,
+                278
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 25
+                },
+                "start": {
+                  "column": 6,
+                  "line": 25
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            272,
+            280
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 25
+            },
+            "start": {
+              "column": 4,
+              "line": 25
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 285,
-          "end": 286,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            285,
+            286
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 25
+            },
+            "start": {
+              "column": 17,
+              "line": 25
+            }
+          }
+        },
+        "range": [
+          272,
+          286
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 25
+          },
+          "start": {
+            "column": 4,
+            "line": 25
+          }
+        }
+      },
+      "range": [
+        268,
+        291
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 26
+        },
+        "start": {
+          "column": 0,
+          "line": 25
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 292,
-      "end": 310,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 307,
-        "end": 310,
-        "body": []
+        "body": [],
+        "range": [
+          307,
+          310
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 28
+          },
+          "start": {
+            "column": 15,
+            "line": 27
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 296,
-        "end": 305,
         "operator": "!==",
         "left": {
           "type": "ArrayExpression",
-          "start": 296,
-          "end": 299,
           "elements": [
             {
               "type": "Literal",
-              "start": 297,
-              "end": 298,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                297,
+                298
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 27
+                },
+                "start": {
+                  "column": 5,
+                  "line": 27
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            296,
+            299
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 27
+            },
+            "start": {
+              "column": 4,
+              "line": 27
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 304,
-          "end": 305,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            304,
+            305
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 27
+            },
+            "start": {
+              "column": 12,
+              "line": 27
+            }
+          }
+        },
+        "range": [
+          296,
+          305
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 27
+          },
+          "start": {
+            "column": 4,
+            "line": 27
+          }
+        }
+      },
+      "range": [
+        292,
+        310
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 28
+        },
+        "start": {
+          "column": 0,
+          "line": 27
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 312,
-      "end": 341,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 338,
-        "end": 341,
-        "body": []
+        "body": [],
+        "range": [
+          338,
+          341
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 31
+          },
+          "start": {
+            "column": 26,
+            "line": 30
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 316,
-        "end": 336,
         "operator": "==",
         "left": {
           "type": "ObjectExpression",
-          "start": 316,
-          "end": 324,
           "properties": [
             {
               "type": "Property",
-              "start": 318,
-              "end": 322,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 318,
-                "end": 319,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  318,
+                  319
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 30
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -785,31 +2051,79 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 321,
-                "end": 322,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  321,
+                  322
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 30
+                  }
+                }
+              },
+              "range": [
+                318,
+                322
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 30
+                },
+                "start": {
+                  "column": 6,
+                  "line": 30
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            316,
+            324
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 30
+            },
+            "start": {
+              "column": 4,
+              "line": 30
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 328,
-          "end": 336,
           "properties": [
             {
               "type": "Property",
-              "start": 330,
-              "end": 334,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 330,
-                "end": 331,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  330,
+                  331
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 30
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -817,103 +2131,283 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 333,
-                "end": 334,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  333,
+                  334
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 30
+                  }
+                }
+              },
+              "range": [
+                330,
+                334
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 30
+                },
+                "start": {
+                  "column": 18,
+                  "line": 30
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            328,
+            336
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 30
+            },
+            "start": {
+              "column": 16,
+              "line": 30
+            }
+          }
+        },
+        "range": [
+          316,
+          336
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 30
+          },
+          "start": {
+            "column": 4,
+            "line": 30
+          }
+        }
+      },
+      "range": [
+        312,
+        341
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 31
+        },
+        "start": {
+          "column": 0,
+          "line": 30
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 342,
-      "end": 361,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 358,
-        "end": 361,
-        "body": []
+        "body": [],
+        "range": [
+          358,
+          361
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 33
+          },
+          "start": {
+            "column": 16,
+            "line": 32
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 346,
-        "end": 356,
         "operator": "==",
         "left": {
           "type": "ArrayExpression",
-          "start": 346,
-          "end": 349,
           "elements": [
             {
               "type": "Literal",
-              "start": 347,
-              "end": 348,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                347,
+                348
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 32
+                },
+                "start": {
+                  "column": 5,
+                  "line": 32
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            346,
+            349
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 32
+            },
+            "start": {
+              "column": 4,
+              "line": 32
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 353,
-          "end": 356,
           "elements": [
             {
               "type": "Literal",
-              "start": 354,
-              "end": 355,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                354,
+                355
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 32
+                },
+                "start": {
+                  "column": 12,
+                  "line": 32
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            353,
+            356
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 32
+            },
+            "start": {
+              "column": 11,
+              "line": 32
+            }
+          }
+        },
+        "range": [
+          346,
+          356
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 32
+          },
+          "start": {
+            "column": 4,
+            "line": 32
+          }
+        }
+      },
+      "range": [
+        342,
+        361
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 33
+        },
+        "start": {
+          "column": 0,
+          "line": 32
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 362,
-      "end": 384,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 381,
-        "end": 384,
-        "body": []
+        "body": [],
+        "range": [
+          381,
+          384
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 35
+          },
+          "start": {
+            "column": 19,
+            "line": 34
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 366,
-        "end": 379,
         "operator": "==",
         "left": {
           "type": "Identifier",
-          "start": 366,
-          "end": 367,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            366,
+            367
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 34
+            },
+            "start": {
+              "column": 4,
+              "line": 34
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 371,
-          "end": 379,
           "properties": [
             {
               "type": "Property",
-              "start": 373,
-              "end": 377,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 373,
-                "end": 374,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  373,
+                  374
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 34
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 34
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -921,89 +2415,245 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 376,
-                "end": 377,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  376,
+                  377
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 34
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 34
+                  }
+                }
+              },
+              "range": [
+                373,
+                377
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 34
+                },
+                "start": {
+                  "column": 11,
+                  "line": 34
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            371,
+            379
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 34
+            },
+            "start": {
+              "column": 9,
+              "line": 34
+            }
+          }
+        },
+        "range": [
+          366,
+          379
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 34
+          },
+          "start": {
+            "column": 4,
+            "line": 34
+          }
+        }
+      },
+      "range": [
+        362,
+        384
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 35
+        },
+        "start": {
+          "column": 0,
+          "line": 34
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 385,
-      "end": 402,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 399,
-        "end": 402,
-        "body": []
+        "body": [],
+        "range": [
+          399,
+          402
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 37
+          },
+          "start": {
+            "column": 14,
+            "line": 36
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 389,
-        "end": 397,
         "operator": "==",
         "left": {
           "type": "Identifier",
-          "start": 389,
-          "end": 390,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            389,
+            390
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 36
+            },
+            "start": {
+              "column": 4,
+              "line": 36
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 394,
-          "end": 397,
           "elements": [
             {
               "type": "Literal",
-              "start": 395,
-              "end": 396,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                395,
+                396
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 36
+                },
+                "start": {
+                  "column": 10,
+                  "line": 36
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            394,
+            397
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 36
+            },
+            "start": {
+              "column": 9,
+              "line": 36
+            }
+          }
+        },
+        "range": [
+          389,
+          397
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 36
+          },
+          "start": {
+            "column": 4,
+            "line": 36
+          }
+        }
+      },
+      "range": [
+        385,
+        402
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 37
+        },
+        "start": {
+          "column": 0,
+          "line": 36
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 403,
-      "end": 425,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 422,
-        "end": 425,
-        "body": []
+        "body": [],
+        "range": [
+          422,
+          425
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 39
+          },
+          "start": {
+            "column": 19,
+            "line": 38
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 407,
-        "end": 420,
         "operator": "==",
         "left": {
           "type": "ObjectExpression",
-          "start": 407,
-          "end": 415,
           "properties": [
             {
               "type": "Property",
-              "start": 409,
-              "end": 413,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 409,
-                "end": 410,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  409,
+                  410
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 38
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 38
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1011,97 +2661,265 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 412,
-                "end": 413,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  412,
+                  413
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 38
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 38
+                  }
+                }
+              },
+              "range": [
+                409,
+                413
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 38
+                },
+                "start": {
+                  "column": 6,
+                  "line": 38
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            407,
+            415
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 38
+            },
+            "start": {
+              "column": 4,
+              "line": 38
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 419,
-          "end": 420,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            419,
+            420
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 38
+            },
+            "start": {
+              "column": 16,
+              "line": 38
+            }
+          }
+        },
+        "range": [
+          407,
+          420
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 38
+          },
+          "start": {
+            "column": 4,
+            "line": 38
+          }
+        }
+      },
+      "range": [
+        403,
+        425
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 39
+        },
+        "start": {
+          "column": 0,
+          "line": 38
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 426,
-      "end": 443,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 440,
-        "end": 443,
-        "body": []
+        "body": [],
+        "range": [
+          440,
+          443
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 41
+          },
+          "start": {
+            "column": 14,
+            "line": 40
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 430,
-        "end": 438,
         "operator": "==",
         "left": {
           "type": "ArrayExpression",
-          "start": 430,
-          "end": 433,
           "elements": [
             {
               "type": "Literal",
-              "start": 431,
-              "end": 432,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                431,
+                432
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 40
+                },
+                "start": {
+                  "column": 5,
+                  "line": 40
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            430,
+            433
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 40
+            },
+            "start": {
+              "column": 4,
+              "line": 40
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 437,
-          "end": 438,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            437,
+            438
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 40
+            },
+            "start": {
+              "column": 11,
+              "line": 40
+            }
+          }
+        },
+        "range": [
+          430,
+          438
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 40
+          },
+          "start": {
+            "column": 4,
+            "line": 40
+          }
+        }
+      },
+      "range": [
+        426,
+        443
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 41
+        },
+        "start": {
+          "column": 0,
+          "line": 40
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 445,
-      "end": 474,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 471,
-        "end": 474,
-        "body": []
+        "body": [],
+        "range": [
+          471,
+          474
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 44
+          },
+          "start": {
+            "column": 26,
+            "line": 43
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 449,
-        "end": 469,
         "operator": "!=",
         "left": {
           "type": "ObjectExpression",
-          "start": 449,
-          "end": 457,
           "properties": [
             {
               "type": "Property",
-              "start": 451,
-              "end": 455,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 451,
-                "end": 452,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  451,
+                  452
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 43
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1109,31 +2927,79 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 454,
-                "end": 455,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  454,
+                  455
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 43
+                  }
+                }
+              },
+              "range": [
+                451,
+                455
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 43
+                },
+                "start": {
+                  "column": 6,
+                  "line": 43
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            449,
+            457
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 43
+            },
+            "start": {
+              "column": 4,
+              "line": 43
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 461,
-          "end": 469,
           "properties": [
             {
               "type": "Property",
-              "start": 463,
-              "end": 467,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 463,
-                "end": 464,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  463,
+                  464
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 43
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1141,103 +3007,283 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 466,
-                "end": 467,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  466,
+                  467
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 43
+                  }
+                }
+              },
+              "range": [
+                463,
+                467
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 43
+                },
+                "start": {
+                  "column": 18,
+                  "line": 43
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            461,
+            469
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 43
+            },
+            "start": {
+              "column": 16,
+              "line": 43
+            }
+          }
+        },
+        "range": [
+          449,
+          469
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 43
+          },
+          "start": {
+            "column": 4,
+            "line": 43
+          }
+        }
+      },
+      "range": [
+        445,
+        474
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 44
+        },
+        "start": {
+          "column": 0,
+          "line": 43
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 475,
-      "end": 494,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 491,
-        "end": 494,
-        "body": []
+        "body": [],
+        "range": [
+          491,
+          494
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 46
+          },
+          "start": {
+            "column": 16,
+            "line": 45
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 479,
-        "end": 489,
         "operator": "!=",
         "left": {
           "type": "ArrayExpression",
-          "start": 479,
-          "end": 482,
           "elements": [
             {
               "type": "Literal",
-              "start": 480,
-              "end": 481,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                480,
+                481
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 45
+                },
+                "start": {
+                  "column": 5,
+                  "line": 45
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            479,
+            482
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 45
+            },
+            "start": {
+              "column": 4,
+              "line": 45
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 486,
-          "end": 489,
           "elements": [
             {
               "type": "Literal",
-              "start": 487,
-              "end": 488,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                487,
+                488
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 45
+                },
+                "start": {
+                  "column": 12,
+                  "line": 45
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            486,
+            489
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 45
+            },
+            "start": {
+              "column": 11,
+              "line": 45
+            }
+          }
+        },
+        "range": [
+          479,
+          489
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 45
+          },
+          "start": {
+            "column": 4,
+            "line": 45
+          }
+        }
+      },
+      "range": [
+        475,
+        494
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 46
+        },
+        "start": {
+          "column": 0,
+          "line": 45
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 495,
-      "end": 517,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 514,
-        "end": 517,
-        "body": []
+        "body": [],
+        "range": [
+          514,
+          517
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 48
+          },
+          "start": {
+            "column": 19,
+            "line": 47
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 499,
-        "end": 512,
         "operator": "!=",
         "left": {
           "type": "Identifier",
-          "start": 499,
-          "end": 500,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            499,
+            500
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 47
+            },
+            "start": {
+              "column": 4,
+              "line": 47
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 504,
-          "end": 512,
           "properties": [
             {
               "type": "Property",
-              "start": 506,
-              "end": 510,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 506,
-                "end": 507,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  506,
+                  507
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 47
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 47
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1245,89 +3291,245 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 509,
-                "end": 510,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  509,
+                  510
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 47
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 47
+                  }
+                }
+              },
+              "range": [
+                506,
+                510
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 47
+                },
+                "start": {
+                  "column": 11,
+                  "line": 47
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            504,
+            512
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 47
+            },
+            "start": {
+              "column": 9,
+              "line": 47
+            }
+          }
+        },
+        "range": [
+          499,
+          512
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 47
+          },
+          "start": {
+            "column": 4,
+            "line": 47
+          }
+        }
+      },
+      "range": [
+        495,
+        517
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 48
+        },
+        "start": {
+          "column": 0,
+          "line": 47
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 518,
-      "end": 535,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 532,
-        "end": 535,
-        "body": []
+        "body": [],
+        "range": [
+          532,
+          535
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 50
+          },
+          "start": {
+            "column": 14,
+            "line": 49
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 522,
-        "end": 530,
         "operator": "!=",
         "left": {
           "type": "Identifier",
-          "start": 522,
-          "end": 523,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            522,
+            523
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 49
+            },
+            "start": {
+              "column": 4,
+              "line": 49
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 527,
-          "end": 530,
           "elements": [
             {
               "type": "Literal",
-              "start": 528,
-              "end": 529,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                528,
+                529
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 49
+                },
+                "start": {
+                  "column": 10,
+                  "line": 49
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            527,
+            530
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 49
+            },
+            "start": {
+              "column": 9,
+              "line": 49
+            }
+          }
+        },
+        "range": [
+          522,
+          530
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 49
+          },
+          "start": {
+            "column": 4,
+            "line": 49
+          }
+        }
+      },
+      "range": [
+        518,
+        535
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 50
+        },
+        "start": {
+          "column": 0,
+          "line": 49
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 536,
-      "end": 558,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 555,
-        "end": 558,
-        "body": []
+        "body": [],
+        "range": [
+          555,
+          558
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 52
+          },
+          "start": {
+            "column": 19,
+            "line": 51
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 540,
-        "end": 553,
         "operator": "!=",
         "left": {
           "type": "ObjectExpression",
-          "start": 540,
-          "end": 548,
           "properties": [
             {
               "type": "Property",
-              "start": 542,
-              "end": 546,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 542,
-                "end": 543,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  542,
+                  543
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 51
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 51
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1335,65 +3537,228 @@ conditionalEqualityOnLiteralObjects.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 545,
-                "end": 546,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  545,
+                  546
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 51
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 51
+                  }
+                }
+              },
+              "range": [
+                542,
+                546
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 51
+                },
+                "start": {
+                  "column": 6,
+                  "line": 51
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            540,
+            548
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 51
+            },
+            "start": {
+              "column": 4,
+              "line": 51
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 552,
-          "end": 553,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            552,
+            553
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 51
+            },
+            "start": {
+              "column": 16,
+              "line": 51
+            }
+          }
+        },
+        "range": [
+          540,
+          553
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 51
+          },
+          "start": {
+            "column": 4,
+            "line": 51
+          }
+        }
+      },
+      "range": [
+        536,
+        558
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 52
+        },
+        "start": {
+          "column": 0,
+          "line": 51
         }
       }
     },
     {
       "type": "IfStatement",
-      "start": 559,
-      "end": 576,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 573,
-        "end": 576,
-        "body": []
+        "body": [],
+        "range": [
+          573,
+          576
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 54
+          },
+          "start": {
+            "column": 14,
+            "line": 53
+          }
+        }
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 563,
-        "end": 571,
         "operator": "!=",
         "left": {
           "type": "ArrayExpression",
-          "start": 563,
-          "end": 566,
           "elements": [
             {
               "type": "Literal",
-              "start": 564,
-              "end": 565,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                564,
+                565
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 53
+                },
+                "start": {
+                  "column": 5,
+                  "line": 53
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            563,
+            566
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 53
+            },
+            "start": {
+              "column": 4,
+              "line": 53
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 570,
-          "end": 571,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            570,
+            571
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 53
+            },
+            "start": {
+              "column": 11,
+              "line": 53
+            }
+          }
+        },
+        "range": [
+          563,
+          571
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 53
+          },
+          "start": {
+            "column": 4,
+            "line": 53
+          }
+        }
+      },
+      "range": [
+        559,
+        576
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 54
+        },
+        "start": {
+          "column": 0,
+          "line": 53
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 55
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

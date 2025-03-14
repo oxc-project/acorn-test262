@@ -1,31 +1,80 @@
-parserIfStatement2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 10,
+  "range": [
+    0,
+    10
+  ],
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 10,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 7,
-        "end": 10,
-        "body": []
+        "body": [],
+        "range": [
+          7,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Identifier",
-        "start": 4,
-        "end": 5,
         "decorators": [],
         "name": "a",
-        "optional": false
+        "optional": false,
+        "range": [
+          4,
+          5
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 1
+          },
+          "start": {
+            "column": 4,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

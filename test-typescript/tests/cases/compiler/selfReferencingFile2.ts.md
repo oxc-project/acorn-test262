@@ -1,35 +1,84 @@
-selfReferencingFile2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 51,
-  "end": 82,
+  "range": [
+    51,
+    82
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 51,
-      "end": 82,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 78,
-        "end": 82,
-        "body": []
+        "range": [
+          78,
+          82
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 27,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 77,
         "decorators": [],
         "name": "selfReferencingFile2",
-        "optional": false
+        "optional": false,
+        "range": [
+          57,
+          77
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        51,
+        82
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

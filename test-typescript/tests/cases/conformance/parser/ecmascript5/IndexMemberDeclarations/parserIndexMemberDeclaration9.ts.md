@@ -1,4 +1,4 @@
-parserIndexMemberDeclaration9.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'export' modifier cannot appear on an index signature
 ```

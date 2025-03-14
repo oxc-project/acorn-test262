@@ -1,50 +1,66 @@
-templateStringWithEmbeddedObjectLiteralES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 55,
+  "range": [
+    17,
+    55
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 55,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 54,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              21,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 25,
-            "end": 54,
             "expressions": [
               {
                 "type": "ObjectExpression",
-                "start": 32,
-                "end": 48,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 34,
-                    "end": 39,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 34,
-                      "end": 35,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        34,
+                        35
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 2
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -52,24 +68,60 @@ templateStringWithEmbeddedObjectLiteralES6.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 37,
-                      "end": 39,
                       "raw": "10",
-                      "value": 10
+                      "value": 10,
+                      "range": [
+                        37,
+                        39
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 22,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 20,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      34,
+                      39
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 2
+                      }
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 41,
-                    "end": 46,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 41,
-                      "end": 42,
                       "decorators": [],
                       "name": "y",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        41,
+                        42
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 25,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 2
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -77,44 +129,161 @@ templateStringWithEmbeddedObjectLiteralES6.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 44,
-                      "end": 46,
                       "raw": "20",
-                      "value": 20
+                      "value": 20,
+                      "range": [
+                        44,
+                        46
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 27,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      41,
+                      46
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 24,
+                        "line": 2
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  32,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 2
+                  }
+                }
               }
             ],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 25,
-                "end": 31,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  25,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "TemplateElement",
-                "start": 49,
-                "end": 54,
                 "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
+                },
+                "range": [
+                  49,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 37,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 32,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              25,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 37,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            21,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 37,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        17,
+        55
+      ],
+      "loc": {
+        "end": {
+          "column": 38,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 38,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

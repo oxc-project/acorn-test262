@@ -1,16 +1,41 @@
-parserEmptyStatement1.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 1,
+  "range": [
+    0,
+    1
+  ],
   "body": [
     {
       "type": "EmptyStatement",
-      "start": 0,
-      "end": 1
+      "range": [
+        0,
+        1
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

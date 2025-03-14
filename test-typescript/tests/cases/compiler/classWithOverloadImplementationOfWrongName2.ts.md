@@ -1,33 +1,45 @@
-classWithOverloadImplementationOfWrongName2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
+  "range": [
+    0,
+    70
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 70,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 70,
+        "range": [
+          8,
+          70
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 28,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 17,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                14,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,8 +47,10 @@ classWithOverloadImplementationOfWrongName2.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 17,
-              "end": 28,
+              "range": [
+                17,
+                28
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -46,29 +60,87 @@ classWithOverloadImplementationOfWrongName2.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 19,
-                "end": 27,
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  19,
+                  27
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 21,
-                  "end": 27
+                  "range": [
+                    21,
+                    27
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 33,
-            "end": 48,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 33,
-              "end": 36,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                33,
+                36
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -76,14 +148,28 @@ classWithOverloadImplementationOfWrongName2.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 36,
-              "end": 48,
+              "range": [
+                36,
+                48
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 45,
-                "end": 48,
-                "body": []
+                "body": [],
+                "range": [
+                  45,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -92,38 +178,108 @@ classWithOverloadImplementationOfWrongName2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 38,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    37,
+                    38
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 3
+                    }
+                  }
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 39,
-                "end": 44,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  39,
+                  44
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 41,
-                  "end": 44
+                  "range": [
+                    41,
+                    44
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 3
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              33,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 53,
-            "end": 68,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 53,
-              "end": 56,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                53,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -131,8 +287,10 @@ classWithOverloadImplementationOfWrongName2.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 56,
-              "end": 68,
+              "range": [
+                56,
+                68
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -142,41 +300,148 @@ classWithOverloadImplementationOfWrongName2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 57,
-                  "end": 58,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    57,
+                    58
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 59,
-                "end": 67,
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 4
+                  }
+                },
+                "range": [
+                  59,
+                  67
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 61,
-                  "end": 67
+                  "range": [
+                    61,
+                    67
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 4
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 4
+                },
+                "start": {
+                  "column": 7,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              53,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

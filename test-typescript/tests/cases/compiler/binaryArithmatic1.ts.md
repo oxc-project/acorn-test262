@@ -1,54 +1,139 @@
-binaryArithmatic1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
+  "range": [
+    0,
+    17
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 16,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 8,
-            "end": 16,
             "operator": "|",
             "left": {
               "type": "Literal",
-              "start": 8,
-              "end": 9,
               "raw": "4",
-              "value": 4
+              "value": 4,
+              "range": [
+                8,
+                9
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 1
+                },
+                "start": {
+                  "column": 8,
+                  "line": 1
+                }
+              }
             },
             "right": {
               "type": "Literal",
-              "start": 12,
-              "end": 16,
               "raw": "null",
-              "value": null
+              "value": null,
+              "range": [
+                12,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 1
+                },
+                "start": {
+                  "column": 12,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              8,
+              16
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            16
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        17
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 17,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

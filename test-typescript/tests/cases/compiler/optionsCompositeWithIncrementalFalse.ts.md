@@ -1,41 +1,102 @@
-optionsCompositeWithIncrementalFalse.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
+  "range": [
+    0,
+    25
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 10,
-            "end": 23,
             "raw": "\"Hello World\"",
-            "value": "Hello World"
+            "value": "Hello World",
+            "range": [
+              10,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

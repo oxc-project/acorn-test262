@@ -1,76 +1,185 @@
-noCollisionThisExpressionAndClassInGlobal.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
+  "range": [
+    0,
+    36
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 15,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 15,
-        "body": []
+        "range": [
+          12,
+          15
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "_this",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        15
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 36,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 35,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 21,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "range": [
+              20,
+              21
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 24,
-            "end": 35,
             "async": false,
             "body": {
               "type": "Identifier",
-              "start": 30,
-              "end": 35,
               "decorators": [],
               "name": "_this",
-              "optional": false
+              "optional": false,
+              "range": [
+                30,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 3
+                },
+                "start": {
+                  "column": 14,
+                  "line": 3
+                }
+              }
             },
             "expression": true,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "range": [
+              24,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            20,
+            35
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        16,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

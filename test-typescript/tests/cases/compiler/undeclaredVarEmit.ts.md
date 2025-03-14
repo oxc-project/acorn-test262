@@ -1,37 +1,98 @@
-undeclaredVarEmit.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 10,
+  "range": [
+    0,
+    10
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 10,
       "body": {
         "type": "ExpressionStatement",
-        "start": 3,
-        "end": 10,
         "expression": {
           "type": "Identifier",
-          "start": 3,
-          "end": 9,
           "decorators": [],
           "name": "number",
-          "optional": false
+          "optional": false,
+          "range": [
+            3,
+            9
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 1
+            },
+            "start": {
+              "column": 3,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          3,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1
+          },
+          "start": {
+            "column": 3,
+            "line": 1
+          }
         }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 1,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          1
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 10,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

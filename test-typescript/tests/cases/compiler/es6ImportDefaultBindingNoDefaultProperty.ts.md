@@ -1,90 +1,224 @@
-es6ImportDefaultBindingNoDefaultProperty_0.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
+  "range": [
+    0,
+    19
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
+      "range": [
+        0,
+        18
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                11,
+                12
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 1
+                },
+                "start": {
+                  "column": 11,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "range": [
+                15,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              11,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 1
+              },
+              "start": {
+                "column": 11,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          7,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-es6ImportDefaultBindingNoDefaultProperty_1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
+  "range": [
+    0,
+    75
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 74,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 27,
-        "end": 73,
         "raw": "\"./es6ImportDefaultBindingNoDefaultProperty_0\"",
-        "value": "./es6ImportDefaultBindingNoDefaultProperty_0"
+        "value": "./es6ImportDefaultBindingNoDefaultProperty_0",
+        "range": [
+          27,
+          73
+        ],
+        "loc": {
+          "end": {
+            "column": 73,
+            "line": 1
+          },
+          "start": {
+            "column": 27,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 21,
+          "range": [
+            7,
+            21
+          ],
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 21,
             "decorators": [],
             "name": "defaultBinding",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              21
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 21,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        74
+      ],
+      "loc": {
+        "end": {
+          "column": 74,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

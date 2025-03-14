@@ -1,42 +1,103 @@
-externalModuleWithoutCompilerFlag1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 94,
-  "end": 113,
+  "range": [
+    94,
+    113
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 94,
-      "end": 113,
+      "range": [
+        94,
+        113
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 101,
-        "end": 113,
         "body": {
           "type": "TSModuleBlock",
-          "start": 110,
-          "end": 113,
-          "body": []
+          "body": [],
+          "range": [
+            110,
+            113
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 18,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "global": false,
         "id": {
           "type": "Identifier",
-          "start": 108,
-          "end": 109,
+          "range": [
+            108,
+            109
+          ],
           "decorators": [],
           "name": "M",
-          "optional": false
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 2
+            },
+            "start": {
+              "column": 16,
+              "line": 2
+            }
+          }
         },
-        "kind": "module"
+        "kind": "module",
+        "range": [
+          101,
+          113
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 9,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 2,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 2,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

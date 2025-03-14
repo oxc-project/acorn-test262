@@ -1,45 +1,47 @@
-nestedRecursiveLambda.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 98,
+  "range": [
+    0,
+    98
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 42,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 18,
-        "end": 42,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 20,
-            "end": 40,
             "expression": {
               "type": "UnaryExpression",
-              "start": 20,
-              "end": 39,
               "argument": {
                 "type": "ArrowFunctionExpression",
-                "start": 26,
-                "end": 38,
                 "async": false,
                 "body": {
                   "type": "ArrowFunctionExpression",
-                  "start": 31,
-                  "end": 37,
                   "async": false,
                   "body": {
                     "type": "Identifier",
-                    "start": 36,
-                    "end": 37,
                     "decorators": [],
                     "name": "r",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      36,
+                      37
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 2
+                      }
+                    }
                   },
                   "expression": true,
                   "generator": false,
@@ -47,13 +49,39 @@ nestedRecursiveLambda.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 31,
-                      "end": 32,
                       "decorators": [],
                       "name": "r",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        31,
+                        32
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 12,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 11,
+                          "line": 2
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    31,
+                    37
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
                 },
                 "expression": true,
                 "generator": false,
@@ -61,78 +89,212 @@ nestedRecursiveLambda.ts
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 26,
-                    "end": 27,
                     "decorators": [],
                     "name": "r",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      26,
+                      27
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 2
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  26,
+                  38
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 2
+                  }
+                }
               },
               "operator": "void",
-              "prefix": true
+              "prefix": true,
+              "range": [
+                20,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 2
+                },
+                "start": {
+                  "column": 0,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              20,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          18,
+          42
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          9,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 11,
-          "end": 16,
           "decorators": [],
           "name": "a",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 12,
-            "end": 16,
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            },
+            "range": [
+              12,
+              16
+            ],
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "start": 13,
-              "end": 16
+              "range": [
+                13,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
+            }
+          },
+          "range": [
+            11,
+            16
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 1
+            },
+            "start": {
+              "column": 11,
+              "line": 1
             }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 43,
-      "end": 61,
       "expression": {
         "type": "CallExpression",
-        "start": 43,
-        "end": 60,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 46,
-            "end": 58,
             "async": false,
             "body": {
               "type": "ArrowFunctionExpression",
-              "start": 51,
-              "end": 57,
               "async": false,
               "body": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 57,
                 "decorators": [],
                 "name": "r",
-                "optional": false
+                "optional": false,
+                "range": [
+                  56,
+                  57
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 4
+                  }
+                }
               },
               "expression": true,
               "generator": false,
@@ -140,13 +302,39 @@ nestedRecursiveLambda.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 51,
-                  "end": 52,
                   "decorators": [],
                   "name": "r",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    51,
+                    52
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 }
-              ]
+              ],
+              "range": [
+                51,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
+              }
             },
             "expression": true,
             "generator": false,
@@ -154,51 +342,121 @@ nestedRecursiveLambda.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 46,
-                "end": 47,
                 "decorators": [],
                 "name": "r",
-                "optional": false
+                "optional": false,
+                "range": [
+                  46,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 4,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              46,
+              58
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 4
+              },
+              "start": {
+                "column": 3,
+                "line": 4
+              }
+            }
           }
         ],
         "callee": {
           "type": "Identifier",
-          "start": 43,
-          "end": 44,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "range": [
+            43,
+            44
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 4
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          43,
+          60
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        43,
+        61
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 81,
       "expression": {
         "type": "UnaryExpression",
-        "start": 62,
-        "end": 80,
         "argument": {
           "type": "ArrowFunctionExpression",
-          "start": 67,
-          "end": 79,
           "async": false,
           "body": {
             "type": "ArrowFunctionExpression",
-            "start": 72,
-            "end": 78,
             "async": false,
             "body": {
               "type": "Identifier",
-              "start": 77,
-              "end": 78,
               "decorators": [],
               "name": "r",
-              "optional": false
+              "optional": false,
+              "range": [
+                77,
+                78
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 5
+                }
+              }
             },
             "expression": true,
             "generator": false,
@@ -206,13 +464,39 @@ nestedRecursiveLambda.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 72,
-                "end": 73,
                 "decorators": [],
                 "name": "r",
-                "optional": false
+                "optional": false,
+                "range": [
+                  72,
+                  73
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 5
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              72,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 5
+              },
+              "start": {
+                "column": 10,
+                "line": 5
+              }
+            }
           },
           "expression": true,
           "generator": false,
@@ -220,44 +504,102 @@ nestedRecursiveLambda.ts
           "params": [
             {
               "type": "Identifier",
-              "start": 67,
-              "end": 68,
               "decorators": [],
               "name": "r",
-              "optional": false
+              "optional": false,
+              "range": [
+                67,
+                68
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 5
+                },
+                "start": {
+                  "column": 5,
+                  "line": 5
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            67,
+            79
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 5
+            },
+            "start": {
+              "column": 5,
+              "line": 5
+            }
+          }
         },
         "operator": "void",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          62,
+          80
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        62,
+        81
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 82,
-      "end": 98,
       "expression": {
         "type": "ArrayExpression",
-        "start": 82,
-        "end": 98,
         "elements": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 84,
-            "end": 96,
             "async": false,
             "body": {
               "type": "ArrowFunctionExpression",
-              "start": 89,
-              "end": 95,
               "async": false,
               "body": {
                 "type": "Identifier",
-                "start": 94,
-                "end": 95,
                 "decorators": [],
                 "name": "r",
-                "optional": false
+                "optional": false,
+                "range": [
+                  94,
+                  95
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 6
+                  }
+                }
               },
               "expression": true,
               "generator": false,
@@ -265,13 +607,39 @@ nestedRecursiveLambda.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 89,
-                  "end": 90,
                   "decorators": [],
                   "name": "r",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    89,
+                    90
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 6
+                    }
+                  }
                 }
-              ]
+              ],
+              "range": [
+                89,
+                95
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 6
+                },
+                "start": {
+                  "column": 7,
+                  "line": 6
+                }
+              }
             },
             "expression": true,
             "generator": false,
@@ -279,18 +647,83 @@ nestedRecursiveLambda.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 84,
-                "end": 85,
                 "decorators": [],
                 "name": "r",
-                "optional": false
+                "optional": false,
+                "range": [
+                  84,
+                  85
+                ],
+                "loc": {
+                  "end": {
+                    "column": 3,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 6
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              84,
+              96
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 6
+              },
+              "start": {
+                "column": 2,
+                "line": 6
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          82,
+          98
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        82,
+        98
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 16,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

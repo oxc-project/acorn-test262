@@ -1,65 +1,163 @@
-file1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 3,
+  "range": [
+    0,
+    3
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 2,
       "expression": {
         "type": "Identifier",
-        "start": 0,
-        "end": 1,
         "decorators": [],
         "name": "c",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          1
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        2
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 13,
+  "range": [
+    0,
+    13
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 12,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 11,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 10,
-            "end": 11,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "range": [
+              10,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            11
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

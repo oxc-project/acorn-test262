@@ -1,39 +1,53 @@
-es6modulekindWithES5Target2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 73,
+  "range": [
+    0,
+    73
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 72,
+      "range": [
+        0,
+        72
+      ],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 72,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 23,
-          "end": 72,
+          "range": [
+            23,
+            72
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 29,
-              "end": 42,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 37,
                 "decorators": [],
                 "name": "s",
-                "optional": false
+                "optional": false,
+                "range": [
+                  36,
+                  37
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -41,27 +55,63 @@ es6modulekindWithES5Target2.ts
               "static": true,
               "value": {
                 "type": "Literal",
-                "start": 40,
-                "end": 41,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  40,
+                  41
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                29,
+                42
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             },
             {
               "type": "PropertyDefinition",
-              "start": 47,
-              "end": 53,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 47,
-                "end": 48,
                 "decorators": [],
                 "name": "p",
-                "optional": false
+                "optional": false,
+                "range": [
+                  47,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -69,25 +119,61 @@ es6modulekindWithES5Target2.ts
               "static": false,
               "value": {
                 "type": "Literal",
-                "start": 51,
-                "end": 52,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  51,
+                  52
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                47,
+                53
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
               }
             },
             {
               "type": "MethodDefinition",
-              "start": 58,
-              "end": 70,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 64,
                 "decorators": [],
                 "name": "method",
-                "optional": false
+                "optional": false,
+                "range": [
+                  58,
+                  64
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
+                }
               },
               "kind": "method",
               "optional": false,
@@ -95,40 +181,135 @@ es6modulekindWithES5Target2.ts
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 64,
-                "end": 70,
+                "range": [
+                  64,
+                  70
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 67,
-                  "end": 70,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    67,
+                    70
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 4
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                58,
+                70
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 23,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            21,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 21,
+              "line": 1
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          15,
+          72
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

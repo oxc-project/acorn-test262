@@ -1,54 +1,139 @@
-parserEnumDeclaration3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
+  "range": [
+    0,
+    26
+  ],
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 26,
       "body": {
         "type": "TSEnumBody",
-        "start": 15,
-        "end": 26,
+        "range": [
+          15,
+          26
+        ],
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 19,
-            "end": 24,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "range": [
+                19,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 2
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
+              }
             },
             "initializer": {
               "type": "Literal",
-              "start": 23,
-              "end": 24,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                23,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              19,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
       "const": false,
       "declare": true,
       "id": {
         "type": "Identifier",
-        "start": 13,
-        "end": 14,
         "decorators": [],
         "name": "E",
-        "optional": false
+        "optional": false,
+        "range": [
+          13,
+          14
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 1
+          },
+          "start": {
+            "column": 13,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        26
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

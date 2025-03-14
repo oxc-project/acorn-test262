@@ -1,113 +1,282 @@
-exportInterfaceClassAndValue.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 73,
+  "range": [
+    0,
+    73
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 20,
+      "range": [
+        0,
+        20
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 20,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 20,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 16,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 19,
-              "end": 20,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                19,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 1
+                },
+                "start": {
+                  "column": 19,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          20
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 21,
-      "end": 48,
+      "range": [
+        21,
+        48
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 28,
-        "end": 48,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 46,
-          "end": 48,
-          "body": []
+          "range": [
+            46,
+            48
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 2
+            },
+            "start": {
+              "column": 25,
+              "line": 2
+            }
+          }
         },
         "declare": true,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 42,
-          "end": 45,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            42,
+            45
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 2
+            },
+            "start": {
+              "column": 21,
+              "line": 2
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          28,
+          48
+        ],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 49,
-      "end": 72,
+      "range": [
+        49,
+        72
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 56,
-        "end": 72,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 70,
-          "end": 72,
-          "body": []
+          "range": [
+            70,
+            72
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 3
+            },
+            "start": {
+              "column": 21,
+              "line": 3
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 66,
-          "end": 69,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            66,
+            69
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 3
+            },
+            "start": {
+              "column": 17,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          56,
+          72
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 3
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

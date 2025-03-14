@@ -1,1376 +1,3646 @@
-privacyInterfaceExtendsClauseDeclFile_externalModule.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 2662,
+  "range": [
+    0,
+    2662
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 1076,
+      "range": [
+        0,
+        1076
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 7,
-        "end": 1076,
         "body": {
           "type": "TSModuleBlock",
-          "start": 27,
-          "end": 1076,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 33,
-              "end": 87,
+              "range": [
+                33,
+                87
+              ],
               "attributes": [],
               "declaration": {
                 "type": "TSInterfaceDeclaration",
-                "start": 40,
-                "end": 87,
                 "body": {
                   "type": "TSInterfaceBody",
-                  "start": 80,
-                  "end": 87,
-                  "body": []
+                  "range": [
+                    80,
+                    87
+                  ],
+                  "body": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 51,
+                      "line": 2
+                    }
+                  }
                 },
                 "declare": false,
                 "extends": [],
                 "id": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 79,
                   "decorators": [],
                   "name": "publicInterfaceInPublicModule",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    50,
+                    79
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 50,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  40,
+                  87
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
                 }
               },
               "exportKind": "type",
               "source": null,
-              "specifiers": []
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             {
               "type": "TSInterfaceDeclaration",
-              "start": 93,
-              "end": 141,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 134,
-                "end": 141,
-                "body": []
+                "range": [
+                  134,
+                  141
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "extends": [],
               "id": {
                 "type": "Identifier",
-                "start": 103,
-                "end": 133,
                 "decorators": [],
                 "name": "privateInterfaceInPublicModule",
-                "optional": false
+                "optional": false,
+                "range": [
+                  103,
+                  133
+                ],
+                "loc": {
+                  "end": {
+                    "column": 44,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                93,
+                141
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
               }
             },
             {
               "type": "TSInterfaceDeclaration",
-              "start": 147,
-              "end": 254,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 247,
-                "end": 254,
-                "body": []
+                "range": [
+                  247,
+                  254
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 104,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "extends": [
                 {
                   "type": "TSInterfaceHeritage",
-                  "start": 217,
-                  "end": 246,
                   "expression": {
                     "type": "Identifier",
-                    "start": 217,
-                    "end": 246,
                     "decorators": [],
                     "name": "publicInterfaceInPublicModule",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      217,
+                      246
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 103,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 74,
+                        "line": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    217,
+                    246
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 103,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 74,
+                      "line": 8
+                    }
                   }
                 }
               ],
               "id": {
                 "type": "Identifier",
-                "start": 157,
-                "end": 208,
                 "decorators": [],
                 "name": "privateInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
+                "optional": false,
+                "range": [
+                  157,
+                  208
+                ],
+                "loc": {
+                  "end": {
+                    "column": 65,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                147,
+                254
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 9
+                },
+                "start": {
+                  "column": 4,
+                  "line": 8
+                }
               }
             },
             {
               "type": "TSInterfaceDeclaration",
-              "start": 259,
-              "end": 368,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 361,
-                "end": 368,
-                "body": []
+                "range": [
+                  361,
+                  368
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 106,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "extends": [
                 {
                   "type": "TSInterfaceHeritage",
-                  "start": 330,
-                  "end": 360,
                   "expression": {
                     "type": "Identifier",
-                    "start": 330,
-                    "end": 360,
                     "decorators": [],
                     "name": "privateInterfaceInPublicModule",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      330,
+                      360
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 105,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 75,
+                        "line": 10
+                      }
+                    }
+                  },
+                  "range": [
+                    330,
+                    360
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 105,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 75,
+                      "line": 10
+                    }
                   }
                 }
               ],
               "id": {
                 "type": "Identifier",
-                "start": 269,
-                "end": 321,
                 "decorators": [],
                 "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
+                "optional": false,
+                "range": [
+                  269,
+                  321
+                ],
+                "loc": {
+                  "end": {
+                    "column": 66,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                259,
+                368
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 11
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
+                }
               }
             },
             {
               "type": "ExportNamedDeclaration",
-              "start": 373,
-              "end": 486,
+              "range": [
+                373,
+                486
+              ],
               "attributes": [],
               "declaration": {
                 "type": "TSInterfaceDeclaration",
-                "start": 380,
-                "end": 486,
                 "body": {
                   "type": "TSInterfaceBody",
-                  "start": 479,
-                  "end": 486,
-                  "body": []
+                  "range": [
+                    479,
+                    486
+                  ],
+                  "body": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 110,
+                      "line": 12
+                    }
+                  }
                 },
                 "declare": false,
                 "extends": [
                   {
                     "type": "TSInterfaceHeritage",
-                    "start": 449,
-                    "end": 478,
                     "expression": {
                       "type": "Identifier",
-                      "start": 449,
-                      "end": 478,
                       "decorators": [],
                       "name": "publicInterfaceInPublicModule",
-                      "optional": false
-                    }
-                  }
-                ],
-                "id": {
-                  "type": "Identifier",
-                  "start": 390,
-                  "end": 440,
-                  "decorators": [],
-                  "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                  "optional": false
-                }
-              },
-              "exportKind": "type",
-              "source": null,
-              "specifiers": []
-            },
-            {
-              "type": "ExportNamedDeclaration",
-              "start": 491,
-              "end": 622,
-              "attributes": [],
-              "declaration": {
-                "type": "TSInterfaceDeclaration",
-                "start": 498,
-                "end": 622,
-                "body": {
-                  "type": "TSInterfaceBody",
-                  "start": 599,
-                  "end": 622,
-                  "body": []
-                },
-                "declare": false,
-                "extends": [
-                  {
-                    "type": "TSInterfaceHeritage",
-                    "start": 568,
-                    "end": 598,
-                    "expression": {
-                      "type": "Identifier",
-                      "start": 568,
-                      "end": 598,
-                      "decorators": [],
-                      "name": "privateInterfaceInPublicModule",
-                      "optional": false
-                    }
-                  }
-                ],
-                "id": {
-                  "type": "Identifier",
-                  "start": 508,
-                  "end": 559,
-                  "decorators": [],
-                  "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                  "optional": false
-                }
-              },
-              "exportKind": "type",
-              "source": null,
-              "specifiers": []
-            },
-            {
-              "type": "TSInterfaceDeclaration",
-              "start": 628,
-              "end": 753,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 746,
-                "end": 753,
-                "body": []
-              },
-              "declare": false,
-              "extends": [
-                {
-                  "type": "TSInterfaceHeritage",
-                  "start": 701,
-                  "end": 745,
-                  "expression": {
-                    "type": "MemberExpression",
-                    "start": 701,
-                    "end": 745,
-                    "computed": false,
-                    "object": {
-                      "type": "Identifier",
-                      "start": 701,
-                      "end": 714,
-                      "decorators": [],
-                      "name": "privateModule",
-                      "optional": false
-                    },
-                    "optional": false,
-                    "property": {
-                      "type": "Identifier",
-                      "start": 715,
-                      "end": 745,
-                      "decorators": [],
-                      "name": "publicInterfaceInPrivateModule",
-                      "optional": false
-                    }
-                  }
-                }
-              ],
-              "id": {
-                "type": "Identifier",
-                "start": 638,
-                "end": 692,
-                "decorators": [],
-                "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-                "optional": false
-              }
-            },
-            {
-              "type": "ExportNamedDeclaration",
-              "start": 758,
-              "end": 905,
-              "attributes": [],
-              "declaration": {
-                "type": "TSInterfaceDeclaration",
-                "start": 765,
-                "end": 905,
-                "body": {
-                  "type": "TSInterfaceBody",
-                  "start": 882,
-                  "end": 905,
-                  "body": []
-                },
-                "declare": false,
-                "extends": [
-                  {
-                    "type": "TSInterfaceHeritage",
-                    "start": 837,
-                    "end": 881,
-                    "expression": {
-                      "type": "MemberExpression",
-                      "start": 837,
-                      "end": 881,
-                      "computed": false,
-                      "object": {
-                        "type": "Identifier",
-                        "start": 837,
-                        "end": 850,
-                        "decorators": [],
-                        "name": "privateModule",
-                        "optional": false
-                      },
                       "optional": false,
-                      "property": {
-                        "type": "Identifier",
-                        "start": 851,
-                        "end": 881,
-                        "decorators": [],
-                        "name": "publicInterfaceInPrivateModule",
-                        "optional": false
+                      "range": [
+                        449,
+                        478
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 109,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 80,
+                          "line": 12
+                        }
+                      }
+                    },
+                    "range": [
+                      449,
+                      478
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 109,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 80,
+                        "line": 12
                       }
                     }
                   }
                 ],
                 "id": {
                   "type": "Identifier",
-                  "start": 775,
-                  "end": 828,
                   "decorators": [],
-                  "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-                  "optional": false
+                  "name": "publicInterfaceImplementingPublicInterfaceInModule",
+                  "optional": false,
+                  "range": [
+                    390,
+                    440
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 71,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 12
+                    }
+                  }
+                },
+                "range": [
+                  380,
+                  486
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 12
+                  }
                 }
               },
               "exportKind": "type",
               "source": null,
-              "specifiers": []
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 13
+                },
+                "start": {
+                  "column": 4,
+                  "line": 12
+                }
+              }
             },
             {
               "type": "ExportNamedDeclaration",
-              "start": 911,
-              "end": 1074,
+              "range": [
+                491,
+                622
+              ],
               "attributes": [],
               "declaration": {
                 "type": "TSInterfaceDeclaration",
-                "start": 918,
-                "end": 1074,
                 "body": {
                   "type": "TSInterfaceBody",
-                  "start": 1051,
-                  "end": 1074,
-                  "body": []
+                  "range": [
+                    599,
+                    622
+                  ],
+                  "body": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 112,
+                      "line": 14
+                    }
+                  }
                 },
                 "declare": false,
                 "extends": [
                   {
                     "type": "TSInterfaceHeritage",
-                    "start": 989,
-                    "end": 1019,
                     "expression": {
                       "type": "Identifier",
-                      "start": 989,
-                      "end": 1019,
                       "decorators": [],
                       "name": "privateInterfaceInPublicModule",
-                      "optional": false
-                    }
-                  },
-                  {
-                    "type": "TSInterfaceHeritage",
-                    "start": 1021,
-                    "end": 1050,
-                    "expression": {
-                      "type": "Identifier",
-                      "start": 1021,
-                      "end": 1050,
-                      "decorators": [],
-                      "name": "publicInterfaceInPublicModule",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        568,
+                        598
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 111,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 81,
+                          "line": 14
+                        }
+                      }
+                    },
+                    "range": [
+                      568,
+                      598
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 111,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 81,
+                        "line": 14
+                      }
                     }
                   }
                 ],
                 "id": {
                   "type": "Identifier",
-                  "start": 928,
-                  "end": 980,
                   "decorators": [],
-                  "name": "publicInterfaceImplementingPrivateAndPublicInterface",
-                  "optional": false
+                  "name": "publicInterfaceImplementingPrivateInterfaceInModule",
+                  "optional": false,
+                  "range": [
+                    508,
+                    559
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 72,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  498,
+                  622
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 14
+                  }
                 }
               },
               "exportKind": "type",
               "source": null,
-              "specifiers": []
-            }
-          ]
-        },
-        "declare": false,
-        "global": false,
-        "id": {
-          "type": "Identifier",
-          "start": 14,
-          "end": 26,
-          "decorators": [],
-          "name": "publicModule",
-          "optional": false
-        },
-        "kind": "module"
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "TSModuleDeclaration",
-      "start": 1078,
-      "end": 1954,
-      "body": {
-        "type": "TSModuleBlock",
-        "start": 1099,
-        "end": 1954,
-        "body": [
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 1105,
-            "end": 1161,
-            "attributes": [],
-            "declaration": {
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 15
+                },
+                "start": {
+                  "column": 4,
+                  "line": 14
+                }
+              }
+            },
+            {
               "type": "TSInterfaceDeclaration",
-              "start": 1112,
-              "end": 1161,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 1153,
-                "end": 1161,
-                "body": []
-              },
-              "declare": false,
-              "extends": [],
-              "id": {
-                "type": "Identifier",
-                "start": 1122,
-                "end": 1152,
-                "decorators": [],
-                "name": "publicInterfaceInPrivateModule",
-                "optional": false
-              }
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          },
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 1167,
-            "end": 1216,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 1209,
-              "end": 1216,
-              "body": []
-            },
-            "declare": false,
-            "extends": [],
-            "id": {
-              "type": "Identifier",
-              "start": 1177,
-              "end": 1208,
-              "decorators": [],
-              "name": "privateInterfaceInPrivateModule",
-              "optional": false
-            }
-          },
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 1222,
-            "end": 1330,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 1323,
-              "end": 1330,
-              "body": []
-            },
-            "declare": false,
-            "extends": [
-              {
-                "type": "TSInterfaceHeritage",
-                "start": 1292,
-                "end": 1322,
-                "expression": {
-                  "type": "Identifier",
-                  "start": 1292,
-                  "end": 1322,
-                  "decorators": [],
-                  "name": "publicInterfaceInPrivateModule",
-                  "optional": false
-                }
-              }
-            ],
-            "id": {
-              "type": "Identifier",
-              "start": 1232,
-              "end": 1283,
-              "decorators": [],
-              "name": "privateInterfaceImplementingPublicInterfaceInModule",
-              "optional": false
-            }
-          },
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 1335,
-            "end": 1445,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 1438,
-              "end": 1445,
-              "body": []
-            },
-            "declare": false,
-            "extends": [
-              {
-                "type": "TSInterfaceHeritage",
-                "start": 1406,
-                "end": 1437,
-                "expression": {
-                  "type": "Identifier",
-                  "start": 1406,
-                  "end": 1437,
-                  "decorators": [],
-                  "name": "privateInterfaceInPrivateModule",
-                  "optional": false
-                }
-              }
-            ],
-            "id": {
-              "type": "Identifier",
-              "start": 1345,
-              "end": 1397,
-              "decorators": [],
-              "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-              "optional": false
-            }
-          },
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 1450,
-            "end": 1564,
-            "attributes": [],
-            "declaration": {
-              "type": "TSInterfaceDeclaration",
-              "start": 1457,
-              "end": 1564,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 1557,
-                "end": 1564,
-                "body": []
-              },
-              "declare": false,
-              "extends": [
-                {
-                  "type": "TSInterfaceHeritage",
-                  "start": 1526,
-                  "end": 1556,
-                  "expression": {
-                    "type": "Identifier",
-                    "start": 1526,
-                    "end": 1556,
-                    "decorators": [],
-                    "name": "publicInterfaceInPrivateModule",
-                    "optional": false
-                  }
-                }
-              ],
-              "id": {
-                "type": "Identifier",
-                "start": 1467,
-                "end": 1517,
-                "decorators": [],
-                "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
-              }
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          },
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 1569,
-            "end": 1685,
-            "attributes": [],
-            "declaration": {
-              "type": "TSInterfaceDeclaration",
-              "start": 1576,
-              "end": 1685,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 1678,
-                "end": 1685,
-                "body": []
-              },
-              "declare": false,
-              "extends": [
-                {
-                  "type": "TSInterfaceHeritage",
-                  "start": 1646,
-                  "end": 1677,
-                  "expression": {
-                    "type": "Identifier",
-                    "start": 1646,
-                    "end": 1677,
-                    "decorators": [],
-                    "name": "privateInterfaceInPrivateModule",
-                    "optional": false
-                  }
-                }
-              ],
-              "id": {
-                "type": "Identifier",
-                "start": 1586,
-                "end": 1637,
-                "decorators": [],
-                "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
-              }
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          },
-          {
-            "type": "TSInterfaceDeclaration",
-            "start": 1691,
-            "end": 1816,
-            "body": {
-              "type": "TSInterfaceBody",
-              "start": 1809,
-              "end": 1816,
-              "body": []
-            },
-            "declare": false,
-            "extends": [
-              {
-                "type": "TSInterfaceHeritage",
-                "start": 1764,
-                "end": 1808,
-                "expression": {
-                  "type": "MemberExpression",
-                  "start": 1764,
-                  "end": 1808,
-                  "computed": false,
-                  "object": {
-                    "type": "Identifier",
-                    "start": 1764,
-                    "end": 1777,
-                    "decorators": [],
-                    "name": "privateModule",
-                    "optional": false
+                "range": [
+                  746,
+                  753
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 18
                   },
-                  "optional": false,
-                  "property": {
-                    "type": "Identifier",
-                    "start": 1778,
-                    "end": 1808,
-                    "decorators": [],
-                    "name": "publicInterfaceInPrivateModule",
-                    "optional": false
+                  "start": {
+                    "column": 122,
+                    "line": 17
                   }
                 }
-              }
-            ],
-            "id": {
-              "type": "Identifier",
-              "start": 1701,
-              "end": 1755,
-              "decorators": [],
-              "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-              "optional": false
-            }
-          },
-          {
-            "type": "ExportNamedDeclaration",
-            "start": 1821,
-            "end": 1952,
-            "attributes": [],
-            "declaration": {
-              "type": "TSInterfaceDeclaration",
-              "start": 1828,
-              "end": 1952,
-              "body": {
-                "type": "TSInterfaceBody",
-                "start": 1945,
-                "end": 1952,
-                "body": []
               },
               "declare": false,
               "extends": [
                 {
                   "type": "TSInterfaceHeritage",
-                  "start": 1900,
-                  "end": 1944,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 1900,
-                    "end": 1944,
                     "computed": false,
                     "object": {
                       "type": "Identifier",
-                      "start": 1900,
-                      "end": 1913,
                       "decorators": [],
                       "name": "privateModule",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        701,
+                        714
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 90,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 77,
+                          "line": 17
+                        }
+                      }
                     },
                     "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 1914,
-                      "end": 1944,
                       "decorators": [],
                       "name": "publicInterfaceInPrivateModule",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        715,
+                        745
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 121,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 91,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      701,
+                      745
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 121,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 77,
+                        "line": 17
+                      }
+                    }
+                  },
+                  "range": [
+                    701,
+                    745
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 121,
+                      "line": 17
+                    },
+                    "start": {
+                      "column": 77,
+                      "line": 17
                     }
                   }
                 }
               ],
               "id": {
                 "type": "Identifier",
-                "start": 1838,
-                "end": 1891,
                 "decorators": [],
-                "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-                "optional": false
-              }
-            },
-            "exportKind": "type",
-            "source": null,
-            "specifiers": []
-          }
-        ]
-      },
-      "declare": false,
-      "global": false,
-      "id": {
-        "type": "Identifier",
-        "start": 1085,
-        "end": 1098,
-        "decorators": [],
-        "name": "privateModule",
-        "optional": false
-      },
-      "kind": "module"
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 1956,
-      "end": 1993,
-      "attributes": [],
-      "declaration": {
-        "type": "TSInterfaceDeclaration",
-        "start": 1963,
-        "end": 1993,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 1989,
-          "end": 1993,
-          "body": []
-        },
-        "declare": false,
-        "extends": [],
-        "id": {
-          "type": "Identifier",
-          "start": 1973,
-          "end": 1988,
-          "decorators": [],
-          "name": "publicInterface",
-          "optional": false
-        }
-      },
-      "exportKind": "type",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 1995,
-      "end": 2025,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 2022,
-        "end": 2025,
-        "body": []
-      },
-      "declare": false,
-      "extends": [],
-      "id": {
-        "type": "Identifier",
-        "start": 2005,
-        "end": 2021,
-        "decorators": [],
-        "name": "privateInterface",
-        "optional": false
-      }
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 2027,
-      "end": 2108,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 2105,
-        "end": 2108,
-        "body": []
-      },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 2089,
-          "end": 2104,
-          "expression": {
-            "type": "Identifier",
-            "start": 2089,
-            "end": 2104,
-            "decorators": [],
-            "name": "publicInterface",
-            "optional": false
-          }
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 2037,
-        "end": 2080,
-        "decorators": [],
-        "name": "privateInterfaceImplementingPublicInterface",
-        "optional": false
-      }
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 2109,
-      "end": 2200,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 2197,
-        "end": 2200,
-        "body": []
-      },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 2180,
-          "end": 2196,
-          "expression": {
-            "type": "Identifier",
-            "start": 2180,
-            "end": 2196,
-            "decorators": [],
-            "name": "privateInterface",
-            "optional": false
-          }
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 2119,
-        "end": 2171,
-        "decorators": [],
-        "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-        "optional": false
-      }
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 2201,
-      "end": 2288,
-      "attributes": [],
-      "declaration": {
-        "type": "TSInterfaceDeclaration",
-        "start": 2208,
-        "end": 2288,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 2285,
-          "end": 2288,
-          "body": []
-        },
-        "declare": false,
-        "extends": [
-          {
-            "type": "TSInterfaceHeritage",
-            "start": 2269,
-            "end": 2284,
-            "expression": {
-              "type": "Identifier",
-              "start": 2269,
-              "end": 2284,
-              "decorators": [],
-              "name": "publicInterface",
-              "optional": false
-            }
-          }
-        ],
-        "id": {
-          "type": "Identifier",
-          "start": 2218,
-          "end": 2260,
-          "decorators": [],
-          "name": "publicInterfaceImplementingPublicInterface",
-          "optional": false
-        }
-      },
-      "exportKind": "type",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 2289,
-      "end": 2394,
-      "attributes": [],
-      "declaration": {
-        "type": "TSInterfaceDeclaration",
-        "start": 2296,
-        "end": 2394,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 2375,
-          "end": 2394,
-          "body": []
-        },
-        "declare": false,
-        "extends": [
-          {
-            "type": "TSInterfaceHeritage",
-            "start": 2358,
-            "end": 2374,
-            "expression": {
-              "type": "Identifier",
-              "start": 2358,
-              "end": 2374,
-              "decorators": [],
-              "name": "privateInterface",
-              "optional": false
-            }
-          }
-        ],
-        "id": {
-          "type": "Identifier",
-          "start": 2306,
-          "end": 2349,
-          "decorators": [],
-          "name": "publicInterfaceImplementingPrivateInterface",
-          "optional": false
-        }
-      },
-      "exportKind": "type",
-      "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "TSInterfaceDeclaration",
-      "start": 2396,
-      "end": 2517,
-      "body": {
-        "type": "TSInterfaceBody",
-        "start": 2514,
-        "end": 2517,
-        "body": []
-      },
-      "declare": false,
-      "extends": [
-        {
-          "type": "TSInterfaceHeritage",
-          "start": 2469,
-          "end": 2513,
-          "expression": {
-            "type": "MemberExpression",
-            "start": 2469,
-            "end": 2513,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 2469,
-              "end": 2482,
-              "decorators": [],
-              "name": "privateModule",
-              "optional": false
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 2483,
-              "end": 2513,
-              "decorators": [],
-              "name": "publicInterfaceInPrivateModule",
-              "optional": false
-            }
-          }
-        }
-      ],
-      "id": {
-        "type": "Identifier",
-        "start": 2406,
-        "end": 2460,
-        "decorators": [],
-        "name": "privateInterfaceImplementingFromPrivateModuleInterface",
-        "optional": false
-      }
-    },
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 2518,
-      "end": 2661,
-      "attributes": [],
-      "declaration": {
-        "type": "TSInterfaceDeclaration",
-        "start": 2525,
-        "end": 2661,
-        "body": {
-          "type": "TSInterfaceBody",
-          "start": 2642,
-          "end": 2661,
-          "body": []
-        },
-        "declare": false,
-        "extends": [
-          {
-            "type": "TSInterfaceHeritage",
-            "start": 2597,
-            "end": 2641,
-            "expression": {
-              "type": "MemberExpression",
-              "start": 2597,
-              "end": 2641,
-              "computed": false,
-              "object": {
-                "type": "Identifier",
-                "start": 2597,
-                "end": 2610,
-                "decorators": [],
-                "name": "privateModule",
-                "optional": false
+                "name": "privateInterfaceImplementingFromPrivateModuleInterface",
+                "optional": false,
+                "range": [
+                  638,
+                  692
+                ],
+                "loc": {
+                  "end": {
+                    "column": 68,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 17
+                  }
+                }
               },
-              "optional": false,
-              "property": {
-                "type": "Identifier",
-                "start": 2611,
-                "end": 2641,
-                "decorators": [],
-                "name": "publicInterfaceInPrivateModule",
-                "optional": false
+              "range": [
+                628,
+                753
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 18
+                },
+                "start": {
+                  "column": 4,
+                  "line": 17
+                }
+              }
+            },
+            {
+              "type": "ExportNamedDeclaration",
+              "range": [
+                758,
+                905
+              ],
+              "attributes": [],
+              "declaration": {
+                "type": "TSInterfaceDeclaration",
+                "body": {
+                  "type": "TSInterfaceBody",
+                  "range": [
+                    882,
+                    905
+                  ],
+                  "body": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 20
+                    },
+                    "start": {
+                      "column": 128,
+                      "line": 19
+                    }
+                  }
+                },
+                "declare": false,
+                "extends": [
+                  {
+                    "type": "TSInterfaceHeritage",
+                    "expression": {
+                      "type": "MemberExpression",
+                      "computed": false,
+                      "object": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "privateModule",
+                        "optional": false,
+                        "range": [
+                          837,
+                          850
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 96,
+                            "line": 19
+                          },
+                          "start": {
+                            "column": 83,
+                            "line": 19
+                          }
+                        }
+                      },
+                      "optional": false,
+                      "property": {
+                        "type": "Identifier",
+                        "decorators": [],
+                        "name": "publicInterfaceInPrivateModule",
+                        "optional": false,
+                        "range": [
+                          851,
+                          881
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 127,
+                            "line": 19
+                          },
+                          "start": {
+                            "column": 97,
+                            "line": 19
+                          }
+                        }
+                      },
+                      "range": [
+                        837,
+                        881
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 127,
+                          "line": 19
+                        },
+                        "start": {
+                          "column": 83,
+                          "line": 19
+                        }
+                      }
+                    },
+                    "range": [
+                      837,
+                      881
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 127,
+                        "line": 19
+                      },
+                      "start": {
+                        "column": 83,
+                        "line": 19
+                      }
+                    }
+                  }
+                ],
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "publicInterfaceImplementingFromPrivateModuleInterface",
+                  "optional": false,
+                  "range": [
+                    775,
+                    828
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 74,
+                      "line": 19
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 19
+                    }
+                  }
+                },
+                "range": [
+                  765,
+                  905
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 20
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 19
+                  }
+                }
+              },
+              "exportKind": "type",
+              "source": null,
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 20
+                },
+                "start": {
+                  "column": 4,
+                  "line": 19
+                }
+              }
+            },
+            {
+              "type": "ExportNamedDeclaration",
+              "range": [
+                911,
+                1074
+              ],
+              "attributes": [],
+              "declaration": {
+                "type": "TSInterfaceDeclaration",
+                "body": {
+                  "type": "TSInterfaceBody",
+                  "range": [
+                    1051,
+                    1074
+                  ],
+                  "body": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 144,
+                      "line": 22
+                    }
+                  }
+                },
+                "declare": false,
+                "extends": [
+                  {
+                    "type": "TSInterfaceHeritage",
+                    "expression": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "privateInterfaceInPublicModule",
+                      "optional": false,
+                      "range": [
+                        989,
+                        1019
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 112,
+                          "line": 22
+                        },
+                        "start": {
+                          "column": 82,
+                          "line": 22
+                        }
+                      }
+                    },
+                    "range": [
+                      989,
+                      1019
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 112,
+                        "line": 22
+                      },
+                      "start": {
+                        "column": 82,
+                        "line": 22
+                      }
+                    }
+                  },
+                  {
+                    "type": "TSInterfaceHeritage",
+                    "expression": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "publicInterfaceInPublicModule",
+                      "optional": false,
+                      "range": [
+                        1021,
+                        1050
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 143,
+                          "line": 22
+                        },
+                        "start": {
+                          "column": 114,
+                          "line": 22
+                        }
+                      }
+                    },
+                    "range": [
+                      1021,
+                      1050
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 143,
+                        "line": 22
+                      },
+                      "start": {
+                        "column": 114,
+                        "line": 22
+                      }
+                    }
+                  }
+                ],
+                "id": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "publicInterfaceImplementingPrivateAndPublicInterface",
+                  "optional": false,
+                  "range": [
+                    928,
+                    980
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 73,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 22
+                    }
+                  }
+                },
+                "range": [
+                  918,
+                  1074
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 22
+                  }
+                }
+              },
+              "exportKind": "type",
+              "source": null,
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 23
+                },
+                "start": {
+                  "column": 4,
+                  "line": 22
+                }
               }
             }
+          ],
+          "range": [
+            27,
+            1076
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 24
+            },
+            "start": {
+              "column": 27,
+              "line": 1
+            }
           }
-        ],
+        },
+        "declare": false,
+        "global": false,
         "id": {
           "type": "Identifier",
-          "start": 2535,
-          "end": 2588,
+          "range": [
+            14,
+            26
+          ],
           "decorators": [],
-          "name": "publicInterfaceImplementingFromPrivateModuleInterface",
-          "optional": false
+          "name": "publicModule",
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 1
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
+          }
+        },
+        "kind": "module",
+        "range": [
+          7,
+          1076
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 24
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
-      "exportKind": "type",
+      "exportKind": "value",
       "source": null,
-      "specifiers": []
-    }
-  ],
-  "sourceType": "module"
-}
-```
-privacyInterfaceExtendsClauseDeclFile_GlobalFile.ts
-```json
-{
-  "type": "Program",
-  "start": 0,
-  "end": 761,
-  "body": [
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 24
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
+    },
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 625,
       "body": {
         "type": "TSModuleBlock",
-        "start": 28,
-        "end": 625,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 34,
-            "end": 88,
+            "range": [
+              1105,
+              1161
+            ],
             "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
-              "start": 41,
-              "end": 88,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 81,
-                "end": 88,
-                "body": []
+                "range": [
+                  1153,
+                  1161
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 29
+                  },
+                  "start": {
+                    "column": 52,
+                    "line": 27
+                  }
+                }
               },
               "declare": false,
               "extends": [],
               "id": {
                 "type": "Identifier",
-                "start": 51,
-                "end": 80,
                 "decorators": [],
-                "name": "publicInterfaceInPublicModule",
-                "optional": false
+                "name": "publicInterfaceInPrivateModule",
+                "optional": false,
+                "range": [
+                  1122,
+                  1152
+                ],
+                "loc": {
+                  "end": {
+                    "column": 51,
+                    "line": 27
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 27
+                  }
+                }
+              },
+              "range": [
+                1112,
+                1161
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 29
+                },
+                "start": {
+                  "column": 11,
+                  "line": 27
+                }
               }
             },
             "exportKind": "type",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 29
+              },
+              "start": {
+                "column": 4,
+                "line": 27
+              }
+            }
           },
           {
             "type": "TSInterfaceDeclaration",
-            "start": 94,
-            "end": 142,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 135,
-              "end": 142,
-              "body": []
+              "range": [
+                1209,
+                1216
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 32
+                },
+                "start": {
+                  "column": 46,
+                  "line": 31
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 104,
-              "end": 134,
               "decorators": [],
-              "name": "privateInterfaceInPublicModule",
-              "optional": false
+              "name": "privateInterfaceInPrivateModule",
+              "optional": false,
+              "range": [
+                1177,
+                1208
+              ],
+              "loc": {
+                "end": {
+                  "column": 45,
+                  "line": 31
+                },
+                "start": {
+                  "column": 14,
+                  "line": 31
+                }
+              }
+            },
+            "range": [
+              1167,
+              1216
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 32
+              },
+              "start": {
+                "column": 4,
+                "line": 31
+              }
             }
           },
           {
             "type": "TSInterfaceDeclaration",
-            "start": 148,
-            "end": 255,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 248,
-              "end": 255,
-              "body": []
+              "range": [
+                1323,
+                1330
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 35
+                },
+                "start": {
+                  "column": 105,
+                  "line": 34
+                }
+              }
             },
             "declare": false,
             "extends": [
               {
                 "type": "TSInterfaceHeritage",
-                "start": 218,
-                "end": 247,
                 "expression": {
                   "type": "Identifier",
-                  "start": 218,
-                  "end": 247,
                   "decorators": [],
-                  "name": "publicInterfaceInPublicModule",
-                  "optional": false
+                  "name": "publicInterfaceInPrivateModule",
+                  "optional": false,
+                  "range": [
+                    1292,
+                    1322
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 104,
+                      "line": 34
+                    },
+                    "start": {
+                      "column": 74,
+                      "line": 34
+                    }
+                  }
+                },
+                "range": [
+                  1292,
+                  1322
+                ],
+                "loc": {
+                  "end": {
+                    "column": 104,
+                    "line": 34
+                  },
+                  "start": {
+                    "column": 74,
+                    "line": 34
+                  }
                 }
               }
             ],
             "id": {
               "type": "Identifier",
-              "start": 158,
-              "end": 209,
               "decorators": [],
               "name": "privateInterfaceImplementingPublicInterfaceInModule",
-              "optional": false
+              "optional": false,
+              "range": [
+                1232,
+                1283
+              ],
+              "loc": {
+                "end": {
+                  "column": 65,
+                  "line": 34
+                },
+                "start": {
+                  "column": 14,
+                  "line": 34
+                }
+              }
+            },
+            "range": [
+              1222,
+              1330
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 35
+              },
+              "start": {
+                "column": 4,
+                "line": 34
+              }
             }
           },
           {
             "type": "TSInterfaceDeclaration",
-            "start": 260,
-            "end": 369,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 362,
-              "end": 369,
-              "body": []
+              "range": [
+                1438,
+                1445
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 37
+                },
+                "start": {
+                  "column": 107,
+                  "line": 36
+                }
+              }
             },
             "declare": false,
             "extends": [
               {
                 "type": "TSInterfaceHeritage",
-                "start": 331,
-                "end": 361,
                 "expression": {
                   "type": "Identifier",
-                  "start": 331,
-                  "end": 361,
                   "decorators": [],
-                  "name": "privateInterfaceInPublicModule",
-                  "optional": false
+                  "name": "privateInterfaceInPrivateModule",
+                  "optional": false,
+                  "range": [
+                    1406,
+                    1437
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 106,
+                      "line": 36
+                    },
+                    "start": {
+                      "column": 75,
+                      "line": 36
+                    }
+                  }
+                },
+                "range": [
+                  1406,
+                  1437
+                ],
+                "loc": {
+                  "end": {
+                    "column": 106,
+                    "line": 36
+                  },
+                  "start": {
+                    "column": 75,
+                    "line": 36
+                  }
                 }
               }
             ],
             "id": {
               "type": "Identifier",
-              "start": 270,
-              "end": 322,
               "decorators": [],
               "name": "privateInterfaceImplementingPrivateInterfaceInModule",
-              "optional": false
+              "optional": false,
+              "range": [
+                1345,
+                1397
+              ],
+              "loc": {
+                "end": {
+                  "column": 66,
+                  "line": 36
+                },
+                "start": {
+                  "column": 14,
+                  "line": 36
+                }
+              }
+            },
+            "range": [
+              1335,
+              1445
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 37
+              },
+              "start": {
+                "column": 4,
+                "line": 36
+              }
             }
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 374,
-            "end": 487,
+            "range": [
+              1450,
+              1564
+            ],
             "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
-              "start": 381,
-              "end": 487,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 480,
-                "end": 487,
-                "body": []
+                "range": [
+                  1557,
+                  1564
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 39
+                  },
+                  "start": {
+                    "column": 111,
+                    "line": 38
+                  }
+                }
               },
               "declare": false,
               "extends": [
                 {
                   "type": "TSInterfaceHeritage",
-                  "start": 450,
-                  "end": 479,
                   "expression": {
                     "type": "Identifier",
-                    "start": 450,
-                    "end": 479,
                     "decorators": [],
-                    "name": "publicInterfaceInPublicModule",
-                    "optional": false
+                    "name": "publicInterfaceInPrivateModule",
+                    "optional": false,
+                    "range": [
+                      1526,
+                      1556
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 110,
+                        "line": 38
+                      },
+                      "start": {
+                        "column": 80,
+                        "line": 38
+                      }
+                    }
+                  },
+                  "range": [
+                    1526,
+                    1556
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 110,
+                      "line": 38
+                    },
+                    "start": {
+                      "column": 80,
+                      "line": 38
+                    }
                   }
                 }
               ],
               "id": {
                 "type": "Identifier",
-                "start": 391,
-                "end": 441,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPublicInterfaceInModule",
-                "optional": false
+                "optional": false,
+                "range": [
+                  1467,
+                  1517
+                ],
+                "loc": {
+                  "end": {
+                    "column": 71,
+                    "line": 38
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 38
+                  }
+                }
+              },
+              "range": [
+                1457,
+                1564
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 39
+                },
+                "start": {
+                  "column": 11,
+                  "line": 38
+                }
               }
             },
             "exportKind": "type",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 39
+              },
+              "start": {
+                "column": 4,
+                "line": 38
+              }
+            }
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 492,
-            "end": 623,
+            "range": [
+              1569,
+              1685
+            ],
             "attributes": [],
             "declaration": {
               "type": "TSInterfaceDeclaration",
-              "start": 499,
-              "end": 623,
               "body": {
                 "type": "TSInterfaceBody",
-                "start": 600,
-                "end": 623,
-                "body": []
+                "range": [
+                  1678,
+                  1685
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 41
+                  },
+                  "start": {
+                    "column": 113,
+                    "line": 40
+                  }
+                }
               },
               "declare": false,
               "extends": [
                 {
                   "type": "TSInterfaceHeritage",
-                  "start": 569,
-                  "end": 599,
                   "expression": {
                     "type": "Identifier",
-                    "start": 569,
-                    "end": 599,
                     "decorators": [],
-                    "name": "privateInterfaceInPublicModule",
-                    "optional": false
+                    "name": "privateInterfaceInPrivateModule",
+                    "optional": false,
+                    "range": [
+                      1646,
+                      1677
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 112,
+                        "line": 40
+                      },
+                      "start": {
+                        "column": 81,
+                        "line": 40
+                      }
+                    }
+                  },
+                  "range": [
+                    1646,
+                    1677
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 112,
+                      "line": 40
+                    },
+                    "start": {
+                      "column": 81,
+                      "line": 40
+                    }
                   }
                 }
               ],
               "id": {
                 "type": "Identifier",
-                "start": 509,
-                "end": 560,
                 "decorators": [],
                 "name": "publicInterfaceImplementingPrivateInterfaceInModule",
-                "optional": false
+                "optional": false,
+                "range": [
+                  1586,
+                  1637
+                ],
+                "loc": {
+                  "end": {
+                    "column": 72,
+                    "line": 40
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 40
+                  }
+                }
+              },
+              "range": [
+                1576,
+                1685
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 41
+                },
+                "start": {
+                  "column": 11,
+                  "line": 40
+                }
               }
             },
             "exportKind": "type",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 41
+              },
+              "start": {
+                "column": 4,
+                "line": 40
+              }
+            }
+          },
+          {
+            "type": "TSInterfaceDeclaration",
+            "body": {
+              "type": "TSInterfaceBody",
+              "range": [
+                1809,
+                1816
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 44
+                },
+                "start": {
+                  "column": 122,
+                  "line": 43
+                }
+              }
+            },
+            "declare": false,
+            "extends": [
+              {
+                "type": "TSInterfaceHeritage",
+                "expression": {
+                  "type": "MemberExpression",
+                  "computed": false,
+                  "object": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "privateModule",
+                    "optional": false,
+                    "range": [
+                      1764,
+                      1777
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 90,
+                        "line": 43
+                      },
+                      "start": {
+                        "column": 77,
+                        "line": 43
+                      }
+                    }
+                  },
+                  "optional": false,
+                  "property": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "publicInterfaceInPrivateModule",
+                    "optional": false,
+                    "range": [
+                      1778,
+                      1808
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 121,
+                        "line": 43
+                      },
+                      "start": {
+                        "column": 91,
+                        "line": 43
+                      }
+                    }
+                  },
+                  "range": [
+                    1764,
+                    1808
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 121,
+                      "line": 43
+                    },
+                    "start": {
+                      "column": 77,
+                      "line": 43
+                    }
+                  }
+                },
+                "range": [
+                  1764,
+                  1808
+                ],
+                "loc": {
+                  "end": {
+                    "column": 121,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 77,
+                    "line": 43
+                  }
+                }
+              }
+            ],
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateInterfaceImplementingFromPrivateModuleInterface",
+              "optional": false,
+              "range": [
+                1701,
+                1755
+              ],
+              "loc": {
+                "end": {
+                  "column": 68,
+                  "line": 43
+                },
+                "start": {
+                  "column": 14,
+                  "line": 43
+                }
+              }
+            },
+            "range": [
+              1691,
+              1816
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 44
+              },
+              "start": {
+                "column": 4,
+                "line": 43
+              }
+            }
+          },
+          {
+            "type": "ExportNamedDeclaration",
+            "range": [
+              1821,
+              1952
+            ],
+            "attributes": [],
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "body": {
+                "type": "TSInterfaceBody",
+                "range": [
+                  1945,
+                  1952
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 46
+                  },
+                  "start": {
+                    "column": 128,
+                    "line": 45
+                  }
+                }
+              },
+              "declare": false,
+              "extends": [
+                {
+                  "type": "TSInterfaceHeritage",
+                  "expression": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "privateModule",
+                      "optional": false,
+                      "range": [
+                        1900,
+                        1913
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 96,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 83,
+                          "line": 45
+                        }
+                      }
+                    },
+                    "optional": false,
+                    "property": {
+                      "type": "Identifier",
+                      "decorators": [],
+                      "name": "publicInterfaceInPrivateModule",
+                      "optional": false,
+                      "range": [
+                        1914,
+                        1944
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 127,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 97,
+                          "line": 45
+                        }
+                      }
+                    },
+                    "range": [
+                      1900,
+                      1944
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 127,
+                        "line": 45
+                      },
+                      "start": {
+                        "column": 83,
+                        "line": 45
+                      }
+                    }
+                  },
+                  "range": [
+                    1900,
+                    1944
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 127,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 83,
+                      "line": 45
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "publicInterfaceImplementingFromPrivateModuleInterface",
+                "optional": false,
+                "range": [
+                  1838,
+                  1891
+                ],
+                "loc": {
+                  "end": {
+                    "column": 74,
+                    "line": 45
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 45
+                  }
+                }
+              },
+              "range": [
+                1828,
+                1952
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 46
+                },
+                "start": {
+                  "column": 11,
+                  "line": 45
+                }
+              }
+            },
+            "exportKind": "type",
+            "source": null,
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 46
+              },
+              "start": {
+                "column": 4,
+                "line": 45
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          1099,
+          1954
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 47
+          },
+          "start": {
+            "column": 21,
+            "line": 26
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 27,
+        "range": [
+          1085,
+          1098
+        ],
         "decorators": [],
-        "name": "publicModuleInGlobal",
-        "optional": false
+        "name": "privateModule",
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 26
+          },
+          "start": {
+            "column": 7,
+            "line": 26
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        1078,
+        1954
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 47
+        },
+        "start": {
+          "column": 0,
+          "line": 26
+        }
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "range": [
+        1956,
+        1993
+      ],
+      "attributes": [],
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "body": {
+          "type": "TSInterfaceBody",
+          "range": [
+            1989,
+            1993
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 51
+            },
+            "start": {
+              "column": 33,
+              "line": 49
+            }
+          }
+        },
+        "declare": false,
+        "extends": [],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "publicInterface",
+          "optional": false,
+          "range": [
+            1973,
+            1988
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 49
+            },
+            "start": {
+              "column": 17,
+              "line": 49
+            }
+          }
+        },
+        "range": [
+          1963,
+          1993
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 51
+          },
+          "start": {
+            "column": 7,
+            "line": 49
+          }
+        }
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 51
+        },
+        "start": {
+          "column": 0,
+          "line": 49
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 626,
-      "end": 663,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 660,
-        "end": 663,
-        "body": []
+        "range": [
+          2022,
+          2025
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 54
+          },
+          "start": {
+            "column": 27,
+            "line": 53
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 636,
-        "end": 659,
         "decorators": [],
-        "name": "publicInterfaceInGlobal",
-        "optional": false
+        "name": "privateInterface",
+        "optional": false,
+        "range": [
+          2005,
+          2021
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 53
+          },
+          "start": {
+            "column": 10,
+            "line": 53
+          }
+        }
+      },
+      "range": [
+        1995,
+        2025
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 54
+        },
+        "start": {
+          "column": 0,
+          "line": 53
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 664,
-      "end": 760,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 757,
-        "end": 760,
-        "body": []
+        "range": [
+          2105,
+          2108
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 57
+          },
+          "start": {
+            "column": 78,
+            "line": 56
+          }
+        }
       },
       "declare": false,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 733,
-          "end": 756,
           "expression": {
             "type": "Identifier",
-            "start": 733,
-            "end": 756,
             "decorators": [],
-            "name": "publicInterfaceInGlobal",
-            "optional": false
+            "name": "publicInterface",
+            "optional": false,
+            "range": [
+              2089,
+              2104
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 56
+              },
+              "start": {
+                "column": 62,
+                "line": 56
+              }
+            }
+          },
+          "range": [
+            2089,
+            2104
+          ],
+          "loc": {
+            "end": {
+              "column": 77,
+              "line": 56
+            },
+            "start": {
+              "column": 62,
+              "line": 56
+            }
           }
         }
       ],
       "id": {
         "type": "Identifier",
-        "start": 674,
-        "end": 724,
         "decorators": [],
-        "name": "publicInterfaceImplementingPublicInterfaceInGlobal",
-        "optional": false
+        "name": "privateInterfaceImplementingPublicInterface",
+        "optional": false,
+        "range": [
+          2037,
+          2080
+        ],
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 56
+          },
+          "start": {
+            "column": 10,
+            "line": 56
+          }
+        }
+      },
+      "range": [
+        2027,
+        2108
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 57
+        },
+        "start": {
+          "column": 0,
+          "line": 56
+        }
+      }
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "range": [
+          2197,
+          2200
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 59
+          },
+          "start": {
+            "column": 88,
+            "line": 58
+          }
+        }
+      },
+      "declare": false,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "privateInterface",
+            "optional": false,
+            "range": [
+              2180,
+              2196
+            ],
+            "loc": {
+              "end": {
+                "column": 87,
+                "line": 58
+              },
+              "start": {
+                "column": 71,
+                "line": 58
+              }
+            }
+          },
+          "range": [
+            2180,
+            2196
+          ],
+          "loc": {
+            "end": {
+              "column": 87,
+              "line": 58
+            },
+            "start": {
+              "column": 71,
+              "line": 58
+            }
+          }
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "privateInterfaceImplementingPrivateInterfaceInModule",
+        "optional": false,
+        "range": [
+          2119,
+          2171
+        ],
+        "loc": {
+          "end": {
+            "column": 62,
+            "line": 58
+          },
+          "start": {
+            "column": 10,
+            "line": 58
+          }
+        }
+      },
+      "range": [
+        2109,
+        2200
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 59
+        },
+        "start": {
+          "column": 0,
+          "line": 58
+        }
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "range": [
+        2201,
+        2288
+      ],
+      "attributes": [],
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "body": {
+          "type": "TSInterfaceBody",
+          "range": [
+            2285,
+            2288
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 61
+            },
+            "start": {
+              "column": 84,
+              "line": 60
+            }
+          }
+        },
+        "declare": false,
+        "extends": [
+          {
+            "type": "TSInterfaceHeritage",
+            "expression": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "publicInterface",
+              "optional": false,
+              "range": [
+                2269,
+                2284
+              ],
+              "loc": {
+                "end": {
+                  "column": 83,
+                  "line": 60
+                },
+                "start": {
+                  "column": 68,
+                  "line": 60
+                }
+              }
+            },
+            "range": [
+              2269,
+              2284
+            ],
+            "loc": {
+              "end": {
+                "column": 83,
+                "line": 60
+              },
+              "start": {
+                "column": 68,
+                "line": 60
+              }
+            }
+          }
+        ],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "publicInterfaceImplementingPublicInterface",
+          "optional": false,
+          "range": [
+            2218,
+            2260
+          ],
+          "loc": {
+            "end": {
+              "column": 59,
+              "line": 60
+            },
+            "start": {
+              "column": 17,
+              "line": 60
+            }
+          }
+        },
+        "range": [
+          2208,
+          2288
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 61
+          },
+          "start": {
+            "column": 7,
+            "line": 60
+          }
+        }
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 61
+        },
+        "start": {
+          "column": 0,
+          "line": 60
+        }
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "range": [
+        2289,
+        2394
+      ],
+      "attributes": [],
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "body": {
+          "type": "TSInterfaceBody",
+          "range": [
+            2375,
+            2394
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 63
+            },
+            "start": {
+              "column": 86,
+              "line": 62
+            }
+          }
+        },
+        "declare": false,
+        "extends": [
+          {
+            "type": "TSInterfaceHeritage",
+            "expression": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateInterface",
+              "optional": false,
+              "range": [
+                2358,
+                2374
+              ],
+              "loc": {
+                "end": {
+                  "column": 85,
+                  "line": 62
+                },
+                "start": {
+                  "column": 69,
+                  "line": 62
+                }
+              }
+            },
+            "range": [
+              2358,
+              2374
+            ],
+            "loc": {
+              "end": {
+                "column": 85,
+                "line": 62
+              },
+              "start": {
+                "column": 69,
+                "line": 62
+              }
+            }
+          }
+        ],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "publicInterfaceImplementingPrivateInterface",
+          "optional": false,
+          "range": [
+            2306,
+            2349
+          ],
+          "loc": {
+            "end": {
+              "column": 60,
+              "line": 62
+            },
+            "start": {
+              "column": 17,
+              "line": 62
+            }
+          }
+        },
+        "range": [
+          2296,
+          2394
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 63
+          },
+          "start": {
+            "column": 7,
+            "line": 62
+          }
+        }
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 63
+        },
+        "start": {
+          "column": 0,
+          "line": 62
+        }
+      }
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "range": [
+          2514,
+          2517
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 66
+          },
+          "start": {
+            "column": 118,
+            "line": 65
+          }
+        }
+      },
+      "declare": false,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "expression": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateModule",
+              "optional": false,
+              "range": [
+                2469,
+                2482
+              ],
+              "loc": {
+                "end": {
+                  "column": 86,
+                  "line": 65
+                },
+                "start": {
+                  "column": 73,
+                  "line": 65
+                }
+              }
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "publicInterfaceInPrivateModule",
+              "optional": false,
+              "range": [
+                2483,
+                2513
+              ],
+              "loc": {
+                "end": {
+                  "column": 117,
+                  "line": 65
+                },
+                "start": {
+                  "column": 87,
+                  "line": 65
+                }
+              }
+            },
+            "range": [
+              2469,
+              2513
+            ],
+            "loc": {
+              "end": {
+                "column": 117,
+                "line": 65
+              },
+              "start": {
+                "column": 73,
+                "line": 65
+              }
+            }
+          },
+          "range": [
+            2469,
+            2513
+          ],
+          "loc": {
+            "end": {
+              "column": 117,
+              "line": 65
+            },
+            "start": {
+              "column": 73,
+              "line": 65
+            }
+          }
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "privateInterfaceImplementingFromPrivateModuleInterface",
+        "optional": false,
+        "range": [
+          2406,
+          2460
+        ],
+        "loc": {
+          "end": {
+            "column": 64,
+            "line": 65
+          },
+          "start": {
+            "column": 10,
+            "line": 65
+          }
+        }
+      },
+      "range": [
+        2396,
+        2517
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 66
+        },
+        "start": {
+          "column": 0,
+          "line": 65
+        }
+      }
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "range": [
+        2518,
+        2661
+      ],
+      "attributes": [],
+      "declaration": {
+        "type": "TSInterfaceDeclaration",
+        "body": {
+          "type": "TSInterfaceBody",
+          "range": [
+            2642,
+            2661
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 68
+            },
+            "start": {
+              "column": 124,
+              "line": 67
+            }
+          }
+        },
+        "declare": false,
+        "extends": [
+          {
+            "type": "TSInterfaceHeritage",
+            "expression": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "privateModule",
+                "optional": false,
+                "range": [
+                  2597,
+                  2610
+                ],
+                "loc": {
+                  "end": {
+                    "column": 92,
+                    "line": 67
+                  },
+                  "start": {
+                    "column": 79,
+                    "line": 67
+                  }
+                }
+              },
+              "optional": false,
+              "property": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "publicInterfaceInPrivateModule",
+                "optional": false,
+                "range": [
+                  2611,
+                  2641
+                ],
+                "loc": {
+                  "end": {
+                    "column": 123,
+                    "line": 67
+                  },
+                  "start": {
+                    "column": 93,
+                    "line": 67
+                  }
+                }
+              },
+              "range": [
+                2597,
+                2641
+              ],
+              "loc": {
+                "end": {
+                  "column": 123,
+                  "line": 67
+                },
+                "start": {
+                  "column": 79,
+                  "line": 67
+                }
+              }
+            },
+            "range": [
+              2597,
+              2641
+            ],
+            "loc": {
+              "end": {
+                "column": 123,
+                "line": 67
+              },
+              "start": {
+                "column": 79,
+                "line": 67
+              }
+            }
+          }
+        ],
+        "id": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "publicInterfaceImplementingFromPrivateModuleInterface",
+          "optional": false,
+          "range": [
+            2535,
+            2588
+          ],
+          "loc": {
+            "end": {
+              "column": 70,
+              "line": 67
+            },
+            "start": {
+              "column": 17,
+              "line": 67
+            }
+          }
+        },
+        "range": [
+          2525,
+          2661
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 68
+          },
+          "start": {
+            "column": 7,
+            "line": 67
+          }
+        }
+      },
+      "exportKind": "type",
+      "source": null,
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 68
+        },
+        "start": {
+          "column": 0,
+          "line": 67
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 69
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "range": [
+    0,
+    761
+  ],
+  "body": [
+    {
+      "type": "TSModuleDeclaration",
+      "body": {
+        "type": "TSModuleBlock",
+        "body": [
+          {
+            "type": "ExportNamedDeclaration",
+            "range": [
+              34,
+              88
+            ],
+            "attributes": [],
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "body": {
+                "type": "TSInterfaceBody",
+                "range": [
+                  81,
+                  88
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 51,
+                    "line": 2
+                  }
+                }
+              },
+              "declare": false,
+              "extends": [],
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "publicInterfaceInPublicModule",
+                "optional": false,
+                "range": [
+                  51,
+                  80
+                ],
+                "loc": {
+                  "end": {
+                    "column": 50,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                41,
+                88
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
+            },
+            "exportKind": "type",
+            "source": null,
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
+          },
+          {
+            "type": "TSInterfaceDeclaration",
+            "body": {
+              "type": "TSInterfaceBody",
+              "range": [
+                135,
+                142
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 45,
+                  "line": 5
+                }
+              }
+            },
+            "declare": false,
+            "extends": [],
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateInterfaceInPublicModule",
+              "optional": false,
+              "range": [
+                104,
+                134
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 5
+                },
+                "start": {
+                  "column": 14,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              94,
+              142
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
+            }
+          },
+          {
+            "type": "TSInterfaceDeclaration",
+            "body": {
+              "type": "TSInterfaceBody",
+              "range": [
+                248,
+                255
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 9
+                },
+                "start": {
+                  "column": 104,
+                  "line": 8
+                }
+              }
+            },
+            "declare": false,
+            "extends": [
+              {
+                "type": "TSInterfaceHeritage",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "publicInterfaceInPublicModule",
+                  "optional": false,
+                  "range": [
+                    218,
+                    247
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 103,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 74,
+                      "line": 8
+                    }
+                  }
+                },
+                "range": [
+                  218,
+                  247
+                ],
+                "loc": {
+                  "end": {
+                    "column": 103,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 74,
+                    "line": 8
+                  }
+                }
+              }
+            ],
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateInterfaceImplementingPublicInterfaceInModule",
+              "optional": false,
+              "range": [
+                158,
+                209
+              ],
+              "loc": {
+                "end": {
+                  "column": 65,
+                  "line": 8
+                },
+                "start": {
+                  "column": 14,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              148,
+              255
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
+            }
+          },
+          {
+            "type": "TSInterfaceDeclaration",
+            "body": {
+              "type": "TSInterfaceBody",
+              "range": [
+                362,
+                369
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 11
+                },
+                "start": {
+                  "column": 106,
+                  "line": 10
+                }
+              }
+            },
+            "declare": false,
+            "extends": [
+              {
+                "type": "TSInterfaceHeritage",
+                "expression": {
+                  "type": "Identifier",
+                  "decorators": [],
+                  "name": "privateInterfaceInPublicModule",
+                  "optional": false,
+                  "range": [
+                    331,
+                    361
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 105,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 75,
+                      "line": 10
+                    }
+                  }
+                },
+                "range": [
+                  331,
+                  361
+                ],
+                "loc": {
+                  "end": {
+                    "column": 105,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 75,
+                    "line": 10
+                  }
+                }
+              }
+            ],
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "privateInterfaceImplementingPrivateInterfaceInModule",
+              "optional": false,
+              "range": [
+                270,
+                322
+              ],
+              "loc": {
+                "end": {
+                  "column": 66,
+                  "line": 10
+                },
+                "start": {
+                  "column": 14,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              260,
+              369
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
+            }
+          },
+          {
+            "type": "ExportNamedDeclaration",
+            "range": [
+              374,
+              487
+            ],
+            "attributes": [],
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "body": {
+                "type": "TSInterfaceBody",
+                "range": [
+                  480,
+                  487
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 110,
+                    "line": 12
+                  }
+                }
+              },
+              "declare": false,
+              "extends": [
+                {
+                  "type": "TSInterfaceHeritage",
+                  "expression": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "publicInterfaceInPublicModule",
+                    "optional": false,
+                    "range": [
+                      450,
+                      479
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 109,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 80,
+                        "line": 12
+                      }
+                    }
+                  },
+                  "range": [
+                    450,
+                    479
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 109,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 80,
+                      "line": 12
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "publicInterfaceImplementingPublicInterfaceInModule",
+                "optional": false,
+                "range": [
+                  391,
+                  441
+                ],
+                "loc": {
+                  "end": {
+                    "column": 71,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 12
+                  }
+                }
+              },
+              "range": [
+                381,
+                487
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 13
+                },
+                "start": {
+                  "column": 11,
+                  "line": 12
+                }
+              }
+            },
+            "exportKind": "type",
+            "source": null,
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
+            }
+          },
+          {
+            "type": "ExportNamedDeclaration",
+            "range": [
+              492,
+              623
+            ],
+            "attributes": [],
+            "declaration": {
+              "type": "TSInterfaceDeclaration",
+              "body": {
+                "type": "TSInterfaceBody",
+                "range": [
+                  600,
+                  623
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 112,
+                    "line": 14
+                  }
+                }
+              },
+              "declare": false,
+              "extends": [
+                {
+                  "type": "TSInterfaceHeritage",
+                  "expression": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "privateInterfaceInPublicModule",
+                    "optional": false,
+                    "range": [
+                      569,
+                      599
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 111,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 81,
+                        "line": 14
+                      }
+                    }
+                  },
+                  "range": [
+                    569,
+                    599
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 111,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 81,
+                      "line": 14
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "type": "Identifier",
+                "decorators": [],
+                "name": "publicInterfaceImplementingPrivateInterfaceInModule",
+                "optional": false,
+                "range": [
+                  509,
+                  560
+                ],
+                "loc": {
+                  "end": {
+                    "column": 72,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 14
+                  }
+                }
+              },
+              "range": [
+                499,
+                623
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 15
+                },
+                "start": {
+                  "column": 11,
+                  "line": 14
+                }
+              }
+            },
+            "exportKind": "type",
+            "source": null,
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 15
+              },
+              "start": {
+                "column": 4,
+                "line": 14
+              }
+            }
+          }
+        ],
+        "range": [
+          28,
+          625
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 16
+          },
+          "start": {
+            "column": 28,
+            "line": 1
+          }
+        }
+      },
+      "declare": false,
+      "global": false,
+      "id": {
+        "type": "Identifier",
+        "range": [
+          7,
+          27
+        ],
+        "decorators": [],
+        "name": "publicModuleInGlobal",
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
+      },
+      "kind": "module",
+      "range": [
+        0,
+        625
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "range": [
+          660,
+          663
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 18
+          },
+          "start": {
+            "column": 34,
+            "line": 17
+          }
+        }
+      },
+      "declare": false,
+      "extends": [],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "publicInterfaceInGlobal",
+        "optional": false,
+        "range": [
+          636,
+          659
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 17
+          },
+          "start": {
+            "column": 10,
+            "line": 17
+          }
+        }
+      },
+      "range": [
+        626,
+        663
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 18
+        },
+        "start": {
+          "column": 0,
+          "line": 17
+        }
+      }
+    },
+    {
+      "type": "TSInterfaceDeclaration",
+      "body": {
+        "type": "TSInterfaceBody",
+        "range": [
+          757,
+          760
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 20
+          },
+          "start": {
+            "column": 93,
+            "line": 19
+          }
+        }
+      },
+      "declare": false,
+      "extends": [
+        {
+          "type": "TSInterfaceHeritage",
+          "expression": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "publicInterfaceInGlobal",
+            "optional": false,
+            "range": [
+              733,
+              756
+            ],
+            "loc": {
+              "end": {
+                "column": 92,
+                "line": 19
+              },
+              "start": {
+                "column": 69,
+                "line": 19
+              }
+            }
+          },
+          "range": [
+            733,
+            756
+          ],
+          "loc": {
+            "end": {
+              "column": 92,
+              "line": 19
+            },
+            "start": {
+              "column": 69,
+              "line": 19
+            }
+          }
+        }
+      ],
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "publicInterfaceImplementingPublicInterfaceInGlobal",
+        "optional": false,
+        "range": [
+          674,
+          724
+        ],
+        "loc": {
+          "end": {
+            "column": 60,
+            "line": 19
+          },
+          "start": {
+            "column": 10,
+            "line": 19
+          }
+        }
+      },
+      "range": [
+        664,
+        760
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 20
+        },
+        "start": {
+          "column": 0,
+          "line": 19
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 21
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

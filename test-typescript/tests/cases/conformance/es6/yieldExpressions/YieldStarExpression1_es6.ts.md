@@ -1,36 +1,97 @@
-YieldStarExpression1_es6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
+  "range": [
+    0,
+    11
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 11,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 10,
         "operator": "*",
         "left": {
           "type": "Identifier",
-          "start": 0,
-          "end": 5,
           "decorators": [],
           "name": "yield",
-          "optional": false
+          "optional": false,
+          "range": [
+            0,
+            5
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 8,
-          "end": 10,
-          "elements": []
+          "elements": [],
+          "range": [
+            8,
+            10
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 1
+            },
+            "start": {
+              "column": 8,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        11
+      ],
+      "loc": {
+        "end": {
+          "column": 11,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 11,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

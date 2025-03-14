@@ -1,103 +1,260 @@
-exportDefaultFunctionInNamespace.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 133,
+  "range": [
+    0,
+    133
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 59,
       "body": {
         "type": "TSModuleBlock",
-        "start": 22,
-        "end": 59,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "start": 28,
-            "end": 57,
+            "range": [
+              28,
+              57
+            ],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 43,
-              "end": 57,
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 55,
-                "end": 57,
-                "body": []
+                "body": [],
+                "range": [
+                  55,
+                  57
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "range": [
+                43,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
             },
-            "exportKind": "value"
+            "exportKind": "value",
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          22,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 21,
+        "range": [
+          10,
+          21
+        ],
         "decorators": [],
         "name": "ns_function",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        0,
+        59
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 61,
-      "end": 132,
       "body": {
         "type": "TSModuleBlock",
-        "start": 89,
-        "end": 132,
         "body": [
           {
             "type": "ExportDefaultDeclaration",
-            "start": 95,
-            "end": 130,
+            "range": [
+              95,
+              130
+            ],
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 110,
-              "end": 130,
               "async": true,
               "body": {
                 "type": "BlockStatement",
-                "start": 128,
-                "end": 130,
-                "body": []
+                "body": [],
+                "range": [
+                  128,
+                  130
+                ],
+                "loc": {
+                  "end": {
+                    "column": 39,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 37,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "range": [
+                110,
+                130
+              ],
+              "loc": {
+                "end": {
+                  "column": 39,
+                  "line": 6
+                },
+                "start": {
+                  "column": 19,
+                  "line": 6
+                }
+              }
             },
-            "exportKind": "value"
+            "exportKind": "value",
+            "loc": {
+              "end": {
+                "column": 39,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          89,
+          132
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 28,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 71,
-        "end": 88,
+        "range": [
+          71,
+          88
+        ],
         "decorators": [],
         "name": "ns_async_function",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 5
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        61,
+        132
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

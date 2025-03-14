@@ -1,60 +1,157 @@
-file1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
+  "range": [
+    0,
+    27
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 27,
+      "range": [
+        0,
+        27
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 27,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 26,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 22,
               "decorators": [],
               "name": "x",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 14,
-                "end": 22,
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 1
+                  }
+                },
+                "range": [
+                  14,
+                  22
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 16,
-                  "end": 22
+                  "range": [
+                    16,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 1
+                    }
+                  }
+                }
+              },
+              "range": [
+                13,
+                22
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
                 }
               }
             },
             "init": {
               "type": "Literal",
-              "start": 25,
-              "end": 26,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "range": [
+                25,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 1
+                },
+                "start": {
+                  "column": 25,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 27,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

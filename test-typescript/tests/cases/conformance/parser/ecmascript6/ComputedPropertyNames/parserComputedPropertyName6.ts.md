@@ -1,83 +1,62 @@
-parserComputedPropertyName6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
+  "range": [
+    0,
+    31
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 30,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 30,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 16,
                 "computed": true,
                 "key": {
                   "type": "Identifier",
-                  "start": 11,
-                  "end": 12,
                   "decorators": [],
                   "name": "e",
-                  "optional": false
-                },
-                "kind": "init",
-                "method": false,
-                "optional": false,
-                "shorthand": false,
-                "value": {
-                  "type": "Literal",
-                  "start": 15,
-                  "end": 16,
-                  "raw": "1",
-                  "value": 1
-                }
-              },
-              {
-                "type": "Property",
-                "start": 18,
-                "end": 28,
-                "computed": true,
-                "key": {
-                  "type": "BinaryExpression",
-                  "start": 19,
-                  "end": 24,
-                  "operator": "+",
-                  "left": {
-                    "type": "Identifier",
-                    "start": 19,
-                    "end": 20,
-                    "decorators": [],
-                    "name": "e",
-                    "optional": false
-                  },
-                  "right": {
-                    "type": "Identifier",
-                    "start": 23,
-                    "end": 24,
-                    "decorators": [],
-                    "name": "e",
-                    "optional": false
+                  "optional": false,
+                  "range": [
+                    11,
+                    12
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 1
+                    }
                   }
                 },
                 "kind": "init",
@@ -86,20 +65,198 @@ parserComputedPropertyName6.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 27,
-                  "end": 28,
+                  "raw": "1",
+                  "value": 1,
+                  "range": [
+                    15,
+                    16
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  10,
+                  16
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 1
+                  }
+                }
+              },
+              {
+                "type": "Property",
+                "computed": true,
+                "key": {
+                  "type": "BinaryExpression",
+                  "operator": "+",
+                  "left": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false,
+                    "range": [
+                      19,
+                      20
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "right": {
+                    "type": "Identifier",
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false,
+                    "range": [
+                      23,
+                      24
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    19,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 1
+                    }
+                  }
+                },
+                "kind": "init",
+                "method": false,
+                "optional": false,
+                "shorthand": false,
+                "value": {
+                  "type": "Literal",
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "range": [
+                    27,
+                    28
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 28,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 27,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  18,
+                  28
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              30
+            ],
+            "loc": {
+              "end": {
+                "column": 30,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            30
+          ],
+          "loc": {
+            "end": {
+              "column": 30,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        31
+      ],
+      "loc": {
+        "end": {
+          "column": 31,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 31,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

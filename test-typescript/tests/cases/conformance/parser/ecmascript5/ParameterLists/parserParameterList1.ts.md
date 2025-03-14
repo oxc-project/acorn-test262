@@ -1,33 +1,45 @@
-parserParameterList1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
+  "range": [
+    0,
+    29
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 29,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 29,
+        "range": [
+          8,
+          29
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 13,
-            "end": 27,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "F",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                14
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 2
+                },
+                "start": {
+                  "column": 3,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,14 +47,28 @@ parserParameterList1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 14,
-              "end": 27,
+              "range": [
+                14,
+                27
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 24,
-                "end": 27,
-                "body": []
+                "body": [],
+                "range": [
+                  24,
+                  27
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,46 +77,153 @@ parserParameterList1.ts
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 15,
-                  "end": 19,
                   "argument": {
                     "type": "Identifier",
-                    "start": 18,
-                    "end": 19,
                     "decorators": [],
                     "name": "A",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      18,
+                      19
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 2
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    15,
+                    19
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
+                    }
+                  }
                 },
                 {
                   "type": "Identifier",
-                  "start": 21,
-                  "end": 22,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    21,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              13,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 2
+              },
+              "start": {
+                "column": 3,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

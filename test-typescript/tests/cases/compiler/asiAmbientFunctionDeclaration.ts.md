@@ -1,29 +1,66 @@
-asiAmbientFunctionDeclaration.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 23,
+  "range": [
+    1,
+    23
+  ],
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 1,
-      "end": 23,
       "async": false,
       "declare": true,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 21,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          18,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        1,
+        23
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 1
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 23,
+      "line": 1
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,1151 +1,3048 @@
-main.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 383,
+  "range": [
+    0,
+    383
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 29,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 17,
-        "end": 28,
         "raw": "\"./file.js\"",
-        "value": "./file.js"
+        "value": "./file.js",
+        "range": [
+          17,
+          28
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 1
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 11,
+          "range": [
+            7,
+            11
+          ],
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 11,
             "decorators": [],
             "name": "def1",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 30,
-      "end": 60,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 47,
-        "end": 59,
         "raw": "\"./file.jsx\"",
-        "value": "./file.jsx"
+        "value": "./file.jsx",
+        "range": [
+          47,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 2
+          },
+          "start": {
+            "column": 17,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 37,
-          "end": 41,
+          "range": [
+            37,
+            41
+          ],
           "local": {
             "type": "Identifier",
-            "start": 37,
-            "end": 41,
             "decorators": [],
             "name": "def2",
-            "optional": false
+            "optional": false,
+            "range": [
+              37,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 2
+              },
+              "start": {
+                "column": 7,
+                "line": 2
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        30,
+        60
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 61,
-      "end": 90,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 78,
-        "end": 89,
         "raw": "\"./file.ts\"",
-        "value": "./file.ts"
+        "value": "./file.ts",
+        "range": [
+          78,
+          89
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 3
+          },
+          "start": {
+            "column": 17,
+            "line": 3
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 68,
-          "end": 72,
+          "range": [
+            68,
+            72
+          ],
           "local": {
             "type": "Identifier",
-            "start": 68,
-            "end": 72,
             "decorators": [],
             "name": "def3",
-            "optional": false
+            "optional": false,
+            "range": [
+              68,
+              72
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 3
+              },
+              "start": {
+                "column": 7,
+                "line": 3
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 3
+            },
+            "start": {
+              "column": 7,
+              "line": 3
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        61,
+        90
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 91,
-      "end": 121,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 108,
-        "end": 120,
         "raw": "\"./file.tsx\"",
-        "value": "./file.tsx"
+        "value": "./file.tsx",
+        "range": [
+          108,
+          120
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 4
+          },
+          "start": {
+            "column": 17,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 98,
-          "end": 102,
+          "range": [
+            98,
+            102
+          ],
           "local": {
             "type": "Identifier",
-            "start": 98,
-            "end": 102,
             "decorators": [],
             "name": "def4",
-            "optional": false
+            "optional": false,
+            "range": [
+              98,
+              102
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 4
+              },
+              "start": {
+                "column": 7,
+                "line": 4
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        91,
+        121
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 122,
-      "end": 152,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 139,
-        "end": 151,
         "raw": "\"./file.mjs\"",
-        "value": "./file.mjs"
+        "value": "./file.mjs",
+        "range": [
+          139,
+          151
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 5
+          },
+          "start": {
+            "column": 17,
+            "line": 5
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 129,
-          "end": 133,
+          "range": [
+            129,
+            133
+          ],
           "local": {
             "type": "Identifier",
-            "start": 129,
-            "end": 133,
             "decorators": [],
             "name": "def5",
-            "optional": false
+            "optional": false,
+            "range": [
+              129,
+              133
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 5
+              },
+              "start": {
+                "column": 7,
+                "line": 5
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 5
+            },
+            "start": {
+              "column": 7,
+              "line": 5
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        122,
+        152
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 153,
-      "end": 183,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 170,
-        "end": 182,
         "raw": "\"./file.cjs\"",
-        "value": "./file.cjs"
+        "value": "./file.cjs",
+        "range": [
+          170,
+          182
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 6
+          },
+          "start": {
+            "column": 17,
+            "line": 6
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 160,
-          "end": 164,
+          "range": [
+            160,
+            164
+          ],
           "local": {
             "type": "Identifier",
-            "start": 160,
-            "end": 164,
             "decorators": [],
             "name": "def6",
-            "optional": false
+            "optional": false,
+            "range": [
+              160,
+              164
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 6
+              },
+              "start": {
+                "column": 7,
+                "line": 6
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 6
+            },
+            "start": {
+              "column": 7,
+              "line": 6
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        153,
+        183
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 184,
-      "end": 214,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 201,
-        "end": 213,
         "raw": "\"./file.mts\"",
-        "value": "./file.mts"
+        "value": "./file.mts",
+        "range": [
+          201,
+          213
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 7
+          },
+          "start": {
+            "column": 17,
+            "line": 7
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 191,
-          "end": 195,
+          "range": [
+            191,
+            195
+          ],
           "local": {
             "type": "Identifier",
-            "start": 191,
-            "end": 195,
             "decorators": [],
             "name": "def7",
-            "optional": false
+            "optional": false,
+            "range": [
+              191,
+              195
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 7
+              },
+              "start": {
+                "column": 7,
+                "line": 7
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 7
+            },
+            "start": {
+              "column": 7,
+              "line": 7
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        184,
+        214
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 215,
-      "end": 245,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 232,
-        "end": 244,
         "raw": "\"./file.cts\"",
-        "value": "./file.cts"
+        "value": "./file.cts",
+        "range": [
+          232,
+          244
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 8
+          },
+          "start": {
+            "column": 17,
+            "line": 8
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 222,
-          "end": 226,
+          "range": [
+            222,
+            226
+          ],
           "local": {
             "type": "Identifier",
-            "start": 222,
-            "end": 226,
             "decorators": [],
             "name": "def8",
-            "optional": false
+            "optional": false,
+            "range": [
+              222,
+              226
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 8
+              },
+              "start": {
+                "column": 7,
+                "line": 8
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 8
+            },
+            "start": {
+              "column": 7,
+              "line": 8
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        215,
+        245
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 246,
-      "end": 277,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 263,
-        "end": 276,
         "raw": "\"./file.d.ts\"",
-        "value": "./file.d.ts"
+        "value": "./file.d.ts",
+        "range": [
+          263,
+          276
+        ],
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 9
+          },
+          "start": {
+            "column": 17,
+            "line": 9
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 253,
-          "end": 257,
+          "range": [
+            253,
+            257
+          ],
           "local": {
             "type": "Identifier",
-            "start": 253,
-            "end": 257,
             "decorators": [],
             "name": "def9",
-            "optional": false
+            "optional": false,
+            "range": [
+              253,
+              257
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 9
+              },
+              "start": {
+                "column": 7,
+                "line": 9
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 9
+            },
+            "start": {
+              "column": 7,
+              "line": 9
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        246,
+        277
+      ],
+      "loc": {
+        "end": {
+          "column": 31,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 278,
-      "end": 311,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 296,
-        "end": 310,
         "raw": "\"./file.d.cts\"",
-        "value": "./file.d.cts"
+        "value": "./file.d.cts",
+        "range": [
+          296,
+          310
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 10
+          },
+          "start": {
+            "column": 18,
+            "line": 10
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 285,
-          "end": 290,
+          "range": [
+            285,
+            290
+          ],
           "local": {
             "type": "Identifier",
-            "start": 285,
-            "end": 290,
             "decorators": [],
             "name": "def10",
-            "optional": false
+            "optional": false,
+            "range": [
+              285,
+              290
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 10
+              },
+              "start": {
+                "column": 7,
+                "line": 10
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 10
+            },
+            "start": {
+              "column": 7,
+              "line": 10
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        278,
+        311
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 312,
-      "end": 345,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 330,
-        "end": 344,
         "raw": "\"./file.d.mts\"",
-        "value": "./file.d.mts"
+        "value": "./file.d.mts",
+        "range": [
+          330,
+          344
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 11
+          },
+          "start": {
+            "column": 18,
+            "line": 11
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 319,
-          "end": 324,
+          "range": [
+            319,
+            324
+          ],
           "local": {
             "type": "Identifier",
-            "start": 319,
-            "end": 324,
             "decorators": [],
             "name": "def11",
-            "optional": false
+            "optional": false,
+            "range": [
+              319,
+              324
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 11
+              },
+              "start": {
+                "column": 7,
+                "line": 11
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 11
+            },
+            "start": {
+              "column": 7,
+              "line": 11
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        312,
+        345
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 346,
-      "end": 383,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 364,
-        "end": 382,
         "raw": "\"./file.d.json.ts\"",
-        "value": "./file.d.json.ts"
+        "value": "./file.d.json.ts",
+        "range": [
+          364,
+          382
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 12
+          },
+          "start": {
+            "column": 18,
+            "line": 12
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 353,
-          "end": 358,
+          "range": [
+            353,
+            358
+          ],
           "local": {
             "type": "Identifier",
-            "start": 353,
-            "end": 358,
             "decorators": [],
             "name": "def12",
-            "optional": false
+            "optional": false,
+            "range": [
+              353,
+              358
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 12
+              },
+              "start": {
+                "column": 7,
+                "line": 12
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 12
+            },
+            "start": {
+              "column": 7,
+              "line": 12
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        346,
+        383
+      ],
+      "loc": {
+        "end": {
+          "column": 37,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 37,
+      "line": 12
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.js.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad1\"",
-                  "value": "bad1"
+                  "value": "bad1",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.jsx.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad2\"",
-                  "value": "bad2"
+                  "value": "bad2",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.ts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad3\"",
-                  "value": "bad3"
+                  "value": "bad3",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.tsx.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad4\"",
-                  "value": "bad4"
+                  "value": "bad4",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.mjs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad5\"",
-                  "value": "bad5"
+                  "value": "bad5",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.cjs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad6\"",
-                  "value": "bad6"
+                  "value": "bad6",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.mts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad7\"",
-                  "value": "bad7"
+                  "value": "bad7",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.cts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad8\"",
-                  "value": "bad8"
+                  "value": "bad8",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.d.ts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                23
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 23,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 23,
                   "raw": "\"bad9\"",
-                  "value": "bad9"
+                  "value": "bad9",
+                  "range": [
+                    17,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  23
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 44,
       "declaration": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          40,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        25,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.d.mts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
+  "range": [
+    0,
+    45
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 24,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 24,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 24,
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                24
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 24,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 24,
                   "raw": "\"bad10\"",
-                  "value": "bad10"
+                  "value": "bad10",
+                  "range": [
+                    17,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 26,
-      "end": 45,
       "declaration": {
         "type": "Identifier",
-        "start": 41,
-        "end": 44,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          41,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        26,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.d.cts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
+  "range": [
+    0,
+    45
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 24,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 24,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 24,
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                24
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 24,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 24,
                   "raw": "\"bad11\"",
-                  "value": "bad11"
+                  "value": "bad11",
+                  "range": [
+                    17,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 26,
-      "end": 45,
       "declaration": {
         "type": "Identifier",
-        "start": 41,
-        "end": 44,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          41,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        26,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-file.d.d.json.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
+  "range": [
+    0,
+    45
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 24,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 24,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 24,
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              },
+              "range": [
+                15,
+                24
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 17,
-                "end": 24,
                 "literal": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 24,
                   "raw": "\"bad12\"",
-                  "value": "bad12"
+                  "value": "bad12",
+                  "range": [
+                    17,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
                 }
+              }
+            },
+            "range": [
+              12,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 26,
-      "end": 45,
       "declaration": {
         "type": "Identifier",
-        "start": 41,
-        "end": 44,
         "decorators": [],
         "name": "bad",
-        "optional": false
+        "optional": false,
+        "range": [
+          41,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        26,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

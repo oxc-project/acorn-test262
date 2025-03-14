@@ -1,82 +1,203 @@
-missingCommaInTemplateStringsArray.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
+  "range": [
+    0,
+    66
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 66,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 65,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "array",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 12,
-            "end": 65,
             "elements": [
               {
                 "type": "TaggedTemplateExpression",
-                "start": 18,
-                "end": 61,
                 "quasi": {
                   "type": "TemplateLiteral",
-                  "start": 42,
-                  "end": 61,
                   "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 42,
-                      "end": 61,
                       "tail": true,
                       "value": {
                         "cooked": "template string 2",
                         "raw": "template string 2"
+                      },
+                      "range": [
+                        42,
+                        61
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 4,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    42,
+                    61
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 },
                 "tag": {
                   "type": "TemplateLiteral",
-                  "start": 18,
-                  "end": 37,
                   "expressions": [],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 18,
-                      "end": 37,
                       "tail": true,
                       "value": {
                         "cooked": "template string 1",
                         "raw": "template string 1"
+                      },
+                      "range": [
+                        18,
+                        37
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 4,
+                          "line": 2
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    18,
+                    37
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  18,
+                  61
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              12,
+              65
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            65
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 4,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

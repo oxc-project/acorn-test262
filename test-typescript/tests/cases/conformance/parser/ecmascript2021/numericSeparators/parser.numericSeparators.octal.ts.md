@@ -1,59 +1,168 @@
-parser.numericSeparators.octal.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
+  "range": [
+    0,
+    42
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 8,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 7,
         "raw": "0o00_11",
-        "value": 9
+        "value": 9,
+        "range": [
+          0,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        8
+      ],
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 9,
-      "end": 15,
       "expression": {
         "type": "Literal",
-        "start": 9,
-        "end": 14,
         "raw": "0O0_1",
-        "value": 1
+        "value": 1,
+        "range": [
+          9,
+          14
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        9,
+        15
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 16,
-      "end": 28,
       "expression": {
         "type": "Literal",
-        "start": 16,
-        "end": 27,
         "raw": "0o1100_0011",
-        "value": 2359305
+        "value": 2359305,
+        "range": [
+          16,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        16,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 41,
       "expression": {
         "type": "Literal",
-        "start": 29,
-        "end": 40,
         "raw": "0O0_11_0101",
-        "value": 36929
+        "value": 36929,
+        "range": [
+          29,
+          40
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        29,
+        41
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

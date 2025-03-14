@@ -1,33 +1,45 @@
-privateNamesConstructorChain-1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 395,
+  "range": [
+    0,
+    395
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 229,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 13,
-        "end": 229,
+        "range": [
+          13,
+          229
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 19,
-            "end": 28,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 19,
-              "end": 23,
-              "name": "foo"
+              "name": "foo",
+              "range": [
+                19,
+                23
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -35,25 +47,61 @@ privateNamesConstructorChain-1.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 26,
-              "end": 27,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "range": [
+                26,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              19,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 33,
-            "end": 49,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 40,
-              "end": 44,
-              "name": "bar"
+              "name": "bar",
+              "range": [
+                40,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -61,25 +109,61 @@ privateNamesConstructorChain-1.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 47,
-              "end": 48,
               "raw": "5",
-              "value": 5
+              "value": 5,
+              "range": [
+                47,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 3
+                },
+                "start": {
+                  "column": 18,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              33,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 54,
-            "end": 227,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 54,
-              "end": 70,
               "decorators": [],
               "name": "accessChildProps",
-              "optional": false
+              "optional": false,
+              "range": [
+                54,
+                70
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -87,119 +171,311 @@ privateNamesConstructorChain-1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 70,
-              "end": 227,
+              "range": [
+                70,
+                227
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 73,
-                "end": 227,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 83,
-                    "end": 100,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 83,
-                      "end": 99,
                       "computed": false,
                       "object": {
                         "type": "NewExpression",
-                        "start": 83,
-                        "end": 94,
                         "arguments": [],
                         "callee": {
                           "type": "Identifier",
-                          "start": 87,
-                          "end": 92,
                           "decorators": [],
                           "name": "Child",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            87,
+                            92
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 5
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 5
+                            }
+                          }
+                        },
+                        "range": [
+                          83,
+                          94
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 5
+                          }
                         }
                       },
                       "optional": false,
                       "property": {
                         "type": "PrivateIdentifier",
-                        "start": 95,
-                        "end": 99,
-                        "name": "foo"
+                        "name": "foo",
+                        "range": [
+                          95,
+                          99
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 24,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 20,
+                            "line": 5
+                          }
+                        }
+                      },
+                      "range": [
+                        83,
+                        99
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 5
+                        }
+                      }
+                    },
+                    "range": [
+                      83,
+                      100
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 5
                       }
                     }
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 184,
-                    "end": 195,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 184,
-                      "end": 194,
                       "computed": false,
                       "object": {
                         "type": "Identifier",
-                        "start": 184,
-                        "end": 189,
                         "decorators": [],
                         "name": "Child",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          184,
+                          189
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 13,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 6
+                          }
+                        }
                       },
                       "optional": false,
                       "property": {
                         "type": "PrivateIdentifier",
-                        "start": 190,
-                        "end": 194,
-                        "name": "bar"
+                        "name": "bar",
+                        "range": [
+                          190,
+                          194
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 18,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 14,
+                            "line": 6
+                          }
+                        }
+                      },
+                      "range": [
+                        184,
+                        194
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 6
+                        }
+                      }
+                    },
+                    "range": [
+                      184,
+                      195
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 6
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  73,
+                  227
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 7
+                },
+                "start": {
+                  "column": 20,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              54,
+              227
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 13,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 12,
         "decorators": [],
         "name": "Parent",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        229
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 231,
-      "end": 394,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 258,
-        "end": 394,
+        "range": [
+          258,
+          394
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 264,
-            "end": 277,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 264,
-              "end": 268,
-              "name": "foo"
+              "name": "foo",
+              "range": [
+                264,
+                268
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 11
+                },
+                "start": {
+                  "column": 4,
+                  "line": 11
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -207,25 +483,61 @@ privateNamesConstructorChain-1.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 271,
-              "end": 276,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "range": [
+                271,
+                276
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 11
+                },
+                "start": {
+                  "column": 11,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              264,
+              277
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 367,
-            "end": 380,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 367,
-              "end": 371,
-              "name": "bar"
+              "name": "bar",
+              "range": [
+                367,
+                371
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 12
+                },
+                "start": {
+                  "column": 4,
+                  "line": 12
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -233,35 +545,120 @@ privateNamesConstructorChain-1.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 374,
-              "end": 379,
               "raw": "\"bar\"",
-              "value": "bar"
+              "value": "bar",
+              "range": [
+                374,
+                379
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 12
+                },
+                "start": {
+                  "column": 11,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              367,
+              380
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 27,
+            "line": 10
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 237,
-        "end": 242,
         "decorators": [],
         "name": "Child",
-        "optional": false
+        "optional": false,
+        "range": [
+          237,
+          242
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 10
+          },
+          "start": {
+            "column": 6,
+            "line": 10
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 251,
-        "end": 257,
         "decorators": [],
         "name": "Parent",
-        "optional": false
+        "optional": false,
+        "range": [
+          251,
+          257
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 10
+          },
+          "start": {
+            "column": 20,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        231,
+        394
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

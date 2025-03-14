@@ -1,43 +1,61 @@
-privateNameInObjectLiteral-2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
+  "range": [
+    0,
+    37
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 36,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 35,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 12,
-            "end": 35,
             "properties": [
               {
                 "type": "Property",
-                "start": 18,
-                "end": 33,
                 "computed": false,
                 "key": {
                   "type": "PrivateIdentifier",
-                  "start": 18,
-                  "end": 22,
-                  "name": "foo"
+                  "name": "foo",
+                  "range": [
+                    18,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": true,
@@ -45,30 +63,121 @@ privateNameInObjectLiteral-2.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 22,
-                  "end": 33,
+                  "range": [
+                    22,
+                    33
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 25,
-                    "end": 33,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      25,
+                      33
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 5,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  18,
+                  33
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              12,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 5
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            35
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

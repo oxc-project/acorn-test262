@@ -1,50 +1,123 @@
-systemModuleTrailingComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
+  "range": [
+    0,
+    43
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 27,
+      "range": [
+        0,
+        27
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 27,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 26,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 17,
               "decorators": [],
               "name": "test",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 20,
-              "end": 26,
               "raw": "\"TEST\"",
-              "value": "TEST"
+              "value": "TEST",
+              "range": [
+                20,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 1
+                },
+                "start": {
+                  "column": 20,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 14,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

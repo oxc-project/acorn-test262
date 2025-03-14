@@ -1,33 +1,45 @@
-MemberFunctionDeclaration7_es6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
+  "range": [
+    0,
+    28
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 28,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 28,
+        "range": [
+          8,
+          28
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 13,
-            "end": 26,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 17,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                14,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,14 +47,28 @@ MemberFunctionDeclaration7_es6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 17,
-              "end": 26,
+              "range": [
+                17,
+                26
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 23,
-                "end": 26,
-                "body": []
+                "body": [],
+                "range": [
+                  23,
+                  26
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,45 +77,152 @@ MemberFunctionDeclaration7_es6.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 17,
-                "end": 20,
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  17,
+                  20
+                ],
                 "params": [
                   {
                     "type": "TSTypeParameter",
-                    "start": 18,
-                    "end": 19,
                     "const": false,
                     "in": false,
                     "name": {
                       "type": "Identifier",
-                      "start": 18,
-                      "end": 19,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        18,
+                        19
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 2
+                        }
+                      }
                     },
-                    "out": false
+                    "out": false,
+                    "range": [
+                      18,
+                      19
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 2
+                      }
+                    }
                   }
                 ]
+              },
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              13,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 3,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

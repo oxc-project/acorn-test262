@@ -1,101 +1,246 @@
-templateStringWithEmbeddedYieldKeywordES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 134,
+  "range": [
+    17,
+    134
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 17,
-      "end": 133,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 33,
-        "end": 133,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 101,
-            "end": 131,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 105,
-                "end": 130,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 105,
-                  "end": 106,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    105,
+                    106
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 },
                 "init": {
                   "type": "TemplateLiteral",
-                  "start": 109,
-                  "end": 130,
                   "expressions": [
                     {
                       "type": "YieldExpression",
-                      "start": 116,
-                      "end": 124,
                       "argument": {
                         "type": "Literal",
-                        "start": 122,
-                        "end": 124,
                         "raw": "10",
-                        "value": 10
+                        "value": 10,
+                        "range": [
+                          122,
+                          124
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 25,
+                            "line": 4
+                          }
+                        }
                       },
-                      "delegate": false
+                      "delegate": false,
+                      "range": [
+                        116,
+                        124
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 4
+                        }
+                      }
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 109,
-                      "end": 115,
                       "tail": false,
                       "value": {
                         "cooked": "abc",
                         "raw": "abc"
+                      },
+                      "range": [
+                        109,
+                        115
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 4
+                        }
                       }
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 125,
-                      "end": 130,
                       "tail": true,
                       "value": {
                         "cooked": "def",
                         "raw": "def"
+                      },
+                      "range": [
+                        125,
+                        130
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 33,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 28,
+                          "line": 4
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    109,
+                    130
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  105,
+                  130
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 4
+                  }
                 }
               }
             ],
             "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "range": [
+              101,
+              131
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          33,
+          133
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 16,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 30,
         "decorators": [],
         "name": "gen",
-        "optional": false
+        "optional": false,
+        "range": [
+          27,
+          30
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 10,
+            "line": 2
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        17,
+        133
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

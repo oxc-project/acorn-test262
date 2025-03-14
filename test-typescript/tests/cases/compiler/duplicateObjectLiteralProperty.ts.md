@@ -1,45 +1,63 @@
-duplicateObjectLiteralProperty.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 252,
+  "range": [
+    0,
+    252
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 157,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 156,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 156,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 18,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 15,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    14,
+                    15
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,24 +65,60 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 18,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  14,
+                  18
+                ],
+                "loc": {
+                  "end": {
+                    "column": 8,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 24,
-                "end": 31,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    24,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -72,24 +126,60 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 27,
-                  "end": 31,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "range": [
+                    27,
+                    31
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  24,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 43,
-                "end": 48,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 44,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    43,
+                    44
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -97,24 +187,60 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 46,
-                  "end": 48,
                   "raw": "56",
-                  "value": 56
+                  "value": 56,
+                  "range": [
+                    46,
+                    48
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  43,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 69,
-                "end": 81,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 69,
-                  "end": 75,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    69,
+                    75
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 5
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -122,24 +248,60 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 77,
-                  "end": 81,
                   "raw": "\"ss\"",
-                  "value": "ss"
+                  "value": "ss",
+                  "range": [
+                    77,
+                    81
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 5
+                    }
+                  }
+                },
+                "range": [
+                  69,
+                  81
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 5
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 100,
-                "end": 154,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 100,
-                  "end": 101,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    100,
+                    101
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 6
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -147,21 +309,29 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 103,
-                  "end": 154,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 113,
-                      "end": 117,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 113,
-                        "end": 114,
                         "decorators": [],
                         "name": "c",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          113,
+                          114
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 9,
+                            "line": 7
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 7
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -169,23 +339,59 @@ duplicateObjectLiteralProperty.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 116,
-                        "end": 117,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "range": [
+                          116,
+                          117
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 12,
+                            "line": 7
+                          },
+                          "start": {
+                            "column": 11,
+                            "line": 7
+                          }
+                        }
+                      },
+                      "range": [
+                        113,
+                        117
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 12,
+                          "line": 7
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 7
+                        }
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 127,
-                      "end": 134,
                       "computed": false,
                       "key": {
                         "type": "Literal",
-                        "start": 127,
-                        "end": 130,
                         "raw": "\"c\"",
-                        "value": "c"
+                        "value": "c",
+                        "range": [
+                          127,
+                          130
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 11,
+                            "line": 8
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 8
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -193,57 +399,169 @@ duplicateObjectLiteralProperty.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 132,
-                        "end": 134,
                         "raw": "56",
-                        "value": 56
+                        "value": 56,
+                        "range": [
+                          132,
+                          134
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 15,
+                            "line": 8
+                          },
+                          "start": {
+                            "column": 13,
+                            "line": 8
+                          }
+                        }
+                      },
+                      "range": [
+                        127,
+                        134
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 15,
+                          "line": 8
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 8
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    103,
+                    154
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  100,
+                  154
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 6
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              156
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 10
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            156
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 10
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        157
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 160,
-      "end": 251,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 164,
-          "end": 250,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 164,
-            "end": 165,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "range": [
+              164,
+              165
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 168,
-            "end": 250,
             "properties": [
               {
                 "type": "Property",
-                "start": 174,
-                "end": 195,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 178,
-                  "end": 179,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    178,
+                    179
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 14
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -251,47 +569,119 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 179,
-                  "end": 195,
+                  "range": [
+                    179,
+                    195
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 182,
-                    "end": 195,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 184,
-                        "end": 193,
                         "argument": {
                           "type": "Literal",
-                          "start": 191,
-                          "end": 192,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "range": [
+                            191,
+                            192
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 22,
+                              "line": 14
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 14
+                            }
+                          }
+                        },
+                        "range": [
+                          184,
+                          193
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 14
+                          },
+                          "start": {
+                            "column": 14,
+                            "line": 14
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      182,
+                      195
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 14
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  174,
+                  195
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 14
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 201,
-                "end": 221,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 205,
-                  "end": 206,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    205,
+                    206
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 15
+                    }
+                  }
                 },
                 "kind": "set",
                 "method": false,
@@ -299,14 +689,28 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 206,
-                  "end": 221,
+                  "range": [
+                    206,
+                    221
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 218,
-                    "end": 221,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      218,
+                      221
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 15
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 15
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -315,37 +719,107 @@ duplicateObjectLiteralProperty.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 207,
-                      "end": 216,
                       "decorators": [],
                       "name": "v",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 208,
-                        "end": 216,
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 15
+                          },
+                          "start": {
+                            "column": 11,
+                            "line": 15
+                          }
+                        },
+                        "range": [
+                          208,
+                          216
+                        ],
                         "typeAnnotation": {
                           "type": "TSNumberKeyword",
-                          "start": 210,
-                          "end": 216
+                          "range": [
+                            210,
+                            216
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 19,
+                              "line": 15
+                            },
+                            "start": {
+                              "column": 13,
+                              "line": 15
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        207,
+                        216
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 19,
+                          "line": 15
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 15
                         }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 15
+                    }
+                  }
+                },
+                "range": [
+                  201,
+                  221
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 15
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 227,
-                "end": 248,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 231,
-                  "end": 232,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    231,
+                    232
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 16
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 16
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -353,43 +827,158 @@ duplicateObjectLiteralProperty.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 232,
-                  "end": 248,
+                  "range": [
+                    232,
+                    248
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 235,
-                    "end": 248,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 237,
-                        "end": 246,
                         "argument": {
                           "type": "Literal",
-                          "start": 244,
-                          "end": 245,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "range": [
+                            244,
+                            245
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 22,
+                              "line": 16
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 16
+                            }
+                          }
+                        },
+                        "range": [
+                          237,
+                          246
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 16
+                          },
+                          "start": {
+                            "column": 14,
+                            "line": 16
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      235,
+                      248
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 16
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 16
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 16
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 16
+                    }
+                  }
+                },
+                "range": [
+                  227,
+                  248
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 16
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 16
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              168,
+              250
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 17
+              },
+              "start": {
+                "column": 8,
+                "line": 13
+              }
+            }
+          },
+          "range": [
+            164,
+            250
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 17
+            },
+            "start": {
+              "column": 4,
+              "line": 13
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        160,
+        251
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 18
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

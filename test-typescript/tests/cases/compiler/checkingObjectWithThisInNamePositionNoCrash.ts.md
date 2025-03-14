@@ -1,50 +1,70 @@
-checkingObjectWithThisInNamePositionNoCrash.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 174,
+  "range": [
+    0,
+    174
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 174,
+      "range": [
+        0,
+        174
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 174,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 174,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 18,
               "decorators": [],
               "name": "thing",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                18
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 21,
-              "end": 174,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 27,
-                  "end": 172,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 27,
-                    "end": 31,
                     "decorators": [],
                     "name": "doit",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      27,
+                      31
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 8,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 4,
+                        "line": 2
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": true,
@@ -52,46 +72,76 @@ checkingObjectWithThisInNamePositionNoCrash.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 31,
-                    "end": 172,
+                    "range": [
+                      31,
+                      172
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 34,
-                      "end": 172,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 44,
-                          "end": 166,
                           "argument": {
                             "type": "ObjectExpression",
-                            "start": 51,
-                            "end": 166,
                             "properties": [
                               {
                                 "type": "Property",
-                                "start": 65,
-                                "end": 77,
                                 "computed": true,
                                 "key": {
                                   "type": "MemberExpression",
-                                  "start": 66,
-                                  "end": 72,
                                   "computed": false,
                                   "object": {
                                     "type": "ThisExpression",
-                                    "start": 66,
-                                    "end": 70
+                                    "range": [
+                                      66,
+                                      70
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 17,
+                                        "line": 4
+                                      },
+                                      "start": {
+                                        "column": 13,
+                                        "line": 4
+                                      }
+                                    }
                                   },
                                   "optional": false,
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 71,
-                                    "end": 72,
                                     "decorators": [],
                                     "name": "a",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      71,
+                                      72
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 19,
+                                        "line": 4
+                                      },
+                                      "start": {
+                                        "column": 18,
+                                        "line": 4
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    66,
+                                    72
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 19,
+                                      "line": 4
+                                    },
+                                    "start": {
+                                      "column": 13,
+                                      "line": 4
+                                    }
                                   }
                                 },
                                 "kind": "init",
@@ -100,36 +150,191 @@ checkingObjectWithThisInNamePositionNoCrash.ts
                                 "shorthand": false,
                                 "value": {
                                   "type": "Literal",
-                                  "start": 75,
-                                  "end": 77,
                                   "raw": "\"\"",
-                                  "value": ""
+                                  "value": "",
+                                  "range": [
+                                    75,
+                                    77
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 24,
+                                      "line": 4
+                                    },
+                                    "start": {
+                                      "column": 22,
+                                      "line": 4
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  65,
+                                  77
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 24,
+                                    "line": 4
+                                  },
+                                  "start": {
+                                    "column": 12,
+                                    "line": 4
+                                  }
                                 }
                               }
-                            ]
+                            ],
+                            "range": [
+                              51,
+                              166
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 9,
+                                "line": 5
+                              },
+                              "start": {
+                                "column": 15,
+                                "line": 3
+                              }
+                            }
+                          },
+                          "range": [
+                            44,
+                            166
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 9,
+                              "line": 5
+                            },
+                            "start": {
+                              "column": 8,
+                              "line": 3
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        34,
+                        172
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 5,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 11,
+                          "line": 2
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "loc": {
+                      "end": {
+                        "column": 5,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    27,
+                    172
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                21,
+                174
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 7
+                },
+                "start": {
+                  "column": 21,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              174
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 7
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          174
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

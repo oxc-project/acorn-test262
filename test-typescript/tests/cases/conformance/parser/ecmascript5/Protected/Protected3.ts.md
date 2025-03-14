@@ -1,34 +1,46 @@
-Protected3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
+  "range": [
+    0,
+    41
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 41,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 41,
+        "range": [
+          8,
+          41
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 12,
-            "end": 39,
             "accessibility": "protected",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 33,
+              "range": [
+                22,
+                33
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -36,38 +48,123 @@ Protected3.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 33,
-              "end": 39,
+              "range": [
+                33,
+                39
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 36,
-                "end": 39,
-                "body": []
+                "body": [],
+                "range": [
+                  36,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 2
+                },
+                "start": {
+                  "column": 23,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              12,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        41
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

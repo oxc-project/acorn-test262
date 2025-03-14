@@ -1,34 +1,46 @@
-staticMemberWithStringAndNumberNames.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 182,
+  "range": [
+    0,
+    182
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 182,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 182,
+        "range": [
+          8,
+          182
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 31,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 21,
-              "end": 26,
               "raw": "\"foo\"",
-              "value": "foo"
+              "value": "foo",
+              "range": [
+                21,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -36,26 +48,62 @@ staticMemberWithStringAndNumberNames.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 29,
-              "end": 30,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                29,
+                30
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 36,
-            "end": 49,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 43,
-              "end": 44,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                43,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -63,27 +111,63 @@ staticMemberWithStringAndNumberNames.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 47,
-              "end": 48,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                47,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              36,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 55,
-            "end": 68,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 55,
-              "end": 56,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                55,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -91,42 +175,102 @@ staticMemberWithStringAndNumberNames.ts
             "static": false,
             "value": {
               "type": "MemberExpression",
-              "start": 59,
-              "end": 67,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 59,
-                "end": 60,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  59,
+                  60
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 5
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 61,
-                "end": 66,
                 "raw": "'foo'",
-                "value": "foo"
+                "value": "foo",
+                "range": [
+                  61,
+                  66
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                59,
+                67
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 8,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              55,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 73,
-            "end": 85,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 73,
-              "end": 75,
               "decorators": [],
               "name": "x2",
-              "optional": false
+              "optional": false,
+              "range": [
+                73,
+                75
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -134,42 +278,102 @@ staticMemberWithStringAndNumberNames.ts
             "static": false,
             "value": {
               "type": "MemberExpression",
-              "start": 78,
-              "end": 84,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 78,
-                "end": 79,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  78,
+                  79
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 6
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 80,
-                "end": 83,
                 "raw": "'0'",
-                "value": "0"
+                "value": "0",
+                "range": [
+                  80,
+                  83
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                78,
+                84
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 6
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              73,
+              85
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 90,
-            "end": 100,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 90,
-              "end": 92,
               "decorators": [],
               "name": "x3",
-              "optional": false
+              "optional": false,
+              "range": [
+                90,
+                92
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 7
+                },
+                "start": {
+                  "column": 4,
+                  "line": 7
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -177,42 +381,102 @@ staticMemberWithStringAndNumberNames.ts
             "static": false,
             "value": {
               "type": "MemberExpression",
-              "start": 95,
-              "end": 99,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 95,
-                "end": 96,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  95,
+                  96
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 7
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 97,
-                "end": 98,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  97,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                95,
+                99
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 7
+                },
+                "start": {
+                  "column": 9,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              90,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 114,
-            "end": 134,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 121,
-              "end": 122,
               "decorators": [],
               "name": "s",
-              "optional": false
+              "optional": false,
+              "range": [
+                121,
+                122
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 9
+                },
+                "start": {
+                  "column": 11,
+                  "line": 9
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -220,42 +484,102 @@ staticMemberWithStringAndNumberNames.ts
             "static": true,
             "value": {
               "type": "MemberExpression",
-              "start": 125,
-              "end": 133,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 125,
-                "end": 126,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  125,
+                  126
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 9
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 127,
-                "end": 132,
                 "raw": "'foo'",
-                "value": "foo"
+                "value": "foo",
+                "range": [
+                  127,
+                  132
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 9
+                  }
+                }
+              },
+              "range": [
+                125,
+                133
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 9
+                },
+                "start": {
+                  "column": 15,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              114,
+              134
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 139,
-            "end": 158,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 146,
-              "end": 148,
               "decorators": [],
               "name": "s2",
-              "optional": false
+              "optional": false,
+              "range": [
+                146,
+                148
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 10
+                },
+                "start": {
+                  "column": 11,
+                  "line": 10
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -263,42 +587,102 @@ staticMemberWithStringAndNumberNames.ts
             "static": true,
             "value": {
               "type": "MemberExpression",
-              "start": 151,
-              "end": 157,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 151,
-                "end": 152,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  151,
+                  152
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 10
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 153,
-                "end": 156,
                 "raw": "'0'",
-                "value": "0"
+                "value": "0",
+                "range": [
+                  153,
+                  156
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                151,
+                157
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 10
+                },
+                "start": {
+                  "column": 16,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              139,
+              158
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 163,
-            "end": 180,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 170,
-              "end": 172,
               "decorators": [],
               "name": "s3",
-              "optional": false
+              "optional": false,
+              "range": [
+                170,
+                172
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 11
+                },
+                "start": {
+                  "column": 11,
+                  "line": 11
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -306,43 +690,140 @@ staticMemberWithStringAndNumberNames.ts
             "static": true,
             "value": {
               "type": "MemberExpression",
-              "start": 175,
-              "end": 179,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 175,
-                "end": 176,
                 "decorators": [],
                 "name": "C",
-                "optional": false
+                "optional": false,
+                "range": [
+                  175,
+                  176
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 11
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 177,
-                "end": 178,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  177,
+                  178
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 11
+                  }
+                }
+              },
+              "range": [
+                175,
+                179
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 11
+                },
+                "start": {
+                  "column": 16,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              163,
+              180
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 12
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        182
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 12
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

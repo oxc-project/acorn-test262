@@ -1,65 +1,163 @@
-/node_modules/@types/node/globals.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
+  "range": [
+    0,
+    59
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 58,
       "body": {
         "type": "TSModuleBlock",
-        "start": 25,
-        "end": 58,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 29,
-            "end": 56,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 54,
-              "end": 56,
-              "body": []
+              "range": [
+                54,
+                56
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 2
+                },
+                "start": {
+                  "column": 27,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 39,
-              "end": 53,
               "decorators": [],
               "name": "ReadableStream",
-              "optional": false
+              "optional": false,
+              "range": [
+                39,
+                53
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              29,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          25,
+          58
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 25,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 24,
+        "range": [
+          18,
+          24
+        ],
         "decorators": [],
         "name": "NodeJS",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        0,
+        58
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/node_modules/@types/node/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 38,
-  "end": 38,
+  "range": [
+    38,
+    38
+  ],
   "body": [],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

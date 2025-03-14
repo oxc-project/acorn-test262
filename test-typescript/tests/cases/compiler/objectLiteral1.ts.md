@@ -1,45 +1,63 @@
-objectLiteral1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
+  "range": [
+    0,
+    21
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 21,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 20,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "v30",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 20,
             "properties": [
               {
                 "type": "Property",
-                "start": 11,
-                "end": 14,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 11,
-                  "end": 12,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    11,
+                    12
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,24 +65,60 @@ objectLiteral1.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 13,
-                  "end": 14,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    13,
+                    14
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  11,
+                  14
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 1
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 16,
-                "end": 19,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 16,
-                  "end": 17,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    16,
+                    17
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -72,20 +126,99 @@ objectLiteral1.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 18,
-                  "end": 19,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "range": [
+                    18,
+                    19
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  16,
+                  19
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              10,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            20
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        21
+      ],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 21,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

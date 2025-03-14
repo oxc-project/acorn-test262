@@ -1,118 +1,252 @@
-declarationEmitLocalClassHasRequiredDeclare.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 154,
+  "range": [
+    0,
+    154
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 50,
+      "range": [
+        0,
+        50
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 7,
-        "end": 50,
         "body": {
           "type": "TSModuleBlock",
-          "start": 27,
-          "end": 50,
           "body": [
             {
               "type": "TSModuleDeclaration",
-              "start": 33,
-              "end": 48,
               "body": {
                 "type": "TSModuleBlock",
-                "start": 45,
-                "end": 48,
-                "body": []
+                "body": [],
+                "range": [
+                  45,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "global": false,
               "id": {
                 "type": "Identifier",
-                "start": 43,
-                "end": 44,
+                "range": [
+                  43,
+                  44
+                ],
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
+                  }
+                }
               },
-              "kind": "namespace"
+              "kind": "namespace",
+              "range": [
+                33,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            27,
+            50
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 27,
+              "line": 1
+            }
+          }
         },
         "declare": true,
         "global": false,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 26,
+          "range": [
+            25,
+            26
+          ],
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 1
+            },
+            "start": {
+              "column": 25,
+              "line": 1
+            }
+          }
         },
-        "kind": "namespace"
+        "kind": "namespace",
+        "range": [
+          7,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 52,
-      "end": 63,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 60,
-        "end": 63,
-        "body": []
+        "range": [
+          60,
+          63
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 5
+          },
+          "start": {
+            "column": 8,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 58,
-        "end": 59,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "range": [
+          58,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 5
+          },
+          "start": {
+            "column": 6,
+            "line": 5
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        52,
+        63
+      ],
+      "loc": {
+        "end": {
+          "column": 11,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 65,
-      "end": 101,
+      "range": [
+        65,
+        101
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 72,
-        "end": 101,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 80,
-          "end": 101,
+          "range": [
+            80,
+            101
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 86,
-              "end": 99,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 93,
-                "end": 94,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "range": [
+                  93,
+                  94
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 8
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -120,97 +254,276 @@ declarationEmitLocalClassHasRequiredDeclare.ts
               "static": true,
               "value": {
                 "type": "Identifier",
-                "start": 97,
-                "end": 98,
                 "decorators": [],
                 "name": "X",
-                "optional": false
+                "optional": false,
+                "range": [
+                  97,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                86,
+                99
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 8
+                },
+                "start": {
+                  "column": 4,
+                  "line": 8
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 9
+            },
+            "start": {
+              "column": 15,
+              "line": 7
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 78,
-          "end": 79,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "range": [
+            78,
+            79
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 7
+            },
+            "start": {
+              "column": 13,
+              "line": 7
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          72,
+          101
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 7,
+            "line": 7
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 103,
-      "end": 134,
+      "range": [
+        103,
+        134
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 110,
-        "end": 134,
         "body": {
           "type": "TSModuleBlock",
-          "start": 130,
-          "end": 134,
-          "body": []
+          "body": [],
+          "range": [
+            130,
+            134
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 13
+            },
+            "start": {
+              "column": 27,
+              "line": 11
+            }
+          }
         },
         "declare": true,
         "global": false,
         "id": {
           "type": "Identifier",
-          "start": 128,
-          "end": 129,
+          "range": [
+            128,
+            129
+          ],
           "decorators": [],
           "name": "Y",
-          "optional": false
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 11
+            },
+            "start": {
+              "column": 25,
+              "line": 11
+            }
+          }
         },
-        "kind": "namespace"
+        "kind": "namespace",
+        "range": [
+          110,
+          134
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 7,
+            "line": 11
+          }
+        }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 136,
-      "end": 154,
+      "range": [
+        136,
+        154
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 143,
-        "end": 154,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 151,
-          "end": 154,
-          "body": []
+          "range": [
+            151,
+            154
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 15
+            },
+            "start": {
+              "column": 15,
+              "line": 15
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 149,
-          "end": 150,
           "decorators": [],
           "name": "Y",
-          "optional": false
+          "optional": false,
+          "range": [
+            149,
+            150
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 15
+            },
+            "start": {
+              "column": 13,
+              "line": 15
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          143,
+          154
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 15
+          },
+          "start": {
+            "column": 7,
+            "line": 15
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 15
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 18,
+      "line": 15
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,24 +1,24 @@
-thisExpressionOfGenericObject.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 103,
+  "range": [
+    0,
+    103
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 102,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 18,
-        "end": 102,
+        "range": [
+          18,
+          102
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 24,
-            "end": 54,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,11 +26,23 @@ thisExpressionOfGenericObject.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 35,
               "decorators": [],
               "name": "obj",
-              "optional": false
+              "optional": false,
+              "range": [
+                32,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -38,49 +50,133 @@ thisExpressionOfGenericObject.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 53,
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              },
+              "range": [
+                35,
+                53
+              ],
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 37,
-                "end": 53,
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
-                  "start": 45,
-                  "end": 53,
+                  "range": [
+                    45,
+                    53
+                  ],
                   "params": [
                     {
                       "type": "TSStringKeyword",
-                      "start": 46,
-                      "end": 52
+                      "range": [
+                        46,
+                        52
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 26,
+                          "line": 2
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 25,
+                      "line": 2
+                    }
+                  }
                 },
                 "typeName": {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 45,
                   "decorators": [],
                   "name": "MyClass1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    37,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  37,
+                  53
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
                 }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              24,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 59,
-            "end": 100,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 70,
+              "range": [
+                59,
+                70
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -88,82 +184,239 @@ thisExpressionOfGenericObject.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 70,
-              "end": 100,
+              "range": [
+                70,
+                100
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 73,
-                "end": 100,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 83,
-                    "end": 94,
                     "expression": {
                       "type": "ArrowFunctionExpression",
-                      "start": 83,
-                      "end": 93,
                       "async": false,
                       "body": {
                         "type": "ThisExpression",
-                        "start": 89,
-                        "end": 93
+                        "range": [
+                          89,
+                          93
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 18,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 14,
+                            "line": 4
+                          }
+                        }
                       },
                       "expression": true,
                       "generator": false,
                       "id": null,
-                      "params": []
+                      "params": [],
+                      "range": [
+                        83,
+                        93
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 4
+                        }
+                      }
+                    },
+                    "range": [
+                      83,
+                      94
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 4
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  73,
+                  100
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              59,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 14,
         "decorators": [],
         "name": "MyClass1",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          14
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
       "superClass": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 14,
-        "end": 17,
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        },
+        "range": [
+          14,
+          17
+        ],
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 15,
-            "end": 16,
             "const": false,
             "in": false,
             "name": {
               "type": "Identifier",
-              "start": 15,
-              "end": 16,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "range": [
+                15,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
             },
-            "out": false
+            "out": false,
+            "range": [
+              15,
+              16
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 1
+              },
+              "start": {
+                "column": 15,
+                "line": 1
+              }
+            }
           }
         ]
+      },
+      "range": [
+        0,
+        102
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

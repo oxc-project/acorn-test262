@@ -1,72 +1,193 @@
-es6modulekindWithES5Target10.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
+  "range": [
+    0,
+    75
+  ],
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 26,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "i",
-        "optional": false
+        "optional": false,
+        "range": [
+          7,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 11,
-        "end": 25,
         "expression": {
           "type": "Literal",
-          "start": 19,
-          "end": 24,
           "raw": "\"mod\"",
-          "value": "mod"
+          "value": "mod",
+          "range": [
+            19,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 19,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          11,
+          25
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1
+          },
+          "start": {
+            "column": 11,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        26
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 39,
-      "end": 54,
       "body": {
         "type": "TSModuleBlock",
-        "start": 51,
-        "end": 54,
-        "body": []
+        "body": [],
+        "range": [
+          51,
+          54
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 12,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 49,
-        "end": 50,
+        "range": [
+          49,
+          50
+        ],
         "decorators": [],
         "name": "N",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 4
+          },
+          "start": {
+            "column": 10,
+            "line": 4
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        39,
+        54
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "TSExportAssignment",
-      "start": 55,
-      "end": 66,
       "expression": {
         "type": "Identifier",
-        "start": 64,
-        "end": 65,
         "decorators": [],
         "name": "N",
-        "optional": false
+        "optional": false,
+        "range": [
+          64,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 6
+          },
+          "start": {
+            "column": 9,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        55,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 11,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,33 +1,45 @@
-functionOverloads6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 108,
+  "range": [
+    0,
+    108
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 107,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 107,
+        "range": [
+          10,
+          107
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 16,
-            "end": 36,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 33,
               "decorators": [],
               "name": "fnOverload",
-              "optional": false
+              "optional": false,
+              "range": [
+                23,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 10,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,30 +47,66 @@ functionOverloads6.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 33,
-              "end": 36,
+              "range": [
+                33,
+                36
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 2
+                },
+                "start": {
+                  "column": 20,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              16,
+              36
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 2
+              },
+              "start": {
+                "column": 3,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 40,
-            "end": 70,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 47,
-              "end": 57,
               "decorators": [],
               "name": "fnOverload",
-              "optional": false
+              "optional": false,
+              "range": [
+                47,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 3
+                },
+                "start": {
+                  "column": 10,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -66,8 +114,10 @@ functionOverloads6.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 57,
-              "end": 70,
+              "range": [
+                57,
+                70
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -77,38 +127,108 @@ functionOverloads6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 58,
-                  "end": 68,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 61,
-                    "end": 68,
+                    "loc": {
+                      "end": {
+                        "column": 31,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 24,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      61,
+                      68
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 62,
-                      "end": 68
+                      "range": [
+                        62,
+                        68
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 31,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 25,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    58,
+                    68
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 3
+                },
+                "start": {
+                  "column": 20,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              40,
+              70
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 3
+              },
+              "start": {
+                "column": 3,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 74,
-            "end": 105,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 81,
-              "end": 91,
               "decorators": [],
               "name": "fnOverload",
-              "optional": false
+              "optional": false,
+              "range": [
+                81,
+                91
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 4
+                },
+                "start": {
+                  "column": 10,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -116,14 +236,28 @@ functionOverloads6.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 91,
-              "end": 105,
+              "range": [
+                91,
+                105
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 102,
-                "end": 105,
-                "body": []
+                "body": [],
+                "range": [
+                  102,
+                  105
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -132,41 +266,148 @@ functionOverloads6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 92,
-                  "end": 101,
                   "decorators": [],
                   "name": "foo",
                   "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 96,
-                    "end": 101,
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 25,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      96,
+                      101
+                    ],
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 98,
-                      "end": 101
+                      "range": [
+                        98,
+                        101
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 30,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 27,
+                          "line": 4
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    92,
+                    101
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 30,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 4
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 4
+                },
+                "start": {
+                  "column": 20,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              74,
+              105
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 4
+              },
+              "start": {
+                "column": 3,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          9
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        107
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

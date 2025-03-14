@@ -1,4 +1,4 @@
-parserErrorRecovery_ExtendsOrImplementsClause1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'extends' list cannot be empty.
 ```

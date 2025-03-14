@@ -1,52 +1,125 @@
-nonstrictTemplateWithNotOctalPrintsAsIs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 77,
+  "range": [
+    56,
+    77
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 56,
-      "end": 76,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 62,
-          "end": 75,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 62,
-            "end": 64,
             "decorators": [],
             "name": "d2",
-            "optional": false
+            "optional": false,
+            "range": [
+              62,
+              64
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 67,
-            "end": 75,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 67,
-                "end": 75,
                 "tail": true,
                 "value": {
                   "cooked": "\\0041",
                   "raw": "\\\\0041"
+                },
+                "range": [
+                  67,
+                  75
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              67,
+              75
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 2
+              },
+              "start": {
+                "column": 11,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            62,
+            75
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        56,
+        76
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

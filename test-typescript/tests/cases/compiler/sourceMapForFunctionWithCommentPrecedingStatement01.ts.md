@@ -1,66 +1,163 @@
-sourceMapForFunctionWithCommentPrecedingStatement01.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 68,
+  "range": [
+    20,
+    68
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 20,
-      "end": 68,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 33,
-        "end": 68,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 56,
-            "end": 66,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 60,
-                "end": 65,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 60,
-                  "end": 61,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    60,
+                    61
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 64,
-                  "end": 65,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    64,
+                    65
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  60,
+                  65
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 4
+                  }
                 }
               }
             ],
             "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "range": [
+              56,
+              66
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          33,
+          68
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 13,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 29,
-        "end": 30,
         "decorators": [],
         "name": "P",
-        "optional": false
+        "optional": false,
+        "range": [
+          29,
+          30
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 9,
+            "line": 2
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        20,
+        68
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,77 +1,198 @@
-ambientClassOverloadForFunction.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
+  "range": [
+    0,
+    53
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 19,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 19,
-        "body": []
+        "range": [
+          17,
+          19
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 17,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          14,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "EmptyStatement",
-      "start": 19,
-      "end": 20
+      "range": [
+        19,
+        20
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 1
+        },
+        "start": {
+          "column": 19,
+          "line": 1
+        }
+      }
     },
     {
       "type": "FunctionDeclaration",
-      "start": 21,
-      "end": 52,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 36,
-        "end": 52,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 38,
-            "end": 50,
             "argument": {
               "type": "Literal",
-              "start": 45,
-              "end": 49,
               "raw": "null",
-              "value": null
+              "value": null,
+              "range": [
+                45,
+                49
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 2
+                },
+                "start": {
+                  "column": 24,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              38,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 2
+              },
+              "start": {
+                "column": 17,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          36,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 33,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          30,
+          33
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 2
+          },
+          "start": {
+            "column": 9,
+            "line": 2
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        21,
+        52
+      ],
+      "loc": {
+        "end": {
+          "column": 31,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

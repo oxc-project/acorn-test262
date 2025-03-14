@@ -1,40 +1,48 @@
-esDecorators-contextualTypes.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 903,
+  "range": [
+    0,
+    903
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 903,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 25,
-        "end": 903,
+        "range": [
+          25,
+          903
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 31,
-            "end": 65,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 31,
-                "end": 47,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 33,
-                  "end": 46,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 43,
-                    "end": 46,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      43,
+                      46
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 3
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -42,31 +50,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 34,
-                      "end": 35,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        34,
+                        35
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 3
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 37,
-                      "end": 38,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        37,
+                        38
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 3
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    33,
+                    46
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  31,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 60,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "range": [
+                59,
+                60
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 4
+                },
+                "start": {
+                  "column": 11,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -74,42 +146,86 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 60,
-              "end": 65,
+              "range": [
+                60,
+                65
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 63,
-                "end": 65,
-                "body": []
+                "body": [],
+                "range": [
+                  63,
+                  65
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 4
+                },
+                "start": {
+                  "column": 12,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              31,
+              65
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 71,
-            "end": 106,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 71,
-                "end": 87,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 73,
-                  "end": 86,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 83,
-                    "end": 86,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      83,
+                      86
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 6
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -117,29 +233,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 74,
-                      "end": 75,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        74,
+                        75
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 6
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 77,
-                      "end": 78,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        77,
+                        78
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 6
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    73,
+                    86
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  71,
+                  87
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 6
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 99,
-              "end": 101,
-              "name": "f"
+              "name": "f",
+              "range": [
+                99,
+                101
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 7
+                },
+                "start": {
+                  "column": 11,
+                  "line": 7
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -147,42 +327,86 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 101,
-              "end": 106,
+              "range": [
+                101,
+                106
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 104,
-                "end": 106,
-                "body": []
+                "body": [],
+                "range": [
+                  104,
+                  106
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 7
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 7
+                },
+                "start": {
+                  "column": 13,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              71,
+              106
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 112,
-            "end": 161,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 112,
-                "end": 128,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 114,
-                  "end": 127,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 124,
-                    "end": 127,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      124,
+                      127
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 9
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 9
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -190,31 +414,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 115,
-                      "end": 116,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        115,
+                        116
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 9
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 118,
-                      "end": 119,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        118,
+                        119
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 9
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    114,
+                    127
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 9
+                    }
+                  }
+                },
+                "range": [
+                  112,
+                  128
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 9
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 144,
-              "end": 145,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                144,
+                145
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 10
+                },
+                "start": {
+                  "column": 15,
+                  "line": 10
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -222,55 +510,123 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 145,
-              "end": 161,
+              "range": [
+                145,
+                161
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 148,
-                "end": 161,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 150,
-                    "end": 159,
                     "argument": {
                       "type": "Literal",
-                      "start": 157,
-                      "end": 158,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        157,
+                        158
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 28,
+                          "line": 10
+                        }
+                      }
+                    },
+                    "range": [
+                      150,
+                      159
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 10
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  148,
+                  161
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 10
+                },
+                "start": {
+                  "column": 16,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              112,
+              161
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 167,
-            "end": 211,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 167,
-                "end": 183,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 169,
-                  "end": 182,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 179,
-                    "end": 182,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      179,
+                      182
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 12
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -278,31 +634,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 170,
-                      "end": 171,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        170,
+                        171
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 12
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 173,
-                      "end": 174,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        173,
+                        174
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 12
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    169,
+                    182
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 12
+                    }
+                  }
+                },
+                "range": [
+                  167,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 12
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 199,
-              "end": 200,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                199,
+                200
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 13
+                },
+                "start": {
+                  "column": 15,
+                  "line": 13
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -310,14 +730,28 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 200,
-              "end": 211,
+              "range": [
+                200,
+                211
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 208,
-                "end": 211,
-                "body": []
+                "body": [],
+                "range": [
+                  208,
+                  211
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 13
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -326,35 +760,77 @@ esDecorators-contextualTypes.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 201,
-                  "end": 206,
                   "decorators": [],
                   "name": "value",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    201,
+                    206
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 13
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 13
+                },
+                "start": {
+                  "column": 16,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              167,
+              211
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 217,
-            "end": 267,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 217,
-                "end": 233,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 219,
-                  "end": 232,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 229,
-                    "end": 232,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      229,
+                      232
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 15
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 15
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -362,29 +838,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 220,
-                      "end": 221,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        220,
+                        221
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 15
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 15
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 223,
-                      "end": 224,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        223,
+                        224
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 15
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 15
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    219,
+                    232
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 15
+                    }
+                  }
+                },
+                "range": [
+                  217,
+                  233
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 15
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 249,
-              "end": 251,
-              "name": "x"
+              "name": "x",
+              "range": [
+                249,
+                251
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 16
+                },
+                "start": {
+                  "column": 15,
+                  "line": 16
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -392,55 +932,123 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 251,
-              "end": 267,
+              "range": [
+                251,
+                267
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 254,
-                "end": 267,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 256,
-                    "end": 265,
                     "argument": {
                       "type": "Literal",
-                      "start": 263,
-                      "end": 264,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        263,
+                        264
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 30,
+                          "line": 16
+                        },
+                        "start": {
+                          "column": 29,
+                          "line": 16
+                        }
+                      }
+                    },
+                    "range": [
+                      256,
+                      265
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 31,
+                        "line": 16
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 16
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  254,
+                  267
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 16
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 16
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 16
+                },
+                "start": {
+                  "column": 17,
+                  "line": 16
+                }
+              }
+            },
+            "range": [
+              217,
+              267
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 16
+              },
+              "start": {
+                "column": 4,
+                "line": 15
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 273,
-            "end": 318,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 273,
-                "end": 289,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 275,
-                  "end": 288,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 285,
-                    "end": 288,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      285,
+                      288
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 18
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -448,29 +1056,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 276,
-                      "end": 277,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        276,
+                        277
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 18
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 279,
-                      "end": 280,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        279,
+                        280
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 18
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    275,
+                    288
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 18
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 18
+                    }
+                  }
+                },
+                "range": [
+                  273,
+                  289
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 18
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 18
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 305,
-              "end": 307,
-              "name": "x"
+              "name": "x",
+              "range": [
+                305,
+                307
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 19
+                },
+                "start": {
+                  "column": 15,
+                  "line": 19
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -478,14 +1150,28 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 307,
-              "end": 318,
+              "range": [
+                307,
+                318
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 315,
-                "end": 318,
-                "body": []
+                "body": [],
+                "range": [
+                  315,
+                  318
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 19
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 19
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -494,36 +1180,78 @@ esDecorators-contextualTypes.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 308,
-                  "end": 313,
                   "decorators": [],
                   "name": "value",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    308,
+                    313
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 19
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 19
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 19
+                },
+                "start": {
+                  "column": 17,
+                  "line": 19
+                }
+              }
+            },
+            "range": [
+              273,
+              318
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 19
+              },
+              "start": {
+                "column": 4,
+                "line": 18
+              }
             }
           },
           {
             "type": "AccessorProperty",
-            "start": 324,
-            "end": 367,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 324,
-                "end": 340,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 326,
-                  "end": 339,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 336,
-                    "end": 339,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      336,
+                      339
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 21
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 21
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -531,32 +1259,96 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 327,
-                      "end": 328,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        327,
+                        328
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 21
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 21
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 330,
-                      "end": 331,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        330,
+                        331
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 21
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 21
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    326,
+                    339
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 21
+                    }
+                  }
+                },
+                "range": [
+                  324,
+                  340
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 21
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 361,
-              "end": 362,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                361,
+                362
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 22
+                },
+                "start": {
+                  "column": 20,
+                  "line": 22
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -564,33 +1356,65 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 365,
-              "end": 366,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                365,
+                366
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 22
+                },
+                "start": {
+                  "column": 24,
+                  "line": 22
+                }
+              }
+            },
+            "range": [
+              324,
+              367
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 22
+              },
+              "start": {
+                "column": 4,
+                "line": 21
+              }
             }
           },
           {
             "type": "AccessorProperty",
-            "start": 373,
-            "end": 417,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 373,
-                "end": 389,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 375,
-                  "end": 388,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 385,
-                    "end": 388,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      385,
+                      388
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 24
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 24
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -598,30 +1422,94 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 376,
-                      "end": 377,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        376,
+                        377
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 24
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 24
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 379,
-                      "end": 380,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        379,
+                        380
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 24
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 24
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    375,
+                    388
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 24
+                    }
+                  }
+                },
+                "range": [
+                  373,
+                  389
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 24
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 24
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 410,
-              "end": 412,
-              "name": "y"
+              "name": "y",
+              "range": [
+                410,
+                412
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 25
+                },
+                "start": {
+                  "column": 20,
+                  "line": 25
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -629,33 +1517,65 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 415,
-              "end": 416,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                415,
+                416
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 25
+                },
+                "start": {
+                  "column": 25,
+                  "line": 25
+                }
+              }
+            },
+            "range": [
+              373,
+              417
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 25
+              },
+              "start": {
+                "column": 4,
+                "line": 24
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 423,
-            "end": 457,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 423,
-                "end": 439,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 425,
-                  "end": 438,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 435,
-                    "end": 438,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      435,
+                      438
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 27
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 27
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -663,32 +1583,96 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 426,
-                      "end": 427,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        426,
+                        427
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 27
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 27
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 429,
-                      "end": 430,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        429,
+                        430
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 27
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 27
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    425,
+                    438
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 27
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 27
+                    }
+                  }
+                },
+                "range": [
+                  423,
+                  439
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 27
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 27
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 451,
-              "end": 452,
               "decorators": [],
               "name": "z",
-              "optional": false
+              "optional": false,
+              "range": [
+                451,
+                452
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 28
+                },
+                "start": {
+                  "column": 11,
+                  "line": 28
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -696,33 +1680,65 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 455,
-              "end": 456,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                455,
+                456
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 28
+                },
+                "start": {
+                  "column": 15,
+                  "line": 28
+                }
+              }
+            },
+            "range": [
+              423,
+              457
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 28
+              },
+              "start": {
+                "column": 4,
+                "line": 27
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 463,
-            "end": 498,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 463,
-                "end": 479,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 465,
-                  "end": 478,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 475,
-                    "end": 478,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      475,
+                      478
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 30
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 30
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -730,30 +1746,94 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 466,
-                      "end": 467,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        466,
+                        467
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 30
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 30
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 469,
-                      "end": 470,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        469,
+                        470
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 30
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 30
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    465,
+                    478
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 30
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 30
+                    }
+                  }
+                },
+                "range": [
+                  463,
+                  479
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 30
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 491,
-              "end": 493,
-              "name": "z"
+              "name": "z",
+              "range": [
+                491,
+                493
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 31
+                },
+                "start": {
+                  "column": 11,
+                  "line": 31
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -761,32 +1841,64 @@ esDecorators-contextualTypes.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 496,
-              "end": 497,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                496,
+                497
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 31
+                },
+                "start": {
+                  "column": 16,
+                  "line": 31
+                }
+              }
+            },
+            "range": [
+              463,
+              498
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 31
+              },
+              "start": {
+                "column": 4,
+                "line": 30
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 504,
-            "end": 531,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 504,
-                "end": 520,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 506,
-                  "end": 519,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 516,
-                    "end": 519,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      516,
+                      519
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 33
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 33
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -794,31 +1906,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 507,
-                      "end": 508,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        507,
+                        508
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 33
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 33
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 510,
-                      "end": 511,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        510,
+                        511
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 33
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 33
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    506,
+                    519
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 33
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 33
+                    }
+                  }
+                },
+                "range": [
+                  504,
+                  520
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 33
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 33
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 525,
-              "end": 526,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "range": [
+                525,
+                526
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 34
+                },
+                "start": {
+                  "column": 4,
+                  "line": 34
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -826,42 +2002,86 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 526,
-              "end": 531,
+              "range": [
+                526,
+                531
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 529,
-                "end": 531,
-                "body": []
+                "body": [],
+                "range": [
+                  529,
+                  531
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 34
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 34
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 34
+                },
+                "start": {
+                  "column": 5,
+                  "line": 34
+                }
+              }
+            },
+            "range": [
+              504,
+              531
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 34
+              },
+              "start": {
+                "column": 4,
+                "line": 33
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 537,
-            "end": 565,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 537,
-                "end": 553,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 539,
-                  "end": 552,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 549,
-                    "end": 552,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      549,
+                      552
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 36
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 36
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -869,29 +2089,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 540,
-                      "end": 541,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        540,
+                        541
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 36
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 36
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 543,
-                      "end": 544,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        543,
+                        544
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 36
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 36
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    539,
+                    552
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 36
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 36
+                    }
+                  }
+                },
+                "range": [
+                  537,
+                  553
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 36
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 36
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 558,
-              "end": 560,
-              "name": "g"
+              "name": "g",
+              "range": [
+                558,
+                560
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 37
+                },
+                "start": {
+                  "column": 4,
+                  "line": 37
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -899,42 +2183,86 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 560,
-              "end": 565,
+              "range": [
+                560,
+                565
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 563,
-                "end": 565,
-                "body": []
+                "body": [],
+                "range": [
+                  563,
+                  565
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 37
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 37
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 37
+                },
+                "start": {
+                  "column": 6,
+                  "line": 37
+                }
+              }
+            },
+            "range": [
+              537,
+              565
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 37
+              },
+              "start": {
+                "column": 4,
+                "line": 36
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 571,
-            "end": 613,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 571,
-                "end": 587,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 573,
-                  "end": 586,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 583,
-                    "end": 586,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      583,
+                      586
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 39
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 39
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -942,31 +2270,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 574,
-                      "end": 575,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        574,
+                        575
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 39
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 39
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 577,
-                      "end": 578,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        577,
+                        578
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 39
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 39
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    573,
+                    586
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 39
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 39
+                    }
+                  }
+                },
+                "range": [
+                  571,
+                  587
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 39
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 39
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 596,
-              "end": 597,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                596,
+                597
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 40
+                },
+                "start": {
+                  "column": 8,
+                  "line": 40
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -974,55 +2366,123 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 597,
-              "end": 613,
+              "range": [
+                597,
+                613
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 600,
-                "end": 613,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 602,
-                    "end": 611,
                     "argument": {
                       "type": "Literal",
-                      "start": 609,
-                      "end": 610,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        609,
+                        610
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 22,
+                          "line": 40
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 40
+                        }
+                      }
+                    },
+                    "range": [
+                      602,
+                      611
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 40
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 40
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  600,
+                  613
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 40
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 40
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 40
+                },
+                "start": {
+                  "column": 9,
+                  "line": 40
+                }
+              }
+            },
+            "range": [
+              571,
+              613
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 40
+              },
+              "start": {
+                "column": 4,
+                "line": 39
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 619,
-            "end": 656,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 619,
-                "end": 635,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 621,
-                  "end": 634,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 631,
-                    "end": 634,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      631,
+                      634
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 42
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 42
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1030,31 +2490,95 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 622,
-                      "end": 623,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        622,
+                        623
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 42
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 42
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 625,
-                      "end": 626,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        625,
+                        626
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 42
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 42
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    621,
+                    634
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 42
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 42
+                    }
+                  }
+                },
+                "range": [
+                  619,
+                  635
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 42
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 42
+                  }
                 }
               }
             ],
             "key": {
               "type": "Identifier",
-              "start": 644,
-              "end": 645,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                644,
+                645
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 43
+                },
+                "start": {
+                  "column": 8,
+                  "line": 43
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -1062,14 +2586,28 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 645,
-              "end": 656,
+              "range": [
+                645,
+                656
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 653,
-                "end": 656,
-                "body": []
+                "body": [],
+                "range": [
+                  653,
+                  656
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 43
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 43
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -1078,35 +2616,77 @@ esDecorators-contextualTypes.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 646,
-                  "end": 651,
                   "decorators": [],
                   "name": "value",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    646,
+                    651
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 43
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 43
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 43
+                },
+                "start": {
+                  "column": 9,
+                  "line": 43
+                }
+              }
+            },
+            "range": [
+              619,
+              656
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 43
+              },
+              "start": {
+                "column": 4,
+                "line": 42
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 662,
-            "end": 705,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 662,
-                "end": 678,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 664,
-                  "end": 677,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 674,
-                    "end": 677,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      674,
+                      677
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 45
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 45
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1114,29 +2694,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 665,
-                      "end": 666,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        665,
+                        666
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 45
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 668,
-                      "end": 669,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        668,
+                        669
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 45
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    664,
+                    677
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 45
+                    }
+                  }
+                },
+                "range": [
+                  662,
+                  678
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 45
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 45
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 687,
-              "end": 689,
-              "name": "a"
+              "name": "a",
+              "range": [
+                687,
+                689
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 46
+                },
+                "start": {
+                  "column": 8,
+                  "line": 46
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -1144,55 +2788,123 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 689,
-              "end": 705,
+              "range": [
+                689,
+                705
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 692,
-                "end": 705,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 694,
-                    "end": 703,
                     "argument": {
                       "type": "Literal",
-                      "start": 701,
-                      "end": 702,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        701,
+                        702
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 46
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 46
+                        }
+                      }
+                    },
+                    "range": [
+                      694,
+                      703
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 46
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 46
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  692,
+                  705
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 46
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 46
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 46
+                },
+                "start": {
+                  "column": 10,
+                  "line": 46
+                }
+              }
+            },
+            "range": [
+              662,
+              705
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 46
+              },
+              "start": {
+                "column": 4,
+                "line": 45
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 711,
-            "end": 749,
             "computed": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 711,
-                "end": 727,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 713,
-                  "end": 726,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 723,
-                    "end": 726,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      723,
+                      726
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 48
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 48
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1200,29 +2912,93 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 714,
-                      "end": 715,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        714,
+                        715
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 48
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 48
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 717,
-                      "end": 718,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        717,
+                        718
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 48
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 48
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    713,
+                    726
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 48
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 48
+                    }
+                  }
+                },
+                "range": [
+                  711,
+                  727
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 48
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 48
+                  }
                 }
               }
             ],
             "key": {
               "type": "PrivateIdentifier",
-              "start": 736,
-              "end": 738,
-              "name": "a"
+              "name": "a",
+              "range": [
+                736,
+                738
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 49
+                },
+                "start": {
+                  "column": 8,
+                  "line": 49
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -1230,14 +3006,28 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 738,
-              "end": 749,
+              "range": [
+                738,
+                749
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 746,
-                "end": 749,
-                "body": []
+                "body": [],
+                "range": [
+                  746,
+                  749
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 49
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 49
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -1246,36 +3036,78 @@ esDecorators-contextualTypes.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 739,
-                  "end": 744,
                   "decorators": [],
                   "name": "value",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    739,
+                    744
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 49
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 49
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 49
+                },
+                "start": {
+                  "column": 10,
+                  "line": 49
+                }
+              }
+            },
+            "range": [
+              711,
+              749
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 49
+              },
+              "start": {
+                "column": 4,
+                "line": 48
+              }
             }
           },
           {
             "type": "AccessorProperty",
-            "start": 755,
-            "end": 791,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 755,
-                "end": 771,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 757,
-                  "end": 770,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 767,
-                    "end": 770,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      767,
+                      770
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 51
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 51
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1283,32 +3115,96 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 758,
-                      "end": 759,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        758,
+                        759
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 51
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 51
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 761,
-                      "end": 762,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        761,
+                        762
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 51
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 51
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    757,
+                    770
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 51
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 51
+                    }
+                  }
+                },
+                "range": [
+                  755,
+                  771
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 51
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 51
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 785,
-              "end": 786,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "range": [
+                785,
+                786
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 52
+                },
+                "start": {
+                  "column": 13,
+                  "line": 52
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -1316,33 +3212,65 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 789,
-              "end": 790,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                789,
+                790
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 52
+                },
+                "start": {
+                  "column": 17,
+                  "line": 52
+                }
+              }
+            },
+            "range": [
+              755,
+              791
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 52
+              },
+              "start": {
+                "column": 4,
+                "line": 51
+              }
             }
           },
           {
             "type": "AccessorProperty",
-            "start": 797,
-            "end": 834,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 797,
-                "end": 813,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 799,
-                  "end": 812,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 809,
-                    "end": 812,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      809,
+                      812
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 54
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 54
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1350,30 +3278,94 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 800,
-                      "end": 801,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        800,
+                        801
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 54
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 54
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 803,
-                      "end": 804,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        803,
+                        804
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 54
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 54
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    799,
+                    812
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 54
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 54
+                    }
+                  }
+                },
+                "range": [
+                  797,
+                  813
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 54
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 54
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 827,
-              "end": 829,
-              "name": "b"
+              "name": "b",
+              "range": [
+                827,
+                829
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 55
+                },
+                "start": {
+                  "column": 13,
+                  "line": 55
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -1381,33 +3373,65 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 832,
-              "end": 833,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                832,
+                833
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 55
+                },
+                "start": {
+                  "column": 18,
+                  "line": 55
+                }
+              }
+            },
+            "range": [
+              797,
+              834
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 55
+              },
+              "start": {
+                "column": 4,
+                "line": 54
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 840,
-            "end": 867,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 840,
-                "end": 856,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 842,
-                  "end": 855,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 852,
-                    "end": 855,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      852,
+                      855
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 57
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 57
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1415,32 +3439,96 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 843,
-                      "end": 844,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        843,
+                        844
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 57
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 57
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 846,
-                      "end": 847,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        846,
+                        847
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 57
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 57
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    842,
+                    855
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 57
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 57
+                    }
+                  }
+                },
+                "range": [
+                  840,
+                  856
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 57
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 57
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 861,
-              "end": 862,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "range": [
+                861,
+                862
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 58
+                },
+                "start": {
+                  "column": 4,
+                  "line": 58
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -1448,33 +3536,65 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 865,
-              "end": 866,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                865,
+                866
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 58
+                },
+                "start": {
+                  "column": 8,
+                  "line": 58
+                }
+              }
+            },
+            "range": [
+              840,
+              867
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 58
+              },
+              "start": {
+                "column": 4,
+                "line": 57
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 873,
-            "end": 901,
             "computed": false,
             "declare": false,
             "decorators": [
               {
                 "type": "Decorator",
-                "start": 873,
-                "end": 889,
                 "expression": {
                   "type": "ArrowFunctionExpression",
-                  "start": 875,
-                  "end": 888,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 885,
-                    "end": 888,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      885,
+                      888
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 60
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 60
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
@@ -1482,30 +3602,94 @@ esDecorators-contextualTypes.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 876,
-                      "end": 877,
                       "decorators": [],
                       "name": "t",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        876,
+                        877
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 60
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 60
+                        }
+                      }
                     },
                     {
                       "type": "Identifier",
-                      "start": 879,
-                      "end": 880,
                       "decorators": [],
                       "name": "c",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        879,
+                        880
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 60
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 60
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    875,
+                    888
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 60
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 60
+                    }
+                  }
+                },
+                "range": [
+                  873,
+                  889
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 60
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 60
+                  }
                 }
               }
             ],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 894,
-              "end": 896,
-              "name": "c"
+              "name": "c",
+              "range": [
+                894,
+                896
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 61
+                },
+                "start": {
+                  "column": 4,
+                  "line": 61
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -1513,30 +3697,74 @@ esDecorators-contextualTypes.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 899,
-              "end": 900,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                899,
+                900
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 61
+                },
+                "start": {
+                  "column": 9,
+                  "line": 61
+                }
+              }
+            },
+            "range": [
+              873,
+              901
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 61
+              },
+              "start": {
+                "column": 4,
+                "line": 60
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 62
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [
         {
           "type": "Decorator",
-          "start": 0,
-          "end": 16,
           "expression": {
             "type": "ArrowFunctionExpression",
-            "start": 2,
-            "end": 15,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 12,
-              "end": 15,
-              "body": []
+              "body": [],
+              "range": [
+                12,
+                15
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 1
+                },
+                "start": {
+                  "column": 12,
+                  "line": 1
+                }
+              }
             },
             "expression": false,
             "generator": false,
@@ -1544,36 +3772,125 @@ esDecorators-contextualTypes.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 3,
-                "end": 4,
                 "decorators": [],
                 "name": "t",
-                "optional": false
+                "optional": false,
+                "range": [
+                  3,
+                  4
+                ],
+                "loc": {
+                  "end": {
+                    "column": 4,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "Identifier",
-                "start": 6,
-                "end": 7,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "range": [
+                  6,
+                  7
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              2,
+              15
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 1
+              },
+              "start": {
+                "column": 2,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            0,
+            16
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
           }
         }
       ],
       "id": {
         "type": "Identifier",
-        "start": 23,
-        "end": 24,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          23,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        903
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 62
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 62
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

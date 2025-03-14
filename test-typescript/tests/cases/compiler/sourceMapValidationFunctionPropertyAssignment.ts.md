@@ -1,45 +1,63 @@
-sourceMapValidationFunctionPropertyAssignment.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
+  "range": [
+    0,
+    20
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 20,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 19,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 19,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 17,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "n",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    10,
+                    11
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": true,
@@ -47,30 +65,121 @@ sourceMapValidationFunctionPropertyAssignment.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 11,
-                  "end": 17,
+                  "range": [
+                    11,
+                    17
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 14,
-                    "end": 17,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      14,
+                      17
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 1
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  10,
+                  17
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            19
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        20
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,39 +1,75 @@
-classImplementingInterfaceIndexer.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 100,
+  "range": [
+    0,
+    100
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 45,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 45,
+        "range": [
+          12,
+          45
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 18,
-            "end": 43,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 19,
-                "end": 32,
                 "decorators": [],
                 "name": "index",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 24,
-                  "end": 32,
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 2
+                    }
+                  },
+                  "range": [
+                    24,
+                    32
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 26,
-                    "end": 32
+                    "range": [
+                      26,
+                      32
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 2
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  19,
+                  32
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 2
                   }
                 }
               }
@@ -42,77 +78,209 @@ classImplementingInterfaceIndexer.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 33,
-              "end": 43,
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              },
+              "range": [
+                33,
+                43
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 35,
-                "end": 43,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 37,
-                    "end": 41,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 37,
-                      "end": 41,
                       "decorators": [],
                       "name": "prop",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        37,
+                        41
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 2
+                        }
+                      }
                     },
                     "optional": false,
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "range": [
+                      37,
+                      41
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 27,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 2
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  35,
+                  43
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 2
+                  }
+                }
+              }
+            },
+            "range": [
+              18,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 46,
-      "end": 100,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 67,
-        "end": 100,
+        "range": [
+          67,
+          100
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 73,
-            "end": 98,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 74,
-                "end": 87,
                 "decorators": [],
                 "name": "index",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 79,
-                  "end": 87,
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 5
+                    }
+                  },
+                  "range": [
+                    79,
+                    87
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 81,
-                    "end": 87
+                    "range": [
+                      81,
+                      87
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 5
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  74,
+                  87
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 5
                   }
                 }
               }
@@ -121,64 +289,197 @@ classImplementingInterfaceIndexer.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 88,
-              "end": 98,
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 5
+                },
+                "start": {
+                  "column": 19,
+                  "line": 5
+                }
+              },
+              "range": [
+                88,
+                98
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 90,
-                "end": 98,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 92,
-                    "end": 96,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 92,
-                      "end": 96,
                       "decorators": [],
                       "name": "prop",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        92,
+                        96
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 5
+                        }
+                      }
                     },
                     "optional": false,
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "range": [
+                      92,
+                      96
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 27,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 5
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  90,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 5
+                  }
+                }
+              }
+            },
+            "range": [
+              73,
+              98
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 21,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 52,
-        "end": 53,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          52,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 4
+          },
+          "start": {
+            "column": 6,
+            "line": 4
+          }
+        }
       },
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 65,
-          "end": 66,
           "expression": {
             "type": "Identifier",
-            "start": 65,
-            "end": 66,
             "decorators": [],
             "name": "I",
-            "optional": false
+            "optional": false,
+            "range": [
+              65,
+              66
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 4
+              },
+              "start": {
+                "column": 19,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            65,
+            66
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 4
+            },
+            "start": {
+              "column": 19,
+              "line": 4
+            }
           }
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        46,
+        100
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

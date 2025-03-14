@@ -1,131 +1,337 @@
-m1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
+  "range": [
+    0,
+    71
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 34,
+      "range": [
+        0,
+        34
+      ],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 34,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 30,
-          "end": 34,
-          "body": []
+          "body": [],
+          "range": [
+            30,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 30,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 27,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            24,
+            27
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 1
+            },
+            "start": {
+              "column": 24,
+              "line": 1
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          15,
+          34
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 36,
-      "end": 70,
+      "range": [
+        36,
+        70
+      ],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 51,
-        "end": 70,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 66,
-          "end": 70,
-          "body": []
+          "body": [],
+          "range": [
+            66,
+            70
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 7
+            },
+            "start": {
+              "column": 30,
+              "line": 5
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 60,
-          "end": 63,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "range": [
+            60,
+            63
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 5
+            },
+            "start": {
+              "column": 24,
+              "line": 5
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          51,
+          70
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 15,
+            "line": 5
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-m2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
+  "range": [
+    0,
+    36
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 25,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 25,
         "raw": "\"./m1\"",
-        "value": "./m1"
+        "value": "./m1",
+        "range": [
+          19,
+          25
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 1
+          },
+          "start": {
+            "column": 19,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 13,
+          "range": [
+            7,
+            13
+          ],
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 13,
             "decorators": [],
             "name": "Entity",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              13
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 27,
-      "end": 36,
       "expression": {
         "type": "CallExpression",
-        "start": 27,
-        "end": 35,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 27,
-          "end": 33,
           "decorators": [],
           "name": "Entity",
-          "optional": false
+          "optional": false,
+          "range": [
+            27,
+            33
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          27,
+          35
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        27,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 9,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

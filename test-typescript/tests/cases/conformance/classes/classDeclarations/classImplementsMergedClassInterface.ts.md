@@ -1,35 +1,47 @@
-classImplementsMergedClassInterface.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 320,
+  "range": [
+    0,
+    320
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 36,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 36,
+        "range": [
+          17,
+          36
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 23,
-            "end": 34,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 24,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                23,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -37,143 +49,371 @@ classImplementsMergedClassInterface.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 25,
-              "end": 33,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              },
+              "range": [
+                25,
+                33
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 27,
-                "end": 33
+                "range": [
+                  27,
+                  33
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              23,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 16,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "range": [
+          14,
+          16
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 38,
-      "end": 70,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 51,
-        "end": 70,
+        "range": [
+          51,
+          70
+        ],
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 57,
-            "end": 68,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 57,
-              "end": 58,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                57,
+                58
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 59,
-              "end": 67,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 6
+                },
+                "start": {
+                  "column": 6,
+                  "line": 6
+                }
+              },
+              "range": [
+                59,
+                67
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 61,
-                "end": 67
+                "range": [
+                  61,
+                  67
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 6
+                  }
+                }
+              }
+            },
+            "range": [
+              57,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 13,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 48,
-        "end": 50,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "range": [
+          48,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        38,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 72,
-      "end": 120,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 95,
-        "end": 120,
-        "body": []
+        "range": [
+          95,
+          120
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 10
+          },
+          "start": {
+            "column": 23,
+            "line": 9
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 78,
-        "end": 80,
         "decorators": [],
         "name": "C2",
-        "optional": false
+        "optional": false,
+        "range": [
+          78,
+          80
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 9
+          },
+          "start": {
+            "column": 6,
+            "line": 9
+          }
+        }
       },
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 92,
-          "end": 94,
           "expression": {
             "type": "Identifier",
-            "start": 92,
-            "end": 94,
             "decorators": [],
             "name": "C1",
-            "optional": false
+            "optional": false,
+            "range": [
+              92,
+              94
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 9
+              },
+              "start": {
+                "column": 20,
+                "line": 9
+              }
+            }
+          },
+          "range": [
+            92,
+            94
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 9
+            },
+            "start": {
+              "column": 20,
+              "line": 9
+            }
           }
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        72,
+        120
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 122,
-      "end": 186,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 145,
-        "end": 186,
+        "range": [
+          145,
+          186
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 173,
-            "end": 184,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 173,
-              "end": 174,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                173,
+                174
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 13
+                },
+                "start": {
+                  "column": 4,
+                  "line": 13
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -181,70 +421,178 @@ classImplementsMergedClassInterface.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 175,
-              "end": 183,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 13
+                },
+                "start": {
+                  "column": 6,
+                  "line": 13
+                }
+              },
+              "range": [
+                175,
+                183
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 177,
-                "end": 183
+                "range": [
+                  177,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 13
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              173,
+              184
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 23,
+            "line": 12
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 128,
-        "end": 130,
         "decorators": [],
         "name": "C3",
-        "optional": false
+        "optional": false,
+        "range": [
+          128,
+          130
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 12
+          },
+          "start": {
+            "column": 6,
+            "line": 12
+          }
+        }
       },
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 142,
-          "end": 144,
           "expression": {
             "type": "Identifier",
-            "start": 142,
-            "end": 144,
             "decorators": [],
             "name": "C1",
-            "optional": false
+            "optional": false,
+            "range": [
+              142,
+              144
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 12
+              },
+              "start": {
+                "column": 20,
+                "line": 12
+              }
+            }
+          },
+          "range": [
+            142,
+            144
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 12
+            },
+            "start": {
+              "column": 20,
+              "line": 12
+            }
           }
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        122,
+        186
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 188,
-      "end": 252,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 211,
-        "end": 252,
+        "range": [
+          211,
+          252
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 239,
-            "end": 250,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 239,
-              "end": 240,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                239,
+                240
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 17
+                },
+                "start": {
+                  "column": 4,
+                  "line": 17
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -252,70 +600,178 @@ classImplementsMergedClassInterface.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 241,
-              "end": 249,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 17
+                },
+                "start": {
+                  "column": 6,
+                  "line": 17
+                }
+              },
+              "range": [
+                241,
+                249
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 243,
-                "end": 249
+                "range": [
+                  243,
+                  249
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 17
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              239,
+              250
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 17
+              },
+              "start": {
+                "column": 4,
+                "line": 17
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 18
+          },
+          "start": {
+            "column": 23,
+            "line": 16
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 194,
-        "end": 196,
         "decorators": [],
         "name": "C4",
-        "optional": false
+        "optional": false,
+        "range": [
+          194,
+          196
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 16
+          },
+          "start": {
+            "column": 6,
+            "line": 16
+          }
+        }
       },
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 208,
-          "end": 210,
           "expression": {
             "type": "Identifier",
-            "start": 208,
-            "end": 210,
             "decorators": [],
             "name": "C1",
-            "optional": false
+            "optional": false,
+            "range": [
+              208,
+              210
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 16
+              },
+              "start": {
+                "column": 20,
+                "line": 16
+              }
+            }
+          },
+          "range": [
+            208,
+            210
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 16
+            },
+            "start": {
+              "column": 20,
+              "line": 16
+            }
           }
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        188,
+        252
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 18
+        },
+        "start": {
+          "column": 0,
+          "line": 16
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 254,
-      "end": 320,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 277,
-        "end": 320,
+        "range": [
+          277,
+          320
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 291,
-            "end": 302,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 291,
-              "end": 292,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                291,
+                292
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 21
+                },
+                "start": {
+                  "column": 4,
+                  "line": 21
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -323,31 +779,79 @@ classImplementsMergedClassInterface.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 293,
-              "end": 301,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 21
+                },
+                "start": {
+                  "column": 6,
+                  "line": 21
+                }
+              },
+              "range": [
+                293,
+                301
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 295,
-                "end": 301
+                "range": [
+                  295,
+                  301
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 21
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              291,
+              302
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 21
+              },
+              "start": {
+                "column": 4,
+                "line": 21
+              }
+            }
           },
           {
             "type": "PropertyDefinition",
-            "start": 307,
-            "end": 318,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 307,
-              "end": 308,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                307,
+                308
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 22
+                },
+                "start": {
+                  "column": 4,
+                  "line": 22
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -355,46 +859,155 @@ classImplementsMergedClassInterface.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 309,
-              "end": 317,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 22
+                },
+                "start": {
+                  "column": 6,
+                  "line": 22
+                }
+              },
+              "range": [
+                309,
+                317
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 311,
-                "end": 317
+                "range": [
+                  311,
+                  317
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 22
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              307,
+              318
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 22
+              },
+              "start": {
+                "column": 4,
+                "line": 22
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 23
+          },
+          "start": {
+            "column": 23,
+            "line": 20
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 260,
-        "end": 262,
         "decorators": [],
         "name": "C5",
-        "optional": false
+        "optional": false,
+        "range": [
+          260,
+          262
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 20
+          },
+          "start": {
+            "column": 6,
+            "line": 20
+          }
+        }
       },
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 274,
-          "end": 276,
           "expression": {
             "type": "Identifier",
-            "start": 274,
-            "end": 276,
             "decorators": [],
             "name": "C1",
-            "optional": false
+            "optional": false,
+            "range": [
+              274,
+              276
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 20
+              },
+              "start": {
+                "column": 20,
+                "line": 20
+              }
+            }
+          },
+          "range": [
+            274,
+            276
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 20
+            },
+            "start": {
+              "column": 20,
+              "line": 20
+            }
           }
         }
       ],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        254,
+        320
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 23
+        },
+        "start": {
+          "column": 0,
+          "line": 20
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 23
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

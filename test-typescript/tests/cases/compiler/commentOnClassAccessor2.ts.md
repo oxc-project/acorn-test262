@@ -1,33 +1,45 @@
-commentOnClassAccessor2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 112,
+  "range": [
+    0,
+    112
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 112,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 112,
+        "range": [
+          8,
+          112
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 37,
-            "end": 67,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 41,
-              "end": 44,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                41,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 5
+                },
+                "start": {
+                  "column": 6,
+                  "line": 5
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -35,27 +47,65 @@ commentOnClassAccessor2.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 44,
-              "end": 67,
+              "range": [
+                44,
+                67
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 55,
-                "end": 67,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 57,
-                    "end": 66,
                     "argument": {
                       "type": "Literal",
-                      "start": 64,
-                      "end": 65,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        64,
+                        65
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 30,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 29,
+                          "line": 5
+                        }
+                      }
+                    },
+                    "range": [
+                      57,
+                      66
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 31,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 5
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  55,
+                  67
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -64,29 +114,87 @@ commentOnClassAccessor2.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 46,
-                "end": 54,
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 5
+                  }
+                },
+                "range": [
+                  46,
+                  54
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 48,
-                  "end": 54
+                  "range": [
+                    48,
+                    54
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 5
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 5
+                },
+                "start": {
+                  "column": 9,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              37,
+              67
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 5
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 96,
-            "end": 110,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 100,
-              "end": 103,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                100,
+                103
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 10
+                },
+                "start": {
+                  "column": 6,
+                  "line": 10
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -94,14 +202,28 @@ commentOnClassAccessor2.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 103,
-              "end": 110,
+              "range": [
+                103,
+                110
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 107,
-                "end": 110,
-                "body": []
+                "body": [],
+                "range": [
+                  107,
+                  110
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -110,31 +232,114 @@ commentOnClassAccessor2.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 104,
-                  "end": 105,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    104,
+                    105
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 10
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 10
+                },
+                "start": {
+                  "column": 9,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              96,
+              110
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 10
+              },
+              "start": {
+                "column": 2,
+                "line": 10
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        112
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,166 +1,443 @@
-classAbstractSingleLineDecl.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 84,
+  "range": [
+    0,
+    84
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 19,
       "abstract": true,
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 19,
-        "body": []
+        "range": [
+          17,
+          19
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          15,
+          16
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 21,
-      "end": 29,
       "expression": {
         "type": "Identifier",
-        "start": 21,
-        "end": 29,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "range": [
+          21,
+          29
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        21,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 30,
-      "end": 40,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 38,
-        "end": 40,
-        "body": []
+        "range": [
+          38,
+          40
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 37,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "range": [
+          36,
+          37
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 4
+          },
+          "start": {
+            "column": 6,
+            "line": 4
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        30,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 42,
-      "end": 50,
       "expression": {
         "type": "Identifier",
-        "start": 42,
-        "end": 50,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "range": [
+          42,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        42,
+        50
+      ],
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 52,
-      "end": 62,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 60,
-        "end": 62,
-        "body": []
+        "range": [
+          60,
+          62
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 8
+          },
+          "start": {
+            "column": 8,
+            "line": 8
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 58,
-        "end": 59,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          58,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 8
+          },
+          "start": {
+            "column": 6,
+            "line": 8
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        52,
+        62
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 64,
-      "end": 70,
       "expression": {
         "type": "NewExpression",
-        "start": 64,
-        "end": 69,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 68,
-          "end": 69,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "range": [
+            68,
+            69
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 10
+            },
+            "start": {
+              "column": 4,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          64,
+          69
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 10
+          },
+          "start": {
+            "column": 0,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        64,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 71,
-      "end": 77,
       "expression": {
         "type": "NewExpression",
-        "start": 71,
-        "end": 76,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 75,
-          "end": 76,
           "decorators": [],
           "name": "B",
-          "optional": false
+          "optional": false,
+          "range": [
+            75,
+            76
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 11
+            },
+            "start": {
+              "column": 4,
+              "line": 11
+            }
+          }
+        },
+        "range": [
+          71,
+          76
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 11
+          },
+          "start": {
+            "column": 0,
+            "line": 11
+          }
+        }
+      },
+      "range": [
+        71,
+        77
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 78,
-      "end": 84,
       "expression": {
         "type": "NewExpression",
-        "start": 78,
-        "end": 83,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 82,
-          "end": 83,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            82,
+            83
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 12
+            },
+            "start": {
+              "column": 4,
+              "line": 12
+            }
+          }
+        },
+        "range": [
+          78,
+          83
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 12
+          },
+          "start": {
+            "column": 0,
+            "line": 12
+          }
+        }
+      },
+      "range": [
+        78,
+        84
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 12
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 6,
+      "line": 12
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

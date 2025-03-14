@@ -1,63 +1,160 @@
-parserIndexSignature4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
+  "range": [
+    0,
+    78
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 78,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 78,
+        "range": [
+          12,
+          78
+        ],
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 16,
-            "end": 23,
             "computed": true,
             "key": {
               "type": "AssignmentExpression",
-              "start": 17,
-              "end": 22,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 17,
-                "end": 18,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  17,
+                  18
+                ],
+                "loc": {
+                  "end": {
+                    "column": 4,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 2
+                  }
+                }
               },
               "right": {
                 "type": "Literal",
-                "start": 21,
-                "end": 22,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  21,
+                  22
+                ],
+                "loc": {
+                  "end": {
+                    "column": 8,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                17,
+                22
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 3,
+                  "line": 2
+                }
               }
             },
             "optional": false,
             "readonly": false,
-            "static": false
+            "static": false,
+            "range": [
+              16,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        78
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

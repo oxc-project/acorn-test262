@@ -1,62 +1,102 @@
-parserSymbolProperty9.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
+  "range": [
+    0,
+    43
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 43,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 43,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 43,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 43,
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 3
+                },
+                "start": {
+                  "column": 5,
+                  "line": 1
+                }
+              },
+              "range": [
+                5,
+                43
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 7,
-                "end": 43,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 13,
-                    "end": 41,
                     "computed": true,
                     "key": {
                       "type": "MemberExpression",
-                      "start": 14,
-                      "end": 32,
                       "computed": false,
                       "object": {
                         "type": "Identifier",
-                        "start": 14,
-                        "end": 20,
                         "decorators": [],
                         "name": "Symbol",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          14,
+                          20
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 11,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 5,
+                            "line": 2
+                          }
+                        }
                       },
                       "optional": false,
                       "property": {
                         "type": "Identifier",
-                        "start": 21,
-                        "end": 32,
                         "decorators": [],
                         "name": "toPrimitive",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          21,
+                          32
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 12,
+                            "line": 2
+                          }
+                        }
+                      },
+                      "range": [
+                        14,
+                        32
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 5,
+                          "line": 2
+                        }
                       }
                     },
                     "optional": false,
@@ -64,26 +104,131 @@ parserSymbolProperty9.ts
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 33,
-                      "end": 41,
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 2
+                        }
+                      },
+                      "range": [
+                        33,
+                        41
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 35,
-                        "end": 41
+                        "range": [
+                          35,
+                          41
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 32,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 26,
+                            "line": 2
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      13,
+                      41
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 4,
+                        "line": 2
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  7,
+                  43
+                ],
+                "loc": {
+                  "end": {
+                    "column": 1,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              4,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            4,
+            43
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        43
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

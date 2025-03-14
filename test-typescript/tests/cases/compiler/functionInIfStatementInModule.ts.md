@@ -1,87 +1,220 @@
-functionInIfStatementInModule.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 89,
+  "range": [
+    2,
+    89
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 2,
-      "end": 88,
       "body": {
         "type": "TSModuleBlock",
-        "start": 16,
-        "end": 88,
         "body": [
           {
             "type": "IfStatement",
-            "start": 22,
-            "end": 86,
             "alternate": null,
             "consequent": {
               "type": "BlockStatement",
-              "start": 33,
-              "end": 86,
               "body": [
                 {
                   "type": "FunctionDeclaration",
-                  "start": 43,
-                  "end": 80,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 69,
-                    "end": 80,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      69,
+                      80
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 6
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": {
                     "type": "Identifier",
-                    "start": 52,
-                    "end": 55,
                     "decorators": [],
                     "name": "Foo",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      52,
+                      55
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 5
+                      }
+                    }
                   },
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 56,
-                      "end": 59,
                       "decorators": [],
                       "name": "src",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        56,
+                        59
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 5
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    43,
+                    80
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 5
+                    }
+                  }
                 }
-              ]
+              ],
+              "range": [
+                33,
+                86
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 8
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
             },
             "test": {
               "type": "Literal",
-              "start": 26,
-              "end": 31,
               "raw": "false",
-              "value": false
+              "value": false,
+              "range": [
+                26,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              22,
+              86
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          16,
+          88
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 15,
+        "range": [
+          9,
+          15
+        ],
         "decorators": [],
         "name": "Midori",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        2,
+        88
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 10
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

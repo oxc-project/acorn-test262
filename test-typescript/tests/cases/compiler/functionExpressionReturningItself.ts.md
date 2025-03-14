@@ -1,72 +1,181 @@
-functionExpressionReturningItself.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
+  "range": [
+    0,
+    45
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 45,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 44,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 8,
-            "end": 44,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 26,
-              "end": 44,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 28,
-                  "end": 42,
                   "argument": {
                     "type": "Identifier",
-                    "start": 35,
-                    "end": 41,
                     "decorators": [],
                     "name": "somefn",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      35,
+                      41
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 41,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 35,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    28,
+                    42
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 42,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 28,
+                      "line": 1
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                26,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 1
+                },
+                "start": {
+                  "column": 26,
+                  "line": 1
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 17,
-              "end": 23,
               "decorators": [],
               "name": "somefn",
-              "optional": false
+              "optional": false,
+              "range": [
+                17,
+                23
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 17,
+                  "line": 1
+                }
+              }
             },
-            "params": []
+            "params": [],
+            "range": [
+              8,
+              44
+            ],
+            "loc": {
+              "end": {
+                "column": 44,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            44
+          ],
+          "loc": {
+            "end": {
+              "column": 44,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 45,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 45,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

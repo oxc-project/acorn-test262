@@ -1,52 +1,125 @@
-commentOnParameter3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 99,
+  "range": [
+    1,
+    99
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1,
-      "end": 99,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 96,
-        "end": 99,
-        "body": []
+        "body": [],
+        "range": [
+          96,
+          99
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 5
+          },
+          "start": {
+            "column": 2,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 29,
         "decorators": [],
         "name": "commentedParameters",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          29
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 31,
-          "end": 32,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            31,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         {
           "type": "Identifier",
-          "start": 53,
-          "end": 54,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            53,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        1,
+        99
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 5
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 5,
+      "line": 5
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

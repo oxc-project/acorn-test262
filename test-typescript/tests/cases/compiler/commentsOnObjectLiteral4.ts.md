@@ -1,45 +1,63 @@
-commentsOnObjectLiteral4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
+  "range": [
+    0,
+    78
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 77,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 77,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 77,
             "properties": [
               {
                 "type": "Property",
-                "start": 40,
-                "end": 75,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 47,
                   "decorators": [],
                   "name": "bar",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    44,
+                    47
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 5
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -47,27 +65,65 @@ commentsOnObjectLiteral4.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 47,
-                  "end": 75,
+                  "range": [
+                    47,
+                    75
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 58,
-                    "end": 75,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 62,
-                        "end": 72,
                         "argument": {
                           "type": "Literal",
-                          "start": 69,
-                          "end": 71,
                           "raw": "12",
-                          "value": 12
+                          "value": 12,
+                          "range": [
+                            69,
+                            71
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 11,
+                              "line": 6
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 6
+                            }
+                          }
+                        },
+                        "range": [
+                          62,
+                          72
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 12,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 2,
+                            "line": 6
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      58,
+                      75
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 2,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 5
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -76,24 +132,125 @@ commentsOnObjectLiteral4.ts
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 49,
-                    "end": 57,
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 5
+                      }
+                    },
+                    "range": [
+                      49,
+                      57
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 51,
-                      "end": 57
+                      "range": [
+                        51,
+                        57
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 5
+                        }
+                      }
                     }
+                  },
+                  "loc": {
+                    "end": {
+                      "column": 2,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 5
+                    }
+                  }
+                },
+                "range": [
+                  40,
+                  75
+                ],
+                "loc": {
+                  "end": {
+                    "column": 2,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 5
                   }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              77
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 8
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            77
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 8
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        77
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

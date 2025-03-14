@@ -1,34 +1,46 @@
-parserAccessibilityAfterStatic10.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
+  "range": [
+    0,
+    43
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 42,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 42,
+        "range": [
+          12,
+          42
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 40,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 28,
-              "end": 32,
               "decorators": [],
               "name": "intI",
-              "optional": false
+              "optional": false,
+              "range": [
+                28,
+                32
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 3
+                },
+                "start": {
+                  "column": 14,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -36,14 +48,28 @@ parserAccessibilityAfterStatic10.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 32,
-              "end": 40,
+              "range": [
+                32,
+                40
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 38,
-                "end": 40,
-                "body": []
+                "body": [],
+                "range": [
+                  38,
+                  40
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -52,45 +78,152 @@ parserAccessibilityAfterStatic10.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 32,
-                "end": 35,
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  32,
+                  35
+                ],
                 "params": [
                   {
                     "type": "TSTypeParameter",
-                    "start": 33,
-                    "end": 34,
                     "const": false,
                     "in": false,
                     "name": {
                       "type": "Identifier",
-                      "start": 33,
-                      "end": 34,
                       "decorators": [],
                       "name": "T",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        33,
+                        34
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 20,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 3
+                        }
+                      }
                     },
-                    "out": false
+                    "out": false,
+                    "range": [
+                      33,
+                      34
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 3
+                      }
+                    }
                   }
                 ]
+              },
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 3
+                },
+                "start": {
+                  "column": 18,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              14,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "Outer",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

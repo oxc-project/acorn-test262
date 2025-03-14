@@ -1,35 +1,96 @@
-parenthesizedExpressionInternalComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 5,
-  "end": 105,
+  "range": [
+    5,
+    105
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 5,
-      "end": 31,
       "expression": {
         "type": "Literal",
-        "start": 12,
-        "end": 17,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "range": [
+          12,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        5,
+        31
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 5,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 46,
-      "end": 104,
       "expression": {
         "type": "Literal",
-        "start": 69,
-        "end": 74,
         "raw": "\"foo\"",
-        "value": "foo"
+        "value": "foo",
+        "range": [
+          69,
+          74
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 7
+          },
+          "start": {
+            "column": 9,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        46,
+        104
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 10
+        },
+        "start": {
+          "column": 5,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 11
+    },
+    "start": {
+      "column": 5,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

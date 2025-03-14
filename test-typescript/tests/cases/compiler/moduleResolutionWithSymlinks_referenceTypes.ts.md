@@ -1,24 +1,24 @@
-/node_modules/@types/library-a/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 329,
-  "end": 374,
+  "range": [
+    329,
+    374
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 329,
-      "end": 373,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 351,
-        "end": 373,
+        "range": [
+          351,
+          373
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 353,
-            "end": 371,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,11 +26,23 @@
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 361,
-              "end": 362,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                361,
+                362
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 7
+                },
+                "start": {
+                  "column": 32,
+                  "line": 7
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -38,52 +50,163 @@
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 362,
-              "end": 370,
+              "loc": {
+                "end": {
+                  "column": 41,
+                  "line": 7
+                },
+                "start": {
+                  "column": 33,
+                  "line": 7
+                }
+              },
+              "range": [
+                362,
+                370
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 364,
-                "end": 370
+                "range": [
+                  364,
+                  370
+                ],
+                "loc": {
+                  "end": {
+                    "column": 41,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 35,
+                    "line": 7
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              353,
+              371
+            ],
+            "loc": {
+              "end": {
+                "column": 42,
+                "line": 7
+              },
+              "start": {
+                "column": 24,
+                "line": 7
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 44,
+            "line": 7
+          },
+          "start": {
+            "column": 22,
+            "line": 7
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 343,
-        "end": 350,
         "decorators": [],
         "name": "MyClass",
-        "optional": false
+        "optional": false,
+        "range": [
+          343,
+          350
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 7
+          },
+          "start": {
+            "column": 14,
+            "line": 7
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        329,
+        373
+      ],
+      "loc": {
+        "end": {
+          "column": 44,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 7
+    }
+  },
+  "hashbang": null
 }
 ```
-/node_modules/@types/library-b/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 36,
-  "end": 36,
+  "range": [
+    36,
+    36
+  ],
   "body": [],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-/app.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 72,
-  "end": 72,
+  "range": [
+    72,
+    72
+  ],
   "body": [],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

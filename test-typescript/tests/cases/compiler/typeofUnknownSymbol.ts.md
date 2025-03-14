@@ -1,49 +1,122 @@
-typeofUnknownSymbol.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 58,
+  "range": [
+    33,
+    58
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 33,
-      "end": 57,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 37,
-          "end": 57,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 37,
-            "end": 38,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              37,
+              38
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 41,
-            "end": 57,
             "argument": {
               "type": "Identifier",
-              "start": 48,
-              "end": 57,
               "decorators": [],
               "name": "whatsthis",
-              "optional": false
+              "optional": false,
+              "range": [
+                48,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
             },
             "operator": "typeof",
-            "prefix": true
+            "prefix": true,
+            "range": [
+              41,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            37,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        33,
+        57
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

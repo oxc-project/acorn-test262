@@ -1,67 +1,176 @@
-b.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
+  "range": [
+    0,
+    24
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 19,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 19,
         "raw": "'./a'",
-        "value": "./a"
+        "value": "./a",
+        "range": [
+          14,
+          19
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 8,
+          "range": [
+            7,
+            8
+          ],
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 8,
             "decorators": [],
             "name": "A",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              8
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 8,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 20,
-      "end": 24,
       "expression": {
         "type": "MemberExpression",
-        "start": 20,
-        "end": 24,
         "computed": true,
         "object": {
           "type": "Identifier",
-          "start": 20,
-          "end": 21,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "range": [
+            20,
+            21
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Literal",
-          "start": 22,
-          "end": 23,
           "raw": "0",
-          "value": 0
+          "value": 0,
+          "range": [
+            22,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 2
+            },
+            "start": {
+              "column": 2,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          20,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        20,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 4,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

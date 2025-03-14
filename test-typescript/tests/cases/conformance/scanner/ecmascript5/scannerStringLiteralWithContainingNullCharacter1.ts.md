@@ -1,24 +1,61 @@
-scannerStringLiteralWithContainingNullCharacter1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 6,
+  "range": [
+    0,
+    6
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 6,
       "directive": " \u0000 ",
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 5,
         "raw": "\" \u0000 \"",
-        "value": " \u0000 "
+        "value": " \u0000 ",
+        "range": [
+          0,
+          5
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        6
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 6,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

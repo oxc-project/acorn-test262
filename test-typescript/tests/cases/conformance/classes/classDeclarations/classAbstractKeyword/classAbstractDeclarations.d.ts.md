@@ -1,4 +1,4 @@
-classAbstractDeclarations.d.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'abstract' modifier can only appear on a class, method, or property declaration.
 ```

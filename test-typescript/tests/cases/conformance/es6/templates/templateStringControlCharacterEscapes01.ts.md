@@ -1,52 +1,125 @@
-templateStringControlCharacterEscapes01.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 3,
-  "end": 36,
+  "range": [
+    3,
+    36
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 3,
-      "end": 36,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 7,
-          "end": 35,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 7,
-            "end": 8,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              8
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 11,
-            "end": 35,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 11,
-                "end": 35,
                 "tail": true,
                 "value": {
                   "cooked": "\u0000\u0000\u0000 0 00 0000",
                   "raw": "\\0\\x00\\u0000 0 00 0000"
+                },
+                "range": [
+                  11,
+                  35
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              11,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            7,
+            35
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        3,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 33,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

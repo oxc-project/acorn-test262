@@ -1,88 +1,233 @@
-test.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
+  "range": [
+    0,
+    41
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 15,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 14,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 14,
             "decorators": [],
             "name": "Route",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 14,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 1
+                },
+                "start": {
+                  "column": 9,
+                  "line": 1
+                }
+              },
+              "range": [
+                9,
+                14
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 11,
-                "end": 14
+                "range": [
+                  11,
+                  14
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              4,
+              14
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
               }
             }
           },
-          "init": null
-        }
-      ],
-      "declare": false,
-      "kind": "var"
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 16,
-      "end": 40,
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 20,
-          "end": 39,
-          "definite": false,
-          "id": {
-            "type": "Identifier",
-            "start": 20,
-            "end": 27,
-            "decorators": [],
-            "name": "routes1",
-            "optional": false
-          },
-          "init": {
-            "type": "JSXElement",
-            "start": 30,
-            "end": 39,
-            "children": [],
-            "closingElement": null,
-            "openingElement": {
-              "type": "JSXOpeningElement",
-              "start": 30,
-              "end": 39,
-              "attributes": [],
-              "name": {
-                "type": "JSXIdentifier",
-                "start": 31,
-                "end": 36,
-                "name": "Route"
-              },
-              "selfClosing": true
+          "init": null,
+          "range": [
+            4,
+            14
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        15
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "definite": false,
+          "id": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "routes1",
+            "optional": false,
+            "range": [
+              20,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
+          },
+          "init": {
+            "type": "JSXElement",
+            "children": [],
+            "closingElement": null,
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "range": [
+                30,
+                39
+              ],
+              "attributes": [],
+              "name": {
+                "type": "JSXIdentifier",
+                "name": "Route",
+                "range": [
+                  31,
+                  36
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 2
+                  }
+                }
+              },
+              "selfClosing": true,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              30,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 2
+              },
+              "start": {
+                "column": 14,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            20,
+            39
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
+          }
+        }
+      ],
+      "declare": false,
+      "kind": "var",
+      "range": [
+        16,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

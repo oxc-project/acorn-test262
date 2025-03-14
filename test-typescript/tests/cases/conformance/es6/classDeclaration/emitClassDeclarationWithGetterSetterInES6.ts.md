@@ -1,35 +1,47 @@
-emitClassDeclarationWithGetterSetterInES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 533,
+  "range": [
+    16,
+    533
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 16,
-      "end": 533,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 24,
-        "end": 533,
+        "range": [
+          24,
+          533
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 30,
-            "end": 44,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 30,
-              "end": 35,
               "decorators": [],
               "name": "_name",
-              "optional": false
+              "optional": false,
+              "range": [
+                30,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -37,29 +49,77 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 43,
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 3
+                },
+                "start": {
+                  "column": 9,
+                  "line": 3
+                }
+              },
+              "range": [
+                35,
+                43
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 37,
-                "end": 43
+                "range": [
+                  37,
+                  43
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 3
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              30,
+              44
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 49,
-            "end": 102,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 53,
-              "end": 57,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "range": [
+                53,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -67,40 +127,102 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 57,
-              "end": 102,
+              "range": [
+                57,
+                102
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 68,
-                "end": 102,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 78,
-                    "end": 96,
                     "argument": {
                       "type": "MemberExpression",
-                      "start": 85,
-                      "end": 95,
                       "computed": false,
                       "object": {
                         "type": "ThisExpression",
-                        "start": 85,
-                        "end": 89
+                        "range": [
+                          85,
+                          89
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 15,
+                            "line": 5
+                          }
+                        }
                       },
                       "optional": false,
                       "property": {
                         "type": "Identifier",
-                        "start": 90,
-                        "end": 95,
                         "decorators": [],
                         "name": "_name",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          90,
+                          95
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 25,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 20,
+                            "line": 5
+                          }
+                        }
+                      },
+                      "range": [
+                        85,
+                        95
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 25,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 5
+                        }
+                      }
+                    },
+                    "range": [
+                      78,
+                      96
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 26,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 5
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  68,
+                  102
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -109,29 +231,87 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 59,
-                "end": 67,
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 4
+                  }
+                },
+                "range": [
+                  59,
+                  67
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 61,
-                  "end": 67
+                  "range": [
+                    61,
+                    67
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 4
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 12,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              49,
+              102
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 4
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 107,
-            "end": 163,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 118,
-              "end": 123,
               "decorators": [],
               "name": "name2",
-              "optional": false
+              "optional": false,
+              "range": [
+                118,
+                123
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 7
+                },
+                "start": {
+                  "column": 15,
+                  "line": 7
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -139,27 +319,65 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 123,
-              "end": 163,
+              "range": [
+                123,
+                163
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 134,
-                "end": 163,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 144,
-                    "end": 157,
                     "argument": {
                       "type": "Literal",
-                      "start": 151,
-                      "end": 156,
                       "raw": "\"BYE\"",
-                      "value": "BYE"
+                      "value": "BYE",
+                      "range": [
+                        151,
+                        156
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 20,
+                          "line": 8
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 8
+                        }
+                      }
+                    },
+                    "range": [
+                      144,
+                      157
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 8
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  134,
+                  163
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 7
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -168,28 +386,86 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 125,
-                "end": 133,
+                "loc": {
+                  "end": {
+                    "column": 30,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 7
+                  }
+                },
+                "range": [
+                  125,
+                  133
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 127,
-                  "end": 133
+                  "range": [
+                    127,
+                    133
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 30,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 7
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 9
+                },
+                "start": {
+                  "column": 20,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              107,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 7
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 168,
-            "end": 224,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 180,
-              "end": 194,
               "raw": "\"computedname\"",
-              "value": "computedname"
+              "value": "computedname",
+              "range": [
+                180,
+                194
+              ],
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 10
+                },
+                "start": {
+                  "column": 16,
+                  "line": 10
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -197,47 +473,119 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 195,
-              "end": 224,
+              "range": [
+                195,
+                224
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 198,
-                "end": 224,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 208,
-                    "end": 218,
                     "argument": {
                       "type": "Literal",
-                      "start": 215,
-                      "end": 217,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        215,
+                        217
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 11
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 11
+                        }
+                      }
+                    },
+                    "range": [
+                      208,
+                      218
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 11
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 11
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  198,
+                  224
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 34,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 12
+                },
+                "start": {
+                  "column": 31,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              168,
+              224
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 229,
-            "end": 279,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 234,
-              "end": 249,
               "raw": "\"computedname1\"",
-              "value": "computedname1"
+              "value": "computedname1",
+              "range": [
+                234,
+                249
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 13
+                },
+                "start": {
+                  "column": 9,
+                  "line": 13
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -245,47 +593,119 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 250,
-              "end": 279,
+              "range": [
+                250,
+                279
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 253,
-                "end": 279,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 263,
-                    "end": 273,
                     "argument": {
                       "type": "Literal",
-                      "start": 270,
-                      "end": 272,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        270,
+                        272
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 14
+                        }
+                      }
+                    },
+                    "range": [
+                      263,
+                      273
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 14
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  253,
+                  279
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 13
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 15
+                },
+                "start": {
+                  "column": 25,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              229,
+              279
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 15
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 284,
-            "end": 334,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 289,
-              "end": 304,
               "raw": "\"computedname2\"",
-              "value": "computedname2"
+              "value": "computedname2",
+              "range": [
+                289,
+                304
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 16
+                },
+                "start": {
+                  "column": 9,
+                  "line": 16
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -293,47 +713,119 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 305,
-              "end": 334,
+              "range": [
+                305,
+                334
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 308,
-                "end": 334,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 318,
-                    "end": 328,
                     "argument": {
                       "type": "Literal",
-                      "start": 325,
-                      "end": 327,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        325,
+                        327
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      318,
+                      328
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 17
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  308,
+                  334
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 18
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 16
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 18
+                },
+                "start": {
+                  "column": 25,
+                  "line": 16
+                }
+              }
+            },
+            "range": [
+              284,
+              334
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 18
+              },
+              "start": {
+                "column": 4,
+                "line": 16
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 340,
-            "end": 377,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 345,
-              "end": 360,
               "raw": "\"computedname3\"",
-              "value": "computedname3"
+              "value": "computedname3",
+              "range": [
+                345,
+                360
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 20
+                },
+                "start": {
+                  "column": 9,
+                  "line": 20
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -341,14 +833,28 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 361,
-              "end": 377,
+              "range": [
+                361,
+                377
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 370,
-                "end": 377,
-                "body": []
+                "body": [],
+                "range": [
+                  370,
+                  377
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 34,
+                    "line": 20
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -357,37 +863,107 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 362,
-                  "end": 368,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 363,
-                    "end": 368,
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 20
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 20
+                      }
+                    },
+                    "range": [
+                      363,
+                      368
+                    ],
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 365,
-                      "end": 368
+                      "range": [
+                        365,
+                        368
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 20
+                        },
+                        "start": {
+                          "column": 29,
+                          "line": 20
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    362,
+                    368
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 20
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 20
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 21
+                },
+                "start": {
+                  "column": 25,
+                  "line": 20
+                }
+              }
+            },
+            "range": [
+              340,
+              377
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 21
+              },
+              "start": {
+                "column": 4,
+                "line": 20
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 382,
-            "end": 422,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 387,
-              "end": 402,
               "raw": "\"computedname4\"",
-              "value": "computedname4"
+              "value": "computedname4",
+              "range": [
+                387,
+                402
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 22
+                },
+                "start": {
+                  "column": 9,
+                  "line": 22
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -395,14 +971,28 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 403,
-              "end": 422,
+              "range": [
+                403,
+                422
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 415,
-                "end": 422,
-                "body": []
+                "body": [],
+                "range": [
+                  415,
+                  422
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 37,
+                    "line": 22
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -411,38 +1001,108 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 404,
-                  "end": 413,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 405,
-                    "end": 413,
+                    "loc": {
+                      "end": {
+                        "column": 35,
+                        "line": 22
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 22
+                      }
+                    },
+                    "range": [
+                      405,
+                      413
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 407,
-                      "end": 413
+                      "range": [
+                        407,
+                        413
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 35,
+                          "line": 22
+                        },
+                        "start": {
+                          "column": 29,
+                          "line": 22
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    404,
+                    413
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 35,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 22
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 23
+                },
+                "start": {
+                  "column": 25,
+                  "line": 22
+                }
+              }
+            },
+            "range": [
+              382,
+              422
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 23
+              },
+              "start": {
+                "column": 4,
+                "line": 22
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 428,
-            "end": 450,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 432,
-              "end": 435,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                432,
+                435
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 25
+                },
+                "start": {
+                  "column": 8,
+                  "line": 25
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -450,14 +1110,28 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 435,
-              "end": 450,
+              "range": [
+                435,
+                450
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 447,
-                "end": 450,
-                "body": []
+                "body": [],
+                "range": [
+                  447,
+                  450
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 25
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -466,38 +1140,108 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 436,
-                  "end": 445,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 437,
-                    "end": 445,
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 25
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 25
+                      }
+                    },
+                    "range": [
+                      437,
+                      445
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 439,
-                      "end": 445
+                      "range": [
+                        439,
+                        445
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 25
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 25
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    436,
+                    445
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 25
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 25
+                },
+                "start": {
+                  "column": 11,
+                  "line": 25
+                }
+              }
+            },
+            "range": [
+              428,
+              450
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 25
+              },
+              "start": {
+                "column": 4,
+                "line": 25
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 455,
-            "end": 484,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 466,
-              "end": 469,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                466,
+                469
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 26
+                },
+                "start": {
+                  "column": 15,
+                  "line": 26
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -505,14 +1249,28 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 469,
-              "end": 484,
+              "range": [
+                469,
+                484
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 481,
-                "end": 484,
-                "body": []
+                "body": [],
+                "range": [
+                  481,
+                  484
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 26
+                  },
+                  "start": {
+                    "column": 30,
+                    "line": 26
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -521,37 +1279,107 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 470,
-                  "end": 479,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 471,
-                    "end": 479,
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 26
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 26
+                      }
+                    },
+                    "range": [
+                      471,
+                      479
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 473,
-                      "end": 479
+                      "range": [
+                        473,
+                        479
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 26
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 26
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    470,
+                    479
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 28,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 26
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 26
+                },
+                "start": {
+                  "column": 18,
+                  "line": 26
+                }
+              }
+            },
+            "range": [
+              455,
+              484
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 26
+              },
+              "start": {
+                "column": 4,
+                "line": 26
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 489,
-            "end": 531,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 501,
-              "end": 515,
               "raw": "\"computedname\"",
-              "value": "computedname"
+              "value": "computedname",
+              "range": [
+                501,
+                515
+              ],
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 27
+                },
+                "start": {
+                  "column": 16,
+                  "line": 27
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -559,14 +1387,28 @@ emitClassDeclarationWithGetterSetterInES6.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 516,
-              "end": 531,
+              "range": [
+                516,
+                531
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 528,
-                "end": 531,
-                "body": []
+                "body": [],
+                "range": [
+                  528,
+                  531
+                ],
+                "loc": {
+                  "end": {
+                    "column": 46,
+                    "line": 27
+                  },
+                  "start": {
+                    "column": 43,
+                    "line": 27
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -575,41 +1417,148 @@ emitClassDeclarationWithGetterSetterInES6.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 517,
-                  "end": 526,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 518,
-                    "end": 526,
+                    "loc": {
+                      "end": {
+                        "column": 41,
+                        "line": 27
+                      },
+                      "start": {
+                        "column": 33,
+                        "line": 27
+                      }
+                    },
+                    "range": [
+                      518,
+                      526
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 520,
-                      "end": 526
+                      "range": [
+                        520,
+                        526
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 41,
+                          "line": 27
+                        },
+                        "start": {
+                          "column": 35,
+                          "line": 27
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    517,
+                    526
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 41,
+                      "line": 27
+                    },
+                    "start": {
+                      "column": 32,
+                      "line": 27
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 46,
+                  "line": 27
+                },
+                "start": {
+                  "column": 31,
+                  "line": 27
+                }
+              }
+            },
+            "range": [
+              489,
+              531
+            ],
+            "loc": {
+              "end": {
+                "column": 46,
+                "line": 27
+              },
+              "start": {
+                "column": 4,
+                "line": 27
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 28
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 23,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          22,
+          23
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        16,
+        533
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 28
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 28
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

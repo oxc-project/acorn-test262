@@ -1,35 +1,47 @@
-derivedClassConstructorWithExplicitReturns01.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 607,
+  "range": [
+    0,
+    607
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 256,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 256,
+        "range": [
+          8,
+          256
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 25,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 19,
               "decorators": [],
               "name": "cProp",
-              "optional": false
+              "optional": false,
+              "range": [
+                14,
+                19
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -37,25 +49,61 @@ derivedClassConstructorWithExplicitReturns01.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 22,
-              "end": 24,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "range": [
+                22,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              25
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 31,
-            "end": 72,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 34,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                31,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -63,48 +111,120 @@ derivedClassConstructorWithExplicitReturns01.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 34,
-              "end": 72,
+              "range": [
+                34,
+                72
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 37,
-                "end": 72,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 39,
-                    "end": 70,
                     "argument": {
                       "type": "Literal",
-                      "start": 46,
-                      "end": 69,
                       "raw": "\"this never gets used.\"",
-                      "value": "this never gets used."
+                      "value": "this never gets used.",
+                      "range": [
+                        46,
+                        69
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 42,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 4
+                        }
+                      }
+                    },
+                    "range": [
+                      39,
+                      70
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 43,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 4
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  37,
+                  72
+                ],
+                "loc": {
+                  "end": {
+                    "column": 45,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 45,
+                  "line": 4
+                },
+                "start": {
+                  "column": 7,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              31,
+              72
+            ],
+            "loc": {
+              "end": {
+                "column": 45,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 78,
-            "end": 254,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 78,
-              "end": 89,
+              "range": [
+                78,
+                89
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -112,35 +232,41 @@ derivedClassConstructorWithExplicitReturns01.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 89,
-              "end": 254,
+              "range": [
+                89,
+                254
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 105,
-                "end": 254,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 115,
-                    "end": 248,
                     "argument": {
                       "type": "ObjectExpression",
-                      "start": 122,
-                      "end": 248,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 136,
-                          "end": 148,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 136,
-                            "end": 141,
                             "decorators": [],
                             "name": "cProp",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              136,
+                              141
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 17,
+                                "line": 8
+                              },
+                              "start": {
+                                "column": 12,
+                                "line": 8
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -148,25 +274,61 @@ derivedClassConstructorWithExplicitReturns01.ts
                           "shorthand": false,
                           "value": {
                             "type": "Identifier",
-                            "start": 143,
-                            "end": 148,
                             "decorators": [],
                             "name": "value",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              143,
+                              148
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 24,
+                                "line": 8
+                              },
+                              "start": {
+                                "column": 19,
+                                "line": 8
+                              }
+                            }
+                          },
+                          "range": [
+                            136,
+                            148
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 24,
+                              "line": 8
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 8
+                            }
                           }
                         },
                         {
                           "type": "Property",
-                          "start": 162,
-                          "end": 238,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 162,
-                            "end": 165,
                             "decorators": [],
                             "name": "foo",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              162,
+                              165
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 15,
+                                "line": 9
+                              },
+                              "start": {
+                                "column": 12,
+                                "line": 9
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": true,
@@ -174,39 +336,143 @@ derivedClassConstructorWithExplicitReturns01.ts
                           "shorthand": false,
                           "value": {
                             "type": "FunctionExpression",
-                            "start": 165,
-                            "end": 238,
+                            "range": [
+                              165,
+                              238
+                            ],
                             "async": false,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 168,
-                              "end": 238,
                               "body": [
                                 {
                                   "type": "ReturnStatement",
-                                  "start": 186,
-                                  "end": 224,
                                   "argument": {
                                     "type": "Literal",
-                                    "start": 193,
-                                    "end": 223,
                                     "raw": "\"well this looks kinda C-ish.\"",
-                                    "value": "well this looks kinda C-ish."
+                                    "value": "well this looks kinda C-ish.",
+                                    "range": [
+                                      193,
+                                      223
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 53,
+                                        "line": 10
+                                      },
+                                      "start": {
+                                        "column": 23,
+                                        "line": 10
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    186,
+                                    224
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 54,
+                                      "line": 10
+                                    },
+                                    "start": {
+                                      "column": 16,
+                                      "line": 10
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                168,
+                                238
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 13,
+                                  "line": 11
+                                },
+                                "start": {
+                                  "column": 18,
+                                  "line": 9
+                                }
+                              }
                             },
                             "declare": false,
                             "expression": false,
                             "generator": false,
                             "id": null,
-                            "params": []
+                            "params": [],
+                            "loc": {
+                              "end": {
+                                "column": 13,
+                                "line": 11
+                              },
+                              "start": {
+                                "column": 15,
+                                "line": 9
+                              }
+                            }
+                          },
+                          "range": [
+                            162,
+                            238
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 13,
+                              "line": 11
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 9
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        122,
+                        248
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 7
+                        }
+                      }
+                    },
+                    "range": [
+                      115,
+                      248
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 7
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  105,
+                  254
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -215,65 +481,171 @@ derivedClassConstructorWithExplicitReturns01.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 90,
-                  "end": 103,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 95,
-                    "end": 103,
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 6
+                      }
+                    },
+                    "range": [
+                      95,
+                      103
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 97,
-                      "end": 103
+                      "range": [
+                        97,
+                        103
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 6
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    90,
+                    103
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 6
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 13
+                },
+                "start": {
+                  "column": 15,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              78,
+              254
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        256
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 258,
-      "end": 607,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 276,
-        "end": 607,
+        "range": [
+          276,
+          607
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 282,
-            "end": 301,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 282,
-              "end": 287,
               "decorators": [],
               "name": "dProp",
-              "optional": false
+              "optional": false,
+              "range": [
+                282,
+                287
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 17
+                },
+                "start": {
+                  "column": 4,
+                  "line": 17
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -281,33 +653,81 @@ derivedClassConstructorWithExplicitReturns01.ts
             "static": false,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 290,
-              "end": 300,
               "async": false,
               "body": {
                 "type": "ThisExpression",
-                "start": 296,
-                "end": 300
+                "range": [
+                  296,
+                  300
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 17
+                  }
+                }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "range": [
+                290,
+                300
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 17
+                },
+                "start": {
+                  "column": 12,
+                  "line": 17
+                }
+              }
+            },
+            "range": [
+              282,
+              301
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 17
+              },
+              "start": {
+                "column": 4,
+                "line": 17
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 307,
-            "end": 605,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 307,
-              "end": 318,
+              "range": [
+                307,
+                318
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 19
+                },
+                "start": {
+                  "column": 4,
+                  "line": 19
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -315,94 +735,192 @@ derivedClassConstructorWithExplicitReturns01.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 318,
-              "end": 605,
+              "range": [
+                318,
+                605
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 328,
-                "end": 605,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 338,
-                    "end": 347,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 338,
-                      "end": 346,
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 344,
-                          "end": 345,
                           "decorators": [],
                           "name": "a",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            344,
+                            345
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 15,
+                              "line": 20
+                            },
+                            "start": {
+                              "column": 14,
+                              "line": 20
+                            }
+                          }
                         }
                       ],
                       "callee": {
                         "type": "Super",
-                        "start": 338,
-                        "end": 343
+                        "range": [
+                          338,
+                          343
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 13,
+                            "line": 20
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 20
+                          }
+                        }
                       },
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        338,
+                        346
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 16,
+                          "line": 20
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 20
+                        }
+                      }
+                    },
+                    "range": [
+                      338,
+                      347
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 20
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 20
+                      }
                     }
                   },
                   {
                     "type": "IfStatement",
-                    "start": 357,
-                    "end": 599,
                     "alternate": {
                       "type": "ReturnStatement",
-                      "start": 587,
-                      "end": 599,
                       "argument": {
                         "type": "Literal",
-                        "start": 594,
-                        "end": 598,
                         "raw": "null",
-                        "value": null
+                        "value": null,
+                        "range": [
+                          594,
+                          598
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 31
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 31
+                          }
+                        }
+                      },
+                      "range": [
+                        587,
+                        599
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 31
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 31
+                        }
                       }
                     },
                     "consequent": {
                       "type": "BlockStatement",
-                      "start": 382,
-                      "end": 561,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 396,
-                          "end": 406,
                           "expression": {
                             "type": "Literal",
-                            "start": 396,
-                            "end": 406,
                             "raw": "\"You win!\"",
-                            "value": "You win!"
+                            "value": "You win!",
+                            "range": [
+                              396,
+                              406
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 22,
+                                "line": 23
+                              },
+                              "start": {
+                                "column": 12,
+                                "line": 23
+                              }
+                            }
+                          },
+                          "range": [
+                            396,
+                            406
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 22,
+                              "line": 23
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 23
+                            }
                           }
                         },
                         {
                           "type": "ReturnStatement",
-                          "start": 419,
-                          "end": 551,
                           "argument": {
                             "type": "ObjectExpression",
-                            "start": 426,
-                            "end": 550,
                             "properties": [
                               {
                                 "type": "Property",
-                                "start": 444,
-                                "end": 452,
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 444,
-                                  "end": 449,
                                   "decorators": [],
                                   "name": "cProp",
-                                  "optional": false
+                                  "optional": false,
+                                  "range": [
+                                    444,
+                                    449
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 21,
+                                      "line": 25
+                                    },
+                                    "start": {
+                                      "column": 16,
+                                      "line": 25
+                                    }
+                                  }
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -410,24 +928,60 @@ derivedClassConstructorWithExplicitReturns01.ts
                                 "shorthand": false,
                                 "value": {
                                   "type": "Literal",
-                                  "start": 451,
-                                  "end": 452,
                                   "raw": "1",
-                                  "value": 1
+                                  "value": 1,
+                                  "range": [
+                                    451,
+                                    452
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 24,
+                                      "line": 25
+                                    },
+                                    "start": {
+                                      "column": 23,
+                                      "line": 25
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  444,
+                                  452
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 24,
+                                    "line": 25
+                                  },
+                                  "start": {
+                                    "column": 16,
+                                    "line": 25
+                                  }
                                 }
                               },
                               {
                                 "type": "Property",
-                                "start": 470,
-                                "end": 487,
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 470,
-                                  "end": 475,
                                   "decorators": [],
                                   "name": "dProp",
-                                  "optional": false
+                                  "optional": false,
+                                  "range": [
+                                    470,
+                                    475
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 21,
+                                      "line": 26
+                                    },
+                                    "start": {
+                                      "column": 16,
+                                      "line": 26
+                                    }
+                                  }
                                 },
                                 "kind": "init",
                                 "method": false,
@@ -435,32 +989,80 @@ derivedClassConstructorWithExplicitReturns01.ts
                                 "shorthand": false,
                                 "value": {
                                   "type": "ArrowFunctionExpression",
-                                  "start": 477,
-                                  "end": 487,
                                   "async": false,
                                   "body": {
                                     "type": "ThisExpression",
-                                    "start": 483,
-                                    "end": 487
+                                    "range": [
+                                      483,
+                                      487
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 33,
+                                        "line": 26
+                                      },
+                                      "start": {
+                                        "column": 29,
+                                        "line": 26
+                                      }
+                                    }
                                   },
                                   "expression": true,
                                   "generator": false,
                                   "id": null,
-                                  "params": []
+                                  "params": [],
+                                  "range": [
+                                    477,
+                                    487
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 33,
+                                      "line": 26
+                                    },
+                                    "start": {
+                                      "column": 23,
+                                      "line": 26
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  470,
+                                  487
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 33,
+                                    "line": 26
+                                  },
+                                  "start": {
+                                    "column": 16,
+                                    "line": 26
+                                  }
                                 }
                               },
                               {
                                 "type": "Property",
-                                "start": 505,
-                                "end": 536,
                                 "computed": false,
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 505,
-                                  "end": 508,
                                   "decorators": [],
                                   "name": "foo",
-                                  "optional": false
+                                  "optional": false,
+                                  "range": [
+                                    505,
+                                    508
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 19,
+                                      "line": 27
+                                    },
+                                    "start": {
+                                      "column": 16,
+                                      "line": 27
+                                    }
+                                  }
                                 },
                                 "kind": "init",
                                 "method": true,
@@ -468,85 +1070,289 @@ derivedClassConstructorWithExplicitReturns01.ts
                                 "shorthand": false,
                                 "value": {
                                   "type": "FunctionExpression",
-                                  "start": 508,
-                                  "end": 536,
+                                  "range": [
+                                    508,
+                                    536
+                                  ],
                                   "async": false,
                                   "body": {
                                     "type": "BlockStatement",
-                                    "start": 511,
-                                    "end": 536,
                                     "body": [
                                       {
                                         "type": "ReturnStatement",
-                                        "start": 513,
-                                        "end": 534,
                                         "argument": {
                                           "type": "Literal",
-                                          "start": 520,
-                                          "end": 534,
                                           "raw": "\"You win!!!!!\"",
-                                          "value": "You win!!!!!"
+                                          "value": "You win!!!!!",
+                                          "range": [
+                                            520,
+                                            534
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 45,
+                                              "line": 27
+                                            },
+                                            "start": {
+                                              "column": 31,
+                                              "line": 27
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          513,
+                                          534
+                                        ],
+                                        "loc": {
+                                          "end": {
+                                            "column": 45,
+                                            "line": 27
+                                          },
+                                          "start": {
+                                            "column": 24,
+                                            "line": 27
+                                          }
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "range": [
+                                      511,
+                                      536
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 47,
+                                        "line": 27
+                                      },
+                                      "start": {
+                                        "column": 22,
+                                        "line": 27
+                                      }
+                                    }
                                   },
                                   "declare": false,
                                   "expression": false,
                                   "generator": false,
                                   "id": null,
-                                  "params": []
+                                  "params": [],
+                                  "loc": {
+                                    "end": {
+                                      "column": 47,
+                                      "line": 27
+                                    },
+                                    "start": {
+                                      "column": 19,
+                                      "line": 27
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  505,
+                                  536
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 47,
+                                    "line": 27
+                                  },
+                                  "start": {
+                                    "column": 16,
+                                    "line": 27
+                                  }
                                 }
                               }
-                            ]
+                            ],
+                            "range": [
+                              426,
+                              550
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 13,
+                                "line": 28
+                              },
+                              "start": {
+                                "column": 19,
+                                "line": 24
+                              }
+                            }
+                          },
+                          "range": [
+                            419,
+                            551
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 14,
+                              "line": 28
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 24
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        382,
+                        561
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 29
+                        },
+                        "start": {
+                          "column": 33,
+                          "line": 22
+                        }
+                      }
                     },
                     "test": {
                       "type": "BinaryExpression",
-                      "start": 361,
-                      "end": 380,
                       "operator": "<",
                       "left": {
                         "type": "CallExpression",
-                        "start": 361,
-                        "end": 374,
                         "arguments": [],
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 361,
-                          "end": 372,
                           "computed": false,
                           "object": {
                             "type": "Identifier",
-                            "start": 361,
-                            "end": 365,
                             "decorators": [],
                             "name": "Math",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              361,
+                              365
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 16,
+                                "line": 22
+                              },
+                              "start": {
+                                "column": 12,
+                                "line": 22
+                              }
+                            }
                           },
                           "optional": false,
                           "property": {
                             "type": "Identifier",
-                            "start": 366,
-                            "end": 372,
                             "decorators": [],
                             "name": "random",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              366,
+                              372
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 23,
+                                "line": 22
+                              },
+                              "start": {
+                                "column": 17,
+                                "line": 22
+                              }
+                            }
+                          },
+                          "range": [
+                            361,
+                            372
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 23,
+                              "line": 22
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 22
+                            }
                           }
                         },
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          361,
+                          374
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 25,
+                            "line": 22
+                          },
+                          "start": {
+                            "column": 12,
+                            "line": 22
+                          }
+                        }
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 377,
-                        "end": 380,
                         "raw": "0.5",
-                        "value": 0.5
+                        "value": 0.5,
+                        "range": [
+                          377,
+                          380
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 31,
+                            "line": 22
+                          },
+                          "start": {
+                            "column": 28,
+                            "line": 22
+                          }
+                        }
+                      },
+                      "range": [
+                        361,
+                        380
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 31,
+                          "line": 22
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 22
+                        }
+                      }
+                    },
+                    "range": [
+                      357,
+                      599
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 31
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 22
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  328,
+                  605
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 32
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 19
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -555,52 +1361,171 @@ derivedClassConstructorWithExplicitReturns01.ts
               "params": [
                 {
                   "type": "AssignmentPattern",
-                  "start": 319,
-                  "end": 326,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 319,
-                    "end": 320,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      319,
+                      320
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 19
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 19
+                      }
+                    }
                   },
                   "optional": false,
                   "right": {
                     "type": "Literal",
-                    "start": 323,
-                    "end": 326,
                     "raw": "100",
-                    "value": 100
+                    "value": 100,
+                    "range": [
+                      323,
+                      326
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 19
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 19
+                      }
+                    }
+                  },
+                  "range": [
+                    319,
+                    326
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 19
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 19
+                    }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 32
+                },
+                "start": {
+                  "column": 15,
+                  "line": 19
+                }
+              }
+            },
+            "range": [
+              307,
+              605
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 32
+              },
+              "start": {
+                "column": 4,
+                "line": 19
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 33
+          },
+          "start": {
+            "column": 18,
+            "line": 16
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 264,
-        "end": 265,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "range": [
+          264,
+          265
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 16
+          },
+          "start": {
+            "column": 6,
+            "line": 16
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 274,
-        "end": 275,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          274,
+          275
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 16
+          },
+          "start": {
+            "column": 16,
+            "line": 16
+          }
+        }
+      },
+      "range": [
+        258,
+        607
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 33
+        },
+        "start": {
+          "column": 0,
+          "line": 16
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 33
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

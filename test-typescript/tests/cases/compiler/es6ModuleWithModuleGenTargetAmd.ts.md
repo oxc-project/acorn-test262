@@ -1,38 +1,52 @@
-es6ModuleWithModuleGenTargetAmd.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 96,
+  "range": [
+    0,
+    96
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 96,
+      "range": [
+        0,
+        96
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 96,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 15,
-          "end": 96,
+          "range": [
+            15,
+            96
+          ],
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 21,
-              "end": 47,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 21,
-                "end": 32,
+                "range": [
+                  21,
+                  32
+                ],
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
+                }
               },
               "kind": "constructor",
               "optional": false,
@@ -40,36 +54,84 @@ es6ModuleWithModuleGenTargetAmd.ts
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 33,
-                "end": 47,
+                "range": [
+                  33,
+                  47
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 40,
-                  "end": 47,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    40,
+                    47
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                21,
+                47
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
               }
             },
             {
               "type": "MethodDefinition",
-              "start": 53,
-              "end": 94,
               "accessibility": "public",
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 61,
                 "decorators": [],
                 "name": "B",
-                "optional": false
+                "optional": false,
+                "range": [
+                  60,
+                  61
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 7
+                  }
+                }
               },
               "kind": "method",
               "optional": false,
@@ -77,55 +139,174 @@ es6ModuleWithModuleGenTargetAmd.ts
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 61,
-                "end": 94,
+                "range": [
+                  61,
+                  94
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 68,
-                  "end": 94,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 78,
-                      "end": 88,
                       "argument": {
                         "type": "Literal",
-                        "start": 85,
-                        "end": 87,
                         "raw": "42",
-                        "value": 42
+                        "value": 42,
+                        "range": [
+                          85,
+                          87
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 9
+                          },
+                          "start": {
+                            "column": 15,
+                            "line": 9
+                          }
+                        }
+                      },
+                      "range": [
+                        78,
+                        88
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 9
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    68,
+                    94
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 8
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                53,
+                94
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 7
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 11
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            14
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          7,
+          96
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

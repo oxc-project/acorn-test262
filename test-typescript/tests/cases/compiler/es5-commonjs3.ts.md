@@ -1,63 +1,160 @@
-es5-commonjs3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
+  "range": [
+    0,
+    50
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 22,
       "declaration": {
         "type": "Literal",
-        "start": 15,
-        "end": 21,
         "raw": "\"test\"",
-        "value": "test"
+        "value": "test",
+        "range": [
+          15,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        0,
+        22
+      ],
+      "loc": {
+        "end": {
+          "column": 22,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 23,
-      "end": 49,
+      "range": [
+        23,
+        49
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 30,
-        "end": 49,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 34,
-            "end": 48,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 34,
-              "end": 44,
               "decorators": [],
               "name": "__esModule",
-              "optional": false
+              "optional": false,
+              "range": [
+                34,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 47,
-              "end": 48,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                47,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 2
+                },
+                "start": {
+                  "column": 24,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              34,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 2
+              },
+              "start": {
+                "column": 11,
+                "line": 2
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          30,
+          49
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

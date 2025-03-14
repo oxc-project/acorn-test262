@@ -1,33 +1,45 @@
-YieldExpression11_es6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
+  "range": [
+    0,
+    42
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 42,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 42,
+        "range": [
+          8,
+          42
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 12,
-            "end": 40,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 13,
-              "end": 16,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 2
+                },
+                "start": {
+                  "column": 3,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,58 +47,179 @@ YieldExpression11_es6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 16,
-              "end": 40,
+              "range": [
+                16,
+                40
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 19,
-                "end": 40,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 25,
-                    "end": 36,
                     "expression": {
                       "type": "YieldExpression",
-                      "start": 25,
-                      "end": 35,
                       "argument": {
                         "type": "Identifier",
-                        "start": 31,
-                        "end": 34,
                         "decorators": [],
                         "name": "foo",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          31,
+                          34
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 13,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 10,
+                            "line": 3
+                          }
+                        }
                       },
-                      "delegate": false
+                      "delegate": false,
+                      "range": [
+                        25,
+                        35
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 4,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      25,
+                      36
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 4,
+                        "line": 3
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  19,
+                  40
+                ],
+                "loc": {
+                  "end": {
+                    "column": 3,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": true,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 4
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              12,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

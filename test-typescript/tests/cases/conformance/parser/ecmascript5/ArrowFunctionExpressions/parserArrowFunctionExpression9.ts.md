@@ -1,30 +1,38 @@
-fileTs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
+  "range": [
+    0,
+    17
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 16,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 16,
         "alternate": {
           "type": "ArrowFunctionExpression",
-          "start": 10,
-          "end": 16,
           "async": false,
           "body": {
             "type": "Identifier",
-            "start": 15,
-            "end": 16,
             "decorators": [],
             "name": "e",
-            "optional": false
+            "optional": false,
+            "range": [
+              15,
+              16
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 1
+              },
+              "start": {
+                "column": 15,
+                "line": 1
+              }
+            }
           },
           "expression": true,
           "generator": false,
@@ -32,33 +40,122 @@ fileTs.ts
           "params": [
             {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "range": [
+                10,
+                11
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 1
+                },
+                "start": {
+                  "column": 10,
+                  "line": 1
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            10,
+            16
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 1
+            },
+            "start": {
+              "column": 10,
+              "line": 1
+            }
+          }
         },
         "consequent": {
           "type": "Identifier",
-          "start": 5,
-          "end": 6,
           "decorators": [],
           "name": "c",
-          "optional": false
+          "optional": false,
+          "range": [
+            5,
+            6
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 1
+            },
+            "start": {
+              "column": 5,
+              "line": 1
+            }
+          }
         },
         "test": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "b",
-          "optional": false
+          "optional": false,
+          "range": [
+            0,
+            1
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          16
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        16
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

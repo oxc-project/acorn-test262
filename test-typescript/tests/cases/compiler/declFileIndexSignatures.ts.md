@@ -1,44 +1,82 @@
-declFileIndexSignatures_0.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 303,
+  "range": [
+    0,
+    303
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 67,
+      "range": [
+        0,
+        67
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 67,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 39,
-          "end": 67,
+          "range": [
+            39,
+            67
+          ],
           "body": [
             {
               "type": "TSIndexSignature",
-              "start": 45,
-              "end": 65,
               "parameters": [
                 {
                   "type": "Identifier",
-                  "start": 46,
-                  "end": 55,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 47,
-                    "end": 55,
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 2
+                      }
+                    },
+                    "range": [
+                      47,
+                      55
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 49,
-                      "end": 55
+                      "range": [
+                        49,
+                        55
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 2
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    46,
+                    55
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
                     }
                   }
                 }
@@ -47,66 +85,186 @@ declFileIndexSignatures_0.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 56,
-                "end": 64,
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  56,
+                  64
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 58,
-                  "end": 64
+                  "range": [
+                    58,
+                    64
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
+                  }
+                }
+              },
+              "range": [
+                45,
+                65
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 39,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 38,
           "decorators": [],
           "name": "IStringIndexSignature",
-          "optional": false
+          "optional": false,
+          "range": [
+            17,
+            38
+          ],
+          "loc": {
+            "end": {
+              "column": 38,
+              "line": 1
+            },
+            "start": {
+              "column": 17,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          67
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 68,
-      "end": 135,
+      "range": [
+        68,
+        135
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 75,
-        "end": 135,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 107,
-          "end": 135,
+          "range": [
+            107,
+            135
+          ],
           "body": [
             {
               "type": "TSIndexSignature",
-              "start": 113,
-              "end": 133,
               "parameters": [
                 {
                   "type": "Identifier",
-                  "start": 114,
-                  "end": 123,
                   "decorators": [],
                   "name": "n",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 115,
-                    "end": 123,
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 5
+                      }
+                    },
+                    "range": [
+                      115,
+                      123
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 117,
-                      "end": 123
+                      "range": [
+                        117,
+                        123
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 5
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    114,
+                    123
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 5
                     }
                   }
                 }
@@ -115,66 +273,186 @@ declFileIndexSignatures_0.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 124,
-                "end": 132,
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 5
+                  }
+                },
+                "range": [
+                  124,
+                  132
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 126,
-                  "end": 132
+                  "range": [
+                    126,
+                    132
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 5
+                    }
+                  }
+                }
+              },
+              "range": [
+                113,
+                133
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 6
+            },
+            "start": {
+              "column": 39,
+              "line": 4
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 85,
-          "end": 106,
           "decorators": [],
           "name": "INumberIndexSignature",
-          "optional": false
+          "optional": false,
+          "range": [
+            85,
+            106
+          ],
+          "loc": {
+            "end": {
+              "column": 38,
+              "line": 4
+            },
+            "start": {
+              "column": 17,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          75,
+          135
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 7,
+            "line": 4
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 137,
-      "end": 224,
+      "range": [
+        137,
+        224
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 144,
-        "end": 224,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 174,
-          "end": 224,
+          "range": [
+            174,
+            224
+          ],
           "body": [
             {
               "type": "TSIndexSignature",
-              "start": 180,
-              "end": 197,
               "parameters": [
                 {
                   "type": "Identifier",
-                  "start": 181,
-                  "end": 190,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 182,
-                    "end": 190,
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 9
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 9
+                      }
+                    },
+                    "range": [
+                      182,
+                      190
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 184,
-                      "end": 190
+                      "range": [
+                        184,
+                        190
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 9
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    181,
+                    190
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 9
                     }
                   }
                 }
@@ -183,35 +461,107 @@ declFileIndexSignatures_0.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 191,
-                "end": 196,
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 9
+                  }
+                },
+                "range": [
+                  191,
+                  196
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 193,
-                  "end": 196
+                  "range": [
+                    193,
+                    196
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 20,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 9
+                    }
+                  }
+                }
+              },
+              "range": [
+                180,
+                197
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 9
+                },
+                "start": {
+                  "column": 4,
+                  "line": 9
                 }
               }
             },
             {
               "type": "TSIndexSignature",
-              "start": 202,
-              "end": 222,
               "parameters": [
                 {
                   "type": "Identifier",
-                  "start": 203,
-                  "end": 212,
                   "decorators": [],
                   "name": "n",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 204,
-                    "end": 212,
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 10
+                      }
+                    },
+                    "range": [
+                      204,
+                      212
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 206,
-                      "end": 212
+                      "range": [
+                        206,
+                        212
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 10
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    203,
+                    212
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 10
                     }
                   }
                 }
@@ -220,66 +570,186 @@ declFileIndexSignatures_0.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 213,
-                "end": 221,
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 10
+                  }
+                },
+                "range": [
+                  213,
+                  221
+                ],
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
-                  "start": 215,
-                  "end": 221
+                  "range": [
+                    215,
+                    221
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 10
+                    }
+                  }
+                }
+              },
+              "range": [
+                202,
+                222
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 11
+            },
+            "start": {
+              "column": 37,
+              "line": 8
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 154,
-          "end": 173,
           "decorators": [],
           "name": "IBothIndexSignature",
-          "optional": false
+          "optional": false,
+          "range": [
+            154,
+            173
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 8
+            },
+            "start": {
+              "column": 17,
+              "line": 8
+            }
+          }
+        },
+        "range": [
+          144,
+          224
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 7,
+            "line": 8
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 226,
-      "end": 302,
+      "range": [
+        226,
+        302
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 233,
-        "end": 302,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 279,
-          "end": 302,
+          "range": [
+            279,
+            302
+          ],
           "body": [
             {
               "type": "TSIndexSignature",
-              "start": 285,
-              "end": 300,
               "parameters": [
                 {
                   "type": "Identifier",
-                  "start": 286,
-                  "end": 295,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 287,
-                    "end": 295,
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 14
+                      }
+                    },
+                    "range": [
+                      287,
+                      295
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 289,
-                      "end": 295
+                      "range": [
+                        289,
+                        295
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 14
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    286,
+                    295
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 14
                     }
                   }
                 }
@@ -288,103 +758,282 @@ declFileIndexSignatures_0.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 296,
-                "end": 299,
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 14
+                  }
+                },
+                "range": [
+                  296,
+                  299
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 298,
-                  "end": 299,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 298,
-                    "end": 299,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      298,
+                      299
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 14
+                      }
+                    }
+                  },
+                  "range": [
+                    298,
+                    299
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 14
+                    }
                   }
+                }
+              },
+              "range": [
+                285,
+                300
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 14
+                },
+                "start": {
+                  "column": 4,
+                  "line": 14
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 15
+            },
+            "start": {
+              "column": 53,
+              "line": 13
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 243,
-          "end": 275,
           "decorators": [],
           "name": "IIndexSignatureWithTypeParameter",
-          "optional": false
+          "optional": false,
+          "range": [
+            243,
+            275
+          ],
+          "loc": {
+            "end": {
+              "column": 49,
+              "line": 13
+            },
+            "start": {
+              "column": 17,
+              "line": 13
+            }
+          }
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 275,
-          "end": 278,
+          "loc": {
+            "end": {
+              "column": 52,
+              "line": 13
+            },
+            "start": {
+              "column": 49,
+              "line": 13
+            }
+          },
+          "range": [
+            275,
+            278
+          ],
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 276,
-              "end": 277,
               "const": false,
               "in": false,
               "name": {
                 "type": "Identifier",
-                "start": 276,
-                "end": 277,
                 "decorators": [],
                 "name": "T",
-                "optional": false
+                "optional": false,
+                "range": [
+                  276,
+                  277
+                ],
+                "loc": {
+                  "end": {
+                    "column": 51,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 50,
+                    "line": 13
+                  }
+                }
               },
-              "out": false
+              "out": false,
+              "range": [
+                276,
+                277
+              ],
+              "loc": {
+                "end": {
+                  "column": 51,
+                  "line": 13
+                },
+                "start": {
+                  "column": 50,
+                  "line": 13
+                }
+              }
             }
           ]
+        },
+        "range": [
+          233,
+          302
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 15
+          },
+          "start": {
+            "column": 7,
+            "line": 13
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 16
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-declFileIndexSignatures_1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 298,
+  "range": [
+    0,
+    298
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 66,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 38,
-        "end": 66,
+        "range": [
+          38,
+          66
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 44,
-            "end": 64,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 45,
-                "end": 54,
                 "decorators": [],
                 "name": "s",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 46,
-                  "end": 54,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 2
+                    }
+                  },
+                  "range": [
+                    46,
+                    54
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 48,
-                    "end": 54
+                    "range": [
+                      48,
+                      54
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 2
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  45,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 2
                   }
                 }
               }
@@ -393,57 +1042,165 @@ declFileIndexSignatures_1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 55,
-              "end": 63,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              },
+              "range": [
+                55,
+                63
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 57,
-                "end": 63
+                "range": [
+                  57,
+                  63
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
+                }
+              }
+            },
+            "range": [
+              44,
+              64
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 38,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 37,
         "decorators": [],
         "name": "IGlobalStringIndexSignature",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          37
+        ],
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 67,
-      "end": 133,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 105,
-        "end": 133,
+        "range": [
+          105,
+          133
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 111,
-            "end": 131,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 112,
-                "end": 121,
                 "decorators": [],
                 "name": "n",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 113,
-                  "end": 121,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 5
+                    }
+                  },
+                  "range": [
+                    113,
+                    121
+                  ],
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 115,
-                    "end": 121
+                    "range": [
+                      115,
+                      121
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 5
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  112,
+                  121
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 5
                   }
                 }
               }
@@ -452,57 +1209,165 @@ declFileIndexSignatures_1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 122,
-              "end": 130,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 5
+                }
+              },
+              "range": [
+                122,
+                130
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 124,
-                "end": 130
+                "range": [
+                  124,
+                  130
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 5
+                  }
+                }
+              }
+            },
+            "range": [
+              111,
+              131
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 38,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 77,
-        "end": 104,
         "decorators": [],
         "name": "IGlobalNumberIndexSignature",
-        "optional": false
+        "optional": false,
+        "range": [
+          77,
+          104
+        ],
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 4
+          },
+          "start": {
+            "column": 10,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        67,
+        133
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 135,
-      "end": 221,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 171,
-        "end": 221,
+        "range": [
+          171,
+          221
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 177,
-            "end": 194,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 178,
-                "end": 187,
                 "decorators": [],
                 "name": "s",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 179,
-                  "end": 187,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 9
+                    }
+                  },
+                  "range": [
+                    179,
+                    187
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 181,
-                    "end": 187
+                    "range": [
+                      181,
+                      187
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 9
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 9
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  178,
+                  187
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 9
                   }
                 }
               }
@@ -511,35 +1376,107 @@ declFileIndexSignatures_1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 188,
-              "end": 193,
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 9
+                },
+                "start": {
+                  "column": 15,
+                  "line": 9
+                }
+              },
+              "range": [
+                188,
+                193
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 190,
-                "end": 193
+                "range": [
+                  190,
+                  193
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 9
+                  }
+                }
+              }
+            },
+            "range": [
+              177,
+              194
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
               }
             }
           },
           {
             "type": "TSIndexSignature",
-            "start": 199,
-            "end": 219,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 200,
-                "end": 209,
                 "decorators": [],
                 "name": "n",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 201,
-                  "end": 209,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 10
+                    }
+                  },
+                  "range": [
+                    201,
+                    209
+                  ],
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 203,
-                    "end": 209
+                    "range": [
+                      203,
+                      209
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 10
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  200,
+                  209
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 10
                   }
                 }
               }
@@ -548,57 +1485,165 @@ declFileIndexSignatures_1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 210,
-              "end": 218,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 10
+                },
+                "start": {
+                  "column": 15,
+                  "line": 10
+                }
+              },
+              "range": [
+                210,
+                218
+              ],
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
-                "start": 212,
-                "end": 218
+                "range": [
+                  212,
+                  218
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 10
+                  }
+                }
+              }
+            },
+            "range": [
+              199,
+              219
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 36,
+            "line": 8
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 145,
-        "end": 170,
         "decorators": [],
         "name": "IGlobalBothIndexSignature",
-        "optional": false
+        "optional": false,
+        "range": [
+          145,
+          170
+        ],
+        "loc": {
+          "end": {
+            "column": 35,
+            "line": 8
+          },
+          "start": {
+            "column": 10,
+            "line": 8
+          }
+        }
+      },
+      "range": [
+        135,
+        221
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 223,
-      "end": 298,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 275,
-        "end": 298,
+        "range": [
+          275,
+          298
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 281,
-            "end": 296,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 282,
-                "end": 291,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 283,
-                  "end": 291,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 14
+                    }
+                  },
+                  "range": [
+                    283,
+                    291
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 285,
-                    "end": 291
+                    "range": [
+                      285,
+                      291
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 14
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  282,
+                  291
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 14
                   }
                 }
               }
@@ -607,60 +1652,193 @@ declFileIndexSignatures_1.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 292,
-              "end": 295,
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 14
+                },
+                "start": {
+                  "column": 15,
+                  "line": 14
+                }
+              },
+              "range": [
+                292,
+                295
+              ],
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 294,
-                "end": 295,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 294,
-                  "end": 295,
                   "decorators": [],
                   "name": "T",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    294,
+                    295
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  294,
+                  295
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 14
+                  }
                 }
+              }
+            },
+            "range": [
+              281,
+              296
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 14
+              },
+              "start": {
+                "column": 4,
+                "line": 14
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 15
+          },
+          "start": {
+            "column": 52,
+            "line": 13
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 233,
-        "end": 271,
         "decorators": [],
         "name": "IGlobalIndexSignatureWithTypeParameter",
-        "optional": false
+        "optional": false,
+        "range": [
+          233,
+          271
+        ],
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 13
+          },
+          "start": {
+            "column": 10,
+            "line": 13
+          }
+        }
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 271,
-        "end": 274,
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 13
+          },
+          "start": {
+            "column": 48,
+            "line": 13
+          }
+        },
+        "range": [
+          271,
+          274
+        ],
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 272,
-            "end": 273,
             "const": false,
             "in": false,
             "name": {
               "type": "Identifier",
-              "start": 272,
-              "end": 273,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "range": [
+                272,
+                273
+              ],
+              "loc": {
+                "end": {
+                  "column": 50,
+                  "line": 13
+                },
+                "start": {
+                  "column": 49,
+                  "line": 13
+                }
+              }
             },
-            "out": false
+            "out": false,
+            "range": [
+              272,
+              273
+            ],
+            "loc": {
+              "end": {
+                "column": 50,
+                "line": 13
+              },
+              "start": {
+                "column": 49,
+                "line": 13
+              }
+            }
           }
         ]
+      },
+      "range": [
+        223,
+        298
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 15
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

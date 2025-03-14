@@ -1,33 +1,45 @@
-jsdocParameterParsingInvalidName.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
+  "range": [
+    0,
+    81
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 81,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 81,
+        "range": [
+          8,
+          81
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 60,
-            "end": 79,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 60,
-              "end": 66,
               "decorators": [],
               "name": "method",
-              "optional": false
+              "optional": false,
+              "range": [
+                60,
+                66
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,14 +47,28 @@ jsdocParameterParsingInvalidName.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 66,
-              "end": 79,
+              "range": [
+                66,
+                79
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 72,
-                "end": 79,
-                "body": []
+                "body": [],
+                "range": [
+                  72,
+                  79
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,31 +77,114 @@ jsdocParameterParsingInvalidName.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 70,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    67,
+                    70
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 5
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 10,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              60,
+              79
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "c",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        81
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

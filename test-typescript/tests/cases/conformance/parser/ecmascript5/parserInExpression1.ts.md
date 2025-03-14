@@ -1,47 +1,63 @@
-parserInExpression1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
+  "range": [
+    0,
+    34
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 34,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 33,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 12,
-            "end": 32,
             "operator": "in",
             "left": {
               "type": "Literal",
-              "start": 12,
-              "end": 15,
               "raw": "\"a\"",
-              "value": "a"
+              "value": "a",
+              "range": [
+                12,
+                15
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 1
+                },
+                "start": {
+                  "column": 12,
+                  "line": 1
+                }
+              }
             },
             "right": {
               "type": "ObjectExpression",
-              "start": 19,
-              "end": 32,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 21,
-                  "end": 30,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 21,
-                    "end": 24,
                     "raw": "\"a\"",
-                    "value": "a"
+                    "value": "a",
+                    "range": [
+                      21,
+                      24
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 1
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -49,43 +65,172 @@ parserInExpression1.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 30,
                     "raw": "true",
-                    "value": true
+                    "value": true,
+                    "range": [
+                      26,
+                      30
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 26,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    21,
+                    30
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 30,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 1
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                19,
+                32
+              ],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 1
+                },
+                "start": {
+                  "column": 19,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              12,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
             }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 11,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 7,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "range": [
+              0,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 0,
+                "line": 1
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 8,
-            "end": 11,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "range": [
+              8,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            0,
+            11
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          33
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 34,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

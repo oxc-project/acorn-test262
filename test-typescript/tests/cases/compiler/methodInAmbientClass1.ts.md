@@ -1,33 +1,45 @@
-methodInAmbientClass1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 4,
-  "end": 57,
+  "range": [
+    4,
+    57
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 4,
-      "end": 57,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 22,
-        "end": 57,
+        "range": [
+          22,
+          57
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 29,
-            "end": 51,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 29,
-              "end": 31,
               "decorators": [],
               "name": "fn",
-              "optional": false
+              "optional": false,
+              "range": [
+                29,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 5,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,14 +47,28 @@ methodInAmbientClass1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 31,
-              "end": 51,
+              "range": [
+                31,
+                51
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 43,
-                "end": 51,
-                "body": []
+                "body": [],
+                "range": [
+                  43,
+                  51
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,32 +77,127 @@ methodInAmbientClass1.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 33,
-                "end": 42,
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  33,
+                  42
+                ],
                 "typeAnnotation": {
                   "type": "TSBooleanKeyword",
-                  "start": 35,
-                  "end": 42
+                  "range": [
+                    35,
+                    42
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              29,
+              51
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 3
+              },
+              "start": {
+                "column": 5,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 4
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 21,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          18,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        4,
+        57
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 4
+        },
+        "start": {
+          "column": 4,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 5,
+      "line": 4
+    },
+    "start": {
+      "column": 4,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

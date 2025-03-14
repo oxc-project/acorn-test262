@@ -1,45 +1,63 @@
-templateStringInPropertyAssignmentES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 63,
+  "range": [
+    17,
+    63
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 63,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 63,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              21,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 25,
-            "end": 63,
             "properties": [
               {
                 "type": "Property",
-                "start": 31,
-                "end": 61,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 32,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    31,
+                    32
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,66 +65,205 @@ templateStringInPropertyAssignmentES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "TemplateLiteral",
-                  "start": 34,
-                  "end": 61,
                   "expressions": [
                     {
                       "type": "Literal",
-                      "start": 41,
-                      "end": 44,
                       "raw": "123",
-                      "value": 123
+                      "value": 123,
+                      "range": [
+                        41,
+                        44
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 14,
+                          "line": 3
+                        }
+                      }
                     },
                     {
                       "type": "Literal",
-                      "start": 52,
-                      "end": 55,
                       "raw": "456",
-                      "value": 456
+                      "value": 456,
+                      "range": [
+                        52,
+                        55
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 25,
+                          "line": 3
+                        }
+                      }
                     }
                   ],
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 34,
-                      "end": 40,
                       "tail": false,
                       "value": {
                         "cooked": "abc",
                         "raw": "abc"
+                      },
+                      "range": [
+                        34,
+                        40
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 13,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 7,
+                          "line": 3
+                        }
                       }
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 45,
-                      "end": 51,
                       "tail": false,
                       "value": {
                         "cooked": "def",
                         "raw": "def"
+                      },
+                      "range": [
+                        45,
+                        51
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 3
+                        }
                       }
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 56,
-                      "end": 61,
                       "tail": true,
                       "value": {
                         "cooked": "ghi",
                         "raw": "ghi"
+                      },
+                      "range": [
+                        56,
+                        61
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 34,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 29,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    34,
+                    61
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  31,
+                  61
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              25,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 4
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            21,
+            63
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        17,
+        63
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,71 +1,180 @@
-multipleExportDefault5.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 60,
+  "range": [
+    1,
+    60
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 34,
+      "range": [
+        1,
+        34
+      ],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 16,
-        "end": 34,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 31,
-          "end": 34,
-          "body": []
+          "body": [],
+          "range": [
+            31,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 34,
+              "line": 1
+            },
+            "start": {
+              "column": 31,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "range": [
+            25,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 1
+            },
+            "start": {
+              "column": 25,
+              "line": 1
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          16,
+          34
+        ],
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 1
+          },
+          "start": {
+            "column": 16,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 1
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 35,
-      "end": 60,
+      "range": [
+        35,
+        60
+      ],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 50,
-        "end": 60,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 58,
-          "end": 60,
-          "body": []
+          "range": [
+            58,
+            60
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 2
+            },
+            "start": {
+              "column": 23,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 56,
-          "end": 57,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            56,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 2
+            },
+            "start": {
+              "column": 21,
+              "line": 2
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          50,
+          60
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 25,
+      "line": 2
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

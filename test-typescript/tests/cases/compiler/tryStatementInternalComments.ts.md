@@ -1,60 +1,169 @@
-tryStatementInternalComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 6,
-  "end": 174,
+  "range": [
+    6,
+    174
+  ],
   "body": [
     {
       "type": "TryStatement",
-      "start": 6,
-      "end": 167,
       "block": {
         "type": "BlockStatement",
-        "start": 16,
-        "end": 64,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 34,
-            "end": 57,
             "argument": {
               "type": "Literal",
-              "start": 46,
-              "end": 50,
               "raw": "\"no\"",
-              "value": "no"
+              "value": "no",
+              "range": [
+                46,
+                50
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 2
+                },
+                "start": {
+                  "column": 22,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              34,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 2
+              },
+              "start": {
+                "column": 10,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          16,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 3
+          },
+          "start": {
+            "column": 16,
+            "line": 1
+          }
+        }
       },
       "finalizer": {
         "type": "BlockStatement",
-        "start": 150,
-        "end": 167,
-        "body": []
+        "body": [],
+        "range": [
+          150,
+          167
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 7
+          },
+          "start": {
+            "column": 30,
+            "line": 5
+          }
+        }
       },
       "handler": {
         "type": "CatchClause",
-        "start": 71,
-        "end": 127,
         "body": {
           "type": "BlockStatement",
-          "start": 110,
-          "end": 127,
-          "body": []
+          "body": [],
+          "range": [
+            110,
+            127
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 5
+            },
+            "start": {
+              "column": 52,
+              "line": 3
+            }
+          }
         },
         "param": {
           "type": "Identifier",
-          "start": 92,
-          "end": 93,
           "decorators": [],
           "name": "e",
-          "optional": false
+          "optional": false,
+          "range": [
+            92,
+            93
+          ],
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 3
+            },
+            "start": {
+              "column": 34,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          71,
+          127
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 5
+          },
+          "start": {
+            "column": 13,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        6,
+        167
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 7
+        },
+        "start": {
+          "column": 6,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 14,
+      "line": 7
+    },
+    "start": {
+      "column": 6,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

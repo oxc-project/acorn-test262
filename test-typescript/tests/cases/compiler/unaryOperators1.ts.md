@@ -1,71 +1,192 @@
-unaryOperators1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
+  "range": [
+    0,
+    18
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 5,
       "expression": {
         "type": "UnaryExpression",
-        "start": 0,
-        "end": 4,
         "argument": {
           "type": "Identifier",
-          "start": 1,
-          "end": 4,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            1,
+            4
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 1
+            },
+            "start": {
+              "column": 1,
+              "line": 1
+            }
+          }
         },
         "operator": "+",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          0,
+          4
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        5
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 6,
-      "end": 11,
       "expression": {
         "type": "UnaryExpression",
-        "start": 6,
-        "end": 10,
         "argument": {
           "type": "Identifier",
-          "start": 7,
-          "end": 10,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "range": [
+            7,
+            10
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 2
+            },
+            "start": {
+              "column": 1,
+              "line": 2
+            }
+          }
         },
         "operator": "-",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          6,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        6,
+        11
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 12,
-      "end": 18,
       "expression": {
         "type": "UnaryExpression",
-        "start": 12,
-        "end": 17,
         "argument": {
           "type": "Identifier",
-          "start": 13,
-          "end": 17,
           "decorators": [],
           "name": "quux",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            17
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 3
+            },
+            "start": {
+              "column": 1,
+              "line": 3
+            }
+          }
         },
         "operator": "~",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          12,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        12,
+        18
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 6,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

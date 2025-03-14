@@ -1,24 +1,24 @@
-test.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 136,
+  "range": [
+    0,
+    136
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 135,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 24,
-        "end": 135,
+        "range": [
+          24,
+          135
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 30,
-            "end": 59,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,22 +26,46 @@ test.d.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 45,
-              "end": 58,
               "decorators": [],
               "name": "someStaticVar",
-              "optional": false
+              "optional": false,
+              "range": [
+                45,
+                58
+              ],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 3
+                },
+                "start": {
+                  "column": 19,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": true,
-            "value": null
+            "value": null,
+            "range": [
+              30,
+              59
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           {
             "type": "PropertyDefinition",
-            "start": 64,
-            "end": 80,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -49,32 +73,68 @@ test.d.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 72,
-              "end": 79,
               "decorators": [],
               "name": "someVar",
-              "optional": false
+              "optional": false,
+              "range": [
+                72,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 4
+                },
+                "start": {
+                  "column": 12,
+                  "line": 4
+                }
+              }
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
-            "value": null
+            "value": null,
+            "range": [
+              64,
+              80
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 85,
-            "end": 106,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 97,
-              "end": 103,
               "decorators": [],
               "name": "getter",
-              "optional": false
+              "optional": false,
+              "range": [
+                97,
+                103
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 5
+                },
+                "start": {
+                  "column": 16,
+                  "line": 5
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -82,31 +142,67 @@ test.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 103,
-              "end": 106,
+              "range": [
+                103,
+                106
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 5
+                },
+                "start": {
+                  "column": 22,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              85,
+              106
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 111,
-            "end": 133,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 123,
-              "end": 129,
               "decorators": [],
               "name": "setter",
-              "optional": false
+              "optional": false,
+              "range": [
+                123,
+                129
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 6
+                },
+                "start": {
+                  "column": 16,
+                  "line": 6
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -114,8 +210,10 @@ test.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 129,
-              "end": 133,
+              "range": [
+                129,
+                133
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -125,79 +223,235 @@ test.d.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 130,
-                  "end": 131,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    130,
+                    131
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 6
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 6
+                },
+                "start": {
+                  "column": 22,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              111,
+              133
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 23,
         "decorators": [],
         "name": "Something",
-        "optional": false
+        "optional": false,
+        "range": [
+          14,
+          23
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        135
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-app.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 35,
-  "end": 60,
+  "range": [
+    35,
+    60
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 35,
-      "end": 59,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 39,
-          "end": 58,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 39,
-            "end": 40,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              39,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "NewExpression",
-            "start": 43,
-            "end": 58,
             "arguments": [],
             "callee": {
               "type": "Identifier",
-              "start": 47,
-              "end": 56,
               "decorators": [],
               "name": "Something",
-              "optional": false
+              "optional": false,
+              "range": [
+                47,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              43,
+              58
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            39,
+            58
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        35,
+        59
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

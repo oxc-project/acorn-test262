@@ -1,45 +1,63 @@
-reservedWords.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 178,
+  "range": [
+    0,
+    178
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 71,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 71,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 71,
             "properties": [
               {
                 "type": "Property",
-                "start": 16,
-                "end": 21,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 16,
-                  "end": 18,
                   "decorators": [],
                   "name": "if",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    16,
+                    18
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 6,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,24 +65,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 20,
-                  "end": 21,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    20,
+                    21
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  16,
+                  21
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 27,
-                "end": 38,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 35,
                   "decorators": [],
                   "name": "debugger",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    27,
+                    35
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -72,24 +126,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 37,
-                  "end": 38,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "range": [
+                    37,
+                    38
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  27,
+                  38
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 44,
-                "end": 52,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 49,
                   "decorators": [],
                   "name": "break",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    44,
+                    49
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -97,24 +187,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 51,
-                  "end": 52,
                   "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "range": [
+                    51,
+                    52
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  44,
+                  52
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 58,
-                "end": 69,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 58,
-                  "end": 66,
                   "decorators": [],
                   "name": "function",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    58,
+                    66
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 5
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -122,54 +248,138 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 68,
-                  "end": 69,
                   "raw": "4",
-                  "value": 4
+                  "value": 4,
+                  "range": [
+                    68,
+                    69
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 5
+                    }
+                  }
+                },
+                "range": [
+                  58,
+                  69
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 5
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              10,
+              71
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 6
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            71
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        71
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 91,
-      "end": 177,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 95,
-          "end": 177,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 95,
-            "end": 99,
             "decorators": [],
             "name": "obj2",
-            "optional": false
+            "optional": false,
+            "range": [
+              95,
+              99
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 102,
-            "end": 177,
             "properties": [
               {
                 "type": "Property",
-                "start": 108,
-                "end": 113,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 108,
-                  "end": 110,
                   "decorators": [],
                   "name": "if",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    108,
+                    110
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 6,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 11
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -177,24 +387,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 112,
-                  "end": 113,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    112,
+                    113
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 11
+                    }
+                  }
+                },
+                "range": [
+                  108,
+                  113
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 11
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 119,
-                "end": 127,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 119,
-                  "end": 124,
                   "decorators": [],
                   "name": "while",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    119,
+                    124
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 12
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -202,24 +448,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 126,
-                  "end": 127,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    126,
+                    127
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 12
+                    }
+                  }
+                },
+                "range": [
+                  119,
+                  127
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 12
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 133,
-                "end": 144,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 133,
-                  "end": 141,
                   "decorators": [],
                   "name": "debugger",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    133,
+                    141
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 13
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -227,24 +509,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 143,
-                  "end": 144,
                   "raw": "2",
-                  "value": 2
+                  "value": 2,
+                  "range": [
+                    143,
+                    144
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 13
+                    }
+                  }
+                },
+                "range": [
+                  133,
+                  144
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 13
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 150,
-                "end": 158,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 150,
-                  "end": 155,
                   "decorators": [],
                   "name": "break",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    150,
+                    155
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 14
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -252,24 +570,60 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 157,
-                  "end": 158,
                   "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "range": [
+                    157,
+                    158
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  150,
+                  158
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 14
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 164,
-                "end": 175,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 164,
-                  "end": 172,
                   "decorators": [],
                   "name": "function",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    164,
+                    172
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 15
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -277,20 +631,99 @@ reservedWords.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 174,
-                  "end": 175,
                   "raw": "4",
-                  "value": 4
+                  "value": 4,
+                  "range": [
+                    174,
+                    175
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 15
+                    }
+                  }
+                },
+                "range": [
+                  164,
+                  175
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 15
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              102,
+              177
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 16
+              },
+              "start": {
+                "column": 11,
+                "line": 10
+              }
+            }
+          },
+          "range": [
+            95,
+            177
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 16
+            },
+            "start": {
+              "column": 4,
+              "line": 10
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        91,
+        177
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 17
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

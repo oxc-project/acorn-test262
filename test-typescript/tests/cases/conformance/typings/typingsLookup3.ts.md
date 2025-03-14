@@ -1,113 +1,295 @@
-/node_modules/@types/jquery/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
+  "range": [
+    0,
+    27
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 25,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 25,
             "decorators": [],
             "name": "$",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 25,
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              },
+              "range": [
+                13,
+                25
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 15,
-                "end": 25,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 17,
-                    "end": 23,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 17,
-                      "end": 18,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        17,
+                        18
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 1
+                        }
+                      }
                     },
                     "optional": false,
                     "readonly": false,
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 18,
-                      "end": 23,
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 1
+                        }
+                      },
+                      "range": [
+                        18,
+                        23
+                      ],
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
-                        "start": 20,
-                        "end": 23
+                        "range": [
+                          20,
+                          23
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 20,
+                            "line": 1
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      17,
+                      23
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 1
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  15,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              12,
+              25
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            25
+          ],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
-    }
-  ],
-  "sourceType": "module"
-}
-```
-/a.ts
-```json
-{
-  "type": "Program",
-  "start": 33,
-  "end": 38,
-  "body": [
-    {
-      "type": "ExpressionStatement",
-      "start": 33,
-      "end": 37,
-      "expression": {
-        "type": "MemberExpression",
-        "start": 33,
-        "end": 36,
-        "computed": false,
-        "object": {
-          "type": "Identifier",
-          "start": 33,
-          "end": 34,
-          "decorators": [],
-          "name": "$",
-          "optional": false
+      "kind": "var",
+      "range": [
+        0,
+        26
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 1
         },
-        "optional": false,
-        "property": {
-          "type": "Identifier",
-          "start": 35,
-          "end": 36,
-          "decorators": [],
-          "name": "x",
-          "optional": false
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "range": [
+    33,
+    38
+  ],
+  "body": [
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "MemberExpression",
+        "computed": false,
+        "object": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "$",
+          "optional": false,
+          "range": [
+            33,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
+        },
+        "optional": false,
+        "property": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "range": [
+            35,
+            36
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 2
+            },
+            "start": {
+              "column": 2,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          33,
+          36
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        33,
+        37
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

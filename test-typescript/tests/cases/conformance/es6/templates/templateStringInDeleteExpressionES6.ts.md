@@ -1,59 +1,144 @@
-templateStringInDeleteExpressionES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 37,
+  "range": [
+    17,
+    37
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 37,
       "expression": {
         "type": "UnaryExpression",
-        "start": 17,
-        "end": 36,
         "argument": {
           "type": "TemplateLiteral",
-          "start": 24,
-          "end": 36,
           "expressions": [
             {
               "type": "Literal",
-              "start": 30,
-              "end": 31,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                30,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
             }
           ],
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 24,
-              "end": 30,
               "tail": false,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
+              },
+              "range": [
+                24,
+                30
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
               }
             },
             {
               "type": "TemplateElement",
-              "start": 31,
-              "end": 36,
               "tail": true,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
+              },
+              "range": [
+                31,
+                36
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            24,
+            36
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
+          }
         },
         "operator": "delete",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          17,
+          36
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        17,
+        37
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,40 +1,76 @@
-staticIndexSignature7.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 237,
+  "range": [
+    0,
+    237
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 117,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 117,
+        "range": [
+          8,
+          117
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 14,
-            "end": 45,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 22,
-                "end": 35,
                 "decorators": [],
                 "name": "index",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 27,
-                  "end": 35,
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
+                  },
+                  "range": [
+                    27,
+                    35
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 29,
-                    "end": 35
+                    "range": [
+                      29,
+                      35
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 2
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  22,
+                  35
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 2
                   }
                 }
               }
@@ -43,30 +79,78 @@ staticIndexSignature7.ts
             "static": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 44,
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 2
+                },
+                "start": {
+                  "column": 26,
+                  "line": 2
+                }
+              },
+              "range": [
+                36,
+                44
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 38,
-                "end": 44
+                "range": [
+                  38,
+                  44
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 2
+                  }
+                }
+              }
+            },
+            "range": [
+              14,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 50,
-            "end": 64,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 57,
-              "end": 58,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                57,
+                58
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -74,57 +158,153 @@ staticIndexSignature7.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 61,
-              "end": 63,
               "raw": "12",
-              "value": 12
+              "value": 12,
+              "range": [
+                61,
+                63
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              50,
+              64
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        117
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 118,
-      "end": 236,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 126,
-        "end": 236,
+        "range": [
+          126,
+          236
+        ],
         "body": [
           {
             "type": "TSIndexSignature",
-            "start": 132,
-            "end": 163,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 140,
-                "end": 153,
                 "decorators": [],
                 "name": "index",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 145,
-                  "end": 153,
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 6
+                    }
+                  },
+                  "range": [
+                    145,
+                    153
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 147,
-                    "end": 153
+                    "range": [
+                      147,
+                      153
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 6
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  140,
+                  153
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 6
                   }
                 }
               }
@@ -133,28 +313,76 @@ staticIndexSignature7.ts
             "static": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 154,
-              "end": 162,
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 6
+                },
+                "start": {
+                  "column": 26,
+                  "line": 6
+                }
+              },
+              "range": [
+                154,
+                162
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 156,
-                "end": 162
+                "range": [
+                  156,
+                  162
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 6
+                  }
+                }
+              }
+            },
+            "range": [
+              132,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 168,
-            "end": 183,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 175,
-              "end": 178,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                175,
+                178
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 7
+                },
+                "start": {
+                  "column": 11,
+                  "line": 7
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -162,38 +390,123 @@ staticIndexSignature7.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 178,
-              "end": 183,
+              "range": [
+                178,
+                183
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 181,
-                "end": 183,
-                "body": []
+                "body": [],
+                "range": [
+                  181,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 7
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 7
+                },
+                "start": {
+                  "column": 14,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              168,
+              183
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 8,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 124,
-        "end": 125,
         "decorators": [],
         "name": "Y",
-        "optional": false
+        "optional": false,
+        "range": [
+          124,
+          125
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 5
+          },
+          "start": {
+            "column": 6,
+            "line": 5
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        118,
+        236
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,17 +1,42 @@
-asiReturn.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 96,
-  "end": 102,
+  "range": [
+    96,
+    102
+  ],
   "body": [
     {
       "type": "ReturnStatement",
-      "start": 96,
-      "end": 102,
-      "argument": null
+      "argument": null,
+      "range": [
+        96,
+        102
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 6,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

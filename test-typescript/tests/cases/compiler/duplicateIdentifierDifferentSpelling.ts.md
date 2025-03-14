@@ -1,34 +1,46 @@
-duplicateIdentifierDifferentSpelling.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
+  "range": [
+    0,
+    65
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 34,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 34,
+        "range": [
+          8,
+          34
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 12,
-            "end": 22,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 12,
-              "end": 16,
               "raw": "0b11",
-              "value": 3
+              "value": 3,
+              "range": [
+                12,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 2
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -36,26 +48,62 @@ duplicateIdentifierDifferentSpelling.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 19,
-              "end": 21,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "range": [
+                19,
+                21
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 2
+                },
+                "start": {
+                  "column": 9,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              12,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 25,
-            "end": 32,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 25,
-              "end": 26,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "range": [
+                25,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -63,61 +111,139 @@ duplicateIdentifierDifferentSpelling.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 29,
-              "end": 31,
               "raw": "''",
-              "value": ""
+              "value": "",
+              "range": [
+                29,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 3
+                },
+                "start": {
+                  "column": 6,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              25,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 36,
-      "end": 64,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 40,
-          "end": 63,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 40,
-            "end": 41,
             "decorators": [],
             "name": "X",
-            "optional": false
+            "optional": false,
+            "range": [
+              40,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 44,
-            "end": 63,
             "properties": [
               {
                 "type": "Property",
-                "start": 46,
-                "end": 54,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 46,
-                  "end": 50,
                   "raw": "0b11",
-                  "value": 3
+                  "value": 3,
+                  "range": [
+                    46,
+                    50
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 6
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -125,23 +251,59 @@ duplicateIdentifierDifferentSpelling.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 52,
-                  "end": 54,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "range": [
+                    52,
+                    54
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  46,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 6
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 56,
-                "end": 61,
                 "computed": false,
                 "key": {
                   "type": "Literal",
-                  "start": 56,
-                  "end": 57,
                   "raw": "3",
-                  "value": 3
+                  "value": 3,
+                  "range": [
+                    56,
+                    57
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 6
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -149,20 +311,99 @@ duplicateIdentifierDifferentSpelling.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 59,
-                  "end": 61,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "range": [
+                    59,
+                    61
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  56,
+                  61
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 6
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              44,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 6
+              },
+              "start": {
+                "column": 8,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            40,
+            63
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        36,
+        64
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

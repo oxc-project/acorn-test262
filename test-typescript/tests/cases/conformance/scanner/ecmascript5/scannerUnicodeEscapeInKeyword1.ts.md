@@ -1,4 +1,4 @@
-scannerUnicodeEscapeInKeyword1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Keywords cannot contain escape characters.
 ```

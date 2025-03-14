@@ -1,61 +1,158 @@
-continueNotInIterationStatement2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
+  "range": [
+    0,
+    51
+  ],
   "body": [
     {
       "type": "WhileStatement",
-      "start": 0,
-      "end": 51,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 51,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 17,
-            "end": 49,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 30,
-              "end": 49,
               "body": [
                 {
                   "type": "ContinueStatement",
-                  "start": 36,
-                  "end": 45,
-                  "label": null
+                  "label": null,
+                  "range": [
+                    36,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 }
-              ]
+              ],
+              "range": [
+                30,
+                49
+              ],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 26,
-              "end": 27,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "range": [
+                26,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
-            "params": []
+            "params": [],
+            "range": [
+              17,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          13,
+          51
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 13,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          7,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        51
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

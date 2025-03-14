@@ -1,55 +1,140 @@
-parserEnumDeclaration2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
+  "range": [
+    0,
+    43
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 43,
       "body": {
         "type": "TSModuleBlock",
-        "start": 17,
-        "end": 43,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 21,
-            "end": 41,
             "body": {
               "type": "TSEnumBody",
-              "start": 36,
-              "end": 41,
-              "members": []
+              "range": [
+                36,
+                41
+              ],
+              "members": [],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 3
+                },
+                "start": {
+                  "column": 17,
+                  "line": 2
+                }
+              }
             },
             "const": false,
             "declare": true,
             "id": {
               "type": "Identifier",
-              "start": 34,
-              "end": 35,
               "decorators": [],
               "name": "E",
-              "optional": false
+              "optional": false,
+              "range": [
+                34,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              21,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          17,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
+        "range": [
+          15,
+          16
+        ],
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        43
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

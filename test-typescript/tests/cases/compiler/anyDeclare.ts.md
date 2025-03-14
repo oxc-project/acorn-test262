@@ -1,116 +1,297 @@
-anyDeclare.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
+  "range": [
+    0,
+    76
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 18,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 18,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 18,
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              },
+              "range": [
+                13,
+                18
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 15,
-                "end": 18
+                "range": [
+                  15,
+                  18
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              12,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            18
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 1
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 20,
-      "end": 75,
       "body": {
         "type": "TSModuleBlock",
-        "start": 33,
-        "end": 75,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 39,
-            "end": 48,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 43,
-                "end": 47,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 47,
                   "decorators": [],
                   "name": "myFn",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    43,
+                    47
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 3
+                    }
+                  }
                 },
-                "init": null
+                "init": null,
+                "range": [
+                  43,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
               }
             ],
             "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "range": [
+              39,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           {
             "type": "FunctionDeclaration",
-            "start": 53,
-            "end": 73,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 69,
-              "end": 73,
-              "body": []
+              "body": [],
+              "range": [
+                69,
+                73
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 4
+                },
+                "start": {
+                  "column": 20,
+                  "line": 4
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 62,
-              "end": 66,
               "decorators": [],
               "name": "myFn",
-              "optional": false
+              "optional": false,
+              "range": [
+                62,
+                66
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 4
+                },
+                "start": {
+                  "column": 13,
+                  "line": 4
+                }
+              }
             },
-            "params": []
+            "params": [],
+            "range": [
+              53,
+              73
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          33,
+          75
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 13,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 32,
+        "range": [
+          27,
+          32
+        ],
         "decorators": [],
         "name": "myMod",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        20,
+        75
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

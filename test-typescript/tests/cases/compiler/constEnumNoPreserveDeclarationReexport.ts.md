@@ -1,374 +1,966 @@
-ConstEnum.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
+  "range": [
+    0,
+    50
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 50,
+      "range": [
+        0,
+        50
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 50,
         "body": {
           "type": "TSEnumBody",
-          "start": 30,
-          "end": 50,
+          "range": [
+            30,
+            50
+          ],
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 36,
-              "end": 39,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 36,
-                "end": 39,
                 "decorators": [],
                 "name": "Foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  36,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                36,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             },
             {
               "type": "TSEnumMember",
-              "start": 45,
-              "end": 48,
               "computed": false,
               "id": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 48,
                 "decorators": [],
                 "name": "Bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  45,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                45,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 30,
+              "line": 1
+            }
+          }
         },
         "const": true,
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 18,
-          "end": 29,
           "decorators": [],
           "name": "MyConstEnum",
-          "optional": false
+          "optional": false,
+          "range": [
+            18,
+            29
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 1
+            },
+            "start": {
+              "column": 18,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-ImportExport.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
+  "range": [
+    0,
+    70
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 42,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 28,
-        "end": 41,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "range": [
+          28,
+          41
+        ],
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 1
+          },
+          "start": {
+            "column": 28,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 20,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            9,
+            20
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 1
+            },
+            "start": {
+              "column": 9,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 42,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 43,
-      "end": 70,
       "declaration": {
         "type": "Identifier",
-        "start": 58,
-        "end": 69,
         "decorators": [],
         "name": "MyConstEnum",
-        "optional": false
+        "optional": false,
+        "range": [
+          58,
+          69
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        43,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 27,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-ReExport.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
+  "range": [
+    0,
+    53
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 53,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": {
         "type": "Literal",
-        "start": 39,
-        "end": 52,
         "raw": "'./ConstEnum'",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "range": [
+          39,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 52,
+            "line": 1
+          },
+          "start": {
+            "column": 39,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 31,
           "exported": {
             "type": "Identifier",
-            "start": 24,
-            "end": 31,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "range": [
+              24,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 1
+              },
+              "start": {
+                "column": 24,
+                "line": 1
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 20,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            9,
+            31
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 1
+            },
+            "start": {
+              "column": 9,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 53,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 53,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-usages.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 163,
+  "range": [
+    0,
+    163
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 40,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 26,
-        "end": 39,
         "raw": "\"./ConstEnum\"",
-        "value": "./ConstEnum"
+        "value": "./ConstEnum",
+        "range": [
+          26,
+          39
+        ],
+        "loc": {
+          "end": {
+            "column": 39,
+            "line": 1
+          },
+          "start": {
+            "column": 26,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 19,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 19,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              8,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 19,
             "decorators": [],
             "name": "MyConstEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              8,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            8,
+            19
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 1
+            },
+            "start": {
+              "column": 8,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 41,
-      "end": 79,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 62,
-        "end": 78,
         "raw": "\"./ImportExport\"",
-        "value": "./ImportExport"
+        "value": "./ImportExport",
+        "range": [
+          62,
+          78
+        ],
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 2
+          },
+          "start": {
+            "column": 21,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 48,
-          "end": 56,
+          "range": [
+            48,
+            56
+          ],
           "local": {
             "type": "Identifier",
-            "start": 48,
-            "end": 56,
             "decorators": [],
             "name": "AlsoEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              48,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 7,
+                "line": 2
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        41,
+        79
+      ],
+      "loc": {
+        "end": {
+          "column": 38,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 80,
-      "end": 115,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 102,
-        "end": 114,
         "raw": "\"./ReExport\"",
-        "value": "./ReExport"
+        "value": "./ReExport",
+        "range": [
+          102,
+          114
+        ],
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 3
+          },
+          "start": {
+            "column": 22,
+            "line": 3
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 87,
-          "end": 96,
+          "range": [
+            87,
+            96
+          ],
           "local": {
             "type": "Identifier",
-            "start": 87,
-            "end": 96,
             "decorators": [],
             "name": "StillEnum",
-            "optional": false
+            "optional": false,
+            "range": [
+              87,
+              96
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 3
+              },
+              "start": {
+                "column": 7,
+                "line": 3
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 3
+            },
+            "start": {
+              "column": 7,
+              "line": 3
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        80,
+        115
+      ],
+      "loc": {
+        "end": {
+          "column": 35,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 117,
-      "end": 133,
       "expression": {
         "type": "MemberExpression",
-        "start": 117,
-        "end": 132,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 117,
-          "end": 128,
           "decorators": [],
           "name": "MyConstEnum",
-          "optional": false
+          "optional": false,
+          "range": [
+            117,
+            128
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 5
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 129,
-          "end": 132,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            129,
+            132
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 5
+            },
+            "start": {
+              "column": 12,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          117,
+          132
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        117,
+        133
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 134,
-      "end": 147,
       "expression": {
         "type": "MemberExpression",
-        "start": 134,
-        "end": 146,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 134,
-          "end": 142,
           "decorators": [],
           "name": "AlsoEnum",
-          "optional": false
+          "optional": false,
+          "range": [
+            134,
+            142
+          ],
+          "loc": {
+            "end": {
+              "column": 8,
+              "line": 6
+            },
+            "start": {
+              "column": 0,
+              "line": 6
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 143,
-          "end": 146,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            143,
+            146
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 6
+            },
+            "start": {
+              "column": 9,
+              "line": 6
+            }
+          }
+        },
+        "range": [
+          134,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        134,
+        147
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 148,
-      "end": 162,
       "expression": {
         "type": "MemberExpression",
-        "start": 148,
-        "end": 161,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 148,
-          "end": 157,
           "decorators": [],
           "name": "StillEnum",
-          "optional": false
+          "optional": false,
+          "range": [
+            148,
+            157
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 7
+            },
+            "start": {
+              "column": 0,
+              "line": 7
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 158,
-          "end": 161,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            158,
+            161
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 7
+            },
+            "start": {
+              "column": 10,
+              "line": 7
+            }
+          }
+        },
+        "range": [
+          148,
+          161
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 7
+          },
+          "start": {
+            "column": 0,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        148,
+        162
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

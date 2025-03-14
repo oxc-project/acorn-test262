@@ -1,187 +1,467 @@
-err1.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 36,
-  "end": 61,
+  "range": [
+    36,
+    61
+  ],
   "body": [
     {
       "type": "TSNamespaceExportDeclaration",
-      "start": 36,
-      "end": 60,
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 59,
         "decorators": [],
         "name": "Foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          56,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 2
+          },
+          "start": {
+            "column": 20,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        36,
+        60
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-err2.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 48,
-  "end": 99,
+  "range": [
+    48,
+    99
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 48,
-      "end": 98,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
-        "start": 69,
-        "end": 98,
         "body": [
           {
             "type": "TSNamespaceExportDeclaration",
-            "start": 72,
-            "end": 96,
             "id": {
               "type": "Identifier",
-              "start": 92,
-              "end": 95,
               "decorators": [],
               "name": "Bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                92,
+                95
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 3
+                },
+                "start": {
+                  "column": 21,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              72,
+              96
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 3
+              },
+              "start": {
+                "column": 1,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          69,
+          98
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 21,
+            "line": 2
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
-        "start": 63,
-        "end": 68,
         "raw": "\"Foo\"",
-        "value": "Foo"
+        "value": "Foo",
+        "range": [
+          63,
+          68
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        48,
+        98
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-err3.d.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'export' is not allowed as a variable declaration name.
 ```
-err4.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 81,
+  "range": [
+    33,
+    81
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 33,
-      "end": 80,
+      "range": [
+        33,
+        80
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 40,
-        "end": 80,
         "body": {
           "type": "TSModuleBlock",
-          "start": 52,
-          "end": 80,
           "body": [
             {
               "type": "TSNamespaceExportDeclaration",
-              "start": 55,
-              "end": 78,
               "id": {
                 "type": "Identifier",
-                "start": 75,
-                "end": 77,
                 "decorators": [],
                 "name": "C1",
-                "optional": false
+                "optional": false,
+                "range": [
+                  75,
+                  77
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                55,
+                78
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 3
+                },
+                "start": {
+                  "column": 1,
+                  "line": 3
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            52,
+            80
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 19,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "global": false,
         "id": {
           "type": "Identifier",
-          "start": 50,
-          "end": 51,
+          "range": [
+            50,
+            51
+          ],
           "decorators": [],
           "name": "B",
-          "optional": false
-        },
-        "kind": "namespace"
-      },
-      "exportKind": "value",
-      "source": null,
-      "specifiers": []
-    }
-  ],
-  "sourceType": "module"
-}
-```
-err5.ts
-```json
-{
-  "type": "Program",
-  "start": 51,
-  "end": 90,
-  "body": [
-    {
-      "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 64,
-      "attributes": [],
-      "declaration": {
-        "type": "VariableDeclaration",
-        "start": 58,
-        "end": 64,
-        "declarations": [
-          {
-            "type": "VariableDeclarator",
-            "start": 62,
-            "end": 63,
-            "definite": false,
-            "id": {
-              "type": "Identifier",
-              "start": 62,
-              "end": 63,
-              "decorators": [],
-              "name": "v",
-              "optional": false
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 2
             },
-            "init": null
+            "start": {
+              "column": 17,
+              "line": 2
+            }
           }
+        },
+        "kind": "namespace",
+        "range": [
+          40,
+          80
         ],
-        "declare": false,
-        "kind": "var"
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
-    },
-    {
-      "type": "TSNamespaceExportDeclaration",
-      "start": 65,
-      "end": 88,
-      "id": {
-        "type": "Identifier",
-        "start": 85,
-        "end": 87,
-        "decorators": [],
-        "name": "C2",
-        "optional": false
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "range": [
+    51,
+    90
+  ],
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "range": [
+        51,
+        64
+      ],
+      "attributes": [],
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "definite": false,
+            "id": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "v",
+              "optional": false,
+              "range": [
+                62,
+                63
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
+            },
+            "init": null,
+            "range": [
+              62,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 2
+              },
+              "start": {
+                "column": 11,
+                "line": 2
+              }
+            }
+          }
+        ],
+        "declare": false,
+        "kind": "var",
+        "range": [
+          58,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
+      },
+      "exportKind": "value",
+      "source": null,
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
+    },
+    {
+      "type": "TSNamespaceExportDeclaration",
+      "id": {
+        "type": "Identifier",
+        "decorators": [],
+        "name": "C2",
+        "optional": false,
+        "range": [
+          85,
+          87
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 3
+          },
+          "start": {
+            "column": 20,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        65,
+        88
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

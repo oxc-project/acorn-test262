@@ -1,49 +1,65 @@
-contextualTyping35.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
+  "range": [
+    0,
+    46
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 46,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 45,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 10,
-            "end": 45,
             "expression": {
               "type": "ObjectExpression",
-              "start": 27,
-              "end": 45,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 28,
-                  "end": 32,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 28,
-                    "end": 30,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      28,
+                      30
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 28,
+                        "line": 1
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -51,24 +67,60 @@ contextualTyping35.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 31,
-                    "end": 32,
                     "raw": "4",
-                    "value": 4
+                    "value": 4,
+                    "range": [
+                      31,
+                      32
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 31,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    28,
+                    32
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 28,
+                      "line": 1
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 34,
-                  "end": 44,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 34,
-                    "end": 38,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      34,
+                      38
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 38,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 34,
+                        "line": 1
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -76,55 +128,208 @@ contextualTyping35.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 40,
-                    "end": 44,
                     "raw": "\"as\"",
-                    "value": "as"
+                    "value": "as",
+                    "range": [
+                      40,
+                      44
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 44,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 40,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    34,
+                    44
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 44,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 34,
+                      "line": 1
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                27,
+                45
+              ],
+              "loc": {
+                "end": {
+                  "column": 45,
+                  "line": 1
+                },
+                "start": {
+                  "column": 27,
+                  "line": 1
+                }
+              }
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 11,
-              "end": 25,
               "members": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 13,
-                  "end": 24,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 13,
-                    "end": 15,
                     "decorators": [],
                     "name": "id",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      13,
+                      15
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 1
+                      }
+                    }
                   },
                   "optional": false,
                   "readonly": false,
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 15,
-                    "end": 23,
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 1
+                      }
+                    },
+                    "range": [
+                      15,
+                      23
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 17,
-                      "end": 23
+                      "range": [
+                        17,
+                        23
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 1
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    13,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 1
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                11,
+                25
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 1
+                },
+                "start": {
+                  "column": 11,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              10,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 45,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            45
+          ],
+          "loc": {
+            "end": {
+              "column": 45,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        46
+      ],
+      "loc": {
+        "end": {
+          "column": 46,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 46,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

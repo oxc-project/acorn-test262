@@ -1,16 +1,41 @@
-sourceMap-SemiColon1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 2,
+  "range": [
+    0,
+    2
+  ],
   "body": [
     {
       "type": "EmptyStatement",
-      "start": 0,
-      "end": 1
+      "range": [
+        0,
+        1
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

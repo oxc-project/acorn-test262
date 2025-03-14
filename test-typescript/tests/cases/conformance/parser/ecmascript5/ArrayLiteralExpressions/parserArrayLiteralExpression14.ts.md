@@ -1,88 +1,221 @@
-parserArrayLiteralExpression14.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
+  "range": [
+    0,
+    27
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 26,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 8,
-            "end": 26,
             "elements": [
               null,
               null,
               {
                 "type": "Literal",
-                "start": 11,
-                "end": 12,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  11,
+                  12
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 13,
-                "end": 14,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  13,
+                  14
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 1
+                  }
+                }
               },
               null,
               {
                 "type": "Literal",
-                "start": 16,
-                "end": 17,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  16,
+                  17
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
+                }
               },
               null,
               {
                 "type": "Literal",
-                "start": 19,
-                "end": 20,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  19,
+                  20
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 21,
-                "end": 22,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  21,
+                  22
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 1
+                  }
+                }
               },
               null,
               {
                 "type": "Literal",
-                "start": 24,
-                "end": 25,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  24,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              8,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            26
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        27
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 27,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

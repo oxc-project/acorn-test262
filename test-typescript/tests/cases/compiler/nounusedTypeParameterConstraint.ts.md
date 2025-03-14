@@ -1,180 +1,470 @@
-bar.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
+  "range": [
+    0,
+    41
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 40,
+      "range": [
+        0,
+        40
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 40,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 37,
-          "end": 40,
-          "body": []
+          "range": [
+            37,
+            40
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 40,
+              "line": 1
+            },
+            "start": {
+              "column": 37,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 36,
           "decorators": [],
           "name": "IEventSourcedEntity",
-          "optional": false
+          "optional": false,
+          "range": [
+            17,
+            36
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 1
+            },
+            "start": {
+              "column": 17,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          40
+        ],
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-test.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 140,
+  "range": [
+    0,
+    140
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 44,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 36,
-        "end": 43,
         "raw": "\"./bar\"",
-        "value": "./bar"
+        "value": "./bar",
+        "range": [
+          36,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 1
+          },
+          "start": {
+            "column": 36,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 28,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 28,
             "decorators": [],
             "name": "IEventSourcedEntity",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 28,
             "decorators": [],
             "name": "IEventSourcedEntity",
-            "optional": false
+            "optional": false,
+            "range": [
+              9,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            9,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 1
+            },
+            "start": {
+              "column": 9,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 44,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 45,
-      "end": 140,
+      "range": [
+        45,
+        140
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 52,
-        "end": 140,
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 57,
-          "end": 80,
           "decorators": [],
           "name": "DomainEntityConstructor",
-          "optional": false
+          "optional": false,
+          "range": [
+            57,
+            80
+          ],
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 2
+            },
+            "start": {
+              "column": 12,
+              "line": 2
+            }
+          }
         },
         "typeAnnotation": {
           "type": "TSTypeLiteral",
-          "start": 120,
-          "end": 139,
           "members": [
             {
               "type": "TSConstructSignatureDeclaration",
-              "start": 122,
-              "end": 137,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 127,
-                "end": 136,
+                "loc": {
+                  "end": {
+                    "column": 91,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 82,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  127,
+                  136
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 129,
-                  "end": 136,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 129,
-                    "end": 136,
                     "decorators": [],
                     "name": "TEntity",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      129,
+                      136
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 91,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 84,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    129,
+                    136
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 91,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 84,
+                      "line": 2
+                    }
                   }
+                }
+              },
+              "range": [
+                122,
+                137
+              ],
+              "loc": {
+                "end": {
+                  "column": 92,
+                  "line": 2
+                },
+                "start": {
+                  "column": 77,
+                  "line": 2
                 }
               }
             }
-          ]
+          ],
+          "range": [
+            120,
+            139
+          ],
+          "loc": {
+            "end": {
+              "column": 94,
+              "line": 2
+            },
+            "start": {
+              "column": 75,
+              "line": 2
+            }
+          }
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 80,
-          "end": 117,
+          "loc": {
+            "end": {
+              "column": 72,
+              "line": 2
+            },
+            "start": {
+              "column": 35,
+              "line": 2
+            }
+          },
+          "range": [
+            80,
+            117
+          ],
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 81,
-              "end": 116,
               "const": false,
               "constraint": {
                 "type": "TSTypeReference",
-                "start": 97,
-                "end": 116,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 97,
-                  "end": 116,
                   "decorators": [],
                   "name": "IEventSourcedEntity",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    97,
+                    116
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 71,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 52,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  97,
+                  116
+                ],
+                "loc": {
+                  "end": {
+                    "column": 71,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 52,
+                    "line": 2
+                  }
                 }
               },
               "in": false,
               "name": {
                 "type": "Identifier",
-                "start": 81,
-                "end": 88,
                 "decorators": [],
                 "name": "TEntity",
-                "optional": false
+                "optional": false,
+                "range": [
+                  81,
+                  88
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 36,
+                    "line": 2
+                  }
+                }
               },
-              "out": false
+              "out": false,
+              "range": [
+                81,
+                116
+              ],
+              "loc": {
+                "end": {
+                  "column": 71,
+                  "line": 2
+                },
+                "start": {
+                  "column": 36,
+                  "line": 2
+                }
+              }
             }
           ]
+        },
+        "range": [
+          52,
+          140
+        ],
+        "loc": {
+          "end": {
+            "column": 95,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 95,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 95,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

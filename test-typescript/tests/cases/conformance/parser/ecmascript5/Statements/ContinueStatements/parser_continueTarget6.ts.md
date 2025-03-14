@@ -1,43 +1,116 @@
-parser_continueTarget6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
+  "range": [
+    0,
+    35
+  ],
   "body": [
     {
       "type": "WhileStatement",
-      "start": 0,
-      "end": 35,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 35,
         "body": [
           {
             "type": "ContinueStatement",
-            "start": 17,
-            "end": 33,
             "label": {
               "type": "Identifier",
-              "start": 26,
-              "end": 32,
               "decorators": [],
               "name": "target",
-              "optional": false
+              "optional": false,
+              "range": [
+                26,
+                32
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              17,
+              33
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          13,
+          35
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 13,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          7,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        35
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

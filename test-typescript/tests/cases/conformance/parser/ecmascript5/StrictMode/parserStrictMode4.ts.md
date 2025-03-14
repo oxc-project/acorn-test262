@@ -1,50 +1,135 @@
-parserStrictMode4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
+  "range": [
+    0,
+    28
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "range": [
+          0,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 28,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 14,
-        "end": 27,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 14,
-          "end": 23,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "range": [
+            14,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "right": {
           "type": "Literal",
-          "start": 26,
-          "end": 27,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "range": [
+            26,
+            27
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 2
+            },
+            "start": {
+              "column": 12,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          14,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        14,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 14,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

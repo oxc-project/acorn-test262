@@ -1,45 +1,118 @@
-parserAssignmentExpression1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 14,
+  "range": [
+    0,
+    14
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 14,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 13,
         "operator": "=",
         "left": {
           "type": "CallExpression",
-          "start": 1,
-          "end": 6,
           "arguments": [],
           "callee": {
             "type": "Identifier",
-            "start": 1,
-            "end": 4,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              1,
+              4
+            ],
+            "loc": {
+              "end": {
+                "column": 4,
+                "line": 1
+              },
+              "start": {
+                "column": 1,
+                "line": 1
+              }
+            }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            1,
+            6
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 1
+            },
+            "start": {
+              "column": 1,
+              "line": 1
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 10,
-          "end": 13,
           "decorators": [],
           "name": "bar",
-          "optional": false
+          "optional": false,
+          "range": [
+            10,
+            13
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 1
+            },
+            "start": {
+              "column": 10,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          13
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        14
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 14,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

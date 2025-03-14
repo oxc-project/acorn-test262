@@ -1,69 +1,190 @@
-parser_continueTarget3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
+  "range": [
+    0,
+    54
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 54,
       "body": {
         "type": "LabeledStatement",
-        "start": 9,
-        "end": 54,
         "body": {
           "type": "WhileStatement",
-          "start": 18,
-          "end": 54,
           "body": {
             "type": "BlockStatement",
-            "start": 31,
-            "end": 54,
             "body": [
               {
                 "type": "ContinueStatement",
-                "start": 35,
-                "end": 52,
                 "label": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 51,
                   "decorators": [],
                   "name": "target1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    44,
+                    51
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  35,
+                  52
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 4
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              31,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 5
+              },
+              "start": {
+                "column": 13,
+                "line": 3
+              }
+            }
           },
           "test": {
             "type": "Literal",
-            "start": 25,
-            "end": 29,
             "raw": "true",
-            "value": true
+            "value": true,
+            "range": [
+              25,
+              29
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 3
+              },
+              "start": {
+                "column": 7,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            18,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
           }
         },
         "label": {
           "type": "Identifier",
-          "start": 9,
-          "end": 16,
           "decorators": [],
           "name": "target2",
-          "optional": false
+          "optional": false,
+          "range": [
+            9,
+            16
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          9,
+          54
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
         }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 7,
         "decorators": [],
         "name": "target1",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        54
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

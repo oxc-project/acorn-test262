@@ -1,48 +1,84 @@
-sourceMapValidationClassWithDefaultConstructorAndExtendsClause.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 113,
+  "range": [
+    0,
+    113
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 25,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 22,
-        "end": 25,
-        "body": []
+        "range": [
+          22,
+          25
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 21,
         "decorators": [],
         "name": "AbstractGreeter",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 27,
-      "end": 113,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 65,
-        "end": 113,
+        "range": [
+          65,
+          113
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 71,
-            "end": 85,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -50,11 +86,23 @@ sourceMapValidationClassWithDefaultConstructorAndExtendsClause.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 78,
-              "end": 79,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                78,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 5
+                },
+                "start": {
+                  "column": 11,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -62,16 +110,40 @@ sourceMapValidationClassWithDefaultConstructorAndExtendsClause.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 82,
-              "end": 84,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "range": [
+                82,
+                84
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              71,
+              85
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 90,
-            "end": 111,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -79,11 +151,23 @@ sourceMapValidationClassWithDefaultConstructorAndExtendsClause.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 97,
-              "end": 102,
               "decorators": [],
               "name": "nameA",
-              "optional": false
+              "optional": false,
+              "range": [
+                97,
+                102
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 6
+                },
+                "start": {
+                  "column": 11,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -91,35 +175,120 @@ sourceMapValidationClassWithDefaultConstructorAndExtendsClause.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 105,
-              "end": 110,
               "raw": "\"Ten\"",
-              "value": "Ten"
+              "value": "Ten",
+              "range": [
+                105,
+                110
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 6
+                },
+                "start": {
+                  "column": 19,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              90,
+              111
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 38,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 40,
         "decorators": [],
         "name": "Greeter",
-        "optional": false
+        "optional": false,
+        "range": [
+          33,
+          40
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 4
+          },
+          "start": {
+            "column": 6,
+            "line": 4
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 49,
-        "end": 64,
         "decorators": [],
         "name": "AbstractGreeter",
-        "optional": false
+        "optional": false,
+        "range": [
+          49,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 4
+          },
+          "start": {
+            "column": 22,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        27,
+        113
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,48 +1,78 @@
-fileTs.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
+  "range": [
+    0,
+    54
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 53,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 53,
         "alternate": {
           "type": "Literal",
-          "start": 49,
-          "end": 53,
           "raw": "null",
-          "value": null
+          "value": null,
+          "range": [
+            49,
+            53
+          ],
+          "loc": {
+            "end": {
+              "column": 53,
+              "line": 1
+            },
+            "start": {
+              "column": 49,
+              "line": 1
+            }
+          }
         },
         "consequent": {
           "type": "ConditionalExpression",
-          "start": 7,
-          "end": 46,
           "alternate": {
             "type": "Literal",
-            "start": 42,
-            "end": 46,
             "raw": "null",
-            "value": null
+            "value": null,
+            "range": [
+              42,
+              46
+            ],
+            "loc": {
+              "end": {
+                "column": 46,
+                "line": 1
+              },
+              "start": {
+                "column": 42,
+                "line": 1
+              }
+            }
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
-            "start": 15,
-            "end": 39,
             "async": false,
             "body": {
               "type": "Identifier",
-              "start": 34,
-              "end": 39,
               "decorators": [],
               "name": "param",
-              "optional": false
+              "optional": false,
+              "range": [
+                34,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 39,
+                  "line": 1
+                },
+                "start": {
+                  "column": 34,
+                  "line": 1
+                }
+              }
             },
             "expression": true,
             "generator": false,
@@ -50,42 +80,169 @@ fileTs.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 16,
-                "end": 21,
                 "decorators": [],
                 "name": "param",
-                "optional": false
+                "optional": false,
+                "range": [
+                  16,
+                  21
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
+                }
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 22,
-              "end": 30,
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 1
+                },
+                "start": {
+                  "column": 22,
+                  "line": 1
+                }
+              },
+              "range": [
+                22,
+                30
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 24,
-                "end": 30
+                "range": [
+                  24,
+                  30
+                ],
+                "loc": {
+                  "end": {
+                    "column": 30,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              15,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 39,
+                "line": 1
+              },
+              "start": {
+                "column": 15,
+                "line": 1
               }
             }
           },
           "test": {
             "type": "Literal",
-            "start": 7,
-            "end": 12,
             "raw": "false",
-            "value": false
+            "value": false,
+            "range": [
+              7,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            7,
+            46
+          ],
+          "loc": {
+            "end": {
+              "column": 46,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         },
         "test": {
           "type": "Literal",
-          "start": 0,
-          "end": 4,
           "raw": "true",
-          "value": true
+          "value": true,
+          "range": [
+            0,
+            4
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 53,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

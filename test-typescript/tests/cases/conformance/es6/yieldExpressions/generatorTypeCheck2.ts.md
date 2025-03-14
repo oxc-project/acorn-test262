@@ -1,65 +1,174 @@
-generatorTypeCheck2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
+  "range": [
+    0,
+    36
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 36,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 33,
-        "end": 36,
-        "body": []
+        "body": [],
+        "range": [
+          33,
+          36
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 1
+          },
+          "start": {
+            "column": 33,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 12,
         "decorators": [],
         "name": "g1",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 14,
-        "end": 32,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        },
+        "range": [
+          14,
+          32
+        ],
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 16,
-          "end": 32,
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 24,
-            "end": 32,
+            "range": [
+              24,
+              32
+            ],
             "params": [
               {
                 "type": "TSStringKeyword",
-                "start": 25,
-                "end": 31
+                "range": [
+                  25,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 1
+              },
+              "start": {
+                "column": 24,
+                "line": 1
+              }
+            }
           },
           "typeName": {
             "type": "Identifier",
-            "start": 16,
-            "end": 24,
             "decorators": [],
             "name": "Iterable",
-            "optional": false
+            "optional": false,
+            "range": [
+              16,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 16,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            16,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 1
+            },
+            "start": {
+              "column": 16,
+              "line": 1
+            }
           }
+        }
+      },
+      "range": [
+        0,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 36,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 36,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

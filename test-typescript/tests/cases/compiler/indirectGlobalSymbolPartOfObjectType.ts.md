@@ -1,108 +1,277 @@
-indirectGlobalSymbolPartOfObjectType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
+  "range": [
+    0,
+    65
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 11,
-      "end": 44,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 17,
-          "end": 43,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 17,
-            "end": 23,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "range": [
+              17,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "MemberExpression",
-            "start": 26,
-            "end": 43,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 26,
-              "end": 36,
               "decorators": [],
               "name": "globalThis",
-              "optional": false
+              "optional": false,
+              "range": [
+                26,
+                36
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 37,
-              "end": 43,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "range": [
+                37,
+                43
+              ],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 2
+                },
+                "start": {
+                  "column": 26,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              26,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 2
+              },
+              "start": {
+                "column": 15,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            17,
+            43
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        11,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 45,
-      "end": 65,
       "expression": {
         "type": "MemberExpression",
-        "start": 45,
-        "end": 64,
         "computed": true,
         "object": {
           "type": "ArrayExpression",
-          "start": 45,
-          "end": 47,
-          "elements": []
+          "elements": [],
+          "range": [
+            45,
+            47
+          ],
+          "loc": {
+            "end": {
+              "column": 2,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "MemberExpression",
-          "start": 48,
-          "end": 63,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 48,
-            "end": 54,
             "decorators": [],
             "name": "Symbol",
-            "optional": false
+            "optional": false,
+            "range": [
+              48,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 3,
+                "line": 3
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 55,
-            "end": 63,
             "decorators": [],
             "name": "iterator",
-            "optional": false
+            "optional": false,
+            "range": [
+              55,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 3
+              },
+              "start": {
+                "column": 10,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            48,
+            63
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 3
+            },
+            "start": {
+              "column": 3,
+              "line": 3
+            }
           }
+        },
+        "range": [
+          45,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        45,
+        65
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,4 +1,4 @@
-parserErrorRecovery_IncompleteMemberVariable2.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Expected '=' for property initializer.
 ```

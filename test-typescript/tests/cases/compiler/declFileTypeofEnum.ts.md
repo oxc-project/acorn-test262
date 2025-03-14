@@ -1,250 +1,659 @@
-declFileTypeofEnum.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 190,
+  "range": [
+    0,
+    190
+  ],
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 104,
       "body": {
         "type": "TSEnumBody",
-        "start": 10,
-        "end": 104,
+        "range": [
+          10,
+          104
+        ],
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 16,
-            "end": 22,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 16,
-              "end": 22,
               "decorators": [],
               "name": "monday",
-              "optional": false
+              "optional": false,
+              "range": [
+                16,
+                22
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              16,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 28,
-            "end": 35,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 28,
-              "end": 35,
               "decorators": [],
               "name": "tuesday",
-              "optional": false
+              "optional": false,
+              "range": [
+                28,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              28,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 41,
-            "end": 50,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 41,
-              "end": 50,
               "decorators": [],
               "name": "wednesday",
-              "optional": false
+              "optional": false,
+              "range": [
+                41,
+                50
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              41,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 56,
-            "end": 64,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 56,
-              "end": 64,
               "decorators": [],
               "name": "thursday",
-              "optional": false
+              "optional": false,
+              "range": [
+                56,
+                64
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              56,
+              64
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 70,
-            "end": 76,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 70,
-              "end": 76,
               "decorators": [],
               "name": "friday",
-              "optional": false
+              "optional": false,
+              "range": [
+                70,
+                76
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              70,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 82,
-            "end": 90,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 82,
-              "end": 90,
               "decorators": [],
               "name": "saturday",
-              "optional": false
+              "optional": false,
+              "range": [
+                82,
+                90
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 7
+                },
+                "start": {
+                  "column": 4,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              82,
+              90
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 96,
-            "end": 102,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 96,
-              "end": 102,
               "decorators": [],
               "name": "sunday",
-              "optional": false
+              "optional": false,
+              "range": [
+                96,
+                102
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 8
+                },
+                "start": {
+                  "column": 4,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              96,
+              102
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "const": false,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 9,
         "decorators": [],
         "name": "days",
-        "optional": false
+        "optional": false,
+        "range": [
+          5,
+          9
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        104
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 106,
-      "end": 137,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 110,
-          "end": 136,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 110,
-            "end": 120,
             "decorators": [],
             "name": "weekendDay",
-            "optional": false
+            "optional": false,
+            "range": [
+              110,
+              120
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
+            }
           },
           "init": {
             "type": "MemberExpression",
-            "start": 123,
-            "end": 136,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 123,
-              "end": 127,
               "decorators": [],
               "name": "days",
-              "optional": false
+              "optional": false,
+              "range": [
+                123,
+                127
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 11
+                },
+                "start": {
+                  "column": 17,
+                  "line": 11
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 128,
-              "end": 136,
               "decorators": [],
               "name": "saturday",
-              "optional": false
+              "optional": false,
+              "range": [
+                128,
+                136
+              ],
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 11
+                },
+                "start": {
+                  "column": 22,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              123,
+              136
+            ],
+            "loc": {
+              "end": {
+                "column": 30,
+                "line": 11
+              },
+              "start": {
+                "column": 17,
+                "line": 11
+              }
+            }
+          },
+          "range": [
+            110,
+            136
+          ],
+          "loc": {
+            "end": {
+              "column": 30,
+              "line": 11
+            },
+            "start": {
+              "column": 4,
+              "line": 11
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        106,
+        137
+      ],
+      "loc": {
+        "end": {
+          "column": 31,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 138,
-      "end": 161,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 142,
-          "end": 160,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 142,
-            "end": 153,
             "decorators": [],
             "name": "daysOfMonth",
-            "optional": false
+            "optional": false,
+            "range": [
+              142,
+              153
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
+            }
           },
           "init": {
             "type": "Identifier",
-            "start": 156,
-            "end": 160,
             "decorators": [],
             "name": "days",
-            "optional": false
+            "optional": false,
+            "range": [
+              156,
+              160
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 12
+              },
+              "start": {
+                "column": 18,
+                "line": 12
+              }
+            }
+          },
+          "range": [
+            142,
+            160
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 12
+            },
+            "start": {
+              "column": 4,
+              "line": 12
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        138,
+        161
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 162,
-      "end": 190,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 166,
-          "end": 189,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 166,
-            "end": 189,
             "decorators": [],
             "name": "daysOfYear",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 176,
-              "end": 189,
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 13
+                },
+                "start": {
+                  "column": 14,
+                  "line": 13
+                }
+              },
+              "range": [
+                176,
+                189
+              ],
               "typeAnnotation": {
                 "type": "TSTypeQuery",
-                "start": 178,
-                "end": 189,
                 "exprName": {
                   "type": "Identifier",
-                  "start": 185,
-                  "end": 189,
                   "decorators": [],
                   "name": "days",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    185,
+                    189
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 13
+                    }
+                  }
+                },
+                "range": [
+                  178,
+                  189
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 13
+                  }
                 }
+              }
+            },
+            "range": [
+              166,
+              189
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            166,
+            189
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 13
+            },
+            "start": {
+              "column": 4,
+              "line": 13
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        162,
+        190
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 28,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

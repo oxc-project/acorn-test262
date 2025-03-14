@@ -1,56 +1,98 @@
-computedPropertyNamesDeclarationEmit5_ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 110,
+  "range": [
+    0,
+    110
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 110,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 110,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 110,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 26,
                 "computed": true,
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 15,
-                  "end": 22,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 15,
-                    "end": 17,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      15,
+                      17
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 2
+                      }
+                    }
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 20,
-                    "end": 22,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      20,
+                      22
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 12,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    15,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
+                    }
                   }
                 },
                 "kind": "init",
@@ -59,35 +101,95 @@ computedPropertyNamesDeclarationEmit5_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 25,
-                  "end": 26,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    25,
+                    26
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  14,
+                  26
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 32,
-                "end": 47,
                 "computed": true,
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 33,
-                  "end": 40,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 33,
-                    "end": 35,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      33,
+                      35
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 3
+                      }
+                    }
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 38,
-                    "end": 40,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      38,
+                      40
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 12,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    33,
+                    40
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 3
+                    }
                   }
                 },
                 "kind": "init",
@@ -96,45 +198,117 @@ computedPropertyNamesDeclarationEmit5_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 41,
-                  "end": 47,
+                  "range": [
+                    41,
+                    47
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 44,
-                    "end": 47,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      44,
+                      47
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 3
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  32,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 53,
-                "end": 82,
                 "computed": true,
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 58,
-                  "end": 65,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 58,
-                    "end": 60,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      58,
+                      60
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 4
+                      }
+                    }
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 63,
-                    "end": 65,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      63,
+                      65
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 16,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    58,
+                    65
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 4
+                    }
                   }
                 },
                 "kind": "get",
@@ -143,58 +317,154 @@ computedPropertyNamesDeclarationEmit5_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 66,
-                  "end": 82,
+                  "range": [
+                    66,
+                    82
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 69,
-                    "end": 82,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 71,
-                        "end": 80,
                         "argument": {
                           "type": "Literal",
-                          "start": 78,
-                          "end": 79,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "range": [
+                            78,
+                            79
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 30,
+                              "line": 4
+                            },
+                            "start": {
+                              "column": 29,
+                              "line": 4
+                            }
+                          }
+                        },
+                        "range": [
+                          71,
+                          80
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 31,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 22,
+                            "line": 4
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      69,
+                      82
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 33,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 4
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  53,
+                  82
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 88,
-                "end": 108,
                 "computed": true,
                 "key": {
                   "type": "BinaryExpression",
-                  "start": 93,
-                  "end": 100,
                   "operator": "+",
                   "left": {
                     "type": "Literal",
-                    "start": 93,
-                    "end": 95,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      93,
+                      95
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 5
+                      }
+                    }
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 98,
-                    "end": 100,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      98,
+                      100
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 16,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 5
+                      }
+                    }
+                  },
+                  "range": [
+                    93,
+                    100
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 5
+                    }
                   }
                 },
                 "kind": "set",
@@ -203,14 +473,28 @@ computedPropertyNamesDeclarationEmit5_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 101,
-                  "end": 108,
+                  "range": [
+                    101,
+                    108
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 105,
-                    "end": 108,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      105,
+                      108
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 5
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -219,23 +503,112 @@ computedPropertyNamesDeclarationEmit5_ES6.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 102,
-                      "end": 103,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        102,
+                        103
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 19,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 5
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 5
+                    }
+                  }
+                },
+                "range": [
+                  88,
+                  108
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 5
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              110
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 6
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            110
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        110
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

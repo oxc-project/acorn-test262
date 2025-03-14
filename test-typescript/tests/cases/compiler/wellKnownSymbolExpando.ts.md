@@ -1,101 +1,258 @@
-wellKnownSymbolExpando.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
+  "range": [
+    0,
+    51
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 15,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 15,
-        "body": []
+        "body": [],
+        "range": [
+          13,
+          15
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 1
+          },
+          "start": {
+            "column": 13,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          9,
+          10
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 1
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        0,
+        15
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 16,
-      "end": 50,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 16,
-        "end": 50,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 16,
-          "end": 34,
           "computed": true,
           "object": {
             "type": "Identifier",
-            "start": 16,
-            "end": 17,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "range": [
+              16,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "MemberExpression",
-            "start": 18,
-            "end": 33,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 18,
-              "end": 24,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "range": [
+                18,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 25,
-              "end": 33,
               "decorators": [],
               "name": "iterator",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 9,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              18,
+              33
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            16,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
             }
           }
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 37,
-          "end": 50,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 48,
-            "end": 50,
-            "body": []
+            "body": [],
+            "range": [
+              48,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 2
+              },
+              "start": {
+                "column": 32,
+                "line": 2
+              }
+            }
           },
           "declare": false,
           "expression": false,
           "generator": false,
           "id": null,
-          "params": []
+          "params": [],
+          "range": [
+            37,
+            50
+          ],
+          "loc": {
+            "end": {
+              "column": 34,
+              "line": 2
+            },
+            "start": {
+              "column": 21,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          16,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 34,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        16,
+        50
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

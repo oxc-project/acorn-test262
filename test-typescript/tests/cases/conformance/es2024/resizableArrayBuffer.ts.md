@@ -1,57 +1,85 @@
-resizableArrayBuffer.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 76,
+  "range": [
+    0,
+    76
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 57,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 56,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 12,
             "decorators": [],
             "name": "buffer",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "NewExpression",
-            "start": 15,
-            "end": 56,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 31,
-                "end": 32,
                 "raw": "8",
-                "value": 8
+                "value": 8,
+                "range": [
+                  31,
+                  32
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "ObjectExpression",
-                "start": 34,
-                "end": 55,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 36,
-                    "end": 53,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 36,
-                      "end": 49,
                       "decorators": [],
                       "name": "maxByteLength",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        36,
+                        49
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 49,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 36,
+                          "line": 1
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -59,58 +87,211 @@ resizableArrayBuffer.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 51,
-                      "end": 53,
                       "raw": "16",
-                      "value": 16
+                      "value": 16,
+                      "range": [
+                        51,
+                        53
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 53,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 51,
+                          "line": 1
+                        }
+                      }
+                    },
+                    "range": [
+                      36,
+                      53
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 53,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 36,
+                        "line": 1
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  34,
+                  55
+                ],
+                "loc": {
+                  "end": {
+                    "column": 55,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 34,
+                    "line": 1
+                  }
+                }
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 19,
-              "end": 30,
               "decorators": [],
               "name": "ArrayBuffer",
-              "optional": false
+              "optional": false,
+              "range": [
+                19,
+                30
+              ],
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 1
+                },
+                "start": {
+                  "column": 19,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              15,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 56,
+                "line": 1
+              },
+              "start": {
+                "column": 15,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            56
+          ],
+          "loc": {
+            "end": {
+              "column": 56,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        57
+      ],
+      "loc": {
+        "end": {
+          "column": 57,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 58,
-      "end": 75,
       "expression": {
         "type": "MemberExpression",
-        "start": 58,
-        "end": 74,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 58,
-          "end": 64,
           "decorators": [],
           "name": "buffer",
-          "optional": false
+          "optional": false,
+          "range": [
+            58,
+            64
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 65,
-          "end": 74,
           "decorators": [],
           "name": "resizable",
-          "optional": false
+          "optional": false,
+          "range": [
+            65,
+            74
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          58,
+          74
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        58,
+        75
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

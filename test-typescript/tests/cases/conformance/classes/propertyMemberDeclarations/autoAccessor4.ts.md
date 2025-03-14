@@ -1,34 +1,46 @@
-autoAccessor4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 109,
+  "range": [
+    0,
+    109
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 108,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 9,
-        "end": 108,
+        "range": [
+          9,
+          108
+        ],
         "body": [
           {
             "type": "AccessorProperty",
-            "start": 15,
-            "end": 31,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 24,
-              "end": 25,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                24,
+                25
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -36,57 +48,141 @@ autoAccessor4.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 25,
-              "end": 30,
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              },
+              "range": [
+                25,
+                30
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 27,
-                "end": 30
+                "range": [
+                  27,
+                  30
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 2
+                  }
+                }
               }
             },
-            "value": null
-          },
-          {
-            "type": "AccessorProperty",
-            "start": 36,
-            "end": 51,
-            "computed": false,
-            "declare": false,
-            "decorators": [],
-            "definite": false,
-            "key": {
-              "type": "Literal",
-              "start": 45,
-              "end": 46,
-              "raw": "1",
-              "value": 1
-            },
-            "optional": false,
-            "override": false,
-            "readonly": false,
-            "static": false,
-            "value": {
-              "type": "Literal",
-              "start": 49,
-              "end": 50,
-              "raw": "1",
-              "value": 1
+            "value": null,
+            "range": [
+              15,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "AccessorProperty",
-            "start": 56,
-            "end": 79,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 72,
-              "end": 73,
+              "raw": "1",
+              "value": 1,
+              "range": [
+                45,
+                46
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 3
+                },
+                "start": {
+                  "column": 13,
+                  "line": 3
+                }
+              }
+            },
+            "optional": false,
+            "override": false,
+            "readonly": false,
+            "static": false,
+            "value": {
+              "type": "Literal",
+              "raw": "1",
+              "value": 1,
+              "range": [
+                49,
+                50
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 3
+                },
+                "start": {
+                  "column": 17,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              36,
+              51
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
+          },
+          {
+            "type": "AccessorProperty",
+            "computed": false,
+            "declare": false,
+            "decorators": [],
+            "definite": false,
+            "key": {
+              "type": "Literal",
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "range": [
+                72,
+                73
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 4
+                },
+                "start": {
+                  "column": 20,
+                  "line": 4
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -94,30 +190,78 @@ autoAccessor4.ts
             "static": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 73,
-              "end": 78,
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 4
+                },
+                "start": {
+                  "column": 21,
+                  "line": 4
+                }
+              },
+              "range": [
+                73,
+                78
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 75,
-                "end": 78
+                "range": [
+                  75,
+                  78
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 4
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              56,
+              79
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           },
           {
             "type": "AccessorProperty",
-            "start": 84,
-            "end": 106,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Literal",
-              "start": 100,
-              "end": 101,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "range": [
+                100,
+                101
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 5
+                },
+                "start": {
+                  "column": 20,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -125,28 +269,101 @@ autoAccessor4.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 104,
-              "end": 105,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "range": [
+                104,
+                105
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 5
+                },
+                "start": {
+                  "column": 24,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              84,
+              106
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 8,
         "decorators": [],
         "name": "C1",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        108
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

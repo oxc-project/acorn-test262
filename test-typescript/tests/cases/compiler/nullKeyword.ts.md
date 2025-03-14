@@ -1,38 +1,99 @@
-nullKeyword.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 9,
+  "range": [
+    0,
+    9
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 9,
       "expression": {
         "type": "MemberExpression",
-        "start": 0,
-        "end": 8,
         "computed": false,
         "object": {
           "type": "Literal",
-          "start": 0,
-          "end": 4,
           "raw": "null",
-          "value": null
+          "value": null,
+          "range": [
+            0,
+            4
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 5,
-          "end": 8,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            5,
+            8
+          ],
+          "loc": {
+            "end": {
+              "column": 8,
+              "line": 1
+            },
+            "start": {
+              "column": 5,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        9
+      ],
+      "loc": {
+        "end": {
+          "column": 9,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

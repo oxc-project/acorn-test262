@@ -1,40 +1,54 @@
-jsxFragmentFactoryReference.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
+  "range": [
+    0,
+    69
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 68,
+      "range": [
+        0,
+        68
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 68,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 23,
-          "end": 68,
+          "range": [
+            23,
+            68
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 29,
-              "end": 66,
               "computed": false,
               "declare": false,
               "decorators": [],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 36,
                 "decorators": [],
                 "name": "content",
-                "optional": false
+                "optional": false,
+                "range": [
+                  29,
+                  36
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -42,51 +56,170 @@ jsxFragmentFactoryReference.tsx
               "static": false,
               "value": {
                 "type": "ArrowFunctionExpression",
-                "start": 39,
-                "end": 66,
                 "async": false,
                 "body": {
                   "type": "JSXFragment",
-                  "start": 55,
-                  "end": 60,
                   "children": [],
                   "closingFragment": {
                     "type": "JSXClosingFragment",
-                    "start": 57,
-                    "end": 60
+                    "range": [
+                      57,
+                      60
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 13,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
                   },
                   "openingFragment": {
                     "type": "JSXOpeningFragment",
-                    "start": 55,
-                    "end": 57
+                    "range": [
+                      55,
+                      57
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 10,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    55,
+                    60
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 13,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 3
+                    }
                   }
                 },
                 "expression": true,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "range": [
+                  39,
+                  66
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                29,
+                66
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 23,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 22,
           "decorators": [],
           "name": "LoggedOut",
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          7,
+          68
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

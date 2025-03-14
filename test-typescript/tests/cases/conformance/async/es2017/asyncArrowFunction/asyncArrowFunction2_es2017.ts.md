@@ -1,38 +1,58 @@
-asyncArrowFunction2_es2017.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
+  "range": [
+    0,
+    22
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 22,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 8,
-            "end": 22,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 19,
-              "end": 22,
-              "body": []
+              "body": [],
+              "range": [
+                19,
+                22
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 1
+                }
+              }
             },
             "expression": false,
             "generator": false,
@@ -40,20 +60,85 @@ asyncArrowFunction2_es2017.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 9,
-                "end": 14,
                 "decorators": [],
                 "name": "await",
-                "optional": false
+                "optional": false,
+                "range": [
+                  9,
+                  14
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              8,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        22
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

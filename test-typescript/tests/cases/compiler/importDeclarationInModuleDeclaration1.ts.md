@@ -1,60 +1,157 @@
-importDeclarationInModuleDeclaration1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
+  "range": [
+    0,
+    59
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 59,
       "body": {
         "type": "TSModuleBlock",
-        "start": 10,
-        "end": 59,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 16,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 23,
-              "end": 25,
               "decorators": [],
               "name": "m3",
-              "optional": false
+              "optional": false,
+              "range": [
+                23,
+                25
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "importKind": "value",
             "moduleReference": {
               "type": "TSExternalModuleReference",
-              "start": 28,
-              "end": 56,
               "expression": {
                 "type": "Literal",
-                "start": 36,
-                "end": 55,
                 "raw": "\"use_glo_M1_public\"",
-                "value": "use_glo_M1_public"
+                "value": "use_glo_M1_public",
+                "range": [
+                  36,
+                  55
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                28,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 2
+                },
+                "start": {
+                  "column": 16,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              16,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 45,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "range": [
+          10,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
+        "range": [
+          7,
+          9
+        ],
         "decorators": [],
         "name": "m2",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        59
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

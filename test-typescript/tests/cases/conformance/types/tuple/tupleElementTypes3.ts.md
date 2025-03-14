@@ -1,73 +1,182 @@
-tupleElementTypes3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
+  "range": [
+    0,
+    28
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 28,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 27,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 5,
-                "end": 6,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  5,
+                  6
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "Identifier",
-                "start": 8,
-                "end": 9,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "range": [
+                  8,
+                  9
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 1
+                  }
+                }
               }
             ],
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              10
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 13,
-            "end": 27,
             "elements": [
               {
                 "type": "Literal",
-                "start": 14,
-                "end": 15,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  14,
+                  15
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 1
+                  }
+                }
               },
               {
                 "type": "Identifier",
-                "start": 17,
-                "end": 26,
                 "decorators": [],
                 "name": "undefined",
-                "optional": false
+                "optional": false,
+                "range": [
+                  17,
+                  26
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              13,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            27
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 28,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

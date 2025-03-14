@@ -1,79 +1,212 @@
-castFunctionExpressionShouldBeParenthesized.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
+  "range": [
+    0,
+    33
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 33,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 33,
         "arguments": [],
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 31,
           "computed": false,
           "object": {
             "type": "CallExpression",
-            "start": 0,
-            "end": 27,
             "arguments": [],
             "callee": {
               "type": "TSAsExpression",
-              "start": 1,
-              "end": 24,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 1,
-                "end": 17,
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 14,
-                  "end": 17,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    14,
+                    17
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 1
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    10,
+                    11
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 1
+                    }
+                  }
                 },
-                "params": []
+                "params": [],
+                "range": [
+                  1,
+                  17
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 1
+                  }
+                }
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 21,
-                "end": 24
+                "range": [
+                  21,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 1
+                  }
+                }
+              },
+              "range": [
+                1,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 1,
+                  "line": 1
+                }
               }
             },
-            "optional": false
+            "optional": false,
+            "range": [
+              0,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 1
+              },
+              "start": {
+                "column": 0,
+                "line": 1
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 28,
-            "end": 31,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              28,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 1
+              },
+              "start": {
+                "column": 28,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            0,
+            31
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          33
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        33
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 33,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,23 +1,60 @@
-scannerNumericLiteral5.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 3,
+  "range": [
+    0,
+    3
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 3,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 3,
         "raw": "1e0",
-        "value": 1
+        "value": 1,
+        "range": [
+          0,
+          3
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        3
+      ],
+      "loc": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 3,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

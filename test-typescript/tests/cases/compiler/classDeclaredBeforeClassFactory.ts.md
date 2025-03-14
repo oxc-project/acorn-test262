@@ -1,103 +1,260 @@
-classDeclaredBeforeClassFactory.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 32,
-  "end": 129,
+  "range": [
+    32,
+    129
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 32,
-      "end": 72,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 70,
-        "end": 72,
-        "body": []
+        "range": [
+          70,
+          72
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 2
+          },
+          "start": {
+            "column": 38,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 45,
         "decorators": [],
         "name": "Derived",
-        "optional": false
+        "optional": false,
+        "range": [
+          38,
+          45
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "CallExpression",
-        "start": 54,
-        "end": 69,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 54,
-          "end": 67,
           "decorators": [],
           "name": "makeBaseClass",
-          "optional": false
+          "optional": false,
+          "range": [
+            54,
+            67
+          ],
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 2
+            },
+            "start": {
+              "column": 22,
+              "line": 2
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          54,
+          69
+        ],
+        "loc": {
+          "end": {
+            "column": 37,
+            "line": 2
+          },
+          "start": {
+            "column": 22,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        32,
+        72
+      ],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "FunctionDeclaration",
-      "start": 74,
-      "end": 128,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 99,
-        "end": 128,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 105,
-            "end": 126,
             "argument": {
               "type": "ClassExpression",
-              "start": 112,
-              "end": 125,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "start": 123,
-                "end": 125,
-                "body": []
+                "range": [
+                  123,
+                  125
+                ],
+                "body": [],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 118,
-                "end": 122,
                 "decorators": [],
                 "name": "Base",
-                "optional": false
+                "optional": false,
+                "range": [
+                  118,
+                  122
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 5
+                  }
+                }
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "range": [
+                112,
+                125
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 5
+                },
+                "start": {
+                  "column": 11,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              105,
+              126
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          99,
+          128
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 25,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 83,
-        "end": 96,
         "decorators": [],
         "name": "makeBaseClass",
-        "optional": false
+        "optional": false,
+        "range": [
+          83,
+          96
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 4
+          },
+          "start": {
+            "column": 9,
+            "line": 4
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        74,
+        128
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

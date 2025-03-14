@@ -1,35 +1,47 @@
-constructorOverloadsWithOptionalParameters.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 179,
+  "range": [
+    0,
+    179
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 87,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 87,
+        "range": [
+          8,
+          87
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 26,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 17,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                14,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -37,29 +49,77 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 17,
-              "end": 25,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
+              },
+              "range": [
+                17,
+                25
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 19,
-                "end": 25
+                "range": [
+                  19,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              14,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 31,
-            "end": 58,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 42,
+              "range": [
+                31,
+                42
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -67,8 +127,10 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 42,
-              "end": 58,
+              "range": [
+                42,
+                58
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -78,51 +140,145 @@ constructorOverloadsWithOptionalParameters.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 45,
                   "decorators": [],
                   "name": "x",
-                  "optional": true
+                  "optional": true,
+                  "range": [
+                    43,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 3
+                    }
+                  }
                 },
                 {
                   "type": "Identifier",
-                  "start": 47,
-                  "end": 56,
                   "decorators": [],
                   "name": "y",
                   "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 49,
-                    "end": 56,
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      49,
+                      56
+                    ],
                     "typeAnnotation": {
                       "type": "TSArrayType",
-                      "start": 51,
-                      "end": 56,
                       "elementType": {
                         "type": "TSAnyKeyword",
-                        "start": 51,
-                        "end": 54
+                        "range": [
+                          51,
+                          54
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 24,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        51,
+                        56
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 3
+                        }
                       }
+                    }
+                  },
+                  "range": [
+                    47,
+                    56
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              31,
+              58
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 64,
-            "end": 85,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 64,
-              "end": 75,
+              "range": [
+                64,
+                75
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -130,62 +286,146 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 75,
-              "end": 85,
+              "range": [
+                75,
+                85
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 78,
-                "end": 85,
-                "body": []
+                "body": [],
+                "range": [
+                  78,
+                  85
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              64,
+              85
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        87
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 89,
-      "end": 179,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 100,
-        "end": 179,
+        "range": [
+          100,
+          179
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 106,
-            "end": 118,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 106,
-              "end": 109,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                106,
+                109
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 9
+                },
+                "start": {
+                  "column": 4,
+                  "line": 9
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -193,29 +433,77 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 109,
-              "end": 117,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 9
+                },
+                "start": {
+                  "column": 7,
+                  "line": 9
+                }
+              },
+              "range": [
+                109,
+                117
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 111,
-                "end": 117
+                "range": [
+                  111,
+                  117
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 9
+                  }
+                }
               }
             },
-            "value": null
+            "value": null,
+            "range": [
+              106,
+              118
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 123,
-            "end": 150,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 123,
-              "end": 134,
+              "range": [
+                123,
+                134
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -223,8 +511,10 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 134,
-              "end": 150,
+              "range": [
+                134,
+                150
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -234,51 +524,145 @@ constructorOverloadsWithOptionalParameters.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 135,
-                  "end": 137,
                   "decorators": [],
                   "name": "x",
-                  "optional": true
+                  "optional": true,
+                  "range": [
+                    135,
+                    137
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 10
+                    }
+                  }
                 },
                 {
                   "type": "Identifier",
-                  "start": 139,
-                  "end": 148,
                   "decorators": [],
                   "name": "y",
                   "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 141,
-                    "end": 148,
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 10
+                      }
+                    },
+                    "range": [
+                      141,
+                      148
+                    ],
                     "typeAnnotation": {
                       "type": "TSArrayType",
-                      "start": 143,
-                      "end": 148,
                       "elementType": {
                         "type": "TSAnyKeyword",
-                        "start": 143,
-                        "end": 146
+                        "range": [
+                          143,
+                          146
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 10
+                          },
+                          "start": {
+                            "column": 24,
+                            "line": 10
+                          }
+                        }
+                      },
+                      "range": [
+                        143,
+                        148
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 10
+                        }
                       }
+                    }
+                  },
+                  "range": [
+                    139,
+                    148
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 10
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 10
+                },
+                "start": {
+                  "column": 15,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              123,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 156,
-            "end": 177,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 156,
-              "end": 167,
+              "range": [
+                156,
+                167
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 11
+                },
+                "start": {
+                  "column": 4,
+                  "line": 11
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -286,61 +670,182 @@ constructorOverloadsWithOptionalParameters.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 167,
-              "end": 177,
+              "range": [
+                167,
+                177
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 170,
-                "end": 177,
-                "body": []
+                "body": [],
+                "range": [
+                  170,
+                  177
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 11
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 12
+                },
+                "start": {
+                  "column": 15,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              156,
+              177
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 11,
+            "line": 8
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 95,
-        "end": 96,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "range": [
+          95,
+          96
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 8
+          },
+          "start": {
+            "column": 6,
+            "line": 8
+          }
+        }
       },
       "implements": [],
       "superClass": null,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 96,
-        "end": 99,
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 8
+          },
+          "start": {
+            "column": 7,
+            "line": 8
+          }
+        },
+        "range": [
+          96,
+          99
+        ],
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 97,
-            "end": 98,
             "const": false,
             "in": false,
             "name": {
               "type": "Identifier",
-              "start": 97,
-              "end": 98,
               "decorators": [],
               "name": "T",
-              "optional": false
+              "optional": false,
+              "range": [
+                97,
+                98
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 8
+                },
+                "start": {
+                  "column": 8,
+                  "line": 8
+                }
+              }
             },
-            "out": false
+            "out": false,
+            "range": [
+              97,
+              98
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 8
+              },
+              "start": {
+                "column": 8,
+                "line": 8
+              }
+            }
           }
         ]
+      },
+      "range": [
+        89,
+        179
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

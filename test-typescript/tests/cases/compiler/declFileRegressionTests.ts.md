@@ -1,45 +1,63 @@
-declFileRegressionTests.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 87,
-  "end": 137,
+  "range": [
+    87,
+    137
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 87,
-      "end": 135,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 91,
-          "end": 134,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 91,
-            "end": 92,
             "decorators": [],
             "name": "n",
-            "optional": false
+            "optional": false,
+            "range": [
+              91,
+              92
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 95,
-            "end": 134,
             "properties": [
               {
                 "type": "Property",
-                "start": 97,
-                "end": 104,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 97,
-                  "end": 98,
                   "decorators": [],
                   "name": "w",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    97,
+                    98
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,24 +65,60 @@ declFileRegressionTests.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 100,
-                  "end": 104,
                   "raw": "null",
-                  "value": null
+                  "value": null,
+                  "range": [
+                    100,
+                    104
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  97,
+                  104
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 106,
-                "end": 111,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 106,
-                  "end": 107,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    106,
+                    107
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 20,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -72,24 +126,60 @@ declFileRegressionTests.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 109,
-                  "end": 111,
                   "raw": "''",
-                  "value": ""
+                  "value": "",
+                  "range": [
+                    109,
+                    111
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  106,
+                  111
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 113,
-                "end": 125,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 113,
-                  "end": 114,
                   "decorators": [],
                   "name": "y",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    113,
+                    114
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -97,33 +187,81 @@ declFileRegressionTests.ts
                 "shorthand": false,
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 116,
-                  "end": 125,
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 122,
-                    "end": 125,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      122,
+                      125
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 38,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 35,
+                        "line": 3
+                      }
+                    }
                   },
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "range": [
+                    116,
+                    125
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  113,
+                  125
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 127,
-                "end": 132,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 127,
-                  "end": 128,
                   "decorators": [],
                   "name": "z",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    127,
+                    128
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 41,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 40,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -131,20 +269,99 @@ declFileRegressionTests.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 130,
-                  "end": 132,
                   "raw": "32",
-                  "value": 32
+                  "value": 32,
+                  "range": [
+                    130,
+                    132
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 45,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 43,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  127,
+                  132
+                ],
+                "loc": {
+                  "end": {
+                    "column": 45,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 40,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              95,
+              134
+            ],
+            "loc": {
+              "end": {
+                "column": 47,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            91,
+            134
+          ],
+          "loc": {
+            "end": {
+              "column": 47,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        87,
+        135
+      ],
+      "loc": {
+        "end": {
+          "column": 48,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

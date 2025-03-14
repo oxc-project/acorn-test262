@@ -1,39 +1,45 @@
-destructuringSameNames.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 16,
-  "end": 898,
+  "range": [
+    16,
+    898
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 51,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 50,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 20,
-            "end": 37,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 22,
-                "end": 25,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 25,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    22,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -41,25 +47,61 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 25,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    22,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  22,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 27,
-                "end": 35,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 30,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    27,
+                    30
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -67,32 +109,80 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 32,
-                  "end": 35,
                   "decorators": [],
                   "name": "bar",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    32,
+                    35
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  27,
+                  35
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              20,
+              37
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 40,
-            "end": 50,
             "properties": [
               {
                 "type": "Property",
-                "start": 42,
-                "end": 48,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 45,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    42,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -100,47 +190,119 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 47,
-                  "end": 48,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    47,
+                    48
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  42,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              40,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 3
+              },
+              "start": {
+                "column": 24,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            20,
+            50
+          ],
+          "loc": {
+            "end": {
+              "column": 34,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        16,
+        51
+      ],
+      "loc": {
+        "end": {
+          "column": 35,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 52,
-      "end": 80,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 53,
-        "end": 78,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 53,
-          "end": 65,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 55,
-              "end": 58,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 55,
-                "end": 58,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  55,
+                  58
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -148,25 +310,61 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 55,
-                "end": 58,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  55,
+                  58
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                55,
+                58
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 4
+                },
+                "start": {
+                  "column": 3,
+                  "line": 4
+                }
               }
             },
             {
               "type": "Property",
-              "start": 60,
-              "end": 63,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 63,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  60,
+                  63
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 4
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -174,32 +372,80 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 63,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  60,
+                  63
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                60,
+                63
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            53,
+            65
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 4
+            },
+            "start": {
+              "column": 1,
+              "line": 4
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 68,
-          "end": 78,
           "properties": [
             {
               "type": "Property",
-              "start": 70,
-              "end": 76,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 70,
-                "end": 73,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  70,
+                  73
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 4
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -207,44 +453,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 75,
-                "end": 76,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "range": [
+                  75,
+                  76
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                70,
+                76
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 4
+                },
+                "start": {
+                  "column": 18,
+                  "line": 4
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            68,
+            78
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 4
+            },
+            "start": {
+              "column": 16,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          53,
+          78
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 4
+          },
+          "start": {
+            "column": 1,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        52,
+        80
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 81,
-      "end": 114,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 82,
-        "end": 112,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 82,
-          "end": 99,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 84,
-              "end": 87,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 84,
-                "end": 87,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  84,
+                  87
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 5
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -252,25 +570,61 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 84,
-                "end": 87,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  84,
+                  87
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                84,
+                87
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 5
+                },
+                "start": {
+                  "column": 3,
+                  "line": 5
+                }
               }
             },
             {
               "type": "Property",
-              "start": 89,
-              "end": 97,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 89,
-                "end": 92,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  89,
+                  92
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 5
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -278,32 +632,80 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 94,
-                "end": 97,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  94,
+                  97
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                89,
+                97
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 8,
+                  "line": 5
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            82,
+            99
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 5
+            },
+            "start": {
+              "column": 1,
+              "line": 5
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 102,
-          "end": 112,
           "properties": [
             {
               "type": "Property",
-              "start": 104,
-              "end": 110,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 104,
-                "end": 107,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  104,
+                  107
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 5
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -311,44 +713,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 109,
-                "end": 110,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "range": [
+                  109,
+                  110
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                104,
+                110
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 5
+                },
+                "start": {
+                  "column": 23,
+                  "line": 5
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            102,
+            112
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 5
+            },
+            "start": {
+              "column": 21,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          82,
+          112
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 5
+          },
+          "start": {
+            "column": 1,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        81,
+        114
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 115,
-      "end": 148,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 116,
-        "end": 146,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 116,
-          "end": 133,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 118,
-              "end": 126,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 118,
-                "end": 121,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  118,
+                  121
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 6
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -356,25 +830,61 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 123,
-                "end": 126,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  123,
+                  126
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                118,
+                126
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 6
+                },
+                "start": {
+                  "column": 3,
+                  "line": 6
+                }
               }
             },
             {
               "type": "Property",
-              "start": 128,
-              "end": 131,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 128,
-                "end": 131,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  128,
+                  131
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 6
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -382,32 +892,80 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 128,
-                "end": 131,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  128,
+                  131
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                128,
+                131
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 6
+                },
+                "start": {
+                  "column": 13,
+                  "line": 6
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            116,
+            133
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 6
+            },
+            "start": {
+              "column": 1,
+              "line": 6
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 136,
-          "end": 146,
           "properties": [
             {
               "type": "Property",
-              "start": 138,
-              "end": 144,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 138,
-                "end": 141,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  138,
+                  141
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 6
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -415,44 +973,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 143,
-                "end": 144,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "range": [
+                  143,
+                  144
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                138,
+                144
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 6
+                },
+                "start": {
+                  "column": 23,
+                  "line": 6
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            136,
+            146
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 6
+            },
+            "start": {
+              "column": 21,
+              "line": 6
+            }
+          }
+        },
+        "range": [
+          116,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 6
+          },
+          "start": {
+            "column": 1,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        115,
+        148
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 149,
-      "end": 191,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 150,
-        "end": 189,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 150,
-          "end": 167,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 152,
-              "end": 155,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 152,
-                "end": 155,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  152,
+                  155
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 7
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -460,25 +1090,61 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 152,
-                "end": 155,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  152,
+                  155
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                152,
+                155
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 7
+                },
+                "start": {
+                  "column": 3,
+                  "line": 7
+                }
               }
             },
             {
               "type": "Property",
-              "start": 157,
-              "end": 165,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 157,
-                "end": 160,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  157,
+                  160
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 7
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -486,32 +1152,80 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 162,
-                "end": 165,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  162,
+                  165
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                157,
+                165
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 7
+                },
+                "start": {
+                  "column": 8,
+                  "line": 7
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            150,
+            167
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 7
+            },
+            "start": {
+              "column": 1,
+              "line": 7
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 170,
-          "end": 189,
           "properties": [
             {
               "type": "Property",
-              "start": 172,
-              "end": 178,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 172,
-                "end": 175,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  172,
+                  175
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 7
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -519,24 +1233,60 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 177,
-                "end": 178,
                 "raw": "3",
-                "value": 3
+                "value": 3,
+                "range": [
+                  177,
+                  178
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                172,
+                178
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 7
+                },
+                "start": {
+                  "column": 23,
+                  "line": 7
+                }
               }
             },
             {
               "type": "Property",
-              "start": 180,
-              "end": 187,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 180,
-                "end": 183,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  180,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 7
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -544,44 +1294,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 185,
-                "end": 187,
                 "raw": "33",
-                "value": 33
+                "value": 33,
+                "range": [
+                  185,
+                  187
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 36,
+                    "line": 7
+                  }
+                }
+              },
+              "range": [
+                180,
+                187
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 7
+                },
+                "start": {
+                  "column": 31,
+                  "line": 7
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            170,
+            189
+          ],
+          "loc": {
+            "end": {
+              "column": 40,
+              "line": 7
+            },
+            "start": {
+              "column": 21,
+              "line": 7
+            }
+          }
+        },
+        "range": [
+          150,
+          189
+        ],
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 7
+          },
+          "start": {
+            "column": 1,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        149,
+        191
+      ],
+      "loc": {
+        "end": {
+          "column": 42,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 192,
-      "end": 234,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 193,
-        "end": 232,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 193,
-          "end": 210,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 195,
-              "end": 203,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 195,
-                "end": 198,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  195,
+                  198
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 8
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -589,25 +1411,61 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 200,
-                "end": 203,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  200,
+                  203
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                195,
+                203
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 8
+                },
+                "start": {
+                  "column": 3,
+                  "line": 8
+                }
               }
             },
             {
               "type": "Property",
-              "start": 205,
-              "end": 208,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 205,
-                "end": 208,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  205,
+                  208
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 8
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -615,32 +1473,80 @@ destructuringSameNames.ts
               "shorthand": true,
               "value": {
                 "type": "Identifier",
-                "start": 205,
-                "end": 208,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  205,
+                  208
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                205,
+                208
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 8
+                },
+                "start": {
+                  "column": 13,
+                  "line": 8
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            193,
+            210
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 8
+            },
+            "start": {
+              "column": 1,
+              "line": 8
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 213,
-          "end": 232,
           "properties": [
             {
               "type": "Property",
-              "start": 215,
-              "end": 221,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 215,
-                "end": 218,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  215,
+                  218
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 8
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -648,24 +1554,60 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 220,
-                "end": 221,
                 "raw": "4",
-                "value": 4
+                "value": 4,
+                "range": [
+                  220,
+                  221
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                215,
+                221
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 8
+                },
+                "start": {
+                  "column": 23,
+                  "line": 8
+                }
               }
             },
             {
               "type": "Property",
-              "start": 223,
-              "end": 230,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 223,
-                "end": 226,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  223,
+                  226
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 8
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -673,44 +1615,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 228,
-                "end": 230,
                 "raw": "44",
-                "value": 44
+                "value": 44,
+                "range": [
+                  228,
+                  230
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 36,
+                    "line": 8
+                  }
+                }
+              },
+              "range": [
+                223,
+                230
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 8
+                },
+                "start": {
+                  "column": 31,
+                  "line": 8
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            213,
+            232
+          ],
+          "loc": {
+            "end": {
+              "column": 40,
+              "line": 8
+            },
+            "start": {
+              "column": 21,
+              "line": 8
+            }
+          }
+        },
+        "range": [
+          193,
+          232
+        ],
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 8
+          },
+          "start": {
+            "column": 1,
+            "line": 8
+          }
+        }
+      },
+      "range": [
+        192,
+        234
+      ],
+      "loc": {
+        "end": {
+          "column": 42,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 273,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 236,
-        "end": 271,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 236,
-          "end": 258,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 238,
-              "end": 246,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 238,
-                "end": 241,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  238,
+                  241
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 9
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -718,25 +1732,61 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 243,
-                "end": 246,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  243,
+                  246
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 9
+                  }
+                }
+              },
+              "range": [
+                238,
+                246
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 9
+                },
+                "start": {
+                  "column": 3,
+                  "line": 9
+                }
               }
             },
             {
               "type": "Property",
-              "start": 248,
-              "end": 256,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 248,
-                "end": 251,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  248,
+                  251
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 9
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -744,32 +1794,80 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 253,
-                "end": 256,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  253,
+                  256
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 9
+                  }
+                }
+              },
+              "range": [
+                248,
+                256
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 9
+                },
+                "start": {
+                  "column": 13,
+                  "line": 9
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            236,
+            258
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 9
+            },
+            "start": {
+              "column": 1,
+              "line": 9
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 261,
-          "end": 271,
           "properties": [
             {
               "type": "Property",
-              "start": 263,
-              "end": 269,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 263,
-                "end": 266,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  263,
+                  266
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 9
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -777,44 +1875,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 268,
-                "end": 269,
                 "raw": "5",
-                "value": 5
+                "value": 5,
+                "range": [
+                  268,
+                  269
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 33,
+                    "line": 9
+                  }
+                }
+              },
+              "range": [
+                263,
+                269
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 9
+                },
+                "start": {
+                  "column": 28,
+                  "line": 9
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            261,
+            271
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 9
+            },
+            "start": {
+              "column": 26,
+              "line": 9
+            }
+          }
+        },
+        "range": [
+          236,
+          271
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 9
+          },
+          "start": {
+            "column": 1,
+            "line": 9
+          }
+        }
+      },
+      "range": [
+        235,
+        273
+      ],
+      "loc": {
+        "end": {
+          "column": 38,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 321,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 275,
-        "end": 319,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 275,
-          "end": 297,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 277,
-              "end": 285,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 277,
-                "end": 280,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  277,
+                  280
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 10
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -822,25 +1992,61 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 282,
-                "end": 285,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  282,
+                  285
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                277,
+                285
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 10
+                },
+                "start": {
+                  "column": 3,
+                  "line": 10
+                }
               }
             },
             {
               "type": "Property",
-              "start": 287,
-              "end": 295,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 287,
-                "end": 290,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  287,
+                  290
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 10
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -848,32 +2054,80 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 292,
-                "end": 295,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  292,
+                  295
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                287,
+                295
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 10
+                },
+                "start": {
+                  "column": 13,
+                  "line": 10
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            275,
+            297
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 10
+            },
+            "start": {
+              "column": 1,
+              "line": 10
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 300,
-          "end": 319,
           "properties": [
             {
               "type": "Property",
-              "start": 302,
-              "end": 308,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 302,
-                "end": 305,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  302,
+                  305
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 10
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -881,24 +2135,60 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 307,
-                "end": 308,
                 "raw": "6",
-                "value": 6
+                "value": 6,
+                "range": [
+                  307,
+                  308
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 33,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                302,
+                308
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 10
+                },
+                "start": {
+                  "column": 28,
+                  "line": 10
+                }
               }
             },
             {
               "type": "Property",
-              "start": 310,
-              "end": 317,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 310,
-                "end": 313,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  310,
+                  313
+                ],
+                "loc": {
+                  "end": {
+                    "column": 39,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 36,
+                    "line": 10
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -906,44 +2196,116 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 315,
-                "end": 317,
                 "raw": "66",
-                "value": 66
+                "value": 66,
+                "range": [
+                  315,
+                  317
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 41,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                310,
+                317
+              ],
+              "loc": {
+                "end": {
+                  "column": 43,
+                  "line": 10
+                },
+                "start": {
+                  "column": 36,
+                  "line": 10
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            300,
+            319
+          ],
+          "loc": {
+            "end": {
+              "column": 45,
+              "line": 10
+            },
+            "start": {
+              "column": 26,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          275,
+          319
+        ],
+        "loc": {
+          "end": {
+            "column": 45,
+            "line": 10
+          },
+          "start": {
+            "column": 1,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        274,
+        321
+      ],
+      "loc": {
+        "end": {
+          "column": 47,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 322,
-      "end": 360,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 323,
-        "end": 358,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 323,
-          "end": 345,
           "decorators": [],
           "optional": false,
           "properties": [
             {
               "type": "Property",
-              "start": 325,
-              "end": 333,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 325,
-                "end": 328,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  325,
+                  328
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 11
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -951,25 +2313,61 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 330,
-                "end": 333,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  330,
+                  333
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 11
+                  }
+                }
+              },
+              "range": [
+                325,
+                333
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 11
+                },
+                "start": {
+                  "column": 3,
+                  "line": 11
+                }
               }
             },
             {
               "type": "Property",
-              "start": 335,
-              "end": 343,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 335,
-                "end": 338,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  335,
+                  338
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 11
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -977,32 +2375,80 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Identifier",
-                "start": 340,
-                "end": 343,
                 "decorators": [],
                 "name": "bar",
-                "optional": false
+                "optional": false,
+                "range": [
+                  340,
+                  343
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 11
+                  }
+                }
+              },
+              "range": [
+                335,
+                343
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 11
+                },
+                "start": {
+                  "column": 13,
+                  "line": 11
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            323,
+            345
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 11
+            },
+            "start": {
+              "column": 1,
+              "line": 11
+            }
+          }
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 348,
-          "end": 358,
           "properties": [
             {
               "type": "Property",
-              "start": 350,
-              "end": 356,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 350,
-                "end": 353,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  350,
+                  353
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 11
+                  }
+                }
               },
               "kind": "init",
               "method": false,
@@ -1010,375 +2456,999 @@ destructuringSameNames.ts
               "shorthand": false,
               "value": {
                 "type": "Literal",
-                "start": 355,
-                "end": 356,
                 "raw": "7",
-                "value": 7
+                "value": 7,
+                "range": [
+                  355,
+                  356
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 33,
+                    "line": 11
+                  }
+                }
+              },
+              "range": [
+                350,
+                356
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 11
+                },
+                "start": {
+                  "column": 28,
+                  "line": 11
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            348,
+            358
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 11
+            },
+            "start": {
+              "column": 26,
+              "line": 11
+            }
+          }
+        },
+        "range": [
+          323,
+          358
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 11
+          },
+          "start": {
+            "column": 1,
+            "line": 11
+          }
+        }
+      },
+      "range": [
+        322,
+        360
+      ],
+      "loc": {
+        "end": {
+          "column": 38,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 362,
-      "end": 387,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 362,
-        "end": 386,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 362,
-          "end": 372,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 363,
-              "end": 366,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                363,
+                366
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 13
+                },
+                "start": {
+                  "column": 1,
+                  "line": 13
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 368,
-              "end": 371,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                368,
+                371
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 13
+                },
+                "start": {
+                  "column": 6,
+                  "line": 13
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            362,
+            372
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 13
+            },
+            "start": {
+              "column": 0,
+              "line": 13
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 375,
-          "end": 386,
           "elements": [
             {
               "type": "Literal",
-              "start": 376,
-              "end": 379,
               "raw": "111",
-              "value": 111
+              "value": 111,
+              "range": [
+                376,
+                379
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 13
+                },
+                "start": {
+                  "column": 14,
+                  "line": 13
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 381,
-              "end": 385,
               "raw": "1111",
-              "value": 1111
+              "value": 1111,
+              "range": [
+                381,
+                385
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 13
+                },
+                "start": {
+                  "column": 19,
+                  "line": 13
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            375,
+            386
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 13
+            },
+            "start": {
+              "column": 13,
+              "line": 13
+            }
+          }
+        },
+        "range": [
+          362,
+          386
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 13
+          },
+          "start": {
+            "column": 0,
+            "line": 13
+          }
+        }
+      },
+      "range": [
+        362,
+        387
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 13
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 388,
-      "end": 413,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 388,
-        "end": 412,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 388,
-          "end": 398,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 389,
-              "end": 392,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                389,
+                392
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 14
+                },
+                "start": {
+                  "column": 1,
+                  "line": 14
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 394,
-              "end": 397,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                394,
+                397
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 14
+                },
+                "start": {
+                  "column": 6,
+                  "line": 14
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            388,
+            398
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 14
+            },
+            "start": {
+              "column": 0,
+              "line": 14
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 401,
-          "end": 412,
           "elements": [
             {
               "type": "Literal",
-              "start": 402,
-              "end": 405,
               "raw": "222",
-              "value": 222
+              "value": 222,
+              "range": [
+                402,
+                405
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 14
+                },
+                "start": {
+                  "column": 14,
+                  "line": 14
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 407,
-              "end": 411,
               "raw": "2222",
-              "value": 2222
+              "value": 2222,
+              "range": [
+                407,
+                411
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 14
+                },
+                "start": {
+                  "column": 19,
+                  "line": 14
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            401,
+            412
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 14
+            },
+            "start": {
+              "column": 13,
+              "line": 14
+            }
+          }
+        },
+        "range": [
+          388,
+          412
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 14
+          },
+          "start": {
+            "column": 0,
+            "line": 14
+          }
+        }
+      },
+      "range": [
+        388,
+        413
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 14
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 414,
-      "end": 451,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 414,
-        "end": 450,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 414,
-          "end": 429,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 415,
-              "end": 418,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                415,
+                418
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 15
+                },
+                "start": {
+                  "column": 1,
+                  "line": 15
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 420,
-              "end": 423,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                420,
+                423
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 15
+                },
+                "start": {
+                  "column": 6,
+                  "line": 15
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 425,
-              "end": 428,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                425,
+                428
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 15
+                },
+                "start": {
+                  "column": 11,
+                  "line": 15
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            414,
+            429
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 15
+            },
+            "start": {
+              "column": 0,
+              "line": 15
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 432,
-          "end": 450,
           "elements": [
             {
               "type": "Literal",
-              "start": 433,
-              "end": 436,
               "raw": "333",
-              "value": 333
+              "value": 333,
+              "range": [
+                433,
+                436
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 15
+                },
+                "start": {
+                  "column": 19,
+                  "line": 15
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 438,
-              "end": 442,
               "raw": "3333",
-              "value": 3333
+              "value": 3333,
+              "range": [
+                438,
+                442
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 15
+                },
+                "start": {
+                  "column": 24,
+                  "line": 15
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 444,
-              "end": 449,
               "raw": "33333",
-              "value": 33333
+              "value": 33333,
+              "range": [
+                444,
+                449
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 15
+                },
+                "start": {
+                  "column": 30,
+                  "line": 15
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            432,
+            450
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 15
+            },
+            "start": {
+              "column": 18,
+              "line": 15
+            }
+          }
+        },
+        "range": [
+          414,
+          450
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 15
+          },
+          "start": {
+            "column": 0,
+            "line": 15
+          }
+        }
+      },
+      "range": [
+        414,
+        451
+      ],
+      "loc": {
+        "end": {
+          "column": 37,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 15
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 452,
-      "end": 489,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 452,
-        "end": 488,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 452,
-          "end": 467,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 453,
-              "end": 456,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                453,
+                456
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 16
+                },
+                "start": {
+                  "column": 1,
+                  "line": 16
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 458,
-              "end": 461,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                458,
+                461
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 16
+                },
+                "start": {
+                  "column": 6,
+                  "line": 16
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 463,
-              "end": 466,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                463,
+                466
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 16
+                },
+                "start": {
+                  "column": 11,
+                  "line": 16
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            452,
+            467
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 16
+            },
+            "start": {
+              "column": 0,
+              "line": 16
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 470,
-          "end": 488,
           "elements": [
             {
               "type": "Literal",
-              "start": 471,
-              "end": 474,
               "raw": "333",
-              "value": 333
+              "value": 333,
+              "range": [
+                471,
+                474
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 16
+                },
+                "start": {
+                  "column": 19,
+                  "line": 16
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 476,
-              "end": 480,
               "raw": "3333",
-              "value": 3333
+              "value": 3333,
+              "range": [
+                476,
+                480
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 16
+                },
+                "start": {
+                  "column": 24,
+                  "line": 16
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 482,
-              "end": 487,
               "raw": "33333",
-              "value": 33333
+              "value": 33333,
+              "range": [
+                482,
+                487
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 16
+                },
+                "start": {
+                  "column": 30,
+                  "line": 16
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            470,
+            488
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 16
+            },
+            "start": {
+              "column": 18,
+              "line": 16
+            }
+          }
+        },
+        "range": [
+          452,
+          488
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 16
+          },
+          "start": {
+            "column": 0,
+            "line": 16
+          }
+        }
+      },
+      "range": [
+        452,
+        489
+      ],
+      "loc": {
+        "end": {
+          "column": 37,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 16
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 490,
-      "end": 527,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 490,
-        "end": 526,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 490,
-          "end": 505,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 491,
-              "end": 494,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                491,
+                494
+              ],
+              "loc": {
+                "end": {
+                  "column": 4,
+                  "line": 17
+                },
+                "start": {
+                  "column": 1,
+                  "line": 17
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 496,
-              "end": 499,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                496,
+                499
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 17
+                },
+                "start": {
+                  "column": 6,
+                  "line": 17
+                }
+              }
             },
             {
               "type": "Identifier",
-              "start": 501,
-              "end": 504,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                501,
+                504
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 17
+                },
+                "start": {
+                  "column": 11,
+                  "line": 17
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            490,
+            505
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 17
+            },
+            "start": {
+              "column": 0,
+              "line": 17
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 508,
-          "end": 526,
           "elements": [
             {
               "type": "Literal",
-              "start": 509,
-              "end": 512,
               "raw": "444",
-              "value": 444
+              "value": 444,
+              "range": [
+                509,
+                512
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 17
+                },
+                "start": {
+                  "column": 19,
+                  "line": 17
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 514,
-              "end": 518,
               "raw": "4444",
-              "value": 4444
+              "value": 4444,
+              "range": [
+                514,
+                518
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 17
+                },
+                "start": {
+                  "column": 24,
+                  "line": 17
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 520,
-              "end": 525,
               "raw": "44444",
-              "value": 44444
+              "value": 44444,
+              "range": [
+                520,
+                525
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 17
+                },
+                "start": {
+                  "column": 30,
+                  "line": 17
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            508,
+            526
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 17
+            },
+            "start": {
+              "column": 18,
+              "line": 17
+            }
+          }
+        },
+        "range": [
+          490,
+          526
+        ],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 17
+          },
+          "start": {
+            "column": 0,
+            "line": 17
+          }
+        }
+      },
+      "range": [
+        490,
+        527
+      ],
+      "loc": {
+        "end": {
+          "column": 37,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 17
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 545,
-      "end": 579,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 549,
-          "end": 578,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 549,
-            "end": 563,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 551,
-                "end": 555,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 551,
-                  "end": 555,
                   "decorators": [],
                   "name": "foo1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    551,
+                    555
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 21
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1386,25 +3456,61 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 551,
-                  "end": 555,
                   "decorators": [],
                   "name": "foo1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    551,
+                    555
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 21
+                    }
+                  }
+                },
+                "range": [
+                  551,
+                  555
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 21
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 557,
-                "end": 561,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 557,
-                  "end": 561,
                   "decorators": [],
                   "name": "foo1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    557,
+                    561
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 21
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1412,32 +3518,80 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 557,
-                  "end": 561,
                   "decorators": [],
                   "name": "foo1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    557,
+                    561
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 21
+                    }
+                  }
+                },
+                "range": [
+                  557,
+                  561
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 21
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              549,
+              563
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 21
+              },
+              "start": {
+                "column": 4,
+                "line": 21
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 566,
-            "end": 578,
             "properties": [
               {
                 "type": "Property",
-                "start": 568,
-                "end": 576,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 568,
-                  "end": 572,
                   "decorators": [],
                   "name": "foo1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    568,
+                    572
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 21
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1445,48 +3599,120 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 574,
-                  "end": 576,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "range": [
+                    574,
+                    576
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 21
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 21
+                    }
+                  }
+                },
+                "range": [
+                  568,
+                  576
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 21
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              566,
+              578
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 21
+              },
+              "start": {
+                "column": 21,
+                "line": 21
+              }
+            }
+          },
+          "range": [
+            549,
+            578
+          ],
+          "loc": {
+            "end": {
+              "column": 33,
+              "line": 21
+            },
+            "start": {
+              "column": 4,
+              "line": 21
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        545,
+        579
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 21
+        },
+        "start": {
+          "column": 0,
+          "line": 21
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 580,
-      "end": 631,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 584,
-          "end": 630,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 584,
-            "end": 604,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 586,
-                "end": 590,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 586,
-                  "end": 590,
                   "decorators": [],
                   "name": "foo2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    586,
+                    590
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 22
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1494,25 +3720,61 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 586,
-                  "end": 590,
                   "decorators": [],
                   "name": "foo2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    586,
+                    590
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 22
+                    }
+                  }
+                },
+                "range": [
+                  586,
+                  590
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 22
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 592,
-                "end": 602,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 592,
-                  "end": 596,
                   "decorators": [],
                   "name": "bar2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    592,
+                    596
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 22
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1520,32 +3782,80 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 598,
-                  "end": 602,
                   "decorators": [],
                   "name": "foo2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    598,
+                    602
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 22
+                    }
+                  }
+                },
+                "range": [
+                  592,
+                  602
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 22
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              584,
+              604
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 22
+              },
+              "start": {
+                "column": 4,
+                "line": 22
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 607,
-            "end": 630,
             "properties": [
               {
                 "type": "Property",
-                "start": 609,
-                "end": 617,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 609,
-                  "end": 613,
                   "decorators": [],
                   "name": "foo2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    609,
+                    613
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 22
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1553,24 +3863,60 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 615,
-                  "end": 617,
                   "raw": "20",
-                  "value": 20
+                  "value": 20,
+                  "range": [
+                    615,
+                    617
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 37,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 35,
+                      "line": 22
+                    }
+                  }
+                },
+                "range": [
+                  609,
+                  617
+                ],
+                "loc": {
+                  "end": {
+                    "column": 37,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 29,
+                    "line": 22
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 619,
-                "end": 628,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 619,
-                  "end": 623,
                   "decorators": [],
                   "name": "bar2",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    619,
+                    623
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 39,
+                      "line": 22
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1578,48 +3924,120 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 625,
-                  "end": 628,
                   "raw": "220",
-                  "value": 220
+                  "value": 220,
+                  "range": [
+                    625,
+                    628
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 48,
+                      "line": 22
+                    },
+                    "start": {
+                      "column": 45,
+                      "line": 22
+                    }
+                  }
+                },
+                "range": [
+                  619,
+                  628
+                ],
+                "loc": {
+                  "end": {
+                    "column": 48,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 39,
+                    "line": 22
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              607,
+              630
+            ],
+            "loc": {
+              "end": {
+                "column": 50,
+                "line": 22
+              },
+              "start": {
+                "column": 27,
+                "line": 22
+              }
+            }
+          },
+          "range": [
+            584,
+            630
+          ],
+          "loc": {
+            "end": {
+              "column": 50,
+              "line": 22
+            },
+            "start": {
+              "column": 4,
+              "line": 22
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        580,
+        631
+      ],
+      "loc": {
+        "end": {
+          "column": 51,
+          "line": 22
+        },
+        "start": {
+          "column": 0,
+          "line": 22
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 632,
-      "end": 683,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 636,
-          "end": 682,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 636,
-            "end": 656,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 638,
-                "end": 648,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 638,
-                  "end": 642,
                   "decorators": [],
                   "name": "bar3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    638,
+                    642
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 23
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1627,25 +4045,61 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 644,
-                  "end": 648,
                   "decorators": [],
                   "name": "foo3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    644,
+                    648
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 23
+                    }
+                  }
+                },
+                "range": [
+                  638,
+                  648
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 23
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 650,
-                "end": 654,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 650,
-                  "end": 654,
                   "decorators": [],
                   "name": "foo3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    650,
+                    654
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 23
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1653,32 +4107,80 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 650,
-                  "end": 654,
                   "decorators": [],
                   "name": "foo3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    650,
+                    654
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 23
+                    }
+                  }
+                },
+                "range": [
+                  650,
+                  654
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 23
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              636,
+              656
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 23
+              },
+              "start": {
+                "column": 4,
+                "line": 23
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 659,
-            "end": 682,
             "properties": [
               {
                 "type": "Property",
-                "start": 661,
-                "end": 669,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 661,
-                  "end": 665,
                   "decorators": [],
                   "name": "foo3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    661,
+                    665
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 23
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1686,24 +4188,60 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 667,
-                  "end": 669,
                   "raw": "30",
-                  "value": 30
+                  "value": 30,
+                  "range": [
+                    667,
+                    669
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 37,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 35,
+                      "line": 23
+                    }
+                  }
+                },
+                "range": [
+                  661,
+                  669
+                ],
+                "loc": {
+                  "end": {
+                    "column": 37,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 29,
+                    "line": 23
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 671,
-                "end": 680,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 671,
-                  "end": 675,
                   "decorators": [],
                   "name": "bar3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    671,
+                    675
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 39,
+                      "line": 23
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1711,48 +4249,120 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 677,
-                  "end": 680,
                   "raw": "330",
-                  "value": 330
+                  "value": 330,
+                  "range": [
+                    677,
+                    680
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 48,
+                      "line": 23
+                    },
+                    "start": {
+                      "column": 45,
+                      "line": 23
+                    }
+                  }
+                },
+                "range": [
+                  671,
+                  680
+                ],
+                "loc": {
+                  "end": {
+                    "column": 48,
+                    "line": 23
+                  },
+                  "start": {
+                    "column": 39,
+                    "line": 23
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              659,
+              682
+            ],
+            "loc": {
+              "end": {
+                "column": 50,
+                "line": 23
+              },
+              "start": {
+                "column": 27,
+                "line": 23
+              }
+            }
+          },
+          "range": [
+            636,
+            682
+          ],
+          "loc": {
+            "end": {
+              "column": 50,
+              "line": 23
+            },
+            "start": {
+              "column": 4,
+              "line": 23
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        632,
+        683
+      ],
+      "loc": {
+        "end": {
+          "column": 51,
+          "line": 23
+        },
+        "start": {
+          "column": 0,
+          "line": 23
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 684,
-      "end": 720,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 690,
-          "end": 719,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 690,
-            "end": 704,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 692,
-                "end": 696,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 692,
-                  "end": 696,
                   "decorators": [],
                   "name": "foo4",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    692,
+                    696
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 24
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1760,25 +4370,61 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 692,
-                  "end": 696,
                   "decorators": [],
                   "name": "foo4",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    692,
+                    696
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 24
+                    }
+                  }
+                },
+                "range": [
+                  692,
+                  696
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 24
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 24
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 698,
-                "end": 702,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 698,
-                  "end": 702,
                   "decorators": [],
                   "name": "foo4",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    698,
+                    702
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 24
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1786,32 +4432,80 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 698,
-                  "end": 702,
                   "decorators": [],
                   "name": "foo4",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    698,
+                    702
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 24
+                    }
+                  }
+                },
+                "range": [
+                  698,
+                  702
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 24
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 24
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              690,
+              704
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 24
+              },
+              "start": {
+                "column": 6,
+                "line": 24
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 707,
-            "end": 719,
             "properties": [
               {
                 "type": "Property",
-                "start": 709,
-                "end": 717,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 709,
-                  "end": 713,
                   "decorators": [],
                   "name": "foo4",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    709,
+                    713
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 25,
+                      "line": 24
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1819,48 +4513,120 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 715,
-                  "end": 717,
                   "raw": "40",
-                  "value": 40
+                  "value": 40,
+                  "range": [
+                    715,
+                    717
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 24
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 24
+                    }
+                  }
+                },
+                "range": [
+                  709,
+                  717
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 24
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 24
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              707,
+              719
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 24
+              },
+              "start": {
+                "column": 23,
+                "line": 24
+              }
+            }
+          },
+          "range": [
+            690,
+            719
+          ],
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 24
+            },
+            "start": {
+              "column": 6,
+              "line": 24
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        684,
+        720
+      ],
+      "loc": {
+        "end": {
+          "column": 36,
+          "line": 24
+        },
+        "start": {
+          "column": 0,
+          "line": 24
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 721,
-      "end": 774,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 727,
-          "end": 773,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 727,
-            "end": 747,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 729,
-                "end": 733,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 729,
-                  "end": 733,
                   "decorators": [],
                   "name": "foo5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    729,
+                    733
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 25
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1868,25 +4634,61 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 729,
-                  "end": 733,
                   "decorators": [],
                   "name": "foo5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    729,
+                    733
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 25
+                    }
+                  }
+                },
+                "range": [
+                  729,
+                  733
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 25
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 735,
-                "end": 745,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 735,
-                  "end": 739,
                   "decorators": [],
                   "name": "bar5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    735,
+                    739
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 25
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1894,32 +4696,80 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 741,
-                  "end": 745,
                   "decorators": [],
                   "name": "foo5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    741,
+                    745
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 25
+                    }
+                  }
+                },
+                "range": [
+                  735,
+                  745
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 25
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              727,
+              747
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 25
+              },
+              "start": {
+                "column": 6,
+                "line": 25
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 750,
-            "end": 773,
             "properties": [
               {
                 "type": "Property",
-                "start": 752,
-                "end": 760,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 752,
-                  "end": 756,
                   "decorators": [],
                   "name": "foo5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    752,
+                    756
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 35,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 25
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1927,24 +4777,60 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 758,
-                  "end": 760,
                   "raw": "50",
-                  "value": 50
+                  "value": 50,
+                  "range": [
+                    758,
+                    760
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 39,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 37,
+                      "line": 25
+                    }
+                  }
+                },
+                "range": [
+                  752,
+                  760
+                ],
+                "loc": {
+                  "end": {
+                    "column": 39,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 25
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 762,
-                "end": 771,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 762,
-                  "end": 766,
                   "decorators": [],
                   "name": "bar5",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    762,
+                    766
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 45,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 41,
+                      "line": 25
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1952,48 +4838,120 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 768,
-                  "end": 771,
                   "raw": "550",
-                  "value": 550
+                  "value": 550,
+                  "range": [
+                    768,
+                    771
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 50,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 47,
+                      "line": 25
+                    }
+                  }
+                },
+                "range": [
+                  762,
+                  771
+                ],
+                "loc": {
+                  "end": {
+                    "column": 50,
+                    "line": 25
+                  },
+                  "start": {
+                    "column": 41,
+                    "line": 25
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              750,
+              773
+            ],
+            "loc": {
+              "end": {
+                "column": 52,
+                "line": 25
+              },
+              "start": {
+                "column": 29,
+                "line": 25
+              }
+            }
+          },
+          "range": [
+            727,
+            773
+          ],
+          "loc": {
+            "end": {
+              "column": 52,
+              "line": 25
+            },
+            "start": {
+              "column": 6,
+              "line": 25
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        721,
+        774
+      ],
+      "loc": {
+        "end": {
+          "column": 53,
+          "line": 25
+        },
+        "start": {
+          "column": 0,
+          "line": 25
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 775,
-      "end": 828,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 781,
-          "end": 827,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 781,
-            "end": 801,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 783,
-                "end": 793,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 783,
-                  "end": 787,
                   "decorators": [],
                   "name": "bar6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    783,
+                    787
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 26
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2001,25 +4959,61 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 789,
-                  "end": 793,
                   "decorators": [],
                   "name": "foo6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    789,
+                    793
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 26
+                    }
+                  }
+                },
+                "range": [
+                  783,
+                  793
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 26
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 26
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 795,
-                "end": 799,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 795,
-                  "end": 799,
                   "decorators": [],
                   "name": "foo6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    795,
+                    799
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 26
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2027,32 +5021,80 @@ destructuringSameNames.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 795,
-                  "end": 799,
                   "decorators": [],
                   "name": "foo6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    795,
+                    799
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 26
+                    }
+                  }
+                },
+                "range": [
+                  795,
+                  799
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 26
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 26
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              781,
+              801
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 26
+              },
+              "start": {
+                "column": 6,
+                "line": 26
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 804,
-            "end": 827,
             "properties": [
               {
                 "type": "Property",
-                "start": 806,
-                "end": 814,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 806,
-                  "end": 810,
                   "decorators": [],
                   "name": "foo6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    806,
+                    810
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 35,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 26
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2060,24 +5102,60 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 812,
-                  "end": 814,
                   "raw": "60",
-                  "value": 60
+                  "value": 60,
+                  "range": [
+                    812,
+                    814
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 39,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 37,
+                      "line": 26
+                    }
+                  }
+                },
+                "range": [
+                  806,
+                  814
+                ],
+                "loc": {
+                  "end": {
+                    "column": 39,
+                    "line": 26
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 26
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 816,
-                "end": 825,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 816,
-                  "end": 820,
                   "decorators": [],
                   "name": "bar6",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    816,
+                    820
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 45,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 41,
+                      "line": 26
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2085,142 +5163,413 @@ destructuringSameNames.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 822,
-                  "end": 825,
                   "raw": "660",
-                  "value": 660
+                  "value": 660,
+                  "range": [
+                    822,
+                    825
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 50,
+                      "line": 26
+                    },
+                    "start": {
+                      "column": 47,
+                      "line": 26
+                    }
+                  }
+                },
+                "range": [
+                  816,
+                  825
+                ],
+                "loc": {
+                  "end": {
+                    "column": 50,
+                    "line": 26
+                  },
+                  "start": {
+                    "column": 41,
+                    "line": 26
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              804,
+              827
+            ],
+            "loc": {
+              "end": {
+                "column": 52,
+                "line": 26
+              },
+              "start": {
+                "column": 29,
+                "line": 26
+              }
+            }
+          },
+          "range": [
+            781,
+            827
+          ],
+          "loc": {
+            "end": {
+              "column": 52,
+              "line": 26
+            },
+            "start": {
+              "column": 6,
+              "line": 26
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        775,
+        828
+      ],
+      "loc": {
+        "end": {
+          "column": 53,
+          "line": 26
+        },
+        "start": {
+          "column": 0,
+          "line": 26
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 830,
-      "end": 862,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 834,
-          "end": 861,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 834,
-            "end": 848,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 835,
-                "end": 840,
                 "decorators": [],
                 "name": "blah1",
-                "optional": false
+                "optional": false,
+                "range": [
+                  835,
+                  840
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 28
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 28
+                  }
+                }
               },
               {
                 "type": "Identifier",
-                "start": 842,
-                "end": 847,
                 "decorators": [],
                 "name": "blah1",
-                "optional": false
+                "optional": false,
+                "range": [
+                  842,
+                  847
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 28
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 28
+                  }
+                }
               }
             ],
-            "optional": false
+            "optional": false,
+            "range": [
+              834,
+              848
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 28
+              },
+              "start": {
+                "column": 4,
+                "line": 28
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 851,
-            "end": 861,
             "elements": [
               {
                 "type": "Literal",
-                "start": 852,
-                "end": 855,
                 "raw": "111",
-                "value": 111
+                "value": 111,
+                "range": [
+                  852,
+                  855
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 28
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 28
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 857,
-                "end": 860,
                 "raw": "222",
-                "value": 222
+                "value": 222,
+                "range": [
+                  857,
+                  860
+                ],
+                "loc": {
+                  "end": {
+                    "column": 30,
+                    "line": 28
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 28
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              851,
+              861
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 28
+              },
+              "start": {
+                "column": 21,
+                "line": 28
+              }
+            }
+          },
+          "range": [
+            834,
+            861
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 28
+            },
+            "start": {
+              "column": 4,
+              "line": 28
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        830,
+        862
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 28
+        },
+        "start": {
+          "column": 0,
+          "line": 28
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 863,
-      "end": 897,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 869,
-          "end": 896,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 869,
-            "end": 883,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 870,
-                "end": 875,
                 "decorators": [],
                 "name": "blah2",
-                "optional": false
+                "optional": false,
+                "range": [
+                  870,
+                  875
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 29
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 29
+                  }
+                }
               },
               {
                 "type": "Identifier",
-                "start": 877,
-                "end": 882,
                 "decorators": [],
                 "name": "blah2",
-                "optional": false
+                "optional": false,
+                "range": [
+                  877,
+                  882
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 29
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 29
+                  }
+                }
               }
             ],
-            "optional": false
+            "optional": false,
+            "range": [
+              869,
+              883
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 29
+              },
+              "start": {
+                "column": 6,
+                "line": 29
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 886,
-            "end": 896,
             "elements": [
               {
                 "type": "Literal",
-                "start": 887,
-                "end": 890,
                 "raw": "333",
-                "value": 333
+                "value": 333,
+                "range": [
+                  887,
+                  890
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 29
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 29
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 892,
-                "end": 895,
                 "raw": "444",
-                "value": 444
+                "value": 444,
+                "range": [
+                  892,
+                  895
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 29
+                  },
+                  "start": {
+                    "column": 29,
+                    "line": 29
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              886,
+              896
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 29
+              },
+              "start": {
+                "column": 23,
+                "line": 29
+              }
+            }
+          },
+          "range": [
+            869,
+            896
+          ],
+          "loc": {
+            "end": {
+              "column": 33,
+              "line": 29
+            },
+            "start": {
+              "column": 6,
+              "line": 29
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        863,
+        897
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 29
+        },
+        "start": {
+          "column": 0,
+          "line": 29
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 30
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

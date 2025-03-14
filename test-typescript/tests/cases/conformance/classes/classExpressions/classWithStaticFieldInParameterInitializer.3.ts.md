@@ -1,78 +1,158 @@
-classWithStaticFieldInParameterInitializer.3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 204,
+  "range": [
+    56,
+    204
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 56,
-      "end": 66,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 64,
-        "end": 66,
-        "body": []
+        "range": [
+          64,
+          66
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 63,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          62,
+          63
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        56,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 67,
-      "end": 124,
       "expression": {
         "type": "CallExpression",
-        "start": 67,
-        "end": 123,
         "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
-          "start": 68,
-          "end": 120,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 110,
-            "end": 120,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 112,
-                "end": 118,
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 116,
-                    "end": 117,
                     "definite": false,
                     "id": {
                       "type": "Identifier",
-                      "start": 116,
-                      "end": 117,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        116,
+                        117
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 50,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 49,
+                          "line": 3
+                        }
+                      }
                     },
-                    "init": null
+                    "init": null,
+                    "range": [
+                      116,
+                      117
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 50,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 49,
+                        "line": 3
+                      }
+                    }
                   }
                 ],
                 "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "range": [
+                  112,
+                  118
+                ],
+                "loc": {
+                  "end": {
+                    "column": 51,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 3
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              110,
+              120
+            ],
+            "loc": {
+              "end": {
+                "column": 53,
+                "line": 3
+              },
+              "start": {
+                "column": 43,
+                "line": 3
+              }
+            }
           },
           "expression": false,
           "generator": false,
@@ -80,43 +160,63 @@ classWithStaticFieldInParameterInitializer.3.ts
           "params": [
             {
               "type": "AssignmentPattern",
-              "start": 69,
-              "end": 105,
               "decorators": [],
               "left": {
                 "type": "Identifier",
-                "start": 69,
-                "end": 70,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "range": [
+                  69,
+                  70
+                ],
+                "loc": {
+                  "end": {
+                    "column": 3,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 3
+                  }
+                }
               },
               "optional": false,
               "right": {
                 "type": "ClassExpression",
-                "start": 73,
-                "end": 105,
                 "abstract": false,
                 "body": {
                   "type": "ClassBody",
-                  "start": 89,
-                  "end": 105,
+                  "range": [
+                    89,
+                    105
+                  ],
                   "body": [
                     {
                       "type": "PropertyDefinition",
-                      "start": 91,
-                      "end": 103,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
                       "definite": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 98,
-                        "end": 99,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          98,
+                          99
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 32,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 31,
+                            "line": 3
+                          }
+                        }
                       },
                       "optional": false,
                       "override": false,
@@ -124,13 +224,49 @@ classWithStaticFieldInParameterInitializer.3.ts
                       "static": true,
                       "value": {
                         "type": "Literal",
-                        "start": 102,
-                        "end": 103,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "range": [
+                          102,
+                          103
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 36,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 35,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        91,
+                        103
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 36,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 3
+                    }
+                  }
                 },
                 "declare": false,
                 "decorators": [],
@@ -138,93 +274,265 @@ classWithStaticFieldInParameterInitializer.3.ts
                 "implements": [],
                 "superClass": {
                   "type": "Identifier",
-                  "start": 87,
-                  "end": 88,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    87,
+                    88
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  73,
+                  105
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                69,
+                105
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
                 }
               }
             }
-          ]
+          ],
+          "range": [
+            68,
+            120
+          ],
+          "loc": {
+            "end": {
+              "column": 53,
+              "line": 3
+            },
+            "start": {
+              "column": 1,
+              "line": 3
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          67,
+          123
+        ],
+        "loc": {
+          "end": {
+            "column": 56,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        67,
+        124
+      ],
+      "loc": {
+        "end": {
+          "column": 57,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 126,
-      "end": 139,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 132,
-          "end": 138,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 132,
-            "end": 133,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              132,
+              133
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 5
+              },
+              "start": {
+                "column": 6,
+                "line": 5
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 136,
-            "end": 138,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "range": [
+              136,
+              138
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 5
+              },
+              "start": {
+                "column": 10,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            132,
+            138
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 5
+            },
+            "start": {
+              "column": 6,
+              "line": 5
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        126,
+        139
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 140,
-      "end": 204,
       "expression": {
         "type": "CallExpression",
-        "start": 140,
-        "end": 203,
         "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
-          "start": 141,
-          "end": 200,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 190,
-            "end": 200,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 192,
-                "end": 198,
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 196,
-                    "end": 197,
                     "definite": false,
                     "id": {
                       "type": "Identifier",
-                      "start": 196,
-                      "end": 197,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        196,
+                        197
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 57,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 56,
+                          "line": 6
+                        }
+                      }
                     },
-                    "init": null
+                    "init": null,
+                    "range": [
+                      196,
+                      197
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 57,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 56,
+                        "line": 6
+                      }
+                    }
                   }
                 ],
                 "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "range": [
+                  192,
+                  198
+                ],
+                "loc": {
+                  "end": {
+                    "column": 58,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 52,
+                    "line": 6
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              190,
+              200
+            ],
+            "loc": {
+              "end": {
+                "column": 60,
+                "line": 6
+              },
+              "start": {
+                "column": 50,
+                "line": 6
+              }
+            }
           },
           "expression": false,
           "generator": false,
@@ -232,43 +540,63 @@ classWithStaticFieldInParameterInitializer.3.ts
           "params": [
             {
               "type": "AssignmentPattern",
-              "start": 142,
-              "end": 178,
               "decorators": [],
               "left": {
                 "type": "Identifier",
-                "start": 142,
-                "end": 143,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "range": [
+                  142,
+                  143
+                ],
+                "loc": {
+                  "end": {
+                    "column": 3,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 6
+                  }
+                }
               },
               "optional": false,
               "right": {
                 "type": "ClassExpression",
-                "start": 146,
-                "end": 178,
                 "abstract": false,
                 "body": {
                   "type": "ClassBody",
-                  "start": 162,
-                  "end": 178,
+                  "range": [
+                    162,
+                    178
+                  ],
                   "body": [
                     {
                       "type": "PropertyDefinition",
-                      "start": 164,
-                      "end": 176,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
                       "definite": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 171,
-                        "end": 172,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          171,
+                          172
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 32,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 31,
+                            "line": 6
+                          }
+                        }
                       },
                       "optional": false,
                       "override": false,
@@ -276,13 +604,49 @@ classWithStaticFieldInParameterInitializer.3.ts
                       "static": true,
                       "value": {
                         "type": "Literal",
-                        "start": 175,
-                        "end": 176,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "range": [
+                          175,
+                          176
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 36,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 35,
+                            "line": 6
+                          }
+                        }
+                      },
+                      "range": [
+                        164,
+                        176
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 36,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 6
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 6
+                    }
+                  }
                 },
                 "declare": false,
                 "decorators": [],
@@ -290,43 +654,172 @@ classWithStaticFieldInParameterInitializer.3.ts
                 "implements": [],
                 "superClass": {
                   "type": "Identifier",
-                  "start": 160,
-                  "end": 161,
                   "decorators": [],
                   "name": "C",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    160,
+                    161
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  146,
+                  178
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                142,
+                178
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 6
+                },
+                "start": {
+                  "column": 2,
+                  "line": 6
                 }
               }
             },
             {
               "type": "AssignmentPattern",
-              "start": 180,
-              "end": 185,
               "decorators": [],
               "left": {
                 "type": "Identifier",
-                "start": 180,
-                "end": 181,
                 "decorators": [],
                 "name": "d",
-                "optional": false
+                "optional": false,
+                "range": [
+                  180,
+                  181
+                ],
+                "loc": {
+                  "end": {
+                    "column": 41,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 40,
+                    "line": 6
+                  }
+                }
               },
               "optional": false,
               "right": {
                 "type": "Identifier",
-                "start": 184,
-                "end": 185,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "range": [
+                  184,
+                  185
+                ],
+                "loc": {
+                  "end": {
+                    "column": 45,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 44,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                180,
+                185
+              ],
+              "loc": {
+                "end": {
+                  "column": 45,
+                  "line": 6
+                },
+                "start": {
+                  "column": 40,
+                  "line": 6
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            141,
+            200
+          ],
+          "loc": {
+            "end": {
+              "column": 60,
+              "line": 6
+            },
+            "start": {
+              "column": 1,
+              "line": 6
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          140,
+          203
+        ],
+        "loc": {
+          "end": {
+            "column": 63,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        140,
+        204
+      ],
+      "loc": {
+        "end": {
+          "column": 64,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 64,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

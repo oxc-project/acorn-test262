@@ -1,121 +1,274 @@
-file.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
+  "range": [
+    0,
+    29
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 29,
+      "range": [
+        0,
+        29
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 29,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 28,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                14
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "JSXElement",
-              "start": 17,
-              "end": 28,
               "children": [],
               "closingElement": {
                 "type": "JSXClosingElement",
-                "start": 22,
-                "end": 28,
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 24,
-                  "end": 27,
-                  "name": "div"
+                  "name": "div",
+                  "range": [
+                    24,
+                    27
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  22,
+                  28
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 22,
+                    "line": 1
+                  }
                 }
               },
               "openingElement": {
                 "type": "JSXOpeningElement",
-                "start": 17,
-                "end": 22,
                 "attributes": [],
                 "name": {
                   "type": "JSXIdentifier",
-                  "start": 18,
-                  "end": 21,
-                  "name": "div"
+                  "name": "div",
+                  "range": [
+                    18,
+                    21
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 1
+                    }
+                  }
                 },
-                "selfClosing": false
+                "selfClosing": false,
+                "range": [
+                  17,
+                  22
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 1
+                  }
+                }
+              },
+              "range": [
+                17,
+                28
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 1
+                },
+                "start": {
+                  "column": 17,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
               }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          7,
+          29
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 29,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-node_modules/@types/react/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 79,
+  "range": [
+    0,
+    79
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 79,
       "body": {
         "type": "TSModuleBlock",
-        "start": 22,
-        "end": 79,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 28,
-            "end": 77,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 56,
-              "end": 77,
+              "range": [
+                56,
+                77
+              ],
               "body": [
                 {
                   "type": "TSIndexSignature",
-                  "start": 58,
-                  "end": 75,
                   "parameters": [
                     {
                       "type": "Identifier",
-                      "start": 59,
-                      "end": 68,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 60,
-                        "end": 68,
+                        "loc": {
+                          "end": {
+                            "column": 44,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 36,
+                            "line": 2
+                          }
+                        },
+                        "range": [
+                          60,
+                          68
+                        ],
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 62,
-                          "end": 68
+                          "range": [
+                            62,
+                            68
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 44,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 38,
+                              "line": 2
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        59,
+                        68
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 44,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 35,
+                          "line": 2
                         }
                       }
                     }
@@ -124,95 +277,294 @@ node_modules/@types/react/index.d.ts
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 69,
-                    "end": 74,
+                    "loc": {
+                      "end": {
+                        "column": 50,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 45,
+                        "line": 2
+                      }
+                    },
+                    "range": [
+                      69,
+                      74
+                    ],
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 71,
-                      "end": 74
+                      "range": [
+                        71,
+                        74
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 50,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 47,
+                          "line": 2
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    58,
+                    75
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 51,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 34,
+                      "line": 2
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 53,
+                  "line": 2
+                },
+                "start": {
+                  "column": 32,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 38,
-              "end": 55,
               "decorators": [],
               "name": "IntrinsicElements",
-              "optional": false
+              "optional": false,
+              "range": [
+                38,
+                55
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              28,
+              77
+            ],
+            "loc": {
+              "end": {
+                "column": 53,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          22,
+          79
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 21,
+        "range": [
+          18,
+          21
+        ],
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
-      "kind": "namespace"
+      "kind": "namespace",
+      "range": [
+        0,
+        79
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-node_modules/@types/react/jsx-runtime.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
+  "range": [
+    0,
+    12
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 12,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "raw": "'./'",
-        "value": "./"
+        "value": "./",
+        "range": [
+          7,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 12,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-node_modules/@types/react/jsx-dev-runtime.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 13,
+  "range": [
+    0,
+    13
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 12,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 11,
         "raw": "'./'",
-        "value": "./"
+        "value": "./",
+        "range": [
+          7,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

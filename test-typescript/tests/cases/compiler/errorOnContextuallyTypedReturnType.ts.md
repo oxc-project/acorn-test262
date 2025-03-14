@@ -1,120 +1,296 @@
-errorOnContextuallyTypedReturnType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 138,
+  "range": [
+    0,
+    138
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 40,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 39,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 21,
             "decorators": [],
             "name": "n1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 6,
-              "end": 21,
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 1
+                },
+                "start": {
+                  "column": 6,
+                  "line": 1
+                }
+              },
+              "range": [
+                6,
+                21
+              ],
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 8,
-                "end": 21,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 11,
-                  "end": 21,
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 1
+                    }
+                  },
+                  "range": [
+                    11,
+                    21
+                  ],
                   "typeAnnotation": {
                     "type": "TSBooleanKeyword",
-                    "start": 14,
-                    "end": 21
+                    "range": [
+                      14,
+                      21
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 1
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  8,
+                  21
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 1
                   }
                 }
+              }
+            },
+            "range": [
+              4,
+              21
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
               }
             }
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 24,
-            "end": 39,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 36,
-              "end": 39,
-              "body": []
+              "body": [],
+              "range": [
+                36,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 39,
+                  "line": 1
+                },
+                "start": {
+                  "column": 36,
+                  "line": 1
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": null,
-            "params": []
+            "params": [],
+            "range": [
+              24,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 39,
+                "line": 1
+              },
+              "start": {
+                "column": 24,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            39
+          ],
+          "loc": {
+            "end": {
+              "column": 39,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 65,
-      "end": 113,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 69,
-          "end": 112,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 69,
-            "end": 86,
             "decorators": [],
             "name": "n2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 71,
-              "end": 86,
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              },
+              "range": [
+                71,
+                86
+              ],
               "typeAnnotation": {
                 "type": "TSFunctionType",
-                "start": 73,
-                "end": 86,
                 "params": [],
                 "returnType": {
                   "type": "TSTypeAnnotation",
-                  "start": 76,
-                  "end": 86,
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  },
+                  "range": [
+                    76,
+                    86
+                  ],
                   "typeAnnotation": {
                     "type": "TSBooleanKeyword",
-                    "start": 79,
-                    "end": 86
+                    "range": [
+                      79,
+                      86
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 2
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  73,
+                  86
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
                   }
                 }
+              }
+            },
+            "range": [
+              69,
+              86
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 89,
-            "end": 112,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 109,
-              "end": 112,
-              "body": []
+              "body": [],
+              "range": [
+                109,
+                112
+              ],
+              "loc": {
+                "end": {
+                  "column": 47,
+                  "line": 2
+                },
+                "start": {
+                  "column": 44,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "expression": false,
@@ -123,21 +299,98 @@ errorOnContextuallyTypedReturnType.ts
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 100,
-              "end": 108,
+              "loc": {
+                "end": {
+                  "column": 43,
+                  "line": 2
+                },
+                "start": {
+                  "column": 35,
+                  "line": 2
+                }
+              },
+              "range": [
+                100,
+                108
+              ],
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
-                "start": 101,
-                "end": 108
+                "range": [
+                  101,
+                  108
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 36,
+                    "line": 2
+                  }
+                }
               }
+            },
+            "range": [
+              89,
+              112
+            ],
+            "loc": {
+              "end": {
+                "column": 47,
+                "line": 2
+              },
+              "start": {
+                "column": 24,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            69,
+            112
+          ],
+          "loc": {
+            "end": {
+              "column": 47,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        65,
+        113
+      ],
+      "loc": {
+        "end": {
+          "column": 48,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

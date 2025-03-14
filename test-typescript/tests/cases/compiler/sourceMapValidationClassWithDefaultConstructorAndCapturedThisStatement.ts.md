@@ -1,24 +1,24 @@
-sourceMapValidationClassWithDefaultConstructorAndCapturedThisStatement.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
+  "range": [
+    0,
+    71
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 71,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 71,
+        "range": [
+          14,
+          71
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 20,
-            "end": 34,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -26,11 +26,23 @@ sourceMapValidationClassWithDefaultConstructorAndCapturedThisStatement.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 27,
-              "end": 28,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                27,
+                28
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -38,16 +50,40 @@ sourceMapValidationClassWithDefaultConstructorAndCapturedThisStatement.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 31,
-              "end": 33,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "range": [
+                31,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              20,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 39,
-            "end": 69,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -55,11 +91,23 @@ sourceMapValidationClassWithDefaultConstructorAndCapturedThisStatement.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 46,
-              "end": 53,
               "decorators": [],
               "name": "returnA",
-              "optional": false
+              "optional": false,
+              "range": [
+                46,
+                53
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -67,51 +115,160 @@ sourceMapValidationClassWithDefaultConstructorAndCapturedThisStatement.ts
             "static": false,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 56,
-              "end": 68,
               "async": false,
               "body": {
                 "type": "MemberExpression",
-                "start": 62,
-                "end": 68,
                 "computed": false,
                 "object": {
                   "type": "ThisExpression",
-                  "start": 62,
-                  "end": 66
+                  "range": [
+                    62,
+                    66
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 27,
+                      "line": 3
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 68,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    67,
+                    68
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 32,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  62,
+                  68
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 3
+                  }
                 }
               },
               "expression": true,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "range": [
+                56,
+                68
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 3
+                },
+                "start": {
+                  "column": 21,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              39,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "Greeter",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          13
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        71
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

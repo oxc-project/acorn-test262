@@ -1,72 +1,144 @@
-implicitAnyFunctionOverloadWithImplicitAnyReturnType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 27,
-  "end": 151,
+  "range": [
+    27,
+    151
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 27,
-      "end": 82,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 43,
-        "end": 82,
+        "range": [
+          43,
+          82
+        ],
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 49,
-            "end": 63,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 49,
-              "end": 60,
               "decorators": [],
               "name": "funcOfIFace",
-              "optional": false
+              "optional": false,
+              "range": [
+                49,
+                60
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
             "params": [],
             "readonly": false,
-            "static": false
+            "static": false,
+            "range": [
+              49,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 16,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 42,
         "decorators": [],
         "name": "IFace",
-        "optional": false
+        "optional": false,
+        "range": [
+          37,
+          42
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 2
+          },
+          "start": {
+            "column": 10,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        27,
+        82
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 115,
-      "end": 149,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 131,
-        "end": 149,
+        "range": [
+          131,
+          149
+        ],
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 137,
-            "end": 147,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 137,
-              "end": 139,
               "decorators": [],
               "name": "f1",
-              "optional": false
+              "optional": false,
+              "range": [
+                137,
+                139
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 8
+                },
+                "start": {
+                  "column": 4,
+                  "line": 8
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -74,30 +146,115 @@ implicitAnyFunctionOverloadWithImplicitAnyReturnType.ts
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 141,
-              "end": 146,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 8
+                },
+                "start": {
+                  "column": 8,
+                  "line": 8
+                }
+              },
+              "range": [
+                141,
+                146
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 143,
-                "end": 146
+                "range": [
+                  143,
+                  146
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 8
+                  }
+                }
               }
             },
-            "static": false
+            "static": false,
+            "range": [
+              137,
+              147
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 16,
+            "line": 7
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 125,
-        "end": 131,
         "decorators": [],
         "name": "IFace1",
-        "optional": false
+        "optional": false,
+        "range": [
+          125,
+          131
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 7
+          },
+          "start": {
+            "column": 10,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        115,
+        149
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

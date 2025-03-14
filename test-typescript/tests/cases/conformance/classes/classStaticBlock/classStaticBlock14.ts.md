@@ -1,33 +1,45 @@
-classStaticBlock14.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 139,
+  "range": [
+    0,
+    139
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 138,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 138,
+        "range": [
+          8,
+          138
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 12,
-            "end": 27,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 19,
-              "end": 22,
-              "name": "_1"
+              "name": "_1",
+              "range": [
+                19,
+                22
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 9,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -35,25 +47,61 @@ classStaticBlock14.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 25,
-              "end": 26,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                25,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              12,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 30,
-            "end": 45,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 37,
-              "end": 40,
-              "name": "_3"
+              "name": "_3",
+              "range": [
+                37,
+                40
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 3
+                },
+                "start": {
+                  "column": 9,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -61,25 +109,61 @@ classStaticBlock14.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 43,
-              "end": 44,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                43,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              30,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 3
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 48,
-            "end": 63,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 55,
-              "end": 58,
-              "name": "_5"
+              "name": "_5",
+              "range": [
+                55,
+                58
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 4
+                },
+                "start": {
+                  "column": 9,
+                  "line": 4
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -87,64 +171,209 @@ classStaticBlock14.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 61,
-              "end": 62,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                61,
+                62
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              48,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
+              }
             }
           },
           {
             "type": "StaticBlock",
-            "start": 67,
-            "end": 76,
-            "body": []
+            "body": [],
+            "range": [
+              67,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 6
+              },
+              "start": {
+                "column": 2,
+                "line": 6
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 79,
-            "end": 88,
-            "body": []
+            "body": [],
+            "range": [
+              79,
+              88
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 7
+              },
+              "start": {
+                "column": 2,
+                "line": 7
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 91,
-            "end": 100,
-            "body": []
+            "body": [],
+            "range": [
+              91,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 8
+              },
+              "start": {
+                "column": 2,
+                "line": 8
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 103,
-            "end": 112,
-            "body": []
+            "body": [],
+            "range": [
+              103,
+              112
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 9
+              },
+              "start": {
+                "column": 2,
+                "line": 9
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 115,
-            "end": 124,
-            "body": []
+            "body": [],
+            "range": [
+              115,
+              124
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 10
+              },
+              "start": {
+                "column": 2,
+                "line": 10
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 127,
-            "end": 136,
-            "body": []
+            "body": [],
+            "range": [
+              127,
+              136
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 11
+              },
+              "start": {
+                "column": 2,
+                "line": 11
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 12
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        138
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

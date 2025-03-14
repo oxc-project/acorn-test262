@@ -1,55 +1,152 @@
-parserStrictMode13.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
+  "range": [
+    0,
+    37
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "range": [
+          0,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        13
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "TryStatement",
-      "start": 14,
-      "end": 37,
       "block": {
         "type": "BlockStatement",
-        "start": 18,
-        "end": 21,
-        "body": []
+        "body": [],
+        "range": [
+          18,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 4,
+            "line": 2
+          }
+        }
       },
       "finalizer": null,
       "handler": {
         "type": "CatchClause",
-        "start": 22,
-        "end": 37,
         "body": {
           "type": "BlockStatement",
-          "start": 34,
-          "end": 37,
-          "body": []
+          "body": [],
+          "range": [
+            34,
+            37
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 12,
+              "line": 4
+            }
+          }
         },
         "param": {
           "type": "Identifier",
-          "start": 28,
-          "end": 32,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "range": [
+            28,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 4
+            },
+            "start": {
+              "column": 6,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          22,
+          37
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        14,
+        37
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

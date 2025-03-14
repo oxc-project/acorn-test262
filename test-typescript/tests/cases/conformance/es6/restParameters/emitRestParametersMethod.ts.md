@@ -1,33 +1,45 @@
-emitRestParametersMethod.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 249,
+  "range": [
+    17,
+    249
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 17,
-      "end": 139,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 25,
-        "end": 139,
+        "range": [
+          25,
+          139
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 31,
-            "end": 69,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 42,
+              "range": [
+                31,
+                42
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 42,
-              "end": 69,
+              "range": [
+                42,
+                69
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 66,
-                "end": 69,
-                "body": []
+                "body": [],
+                "range": [
+                  66,
+                  69
+                ],
+                "loc": {
+                  "end": {
+                    "column": 42,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 39,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,54 +77,148 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 55,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 47,
-                    "end": 55,
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      47,
+                      55
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 49,
-                      "end": 55
+                      "range": [
+                        49,
+                        55
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    43,
+                    55
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 28,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 3
                     }
                   }
                 },
                 {
                   "type": "RestElement",
-                  "start": 57,
-                  "end": 64,
                   "argument": {
                     "type": "Identifier",
-                    "start": 60,
-                    "end": 64,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      60,
+                      64
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 37,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 33,
+                        "line": 3
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    57,
+                    64
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 37,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 30,
+                      "line": 3
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 42,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              31,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 42,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 75,
-            "end": 98,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 82,
-              "end": 85,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                82,
+                85
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 5
+                },
+                "start": {
+                  "column": 11,
+                  "line": 5
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -106,14 +226,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 85,
-              "end": 98,
+              "range": [
+                85,
+                98
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 95,
-                "end": 98,
-                "body": []
+                "body": [],
+                "range": [
+                  95,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -122,36 +256,94 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 86,
-                  "end": 93,
                   "argument": {
                     "type": "Identifier",
-                    "start": 89,
-                    "end": 93,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      89,
+                      93
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 18,
+                        "line": 5
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    86,
+                    93
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 5
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 5
+                },
+                "start": {
+                  "column": 14,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              75,
+              98
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 103,
-            "end": 137,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 110,
-              "end": 113,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                110,
+                113
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 6
+                },
+                "start": {
+                  "column": 11,
+                  "line": 6
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -159,14 +351,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 113,
-              "end": 137,
+              "range": [
+                113,
+                137
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 134,
-                "end": 137,
-                "body": []
+                "body": [],
+                "range": [
+                  134,
+                  137
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 35,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -175,78 +381,208 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 114,
-                  "end": 123,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 115,
-                    "end": 123,
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 6
+                      }
+                    },
+                    "range": [
+                      115,
+                      123
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 117,
-                      "end": 123
+                      "range": [
+                        117,
+                        123
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 6
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    114,
+                    123
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 6
                     }
                   }
                 },
                 {
                   "type": "RestElement",
-                  "start": 125,
-                  "end": 132,
                   "argument": {
                     "type": "Identifier",
-                    "start": 128,
-                    "end": 132,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      128,
+                      132
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 33,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 29,
+                        "line": 6
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    125,
+                    132
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 6
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 6
+                },
+                "start": {
+                  "column": 14,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              103,
+              137
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 23,
-        "end": 24,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          23,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        17,
+        139
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 141,
-      "end": 249,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 149,
-        "end": 249,
+        "range": [
+          149,
+          249
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 155,
-            "end": 179,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 155,
-              "end": 166,
+              "range": [
+                155,
+                166
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -254,14 +590,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 166,
-              "end": 179,
+              "range": [
+                166,
+                179
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 176,
-                "end": 179,
-                "body": []
+                "body": [],
+                "range": [
+                  176,
+                  179
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 10
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -270,36 +620,94 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 167,
-                  "end": 174,
                   "argument": {
                     "type": "Identifier",
-                    "start": 170,
-                    "end": 174,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      170,
+                      174
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 10
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    167,
+                    174
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 10
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 10
+                },
+                "start": {
+                  "column": 15,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              155,
+              179
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 185,
-            "end": 208,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 192,
-              "end": 195,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                192,
+                195
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 12
+                },
+                "start": {
+                  "column": 11,
+                  "line": 12
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -307,14 +715,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 195,
-              "end": 208,
+              "range": [
+                195,
+                208
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 205,
-                "end": 208,
-                "body": []
+                "body": [],
+                "range": [
+                  205,
+                  208
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 12
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -323,36 +745,94 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 196,
-                  "end": 203,
                   "argument": {
                     "type": "Identifier",
-                    "start": 199,
-                    "end": 203,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      199,
+                      203
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 18,
+                        "line": 12
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    196,
+                    203
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 12
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 12
+                },
+                "start": {
+                  "column": 14,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              185,
+              208
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 213,
-            "end": 247,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 220,
-              "end": 223,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                220,
+                223
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 13
+                },
+                "start": {
+                  "column": 11,
+                  "line": 13
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -360,14 +840,28 @@ emitRestParametersMethod.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 223,
-              "end": 247,
+              "range": [
+                223,
+                247
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 244,
-                "end": 247,
-                "body": []
+                "body": [],
+                "range": [
+                  244,
+                  247
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 35,
+                    "line": 13
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -376,56 +870,187 @@ emitRestParametersMethod.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 224,
-                  "end": 233,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 225,
-                    "end": 233,
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 13
+                      }
+                    },
+                    "range": [
+                      225,
+                      233
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 227,
-                      "end": 233
+                      "range": [
+                        227,
+                        233
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 13
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    224,
+                    233
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 13
                     }
                   }
                 },
                 {
                   "type": "RestElement",
-                  "start": 235,
-                  "end": 242,
                   "argument": {
                     "type": "Identifier",
-                    "start": 238,
-                    "end": 242,
                     "decorators": [],
                     "name": "rest",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      238,
+                      242
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 33,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 29,
+                        "line": 13
+                      }
+                    }
                   },
                   "decorators": [],
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    235,
+                    242
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 13
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 13
+                },
+                "start": {
+                  "column": 14,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              213,
+              247
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 8,
+            "line": 9
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 147,
-        "end": 148,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "range": [
+          147,
+          148
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 9
+          },
+          "start": {
+            "column": 6,
+            "line": 9
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        141,
+        249
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

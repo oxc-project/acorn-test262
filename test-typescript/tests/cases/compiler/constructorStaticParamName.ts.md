@@ -1,33 +1,45 @@
-constructorStaticParamName.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 80,
-  "end": 124,
+  "range": [
+    80,
+    124
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 80,
-      "end": 123,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 91,
-        "end": 123,
+        "range": [
+          91,
+          123
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 97,
-            "end": 121,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 97,
-              "end": 108,
+              "range": [
+                97,
+                108
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ constructorStaticParamName.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 109,
-              "end": 121,
+              "range": [
+                109,
+                121
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 118,
-                "end": 121,
-                "body": []
+                "body": [],
+                "range": [
+                  118,
+                  121
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,31 +77,114 @@ constructorStaticParamName.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 110,
-                  "end": 116,
                   "decorators": [],
                   "name": "static",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    110,
+                    116
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 4
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 4
+                },
+                "start": {
+                  "column": 16,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              97,
+              121
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 11,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 86,
-        "end": 90,
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "range": [
+          86,
+          90
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        80,
+        123
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

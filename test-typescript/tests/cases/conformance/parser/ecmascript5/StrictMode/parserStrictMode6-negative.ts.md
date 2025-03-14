@@ -1,31 +1,80 @@
-parserStrictMode6-negative.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 7,
+  "range": [
+    0,
+    7
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 7,
       "expression": {
         "type": "UpdateExpression",
-        "start": 0,
-        "end": 6,
         "argument": {
           "type": "Identifier",
-          "start": 0,
-          "end": 4,
           "decorators": [],
           "name": "eval",
-          "optional": false
+          "optional": false,
+          "range": [
+            0,
+            4
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
         "operator": "++",
-        "prefix": false
+        "prefix": false,
+        "range": [
+          0,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        7
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 7,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

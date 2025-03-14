@@ -1,24 +1,61 @@
-exportDefaultExpressionComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 46,
+  "range": [
+    26,
+    46
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 26,
-      "end": 45,
       "declaration": {
         "type": "Literal",
-        "start": 41,
-        "end": 45,
         "raw": "null",
-        "value": null
+        "value": null,
+        "range": [
+          41,
+          45
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 4
+          },
+          "start": {
+            "column": 15,
+            "line": 4
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        26,
+        45
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 4
+    }
+  },
+  "hashbang": null
 }
 ```

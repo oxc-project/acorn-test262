@@ -1,279 +1,772 @@
-file.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 191,
+  "range": [
+    0,
+    191
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 106,
       "body": {
         "type": "TSModuleBlock",
-        "start": 19,
-        "end": 106,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 22,
-            "end": 43,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 40,
-              "end": 43,
-              "body": []
+              "range": [
+                40,
+                43
+              ],
+              "body": [],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 32,
-              "end": 39,
               "decorators": [],
               "name": "Element",
-              "optional": false
+              "optional": false,
+              "range": [
+                32,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              22,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 1,
+                "line": 2
+              }
             }
           },
           {
             "type": "TSInterfaceDeclaration",
-            "start": 45,
-            "end": 104,
             "body": {
               "type": "TSInterfaceBody",
-              "start": 81,
-              "end": 104,
+              "range": [
+                81,
+                104
+              ],
               "body": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 83,
-                  "end": 92,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 83,
-                    "end": 86,
                     "decorators": [],
                     "name": "pr1",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      83,
+                      86
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 42,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 39,
+                        "line": 3
+                      }
+                    }
                   },
                   "optional": false,
                   "readonly": false,
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 86,
-                    "end": 91,
+                    "loc": {
+                      "end": {
+                        "column": 47,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 42,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      86,
+                      91
+                    ],
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 88,
-                      "end": 91
+                      "range": [
+                        88,
+                        91
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 47,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 44,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    83,
+                    92
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 48,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 39,
+                      "line": 3
                     }
                   }
                 },
                 {
                   "type": "TSPropertySignature",
-                  "start": 93,
-                  "end": 102,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 93,
-                    "end": 96,
                     "decorators": [],
                     "name": "pr2",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      93,
+                      96
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 52,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 49,
+                        "line": 3
+                      }
+                    }
                   },
                   "optional": false,
                   "readonly": false,
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 96,
-                    "end": 101,
+                    "loc": {
+                      "end": {
+                        "column": 57,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 52,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      96,
+                      101
+                    ],
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
-                      "start": 98,
-                      "end": 101
+                      "range": [
+                        98,
+                        101
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 57,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 54,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    93,
+                    102
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 58,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 49,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 60,
+                  "line": 3
+                },
+                "start": {
+                  "column": 37,
+                  "line": 3
+                }
+              }
             },
             "declare": false,
             "extends": [],
             "id": {
               "type": "Identifier",
-              "start": 55,
-              "end": 80,
               "decorators": [],
               "name": "ElementAttributesProperty",
-              "optional": false
+              "optional": false,
+              "range": [
+                55,
+                80
+              ],
+              "loc": {
+                "end": {
+                  "column": 36,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              45,
+              104
+            ],
+            "loc": {
+              "end": {
+                "column": 60,
+                "line": 3
+              },
+              "start": {
+                "column": 1,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          19,
+          106
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 19,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
+        "range": [
+          15,
+          18
+        ],
         "decorators": [],
         "name": "JSX",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        106
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 108,
-      "end": 148,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 123,
-        "end": 148,
+        "range": [
+          123,
+          148
+        ],
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 126,
-            "end": 146,
             "params": [
               {
                 "type": "Identifier",
-                "start": 130,
-                "end": 139,
                 "decorators": [],
                 "name": "n",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 131,
-                  "end": 139,
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 7
+                    }
+                  },
+                  "range": [
+                    131,
+                    139
+                  ],
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
-                    "start": 133,
-                    "end": 139
+                    "range": [
+                      133,
+                      139
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 7
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  130,
+                  139
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 7
                   }
                 }
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 140,
-              "end": 145,
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 7
+                },
+                "start": {
+                  "column": 15,
+                  "line": 7
+                }
+              },
+              "range": [
+                140,
+                145
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 142,
-                "end": 145
+                "range": [
+                  142,
+                  145
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 7
+                  }
+                }
+              }
+            },
+            "range": [
+              126,
+              146
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 7
+              },
+              "start": {
+                "column": 1,
+                "line": 7
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 15,
+            "line": 6
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 118,
-        "end": 122,
         "decorators": [],
         "name": "Obj1",
-        "optional": false
+        "optional": false,
+        "range": [
+          118,
+          122
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 6
+          },
+          "start": {
+            "column": 10,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        108,
+        148
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 149,
-      "end": 164,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 153,
-          "end": 163,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 153,
-            "end": 163,
             "decorators": [],
             "name": "obj1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 157,
-              "end": 163,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 9
+                },
+                "start": {
+                  "column": 8,
+                  "line": 9
+                }
+              },
+              "range": [
+                157,
+                163
+              ],
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 159,
-                "end": 163,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 159,
-                  "end": 163,
                   "decorators": [],
                   "name": "Obj1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    159,
+                    163
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 9
+                    }
+                  }
+                },
+                "range": [
+                  159,
+                  163
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 9
+                  }
                 }
+              }
+            },
+            "range": [
+              153,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            153,
+            163
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 9
+            },
+            "start": {
+              "column": 4,
+              "line": 9
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        149,
+        164
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 165,
-      "end": 181,
       "expression": {
         "type": "JSXElement",
-        "start": 165,
-        "end": 180,
         "children": [],
         "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 165,
-          "end": 180,
+          "range": [
+            165,
+            180
+          ],
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 171,
-              "end": 177,
               "name": {
                 "type": "JSXIdentifier",
-                "start": 171,
-                "end": 172,
-                "name": "x"
+                "name": "x",
+                "range": [
+                  171,
+                  172
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 10
+                  }
+                }
               },
               "value": {
                 "type": "JSXExpressionContainer",
-                "start": 173,
-                "end": 177,
                 "expression": {
                   "type": "Literal",
-                  "start": 174,
-                  "end": 176,
                   "raw": "10",
-                  "value": 10
+                  "value": 10,
+                  "range": [
+                    174,
+                    176
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 10
+                    }
+                  }
+                },
+                "range": [
+                  173,
+                  177
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                171,
+                177
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 10
+                },
+                "start": {
+                  "column": 6,
+                  "line": 10
                 }
               }
             }
           ],
           "name": {
             "type": "JSXIdentifier",
-            "start": 166,
-            "end": 170,
-            "name": "obj1"
+            "name": "obj1",
+            "range": [
+              166,
+              170
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 10
+              },
+              "start": {
+                "column": 1,
+                "line": 10
+              }
+            }
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 10
+            },
+            "start": {
+              "column": 0,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          165,
+          180
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 10
+          },
+          "start": {
+            "column": 0,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        165,
+        181
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

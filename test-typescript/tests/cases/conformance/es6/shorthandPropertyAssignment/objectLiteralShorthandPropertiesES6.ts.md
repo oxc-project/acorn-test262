@@ -1,99 +1,201 @@
-objectLiteralShorthandPropertiesES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 131,
+  "range": [
+    0,
+    131
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 12,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 5,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
-          "init": null
+          "init": null,
+          "range": [
+            4,
+            5
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
         },
         {
           "type": "VariableDeclarator",
-          "start": 7,
-          "end": 8,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 7,
-            "end": 8,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              8
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
           },
-          "init": null
+          "init": null,
+          "range": [
+            7,
+            8
+          ],
+          "loc": {
+            "end": {
+              "column": 8,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
+          }
         },
         {
           "type": "VariableDeclarator",
-          "start": 10,
-          "end": 11,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 10,
-            "end": 11,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "range": [
+              10,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
           },
-          "init": null
+          "init": null,
+          "range": [
+            10,
+            11
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 10,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 14,
-      "end": 33,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 18,
-          "end": 32,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 18,
-            "end": 20,
             "decorators": [],
             "name": "x1",
-            "optional": false
+            "optional": false,
+            "range": [
+              18,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 23,
-            "end": 32,
             "properties": [
               {
                 "type": "Property",
-                "start": 29,
-                "end": 30,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 29,
-                  "end": 30,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    29,
+                    30
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -101,55 +203,139 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 29,
-                  "end": 30,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    29,
+                    30
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  29,
+                  30
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              23,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 5
+              },
+              "start": {
+                "column": 9,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            18,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        14,
+        33
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 35,
-      "end": 54,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 39,
-          "end": 54,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 39,
-            "end": 41,
             "decorators": [],
             "name": "x2",
-            "optional": false
+            "optional": false,
+            "range": [
+              39,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 44,
-            "end": 54,
             "properties": [
               {
                 "type": "Property",
-                "start": 50,
-                "end": 51,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 51,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    50,
+                    51
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 8
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -157,55 +343,139 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 51,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    50,
+                    51
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 8
+                    }
+                  }
+                },
+                "range": [
+                  50,
+                  51
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 8
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              44,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 9
+              },
+              "start": {
+                "column": 9,
+                "line": 7
+              }
+            }
+          },
+          "range": [
+            39,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 9
+            },
+            "start": {
+              "column": 4,
+              "line": 7
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        35,
+        54
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 56,
-      "end": 129,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 60,
-          "end": 128,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 60,
-            "end": 62,
             "decorators": [],
             "name": "x3",
-            "optional": false
+            "optional": false,
+            "range": [
+              60,
+              62
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 65,
-            "end": 128,
             "properties": [
               {
                 "type": "Property",
-                "start": 71,
-                "end": 75,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 71,
-                  "end": 72,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    71,
+                    72
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 12
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -213,24 +483,60 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 74,
-                  "end": 75,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    74,
+                    75
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 7,
+                      "line": 12
+                    }
+                  }
+                },
+                "range": [
+                  71,
+                  75
+                ],
+                "loc": {
+                  "end": {
+                    "column": 8,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 12
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 81,
-                "end": 82,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 81,
-                  "end": 82,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    81,
+                    82
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 13
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -238,25 +544,61 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 81,
-                  "end": 82,
                   "decorators": [],
                   "name": "b",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    81,
+                    82
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 13
+                    }
+                  }
+                },
+                "range": [
+                  81,
+                  82
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 13
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 88,
-                "end": 89,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 88,
-                  "end": 89,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    88,
+                    89
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 14
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -264,25 +606,61 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 88,
-                  "end": 89,
                   "decorators": [],
                   "name": "c",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    88,
+                    89
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  88,
+                  89
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 14
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 95,
-                "end": 102,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 95,
-                  "end": 96,
                   "decorators": [],
                   "name": "d",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    95,
+                    96
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 15
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": true,
@@ -290,34 +668,82 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 96,
-                  "end": 102,
+                  "range": [
+                    96,
+                    102
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 99,
-                    "end": 102,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      99,
+                      102
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 15
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 15
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 15
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 15
+                    }
+                  }
+                },
+                "range": [
+                  95,
+                  102
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 15
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 108,
-                "end": 110,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 108,
-                  "end": 110,
                   "decorators": [],
                   "name": "x3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    108,
+                    110
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 6,
+                      "line": 16
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 16
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -325,25 +751,61 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 108,
-                  "end": 110,
                   "decorators": [],
                   "name": "x3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    108,
+                    110
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 6,
+                      "line": 16
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 16
+                    }
+                  }
+                },
+                "range": [
+                  108,
+                  110
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 16
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 16
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 116,
-                "end": 126,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 116,
-                  "end": 122,
                   "decorators": [],
                   "name": "parent",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    116,
+                    122
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 17
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 17
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -351,21 +813,100 @@ objectLiteralShorthandPropertiesES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 124,
-                  "end": 126,
                   "decorators": [],
                   "name": "x3",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    124,
+                    126
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 17
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 17
+                    }
+                  }
+                },
+                "range": [
+                  116,
+                  126
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 17
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              65,
+              128
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 18
+              },
+              "start": {
+                "column": 9,
+                "line": 11
+              }
+            }
+          },
+          "range": [
+            60,
+            128
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 18
+            },
+            "start": {
+              "column": 4,
+              "line": 11
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        56,
+        129
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 18
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 20
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

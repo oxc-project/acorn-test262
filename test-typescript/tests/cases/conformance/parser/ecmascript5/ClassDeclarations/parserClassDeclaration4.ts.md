@@ -1,4 +1,4 @@
-parserClassDeclaration4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'extends' clause already seen.
 ```

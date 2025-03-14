@@ -1,193 +1,506 @@
-enumMapBackIntoItself.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 209,
+  "range": [
+    0,
+    209
+  ],
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 49,
       "body": {
         "type": "TSEnumBody",
-        "start": 16,
-        "end": 49,
+        "range": [
+          16,
+          49
+        ],
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 21,
-            "end": 26,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 26,
               "decorators": [],
               "name": "Small",
-              "optional": false
+              "optional": false,
+              "range": [
+                21,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 3,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              21,
+              26
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 2
+              },
+              "start": {
+                "column": 3,
+                "line": 2
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 31,
-            "end": 37,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 37,
               "decorators": [],
               "name": "Medium",
-              "optional": false
+              "optional": false,
+              "range": [
+                31,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 3,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              31,
+              37
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 3,
+                "line": 3
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 42,
-            "end": 47,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 47,
               "decorators": [],
               "name": "Large",
-              "optional": false
+              "optional": false,
+              "range": [
+                42,
+                47
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 4
+                },
+                "start": {
+                  "column": 3,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              42,
+              47
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 4
+              },
+              "start": {
+                "column": 3,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 16,
+            "line": 1
+          }
+        }
       },
       "const": false,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 15,
         "decorators": [],
         "name": "TShirtSize",
-        "optional": false
+        "optional": false,
+        "range": [
+          5,
+          15
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        49
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 80,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 79,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 60,
             "decorators": [],
             "name": "mySize",
-            "optional": false
+            "optional": false,
+            "range": [
+              54,
+              60
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           },
           "init": {
             "type": "MemberExpression",
-            "start": 63,
-            "end": 79,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 63,
-              "end": 73,
               "decorators": [],
               "name": "TShirtSize",
-              "optional": false
+              "optional": false,
+              "range": [
+                63,
+                73
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 6
+                },
+                "start": {
+                  "column": 13,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 74,
-              "end": 79,
               "decorators": [],
               "name": "Large",
-              "optional": false
+              "optional": false,
+              "range": [
+                74,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 6
+                },
+                "start": {
+                  "column": 24,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              63,
+              79
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 6
+              },
+              "start": {
+                "column": 13,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            54,
+            79
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        50,
+        80
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 81,
-      "end": 111,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 85,
-          "end": 110,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 85,
-            "end": 89,
             "decorators": [],
             "name": "test",
-            "optional": false
+            "optional": false,
+            "range": [
+              85,
+              89
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
+            }
           },
           "init": {
             "type": "MemberExpression",
-            "start": 92,
-            "end": 110,
             "computed": true,
             "object": {
               "type": "Identifier",
-              "start": 92,
-              "end": 102,
               "decorators": [],
               "name": "TShirtSize",
-              "optional": false
+              "optional": false,
+              "range": [
+                92,
+                102
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 7
+                },
+                "start": {
+                  "column": 11,
+                  "line": 7
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 103,
-              "end": 109,
               "decorators": [],
               "name": "mySize",
-              "optional": false
+              "optional": false,
+              "range": [
+                103,
+                109
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 7
+                },
+                "start": {
+                  "column": 22,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              92,
+              110
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 7
+              },
+              "start": {
+                "column": 11,
+                "line": 7
+              }
+            }
+          },
+          "range": [
+            85,
+            110
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 7
+            },
+            "start": {
+              "column": 4,
+              "line": 7
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        81,
+        111
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 200,
-      "end": 209,
       "expression": {
         "type": "BinaryExpression",
-        "start": 200,
-        "end": 209,
         "operator": "+",
         "left": {
           "type": "Identifier",
-          "start": 200,
-          "end": 204,
           "decorators": [],
           "name": "test",
-          "optional": false
+          "optional": false,
+          "range": [
+            200,
+            204
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 9
+            },
+            "start": {
+              "column": 0,
+              "line": 9
+            }
+          }
         },
         "right": {
           "type": "Literal",
-          "start": 207,
-          "end": 209,
           "raw": "''",
-          "value": ""
+          "value": "",
+          "range": [
+            207,
+            209
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 9
+            },
+            "start": {
+              "column": 7,
+              "line": 9
+            }
+          }
+        },
+        "range": [
+          200,
+          209
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 9
+          },
+          "start": {
+            "column": 0,
+            "line": 9
+          }
+        }
+      },
+      "range": [
+        200,
+        209
+      ],
+      "loc": {
+        "end": {
+          "column": 9,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

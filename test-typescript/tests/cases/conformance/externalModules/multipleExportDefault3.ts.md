@@ -1,31 +1,39 @@
-multipleExportDefault3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 79,
+  "range": [
+    1,
+    79
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 1,
-      "end": 49,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 16,
-        "end": 48,
         "properties": [
           {
             "type": "Property",
-            "start": 22,
-            "end": 45,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 26,
               "decorators": [],
               "name": "uhoh",
-              "optional": false
+              "optional": false,
+              "range": [
+                22,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -33,47 +41,160 @@ multipleExportDefault3.ts
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 28,
-              "end": 45,
               "raw": "\"another default\"",
-              "value": "another default"
+              "value": "another default",
+              "range": [
+                28,
+                45
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 2
+                },
+                "start": {
+                  "column": 10,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              22,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          16,
+          48
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 16,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        1,
+        49
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 3
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 51,
-      "end": 77,
+      "range": [
+        51,
+        77
+      ],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 66,
-        "end": 77,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 74,
-          "end": 77,
-          "body": []
+          "range": [
+            74,
+            77
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 5
+            },
+            "start": {
+              "column": 23,
+              "line": 5
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 72,
-          "end": 73,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            72,
+            73
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 5
+            },
+            "start": {
+              "column": 21,
+              "line": 5
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          66,
+          77
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 5
+          },
+          "start": {
+            "column": 15,
+            "line": 5
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

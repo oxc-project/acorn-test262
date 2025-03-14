@@ -1,59 +1,101 @@
-symbolDeclarationEmit10.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 109,
+  "range": [
+    0,
+    109
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 109,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 109,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "obj",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 109,
             "properties": [
               {
                 "type": "Property",
-                "start": 16,
-                "end": 63,
                 "computed": true,
                 "key": {
                   "type": "MemberExpression",
-                  "start": 21,
-                  "end": 46,
                   "computed": false,
                   "object": {
                     "type": "Identifier",
-                    "start": 21,
-                    "end": 27,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      21,
+                      27
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 2
+                      }
+                    }
                   },
                   "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 28,
-                    "end": 46,
                     "decorators": [],
                     "name": "isConcatSpreadable",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      28,
+                      46
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 34,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    21,
+                    46
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 2
+                    }
                   }
                 },
                 "kind": "get",
@@ -62,61 +104,157 @@ symbolDeclarationEmit10.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 47,
-                  "end": 63,
+                  "range": [
+                    47,
+                    63
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 50,
-                    "end": 63,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 52,
-                        "end": 61,
                         "argument": {
                           "type": "Literal",
-                          "start": 59,
-                          "end": 61,
                           "raw": "''",
-                          "value": ""
+                          "value": "",
+                          "range": [
+                            59,
+                            61
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 49,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 47,
+                              "line": 2
+                            }
+                          }
+                        },
+                        "range": [
+                          52,
+                          61
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 49,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 40,
+                            "line": 2
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      50,
+                      63
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 51,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 38,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 51,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 35,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  16,
+                  63
+                ],
+                "loc": {
+                  "end": {
+                    "column": 51,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 69,
-                "end": 107,
                 "computed": true,
                 "key": {
                   "type": "MemberExpression",
-                  "start": 74,
-                  "end": 99,
                   "computed": false,
                   "object": {
                     "type": "Identifier",
-                    "start": 74,
-                    "end": 80,
                     "decorators": [],
                     "name": "Symbol",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      74,
+                      80
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 3
+                      }
+                    }
                   },
                   "optional": false,
                   "property": {
                     "type": "Identifier",
-                    "start": 81,
-                    "end": 99,
                     "decorators": [],
                     "name": "isConcatSpreadable",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      81,
+                      99
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 34,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    74,
+                    99
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 3
+                    }
                   }
                 },
                 "kind": "set",
@@ -125,14 +263,28 @@ symbolDeclarationEmit10.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 100,
-                  "end": 107,
+                  "range": [
+                    100,
+                    107
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 104,
-                    "end": 107,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      104,
+                      107
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 42,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 39,
+                        "line": 3
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -141,23 +293,112 @@ symbolDeclarationEmit10.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 101,
-                      "end": 102,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        101,
+                        102
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 37,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 36,
+                          "line": 3
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 42,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 35,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  69,
+                  107
+                ],
+                "loc": {
+                  "end": {
+                    "column": 42,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              10,
+              109
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 4
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            109
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        109
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

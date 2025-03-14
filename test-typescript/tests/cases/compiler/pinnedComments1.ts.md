@@ -1,35 +1,84 @@
-pinnedComments1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 128,
-  "end": 139,
+  "range": [
+    128,
+    139
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 128,
-      "end": 139,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 136,
-        "end": 139,
-        "body": []
+        "range": [
+          136,
+          139
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 8,
+            "line": 8
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 134,
-        "end": 135,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          134,
+          135
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 8
+          },
+          "start": {
+            "column": 6,
+            "line": 8
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        128,
+        139
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 8
+    }
+  },
+  "hashbang": null
 }
 ```

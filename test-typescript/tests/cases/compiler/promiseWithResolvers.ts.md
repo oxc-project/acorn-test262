@@ -1,59 +1,101 @@
-promiseWithResolvers.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
+  "range": [
+    0,
+    78
+  ],
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 12,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "T",
-        "optional": false
+        "optional": false,
+        "range": [
+          5,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
-        "start": 9,
-        "end": 11,
-        "members": []
+        "members": [],
+        "range": [
+          9,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 13,
-      "end": 77,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 19,
-          "end": 76,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 19,
-            "end": 47,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 21,
-                "end": 28,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 21,
-                  "end": 28,
                   "decorators": [],
                   "name": "promise",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    21,
+                    28
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -61,25 +103,61 @@ promiseWithResolvers.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 21,
-                  "end": 28,
                   "decorators": [],
                   "name": "promise",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    21,
+                    28
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  21,
+                  28
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 30,
-                "end": 37,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 30,
-                  "end": 37,
                   "decorators": [],
                   "name": "resolve",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    30,
+                    37
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -87,25 +165,61 @@ promiseWithResolvers.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 30,
-                  "end": 37,
                   "decorators": [],
                   "name": "resolve",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    30,
+                    37
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  30,
+                  37
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 39,
-                "end": 45,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 39,
-                  "end": 45,
                   "decorators": [],
                   "name": "reject",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    39,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -113,71 +227,234 @@ promiseWithResolvers.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 39,
-                  "end": 45,
                   "decorators": [],
                   "name": "reject",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    39,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  39,
+                  45
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              19,
+              47
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "CallExpression",
-            "start": 50,
-            "end": 76,
             "arguments": [],
             "callee": {
               "type": "MemberExpression",
-              "start": 50,
-              "end": 71,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 50,
-                "end": 57,
                 "decorators": [],
                 "name": "Promise",
-                "optional": false
+                "optional": false,
+                "range": [
+                  50,
+                  57
+                ],
+                "loc": {
+                  "end": {
+                    "column": 44,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 37,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 71,
                 "decorators": [],
                 "name": "withResolvers",
-                "optional": false
+                "optional": false,
+                "range": [
+                  58,
+                  71
+                ],
+                "loc": {
+                  "end": {
+                    "column": 58,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                50,
+                71
+              ],
+              "loc": {
+                "end": {
+                  "column": 58,
+                  "line": 2
+                },
+                "start": {
+                  "column": 37,
+                  "line": 2
+                }
               }
             },
             "optional": false,
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 71,
-              "end": 74,
+              "range": [
+                71,
+                74
+              ],
               "params": [
                 {
                   "type": "TSTypeReference",
-                  "start": 72,
-                  "end": 73,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 72,
-                    "end": 73,
                     "decorators": [],
                     "name": "T",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      72,
+                      73
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 60,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 59,
+                        "line": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    72,
+                    73
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 60,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 59,
+                      "line": 2
+                    }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 61,
+                  "line": 2
+                },
+                "start": {
+                  "column": 58,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              50,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 63,
+                "line": 2
+              },
+              "start": {
+                "column": 37,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            19,
+            76
+          ],
+          "loc": {
+            "end": {
+              "column": 63,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        13,
+        77
+      ],
+      "loc": {
+        "end": {
+          "column": 64,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

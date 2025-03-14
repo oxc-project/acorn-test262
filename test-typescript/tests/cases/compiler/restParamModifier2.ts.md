@@ -1,33 +1,45 @@
-restParamModifier2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
+  "range": [
+    0,
+    56
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 56,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 56,
+        "range": [
+          8,
+          56
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 54,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 14,
-              "end": 25,
+              "range": [
+                14,
+                25
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ restParamModifier2.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 25,
-              "end": 54,
+              "range": [
+                25,
+                54
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 52,
-                "end": 54,
-                "body": []
+                "body": [],
+                "range": [
+                  52,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 44,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 42,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,63 +77,206 @@ restParamModifier2.ts
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 26,
-                  "end": 50,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "RestElement",
-                    "start": 26,
-                    "end": 50,
                     "argument": {
                       "type": "Identifier",
-                      "start": 36,
-                      "end": 40,
                       "decorators": [],
                       "name": "rest",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        36,
+                        40
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 30,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 26,
+                          "line": 2
+                        }
+                      }
                     },
                     "decorators": [],
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 40,
-                      "end": 50,
+                      "loc": {
+                        "end": {
+                          "column": 40,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 30,
+                          "line": 2
+                        }
+                      },
+                      "range": [
+                        40,
+                        50
+                      ],
                       "typeAnnotation": {
                         "type": "TSArrayType",
-                        "start": 42,
-                        "end": 50,
                         "elementType": {
                           "type": "TSStringKeyword",
-                          "start": 42,
-                          "end": 48
+                          "range": [
+                            42,
+                            48
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 38,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 32,
+                              "line": 2
+                            }
+                          }
+                        },
+                        "range": [
+                          42,
+                          50
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 40,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 32,
+                            "line": 2
+                          }
                         }
+                      }
+                    },
+                    "range": [
+                      26,
+                      50
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 40,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 2
                       }
                     }
                   },
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "range": [
+                    26,
+                    50
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 40,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 2
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 44,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        56
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

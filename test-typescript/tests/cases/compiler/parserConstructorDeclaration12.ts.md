@@ -1,33 +1,45 @@
-parserConstructorDeclaration12.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 199,
+  "range": [
+    0,
+    199
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 199,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 199,
+        "range": [
+          8,
+          199
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 12,
-            "end": 31,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 12,
-              "end": 23,
+              "range": [
+                12,
+                23
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 2
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 23,
-              "end": 31,
+              "range": [
+                23,
+                31
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 28,
-                "end": 31,
-                "body": []
+                "body": [],
+                "range": [
+                  28,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,25 +77,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 23,
-                "end": 25,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  23,
+                  25
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              12,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 34,
-            "end": 54,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 34,
-              "end": 45,
+              "range": [
+                34,
+                45
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -77,14 +149,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 45,
-              "end": 54,
+              "range": [
+                45,
+                54
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 51,
-                "end": 54,
-                "body": []
+                "body": [],
+                "range": [
+                  51,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 3
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -93,25 +179,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 45,
-                "end": 47,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  45,
+                  47
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 3
+                },
+                "start": {
+                  "column": 13,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              34,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 3
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 57,
-            "end": 77,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 57,
-              "end": 68,
+              "range": [
+                57,
+                68
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 4
+                },
+                "start": {
+                  "column": 2,
+                  "line": 4
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -119,14 +251,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 69,
-              "end": 77,
+              "range": [
+                69,
+                77
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 74,
-                "end": 77,
-                "body": []
+                "body": [],
+                "range": [
+                  74,
+                  77
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -135,25 +281,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 69,
-                "end": 71,
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 4
+                  }
+                },
+                "range": [
+                  69,
+                  71
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 4
+                },
+                "start": {
+                  "column": 14,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              57,
+              77
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 80,
-            "end": 101,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 80,
-              "end": 91,
+              "range": [
+                80,
+                91
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 5
+                },
+                "start": {
+                  "column": 2,
+                  "line": 5
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -161,14 +353,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 92,
-              "end": 101,
+              "range": [
+                92,
+                101
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 98,
-                "end": 101,
-                "body": []
+                "body": [],
+                "range": [
+                  98,
+                  101
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -177,25 +383,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 92,
-                "end": 94,
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 5
+                  }
+                },
+                "range": [
+                  92,
+                  94
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 5
+                },
+                "start": {
+                  "column": 14,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              80,
+              101
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 5
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 104,
-            "end": 124,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 104,
-              "end": 115,
+              "range": [
+                104,
+                115
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 6
+                },
+                "start": {
+                  "column": 2,
+                  "line": 6
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -203,14 +455,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 115,
-              "end": 124,
+              "range": [
+                115,
+                124
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 121,
-                "end": 124,
-                "body": []
+                "body": [],
+                "range": [
+                  121,
+                  124
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -219,25 +485,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 115,
-                "end": 118,
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 6
+                  }
+                },
+                "range": [
+                  115,
+                  118
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 6
+                },
+                "start": {
+                  "column": 13,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              104,
+              124
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 6
+              },
+              "start": {
+                "column": 2,
+                "line": 6
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 127,
-            "end": 148,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 127,
-              "end": 138,
+              "range": [
+                127,
+                138
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 7
+                },
+                "start": {
+                  "column": 2,
+                  "line": 7
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -245,14 +557,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 138,
-              "end": 148,
+              "range": [
+                138,
+                148
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 145,
-                "end": 148,
-                "body": []
+                "body": [],
+                "range": [
+                  145,
+                  148
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 7
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -261,25 +587,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 138,
-                "end": 141,
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 7
+                  }
+                },
+                "range": [
+                  138,
+                  141
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 7
+                },
+                "start": {
+                  "column": 13,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              127,
+              148
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 7
+              },
+              "start": {
+                "column": 2,
+                "line": 7
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 151,
-            "end": 172,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 151,
-              "end": 162,
+              "range": [
+                151,
+                162
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 8
+                },
+                "start": {
+                  "column": 2,
+                  "line": 8
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -287,14 +659,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 163,
-              "end": 172,
+              "range": [
+                163,
+                172
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 169,
-                "end": 172,
-                "body": []
+                "body": [],
+                "range": [
+                  169,
+                  172
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -303,25 +689,71 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 163,
-                "end": 166,
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 8
+                  }
+                },
+                "range": [
+                  163,
+                  166
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 8
+                },
+                "start": {
+                  "column": 14,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              151,
+              172
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 8
+              },
+              "start": {
+                "column": 2,
+                "line": 8
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 175,
-            "end": 197,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 175,
-              "end": 186,
+              "range": [
+                175,
+                186
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 9
+                },
+                "start": {
+                  "column": 2,
+                  "line": 9
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -329,14 +761,28 @@ parserConstructorDeclaration12.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 187,
-              "end": 197,
+              "range": [
+                187,
+                197
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 194,
-                "end": 197,
-                "body": []
+                "body": [],
+                "range": [
+                  194,
+                  197
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 9
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -345,28 +791,111 @@ parserConstructorDeclaration12.ts
               "params": [],
               "typeParameters": {
                 "type": "TSTypeParameterDeclaration",
-                "start": 187,
-                "end": 190,
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 9
+                  }
+                },
+                "range": [
+                  187,
+                  190
+                ],
                 "params": []
+              },
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 9
+                },
+                "start": {
+                  "column": 14,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              175,
+              197
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 9
+              },
+              "start": {
+                "column": 2,
+                "line": 9
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 10
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        199
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 10
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

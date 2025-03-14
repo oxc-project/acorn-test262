@@ -1,60 +1,88 @@
-emitArrowFunctionWhenUsingArguments07.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 87,
+  "range": [
+    18,
+    87
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 18,
-      "end": 87,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 40,
-        "end": 87,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 46,
-            "end": 85,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 50,
-                "end": 84,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 51,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    50,
+                    51
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
-                  "start": 54,
-                  "end": 84,
                   "async": false,
                   "body": {
                     "type": "ArrowFunctionExpression",
-                    "start": 69,
-                    "end": 84,
                     "async": false,
                     "body": {
                       "type": "Identifier",
-                      "start": 75,
-                      "end": 84,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        75,
+                        84
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 42,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 33,
+                          "line": 4
+                        }
+                      }
                     },
                     "expression": true,
                     "generator": false,
                     "id": null,
-                    "params": []
+                    "params": [],
+                    "range": [
+                      69,
+                      84
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 42,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 4
+                      }
+                    }
                   },
                   "expression": true,
                   "generator": false,
@@ -62,44 +90,161 @@ emitArrowFunctionWhenUsingArguments07.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 55,
-                      "end": 64,
                       "decorators": [],
                       "name": "arguments",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        55,
+                        64
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 22,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 13,
+                          "line": 4
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    54,
+                    84
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 42,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  50,
+                  84
+                ],
+                "loc": {
+                  "end": {
+                    "column": 42,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 4
+                  }
                 }
               }
             ],
             "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "range": [
+              46,
+              85
+            ],
+            "loc": {
+              "end": {
+                "column": 43,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          40,
+          87
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 22,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          27,
+          28
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 3
+          },
+          "start": {
+            "column": 9,
+            "line": 3
+          }
+        }
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 29,
-          "end": 38,
           "decorators": [],
           "name": "arguments",
-          "optional": false
+          "optional": false,
+          "range": [
+            29,
+            38
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 3
+            },
+            "start": {
+              "column": 11,
+              "line": 3
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        18,
+        87
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

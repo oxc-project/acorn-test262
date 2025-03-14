@@ -1,92 +1,237 @@
-modularizeLibrary_Worker.iterable.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 25,
-  "end": 83,
+  "range": [
+    25,
+    83
+  ],
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 25,
-      "end": 82,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 68,
-        "end": 82,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 74,
-            "end": 80,
             "expression": {
               "type": "Identifier",
-              "start": 74,
-              "end": 79,
               "decorators": [],
               "name": "entry",
-              "optional": false
+              "optional": false,
+              "range": [
+                74,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              74,
+              80
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          68,
+          82
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 43,
+            "line": 3
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 30,
-        "end": 48,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 36,
-            "end": 48,
             "definite": false,
             "id": {
               "type": "ArrayPattern",
-              "start": 36,
-              "end": 48,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 40,
                   "decorators": [],
                   "name": "key",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    37,
+                    40
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 3
+                    }
+                  }
                 },
                 {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 47,
                   "decorators": [],
                   "name": "entry",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    42,
+                    47
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 3
+                    }
+                  }
                 }
               ],
-              "optional": false
+              "optional": false,
+              "range": [
+                36,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              36,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 3
+              },
+              "start": {
+                "column": 11,
+                "line": 3
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          30,
+          48
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 3
+          },
+          "start": {
+            "column": 5,
+            "line": 3
+          }
+        }
       },
       "right": {
         "type": "NewExpression",
-        "start": 52,
-        "end": 66,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 56,
-          "end": 64,
           "decorators": [],
           "name": "FormData",
-          "optional": false
+          "optional": false,
+          "range": [
+            56,
+            64
+          ],
+          "loc": {
+            "end": {
+              "column": 39,
+              "line": 3
+            },
+            "start": {
+              "column": 31,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          52,
+          66
+        ],
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 3
+          },
+          "start": {
+            "column": 27,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        25,
+        82
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

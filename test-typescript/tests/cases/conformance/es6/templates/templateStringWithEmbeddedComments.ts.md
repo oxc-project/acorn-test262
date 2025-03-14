@@ -1,69 +1,166 @@
-templateStringWithEmbeddedComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 111,
+  "range": [
+    1,
+    111
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1,
-      "end": 111,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 1,
-        "end": 110,
         "expressions": [
           {
             "type": "Literal",
-            "start": 32,
-            "end": 34,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "range": [
+              32,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 2,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
+            }
           },
           {
             "type": "Literal",
-            "start": 80,
-            "end": 82,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "range": [
+              80,
+              82
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 9
+              },
+              "start": {
+                "column": 1,
+                "line": 9
+              }
+            }
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 1,
-            "end": 8,
             "tail": false,
             "value": {
               "cooked": "head",
               "raw": "head"
+            },
+            "range": [
+              1,
+              8
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 1
+              },
+              "start": {
+                "column": 1,
+                "line": 1
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 35,
-            "end": 45,
             "tail": false,
             "value": {
               "cooked": "\nmiddle",
               "raw": "\nmiddle"
+            },
+            "range": [
+              35,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 4
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 103,
-            "end": 110,
             "tail": true,
             "value": {
               "cooked": "\ntail",
               "raw": "\ntail"
+            },
+            "range": [
+              103,
+              110
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 12
+              },
+              "start": {
+                "column": 0,
+                "line": 11
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1,
+          110
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 12
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        1,
+        111
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 12
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 6,
+      "line": 12
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,31 +1,43 @@
-abstractInterfaceIdentifierName.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
+  "range": [
+    0,
+    45
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 44,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 19,
-        "end": 44,
+        "range": [
+          19,
+          44
+        ],
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 25,
-            "end": 42,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 25,
-              "end": 33,
               "decorators": [],
               "name": "abstract",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -33,30 +45,115 @@ abstractInterfaceIdentifierName.ts
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 41,
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              },
+              "range": [
+                35,
+                41
+              ],
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
-                "start": 37,
-                "end": 41
+                "range": [
+                  37,
+                  41
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 2
+                  }
+                }
               }
             },
-            "static": false
+            "static": false,
+            "range": [
+              25,
+              42
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 19,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 18,
         "decorators": [],
         "name": "abstract",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

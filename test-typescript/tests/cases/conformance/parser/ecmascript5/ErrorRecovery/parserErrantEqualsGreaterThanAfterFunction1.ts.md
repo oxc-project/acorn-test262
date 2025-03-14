@@ -1,4 +1,4 @@
-parserErrantEqualsGreaterThanAfterFunction1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 '{' or ';' expected.
 ```

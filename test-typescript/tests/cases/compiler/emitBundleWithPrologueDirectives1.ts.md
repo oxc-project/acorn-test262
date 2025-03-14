@@ -1,75 +1,184 @@
-test.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 71,
-  "end": 118,
+  "range": [
+    71,
+    118
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 71,
-      "end": 90,
+      "range": [
+        71,
+        90
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 78,
-        "end": 90,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 88,
-          "end": 90,
-          "body": []
+          "range": [
+            88,
+            90
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 6
+            },
+            "start": {
+              "column": 17,
+              "line": 6
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 84,
-          "end": 87,
           "decorators": [],
           "name": "Doo",
-          "optional": false
+          "optional": false,
+          "range": [
+            84,
+            87
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 6
+            },
+            "start": {
+              "column": 13,
+              "line": 6
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          78,
+          90
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 6
+          },
+          "start": {
+            "column": 7,
+            "line": 6
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 91,
-      "end": 118,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 116,
-        "end": 118,
-        "body": []
+        "range": [
+          116,
+          118
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 7
+          },
+          "start": {
+            "column": 25,
+            "line": 7
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 97,
-        "end": 103,
         "decorators": [],
         "name": "Scooby",
-        "optional": false
+        "optional": false,
+        "range": [
+          97,
+          103
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 7
+          },
+          "start": {
+            "column": 6,
+            "line": 7
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 112,
-        "end": 115,
         "decorators": [],
         "name": "Doo",
-        "optional": false
+        "optional": false,
+        "range": [
+          112,
+          115
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 7
+          },
+          "start": {
+            "column": 21,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        91,
+        118
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 27,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```

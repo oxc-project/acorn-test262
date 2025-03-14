@@ -1,29 +1,78 @@
-parserWithStatement2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
+  "range": [
+    0,
+    18
+  ],
   "body": [
     {
       "type": "WithStatement",
-      "start": 0,
-      "end": 18,
       "body": {
         "type": "ReturnStatement",
-        "start": 11,
-        "end": 18,
-        "argument": null
+        "argument": null,
+        "range": [
+          11,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 2
+          },
+          "start": {
+            "column": 2,
+            "line": 2
+          }
+        }
       },
       "object": {
         "type": "Literal",
-        "start": 6,
-        "end": 7,
         "raw": "1",
-        "value": 1
+        "value": 1,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        18
+      ],
+      "loc": {
+        "end": {
+          "column": 9,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 9,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

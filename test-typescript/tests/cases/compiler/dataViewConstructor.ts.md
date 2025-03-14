@@ -1,53 +1,138 @@
-dataViewConstructor.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
+  "range": [
+    0,
+    49
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 33,
       "expression": {
         "type": "NewExpression",
-        "start": 0,
-        "end": 32,
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 13,
-            "end": 31,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 28,
-                "end": 30,
                 "raw": "32",
-                "value": 32
+                "value": 32,
+                "range": [
+                  28,
+                  30
+                ],
+                "loc": {
+                  "end": {
+                    "column": 30,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 1
+                  }
+                }
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 17,
-              "end": 27,
               "decorators": [],
               "name": "Uint8Array",
-              "optional": false
+              "optional": false,
+              "range": [
+                17,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 1
+                },
+                "start": {
+                  "column": 17,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              13,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
             }
           }
         ],
         "callee": {
           "type": "Identifier",
-          "start": 4,
-          "end": 12,
           "decorators": [],
           "name": "DataView",
-          "optional": false
+          "optional": false,
+          "range": [
+            4,
+            12
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          32
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        33
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 49,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

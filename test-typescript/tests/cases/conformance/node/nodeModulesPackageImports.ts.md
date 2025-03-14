@@ -1,137 +1,366 @@
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 123,
+  "range": [
+    19,
+    123
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 47,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 40,
-        "end": 46,
         "raw": "\"#cjs\"",
-        "value": "#cjs"
+        "value": "#cjs",
+        "range": [
+          40,
+          46
+        ],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 2
+          },
+          "start": {
+            "column": 21,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 26,
-          "end": 34,
           "local": {
             "type": "Identifier",
-            "start": 31,
-            "end": 34,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              31,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 12,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            26,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        19,
+        47
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 48,
-      "end": 76,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 69,
-        "end": 75,
         "raw": "\"#mjs\"",
-        "value": "#mjs"
+        "value": "#mjs",
+        "range": [
+          69,
+          75
+        ],
+        "loc": {
+          "end": {
+            "column": 27,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 55,
-          "end": 63,
           "local": {
             "type": "Identifier",
-            "start": 60,
-            "end": 63,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              60,
+              63
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 3
+              },
+              "start": {
+                "column": 12,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            55,
+            63
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 3
+            },
+            "start": {
+              "column": 7,
+              "line": 3
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        48,
+        76
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 77,
-      "end": 107,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 99,
-        "end": 106,
         "raw": "\"#type\"",
-        "value": "#type"
+        "value": "#type",
+        "range": [
+          99,
+          106
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 4
+          },
+          "start": {
+            "column": 22,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 84,
-          "end": 93,
           "local": {
             "type": "Identifier",
-            "start": 89,
-            "end": 93,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "range": [
+              89,
+              93
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            84,
+            93
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        77,
+        107
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 108,
-      "end": 112,
       "expression": {
         "type": "Identifier",
-        "start": 108,
-        "end": 111,
         "decorators": [],
         "name": "cjs",
-        "optional": false
+        "optional": false,
+        "range": [
+          108,
+          111
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        108,
+        112
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 113,
-      "end": 117,
       "expression": {
         "type": "Identifier",
-        "start": 113,
-        "end": 116,
         "decorators": [],
         "name": "mjs",
-        "optional": false
+        "optional": false,
+        "range": [
+          113,
+          116
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        113,
+        117
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 118,
-      "end": 123,
       "expression": {
         "type": "Identifier",
-        "start": 118,
-        "end": 122,
         "decorators": [],
         "name": "type",
-        "optional": false
+        "optional": false,
+        "range": [
+          118,
+          122
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 7
+          },
+          "start": {
+            "column": 0,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        118,
+        123
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 5,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

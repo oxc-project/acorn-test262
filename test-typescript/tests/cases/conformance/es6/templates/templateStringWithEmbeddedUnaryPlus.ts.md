@@ -1,78 +1,187 @@
-templateStringWithEmbeddedUnaryPlus.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 32,
+  "range": [
+    1,
+    32
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 32,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 31,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              5,
+              6
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 1
+              },
+              "start": {
+                "column": 5,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 9,
-            "end": 31,
             "expressions": [
               {
                 "type": "UnaryExpression",
-                "start": 16,
-                "end": 25,
                 "argument": {
                   "type": "Identifier",
-                  "start": 17,
-                  "end": 25,
                   "decorators": [],
                   "name": "Infinity",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    17,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
                 },
                 "operator": "+",
-                "prefix": true
+                "prefix": true,
+                "range": [
+                  16,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
+                }
               }
             ],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 9,
-                "end": 15,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  9,
+                  15
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 1
+                  }
                 }
               },
               {
                 "type": "TemplateElement",
-                "start": 26,
-                "end": 31,
                 "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
+                },
+                "range": [
+                  26,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              9,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            5,
+            31
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 1
+            },
+            "start": {
+              "column": 5,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        1,
+        32
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 1
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 32,
+      "line": 1
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

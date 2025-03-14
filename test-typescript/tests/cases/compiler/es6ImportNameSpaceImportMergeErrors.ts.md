@@ -1,228 +1,590 @@
-es6ImportNameSpaceImportMergeErrors_0.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
+  "range": [
+    0,
+    19
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
+      "range": [
+        0,
+        18
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                11,
+                12
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 1
+                },
+                "start": {
+                  "column": 11,
+                  "line": 1
+                }
+              }
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "raw": "10",
-              "value": 10
+              "value": 10,
+              "range": [
+                15,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              11,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 1
+              },
+              "start": {
+                "column": 11,
+                "line": 1
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          7,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-es6ImportNameSpaceImportMergeErrors_1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 451,
+  "range": [
+    0,
+    451
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 76,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 34,
-        "end": 75,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "range": [
+          34,
+          75
+        ],
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 1
+          },
+          "start": {
+            "column": 34,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 28,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 28,
             "decorators": [],
             "name": "nameSpaceBinding",
-            "optional": false
+            "optional": false,
+            "range": [
+              12,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            7,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        76
+      ],
+      "loc": {
+        "end": {
+          "column": 76,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 78,
-      "end": 108,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 105,
-        "end": 108,
-        "body": []
+        "range": [
+          105,
+          108
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 2
+          },
+          "start": {
+            "column": 27,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 88,
-        "end": 104,
         "decorators": [],
         "name": "nameSpaceBinding",
-        "optional": false
+        "optional": false,
+        "range": [
+          88,
+          104
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 2
+          },
+          "start": {
+            "column": 10,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        78,
+        108
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 131,
-      "end": 208,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 166,
-        "end": 207,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "range": [
+          166,
+          207
+        ],
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 4
+          },
+          "start": {
+            "column": 35,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 138,
-          "end": 160,
           "local": {
             "type": "Identifier",
-            "start": 143,
-            "end": 160,
             "decorators": [],
             "name": "nameSpaceBinding1",
-            "optional": false
+            "optional": false,
+            "range": [
+              143,
+              160
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            138,
+            160
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        131,
+        208
+      ],
+      "loc": {
+        "end": {
+          "column": 77,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 228,
-      "end": 305,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 263,
-        "end": 304,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "range": [
+          263,
+          304
+        ],
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 5
+          },
+          "start": {
+            "column": 35,
+            "line": 5
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 235,
-          "end": 257,
           "local": {
             "type": "Identifier",
-            "start": 240,
-            "end": 257,
             "decorators": [],
             "name": "nameSpaceBinding1",
-            "optional": false
+            "optional": false,
+            "range": [
+              240,
+              257
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 5
+              },
+              "start": {
+                "column": 12,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            235,
+            257
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 5
+            },
+            "start": {
+              "column": 7,
+              "line": 5
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        228,
+        305
+      ],
+      "loc": {
+        "end": {
+          "column": 77,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 326,
-      "end": 403,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 361,
-        "end": 402,
         "raw": "\"./es6ImportNameSpaceImportMergeErrors_0\"",
-        "value": "./es6ImportNameSpaceImportMergeErrors_0"
+        "value": "./es6ImportNameSpaceImportMergeErrors_0",
+        "range": [
+          361,
+          402
+        ],
+        "loc": {
+          "end": {
+            "column": 76,
+            "line": 7
+          },
+          "start": {
+            "column": 35,
+            "line": 7
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 333,
-          "end": 355,
           "local": {
             "type": "Identifier",
-            "start": 338,
-            "end": 355,
             "decorators": [],
             "name": "nameSpaceBinding3",
-            "optional": false
+            "optional": false,
+            "range": [
+              338,
+              355
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 7
+              },
+              "start": {
+                "column": 12,
+                "line": 7
+              }
+            }
+          },
+          "range": [
+            333,
+            355
+          ],
+          "loc": {
+            "end": {
+              "column": 29,
+              "line": 7
+            },
+            "start": {
+              "column": 7,
+              "line": 7
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        326,
+        403
+      ],
+      "loc": {
+        "end": {
+          "column": 77,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 423,
-      "end": 450,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 427,
-          "end": 449,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 427,
-            "end": 444,
             "decorators": [],
             "name": "nameSpaceBinding3",
-            "optional": false
+            "optional": false,
+            "range": [
+              427,
+              444
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 447,
-            "end": 449,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "range": [
+              447,
+              449
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 8
+              },
+              "start": {
+                "column": 24,
+                "line": 8
+              }
+            }
+          },
+          "range": [
+            427,
+            449
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 8
+            },
+            "start": {
+              "column": 4,
+              "line": 8
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        423,
+        450
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

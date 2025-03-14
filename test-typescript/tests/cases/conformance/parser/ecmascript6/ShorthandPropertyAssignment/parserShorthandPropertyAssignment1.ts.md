@@ -1,4 +1,4 @@
-parserShorthandPropertyAssignment1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 A shorthand property assignment cannot have a question token.
 ```

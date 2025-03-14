@@ -1,29 +1,78 @@
-commentsAtEndOfFile1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
+  "range": [
+    0,
+    23
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 8,
       "body": {
         "type": "EmptyStatement",
-        "start": 7,
-        "end": 8
+        "range": [
+          7,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 5,
         "decorators": [],
         "name": "Input",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          5
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        8
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

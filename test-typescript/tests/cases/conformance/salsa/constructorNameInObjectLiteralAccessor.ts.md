@@ -1,45 +1,63 @@
-constructorNameInObjectLiteralAccessor.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 79,
+  "range": [
+    0,
+    79
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 78,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 78,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 8,
             "decorators": [],
             "name": "c1",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              8
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 11,
-            "end": 78,
             "properties": [
               {
                 "type": "Property",
-                "start": 17,
-                "end": 45,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 21,
-                  "end": 32,
                   "decorators": [],
                   "name": "constructor",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    21,
+                    32
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -47,41 +65,101 @@ constructorNameInObjectLiteralAccessor.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 32,
-                  "end": 45,
+                  "range": [
+                    32,
+                    45
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 35,
-                    "end": 45,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 37,
-                        "end": 43,
-                        "argument": null
+                        "argument": null,
+                        "range": [
+                          37,
+                          43
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 30,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 24,
+                            "line": 2
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "range": [
+                      35,
+                      45
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  17,
+                  45
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 51,
-                "end": 76,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 55,
-                  "end": 66,
                   "decorators": [],
                   "name": "constructor",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    55,
+                    66
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "set",
                 "method": false,
@@ -89,14 +167,28 @@ constructorNameInObjectLiteralAccessor.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 66,
-                  "end": 76,
+                  "range": [
+                    66,
+                    76
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 74,
-                    "end": 76,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      74,
+                      76
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 3
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -105,23 +197,112 @@ constructorNameInObjectLiteralAccessor.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 67,
-                      "end": 72,
                       "decorators": [],
                       "name": "value",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        67,
+                        72
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 25,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 20,
+                          "line": 3
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  51,
+                  76
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              11,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 4
+              },
+              "start": {
+                "column": 11,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            78
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        78
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

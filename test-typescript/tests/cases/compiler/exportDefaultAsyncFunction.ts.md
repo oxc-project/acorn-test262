@@ -1,91 +1,248 @@
-exportDefaultAsyncFunction.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
+  "range": [
+    0,
+    61
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 53,
+      "range": [
+        0,
+        53
+      ],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 53,
         "async": true,
         "body": {
           "type": "BlockStatement",
-          "start": 51,
-          "end": 53,
-          "body": []
+          "body": [],
+          "range": [
+            51,
+            53
+          ],
+          "loc": {
+            "end": {
+              "column": 53,
+              "line": 1
+            },
+            "start": {
+              "column": 51,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 30,
-          "end": 33,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            30,
+            33
+          ],
+          "loc": {
+            "end": {
+              "column": 33,
+              "line": 1
+            },
+            "start": {
+              "column": 30,
+              "line": 1
+            }
+          }
         },
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 35,
-          "end": 50,
+          "loc": {
+            "end": {
+              "column": 50,
+              "line": 1
+            },
+            "start": {
+              "column": 35,
+              "line": 1
+            }
+          },
+          "range": [
+            35,
+            50
+          ],
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 37,
-            "end": 50,
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 44,
-              "end": 50,
+              "range": [
+                44,
+                50
+              ],
               "params": [
                 {
                   "type": "TSVoidKeyword",
-                  "start": 45,
-                  "end": 49
+                  "range": [
+                    45,
+                    49
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 49,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 45,
+                      "line": 1
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 50,
+                  "line": 1
+                },
+                "start": {
+                  "column": 44,
+                  "line": 1
+                }
+              }
             },
             "typeName": {
               "type": "Identifier",
-              "start": 37,
-              "end": 44,
               "decorators": [],
               "name": "Promise",
-              "optional": false
+              "optional": false,
+              "range": [
+                37,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 1
+                },
+                "start": {
+                  "column": 37,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              37,
+              50
+            ],
+            "loc": {
+              "end": {
+                "column": 50,
+                "line": 1
+              },
+              "start": {
+                "column": 37,
+                "line": 1
+              }
             }
+          }
+        },
+        "range": [
+          15,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
           }
         }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 53,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 60,
       "expression": {
         "type": "CallExpression",
-        "start": 54,
-        "end": 59,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            54,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          54,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        54,
+        60
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,88 +1,233 @@
-blockScopedFunctionDeclarationInStrictModule.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
+  "range": [
+    0,
+    78
+  ],
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 53,
       "alternate": null,
       "consequent": {
         "type": "BlockStatement",
-        "start": 10,
-        "end": 53,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 16,
-            "end": 34,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 31,
-              "end": 34,
-              "body": []
+              "body": [],
+              "range": [
+                31,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 28,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                28
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
             },
-            "params": []
+            "params": [],
+            "range": [
+              16,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           {
             "type": "ExpressionStatement",
-            "start": 39,
-            "end": 45,
             "expression": {
               "type": "CallExpression",
-              "start": 39,
-              "end": 44,
               "arguments": [],
               "callee": {
                 "type": "Identifier",
-                "start": 39,
-                "end": 42,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  39,
+                  42
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
+                }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                39,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              39,
+              45
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          10,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 4,
-        "end": 8,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          4,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 4,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "TSExportAssignment",
-      "start": 55,
-      "end": 68,
       "expression": {
         "type": "Identifier",
-        "start": 64,
-        "end": 67,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          64,
+          67
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 6
+          },
+          "start": {
+            "column": 9,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        55,
+        68
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 23,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

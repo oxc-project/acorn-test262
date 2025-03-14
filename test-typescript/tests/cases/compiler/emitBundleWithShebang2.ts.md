@@ -1,70 +1,167 @@
-test.ts
+__ESTREE_TEST__:FAIL:
 ```json
 '#!' can only be used at the start of a file.
 ```
-test2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 61,
+  "range": [
+    18,
+    61
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 18,
-      "end": 31,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 29,
-        "end": 31,
-        "body": []
+        "range": [
+          29,
+          31
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 2
+          },
+          "start": {
+            "column": 11,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 24,
-        "end": 28,
         "decorators": [],
         "name": "Dood",
-        "optional": false
+        "optional": false,
+        "range": [
+          24,
+          28
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        18,
+        31
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 32,
-      "end": 61,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 59,
-        "end": 61,
-        "body": []
+        "range": [
+          59,
+          61
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 3
+          },
+          "start": {
+            "column": 27,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 45,
         "decorators": [],
         "name": "Scoobyd",
-        "optional": false
+        "optional": false,
+        "range": [
+          38,
+          45
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 54,
-        "end": 58,
         "decorators": [],
         "name": "Dood",
-        "optional": false
+        "optional": false,
+        "range": [
+          54,
+          58
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 3
+          },
+          "start": {
+            "column": 22,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        32,
+        61
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 29,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

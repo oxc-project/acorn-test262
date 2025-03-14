@@ -1,52 +1,125 @@
-unicodeExtendedEscapesInTemplates08.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 132,
-  "end": 152,
+  "range": [
+    132,
+    152
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 132,
-      "end": 151,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 136,
-          "end": 150,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 136,
-            "end": 137,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              136,
+              137
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 140,
-            "end": 150,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 140,
-                "end": 150,
                 "tail": true,
                 "value": {
                   "cooked": "￿",
                   "raw": "\\u{FFFF}"
+                },
+                "range": [
+                  140,
+                  150
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 6
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              140,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 6
+              },
+              "start": {
+                "column": 8,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            136,
+            150
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        132,
+        151
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,4 +1,4 @@
-staticIndexSignature4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'static' modifier cannot appear on an index signature
 ```

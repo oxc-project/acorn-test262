@@ -1,326 +1,845 @@
-subfolder/index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 106,
+  "range": [
+    19,
+    106
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 53,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 48,
-        "end": 52,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          48,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 2
+          },
+          "start": {
+            "column": 29,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 41,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 34,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "range": [
+              27,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 38,
-            "end": 41,
             "decorators": [],
             "name": "_fs",
-            "optional": false
+            "optional": false,
+            "range": [
+              38,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 19,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            27,
+            41
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 2
+            },
+            "start": {
+              "column": 8,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        19,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 67,
       "expression": {
         "type": "MemberExpression",
-        "start": 54,
-        "end": 66,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "_fs",
-          "optional": false
+          "optional": false,
+          "range": [
+            54,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 58,
-          "end": 66,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "range": [
+            58,
+            66
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          54,
+          66
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        54,
+        67
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 68,
-      "end": 93,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 88,
-        "end": 92,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          88,
+          92
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 4
+          },
+          "start": {
+            "column": 20,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 75,
-          "end": 82,
           "local": {
             "type": "Identifier",
-            "start": 80,
-            "end": 82,
             "decorators": [],
             "name": "fs",
-            "optional": false
+            "optional": false,
+            "range": [
+              80,
+              82
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            75,
+            82
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        68,
+        93
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 94,
-      "end": 106,
       "expression": {
         "type": "MemberExpression",
-        "start": 94,
-        "end": 105,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 94,
-          "end": 96,
           "decorators": [],
           "name": "fs",
-          "optional": false
+          "optional": false,
+          "range": [
+            94,
+            96
+          ],
+          "loc": {
+            "end": {
+              "column": 2,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 5
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 97,
-          "end": 105,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "range": [
+            97,
+            105
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 5
+            },
+            "start": {
+              "column": 3,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          94,
+          105
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        94,
+        106
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 12,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 106,
+  "range": [
+    19,
+    106
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 53,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 48,
-        "end": 52,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          48,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 2
+          },
+          "start": {
+            "column": 29,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 41,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 34,
             "decorators": [],
             "name": "default",
-            "optional": false
+            "optional": false,
+            "range": [
+              27,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 38,
-            "end": 41,
             "decorators": [],
             "name": "_fs",
-            "optional": false
+            "optional": false,
+            "range": [
+              38,
+              41
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 19,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            27,
+            41
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 2
+            },
+            "start": {
+              "column": 8,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        19,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 67,
       "expression": {
         "type": "MemberExpression",
-        "start": 54,
-        "end": 66,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "_fs",
-          "optional": false
+          "optional": false,
+          "range": [
+            54,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 58,
-          "end": 66,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "range": [
+            58,
+            66
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          54,
+          66
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        54,
+        67
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     },
     {
       "type": "ImportDeclaration",
-      "start": 68,
-      "end": 93,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 88,
-        "end": 92,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          88,
+          92
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 4
+          },
+          "start": {
+            "column": 20,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 75,
-          "end": 82,
           "local": {
             "type": "Identifier",
-            "start": 80,
-            "end": 82,
             "decorators": [],
             "name": "fs",
-            "optional": false
+            "optional": false,
+            "range": [
+              80,
+              82
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            75,
+            82
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        68,
+        93
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 94,
-      "end": 106,
       "expression": {
         "type": "MemberExpression",
-        "start": 94,
-        "end": 105,
         "computed": false,
         "object": {
           "type": "Identifier",
-          "start": 94,
-          "end": 96,
           "decorators": [],
           "name": "fs",
-          "optional": false
+          "optional": false,
+          "range": [
+            94,
+            96
+          ],
+          "loc": {
+            "end": {
+              "column": 2,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 5
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "Identifier",
-          "start": 97,
-          "end": 105,
           "decorators": [],
           "name": "readFile",
-          "optional": false
+          "optional": false,
+          "range": [
+            97,
+            105
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 5
+            },
+            "start": {
+              "column": 3,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          94,
+          105
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        94,
+        106
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 12,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-types.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 103,
+  "range": [
+    0,
+    103
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 20,
       "kind": "module",
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          15,
+          19
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        20
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 21,
-      "end": 103,
       "kind": "module",
       "body": {
         "type": "TSModuleBlock",
-        "start": 44,
-        "end": 103,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 50,
-            "end": 60,
             "attributes": [],
             "declaration": null,
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "range": [
+              50,
+              60
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          44,
+          103
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 23,
+            "line": 2
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
-        "start": 36,
-        "end": 43,
         "raw": "\"tslib\"",
-        "value": "tslib"
+        "value": "tslib",
+        "range": [
+          36,
+          43
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        21,
+        103
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

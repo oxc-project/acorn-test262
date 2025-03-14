@@ -1,38 +1,99 @@
-parseCommaSeparatedNewlineNumber.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 6,
+  "range": [
+    0,
+    6
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 6,
       "expression": {
         "type": "SequenceExpression",
-        "start": 1,
-        "end": 5,
         "expressions": [
           {
             "type": "Identifier",
-            "start": 1,
-            "end": 2,
             "decorators": [],
             "name": "a",
-            "optional": false
+            "optional": false,
+            "range": [
+              1,
+              2
+            ],
+            "loc": {
+              "end": {
+                "column": 2,
+                "line": 1
+              },
+              "start": {
+                "column": 1,
+                "line": 1
+              }
+            }
           },
           {
             "type": "Literal",
-            "start": 4,
-            "end": 5,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          1,
+          5
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 1,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        6
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 2,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,40 +1,60 @@
-computerPropertiesInES5ShouldBeTransformed.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 44,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 43,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "b",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 10,
-            "end": 43,
             "async": false,
             "body": {
               "type": "Identifier",
-              "start": 36,
-              "end": 43,
               "decorators": [],
               "name": "renamed",
-              "optional": false
+              "optional": false,
+              "range": [
+                36,
+                43
+              ],
+              "loc": {
+                "end": {
+                  "column": 43,
+                  "line": 1
+                },
+                "start": {
+                  "column": 36,
+                  "line": 1
+                }
+              }
             },
             "expression": true,
             "generator": false,
@@ -42,33 +62,53 @@ computerPropertiesInES5ShouldBeTransformed.ts
             "params": [
               {
                 "type": "ObjectPattern",
-                "start": 11,
-                "end": 31,
                 "decorators": [],
                 "optional": false,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 13,
-                    "end": 29,
                     "computed": true,
                     "key": {
                       "type": "TemplateLiteral",
-                      "start": 14,
-                      "end": 19,
                       "expressions": [],
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 14,
-                          "end": 19,
                           "tail": true,
                           "value": {
                             "cooked": "key",
                             "raw": "key"
+                          },
+                          "range": [
+                            14,
+                            19
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 19,
+                              "line": 1
+                            },
+                            "start": {
+                              "column": 14,
+                              "line": 1
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        14,
+                        19
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 19,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 14,
+                          "line": 1
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -76,23 +116,116 @@ computerPropertiesInES5ShouldBeTransformed.ts
                     "shorthand": false,
                     "value": {
                       "type": "Identifier",
-                      "start": 22,
-                      "end": 29,
                       "decorators": [],
                       "name": "renamed",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        22,
+                        29
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 1
+                        }
+                      }
+                    },
+                    "range": [
+                      13,
+                      29
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 1
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  11,
+                  31
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 1
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              10,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 43,
+                "line": 1
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            43
+          ],
+          "loc": {
+            "end": {
+              "column": 43,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 44,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 44,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,355 +1,968 @@
-arrayLiteralAndArrayConstructorEquivalence1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 227,
+  "range": [
+    0,
+    227
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 22,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 10,
             "decorators": [],
             "name": "myCars",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              10
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "NewExpression",
-            "start": 11,
-            "end": 22,
             "arguments": [],
             "callee": {
               "type": "Identifier",
-              "start": 15,
-              "end": 20,
               "decorators": [],
               "name": "Array",
-              "optional": false
+              "optional": false,
+              "range": [
+                15,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 1
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              11,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 1
+              },
+              "start": {
+                "column": 11,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        23
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 25,
-      "end": 53,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 29,
-          "end": 52,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 29,
-            "end": 36,
             "decorators": [],
             "name": "myCars3",
-            "optional": false
+            "optional": false,
+            "range": [
+              29,
+              36
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "NewExpression",
-            "start": 39,
-            "end": 52,
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 49,
-                "end": 51,
-                "properties": []
+                "properties": [],
+                "range": [
+                  49,
+                  51
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 2
+                  }
+                }
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 43,
-              "end": 48,
               "decorators": [],
               "name": "Array",
-              "optional": false
+              "optional": false,
+              "range": [
+                43,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 2
+                },
+                "start": {
+                  "column": 18,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              39,
+              52
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 2
+              },
+              "start": {
+                "column": 14,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            29,
+            52
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        25,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 54,
-      "end": 73,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 58,
-          "end": 72,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 58,
-            "end": 72,
             "decorators": [],
             "name": "myCars4",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 65,
-              "end": 72,
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              },
+              "range": [
+                65,
+                72
+              ],
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 67,
-                "end": 72,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 72,
                   "decorators": [],
                   "name": "Array",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    67,
+                    72
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  67,
+                  72
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 3
+                  }
                 }
+              }
+            },
+            "range": [
+              58,
+              72
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            58,
+            72
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        54,
+        73
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 83,
-      "end": 109,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 87,
-          "end": 108,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 87,
-            "end": 108,
             "decorators": [],
             "name": "myCars5",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 94,
-              "end": 108,
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 4
+                },
+                "start": {
+                  "column": 11,
+                  "line": 4
+                }
+              },
+              "range": [
+                94,
+                108
+              ],
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 96,
-                "end": 108,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 96,
-                  "end": 106,
                   "typeArguments": {
                     "type": "TSTypeParameterInstantiation",
-                    "start": 101,
-                    "end": 106,
+                    "range": [
+                      101,
+                      106
+                    ],
                     "params": [
                       {
                         "type": "TSAnyKeyword",
-                        "start": 102,
-                        "end": 105
+                        "range": [
+                          102,
+                          105
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 22,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 4
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 18,
+                        "line": 4
+                      }
+                    }
                   },
                   "typeName": {
                     "type": "Identifier",
-                    "start": 96,
-                    "end": 101,
                     "decorators": [],
                     "name": "Array",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      96,
+                      101
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    96,
+                    106
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  96,
+                  108
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 4
                   }
                 }
               }
+            },
+            "range": [
+              87,
+              108
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            87,
+            108
+          ],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 4
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 112,
-      "end": 129,
-      "expression": {
-        "type": "AssignmentExpression",
-        "start": 112,
-        "end": 128,
-        "operator": "=",
-        "left": {
-          "type": "Identifier",
-          "start": 112,
-          "end": 118,
-          "decorators": [],
-          "name": "myCars",
-          "optional": false
+      "kind": "var",
+      "range": [
+        83,
+        109
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 4
         },
-        "right": {
-          "type": "Identifier",
-          "start": 121,
-          "end": 128,
-          "decorators": [],
-          "name": "myCars3",
-          "optional": false
+        "start": {
+          "column": 0,
+          "line": 4
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 130,
-      "end": 147,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 130,
-        "end": 146,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 130,
-          "end": 136,
           "decorators": [],
           "name": "myCars",
-          "optional": false
+          "optional": false,
+          "range": [
+            112,
+            118
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 6
+            },
+            "start": {
+              "column": 0,
+              "line": 6
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 139,
-          "end": 146,
+          "decorators": [],
+          "name": "myCars3",
+          "optional": false,
+          "range": [
+            121,
+            128
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 6
+            },
+            "start": {
+              "column": 9,
+              "line": 6
+            }
+          }
+        },
+        "range": [
+          112,
+          128
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        112,
+        129
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "decorators": [],
+          "name": "myCars",
+          "optional": false,
+          "range": [
+            130,
+            136
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 7
+            },
+            "start": {
+              "column": 0,
+              "line": 7
+            }
+          }
+        },
+        "right": {
+          "type": "Identifier",
           "decorators": [],
           "name": "myCars4",
-          "optional": false
+          "optional": false,
+          "range": [
+            139,
+            146
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 7
+            },
+            "start": {
+              "column": 9,
+              "line": 7
+            }
+          }
+        },
+        "range": [
+          130,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 7
+          },
+          "start": {
+            "column": 0,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        130,
+        147
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 148,
-      "end": 165,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 148,
-        "end": 164,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 148,
-          "end": 154,
           "decorators": [],
           "name": "myCars",
-          "optional": false
+          "optional": false,
+          "range": [
+            148,
+            154
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 8
+            },
+            "start": {
+              "column": 0,
+              "line": 8
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 157,
-          "end": 164,
           "decorators": [],
           "name": "myCars5",
-          "optional": false
+          "optional": false,
+          "range": [
+            157,
+            164
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 8
+            },
+            "start": {
+              "column": 9,
+              "line": 8
+            }
+          }
+        },
+        "range": [
+          148,
+          164
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 8
+          },
+          "start": {
+            "column": 0,
+            "line": 8
+          }
+        }
+      },
+      "range": [
+        148,
+        165
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 168,
-      "end": 185,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 168,
-        "end": 184,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 168,
-          "end": 175,
           "decorators": [],
           "name": "myCars3",
-          "optional": false
+          "optional": false,
+          "range": [
+            168,
+            175
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 10
+            },
+            "start": {
+              "column": 0,
+              "line": 10
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 178,
-          "end": 184,
           "decorators": [],
           "name": "myCars",
-          "optional": false
+          "optional": false,
+          "range": [
+            178,
+            184
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 10
+            },
+            "start": {
+              "column": 10,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          168,
+          184
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 10
+          },
+          "start": {
+            "column": 0,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        168,
+        185
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 186,
-      "end": 204,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 186,
-        "end": 203,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 186,
-          "end": 193,
           "decorators": [],
           "name": "myCars3",
-          "optional": false
+          "optional": false,
+          "range": [
+            186,
+            193
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 11
+            },
+            "start": {
+              "column": 0,
+              "line": 11
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 196,
-          "end": 203,
           "decorators": [],
           "name": "myCars4",
-          "optional": false
+          "optional": false,
+          "range": [
+            196,
+            203
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 11
+            },
+            "start": {
+              "column": 10,
+              "line": 11
+            }
+          }
+        },
+        "range": [
+          186,
+          203
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 11
+          },
+          "start": {
+            "column": 0,
+            "line": 11
+          }
+        }
+      },
+      "range": [
+        186,
+        204
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 205,
-      "end": 223,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 205,
-        "end": 222,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 205,
-          "end": 212,
           "decorators": [],
           "name": "myCars3",
-          "optional": false
+          "optional": false,
+          "range": [
+            205,
+            212
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 12
+            },
+            "start": {
+              "column": 0,
+              "line": 12
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 215,
-          "end": 222,
           "decorators": [],
           "name": "myCars5",
-          "optional": false
+          "optional": false,
+          "range": [
+            215,
+            222
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 12
+            },
+            "start": {
+              "column": 10,
+              "line": 12
+            }
+          }
+        },
+        "range": [
+          205,
+          222
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 12
+          },
+          "start": {
+            "column": 0,
+            "line": 12
+          }
+        }
+      },
+      "range": [
+        205,
+        223
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 12
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

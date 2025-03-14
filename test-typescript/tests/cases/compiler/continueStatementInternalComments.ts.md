@@ -1,52 +1,137 @@
-continueStatementInternalComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
+  "range": [
+    0,
+    53
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 53,
       "body": {
         "type": "ForStatement",
-        "start": 5,
-        "end": 53,
         "body": {
           "type": "BlockStatement",
-          "start": 14,
-          "end": 53,
           "body": [
             {
               "type": "ContinueStatement",
-              "start": 26,
-              "end": 51,
               "label": {
                 "type": "Identifier",
-                "start": 41,
-                "end": 44,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  41,
+                  44
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                26,
+                51
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 2
+                },
+                "start": {
+                  "column": 10,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            14,
+            53
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
+          }
         },
         "init": null,
         "test": null,
-        "update": null
+        "update": null,
+        "range": [
+          5,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 3,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          3
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

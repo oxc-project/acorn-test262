@@ -1,95 +1,252 @@
-duplicateStringNamedProperty1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 68,
+  "range": [
+    0,
+    68
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 68,
+      "range": [
+        0,
+        68
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 68,
         "body": {
           "type": "TSInterfaceBody",
-          "start": 23,
-          "end": 68,
+          "range": [
+            23,
+            68
+          ],
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 29,
-              "end": 46,
               "computed": false,
               "key": {
                 "type": "Literal",
-                "start": 29,
-                "end": 37,
                 "raw": "\"artist\"",
-                "value": "artist"
+                "value": "artist",
+                "range": [
+                  29,
+                  37
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "readonly": false,
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 37,
-                "end": 45,
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  37,
+                  45
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 39,
-                  "end": 45
+                  "range": [
+                    39,
+                    45
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 20,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 2
+                    }
+                  }
+                }
+              },
+              "range": [
+                29,
+                46
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
                 }
               }
             },
             {
               "type": "TSPropertySignature",
-              "start": 51,
-              "end": 66,
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 51,
-                "end": 57,
                 "decorators": [],
                 "name": "artist",
-                "optional": false
+                "optional": false,
+                "range": [
+                  51,
+                  57
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 3
+                  }
+                }
               },
               "optional": false,
               "readonly": false,
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 57,
-                "end": 65,
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  57,
+                  65
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 59,
-                  "end": 65
+                  "range": [
+                    59,
+                    65
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 3
+                    }
+                  }
+                }
+              },
+              "range": [
+                51,
+                66
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
                 }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 23,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "extends": [],
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 22,
           "decorators": [],
           "name": "Album",
-          "optional": false
+          "optional": false,
+          "range": [
+            17,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 17,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          7,
+          68
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
         }
       },
       "exportKind": "type",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

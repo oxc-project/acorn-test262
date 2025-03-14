@@ -1,101 +1,245 @@
-node_modules/inner/index.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 166,
+  "range": [
+    19,
+    166
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 52,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 40,
-        "end": 51,
         "raw": "\"inner/cjs\"",
-        "value": "inner/cjs"
+        "value": "inner/cjs",
+        "range": [
+          40,
+          51
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 2
+          },
+          "start": {
+            "column": 21,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 26,
-          "end": 34,
           "local": {
             "type": "Identifier",
-            "start": 31,
-            "end": 34,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              31,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 12,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            26,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        19,
+        52
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 53,
-      "end": 86,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 74,
-        "end": 85,
         "raw": "\"inner/mjs\"",
-        "value": "inner/mjs"
+        "value": "inner/mjs",
+        "range": [
+          74,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 3
+          },
+          "start": {
+            "column": 21,
+            "line": 3
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 60,
-          "end": 68,
           "local": {
             "type": "Identifier",
-            "start": 65,
-            "end": 68,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              65,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 3
+              },
+              "start": {
+                "column": 12,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            60,
+            68
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 3
+            },
+            "start": {
+              "column": 7,
+              "line": 3
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        53,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 87,
-      "end": 117,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 109,
-        "end": 116,
         "raw": "\"inner\"",
-        "value": "inner"
+        "value": "inner",
+        "range": [
+          109,
+          116
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 4
+          },
+          "start": {
+            "column": 22,
+            "line": 4
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 94,
-          "end": 103,
           "local": {
             "type": "Identifier",
-            "start": 99,
-            "end": 103,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "range": [
+              99,
+              103
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 4
+              },
+              "start": {
+                "column": 12,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            94,
+            103
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        87,
+        117
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 118,
-      "end": 133,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -103,32 +247,80 @@ node_modules/inner/index.d.ts
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 127,
-          "end": 130,
           "exported": {
             "type": "Identifier",
-            "start": 127,
-            "end": 130,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              127,
+              130
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 5
+              },
+              "start": {
+                "column": 9,
+                "line": 5
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 127,
-            "end": 130,
             "decorators": [],
             "name": "cjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              127,
+              130
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 5
+              },
+              "start": {
+                "column": 9,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            127,
+            130
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 5
+            },
+            "start": {
+              "column": 9,
+              "line": 5
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        118,
+        133
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 134,
-      "end": 149,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -136,32 +328,80 @@ node_modules/inner/index.d.ts
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 143,
-          "end": 146,
           "exported": {
             "type": "Identifier",
-            "start": 143,
-            "end": 146,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              143,
+              146
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 6
+              },
+              "start": {
+                "column": 9,
+                "line": 6
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 143,
-            "end": 146,
             "decorators": [],
             "name": "mjs",
-            "optional": false
+            "optional": false,
+            "range": [
+              143,
+              146
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 6
+              },
+              "start": {
+                "column": 9,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            143,
+            146
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 6
+            },
+            "start": {
+              "column": 9,
+              "line": 6
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        134,
+        149
+      ],
+      "loc": {
+        "end": {
+          "column": 15,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 150,
-      "end": 166,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -169,29 +409,90 @@ node_modules/inner/index.d.ts
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 159,
-          "end": 163,
           "exported": {
             "type": "Identifier",
-            "start": 159,
-            "end": 163,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "range": [
+              159,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 7
+              },
+              "start": {
+                "column": 9,
+                "line": 7
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 159,
-            "end": 163,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "range": [
+              159,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 7
+              },
+              "start": {
+                "column": 9,
+                "line": 7
+              }
+            }
+          },
+          "range": [
+            159,
+            163
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 7
+            },
+            "start": {
+              "column": 9,
+              "line": 7
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        150,
+        166
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 16,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,88 +1,186 @@
-parameterDecoratorsEmitCrash.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 147,
+  "range": [
+    56,
+    147
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 56,
-      "end": 77,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 68,
-          "end": 76,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 68,
-            "end": 76,
             "decorators": [],
             "name": "dec",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 71,
-              "end": 76,
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              },
+              "range": [
+                71,
+                76
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 73,
-                "end": 76
+                "range": [
+                  73,
+                  76
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
+                }
+              }
+            },
+            "range": [
+              68,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 2
+              },
+              "start": {
+                "column": 12,
+                "line": 2
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            68,
+            76
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 2
+            },
+            "start": {
+              "column": 12,
+              "line": 2
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        56,
+        77
+      ],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 79,
-      "end": 146,
+      "range": [
+        79,
+        146
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 86,
-        "end": 146,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 94,
-          "end": 146,
+          "range": [
+            94,
+            146
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 100,
-              "end": 112,
               "computed": false,
               "declare": false,
               "decorators": [
                 {
                   "type": "Decorator",
-                  "start": 100,
-                  "end": 104,
                   "expression": {
                     "type": "Identifier",
-                    "start": 101,
-                    "end": 104,
                     "decorators": [],
                     "name": "dec",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      101,
+                      104
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 8,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 5
+                      }
+                    }
+                  },
+                  "range": [
+                    100,
+                    104
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 5
+                    }
                   }
                 }
               ],
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 105,
-                "end": 106,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "range": [
+                  105,
+                  106
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 5
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -90,29 +188,77 @@ parameterDecoratorsEmitCrash.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 106,
-                "end": 111,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 5
+                  }
+                },
+                "range": [
+                  106,
+                  111
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 108,
-                  "end": 111
+                  "range": [
+                    108,
+                    111
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 5
+                    }
+                  }
                 }
               },
-              "value": null
+              "value": null,
+              "range": [
+                100,
+                112
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
             },
             {
               "type": "MethodDefinition",
-              "start": 117,
-              "end": 144,
               "computed": false,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 117,
-                "end": 128,
+                "range": [
+                  117,
+                  128
+                ],
                 "decorators": [],
                 "name": "constructor",
-                "optional": false
+                "optional": false,
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 6
+                  }
+                }
               },
               "kind": "constructor",
               "optional": false,
@@ -120,14 +266,28 @@ parameterDecoratorsEmitCrash.ts
               "static": false,
               "value": {
                 "type": "FunctionExpression",
-                "start": 128,
-                "end": 144,
+                "range": [
+                  128,
+                  144
+                ],
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 142,
-                  "end": 144,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    142,
+                    144
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 6
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
@@ -136,20 +296,42 @@ parameterDecoratorsEmitCrash.ts
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 134,
-                    "end": 140,
                     "decorators": [
                       {
                         "type": "Decorator",
-                        "start": 129,
-                        "end": 133,
                         "expression": {
                           "type": "Identifier",
-                          "start": 130,
-                          "end": 133,
                           "decorators": [],
                           "name": "dec",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            130,
+                            133
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 6
+                            },
+                            "start": {
+                              "column": 17,
+                              "line": 6
+                            }
+                          }
+                        },
+                        "range": [
+                          129,
+                          133
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 16,
+                            "line": 6
+                          }
                         }
                       }
                     ],
@@ -157,38 +339,157 @@ parameterDecoratorsEmitCrash.ts
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 135,
-                      "end": 140,
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 22,
+                          "line": 6
+                        }
+                      },
+                      "range": [
+                        135,
+                        140
+                      ],
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
-                        "start": 137,
-                        "end": 140
+                        "range": [
+                          137,
+                          140
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 24,
+                            "line": 6
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      134,
+                      140
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 27,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 6
                       }
                     }
                   }
-                ]
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                117,
+                144
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
               }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 7
+            },
+            "start": {
+              "column": 15,
+              "line": 4
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 92,
-          "end": 93,
           "decorators": [],
           "name": "C",
-          "optional": false
+          "optional": false,
+          "range": [
+            92,
+            93
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 4
+            },
+            "start": {
+              "column": 13,
+              "line": 4
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          86,
+          146
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 4
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

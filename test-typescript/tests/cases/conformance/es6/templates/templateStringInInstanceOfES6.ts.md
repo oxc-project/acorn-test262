@@ -1,84 +1,205 @@
-templateStringInInstanceOfES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 58,
+  "range": [
+    17,
+    58
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 17,
-      "end": 58,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 21,
-          "end": 57,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 21,
-            "end": 22,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              21,
+              22
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 25,
-            "end": 57,
             "operator": "instanceof",
             "left": {
               "type": "TemplateLiteral",
-              "start": 25,
-              "end": 39,
               "expressions": [
                 {
                   "type": "Literal",
-                  "start": 32,
-                  "end": 33,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    32,
+                    33
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 2
+                    }
+                  }
                 }
               ],
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 25,
-                  "end": 31,
                   "tail": false,
                   "value": {
                     "cooked": "abc",
                     "raw": "abc"
+                  },
+                  "range": [
+                    25,
+                    31
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
                   }
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 34,
-                  "end": 39,
                   "tail": true,
                   "value": {
                     "cooked": "def",
                     "raw": "def"
+                  },
+                  "range": [
+                    34,
+                    39
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 2
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                25,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 2
+                },
+                "start": {
+                  "column": 8,
+                  "line": 2
+                }
+              }
             },
             "right": {
               "type": "Identifier",
-              "start": 51,
-              "end": 57,
               "decorators": [],
               "name": "String",
-              "optional": false
+              "optional": false,
+              "range": [
+                51,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 40,
+                  "line": 2
+                },
+                "start": {
+                  "column": 34,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              25,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 40,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            21,
+            57
+          ],
+          "loc": {
+            "end": {
+              "column": 40,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        17,
+        58
+      ],
+      "loc": {
+        "end": {
+          "column": 41,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 41,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

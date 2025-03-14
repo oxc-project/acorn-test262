@@ -1,55 +1,152 @@
-duplicateLabel1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
+  "range": [
+    0,
+    32
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 32,
       "body": {
         "type": "LabeledStatement",
-        "start": 8,
-        "end": 32,
         "body": {
           "type": "WhileStatement",
-          "start": 16,
-          "end": 32,
           "body": {
             "type": "BlockStatement",
-            "start": 29,
-            "end": 32,
-            "body": []
+            "body": [],
+            "range": [
+              29,
+              32
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 4
+              },
+              "start": {
+                "column": 13,
+                "line": 3
+              }
+            }
           },
           "test": {
             "type": "Literal",
-            "start": 23,
-            "end": 27,
             "raw": "true",
-            "value": true
+            "value": true,
+            "range": [
+              23,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 3
+              },
+              "start": {
+                "column": 7,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            16,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
           }
         },
         "label": {
           "type": "Identifier",
-          "start": 8,
-          "end": 14,
           "decorators": [],
           "name": "target",
-          "optional": false
+          "optional": false,
+          "range": [
+            8,
+            14
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          8,
+          32
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
         }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        32
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

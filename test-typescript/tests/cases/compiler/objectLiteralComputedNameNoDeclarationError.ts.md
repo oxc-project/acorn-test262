@@ -1,45 +1,63 @@
-objectLiteralComputedNameNoDeclarationError.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 94,
+  "range": [
+    0,
+    94
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 49,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 49,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "Foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 12,
-            "end": 49,
             "properties": [
               {
                 "type": "Property",
-                "start": 18,
-                "end": 46,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 18,
-                  "end": 24,
                   "decorators": [],
                   "name": "BANANA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    18,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,90 +65,236 @@ objectLiteralComputedNameNoDeclarationError.ts
                 "shorthand": false,
                 "value": {
                   "type": "TSAsExpression",
-                  "start": 26,
-                  "end": 46,
                   "expression": {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 34,
                     "raw": "'banana'",
-                    "value": "banana"
+                    "value": "banana",
+                    "range": [
+                      26,
+                      34
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 2
+                      }
+                    }
                   },
                   "typeAnnotation": {
                     "type": "TSLiteralType",
-                    "start": 38,
-                    "end": 46,
                     "literal": {
                       "type": "Literal",
-                      "start": 38,
-                      "end": 46,
                       "raw": "'banana'",
-                      "value": "banana"
+                      "value": "banana",
+                      "range": [
+                        38,
+                        46
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      38,
+                      46
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 24,
+                        "line": 2
+                      }
                     }
+                  },
+                  "range": [
+                    26,
+                    46
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  18,
+                  46
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
                   }
                 }
               }
-            ]
+            ],
+            "range": [
+              12,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 3
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            49
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        49
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 94,
+      "range": [
+        51,
+        94
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 58,
-        "end": 94,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 64,
-            "end": 93,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 64,
-              "end": 67,
               "decorators": [],
               "name": "Baa",
-              "optional": false
+              "optional": false,
+              "range": [
+                64,
+                67
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 13,
+                  "line": 5
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 70,
-              "end": 93,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 76,
-                  "end": 91,
                   "computed": true,
                   "key": {
                     "type": "MemberExpression",
-                    "start": 77,
-                    "end": 87,
                     "computed": false,
                     "object": {
                       "type": "Identifier",
-                      "start": 77,
-                      "end": 80,
                       "decorators": [],
                       "name": "Foo",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        77,
+                        80
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 8,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 5,
+                          "line": 6
+                        }
+                      }
                     },
                     "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 81,
-                      "end": 87,
                       "decorators": [],
                       "name": "BANANA",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        81,
+                        87
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 15,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 9,
+                          "line": 6
+                        }
+                      }
+                    },
+                    "range": [
+                      77,
+                      87
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 6
+                      }
                     }
                   },
                   "kind": "init",
@@ -139,24 +303,113 @@ objectLiteralComputedNameNoDeclarationError.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 90,
-                    "end": 91,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "range": [
+                      90,
+                      91
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 19,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 18,
+                        "line": 6
+                      }
+                    }
+                  },
+                  "range": [
+                    76,
+                    91
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 6
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                70,
+                93
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 7
+                },
+                "start": {
+                  "column": 19,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              64,
+              93
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 7
+              },
+              "start": {
+                "column": 13,
+                "line": 5
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          58,
+          94
+        ],
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 5
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 2,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

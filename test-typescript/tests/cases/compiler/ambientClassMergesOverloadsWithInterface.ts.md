@@ -1,33 +1,45 @@
-ambientClassMergesOverloadsWithInterface.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 119,
+  "range": [
+    1,
+    119
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 1,
-      "end": 61,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 61,
+        "range": [
+          17,
+          61
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 23,
-            "end": 34,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 26,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "range": [
+                23,
+                26
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,8 +47,10 @@ ambientClassMergesOverloadsWithInterface.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 26,
-              "end": 34,
+              "range": [
+                26,
+                34
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -46,29 +60,87 @@ ambientClassMergesOverloadsWithInterface.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 28,
-                "end": 33,
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                },
+                "range": [
+                  28,
+                  33
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 30,
-                  "end": 33
+                  "range": [
+                    30,
+                    33
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              23,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 39,
-            "end": 59,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 39,
-              "end": 42,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                39,
+                42
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -76,8 +148,10 @@ ambientClassMergesOverloadsWithInterface.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 42,
-              "end": 59,
+              "range": [
+                42,
+                59
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -87,90 +161,256 @@ ambientClassMergesOverloadsWithInterface.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 52,
                   "decorators": [],
                   "name": "n",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 44,
-                    "end": 52,
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      44,
+                      52
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 46,
-                      "end": 52
+                      "range": [
+                        46,
+                        52
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 11,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    43,
+                    52
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 3
                     }
                   }
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 53,
-                "end": 58,
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  53,
+                  58
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 55,
-                  "end": 58
+                  "range": [
+                    55,
+                    58
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 3
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              39,
+              59
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          15,
+          16
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        1,
+        61
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 62,
-      "end": 118,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 74,
-        "end": 118,
+        "range": [
+          74,
+          118
+        ],
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 80,
-            "end": 100,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 80,
-              "end": 83,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                80,
+                83
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "kind": "method",
             "optional": false,
             "params": [
               {
                 "type": "Identifier",
-                "start": 84,
-                "end": 93,
                 "decorators": [],
                 "name": "n",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 85,
-                  "end": 93,
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 6
+                    }
+                  },
+                  "range": [
+                    85,
+                    93
+                  ],
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 87,
-                    "end": 93
+                    "range": [
+                      87,
+                      93
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 6
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  84,
+                  93
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 6
                   }
                 }
               }
@@ -178,28 +418,76 @@ ambientClassMergesOverloadsWithInterface.ts
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 94,
-              "end": 99,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 6
+                },
+                "start": {
+                  "column": 18,
+                  "line": 6
+                }
+              },
+              "range": [
+                94,
+                99
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 96,
-                "end": 99
+                "range": [
+                  96,
+                  99
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 6
+                  }
+                }
               }
             },
-            "static": false
+            "static": false,
+            "range": [
+              80,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           },
           {
             "type": "TSMethodSignature",
-            "start": 105,
-            "end": 116,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 105,
-              "end": 108,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                105,
+                108
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 7
+                },
+                "start": {
+                  "column": 4,
+                  "line": 7
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -207,30 +495,115 @@ ambientClassMergesOverloadsWithInterface.ts
             "readonly": false,
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 110,
-              "end": 115,
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 7
+                },
+                "start": {
+                  "column": 9,
+                  "line": 7
+                }
+              },
+              "range": [
+                110,
+                115
+              ],
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
-                "start": 112,
-                "end": 115
+                "range": [
+                  112,
+                  115
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 7
+                  }
+                }
               }
             },
-            "static": false
+            "static": false,
+            "range": [
+              105,
+              116
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 12,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 72,
-        "end": 73,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          72,
+          73
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        62,
+        118
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

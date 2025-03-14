@@ -1,35 +1,47 @@
-emitSuperCallBeforeEmitPropertyDeclarationAndParameterPropertyDeclaration1ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 195,
+  "range": [
+    17,
+    195
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 17,
-      "end": 42,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 25,
-        "end": 42,
+        "range": [
+          25,
+          42
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 31,
-            "end": 40,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 35,
               "decorators": [],
               "name": "blub",
-              "optional": false
+              "optional": false,
+              "range": [
+                31,
+                35
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -37,52 +49,124 @@ emitSuperCallBeforeEmitPropertyDeclarationAndParameterPropertyDeclaration1ES6.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 38,
-              "end": 39,
               "raw": "6",
-              "value": 6
+              "value": 6,
+              "range": [
+                38,
+                39
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              31,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 23,
-        "end": 24,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          23,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        17,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 45,
-      "end": 195,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 63,
-        "end": 195,
+        "range": [
+          63,
+          195
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 69,
-            "end": 78,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 69,
-              "end": 73,
               "decorators": [],
               "name": "blah",
-              "optional": false
+              "optional": false,
+              "range": [
+                69,
+                73
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 8
+                },
+                "start": {
+                  "column": 4,
+                  "line": 8
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -90,25 +174,61 @@ emitSuperCallBeforeEmitPropertyDeclarationAndParameterPropertyDeclaration1ES6.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 76,
-              "end": 77,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "range": [
+                76,
+                77
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 8
+                },
+                "start": {
+                  "column": 11,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              69,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 83,
-            "end": 193,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 83,
-              "end": 94,
+              "range": [
+                83,
+                94
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 9
+                },
+                "start": {
+                  "column": 4,
+                  "line": 9
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -116,58 +236,156 @@ emitSuperCallBeforeEmitPropertyDeclarationAndParameterPropertyDeclaration1ES6.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 94,
-              "end": 193,
+              "range": [
+                94,
+                193
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 113,
-                "end": 193,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 123,
-                    "end": 136,
                     "directive": "use strict",
                     "expression": {
                       "type": "Literal",
-                      "start": 123,
-                      "end": 135,
                       "raw": "\"use strict\"",
-                      "value": "use strict"
+                      "value": "use strict",
+                      "range": [
+                        123,
+                        135
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 20,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 10
+                        }
+                      }
+                    },
+                    "range": [
+                      123,
+                      136
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 10
+                      }
                     }
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 145,
-                    "end": 171,
                     "directive": "someStringForEgngInject",
                     "expression": {
                       "type": "Literal",
-                      "start": 145,
-                      "end": 170,
                       "raw": "'someStringForEgngInject'",
-                      "value": "someStringForEgngInject"
+                      "value": "someStringForEgngInject",
+                      "range": [
+                        145,
+                        170
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 33,
+                          "line": 11
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 11
+                        }
+                      }
+                    },
+                    "range": [
+                      145,
+                      171
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 34,
+                        "line": 11
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 11
+                      }
                     }
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 180,
-                    "end": 187,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 180,
-                      "end": 187,
                       "arguments": [],
                       "callee": {
                         "type": "Super",
-                        "start": 180,
-                        "end": 185
+                        "range": [
+                          180,
+                          185
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 13,
+                            "line": 12
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 12
+                          }
+                        }
                       },
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        180,
+                        187
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 15,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 12
+                        }
+                      }
+                    },
+                    "range": [
+                      180,
+                      187
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 12
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  113,
+                  193
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 34,
+                    "line": 9
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -176,58 +394,189 @@ emitSuperCallBeforeEmitPropertyDeclarationAndParameterPropertyDeclaration1ES6.ts
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 95,
-                  "end": 111,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "Identifier",
-                    "start": 102,
-                    "end": 111,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 103,
-                      "end": 111,
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 9
+                        }
+                      },
+                      "range": [
+                        103,
+                        111
+                      ],
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 105,
-                        "end": 111
+                        "range": [
+                          105,
+                          111
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 32,
+                            "line": 9
+                          },
+                          "start": {
+                            "column": 26,
+                            "line": 9
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      102,
+                      111
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 9
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 9
                       }
                     }
                   },
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "range": [
+                    95,
+                    111
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 9
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 13
+                },
+                "start": {
+                  "column": 15,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              83,
+              193
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 18,
+            "line": 7
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 52,
         "decorators": [],
         "name": "B",
-        "optional": false
+        "optional": false,
+        "range": [
+          51,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 7
+          },
+          "start": {
+            "column": 6,
+            "line": 7
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 61,
-        "end": 62,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          61,
+          62
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 7
+          },
+          "start": {
+            "column": 16,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        45,
+        195
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

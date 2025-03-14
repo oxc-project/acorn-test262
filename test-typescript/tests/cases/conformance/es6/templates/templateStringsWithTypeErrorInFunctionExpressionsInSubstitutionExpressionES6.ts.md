@@ -1,56 +1,112 @@
-templateStringsWithTypeErrorInFunctionExpressionsInSubstitutionExpressionES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 59,
+  "range": [
+    17,
+    59
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 59,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 17,
-        "end": 58,
         "expressions": [
           {
             "type": "FunctionExpression",
-            "start": 20,
-            "end": 55,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 41,
-              "end": 55,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 43,
-                  "end": 53,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 43,
-                    "end": 52,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 43,
-                      "end": 44,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        43,
+                        44
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 26,
+                          "line": 3
+                        }
+                      }
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 47,
-                      "end": 52,
                       "raw": "\"bad\"",
-                      "value": "bad"
+                      "value": "bad",
+                      "range": [
+                        47,
+                        52
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 35,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 30,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      43,
+                      52
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 35,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 26,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    43,
+                    53
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                41,
+                55
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 3
+                },
+                "start": {
+                  "column": 24,
+                  "line": 3
+                }
+              }
             },
             "declare": false,
             "expression": false,
@@ -59,50 +115,163 @@ templateStringsWithTypeErrorInFunctionExpressionsInSubstitutionExpressionES6.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 30,
-                "end": 39,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 31,
-                  "end": 39,
+                  "loc": {
+                    "end": {
+                      "column": 22,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 3
+                    }
+                  },
+                  "range": [
+                    31,
+                    39
+                  ],
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
-                    "start": 33,
-                    "end": 39
+                    "range": [
+                      33,
+                      39
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 3
+                      }
+                    }
+                  }
+                },
+                "range": [
+                  30,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 3
                   }
                 }
               }
-            ]
+            ],
+            "range": [
+              20,
+              55
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 3
+              },
+              "start": {
+                "column": 3,
+                "line": 3
+              }
+            }
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 17,
-            "end": 20,
             "tail": false,
             "value": {
               "cooked": "",
               "raw": ""
+            },
+            "range": [
+              17,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 56,
-            "end": 58,
             "tail": true,
             "value": {
               "cooked": "",
               "raw": ""
+            },
+            "range": [
+              56,
+              58
+            ],
+            "loc": {
+              "end": {
+                "column": 41,
+                "line": 3
+              },
+              "start": {
+                "column": 39,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          17,
+          58
+        ],
+        "loc": {
+          "end": {
+            "column": 41,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        17,
+        59
+      ],
+      "loc": {
+        "end": {
+          "column": 42,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 42,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

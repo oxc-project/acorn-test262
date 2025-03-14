@@ -1,65 +1,125 @@
-controlFlowPropertyInitializer.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 89,
+  "range": [
+    21,
+    89
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 21,
-      "end": 48,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 48,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 31,
             "decorators": [],
             "name": "LANG",
-            "optional": false
+            "optional": false,
+            "range": [
+              27,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 3
+              },
+              "start": {
+                "column": 6,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 34,
-            "end": 48,
             "raw": "\"Turbo Pascal\"",
-            "value": "Turbo Pascal"
+            "value": "Turbo Pascal",
+            "range": [
+              34,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 3
+              },
+              "start": {
+                "column": 13,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            27,
+            48
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 3
+            },
+            "start": {
+              "column": 6,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        21,
+        48
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 50,
-      "end": 89,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 69,
-        "end": 89,
+        "range": [
+          69,
+          89
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 75,
-            "end": 87,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 75,
-              "end": 79,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "range": [
+                75,
+                79
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -67,29 +127,102 @@ controlFlowPropertyInitializer.ts
             "static": false,
             "value": {
               "type": "Identifier",
-              "start": 82,
-              "end": 86,
               "decorators": [],
               "name": "LANG",
-              "optional": false
+              "optional": false,
+              "range": [
+                82,
+                86
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 6
+                },
+                "start": {
+                  "column": 11,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              75,
+              87
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 19,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 68,
         "decorators": [],
         "name": "BestLanguage",
-        "optional": false
+        "optional": false,
+        "range": [
+          56,
+          68
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 5
+          },
+          "start": {
+            "column": 6,
+            "line": 5
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        50,
+        89
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

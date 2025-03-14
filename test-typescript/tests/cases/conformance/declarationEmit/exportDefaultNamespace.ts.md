@@ -1,95 +1,252 @@
-exportDefaultNamespace.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
+  "range": [
+    0,
+    87
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 59,
+      "range": [
+        0,
+        59
+      ],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 59,
         "async": false,
         "body": {
           "type": "BlockStatement",
-          "start": 35,
-          "end": 59,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 41,
-              "end": 57,
               "argument": {
                 "type": "Literal",
-                "start": 48,
-                "end": 56,
                 "raw": "'hello!'",
-                "value": "hello!"
+                "value": "hello!",
+                "range": [
+                  48,
+                  56
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                41,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            35,
+            59
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 35,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 32,
           "decorators": [],
           "name": "someFunc",
-          "optional": false
+          "optional": false,
+          "range": [
+            24,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 1
+            },
+            "start": {
+              "column": 24,
+              "line": 1
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          15,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 61,
-      "end": 86,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 61,
-        "end": 85,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 61,
-          "end": 78,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 61,
-            "end": 69,
             "decorators": [],
             "name": "someFunc",
-            "optional": false
+            "optional": false,
+            "range": [
+              61,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 5
+              },
+              "start": {
+                "column": 0,
+                "line": 5
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 70,
-            "end": 78,
             "decorators": [],
             "name": "someProp",
-            "optional": false
+            "optional": false,
+            "range": [
+              70,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 5
+              },
+              "start": {
+                "column": 9,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            61,
+            78
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 5
+            }
           }
         },
         "right": {
           "type": "Literal",
-          "start": 81,
-          "end": 85,
           "raw": "'yo'",
-          "value": "yo"
+          "value": "yo",
+          "range": [
+            81,
+            85
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 5
+            },
+            "start": {
+              "column": 20,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          61,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        61,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

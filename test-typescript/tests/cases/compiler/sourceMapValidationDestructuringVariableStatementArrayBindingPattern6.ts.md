@@ -1,78 +1,199 @@
-sourceMapValidationDestructuringVariableStatementArrayBindingPattern6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 44,
+  "range": [
+    22,
+    44
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 44,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 43,
           "definite": false,
           "id": {
             "type": "ArrayPattern",
-            "start": 26,
-            "end": 34,
             "decorators": [],
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 27,
-                "end": 33,
                 "decorators": [],
                 "left": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    27,
+                    28
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 6,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 3
+                    }
+                  }
                 },
                 "optional": false,
                 "right": {
                   "type": "Literal",
-                  "start": 31,
-                  "end": 33,
                   "raw": "20",
-                  "value": 20
+                  "value": 20,
+                  "range": [
+                    31,
+                    33
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 9,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  27,
+                  33
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 3
+                  }
                 }
               }
             ],
-            "optional": false
+            "optional": false,
+            "range": [
+              26,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 37,
-            "end": 43,
             "elements": [
               {
                 "type": "Literal",
-                "start": 38,
-                "end": 39,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  38,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 3
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 41,
-                "end": 42,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "range": [
+                  41,
+                  42
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 3
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              37,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 3
+              },
+              "start": {
+                "column": 15,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            26,
+            43
+          ],
+          "loc": {
+            "end": {
+              "column": 21,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        22,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 22,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 22,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

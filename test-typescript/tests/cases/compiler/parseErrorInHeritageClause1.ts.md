@@ -1,4 +1,4 @@
-parseErrorInHeritageClause1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Invalid character.
 ```

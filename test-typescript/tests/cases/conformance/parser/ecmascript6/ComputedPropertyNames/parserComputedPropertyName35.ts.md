@@ -1,58 +1,100 @@
-parserComputedPropertyName35.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
+  "range": [
+    0,
+    27
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 27,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 27,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 27,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 25,
                 "computed": true,
                 "key": {
                   "type": "SequenceExpression",
-                  "start": 15,
-                  "end": 19,
                   "expressions": [
                     {
                       "type": "Literal",
-                      "start": 15,
-                      "end": 16,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "range": [
+                        15,
+                        16
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 6,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 5,
+                          "line": 2
+                        }
+                      }
                     },
                     {
                       "type": "Literal",
-                      "start": 18,
-                      "end": 19,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        18,
+                        19
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 2
+                        }
+                      }
                     }
-                  ]
+                  ],
+                  "range": [
+                    15,
+                    19
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -60,19 +102,98 @@ parserComputedPropertyName35.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 22,
-                  "end": 25,
-                  "properties": []
+                  "properties": [],
+                  "range": [
+                    22,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  14,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            27
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        27
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

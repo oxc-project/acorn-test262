@@ -1,53 +1,138 @@
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 64,
+  "range": [
+    19,
+    64
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 58,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 41,
-        "end": 57,
         "raw": "\"@scope/package\"",
-        "value": "@scope/package"
+        "value": "@scope/package",
+        "range": [
+          41,
+          57
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 2
+          },
+          "start": {
+            "column": 22,
+            "line": 2
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 26,
-          "end": 35,
           "local": {
             "type": "Identifier",
-            "start": 31,
-            "end": 35,
             "decorators": [],
             "name": "self",
-            "optional": false
+            "optional": false,
+            "range": [
+              31,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 12,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            26,
+            35
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        19,
+        58
+      ],
+      "loc": {
+        "end": {
+          "column": 39,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 59,
-      "end": 64,
       "expression": {
         "type": "Identifier",
-        "start": 59,
-        "end": 63,
         "decorators": [],
         "name": "self",
-        "optional": false
+        "optional": false,
+        "range": [
+          59,
+          63
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        59,
+        64
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 5,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

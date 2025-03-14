@@ -1,78 +1,158 @@
-classWithStaticFieldInParameterBindingPattern.3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 229,
+  "range": [
+    56,
+    229
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 56,
-      "end": 66,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 64,
-        "end": 66,
-        "body": []
+        "range": [
+          64,
+          66
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 63,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          62,
+          63
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        56,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 67,
-      "end": 136,
       "expression": {
         "type": "CallExpression",
-        "start": 67,
-        "end": 135,
         "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
-          "start": 68,
-          "end": 132,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 122,
-            "end": 132,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 124,
-                "end": 130,
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 128,
-                    "end": 129,
                     "definite": false,
                     "id": {
                       "type": "Identifier",
-                      "start": 128,
-                      "end": 129,
                       "decorators": [],
                       "name": "C",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        128,
+                        129
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 62,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 61,
+                          "line": 3
+                        }
+                      }
                     },
-                    "init": null
+                    "init": null,
+                    "range": [
+                      128,
+                      129
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 62,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 61,
+                        "line": 3
+                      }
+                    }
                   }
                 ],
                 "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "range": [
+                  124,
+                  130
+                ],
+                "loc": {
+                  "end": {
+                    "column": 63,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 57,
+                    "line": 3
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              122,
+              132
+            ],
+            "loc": {
+              "end": {
+                "column": 65,
+                "line": 3
+              },
+              "start": {
+                "column": 55,
+                "line": 3
+              }
+            }
           },
           "expression": false,
           "generator": false,
@@ -80,46 +160,50 @@ classWithStaticFieldInParameterBindingPattern.3.ts
           "params": [
             {
               "type": "ObjectPattern",
-              "start": 69,
-              "end": 117,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 71,
-                  "end": 115,
                   "computed": true,
                   "key": {
                     "type": "MemberExpression",
-                    "start": 72,
-                    "end": 106,
                     "computed": false,
                     "object": {
                       "type": "ClassExpression",
-                      "start": 72,
-                      "end": 104,
                       "abstract": false,
                       "body": {
                         "type": "ClassBody",
-                        "start": 88,
-                        "end": 104,
+                        "range": [
+                          88,
+                          104
+                        ],
                         "body": [
                           {
                             "type": "PropertyDefinition",
-                            "start": 90,
-                            "end": 102,
                             "computed": false,
                             "declare": false,
                             "decorators": [],
                             "definite": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 97,
-                              "end": 98,
                               "decorators": [],
                               "name": "x",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                97,
+                                98
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 31,
+                                  "line": 3
+                                },
+                                "start": {
+                                  "column": 30,
+                                  "line": 3
+                                }
+                              }
                             },
                             "optional": false,
                             "override": false,
@@ -127,13 +211,49 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                             "static": true,
                             "value": {
                               "type": "Literal",
-                              "start": 101,
-                              "end": 102,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "range": [
+                                101,
+                                102
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 35,
+                                  "line": 3
+                                },
+                                "start": {
+                                  "column": 34,
+                                  "line": 3
+                                }
+                              }
+                            },
+                            "range": [
+                              90,
+                              102
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 35,
+                                "line": 3
+                              },
+                              "start": {
+                                "column": 23,
+                                "line": 3
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 37,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 3
+                          }
+                        }
                       },
                       "declare": false,
                       "decorators": [],
@@ -141,21 +261,73 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                       "implements": [],
                       "superClass": {
                         "type": "Identifier",
-                        "start": 86,
-                        "end": 87,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          86,
+                          87
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        72,
+                        104
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 37,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 5,
+                          "line": 3
+                        }
                       }
                     },
                     "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 105,
-                      "end": 106,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        105,
+                        106
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 39,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 38,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      72,
+                      106
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 39,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 3
+                      }
                     }
                   },
                   "kind": "init",
@@ -164,108 +336,304 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                   "shorthand": false,
                   "value": {
                     "type": "AssignmentPattern",
-                    "start": 109,
-                    "end": 115,
+                    "range": [
+                      109,
+                      115
+                    ],
                     "decorators": [],
                     "left": {
                       "type": "Identifier",
-                      "start": 109,
-                      "end": 110,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        109,
+                        110
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 43,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 42,
+                          "line": 3
+                        }
+                      }
                     },
                     "optional": false,
                     "right": {
                       "type": "Literal",
-                      "start": 113,
-                      "end": 115,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        113,
+                        115
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 48,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 46,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "loc": {
+                      "end": {
+                        "column": 48,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 42,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    71,
+                    115
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 48,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                69,
+                117
+              ],
+              "loc": {
+                "end": {
+                  "column": 50,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            68,
+            132
+          ],
+          "loc": {
+            "end": {
+              "column": 65,
+              "line": 3
+            },
+            "start": {
+              "column": 1,
+              "line": 3
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          67,
+          135
+        ],
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        67,
+        136
+      ],
+      "loc": {
+        "end": {
+          "column": 69,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 138,
-      "end": 151,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 144,
-          "end": 150,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 144,
-            "end": 145,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              144,
+              145
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 5
+              },
+              "start": {
+                "column": 6,
+                "line": 5
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 148,
-            "end": 150,
             "raw": "\"\"",
-            "value": ""
+            "value": "",
+            "range": [
+              148,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 5
+              },
+              "start": {
+                "column": 10,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            144,
+            150
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 5
+            },
+            "start": {
+              "column": 6,
+              "line": 5
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        138,
+        151
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 152,
-      "end": 228,
       "expression": {
         "type": "CallExpression",
-        "start": 152,
-        "end": 227,
         "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
-          "start": 153,
-          "end": 224,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 214,
-            "end": 224,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 216,
-                "end": 222,
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 220,
-                    "end": 221,
                     "definite": false,
                     "id": {
                       "type": "Identifier",
-                      "start": 220,
-                      "end": 221,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        220,
+                        221
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 69,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 68,
+                          "line": 6
+                        }
+                      }
                     },
-                    "init": null
+                    "init": null,
+                    "range": [
+                      220,
+                      221
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 69,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 68,
+                        "line": 6
+                      }
+                    }
                   }
                 ],
                 "declare": false,
-                "kind": "var"
+                "kind": "var",
+                "range": [
+                  216,
+                  222
+                ],
+                "loc": {
+                  "end": {
+                    "column": 70,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 64,
+                    "line": 6
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              214,
+              224
+            ],
+            "loc": {
+              "end": {
+                "column": 72,
+                "line": 6
+              },
+              "start": {
+                "column": 62,
+                "line": 6
+              }
+            }
           },
           "expression": false,
           "generator": false,
@@ -273,46 +641,50 @@ classWithStaticFieldInParameterBindingPattern.3.ts
           "params": [
             {
               "type": "ObjectPattern",
-              "start": 154,
-              "end": 202,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 156,
-                  "end": 200,
                   "computed": true,
                   "key": {
                     "type": "MemberExpression",
-                    "start": 157,
-                    "end": 191,
                     "computed": false,
                     "object": {
                       "type": "ClassExpression",
-                      "start": 157,
-                      "end": 189,
                       "abstract": false,
                       "body": {
                         "type": "ClassBody",
-                        "start": 173,
-                        "end": 189,
+                        "range": [
+                          173,
+                          189
+                        ],
                         "body": [
                           {
                             "type": "PropertyDefinition",
-                            "start": 175,
-                            "end": 187,
                             "computed": false,
                             "declare": false,
                             "decorators": [],
                             "definite": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 182,
-                              "end": 183,
                               "decorators": [],
                               "name": "x",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                182,
+                                183
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 31,
+                                  "line": 6
+                                },
+                                "start": {
+                                  "column": 30,
+                                  "line": 6
+                                }
+                              }
                             },
                             "optional": false,
                             "override": false,
@@ -320,13 +692,49 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                             "static": true,
                             "value": {
                               "type": "Literal",
-                              "start": 186,
-                              "end": 187,
                               "raw": "1",
-                              "value": 1
+                              "value": 1,
+                              "range": [
+                                186,
+                                187
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 35,
+                                  "line": 6
+                                },
+                                "start": {
+                                  "column": 34,
+                                  "line": 6
+                                }
+                              }
+                            },
+                            "range": [
+                              175,
+                              187
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 35,
+                                "line": 6
+                              },
+                              "start": {
+                                "column": 23,
+                                "line": 6
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 37,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 6
+                          }
+                        }
                       },
                       "declare": false,
                       "decorators": [],
@@ -334,21 +742,73 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                       "implements": [],
                       "superClass": {
                         "type": "Identifier",
-                        "start": 171,
-                        "end": 172,
                         "decorators": [],
                         "name": "C",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          171,
+                          172
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 6
+                          }
+                        }
+                      },
+                      "range": [
+                        157,
+                        189
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 37,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 5,
+                          "line": 6
+                        }
                       }
                     },
                     "optional": false,
                     "property": {
                       "type": "Identifier",
-                      "start": 190,
-                      "end": 191,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        190,
+                        191
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 39,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 38,
+                          "line": 6
+                        }
+                      }
+                    },
+                    "range": [
+                      157,
+                      191
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 39,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 5,
+                        "line": 6
+                      }
                     }
                   },
                   "kind": "init",
@@ -357,58 +817,211 @@ classWithStaticFieldInParameterBindingPattern.3.ts
                   "shorthand": false,
                   "value": {
                     "type": "AssignmentPattern",
-                    "start": 194,
-                    "end": 200,
+                    "range": [
+                      194,
+                      200
+                    ],
                     "decorators": [],
                     "left": {
                       "type": "Identifier",
-                      "start": 194,
-                      "end": 195,
                       "decorators": [],
                       "name": "b",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        194,
+                        195
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 43,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 42,
+                          "line": 6
+                        }
+                      }
                     },
                     "optional": false,
                     "right": {
                       "type": "Literal",
-                      "start": 198,
-                      "end": 200,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        198,
+                        200
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 48,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 46,
+                          "line": 6
+                        }
+                      }
+                    },
+                    "loc": {
+                      "end": {
+                        "column": 48,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 42,
+                        "line": 6
+                      }
+                    }
+                  },
+                  "range": [
+                    156,
+                    200
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 48,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 6
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                154,
+                202
+              ],
+              "loc": {
+                "end": {
+                  "column": 50,
+                  "line": 6
+                },
+                "start": {
+                  "column": 2,
+                  "line": 6
+                }
+              }
             },
             {
               "type": "AssignmentPattern",
-              "start": 204,
-              "end": 209,
               "decorators": [],
               "left": {
                 "type": "Identifier",
-                "start": 204,
-                "end": 205,
                 "decorators": [],
                 "name": "d",
-                "optional": false
+                "optional": false,
+                "range": [
+                  204,
+                  205
+                ],
+                "loc": {
+                  "end": {
+                    "column": 53,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 52,
+                    "line": 6
+                  }
+                }
               },
               "optional": false,
               "right": {
                 "type": "Identifier",
-                "start": 208,
-                "end": 209,
                 "decorators": [],
                 "name": "x",
-                "optional": false
+                "optional": false,
+                "range": [
+                  208,
+                  209
+                ],
+                "loc": {
+                  "end": {
+                    "column": 57,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 56,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                204,
+                209
+              ],
+              "loc": {
+                "end": {
+                  "column": 57,
+                  "line": 6
+                },
+                "start": {
+                  "column": 52,
+                  "line": 6
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            153,
+            224
+          ],
+          "loc": {
+            "end": {
+              "column": 72,
+              "line": 6
+            },
+            "start": {
+              "column": 1,
+              "line": 6
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          152,
+          227
+        ],
+        "loc": {
+          "end": {
+            "column": 75,
+            "line": 6
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
+        }
+      },
+      "range": [
+        152,
+        228
+      ],
+      "loc": {
+        "end": {
+          "column": 76,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,33 +1,45 @@
-commentOnClassMethod1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 94,
+  "range": [
+    0,
+    94
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 94,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 18,
-        "end": 94,
+        "range": [
+          18,
+          94
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 64,
-            "end": 92,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 64,
-              "end": 77,
               "decorators": [],
               "name": "createControl",
-              "optional": false
+              "optional": false,
+              "range": [
+                64,
+                77
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,14 +47,28 @@ commentOnClassMethod1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 77,
-              "end": 92,
+              "range": [
+                77,
+                92
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 85,
-                "end": 92,
-                "body": []
+                "body": [],
+                "range": [
+                  85,
+                  92
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,32 +77,127 @@ commentOnClassMethod1.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 79,
-                "end": 84,
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 5
+                  }
+                },
+                "range": [
+                  79,
+                  84
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 81,
-                  "end": 84
+                  "range": [
+                    81,
+                    84
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 5
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 17,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              64,
+              92
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 5
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 17,
         "decorators": [],
         "name": "WebControls",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        94
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

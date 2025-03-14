@@ -1,45 +1,63 @@
-parserAccessors7.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
+  "range": [
+    0,
+    35
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 35,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 34,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 34,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 32,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 14,
-                  "end": 17,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    14,
+                    17
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -47,14 +65,28 @@ parserAccessors7.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 17,
-                  "end": 32,
+                  "range": [
+                    17,
+                    32
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 29,
-                    "end": 32,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      29,
+                      32
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 29,
+                        "line": 1
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -63,33 +95,146 @@ parserAccessors7.ts
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 18,
-                      "end": 27,
                       "decorators": [],
                       "name": "v",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 19,
-                        "end": 27,
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 1
+                          }
+                        },
+                        "range": [
+                          19,
+                          27
+                        ],
                         "typeAnnotation": {
                           "type": "TSNumberKeyword",
-                          "start": 21,
-                          "end": 27
+                          "range": [
+                            21,
+                            27
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 27,
+                              "line": 1
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 1
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        18,
+                        27
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 1
                         }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  10,
+                  32
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 34,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            34
+          ],
+          "loc": {
+            "end": {
+              "column": 34,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        35
+      ],
+      "loc": {
+        "end": {
+          "column": 35,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 35,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

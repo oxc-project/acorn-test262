@@ -1,87 +1,220 @@
-reservedNameOnModuleImport.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 150,
+  "range": [
+    0,
+    150
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 149,
       "body": {
         "type": "TSModuleBlock",
-        "start": 20,
-        "end": 149,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 26,
-            "end": 44,
             "body": {
               "type": "TSModuleBlock",
-              "start": 41,
-              "end": 44,
-              "body": []
+              "body": [],
+              "range": [
+                41,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
             },
             "declare": false,
             "global": false,
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 40,
+              "range": [
+                33,
+                40
+              ],
               "decorators": [],
               "name": "mstring",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
-            "kind": "module"
+            "kind": "module",
+            "range": [
+              26,
+              44
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 116,
-            "end": 147,
+            "range": [
+              116,
+              147
+            ],
             "attributes": [],
             "declaration": {
               "type": "TSImportEqualsDeclaration",
-              "start": 123,
-              "end": 147,
               "id": {
                 "type": "Identifier",
-                "start": 130,
-                "end": 136,
                 "decorators": [],
                 "name": "string",
-                "optional": false
+                "optional": false,
+                "range": [
+                  130,
+                  136
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 5
+                  }
+                }
               },
               "importKind": "value",
               "moduleReference": {
                 "type": "Identifier",
-                "start": 139,
-                "end": 146,
                 "decorators": [],
                 "name": "mstring",
-                "optional": false
+                "optional": false,
+                "range": [
+                  139,
+                  146
+                ],
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                123,
+                147
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 5
+                },
+                "start": {
+                  "column": 11,
+                  "line": 5
+                }
               }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          20,
+          149
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 20,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
+        "range": [
+          15,
+          19
+        ],
         "decorators": [],
         "name": "test",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        149
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

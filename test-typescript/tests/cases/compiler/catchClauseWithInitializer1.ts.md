@@ -1,4 +1,4 @@
-catchClauseWithInitializer1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Catch clause variable cannot have an initializer.
 ```

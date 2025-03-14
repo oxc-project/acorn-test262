@@ -1,54 +1,58 @@
-subfolder/index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 96,
+  "range": [
+    19,
+    96
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 19,
-      "end": 96,
+      "range": [
+        19,
+        96
+      ],
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 26,
-        "end": 96,
         "async": true,
         "body": {
           "type": "BlockStatement",
-          "start": 48,
-          "end": 96,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 54,
-              "end": 94,
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 60,
-                  "end": 93,
                   "definite": false,
                   "id": {
                     "type": "ObjectPattern",
-                    "start": 60,
-                    "end": 72,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 62,
-                        "end": 70,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 62,
-                          "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            62,
+                            70
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 3
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -56,112 +60,281 @@ subfolder/index.ts
                         "shorthand": true,
                         "value": {
                           "type": "Identifier",
-                          "start": 62,
-                          "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            62,
+                            70
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 3
+                            }
+                          }
+                        },
+                        "range": [
+                          62,
+                          70
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 12,
+                            "line": 3
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      60,
+                      72
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 75,
-                    "end": 93,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 81,
-                      "end": 93,
                       "options": null,
                       "source": {
                         "type": "Literal",
-                        "start": 88,
-                        "end": 92,
                         "raw": "\"fs\"",
-                        "value": "fs"
+                        "value": "fs",
+                        "range": [
+                          88,
+                          92
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 42,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 38,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        81,
+                        93
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 43,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 31,
+                          "line": 3
+                        }
                       }
+                    },
+                    "range": [
+                      75,
+                      93
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 43,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 25,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    60,
+                    93
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 3
                     }
                   }
                 }
               ],
               "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "range": [
+                54,
+                94
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            48,
+            96
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 29,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 41,
-          "end": 45,
           "decorators": [],
           "name": "main",
-          "optional": false
+          "optional": false,
+          "range": [
+            41,
+            45
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 2
+            },
+            "start": {
+              "column": 22,
+              "line": 2
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          26,
+          96
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 96,
+  "range": [
+    19,
+    96
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 19,
-      "end": 96,
+      "range": [
+        19,
+        96
+      ],
       "attributes": [],
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 26,
-        "end": 96,
         "async": true,
         "body": {
           "type": "BlockStatement",
-          "start": 48,
-          "end": 96,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 54,
-              "end": 94,
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 60,
-                  "end": 93,
                   "definite": false,
                   "id": {
                     "type": "ObjectPattern",
-                    "start": 60,
-                    "end": 72,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 62,
-                        "end": 70,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 62,
-                          "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            62,
+                            70
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 3
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -169,84 +342,286 @@ index.ts
                         "shorthand": true,
                         "value": {
                           "type": "Identifier",
-                          "start": 62,
-                          "end": 70,
                           "decorators": [],
                           "name": "readFile",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            62,
+                            70
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 3
+                            }
+                          }
+                        },
+                        "range": [
+                          62,
+                          70
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 12,
+                            "line": 3
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      60,
+                      72
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 75,
-                    "end": 93,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 81,
-                      "end": 93,
                       "options": null,
                       "source": {
                         "type": "Literal",
-                        "start": 88,
-                        "end": 92,
                         "raw": "\"fs\"",
-                        "value": "fs"
+                        "value": "fs",
+                        "range": [
+                          88,
+                          92
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 42,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 38,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        81,
+                        93
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 43,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 31,
+                          "line": 3
+                        }
                       }
+                    },
+                    "range": [
+                      75,
+                      93
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 43,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 25,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    60,
+                    93
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 3
                     }
                   }
                 }
               ],
               "declare": false,
-              "kind": "const"
+              "kind": "const",
+              "range": [
+                54,
+                94
+              ],
+              "loc": {
+                "end": {
+                  "column": 44,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            48,
+            96
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 29,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "expression": false,
         "generator": false,
         "id": {
           "type": "Identifier",
-          "start": 41,
-          "end": 45,
           "decorators": [],
           "name": "main",
-          "optional": false
+          "optional": false,
+          "range": [
+            41,
+            45
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 2
+            },
+            "start": {
+              "column": 22,
+              "line": 2
+            }
+          }
         },
-        "params": []
+        "params": [],
+        "range": [
+          26,
+          96
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-types.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
+  "range": [
+    0,
+    20
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 20,
       "kind": "module",
       "declare": true,
       "global": false,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 19,
         "raw": "\"fs\"",
-        "value": "fs"
+        "value": "fs",
+        "range": [
+          15,
+          19
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        20
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 20,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

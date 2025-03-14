@@ -1,4 +1,4 @@
-parserS7.9_A5.7_T1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Expression expected.
 ```

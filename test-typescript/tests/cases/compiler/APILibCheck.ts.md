@@ -1,115 +1,320 @@
-index.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 210,
+  "range": [
+    0,
+    210
+  ],
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 34,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
         "decorators": [],
         "name": "ts",
-        "optional": false
+        "optional": false,
+        "range": [
+          7,
+          9
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 12,
-        "end": 33,
         "expression": {
           "type": "Literal",
-          "start": 20,
-          "end": 32,
           "raw": "\"typescript\"",
-          "value": "typescript"
+          "value": "typescript",
+          "range": [
+            20,
+            32
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 1
+            },
+            "start": {
+              "column": 20,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          12,
+          33
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 1
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        34
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 35,
-      "end": 86,
       "id": {
         "type": "Identifier",
-        "start": 42,
-        "end": 52,
         "decorators": [],
         "name": "tsInternal",
-        "optional": false
+        "optional": false,
+        "range": [
+          42,
+          52
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 55,
-        "end": 85,
         "expression": {
           "type": "Literal",
-          "start": 63,
-          "end": 84,
           "raw": "\"typescript-internal\"",
-          "value": "typescript-internal"
+          "value": "typescript-internal",
+          "range": [
+            63,
+            84
+          ],
+          "loc": {
+            "end": {
+              "column": 49,
+              "line": 2
+            },
+            "start": {
+              "column": 28,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          55,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 50,
+            "line": 2
+          },
+          "start": {
+            "column": 20,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        35,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 51,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 87,
-      "end": 139,
       "id": {
         "type": "Identifier",
-        "start": 94,
-        "end": 109,
         "decorators": [],
         "name": "tsserverlibrary",
-        "optional": false
+        "optional": false,
+        "range": [
+          94,
+          109
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 3
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 112,
-        "end": 138,
         "expression": {
           "type": "Literal",
-          "start": 120,
-          "end": 137,
           "raw": "\"tsserverlibrary\"",
-          "value": "tsserverlibrary"
+          "value": "tsserverlibrary",
+          "range": [
+            120,
+            137
+          ],
+          "loc": {
+            "end": {
+              "column": 50,
+              "line": 3
+            },
+            "start": {
+              "column": 33,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          112,
+          138
+        ],
+        "loc": {
+          "end": {
+            "column": 51,
+            "line": 3
+          },
+          "start": {
+            "column": 25,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        87,
+        139
+      ],
+      "loc": {
+        "end": {
+          "column": 52,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 140,
-      "end": 209,
       "id": {
         "type": "Identifier",
-        "start": 147,
-        "end": 170,
         "decorators": [],
         "name": "tsserverlibraryInternal",
-        "optional": false
+        "optional": false,
+        "range": [
+          147,
+          170
+        ],
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 4
+          },
+          "start": {
+            "column": 7,
+            "line": 4
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 173,
-        "end": 208,
         "expression": {
           "type": "Literal",
-          "start": 181,
-          "end": 207,
           "raw": "\"tsserverlibrary-internal\"",
-          "value": "tsserverlibrary-internal"
+          "value": "tsserverlibrary-internal",
+          "range": [
+            181,
+            207
+          ],
+          "loc": {
+            "end": {
+              "column": 67,
+              "line": 4
+            },
+            "start": {
+              "column": 41,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          173,
+          208
+        ],
+        "loc": {
+          "end": {
+            "column": 68,
+            "line": 4
+          },
+          "start": {
+            "column": 33,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        140,
+        209
+      ],
+      "loc": {
+        "end": {
+          "column": 69,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
         }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

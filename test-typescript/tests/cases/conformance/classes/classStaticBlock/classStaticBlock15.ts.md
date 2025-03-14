@@ -1,57 +1,105 @@
-classStaticBlock15.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 171,
+  "range": [
+    0,
+    171
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 10,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "_C__1",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
-          "init": null
+          "init": null,
+          "range": [
+            4,
+            9
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 12,
-      "end": 150,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 20,
-        "end": 150,
+        "range": [
+          20,
+          150
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 24,
-            "end": 39,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 31,
-              "end": 34,
-              "name": "_1"
+              "name": "_1",
+              "range": [
+                31,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 4
+                },
+                "start": {
+                  "column": 9,
+                  "line": 4
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -59,25 +107,61 @@ classStaticBlock15.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 37,
-              "end": 38,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                37,
+                38
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              24,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 42,
-            "end": 57,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 49,
-              "end": 52,
-              "name": "_3"
+              "name": "_3",
+              "range": [
+                49,
+                52
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 5
+                },
+                "start": {
+                  "column": 9,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -85,25 +169,61 @@ classStaticBlock15.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 55,
-              "end": 56,
               "raw": "3",
-              "value": 3
+              "value": 3,
+              "range": [
+                55,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 15,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              42,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 5
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 60,
-            "end": 75,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "PrivateIdentifier",
-              "start": 67,
-              "end": 70,
-              "name": "_5"
+              "name": "_5",
+              "range": [
+                67,
+                70
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 6
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -111,108 +231,325 @@ classStaticBlock15.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 73,
-              "end": 74,
               "raw": "5",
-              "value": 5
+              "value": 5,
+              "range": [
+                73,
+                74
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 6
+                },
+                "start": {
+                  "column": 15,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              60,
+              75
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 6
+              },
+              "start": {
+                "column": 2,
+                "line": 6
+              }
             }
           },
           {
             "type": "StaticBlock",
-            "start": 79,
-            "end": 88,
-            "body": []
+            "body": [],
+            "range": [
+              79,
+              88
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 8
+              },
+              "start": {
+                "column": 2,
+                "line": 8
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 91,
-            "end": 100,
-            "body": []
+            "body": [],
+            "range": [
+              91,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 9
+              },
+              "start": {
+                "column": 2,
+                "line": 9
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 103,
-            "end": 112,
-            "body": []
+            "body": [],
+            "range": [
+              103,
+              112
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 10
+              },
+              "start": {
+                "column": 2,
+                "line": 10
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 115,
-            "end": 124,
-            "body": []
+            "body": [],
+            "range": [
+              115,
+              124
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 11
+              },
+              "start": {
+                "column": 2,
+                "line": 11
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 127,
-            "end": 136,
-            "body": []
+            "body": [],
+            "range": [
+              127,
+              136
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 12
+              },
+              "start": {
+                "column": 2,
+                "line": 12
+              }
+            }
           },
           {
             "type": "StaticBlock",
-            "start": 139,
-            "end": 148,
-            "body": []
+            "body": [],
+            "range": [
+              139,
+              148
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 13
+              },
+              "start": {
+                "column": 2,
+                "line": 13
+              }
+            }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 8,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 19,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          18,
+          19
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        12,
+        150
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 152,
-      "end": 170,
       "expression": {
         "type": "CallExpression",
-        "start": 152,
-        "end": 170,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 164,
-            "end": 169,
             "decorators": [],
             "name": "_C__1",
-            "optional": false
+            "optional": false,
+            "range": [
+              164,
+              169
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 16
+              },
+              "start": {
+                "column": 12,
+                "line": 16
+              }
+            }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 152,
-          "end": 163,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 152,
-            "end": 159,
             "decorators": [],
             "name": "console",
-            "optional": false
+            "optional": false,
+            "range": [
+              152,
+              159
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 16
+              },
+              "start": {
+                "column": 0,
+                "line": 16
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 160,
-            "end": 163,
             "decorators": [],
             "name": "log",
-            "optional": false
+            "optional": false,
+            "range": [
+              160,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 16
+              },
+              "start": {
+                "column": 8,
+                "line": 16
+              }
+            }
+          },
+          "range": [
+            152,
+            163
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 16
+            },
+            "start": {
+              "column": 0,
+              "line": 16
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          152,
+          170
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 16
+          },
+          "start": {
+            "column": 0,
+            "line": 16
+          }
+        }
+      },
+      "range": [
+        152,
+        170
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 16
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 17
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

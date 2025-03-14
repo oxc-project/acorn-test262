@@ -1,4 +1,4 @@
-parserForOfStatement5.ts
+__ESTREE_TEST__:FAIL:
 ```json
 The variable declaration of a 'for...of' statement cannot have a type annotation.
 ```

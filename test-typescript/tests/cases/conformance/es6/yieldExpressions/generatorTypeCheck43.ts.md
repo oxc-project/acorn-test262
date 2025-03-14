@@ -1,60 +1,86 @@
-generatorTypeCheck43.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
+  "range": [
+    0,
+    71
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 71,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 71,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 20,
-            "end": 69,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 24,
-                "end": 69,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 24,
-                  "end": 25,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    24,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 9,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 28,
-                  "end": 69,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 38,
-                      "end": 63,
                       "computed": true,
                       "key": {
                         "type": "YieldExpression",
-                        "start": 40,
-                        "end": 47,
                         "argument": {
                           "type": "Literal",
-                          "start": 46,
-                          "end": 47,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "range": [
+                            46,
+                            47
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 16,
+                              "line": 3
+                            }
+                          }
                         },
-                        "delegate": false
+                        "delegate": false,
+                        "range": [
+                          40,
+                          47
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 10,
+                            "line": 3
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": true,
@@ -62,45 +88,176 @@ generatorTypeCheck43.ts
                       "shorthand": false,
                       "value": {
                         "type": "FunctionExpression",
-                        "start": 48,
-                        "end": 63,
+                        "range": [
+                          48,
+                          63
+                        ],
                         "async": false,
                         "body": {
                           "type": "BlockStatement",
-                          "start": 51,
-                          "end": 63,
-                          "body": []
+                          "body": [],
+                          "range": [
+                            51,
+                            63
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 9,
+                              "line": 5
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 3
+                            }
+                          }
                         },
                         "declare": false,
                         "expression": false,
                         "generator": true,
                         "id": null,
-                        "params": []
+                        "params": [],
+                        "loc": {
+                          "end": {
+                            "column": 9,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 18,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        38,
+                        63
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    28,
+                    69
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  24,
+                  69
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
                 }
               }
             ],
             "declare": false,
-            "kind": "let"
+            "kind": "let",
+            "range": [
+              20,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          14,
+          71
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        0,
+        71
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,31 +1,39 @@
-declarationEmitInferredDefaultExportType2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 64,
+  "range": [
+    11,
+    64
+  ],
   "body": [
     {
       "type": "TSExportAssignment",
-      "start": 11,
-      "end": 64,
       "expression": {
         "type": "ObjectExpression",
-        "start": 20,
-        "end": 64,
         "properties": [
           {
             "type": "Property",
-            "start": 24,
-            "end": 31,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 24,
-              "end": 27,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                24,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -33,23 +41,59 @@ declarationEmitInferredDefaultExportType2.ts
             "shorthand": false,
             "value": {
               "type": "ArrayExpression",
-              "start": 29,
-              "end": 31,
-              "elements": []
+              "elements": [],
+              "range": [
+                29,
+                31
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              24,
+              31
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 3
+              }
             }
           },
           {
             "type": "Property",
-            "start": 35,
-            "end": 49,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 35,
-              "end": 38,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                35,
+                38
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 2,
+                  "line": 4
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -57,25 +101,61 @@ declarationEmitInferredDefaultExportType2.ts
             "shorthand": false,
             "value": {
               "type": "Identifier",
-              "start": 40,
-              "end": 49,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "range": [
+                40,
+                49
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 7,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              35,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
+              }
             }
           },
           {
             "type": "Property",
-            "start": 53,
-            "end": 62,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 53,
-              "end": 56,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "range": [
+                53,
+                56
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 2,
+                  "line": 5
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -83,16 +163,81 @@ declarationEmitInferredDefaultExportType2.ts
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 58,
-              "end": 62,
               "raw": "null",
-              "value": null
+              "value": null,
+              "range": [
+                58,
+                62
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 5
+                },
+                "start": {
+                  "column": 7,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              53,
+              62
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 5
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          20,
+          64
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 9,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        11,
+        64
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

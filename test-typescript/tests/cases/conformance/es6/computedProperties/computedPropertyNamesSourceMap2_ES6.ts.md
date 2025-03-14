@@ -1,44 +1,62 @@
-computedPropertyNamesSourceMap2_ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
+  "range": [
+    0,
+    87
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 87,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 87,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 87,
             "properties": [
               {
                 "type": "Property",
-                "start": 14,
-                "end": 48,
                 "computed": true,
                 "key": {
                   "type": "Literal",
-                  "start": 15,
-                  "end": 22,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "range": [
+                    15,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 5,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": true,
@@ -46,39 +64,99 @@ computedPropertyNamesSourceMap2_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 23,
-                  "end": 48,
+                  "range": [
+                    23,
+                    48
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 26,
-                    "end": 48,
                     "body": [
                       {
                         "type": "DebuggerStatement",
-                        "start": 36,
-                        "end": 45
+                        "range": [
+                          36,
+                          45
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 3
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "range": [
+                      26,
+                      48
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 2,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 2,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  14,
+                  48
+                ],
+                "loc": {
+                  "end": {
+                    "column": 2,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 51,
-                "end": 85,
                 "computed": true,
                 "key": {
                   "type": "Literal",
-                  "start": 56,
-                  "end": 65,
                   "raw": "\"goodbye\"",
-                  "value": "goodbye"
+                  "value": "goodbye",
+                  "range": [
+                    56,
+                    65
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 5
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -86,43 +164,158 @@ computedPropertyNamesSourceMap2_ES6.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 66,
-                  "end": 85,
+                  "range": [
+                    66,
+                    85
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 69,
-                    "end": 85,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 73,
-                        "end": 82,
                         "argument": {
                           "type": "Literal",
-                          "start": 80,
-                          "end": 81,
                           "raw": "0",
-                          "value": 0
+                          "value": 0,
+                          "range": [
+                            80,
+                            81
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 10,
+                              "line": 6
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 6
+                            }
+                          }
+                        },
+                        "range": [
+                          73,
+                          82
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 11,
+                            "line": 6
+                          },
+                          "start": {
+                            "column": 2,
+                            "line": 6
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      69,
+                      85
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 2,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 5
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 2,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 5
+                    }
+                  }
+                },
+                "range": [
+                  51,
+                  85
+                ],
+                "loc": {
+                  "end": {
+                    "column": 2,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 5
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              87
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 8
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            87
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 8
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        87
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

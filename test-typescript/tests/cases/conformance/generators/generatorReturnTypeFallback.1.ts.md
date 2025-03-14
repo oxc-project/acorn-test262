@@ -1,54 +1,139 @@
-generatorReturnTypeFallback.1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 130,
-  "end": 160,
+  "range": [
+    130,
+    160
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 130,
-      "end": 160,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 144,
-        "end": 160,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 150,
-            "end": 158,
             "expression": {
               "type": "YieldExpression",
-              "start": 150,
-              "end": 157,
               "argument": {
                 "type": "Literal",
-                "start": 156,
-                "end": 157,
                 "raw": "1",
-                "value": 1
+                "value": 1,
+                "range": [
+                  156,
+                  157
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 3
+                  }
+                }
               },
-              "delegate": false
+              "delegate": false,
+              "range": [
+                150,
+                157
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              150,
+              158
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          144,
+          160
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 14,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": true,
       "id": {
         "type": "Identifier",
-        "start": 140,
-        "end": 141,
         "decorators": [],
         "name": "f",
-        "optional": false
+        "optional": false,
+        "range": [
+          140,
+          141
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 2
+          },
+          "start": {
+            "column": 10,
+            "line": 2
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        130,
+        160
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

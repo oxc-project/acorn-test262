@@ -1,33 +1,45 @@
-classAbstractMixedWithModifiers.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 346,
+  "range": [
+    0,
+    346
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 345,
       "abstract": true,
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 345,
+        "range": [
+          17,
+          345
+        ],
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 23,
-            "end": 40,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 37,
               "decorators": [],
               "name": "foo_a",
-              "optional": false
+              "optional": false,
+              "range": [
+                32,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,31 +47,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 37,
-              "end": 40,
+              "range": [
+                37,
+                40
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 2
+                },
+                "start": {
+                  "column": 18,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              23,
+              40
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 46,
-            "end": 70,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 62,
-              "end": 67,
               "decorators": [],
               "name": "foo_b",
-              "optional": false
+              "optional": false,
+              "range": [
+                62,
+                67
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 4
+                },
+                "start": {
+                  "column": 20,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -67,31 +115,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 67,
-              "end": 70,
+              "range": [
+                67,
+                70
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 4
+                },
+                "start": {
+                  "column": 25,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              46,
+              70
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 75,
-            "end": 102,
             "accessibility": "protected",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 94,
-              "end": 99,
               "decorators": [],
               "name": "foo_c",
-              "optional": false
+              "optional": false,
+              "range": [
+                94,
+                99
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 5
+                },
+                "start": {
+                  "column": 23,
+                  "line": 5
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -99,31 +183,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 99,
-              "end": 102,
+              "range": [
+                99,
+                102
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 5
+                },
+                "start": {
+                  "column": 28,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              75,
+              102
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 107,
-            "end": 132,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 124,
-              "end": 129,
               "decorators": [],
               "name": "foo_d",
-              "optional": false
+              "optional": false,
+              "range": [
+                124,
+                129
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 6
+                },
+                "start": {
+                  "column": 21,
+                  "line": 6
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -131,31 +251,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 129,
-              "end": 132,
+              "range": [
+                129,
+                132
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 6
+                },
+                "start": {
+                  "column": 26,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              107,
+              132
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 138,
-            "end": 163,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 154,
-              "end": 160,
               "decorators": [],
               "name": "foo_bb",
-              "optional": false
+              "optional": false,
+              "range": [
+                154,
+                160
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 8
+                },
+                "start": {
+                  "column": 20,
+                  "line": 8
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -163,31 +319,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 160,
-              "end": 163,
+              "range": [
+                160,
+                163
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 8
+                },
+                "start": {
+                  "column": 26,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              138,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 168,
-            "end": 196,
             "accessibility": "protected",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 187,
-              "end": 193,
               "decorators": [],
               "name": "foo_cc",
-              "optional": false
+              "optional": false,
+              "range": [
+                187,
+                193
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 9
+                },
+                "start": {
+                  "column": 23,
+                  "line": 9
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -195,31 +387,67 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 193,
-              "end": 196,
+              "range": [
+                193,
+                196
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 9
+                },
+                "start": {
+                  "column": 29,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              168,
+              196
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 201,
-            "end": 227,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 218,
-              "end": 224,
               "decorators": [],
               "name": "foo_dd",
-              "optional": false
+              "optional": false,
+              "range": [
+                218,
+                224
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 10
+                },
+                "start": {
+                  "column": 21,
+                  "line": 10
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -227,30 +455,66 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 224,
-              "end": 227,
+              "range": [
+                224,
+                227
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 30,
+                  "line": 10
+                },
+                "start": {
+                  "column": 27,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              201,
+              227
+            ],
+            "loc": {
+              "end": {
+                "column": 30,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 233,
-            "end": 257,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 249,
-              "end": 254,
               "decorators": [],
               "name": "foo_d",
-              "optional": false
+              "optional": false,
+              "range": [
+                249,
+                254
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 12
+                },
+                "start": {
+                  "column": 20,
+                  "line": 12
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -258,30 +522,66 @@ classAbstractMixedWithModifiers.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 254,
-              "end": 257,
+              "range": [
+                254,
+                257
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 12
+                },
+                "start": {
+                  "column": 25,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              233,
+              257
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 262,
-            "end": 286,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 278,
-              "end": 283,
               "decorators": [],
               "name": "foo_e",
-              "optional": false
+              "optional": false,
+              "range": [
+                278,
+                283
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 13
+                },
+                "start": {
+                  "column": 20,
+                  "line": 13
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -289,30 +589,66 @@ classAbstractMixedWithModifiers.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 283,
-              "end": 286,
+              "range": [
+                283,
+                286
+              ],
               "async": false,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 13
+                },
+                "start": {
+                  "column": 25,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              262,
+              286
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 292,
-            "end": 315,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 307,
-              "end": 312,
               "decorators": [],
               "name": "foo_f",
-              "optional": false
+              "optional": false,
+              "range": [
+                307,
+                312
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 15
+                },
+                "start": {
+                  "column": 19,
+                  "line": 15
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -320,30 +656,66 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 312,
-              "end": 315,
+              "range": [
+                312,
+                315
+              ],
               "async": true,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 15
+                },
+                "start": {
+                  "column": 24,
+                  "line": 15
+                }
+              }
+            },
+            "range": [
+              292,
+              315
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 15
+              },
+              "start": {
+                "column": 4,
+                "line": 15
+              }
             }
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 320,
-            "end": 343,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 335,
-              "end": 340,
               "decorators": [],
               "name": "foo_g",
-              "optional": false
+              "optional": false,
+              "range": [
+                335,
+                340
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 16
+                },
+                "start": {
+                  "column": 19,
+                  "line": 16
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -351,33 +723,106 @@ classAbstractMixedWithModifiers.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 340,
-              "end": 343,
+              "range": [
+                340,
+                343
+              ],
               "async": true,
               "body": null,
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 16
+                },
+                "start": {
+                  "column": 24,
+                  "line": 16
+                }
+              }
+            },
+            "range": [
+              320,
+              343
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 16
+              },
+              "start": {
+                "column": 4,
+                "line": 16
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 17
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "range": [
+          15,
+          16
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        345
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 18
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

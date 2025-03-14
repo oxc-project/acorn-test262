@@ -1,4 +1,4 @@
-implementsClauseAlreadySeen.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'implements' clause already seen.
 ```

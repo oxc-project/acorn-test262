@@ -1,45 +1,63 @@
-nonIterableRestElement3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
+  "range": [
+    0,
+    39
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 21,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 20,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "c",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 20,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 18,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 15,
                   "decorators": [],
                   "name": "bogus",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    10,
+                    15
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,76 +65,251 @@ nonIterableRestElement3.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 18,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    17,
+                    18
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  10,
+                  18
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            20
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        21
+      ],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 39,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 22,
-        "end": 38,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 22,
-          "end": 28,
           "decorators": [],
           "elements": [
             {
               "type": "RestElement",
-              "start": 23,
-              "end": 27,
               "argument": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 27,
                 "decorators": [],
                 "name": "c",
-                "optional": false
+                "optional": false,
+                "range": [
+                  26,
+                  27
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
+                }
               },
               "decorators": [],
-              "optional": false
+              "optional": false,
+              "range": [
+                23,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 2
+                },
+                "start": {
+                  "column": 1,
+                  "line": 2
+                }
+              }
             }
           ],
-          "optional": false
+          "optional": false,
+          "range": [
+            22,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 31,
-          "end": 38,
           "elements": [
             {
               "type": "Literal",
-              "start": 32,
-              "end": 34,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "range": [
+                32,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 10,
+                  "line": 2
+                }
+              }
             },
             {
               "type": "Literal",
-              "start": 36,
-              "end": 37,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                36,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 14,
+                  "line": 2
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            31,
+            38
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 9,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          22,
+          38
+        ],
+        "loc": {
+          "end": {
+            "column": 16,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        22,
+        39
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 17,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

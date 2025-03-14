@@ -1,41 +1,102 @@
-invalidTripleSlashReference.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 190,
-  "end": 200,
+  "range": [
+    190,
+    200
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 190,
-      "end": 200,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 194,
-          "end": 199,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 194,
-            "end": 195,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              194,
+              195
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 198,
-            "end": 199,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "range": [
+              198,
+              199
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 5
+              },
+              "start": {
+                "column": 8,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            194,
+            199
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 5
+            },
+            "start": {
+              "column": 4,
+              "line": 5
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        190,
+        200
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 10,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 5
+    }
+  },
+  "hashbang": null
 }
 ```

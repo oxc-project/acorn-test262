@@ -1,25 +1,62 @@
-parserForStatement1.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
+  "range": [
+    0,
+    12
+  ],
   "body": [
     {
       "type": "ForStatement",
-      "start": 0,
-      "end": 12,
       "body": {
         "type": "BlockStatement",
-        "start": 9,
-        "end": 12,
-        "body": []
+        "body": [],
+        "range": [
+          9,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "init": null,
       "test": null,
-      "update": null
+      "update": null,
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

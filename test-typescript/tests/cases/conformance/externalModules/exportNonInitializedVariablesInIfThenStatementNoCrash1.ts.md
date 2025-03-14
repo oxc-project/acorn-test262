@@ -1,89 +1,234 @@
-exportNonInitializedVariablesInIfThenStatementNoCrash1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 131,
+  "range": [
+    57,
+    131
+  ],
   "body": [
     {
       "type": "IfStatement",
-      "start": 57,
-      "end": 103,
       "alternate": null,
       "consequent": {
         "type": "ExportNamedDeclaration",
-        "start": 67,
-        "end": 103,
+        "range": [
+          67,
+          103
+        ],
         "attributes": [],
         "declaration": {
           "type": "VariableDeclaration",
-          "start": 74,
-          "end": 103,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 80,
-              "end": 102,
               "definite": false,
               "id": {
                 "type": "Identifier",
-                "start": 80,
-                "end": 102,
                 "decorators": [],
                 "name": "cssExports",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 90,
-                  "end": 102,
+                  "loc": {
+                    "end": {
+                      "column": 35,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 4
+                    }
+                  },
+                  "range": [
+                    90,
+                    102
+                  ],
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 92,
-                    "end": 102,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 92,
-                      "end": 102,
                       "decorators": [],
                       "name": "CssExports",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        92,
+                        102
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 35,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 25,
+                          "line": 4
+                        }
+                      }
+                    },
+                    "range": [
+                      92,
+                      102
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 35,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 25,
+                        "line": 4
+                      }
                     }
+                  }
+                },
+                "range": [
+                  80,
+                  102
+                ],
+                "loc": {
+                  "end": {
+                    "column": 35,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 4
                   }
                 }
               },
-              "init": null
+              "init": null,
+              "range": [
+                80,
+                102
+              ],
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 4
+                },
+                "start": {
+                  "column": 13,
+                  "line": 4
+                }
+              }
             }
           ],
           "declare": false,
-          "kind": "const"
+          "kind": "const",
+          "range": [
+            74,
+            103
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
+          }
         },
         "exportKind": "value",
         "source": null,
-        "specifiers": []
+        "specifiers": [],
+        "loc": {
+          "end": {
+            "column": 36,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 61,
-        "end": 65,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          61,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 3
+          },
+          "start": {
+            "column": 4,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        57,
+        103
+      ],
+      "loc": {
+        "end": {
+          "column": 36,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 104,
-      "end": 130,
       "declaration": {
         "type": "Identifier",
-        "start": 119,
-        "end": 129,
         "decorators": [],
         "name": "cssExports",
-        "optional": false
+        "optional": false,
+        "range": [
+          119,
+          129
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 5
+          },
+          "start": {
+            "column": 15,
+            "line": 5
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        104,
+        130
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

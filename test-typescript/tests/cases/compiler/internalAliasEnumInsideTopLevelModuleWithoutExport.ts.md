@@ -1,224 +1,585 @@
-internalAliasEnumInsideTopLevelModuleWithoutExport.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 155,
+  "range": [
+    0,
+    155
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 100,
+      "range": [
+        0,
+        100
+      ],
       "attributes": [],
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 7,
-        "end": 100,
         "body": {
           "type": "TSModuleBlock",
-          "start": 16,
-          "end": 100,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 22,
-              "end": 98,
+              "range": [
+                22,
+                98
+              ],
               "attributes": [],
               "declaration": {
                 "type": "TSEnumDeclaration",
-                "start": 29,
-                "end": 98,
                 "body": {
                   "type": "TSEnumBody",
-                  "start": 42,
-                  "end": 98,
+                  "range": [
+                    42,
+                    98
+                  ],
                   "members": [
                     {
                       "type": "TSEnumMember",
-                      "start": 52,
-                      "end": 58,
                       "computed": false,
                       "id": {
                         "type": "Identifier",
-                        "start": 52,
-                        "end": 58,
                         "decorators": [],
                         "name": "Friday",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          52,
+                          58
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 14,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        52,
+                        58
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 3
+                        }
                       }
                     },
                     {
                       "type": "TSEnumMember",
-                      "start": 68,
-                      "end": 76,
                       "computed": false,
                       "id": {
                         "type": "Identifier",
-                        "start": 68,
-                        "end": 76,
                         "decorators": [],
                         "name": "Saturday",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          68,
+                          76
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 16,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 4
+                          }
+                        }
+                      },
+                      "range": [
+                        68,
+                        76
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 16,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 4
+                        }
                       }
                     },
                     {
                       "type": "TSEnumMember",
-                      "start": 86,
-                      "end": 92,
                       "computed": false,
                       "id": {
                         "type": "Identifier",
-                        "start": 86,
-                        "end": 92,
                         "decorators": [],
                         "name": "Sunday",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          86,
+                          92
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 14,
+                            "line": 5
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 5
+                          }
+                        }
+                      },
+                      "range": [
+                        86,
+                        92
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 14,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 5
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 2
+                    }
+                  }
                 },
                 "const": false,
                 "declare": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 34,
-                  "end": 41,
                   "decorators": [],
                   "name": "weekend",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    34,
+                    41
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  29,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 2
+                  }
                 }
               },
               "exportKind": "value",
               "source": null,
-              "specifiers": []
+              "specifiers": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             }
-          ]
+          ],
+          "range": [
+            16,
+            100
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 7
+            },
+            "start": {
+              "column": 16,
+              "line": 1
+            }
+          }
         },
         "declare": false,
         "global": false,
         "id": {
           "type": "Identifier",
-          "start": 14,
-          "end": 15,
+          "range": [
+            14,
+            15
+          ],
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 1
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
+          }
         },
-        "kind": "module"
+        "kind": "module",
+        "range": [
+          7,
+          100
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 102,
-      "end": 123,
       "id": {
         "type": "Identifier",
-        "start": 109,
-        "end": 110,
         "decorators": [],
         "name": "b",
-        "optional": false
+        "optional": false,
+        "range": [
+          109,
+          110
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 9
+          },
+          "start": {
+            "column": 7,
+            "line": 9
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSQualifiedName",
-        "start": 113,
-        "end": 122,
         "left": {
           "type": "Identifier",
-          "start": 113,
-          "end": 114,
           "decorators": [],
           "name": "a",
-          "optional": false
+          "optional": false,
+          "range": [
+            113,
+            114
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 9
+            },
+            "start": {
+              "column": 11,
+              "line": 9
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 115,
-          "end": 122,
           "decorators": [],
           "name": "weekend",
-          "optional": false
+          "optional": false,
+          "range": [
+            115,
+            122
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 9
+            },
+            "start": {
+              "column": 13,
+              "line": 9
+            }
+          }
+        },
+        "range": [
+          113,
+          122
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 9
+          },
+          "start": {
+            "column": 11,
+            "line": 9
+          }
+        }
+      },
+      "range": [
+        102,
+        123
+      ],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
         }
       }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 124,
-      "end": 154,
+      "range": [
+        124,
+        154
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 131,
-        "end": 154,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 135,
-            "end": 153,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 135,
-              "end": 142,
               "decorators": [],
               "name": "bVal",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 139,
-                "end": 142,
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 10
+                  }
+                },
+                "range": [
+                  139,
+                  142
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 141,
-                  "end": 142,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 141,
-                    "end": 142,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      141,
+                      142
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 10
+                      }
+                    }
+                  },
+                  "range": [
+                    141,
+                    142
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 10
+                    }
                   }
+                }
+              },
+              "range": [
+                135,
+                142
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 10
+                },
+                "start": {
+                  "column": 11,
+                  "line": 10
                 }
               }
             },
             "init": {
               "type": "MemberExpression",
-              "start": 145,
-              "end": 153,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 145,
-                "end": 146,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "range": [
+                  145,
+                  146
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 10
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 147,
-                "end": 153,
                 "decorators": [],
                 "name": "Sunday",
-                "optional": false
+                "optional": false,
+                "range": [
+                  147,
+                  153
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                145,
+                153
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 10
+                },
+                "start": {
+                  "column": 21,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              135,
+              153
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 10
+              },
+              "start": {
+                "column": 11,
+                "line": 10
               }
             }
           }
         ],
         "declare": false,
-        "kind": "var"
+        "kind": "var",
+        "range": [
+          131,
+          154
+        ],
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 10
+          },
+          "start": {
+            "column": 7,
+            "line": 10
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

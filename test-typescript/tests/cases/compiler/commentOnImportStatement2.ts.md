@@ -1,37 +1,98 @@
-commentOnImportStatement2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 50,
+  "range": [
+    20,
+    50
+  ],
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 20,
-      "end": 50,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 30,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          27,
+          30
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 33,
-        "end": 49,
         "expression": {
           "type": "Literal",
-          "start": 41,
-          "end": 48,
           "raw": "'./foo'",
-          "value": "./foo"
+          "value": "./foo",
+          "range": [
+            41,
+            48
+          ],
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 2
+            },
+            "start": {
+              "column": 21,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          33,
+          49
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 2
+          },
+          "start": {
+            "column": 13,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        20,
+        50
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 30,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

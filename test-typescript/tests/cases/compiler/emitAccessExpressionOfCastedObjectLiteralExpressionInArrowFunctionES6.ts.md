@@ -1,44 +1,46 @@
-emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 154,
+  "range": [
+    18,
+    154
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 18,
-      "end": 86,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 18,
-        "end": 85,
         "async": false,
         "body": {
           "type": "MemberExpression",
-          "start": 25,
-          "end": 85,
           "computed": true,
           "object": {
             "type": "TSAsExpression",
-            "start": 26,
-            "end": 81,
             "expression": {
               "type": "ObjectExpression",
-              "start": 26,
-              "end": 52,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 28,
-                  "end": 38,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 28,
-                    "end": 31,
                     "raw": "\"1\"",
-                    "value": "1"
+                    "value": "1",
+                    "range": [
+                      28,
+                      31
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 13,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 3
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -46,23 +48,59 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 33,
-                    "end": 38,
                     "raw": "\"one\"",
-                    "value": "one"
+                    "value": "one",
+                    "range": [
+                      33,
+                      38
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    28,
+                    38
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 20,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 3
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 40,
-                  "end": 50,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 40,
-                    "end": 43,
                     "raw": "\"2\"",
-                    "value": "2"
+                    "value": "2",
+                    "range": [
+                      40,
+                      43
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 3
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -70,39 +108,111 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 45,
-                    "end": 50,
                     "raw": "\"two\"",
-                    "value": "two"
+                    "value": "two",
+                    "range": [
+                      45,
+                      50
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 3
+                      }
+                    }
+                  },
+                  "range": [
+                    40,
+                    50
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 3
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                26,
+                52
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 3
+                },
+                "start": {
+                  "column": 8,
+                  "line": 3
+                }
+              }
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 56,
-              "end": 81,
               "members": [
                 {
                   "type": "TSIndexSignature",
-                  "start": 58,
-                  "end": 79,
                   "parameters": [
                     {
                       "type": "Identifier",
-                      "start": 59,
-                      "end": 70,
                       "decorators": [],
                       "name": "key",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 62,
-                        "end": 70,
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 44,
+                            "line": 3
+                          }
+                        },
+                        "range": [
+                          62,
+                          70
+                        ],
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 64,
-                          "end": 70
+                          "range": [
+                            64,
+                            70
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 52,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 46,
+                              "line": 3
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        59,
+                        70
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 41,
+                          "line": 3
                         }
                       }
                     }
@@ -111,26 +221,118 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 71,
-                    "end": 79,
+                    "loc": {
+                      "end": {
+                        "column": 61,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 53,
+                        "line": 3
+                      }
+                    },
+                    "range": [
+                      71,
+                      79
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 73,
-                      "end": 79
+                      "range": [
+                        73,
+                        79
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 61,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 55,
+                          "line": 3
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    58,
+                    79
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 61,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 40,
+                      "line": 3
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                56,
+                81
+              ],
+              "loc": {
+                "end": {
+                  "column": 63,
+                  "line": 3
+                },
+                "start": {
+                  "column": 38,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              26,
+              81
+            ],
+            "loc": {
+              "end": {
+                "column": 63,
+                "line": 3
+              },
+              "start": {
+                "column": 8,
+                "line": 3
+              }
             }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 83,
-            "end": 84,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              83,
+              84
+            ],
+            "loc": {
+              "end": {
+                "column": 66,
+                "line": 3
+              },
+              "start": {
+                "column": 65,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            25,
+            85
+          ],
+          "loc": {
+            "end": {
+              "column": 67,
+              "line": 3
+            },
+            "start": {
+              "column": 7,
+              "line": 3
+            }
           }
         },
         "expression": true,
@@ -139,49 +341,89 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
         "params": [
           {
             "type": "Identifier",
-            "start": 19,
-            "end": 20,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              19,
+              20
+            ],
+            "loc": {
+              "end": {
+                "column": 2,
+                "line": 3
+              },
+              "start": {
+                "column": 1,
+                "line": 3
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          18,
+          85
+        ],
+        "loc": {
+          "end": {
+            "column": 67,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        18,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 68,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 87,
-      "end": 154,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 87,
-        "end": 153,
         "async": false,
         "body": {
           "type": "MemberExpression",
-          "start": 94,
-          "end": 153,
           "computed": false,
           "object": {
             "type": "TSAsExpression",
-            "start": 95,
-            "end": 150,
             "expression": {
               "type": "ObjectExpression",
-              "start": 95,
-              "end": 121,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 97,
-                  "end": 107,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 97,
-                    "end": 100,
                     "raw": "\"1\"",
-                    "value": "1"
+                    "value": "1",
+                    "range": [
+                      97,
+                      100
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 13,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 4
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -189,23 +431,59 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 102,
-                    "end": 107,
                     "raw": "\"one\"",
-                    "value": "one"
+                    "value": "one",
+                    "range": [
+                      102,
+                      107
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    97,
+                    107
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 20,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 4
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 109,
-                  "end": 119,
                   "computed": false,
                   "key": {
                     "type": "Literal",
-                    "start": 109,
-                    "end": 112,
                     "raw": "\"2\"",
-                    "value": "2"
+                    "value": "2",
+                    "range": [
+                      109,
+                      112
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 25,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 4
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -213,39 +491,111 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "shorthand": false,
                   "value": {
                     "type": "Literal",
-                    "start": 114,
-                    "end": 119,
                     "raw": "\"two\"",
-                    "value": "two"
+                    "value": "two",
+                    "range": [
+                      114,
+                      119
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    109,
+                    119
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 4
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                95,
+                121
+              ],
+              "loc": {
+                "end": {
+                  "column": 34,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
+              }
             },
             "typeAnnotation": {
               "type": "TSTypeLiteral",
-              "start": 125,
-              "end": 150,
               "members": [
                 {
                   "type": "TSIndexSignature",
-                  "start": 127,
-                  "end": 148,
                   "parameters": [
                     {
                       "type": "Identifier",
-                      "start": 128,
-                      "end": 139,
                       "decorators": [],
                       "name": "key",
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 131,
-                        "end": 139,
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 44,
+                            "line": 4
+                          }
+                        },
+                        "range": [
+                          131,
+                          139
+                        ],
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 133,
-                          "end": 139
+                          "range": [
+                            133,
+                            139
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 52,
+                              "line": 4
+                            },
+                            "start": {
+                              "column": 46,
+                              "line": 4
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        128,
+                        139
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 41,
+                          "line": 4
                         }
                       }
                     }
@@ -254,26 +604,118 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 140,
-                    "end": 148,
+                    "loc": {
+                      "end": {
+                        "column": 61,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 53,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      140,
+                      148
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 142,
-                      "end": 148
+                      "range": [
+                        142,
+                        148
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 61,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 55,
+                          "line": 4
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    127,
+                    148
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 61,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 40,
+                      "line": 4
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                125,
+                150
+              ],
+              "loc": {
+                "end": {
+                  "column": 63,
+                  "line": 4
+                },
+                "start": {
+                  "column": 38,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              95,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 63,
+                "line": 4
+              },
+              "start": {
+                "column": 8,
+                "line": 4
+              }
             }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 152,
-            "end": 153,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              152,
+              153
+            ],
+            "loc": {
+              "end": {
+                "column": 66,
+                "line": 4
+              },
+              "start": {
+                "column": 65,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            94,
+            153
+          ],
+          "loc": {
+            "end": {
+              "column": 66,
+              "line": 4
+            },
+            "start": {
+              "column": 7,
+              "line": 4
+            }
           }
         },
         "expression": true,
@@ -282,16 +724,67 @@ emitAccessExpressionOfCastedObjectLiteralExpressionInArrowFunctionES6.ts
         "params": [
           {
             "type": "Identifier",
-            "start": 88,
-            "end": 89,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              88,
+              89
+            ],
+            "loc": {
+              "end": {
+                "column": 2,
+                "line": 4
+              },
+              "start": {
+                "column": 1,
+                "line": 4
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          87,
+          153
+        ],
+        "loc": {
+          "end": {
+            "column": 66,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        87,
+        154
+      ],
+      "loc": {
+        "end": {
+          "column": 67,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 67,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

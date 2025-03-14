@@ -1,84 +1,205 @@
-templateStringWithEmbeddedInstanceOf.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 48,
+  "range": [
+    1,
+    48
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1,
-      "end": 48,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 5,
-          "end": 47,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 5,
-            "end": 6,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              5,
+              6
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 1
+              },
+              "start": {
+                "column": 5,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 9,
-            "end": 47,
             "expressions": [
               {
                 "type": "BinaryExpression",
-                "start": 16,
-                "end": 41,
                 "operator": "instanceof",
                 "left": {
                   "type": "Literal",
-                  "start": 16,
-                  "end": 23,
                   "raw": "\"hello\"",
-                  "value": "hello"
+                  "value": "hello",
+                  "range": [
+                    16,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 1
+                    }
+                  }
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 35,
-                  "end": 41,
                   "decorators": [],
                   "name": "String",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    35,
+                    41
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 41,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 35,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  16,
+                  41
+                ],
+                "loc": {
+                  "end": {
+                    "column": 41,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 1
+                  }
                 }
               }
             ],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 9,
-                "end": 15,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  9,
+                  15
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 1
+                  }
                 }
               },
               {
                 "type": "TemplateElement",
-                "start": 42,
-                "end": 47,
                 "tail": true,
                 "value": {
                   "cooked": "def",
                   "raw": "def"
+                },
+                "range": [
+                  42,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 47,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 42,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              9,
+              47
+            ],
+            "loc": {
+              "end": {
+                "column": 47,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            5,
+            47
+          ],
+          "loc": {
+            "end": {
+              "column": 47,
+              "line": 1
+            },
+            "start": {
+              "column": 5,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        1,
+        48
+      ],
+      "loc": {
+        "end": {
+          "column": 48,
+          "line": 1
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 48,
+      "line": 1
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

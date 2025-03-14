@@ -1,43 +1,91 @@
-/src/constants.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
+  "range": [
+    0,
+    72
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 48,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 29,
-        "end": 47,
         "raw": "\"../lib/constants\"",
-        "value": "../lib/constants"
+        "value": "../lib/constants",
+        "range": [
+          29,
+          47
+        ],
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 1
+          },
+          "start": {
+            "column": 29,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 23,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "tsConstants",
-            "optional": false
+            "optional": false,
+            "range": [
+              12,
+              23
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            7,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 23,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        48
+      ],
+      "loc": {
+        "end": {
+          "column": 48,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 49,
-      "end": 72,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
@@ -45,29 +93,90 @@
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 58,
-          "end": 69,
           "exported": {
             "type": "Identifier",
-            "start": 58,
-            "end": 69,
             "decorators": [],
             "name": "tsConstants",
-            "optional": false
+            "optional": false,
+            "range": [
+              58,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 2
+              },
+              "start": {
+                "column": 9,
+                "line": 2
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 58,
-            "end": 69,
             "decorators": [],
             "name": "tsConstants",
-            "optional": false
+            "optional": false,
+            "range": [
+              58,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 2
+              },
+              "start": {
+                "column": 9,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            58,
+            69
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 2
+            },
+            "start": {
+              "column": 9,
+              "line": 2
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        49,
+        72
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 23,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

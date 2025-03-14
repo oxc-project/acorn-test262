@@ -1,63 +1,123 @@
-overrideLateBindableName1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 259,
+  "range": [
+    0,
+    259
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 18,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 10,
             "decorators": [],
             "name": "prop",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              10
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 13,
-            "end": 18,
             "raw": "\"foo\"",
-            "value": "foo"
+            "value": "foo",
+            "range": [
+              13,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            18
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        18
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 20,
-      "end": 49,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 32,
-        "end": 49,
+        "range": [
+          32,
+          49
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 36,
-            "end": 47,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 37,
-              "end": 41,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "range": [
+                37,
+                41
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 4
+                },
+                "start": {
+                  "column": 3,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -65,60 +125,144 @@ overrideLateBindableName1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 42,
-              "end": 47,
+              "range": [
+                42,
+                47
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 45,
-                "end": 47,
-                "body": []
+                "body": [],
+                "range": [
+                  45,
+                  47
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 4
+                },
+                "start": {
+                  "column": 8,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              36,
+              47
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 12,
+            "line": 3
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 31,
         "decorators": [],
         "name": "Base1",
-        "optional": false
+        "optional": false,
+        "range": [
+          26,
+          31
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 3
+          },
+          "start": {
+            "column": 6,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        20,
+        49
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 51,
-      "end": 106,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 80,
-        "end": 106,
+        "range": [
+          80,
+          106
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 84,
-            "end": 104,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 94,
-              "end": 98,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "range": [
+                94,
+                98
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 8
+                },
+                "start": {
+                  "column": 12,
+                  "line": 8
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -126,67 +270,163 @@ overrideLateBindableName1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 99,
-              "end": 104,
+              "range": [
+                99,
+                104
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 102,
-                "end": 104,
-                "body": []
+                "body": [],
+                "range": [
+                  102,
+                  104
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 8
+                },
+                "start": {
+                  "column": 17,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              84,
+              104
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 8
+              },
+              "start": {
+                "column": 2,
+                "line": 8
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 29,
+            "line": 7
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 65,
         "decorators": [],
         "name": "Derived1",
-        "optional": false
+        "optional": false,
+        "range": [
+          57,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 7
+          },
+          "start": {
+            "column": 6,
+            "line": 7
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 74,
-        "end": 79,
         "decorators": [],
         "name": "Base1",
-        "optional": false
+        "optional": false,
+        "range": [
+          74,
+          79
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 7
+          },
+          "start": {
+            "column": 23,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        51,
+        106
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 108,
-      "end": 137,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 120,
-        "end": 137,
+        "range": [
+          120,
+          137
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 124,
-            "end": 135,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 125,
-              "end": 129,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "range": [
+                125,
+                129
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 12
+                },
+                "start": {
+                  "column": 3,
+                  "line": 12
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -194,60 +434,144 @@ overrideLateBindableName1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 130,
-              "end": 135,
+              "range": [
+                130,
+                135
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 133,
-                "end": 135,
-                "body": []
+                "body": [],
+                "range": [
+                  133,
+                  135
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 12
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 12
+                },
+                "start": {
+                  "column": 8,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              124,
+              135
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 12
+              },
+              "start": {
+                "column": 2,
+                "line": 12
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 12,
+            "line": 11
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 114,
-        "end": 119,
         "decorators": [],
         "name": "Base2",
-        "optional": false
+        "optional": false,
+        "range": [
+          114,
+          119
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 11
+          },
+          "start": {
+            "column": 6,
+            "line": 11
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        108,
+        137
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 139,
-      "end": 185,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 168,
-        "end": 185,
+        "range": [
+          168,
+          185
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 172,
-            "end": 183,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 173,
-              "end": 177,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "range": [
+                173,
+                177
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 16
+                },
+                "start": {
+                  "column": 3,
+                  "line": 16
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -255,91 +579,223 @@ overrideLateBindableName1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 178,
-              "end": 183,
+              "range": [
+                178,
+                183
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 181,
-                "end": 183,
-                "body": []
+                "body": [],
+                "range": [
+                  181,
+                  183
+                ],
+                "loc": {
+                  "end": {
+                    "column": 13,
+                    "line": 16
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 16
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 16
+                },
+                "start": {
+                  "column": 8,
+                  "line": 16
+                }
+              }
+            },
+            "range": [
+              172,
+              183
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 16
+              },
+              "start": {
+                "column": 2,
+                "line": 16
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 17
+          },
+          "start": {
+            "column": 29,
+            "line": 15
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 145,
-        "end": 153,
         "decorators": [],
         "name": "Derived2",
-        "optional": false
+        "optional": false,
+        "range": [
+          145,
+          153
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 15
+          },
+          "start": {
+            "column": 6,
+            "line": 15
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 162,
-        "end": 167,
         "decorators": [],
         "name": "Base2",
-        "optional": false
+        "optional": false,
+        "range": [
+          162,
+          167
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 15
+          },
+          "start": {
+            "column": 23,
+            "line": 15
+          }
+        }
+      },
+      "range": [
+        139,
+        185
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 15
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 187,
-      "end": 201,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 199,
-        "end": 201,
-        "body": []
+        "range": [
+          199,
+          201
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 19
+          },
+          "start": {
+            "column": 12,
+            "line": 19
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 193,
-        "end": 198,
         "decorators": [],
         "name": "Base3",
-        "optional": false
+        "optional": false,
+        "range": [
+          193,
+          198
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 19
+          },
+          "start": {
+            "column": 6,
+            "line": 19
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        187,
+        201
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "line": 19
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 203,
-      "end": 258,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 232,
-        "end": 258,
+        "range": [
+          232,
+          258
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 236,
-            "end": 256,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 246,
-              "end": 250,
               "decorators": [],
               "name": "prop",
-              "optional": false
+              "optional": false,
+              "range": [
+                246,
+                250
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 22
+                },
+                "start": {
+                  "column": 12,
+                  "line": 22
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -347,45 +803,142 @@ overrideLateBindableName1.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 251,
-              "end": 256,
+              "range": [
+                251,
+                256
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 254,
-                "end": 256,
-                "body": []
+                "body": [],
+                "range": [
+                  254,
+                  256
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 22
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 22
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 22
+                },
+                "start": {
+                  "column": 17,
+                  "line": 22
+                }
+              }
+            },
+            "range": [
+              236,
+              256
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 22
+              },
+              "start": {
+                "column": 2,
+                "line": 22
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 23
+          },
+          "start": {
+            "column": 29,
+            "line": 21
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 209,
-        "end": 217,
         "decorators": [],
         "name": "Derived3",
-        "optional": false
+        "optional": false,
+        "range": [
+          209,
+          217
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 21
+          },
+          "start": {
+            "column": 6,
+            "line": 21
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 226,
-        "end": 231,
         "decorators": [],
         "name": "Base3",
-        "optional": false
+        "optional": false,
+        "range": [
+          226,
+          231
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 21
+          },
+          "start": {
+            "column": 23,
+            "line": 21
+          }
+        }
+      },
+      "range": [
+        203,
+        258
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 23
+        },
+        "start": {
+          "column": 0,
+          "line": 21
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 24
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

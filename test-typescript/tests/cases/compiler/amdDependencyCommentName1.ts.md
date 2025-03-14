@@ -1,72 +1,193 @@
-amdDependencyCommentName1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 42,
-  "end": 75,
+  "range": [
+    42,
+    75
+  ],
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 42,
-      "end": 67,
       "id": {
         "type": "Identifier",
-        "start": 49,
-        "end": 51,
         "decorators": [],
         "name": "m1",
-        "optional": false
+        "optional": false,
+        "range": [
+          49,
+          51
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 3
+          },
+          "start": {
+            "column": 7,
+            "line": 3
+          }
+        }
       },
       "importKind": "value",
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 54,
-        "end": 67,
         "expression": {
           "type": "Literal",
-          "start": 62,
-          "end": 66,
           "raw": "\"m2\"",
-          "value": "m2"
+          "value": "m2",
+          "range": [
+            62,
+            66
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 3
+            },
+            "start": {
+              "column": 20,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          54,
+          67
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 3
+          },
+          "start": {
+            "column": 12,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        42,
+        67
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 68,
-      "end": 75,
       "expression": {
         "type": "CallExpression",
-        "start": 68,
-        "end": 74,
         "arguments": [],
         "callee": {
           "type": "MemberExpression",
-          "start": 68,
-          "end": 72,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 68,
-            "end": 70,
             "decorators": [],
             "name": "m1",
-            "optional": false
+            "optional": false,
+            "range": [
+              68,
+              70
+            ],
+            "loc": {
+              "end": {
+                "column": 2,
+                "line": 4
+              },
+              "start": {
+                "column": 0,
+                "line": 4
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 71,
-            "end": 72,
             "decorators": [],
             "name": "f",
-            "optional": false
+            "optional": false,
+            "range": [
+              71,
+              72
+            ],
+            "loc": {
+              "end": {
+                "column": 4,
+                "line": 4
+              },
+              "start": {
+                "column": 3,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            68,
+            72
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 4
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          68,
+          74
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        68,
+        75
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 7,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

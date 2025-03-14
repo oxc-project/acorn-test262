@@ -1,41 +1,102 @@
-shebang.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 80,
+  "range": [
+    20,
+    80
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 20,
-      "end": 79,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 24,
-          "end": 78,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 24,
-            "end": 27,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              24,
+              27
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 30,
-            "end": 78,
             "raw": "'I wish the generated JS to be executed in node'",
-            "value": "I wish the generated JS to be executed in node"
+            "value": "I wish the generated JS to be executed in node",
+            "range": [
+              30,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 58,
+                "line": 2
+              },
+              "start": {
+                "column": 10,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            24,
+            78
+          ],
+          "loc": {
+            "end": {
+              "column": 58,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        20,
+        79
+      ],
+      "loc": {
+        "end": {
+          "column": 59,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

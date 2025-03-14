@@ -1,54 +1,139 @@
-ts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 67,
+  "range": [
+    39,
+    67
+  ],
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 39,
-      "end": 66,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 63,
-        "end": 66,
-        "body": []
+        "body": [],
+        "range": [
+          63,
+          66
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 24,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 48,
-        "end": 49,
         "decorators": [],
         "name": "g",
-        "optional": false
+        "optional": false,
+        "range": [
+          48,
+          49
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 4
+          },
+          "start": {
+            "column": 9,
+            "line": 4
+          }
+        }
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 50,
-          "end": 61,
           "decorators": [],
           "name": "arg",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 53,
-            "end": 61,
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 4
+              },
+              "start": {
+                "column": 14,
+                "line": 4
+              }
+            },
+            "range": [
+              53,
+              61
+            ],
             "typeAnnotation": {
               "type": "TSStringKeyword",
-              "start": 55,
-              "end": 61
+              "range": [
+                55,
+                61
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 4
+                },
+                "start": {
+                  "column": 16,
+                  "line": 4
+                }
+              }
+            }
+          },
+          "range": [
+            50,
+            61
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 4
+            },
+            "start": {
+              "column": 11,
+              "line": 4
             }
           }
         }
-      ]
+      ],
+      "range": [
+        39,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 4
+    }
+  },
+  "hashbang": null
 }
 ```

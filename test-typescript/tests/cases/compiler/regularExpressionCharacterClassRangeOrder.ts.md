@@ -1,163 +1,380 @@
-regularExpressionCharacterClassRangeOrder.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 307,
-  "end": 721,
+  "range": [
+    307,
+    721
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 307,
-      "end": 720,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 313,
-          "end": 719,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 313,
-            "end": 330,
             "decorators": [],
             "name": "regexes",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 320,
-              "end": 330,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 6
+                },
+                "start": {
+                  "column": 13,
+                  "line": 6
+                }
+              },
+              "range": [
+                320,
+                330
+              ],
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 322,
-                "end": 330,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 322,
-                  "end": 328,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 322,
-                    "end": 328,
                     "decorators": [],
                     "name": "RegExp",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      322,
+                      328
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 6
+                      }
+                    }
+                  },
+                  "range": [
+                    322,
+                    328
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 15,
+                      "line": 6
+                    }
+                  }
+                },
+                "range": [
+                  322,
+                  330
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 6
                   }
                 }
+              }
+            },
+            "range": [
+              313,
+              330
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 6
+              },
+              "start": {
+                "column": 6,
+                "line": 6
               }
             }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 333,
-            "end": 719,
             "elements": [
               {
                 "type": "Literal",
-                "start": 336,
-                "end": 352,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/",
                 "regex": {
                   "flags": "",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  336,
+                  352
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 7
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 355,
-                "end": 372,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  355,
+                  372
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 8
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 375,
-                "end": 392,
                 "raw": "/[𝘈-𝘡][𝘡-𝘈]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "[𝘈-𝘡][𝘡-𝘈]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  375,
+                  392
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 9
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 396,
-                "end": 440,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/",
                 "regex": {
                   "flags": "",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  396,
+                  440
+                ],
+                "loc": {
+                  "end": {
+                    "column": 45,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 11
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 443,
-                "end": 488,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  443,
+                  488
+                ],
+                "loc": {
+                  "end": {
+                    "column": 46,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 12
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 491,
-                "end": 536,
                 "raw": "/[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "[\\u{1D608}-\\u{1D621}][\\u{1D621}-\\u{1D608}]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  491,
+                  536
+                ],
+                "loc": {
+                  "end": {
+                    "column": 46,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 13
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 540,
-                "end": 596,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/",
                 "regex": {
                   "flags": "",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  540,
+                  596
+                ],
+                "loc": {
+                  "end": {
+                    "column": 57,
+                    "line": 15
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 15
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 599,
-                "end": 656,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/u",
                 "regex": {
                   "flags": "u",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  599,
+                  656
+                ],
+                "loc": {
+                  "end": {
+                    "column": 58,
+                    "line": 16
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 16
+                  }
+                }
               },
               {
                 "type": "Literal",
-                "start": 659,
-                "end": 716,
                 "raw": "/[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]/v",
                 "regex": {
                   "flags": "v",
                   "pattern": "[\\uD835\\uDE08-\\uD835\\uDE21][\\uD835\\uDE21-\\uD835\\uDE08]"
                 },
-                "value": null
+                "value": null,
+                "range": [
+                  659,
+                  716
+                ],
+                "loc": {
+                  "end": {
+                    "column": 58,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 1,
+                    "line": 17
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              333,
+              719
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 18
+              },
+              "start": {
+                "column": 26,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            313,
+            719
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 18
+            },
+            "start": {
+              "column": 6,
+              "line": 6
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        307,
+        720
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 18
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 19
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```

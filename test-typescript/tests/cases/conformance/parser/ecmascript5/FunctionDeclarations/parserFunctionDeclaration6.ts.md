@@ -1,60 +1,145 @@
-parserFunctionDeclaration6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
+  "range": [
+    0,
+    46
+  ],
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 46,
       "body": [
         {
           "type": "TSDeclareFunction",
-          "start": 6,
-          "end": 21,
           "async": false,
           "declare": false,
           "expression": false,
           "generator": false,
           "id": {
             "type": "Identifier",
-            "start": 15,
-            "end": 18,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              15,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 13,
+                "line": 2
+              }
+            }
           },
-          "params": []
+          "params": [],
+          "range": [
+            6,
+            21
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
+          }
         },
         {
           "type": "FunctionDeclaration",
-          "start": 26,
-          "end": 44,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 41,
-            "end": 44,
-            "body": []
+            "body": [],
+            "range": [
+              41,
+              44
+            ],
+            "loc": {
+              "end": {
+                "column": 22,
+                "line": 3
+              },
+              "start": {
+                "column": 19,
+                "line": 3
+              }
+            }
           },
           "declare": false,
           "expression": false,
           "generator": false,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 38,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "range": [
+              35,
+              38
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 3
+              },
+              "start": {
+                "column": 13,
+                "line": 3
+              }
+            }
           },
-          "params": []
+          "params": [],
+          "range": [
+            26,
+            44
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        0,
+        46
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

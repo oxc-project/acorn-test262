@@ -1,49 +1,134 @@
-reactNamespaceInvalidInput.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 13,
+  "range": [
+    0,
+    13
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "JSXElement",
-        "start": 0,
-        "end": 11,
         "children": [],
         "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 0,
-          "end": 11,
+          "range": [
+            0,
+            11
+          ],
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 5,
-              "end": 9,
               "name": {
                 "type": "JSXIdentifier",
-                "start": 5,
-                "end": 9,
-                "name": "data"
+                "name": "data",
+                "range": [
+                  5,
+                  9
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 1
+                  }
+                }
               },
-              "value": null
+              "value": null,
+              "range": [
+                5,
+                9
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 1
+                },
+                "start": {
+                  "column": 5,
+                  "line": 1
+                }
+              }
             }
           ],
           "name": {
             "type": "JSXIdentifier",
-            "start": 1,
-            "end": 4,
-            "name": "foo"
+            "name": "foo",
+            "range": [
+              1,
+              4
+            ],
+            "loc": {
+              "end": {
+                "column": 4,
+                "line": 1
+              },
+              "start": {
+                "column": 1,
+                "line": 1
+              }
+            }
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        12
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

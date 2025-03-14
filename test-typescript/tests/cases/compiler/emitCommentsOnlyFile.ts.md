@@ -1,10 +1,23 @@
-emitCommentsOnlyFile.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 220,
-  "end": 220,
+  "range": [
+    220,
+    220
+  ],
   "body": [],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 27
+    },
+    "start": {
+      "column": 0,
+      "line": 27
+    }
+  },
+  "hashbang": null
 }
 ```

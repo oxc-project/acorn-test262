@@ -1,79 +1,200 @@
-parserModuleDeclaration5.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
+  "range": [
+    0,
+    69
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 69,
       "body": {
         "type": "TSModuleBlock",
-        "start": 10,
-        "end": 69,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 14,
-            "end": 67,
             "body": {
               "type": "TSModuleBlock",
-              "start": 32,
-              "end": 67,
               "body": [
                 {
                   "type": "TSModuleDeclaration",
-                  "start": 38,
-                  "end": 63,
                   "body": {
                     "type": "TSModuleBlock",
-                    "start": 56,
-                    "end": 63,
-                    "body": []
+                    "body": [],
+                    "range": [
+                      56,
+                      63
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 5,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 3
+                      }
+                    }
                   },
                   "declare": true,
                   "global": false,
                   "id": {
                     "type": "Identifier",
-                    "start": 53,
-                    "end": 55,
+                    "range": [
+                      53,
+                      55
+                    ],
                     "decorators": [],
                     "name": "M3",
-                    "optional": false
+                    "optional": false,
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 3
+                      }
+                    }
                   },
-                  "kind": "module"
+                  "kind": "module",
+                  "range": [
+                    38,
+                    63
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 3
+                    }
+                  }
                 }
-              ]
+              ],
+              "range": [
+                32,
+                67
+              ],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 5
+                },
+                "start": {
+                  "column": 20,
+                  "line": 2
+                }
+              }
             },
             "declare": true,
             "global": false,
             "id": {
               "type": "Identifier",
-              "start": 29,
-              "end": 31,
+              "range": [
+                29,
+                31
+              ],
               "decorators": [],
               "name": "M2",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 2
+                },
+                "start": {
+                  "column": 17,
+                  "line": 2
+                }
+              }
             },
-            "kind": "module"
+            "kind": "module",
+            "range": [
+              14,
+              67
+            ],
+            "loc": {
+              "end": {
+                "column": 3,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          10,
+          69
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
+        "range": [
+          7,
+          9
+        ],
         "decorators": [],
         "name": "M1",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        69
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

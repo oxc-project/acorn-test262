@@ -1,73 +1,194 @@
-parserRegularExpressionDivideAmbiguity1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
+  "range": [
+    0,
+    21
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 21,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 20,
         "operator": "/",
         "left": {
           "type": "BinaryExpression",
-          "start": 0,
-          "end": 12,
           "operator": "/",
           "left": {
             "type": "Literal",
-            "start": 0,
-            "end": 1,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "range": [
+              0,
+              1
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 1
+              },
+              "start": {
+                "column": 0,
+                "line": 1
+              }
+            }
           },
           "right": {
             "type": "Identifier",
-            "start": 3,
-            "end": 12,
             "decorators": [],
             "name": "notregexp",
-            "optional": false
+            "optional": false,
+            "range": [
+              3,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 2
+              },
+              "start": {
+                "column": 1,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            0,
+            12
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
           }
         },
         "right": {
           "type": "CallExpression",
-          "start": 13,
-          "end": 20,
           "arguments": [],
           "callee": {
             "type": "MemberExpression",
-            "start": 13,
-            "end": 18,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                13,
+                14
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 15,
-              "end": 18,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                15,
+                18
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              13,
+              18
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 11,
+                "line": 2
+              }
             }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            20
+          ],
+          "loc": {
+            "end": {
+              "column": 18,
+              "line": 2
+            },
+            "start": {
+              "column": 11,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          0,
+          20
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        21
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,10 +1,23 @@
-sourceMap-Comment1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 10,
+  "range": [
+    10,
+    10
+  ],
   "body": [],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 10,
+      "line": 1
+    },
+    "start": {
+      "column": 10,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

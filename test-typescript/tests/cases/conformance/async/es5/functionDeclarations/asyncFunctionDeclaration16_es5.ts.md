@@ -1,33 +1,45 @@
-/types.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
+  "range": [
+    0,
+    41
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 40,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 23,
-        "end": 40,
+        "range": [
+          23,
+          40
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 25,
-            "end": 38,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 25,
-              "end": 29,
               "decorators": [],
               "name": "then",
-              "optional": false
+              "optional": false,
+              "range": [
+                25,
+                29
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 1
+                },
+                "start": {
+                  "column": 25,
+                  "line": 1
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -35,8 +47,10 @@
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 29,
-              "end": 38,
+              "range": [
+                29,
+                38
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -46,32 +60,127 @@
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 31,
-                "end": 37,
+                "loc": {
+                  "end": {
+                    "column": 37,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 1
+                  }
+                },
+                "range": [
+                  31,
+                  37
+                ],
                 "typeAnnotation": {
                   "type": "TSVoidKeyword",
-                  "start": 33,
-                  "end": 37
+                  "range": [
+                    33,
+                    37
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 37,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 33,
+                      "line": 1
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 1
+                },
+                "start": {
+                  "column": 29,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              25,
+              38
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 1
+              },
+              "start": {
+                "column": 25,
+                "line": 1
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 40,
+            "line": 1
+          },
+          "start": {
+            "column": 23,
+            "line": 1
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 22,
         "decorators": [],
         "name": "Thenable",
-        "optional": false
+        "optional": false,
+        "range": [
+          14,
+          22
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        40
+      ],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

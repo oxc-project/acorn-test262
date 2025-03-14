@@ -1,103 +1,201 @@
-main.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 126,
+  "range": [
+    0,
+    126
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 54,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 39,
-          "end": 51,
           "key": {
             "type": "Identifier",
-            "start": 39,
-            "end": 43,
             "decorators": [],
             "name": "type",
-            "optional": false
+            "optional": false,
+            "range": [
+              39,
+              43
+            ],
+            "loc": {
+              "end": {
+                "column": 43,
+                "line": 1
+              },
+              "start": {
+                "column": 39,
+                "line": 1
+              }
+            }
           },
           "value": {
             "type": "Literal",
-            "start": 45,
-            "end": 51,
             "raw": "\"json\"",
-            "value": "json"
+            "value": "json",
+            "range": [
+              45,
+              51
+            ],
+            "loc": {
+              "end": {
+                "column": 51,
+                "line": 1
+              },
+              "start": {
+                "column": 45,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            39,
+            51
+          ],
+          "loc": {
+            "end": {
+              "column": 51,
+              "line": 1
+            },
+            "start": {
+              "column": 39,
+              "line": 1
+            }
           }
         }
       ],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 18,
-        "end": 31,
         "raw": "\"./data.json\"",
-        "value": "./data.json"
+        "value": "./data.json",
+        "range": [
+          18,
+          31
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 1
+          },
+          "start": {
+            "column": 18,
+            "line": 1
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 12,
+          "range": [
+            7,
+            12
+          ],
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 12,
             "decorators": [],
             "name": "data1",
-            "optional": false
+            "optional": false,
+            "range": [
+              7,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 7,
+                "line": 1
+              }
+            }
+          },
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        0,
+        54
+      ],
+      "loc": {
+        "end": {
+          "column": 54,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 55,
-      "end": 125,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 61,
-          "end": 124,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 61,
-            "end": 66,
             "decorators": [],
             "name": "data2",
-            "optional": false
+            "optional": false,
+            "range": [
+              61,
+              66
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "AwaitExpression",
-            "start": 69,
-            "end": 124,
             "argument": {
               "type": "ImportExpression",
-              "start": 75,
-              "end": 124,
               "options": {
                 "type": "ObjectExpression",
-                "start": 97,
-                "end": 123,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 99,
-                    "end": 121,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 99,
-                      "end": 103,
                       "decorators": [],
                       "name": "with",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        99,
+                        103
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 48,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 44,
+                          "line": 2
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -105,21 +203,29 @@ main.ts
                     "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
-                      "start": 105,
-                      "end": 121,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 107,
-                          "end": 119,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 107,
-                            "end": 111,
                             "decorators": [],
                             "name": "type",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              107,
+                              111
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 56,
+                                "line": 2
+                              },
+                              "start": {
+                                "column": 52,
+                                "line": 2
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -127,32 +233,179 @@ main.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 113,
-                            "end": 119,
                             "raw": "\"json\"",
-                            "value": "json"
+                            "value": "json",
+                            "range": [
+                              113,
+                              119
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 64,
+                                "line": 2
+                              },
+                              "start": {
+                                "column": 58,
+                                "line": 2
+                              }
+                            }
+                          },
+                          "range": [
+                            107,
+                            119
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 64,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 52,
+                              "line": 2
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        105,
+                        121
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 66,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 50,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      99,
+                      121
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 66,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 44,
+                        "line": 2
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  97,
+                  123
+                ],
+                "loc": {
+                  "end": {
+                    "column": 68,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 42,
+                    "line": 2
+                  }
+                }
               },
               "source": {
                 "type": "Literal",
-                "start": 82,
-                "end": 95,
                 "raw": "\"./data.json\"",
-                "value": "./data.json"
+                "value": "./data.json",
+                "range": [
+                  82,
+                  95
+                ],
+                "loc": {
+                  "end": {
+                    "column": 40,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                75,
+                124
+              ],
+              "loc": {
+                "end": {
+                  "column": 69,
+                  "line": 2
+                },
+                "start": {
+                  "column": 20,
+                  "line": 2
+                }
               }
+            },
+            "range": [
+              69,
+              124
+            ],
+            "loc": {
+              "end": {
+                "column": 69,
+                "line": 2
+              },
+              "start": {
+                "column": 14,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            61,
+            124
+          ],
+          "loc": {
+            "end": {
+              "column": 69,
+              "line": 2
+            },
+            "start": {
+              "column": 6,
+              "line": 2
             }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        55,
+        125
+      ],
+      "loc": {
+        "end": {
+          "column": 70,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

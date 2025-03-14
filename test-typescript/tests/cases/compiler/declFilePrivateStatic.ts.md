@@ -1,24 +1,24 @@
-declFilePrivateStatic.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 234,
+  "range": [
+    0,
+    234
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 234,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 234,
+        "range": [
+          8,
+          234
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 35,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -26,11 +26,23 @@ declFilePrivateStatic.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 29,
-              "end": 30,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                29,
+                30
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 2
+                },
+                "start": {
+                  "column": 19,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -38,27 +50,63 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 33,
-              "end": 34,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                33,
+                34
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 2
+                },
+                "start": {
+                  "column": 23,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              35
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "PropertyDefinition",
-            "start": 40,
-            "end": 53,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 47,
-              "end": 48,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                47,
+                48
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 3
+                },
+                "start": {
+                  "column": 11,
+                  "line": 3
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -66,26 +114,62 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "Literal",
-              "start": 51,
-              "end": 52,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                51,
+                52
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              40,
+              53
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 59,
-            "end": 81,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 74,
-              "end": 75,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                74,
+                75
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 5
+                },
+                "start": {
+                  "column": 19,
+                  "line": 5
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -93,35 +177,83 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 75,
-              "end": 81,
+              "range": [
+                75,
+                81
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 78,
-                "end": 81,
-                "body": []
+                "body": [],
+                "range": [
+                  78,
+                  81
+                ],
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 5
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 5
+                },
+                "start": {
+                  "column": 20,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              59,
+              81
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 86,
-            "end": 100,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 93,
-              "end": 94,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "range": [
+                93,
+                94
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 6
+                },
+                "start": {
+                  "column": 11,
+                  "line": 6
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -129,36 +261,84 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 94,
-              "end": 100,
+              "range": [
+                94,
+                100
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 97,
-                "end": 100,
-                "body": []
+                "body": [],
+                "range": [
+                  97,
+                  100
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 6
+                },
+                "start": {
+                  "column": 12,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              86,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 106,
-            "end": 142,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 125,
-              "end": 126,
               "decorators": [],
               "name": "c",
-              "optional": false
+              "optional": false,
+              "range": [
+                125,
+                126
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 8
+                },
+                "start": {
+                  "column": 23,
+                  "line": 8
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -166,48 +346,120 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 126,
-              "end": 142,
+              "range": [
+                126,
+                142
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 129,
-                "end": 142,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 131,
-                    "end": 140,
                     "argument": {
                       "type": "Literal",
-                      "start": 138,
-                      "end": 139,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        138,
+                        139
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 37,
+                          "line": 8
+                        },
+                        "start": {
+                          "column": 36,
+                          "line": 8
+                        }
+                      }
+                    },
+                    "range": [
+                      131,
+                      140
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 38,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 29,
+                        "line": 8
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  129,
+                  142
+                ],
+                "loc": {
+                  "end": {
+                    "column": 40,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 40,
+                  "line": 8
+                },
+                "start": {
+                  "column": 24,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              106,
+              142
+            ],
+            "loc": {
+              "end": {
+                "column": 40,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 147,
-            "end": 175,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 158,
-              "end": 159,
               "decorators": [],
               "name": "d",
-              "optional": false
+              "optional": false,
+              "range": [
+                158,
+                159
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 9
+                },
+                "start": {
+                  "column": 15,
+                  "line": 9
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -215,49 +467,121 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 159,
-              "end": 175,
+              "range": [
+                159,
+                175
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 162,
-                "end": 175,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 164,
-                    "end": 173,
                     "argument": {
                       "type": "Literal",
-                      "start": 171,
-                      "end": 172,
                       "raw": "1",
-                      "value": 1
+                      "value": 1,
+                      "range": [
+                        171,
+                        172
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 9
+                        },
+                        "start": {
+                          "column": 28,
+                          "line": 9
+                        }
+                      }
+                    },
+                    "range": [
+                      164,
+                      173
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 9
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 9
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  162,
+                  175
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 9
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 9
+                },
+                "start": {
+                  "column": 16,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              147,
+              175
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 181,
-            "end": 208,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 200,
-              "end": 201,
               "decorators": [],
               "name": "e",
-              "optional": false
+              "optional": false,
+              "range": [
+                200,
+                201
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 11
+                },
+                "start": {
+                  "column": 23,
+                  "line": 11
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -265,14 +589,28 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 201,
-              "end": 208,
+              "range": [
+                201,
+                208
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 205,
-                "end": 208,
-                "body": []
+                "body": [],
+                "range": [
+                  205,
+                  208
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 28,
+                    "line": 11
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -281,28 +619,74 @@ declFilePrivateStatic.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 202,
-                  "end": 203,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    202,
+                    203
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 26,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 25,
+                      "line": 11
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 11
+                },
+                "start": {
+                  "column": 24,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              181,
+              208
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 213,
-            "end": 232,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 224,
-              "end": 225,
               "decorators": [],
               "name": "f",
-              "optional": false
+              "optional": false,
+              "range": [
+                224,
+                225
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 12
+                },
+                "start": {
+                  "column": 15,
+                  "line": 12
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -310,14 +694,28 @@ declFilePrivateStatic.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 225,
-              "end": 232,
+              "range": [
+                225,
+                232
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 229,
-                "end": 232,
-                "body": []
+                "body": [],
+                "range": [
+                  229,
+                  232
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 12
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -326,31 +724,114 @@ declFilePrivateStatic.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 226,
-                  "end": 227,
                   "decorators": [],
                   "name": "v",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    226,
+                    227
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 12
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 12
+                },
+                "start": {
+                  "column": 16,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              213,
+              232
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        234
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 13
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

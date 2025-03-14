@@ -1,265 +1,654 @@
-/ts.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
+  "range": [
+    0,
+    11
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/tsx.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
+  "range": [
+    0,
+    11
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/dts.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
+  "range": [
+    0,
+    11
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "attributes": [],
       "declaration": null,
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        10
+      ],
+      "loc": {
+        "end": {
+          "column": 10,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/b.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 319,
+  "range": [
+    0,
+    319
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 25,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 24,
         "raw": "\"./ts.js\"",
-        "value": "./ts.js"
+        "value": "./ts.js",
+        "range": [
+          15,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 26,
-      "end": 51,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 41,
-        "end": 50,
         "raw": "\"./ts.ts\"",
-        "value": "./ts.ts"
+        "value": "./ts.ts",
+        "range": [
+          41,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 24,
+            "line": 2
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        26,
+        51
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 52,
-      "end": 84,
       "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
-        "start": 72,
-        "end": 83,
         "raw": "\"./ts.d.ts\"",
-        "value": "./ts.d.ts"
+        "value": "./ts.d.ts",
+        "range": [
+          72,
+          83
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 3
+          },
+          "start": {
+            "column": 20,
+            "line": 3
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        52,
+        84
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 86,
-      "end": 112,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 101,
-        "end": 111,
         "raw": "\"./tsx.js\"",
-        "value": "./tsx.js"
+        "value": "./tsx.js",
+        "range": [
+          101,
+          111
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 5
+          },
+          "start": {
+            "column": 15,
+            "line": 5
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        86,
+        112
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 113,
-      "end": 140,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 128,
-        "end": 139,
         "raw": "\"./tsx.jsx\"",
-        "value": "./tsx.jsx"
+        "value": "./tsx.jsx",
+        "range": [
+          128,
+          139
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 6
+          },
+          "start": {
+            "column": 15,
+            "line": 6
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        113,
+        140
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 141,
-      "end": 167,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 156,
-        "end": 166,
         "raw": "\"./tsx.ts\"",
-        "value": "./tsx.ts"
+        "value": "./tsx.ts",
+        "range": [
+          156,
+          166
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 7
+          },
+          "start": {
+            "column": 15,
+            "line": 7
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        141,
+        167
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 168,
-      "end": 195,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 183,
-        "end": 194,
         "raw": "\"./tsx.tsx\"",
-        "value": "./tsx.tsx"
+        "value": "./tsx.tsx",
+        "range": [
+          183,
+          194
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 8
+          },
+          "start": {
+            "column": 15,
+            "line": 8
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        168,
+        195
+      ],
+      "loc": {
+        "end": {
+          "column": 27,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 8
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 196,
-      "end": 229,
       "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
-        "start": 216,
-        "end": 228,
         "raw": "\"./tsx.d.ts\"",
-        "value": "./tsx.d.ts"
+        "value": "./tsx.d.ts",
+        "range": [
+          216,
+          228
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 9
+          },
+          "start": {
+            "column": 20,
+            "line": 9
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        196,
+        229
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 231,
-      "end": 257,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 246,
-        "end": 256,
         "raw": "\"./dts.js\"",
-        "value": "./dts.js"
+        "value": "./dts.js",
+        "range": [
+          246,
+          256
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 11
+          },
+          "start": {
+            "column": 15,
+            "line": 11
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        231,
+        257
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 258,
-      "end": 284,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 273,
-        "end": 283,
         "raw": "\"./dts.ts\"",
-        "value": "./dts.ts"
+        "value": "./dts.ts",
+        "range": [
+          273,
+          283
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 12
+          },
+          "start": {
+            "column": 15,
+            "line": 12
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        258,
+        284
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 12
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     },
     {
       "type": "ImportDeclaration",
-      "start": 285,
-      "end": 318,
       "attributes": [],
       "importKind": "type",
       "source": {
         "type": "Literal",
-        "start": 305,
-        "end": 317,
         "raw": "\"./dts.d.ts\"",
-        "value": "./dts.d.ts"
+        "value": "./dts.d.ts",
+        "range": [
+          305,
+          317
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 13
+          },
+          "start": {
+            "column": 20,
+            "line": 13
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        285,
+        318
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-/c.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
+  "range": [
+    0,
+    44
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 43,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 42,
         "raw": "\"./thisfiledoesnotexist.ts\"",
-        "value": "./thisfiledoesnotexist.ts"
+        "value": "./thisfiledoesnotexist.ts",
+        "range": [
+          15,
+          42
+        ],
+        "loc": {
+          "end": {
+            "column": 42,
+            "line": 1
+          },
+          "start": {
+            "column": 15,
+            "line": 1
+          }
+        }
       },
-      "specifiers": []
+      "specifiers": [],
+      "range": [
+        0,
+        43
+      ],
+      "loc": {
+        "end": {
+          "column": 43,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

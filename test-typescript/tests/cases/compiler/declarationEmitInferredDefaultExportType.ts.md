@@ -1,31 +1,39 @@
-declarationEmitInferredDefaultExportType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 70,
+  "range": [
+    11,
+    70
+  ],
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 11,
-      "end": 70,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 26,
-        "end": 70,
         "properties": [
           {
             "type": "Property",
-            "start": 30,
-            "end": 37,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 30,
-              "end": 33,
               "decorators": [],
               "name": "foo",
-              "optional": false
+              "optional": false,
+              "range": [
+                30,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 3
+                },
+                "start": {
+                  "column": 2,
+                  "line": 3
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -33,23 +41,59 @@ declarationEmitInferredDefaultExportType.ts
             "shorthand": false,
             "value": {
               "type": "ArrayExpression",
-              "start": 35,
-              "end": 37,
-              "elements": []
+              "elements": [],
+              "range": [
+                35,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 7,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              30,
+              37
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 2,
+                "line": 3
+              }
             }
           },
           {
             "type": "Property",
-            "start": 41,
-            "end": 55,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 41,
-              "end": 44,
               "decorators": [],
               "name": "bar",
-              "optional": false
+              "optional": false,
+              "range": [
+                41,
+                44
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 2,
+                  "line": 4
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -57,25 +101,61 @@ declarationEmitInferredDefaultExportType.ts
             "shorthand": false,
             "value": {
               "type": "Identifier",
-              "start": 46,
-              "end": 55,
               "decorators": [],
               "name": "undefined",
-              "optional": false
+              "optional": false,
+              "range": [
+                46,
+                55
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 7,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              41,
+              55
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 4
+              },
+              "start": {
+                "column": 2,
+                "line": 4
+              }
             }
           },
           {
             "type": "Property",
-            "start": 59,
-            "end": 68,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 62,
               "decorators": [],
               "name": "baz",
-              "optional": false
+              "optional": false,
+              "range": [
+                59,
+                62
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 2,
+                  "line": 5
+                }
+              }
             },
             "kind": "init",
             "method": false,
@@ -83,17 +163,82 @@ declarationEmitInferredDefaultExportType.ts
             "shorthand": false,
             "value": {
               "type": "Literal",
-              "start": 64,
-              "end": 68,
               "raw": "null",
-              "value": null
+              "value": null,
+              "range": [
+                64,
+                68
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 5
+                },
+                "start": {
+                  "column": 7,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              59,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 5
+              },
+              "start": {
+                "column": 2,
+                "line": 5
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          26,
+          70
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "range": [
+        11,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

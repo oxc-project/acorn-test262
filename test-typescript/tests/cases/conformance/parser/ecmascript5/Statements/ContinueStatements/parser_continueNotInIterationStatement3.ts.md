@@ -1,39 +1,100 @@
-parser_continueNotInIterationStatement3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
+  "range": [
+    0,
+    39
+  ],
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 0,
-      "end": 39,
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 15,
-          "end": 37,
           "consequent": [
             {
               "type": "ContinueStatement",
-              "start": 28,
-              "end": 37,
-              "label": null
+              "label": null,
+              "range": [
+                28,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 13,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
             }
           ],
-          "test": null
+          "test": null,
+          "range": [
+            15,
+            37
+          ],
+          "loc": {
+            "end": {
+              "column": 13,
+              "line": 3
+            },
+            "start": {
+              "column": 2,
+              "line": 2
+            }
+          }
         }
       ],
       "discriminant": {
         "type": "Literal",
-        "start": 8,
-        "end": 9,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "range": [
+          8,
+          9
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        39
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

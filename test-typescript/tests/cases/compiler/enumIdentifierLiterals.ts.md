@@ -1,98 +1,267 @@
-enumIdentifierLiterals.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
+  "range": [
+    0,
+    69
+  ],
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 69,
       "body": {
         "type": "TSEnumBody",
-        "start": 10,
-        "end": 69,
+        "range": [
+          10,
+          69
+        ],
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 16,
-            "end": 19,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 16,
-              "end": 19,
               "raw": "1.0",
-              "value": 1
+              "value": 1,
+              "range": [
+                16,
+                19
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              16,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 25,
-            "end": 30,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 25,
-              "end": 30,
               "raw": "11e-1",
-              "value": 1.1
+              "value": 1.1,
+              "range": [
+                25,
+                30
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              25,
+              30
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 36,
-            "end": 42,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 36,
-              "end": 42,
               "raw": "0.12e1",
-              "value": 1.2
+              "value": 1.2,
+              "range": [
+                36,
+                42
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              36,
+              42
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 48,
-            "end": 55,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 48,
-              "end": 55,
               "raw": "\"13e-1\"",
-              "value": "13e-1"
+              "value": "13e-1",
+              "range": [
+                48,
+                55
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
+            },
+            "range": [
+              48,
+              55
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 61,
-            "end": 67,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 61,
-              "end": 67,
               "raw": "0xF00D",
-              "value": 61453
+              "value": 61453,
+              "range": [
+                61,
+                67
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              61,
+              67
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
       },
       "const": false,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 9,
         "decorators": [],
         "name": "Nums",
-        "optional": false
+        "optional": false,
+        "range": [
+          5,
+          9
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        69
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,45 +1,63 @@
-parserKeywordsAsIdentifierName1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
+  "range": [
+    0,
+    55
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 54,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 54,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "big",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 54,
             "properties": [
               {
                 "type": "Property",
-                "start": 15,
-                "end": 24,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 15,
-                  "end": 20,
                   "decorators": [],
                   "name": "break",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    15,
+                    20
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 3,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,24 +65,60 @@ parserKeywordsAsIdentifierName1.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 23,
-                  "end": 24,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    23,
+                    24
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  15,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 2
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 29,
-                "end": 38,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 29,
-                  "end": 34,
                   "decorators": [],
                   "name": "super",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    29,
+                    34
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 3,
+                      "line": 3
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -72,24 +126,60 @@ parserKeywordsAsIdentifierName1.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 37,
-                  "end": 38,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    37,
+                    38
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  29,
+                  38
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 3
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 43,
-                "end": 52,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 48,
                   "decorators": [],
                   "name": "const",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    43,
+                    48
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 3,
+                      "line": 4
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -97,20 +187,99 @@ parserKeywordsAsIdentifierName1.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 51,
-                  "end": 52,
                   "raw": "0",
-                  "value": 0
+                  "value": 0,
+                  "range": [
+                    51,
+                    52
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 4
+                    }
+                  }
+                },
+                "range": [
+                  43,
+                  52
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 4
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              10,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 5
+              },
+              "start": {
+                "column": 10,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        54
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

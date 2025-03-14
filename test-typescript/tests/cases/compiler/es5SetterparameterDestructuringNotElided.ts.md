@@ -1,45 +1,63 @@
-es5SetterparameterDestructuringNotElided.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 101,
+  "range": [
+    0,
+    101
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 101,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 100,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 12,
-            "end": 100,
             "properties": [
               {
                 "type": "Property",
-                "start": 18,
-                "end": 97,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 25,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    22,
+                    25
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "set",
                 "method": false,
@@ -47,55 +65,141 @@ es5SetterparameterDestructuringNotElided.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 25,
-                  "end": 97,
+                  "range": [
+                    25,
+                    97
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 52,
-                    "end": 97,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 62,
-                        "end": 73,
                         "expression": {
                           "type": "UnaryExpression",
-                          "start": 62,
-                          "end": 72,
                           "argument": {
                             "type": "Identifier",
-                            "start": 67,
-                            "end": 72,
                             "decorators": [],
                             "name": "start",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              67,
+                              72
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 18,
+                                "line": 3
+                              },
+                              "start": {
+                                "column": 13,
+                                "line": 3
+                              }
+                            }
                           },
                           "operator": "void",
-                          "prefix": true
+                          "prefix": true,
+                          "range": [
+                            62,
+                            72
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 18,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 8,
+                              "line": 3
+                            }
+                          }
+                        },
+                        "range": [
+                          62,
+                          73
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 3
+                          }
                         }
                       },
                       {
                         "type": "ExpressionStatement",
-                        "start": 82,
-                        "end": 91,
                         "expression": {
                           "type": "UnaryExpression",
-                          "start": 82,
-                          "end": 90,
                           "argument": {
                             "type": "Identifier",
-                            "start": 87,
-                            "end": 90,
                             "decorators": [],
                             "name": "end",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              87,
+                              90
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 16,
+                                "line": 4
+                              },
+                              "start": {
+                                "column": 13,
+                                "line": 4
+                              }
+                            }
                           },
                           "operator": "void",
-                          "prefix": true
+                          "prefix": true,
+                          "range": [
+                            82,
+                            90
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 16,
+                              "line": 4
+                            },
+                            "start": {
+                              "column": 8,
+                              "line": 4
+                            }
+                          }
+                        },
+                        "range": [
+                          82,
+                          91
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 4
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      52,
+                      97
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 5,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 38,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
@@ -104,62 +208,223 @@ es5SetterparameterDestructuringNotElided.ts
                   "params": [
                     {
                       "type": "ArrayPattern",
-                      "start": 26,
-                      "end": 50,
                       "decorators": [],
                       "elements": [
                         {
                           "type": "Identifier",
-                          "start": 27,
-                          "end": 32,
                           "decorators": [],
                           "name": "start",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            27,
+                            32
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 18,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 13,
+                              "line": 2
+                            }
+                          }
                         },
                         {
                           "type": "Identifier",
-                          "start": 34,
-                          "end": 37,
                           "decorators": [],
                           "name": "end",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            34,
+                            37
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 23,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 20,
+                              "line": 2
+                            }
+                          }
                         }
                       ],
                       "optional": false,
                       "typeAnnotation": {
                         "type": "TSTypeAnnotation",
-                        "start": 38,
-                        "end": 50,
+                        "loc": {
+                          "end": {
+                            "column": 36,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 24,
+                            "line": 2
+                          }
+                        },
+                        "range": [
+                          38,
+                          50
+                        ],
                         "typeAnnotation": {
                           "type": "TSTupleType",
-                          "start": 40,
-                          "end": 50,
                           "elementTypes": [
                             {
                               "type": "TSAnyKeyword",
-                              "start": 41,
-                              "end": 44
+                              "range": [
+                                41,
+                                44
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 30,
+                                  "line": 2
+                                },
+                                "start": {
+                                  "column": 27,
+                                  "line": 2
+                                }
+                              }
                             },
                             {
                               "type": "TSAnyKeyword",
-                              "start": 46,
-                              "end": 49
+                              "range": [
+                                46,
+                                49
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 35,
+                                  "line": 2
+                                },
+                                "start": {
+                                  "column": 32,
+                                  "line": 2
+                                }
+                              }
                             }
-                          ]
+                          ],
+                          "range": [
+                            40,
+                            50
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 36,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 26,
+                              "line": 2
+                            }
+                          }
+                        }
+                      },
+                      "range": [
+                        26,
+                        50
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 36,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 2
                         }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  18,
+                  97
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              12,
+              100
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 6
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            100
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 6
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        101
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 2,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

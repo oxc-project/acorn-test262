@@ -1,23 +1,19 @@
-globalThisGlobalExportAsGlobal.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 111,
+  "range": [
+    56,
+    111
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 56,
-      "end": 110,
       "body": {
         "type": "TSModuleBlock",
-        "start": 71,
-        "end": 110,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 77,
-            "end": 108,
             "attributes": [],
             "declaration": null,
             "exportKind": "value",
@@ -25,43 +21,144 @@ globalThisGlobalExportAsGlobal.ts
             "specifiers": [
               {
                 "type": "ExportSpecifier",
-                "start": 86,
-                "end": 106,
                 "exported": {
                   "type": "Identifier",
-                  "start": 100,
-                  "end": 106,
                   "decorators": [],
                   "name": "global",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    100,
+                    106
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 33,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 27,
+                      "line": 3
+                    }
+                  }
                 },
                 "exportKind": "value",
                 "local": {
                   "type": "Identifier",
-                  "start": 86,
-                  "end": 96,
                   "decorators": [],
                   "name": "globalThis",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    86,
+                    96
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 3
+                    }
+                  }
+                },
+                "range": [
+                  86,
+                  106
+                ],
+                "loc": {
+                  "end": {
+                    "column": 33,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              77,
+              108
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          71,
+          110
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
       "declare": true,
       "global": true,
       "id": {
         "type": "Identifier",
-        "start": 64,
-        "end": 70,
         "decorators": [],
         "name": "global",
-        "optional": false
+        "optional": false,
+        "range": [
+          64,
+          70
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 2
+          },
+          "start": {
+            "column": 8,
+            "line": 2
+          }
+        }
       },
-      "kind": "global"
+      "kind": "global",
+      "range": [
+        56,
+        110
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

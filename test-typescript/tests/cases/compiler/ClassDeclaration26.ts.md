@@ -1,4 +1,4 @@
-ClassDeclaration26.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Variable declaration not allowed at this location.
 ```

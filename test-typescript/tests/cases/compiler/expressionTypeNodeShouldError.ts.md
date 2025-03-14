@@ -1,16 +1,16 @@
-base.d.ts
+__ESTREE_TEST__:FAIL:
 ```json
 ',' expected.
 ```
-string.ts
+__ESTREE_TEST__:FAIL:
 ```json
 ',' expected.
 ```
-number.ts
+__ESTREE_TEST__:FAIL:
 ```json
 ',' expected.
 ```
-boolean.ts
+__ESTREE_TEST__:FAIL:
 ```json
 ',' expected.
 ```

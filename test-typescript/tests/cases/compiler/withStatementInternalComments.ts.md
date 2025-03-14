@@ -1,29 +1,78 @@
-withStatementInternalComments.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 61,
+  "range": [
+    20,
+    61
+  ],
   "body": [
     {
       "type": "WithStatement",
-      "start": 20,
-      "end": 61,
       "body": {
         "type": "BlockStatement",
-        "start": 59,
-        "end": 61,
-        "body": []
+        "body": [],
+        "range": [
+          59,
+          61
+        ],
+        "loc": {
+          "end": {
+            "column": 47,
+            "line": 2
+          },
+          "start": {
+            "column": 45,
+            "line": 2
+          }
+        }
       },
       "object": {
         "type": "Literal",
-        "start": 39,
-        "end": 44,
         "raw": "false",
-        "value": false
+        "value": false,
+        "range": [
+          39,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 30,
+            "line": 2
+          },
+          "start": {
+            "column": 25,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        20,
+        61
+      ],
+      "loc": {
+        "end": {
+          "column": 47,
+          "line": 2
+        },
+        "start": {
+          "column": 6,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 47,
+      "line": 2
+    },
+    "start": {
+      "column": 6,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

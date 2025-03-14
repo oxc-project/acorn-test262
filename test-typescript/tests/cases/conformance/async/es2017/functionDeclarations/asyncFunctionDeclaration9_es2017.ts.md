@@ -1,4 +1,4 @@
-asyncFunctionDeclaration9_es2017.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Expression expected.
 ```

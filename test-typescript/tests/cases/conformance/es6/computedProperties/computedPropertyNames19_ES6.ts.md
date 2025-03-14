@@ -1,65 +1,103 @@
-computedPropertyNames19_ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
+  "range": [
+    0,
+    56
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 56,
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 56,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 15,
-            "end": 54,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 19,
-                "end": 54,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 22,
                   "decorators": [],
                   "name": "obj",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    19,
+                    22
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 25,
-                  "end": 54,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 35,
-                      "end": 48,
                       "computed": true,
                       "key": {
                         "type": "MemberExpression",
-                        "start": 36,
-                        "end": 44,
                         "computed": false,
                         "object": {
                           "type": "ThisExpression",
-                          "start": 36,
-                          "end": 40
+                          "range": [
+                            36,
+                            40
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 13,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 3
+                            }
+                          }
                         },
                         "optional": false,
                         "property": {
                           "type": "Identifier",
-                          "start": 41,
-                          "end": 44,
                           "decorators": [],
                           "name": "bar",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            41,
+                            44
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 14,
+                              "line": 3
+                            }
+                          }
+                        },
+                        "range": [
+                          36,
+                          44
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 9,
+                            "line": 3
+                          }
                         }
                       },
                       "kind": "init",
@@ -68,34 +106,153 @@ computedPropertyNames19_ES6.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 47,
-                        "end": 48,
                         "raw": "0",
-                        "value": 0
+                        "value": 0,
+                        "range": [
+                          47,
+                          48
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 21,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 20,
+                            "line": 3
+                          }
+                        }
+                      },
+                      "range": [
+                        35,
+                        48
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 3
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    25,
+                    54
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  19,
+                  54
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
                 }
               }
             ],
             "declare": false,
-            "kind": "var"
+            "kind": "var",
+            "range": [
+              15,
+              54
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          9,
+          56
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
+        "range": [
+          7,
+          8
+        ],
         "decorators": [],
         "name": "M",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        56
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,42 +1,115 @@
-newMap.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
+  "range": [
+    0,
+    19
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 18,
       "expression": {
         "type": "NewExpression",
-        "start": 0,
-        "end": 17,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 4,
-          "end": 7,
           "decorators": [],
           "name": "Map",
-          "optional": false
+          "optional": false,
+          "range": [
+            4,
+            7
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 7,
-          "end": 15,
+          "range": [
+            7,
+            15
+          ],
           "params": [
             {
               "type": "TSStringKeyword",
-              "start": 8,
-              "end": 14
+              "range": [
+                8,
+                14
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 1
+                },
+                "start": {
+                  "column": 8,
+                  "line": 1
+                }
+              }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 1
+            },
+            "start": {
+              "column": 7,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        18
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

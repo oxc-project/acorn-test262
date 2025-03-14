@@ -1,4 +1,4 @@
-await_unaryExpression_es2017_3.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Expression expected.
 ```

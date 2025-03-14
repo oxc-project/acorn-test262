@@ -1,49 +1,134 @@
-reactNamespaceMissingDeclaration.tsx
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 44,
+  "range": [
+    33,
+    44
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 33,
-      "end": 44,
       "expression": {
         "type": "JSXElement",
-        "start": 33,
-        "end": 44,
         "children": [],
         "closingElement": null,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 33,
-          "end": 44,
+          "range": [
+            33,
+            44
+          ],
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 38,
-              "end": 42,
               "name": {
                 "type": "JSXIdentifier",
-                "start": 38,
-                "end": 42,
-                "name": "data"
+                "name": "data",
+                "range": [
+                  38,
+                  42
+                ],
+                "loc": {
+                  "end": {
+                    "column": 9,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 5,
+                    "line": 2
+                  }
+                }
               },
-              "value": null
+              "value": null,
+              "range": [
+                38,
+                42
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 2
+                },
+                "start": {
+                  "column": 5,
+                  "line": 2
+                }
+              }
             }
           ],
           "name": {
             "type": "JSXIdentifier",
-            "start": 34,
-            "end": 37,
-            "name": "foo"
+            "name": "foo",
+            "range": [
+              34,
+              37
+            ],
+            "loc": {
+              "end": {
+                "column": 4,
+                "line": 2
+              },
+              "start": {
+                "column": 1,
+                "line": 2
+              }
+            }
           },
-          "selfClosing": true
+          "selfClosing": true,
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          33,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        33,
+        44
+      ],
+      "loc": {
+        "end": {
+          "column": 11,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 11,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,33 +1,45 @@
-ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 489,
+  "range": [
+    0,
+    489
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 126,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 126,
+        "range": [
+          12,
+          126
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 18,
-            "end": 69,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 29,
+              "range": [
+                18,
+                29
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 29,
-              "end": 69,
+              "range": [
+                29,
+                69
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 66,
-                "end": 69,
-                "body": []
+                "body": [],
+                "range": [
+                  66,
+                  69
+                ],
+                "loc": {
+                  "end": {
+                    "column": 55,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 52,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,76 +77,206 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
               "params": [
                 {
                   "type": "TSParameterProperty",
-                  "start": 30,
-                  "end": 46,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "Identifier",
-                    "start": 37,
-                    "end": 46,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 38,
-                      "end": 46,
+                      "loc": {
+                        "end": {
+                          "column": 32,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 2
+                        }
+                      },
+                      "range": [
+                        38,
+                        46
+                      ],
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 40,
-                        "end": 46
+                        "range": [
+                          40,
+                          46
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 32,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 26,
+                            "line": 2
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      37,
+                      46
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 32,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 2
                       }
                     }
                   },
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "range": [
+                    30,
+                    46
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 32,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 2
+                    }
+                  }
                 },
                 {
                   "type": "TSParameterProperty",
-                  "start": 48,
-                  "end": 64,
                   "accessibility": "public",
                   "decorators": [],
                   "override": false,
                   "parameter": {
                     "type": "Identifier",
-                    "start": 55,
-                    "end": 64,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 56,
-                      "end": 64,
+                      "loc": {
+                        "end": {
+                          "column": 50,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 42,
+                          "line": 2
+                        }
+                      },
+                      "range": [
+                        56,
+                        64
+                      ],
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 58,
-                        "end": 64
+                        "range": [
+                          58,
+                          64
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 50,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 44,
+                            "line": 2
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      55,
+                      64
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 50,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 41,
+                        "line": 2
                       }
                     }
                   },
                   "readonly": false,
-                  "static": false
+                  "static": false,
+                  "range": [
+                    48,
+                    64
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 50,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 34,
+                      "line": 2
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 55,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              18,
+              69
+            ],
+            "loc": {
+              "end": {
+                "column": 55,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 75,
-            "end": 124,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 82,
-              "end": 88,
               "decorators": [],
               "name": "Origin",
-              "optional": false
+              "optional": false,
+              "range": [
+                82,
+                88
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 4
+                },
+                "start": {
+                  "column": 11,
+                  "line": 4
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -128,35 +284,41 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
             "static": true,
             "value": {
               "type": "FunctionExpression",
-              "start": 88,
-              "end": 124,
+              "range": [
+                88,
+                124
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 98,
-                "end": 124,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 100,
-                    "end": 122,
                     "argument": {
                       "type": "ObjectExpression",
-                      "start": 107,
-                      "end": 121,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 109,
-                          "end": 113,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 109,
-                            "end": 110,
                             "decorators": [],
                             "name": "x",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              109,
+                              110
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 39,
+                                "line": 4
+                              },
+                              "start": {
+                                "column": 38,
+                                "line": 4
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -164,24 +326,60 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 112,
-                            "end": 113,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "range": [
+                              112,
+                              113
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 42,
+                                "line": 4
+                              },
+                              "start": {
+                                "column": 41,
+                                "line": 4
+                              }
+                            }
+                          },
+                          "range": [
+                            109,
+                            113
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 42,
+                              "line": 4
+                            },
+                            "start": {
+                              "column": 38,
+                              "line": 4
+                            }
                           }
                         },
                         {
                           "type": "Property",
-                          "start": 115,
-                          "end": 119,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 115,
-                            "end": 116,
                             "decorators": [],
                             "name": "y",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              115,
+                              116
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 45,
+                                "line": 4
+                              },
+                              "start": {
+                                "column": 44,
+                                "line": 4
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -189,16 +387,84 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 118,
-                            "end": 119,
                             "raw": "0",
-                            "value": 0
+                            "value": 0,
+                            "range": [
+                              118,
+                              119
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 48,
+                                "line": 4
+                              },
+                              "start": {
+                                "column": 47,
+                                "line": 4
+                              }
+                            }
+                          },
+                          "range": [
+                            115,
+                            119
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 48,
+                              "line": 4
+                            },
+                            "start": {
+                              "column": 44,
+                              "line": 4
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        107,
+                        121
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 50,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 36,
+                          "line": 4
+                        }
+                      }
+                    },
+                    "range": [
+                      100,
+                      122
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 51,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 29,
+                        "line": 4
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  98,
+                  124
+                ],
+                "loc": {
+                  "end": {
+                    "column": 53,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 27,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -207,136 +473,336 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 90,
-                "end": 97,
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 4
+                  }
+                },
+                "range": [
+                  90,
+                  97
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 92,
-                  "end": 97,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 92,
-                    "end": 97,
                     "decorators": [],
                     "name": "Point",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      92,
+                      97
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 26,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    92,
+                    97
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 26,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 4
+                    }
                   }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 53,
+                  "line": 4
+                },
+                "start": {
+                  "column": 17,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              75,
+              124
+            ],
+            "loc": {
+              "end": {
+                "column": 53,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "Point",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          11
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        126
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 128,
-      "end": 216,
       "body": {
         "type": "TSModuleBlock",
-        "start": 141,
-        "end": 216,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 147,
-            "end": 179,
             "async": false,
             "body": {
               "type": "BlockStatement",
-              "start": 165,
-              "end": 179,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 167,
-                  "end": 177,
                   "argument": {
                     "type": "Literal",
-                    "start": 174,
-                    "end": 176,
                     "raw": "\"\"",
-                    "value": ""
+                    "value": "",
+                    "range": [
+                      174,
+                      176
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 33,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 31,
+                        "line": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    167,
+                    177
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 8
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                165,
+                179
+              ],
+              "loc": {
+                "end": {
+                  "column": 36,
+                  "line": 8
+                },
+                "start": {
+                  "column": 22,
+                  "line": 8
+                }
+              }
             },
             "declare": false,
             "expression": false,
             "generator": false,
             "id": {
               "type": "Identifier",
-              "start": 156,
-              "end": 162,
               "decorators": [],
               "name": "Origin",
-              "optional": false
+              "optional": false,
+              "range": [
+                156,
+                162
+              ],
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 8
+                },
+                "start": {
+                  "column": 13,
+                  "line": 8
+                }
+              }
             },
-            "params": []
+            "params": [],
+            "range": [
+              147,
+              179
+            ],
+            "loc": {
+              "end": {
+                "column": 36,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          141,
+          216
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 9
+          },
+          "start": {
+            "column": 13,
+            "line": 7
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 135,
-        "end": 140,
+        "range": [
+          135,
+          140
+        ],
         "decorators": [],
         "name": "Point",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 7
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        128,
+        216
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 219,
-      "end": 489,
       "body": {
         "type": "TSModuleBlock",
-        "start": 228,
-        "end": 489,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 234,
-            "end": 379,
+            "range": [
+              234,
+              379
+            ],
             "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 241,
-              "end": 379,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "start": 253,
-                "end": 379,
+                "range": [
+                  253,
+                  379
+                ],
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 263,
-                    "end": 314,
                     "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 263,
-                      "end": 274,
+                      "range": [
+                        263,
+                        274
+                      ],
                       "decorators": [],
                       "name": "constructor",
-                      "optional": false
+                      "optional": false,
+                      "loc": {
+                        "end": {
+                          "column": 19,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 14
+                        }
+                      }
                     },
                     "kind": "constructor",
                     "optional": false,
@@ -344,14 +810,28 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                     "static": false,
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 274,
-                      "end": 314,
+                      "range": [
+                        274,
+                        314
+                      ],
                       "async": false,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 311,
-                        "end": 314,
-                        "body": []
+                        "body": [],
+                        "range": [
+                          311,
+                          314
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 59,
+                            "line": 14
+                          },
+                          "start": {
+                            "column": 56,
+                            "line": 14
+                          }
+                        }
                       },
                       "declare": false,
                       "expression": false,
@@ -360,76 +840,206 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                       "params": [
                         {
                           "type": "TSParameterProperty",
-                          "start": 275,
-                          "end": 291,
                           "accessibility": "public",
                           "decorators": [],
                           "override": false,
                           "parameter": {
                             "type": "Identifier",
-                            "start": 282,
-                            "end": 291,
                             "decorators": [],
                             "name": "x",
                             "optional": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
-                              "start": 283,
-                              "end": 291,
+                              "loc": {
+                                "end": {
+                                  "column": 36,
+                                  "line": 14
+                                },
+                                "start": {
+                                  "column": 28,
+                                  "line": 14
+                                }
+                              },
+                              "range": [
+                                283,
+                                291
+                              ],
                               "typeAnnotation": {
                                 "type": "TSNumberKeyword",
-                                "start": 285,
-                                "end": 291
+                                "range": [
+                                  285,
+                                  291
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 36,
+                                    "line": 14
+                                  },
+                                  "start": {
+                                    "column": 30,
+                                    "line": 14
+                                  }
+                                }
+                              }
+                            },
+                            "range": [
+                              282,
+                              291
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 36,
+                                "line": 14
+                              },
+                              "start": {
+                                "column": 27,
+                                "line": 14
                               }
                             }
                           },
                           "readonly": false,
-                          "static": false
+                          "static": false,
+                          "range": [
+                            275,
+                            291
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 36,
+                              "line": 14
+                            },
+                            "start": {
+                              "column": 20,
+                              "line": 14
+                            }
+                          }
                         },
                         {
                           "type": "TSParameterProperty",
-                          "start": 293,
-                          "end": 309,
                           "accessibility": "public",
                           "decorators": [],
                           "override": false,
                           "parameter": {
                             "type": "Identifier",
-                            "start": 300,
-                            "end": 309,
                             "decorators": [],
                             "name": "y",
                             "optional": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
-                              "start": 301,
-                              "end": 309,
+                              "loc": {
+                                "end": {
+                                  "column": 54,
+                                  "line": 14
+                                },
+                                "start": {
+                                  "column": 46,
+                                  "line": 14
+                                }
+                              },
+                              "range": [
+                                301,
+                                309
+                              ],
                               "typeAnnotation": {
                                 "type": "TSNumberKeyword",
-                                "start": 303,
-                                "end": 309
+                                "range": [
+                                  303,
+                                  309
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 54,
+                                    "line": 14
+                                  },
+                                  "start": {
+                                    "column": 48,
+                                    "line": 14
+                                  }
+                                }
+                              }
+                            },
+                            "range": [
+                              300,
+                              309
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 54,
+                                "line": 14
+                              },
+                              "start": {
+                                "column": 45,
+                                "line": 14
                               }
                             }
                           },
                           "readonly": false,
-                          "static": false
+                          "static": false,
+                          "range": [
+                            293,
+                            309
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 54,
+                              "line": 14
+                            },
+                            "start": {
+                              "column": 38,
+                              "line": 14
+                            }
+                          }
                         }
-                      ]
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 59,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 14
+                        }
+                      }
+                    },
+                    "range": [
+                      263,
+                      314
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 59,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 14
+                      }
                     }
                   },
                   {
                     "type": "MethodDefinition",
-                    "start": 324,
-                    "end": 373,
                     "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 331,
-                      "end": 337,
                       "decorators": [],
                       "name": "Origin",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        331,
+                        337
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 16
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 16
+                        }
+                      }
                     },
                     "kind": "method",
                     "optional": false,
@@ -437,35 +1047,41 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                     "static": true,
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 337,
-                      "end": 373,
+                      "range": [
+                        337,
+                        373
+                      ],
                       "async": false,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 347,
-                        "end": 373,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 349,
-                            "end": 371,
                             "argument": {
                               "type": "ObjectExpression",
-                              "start": 356,
-                              "end": 370,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 358,
-                                  "end": 362,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 358,
-                                    "end": 359,
                                     "decorators": [],
                                     "name": "x",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      358,
+                                      359
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 43,
+                                        "line": 16
+                                      },
+                                      "start": {
+                                        "column": 42,
+                                        "line": 16
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -473,24 +1089,60 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "Literal",
-                                    "start": 361,
-                                    "end": 362,
                                     "raw": "0",
-                                    "value": 0
+                                    "value": 0,
+                                    "range": [
+                                      361,
+                                      362
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 46,
+                                        "line": 16
+                                      },
+                                      "start": {
+                                        "column": 45,
+                                        "line": 16
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    358,
+                                    362
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 46,
+                                      "line": 16
+                                    },
+                                    "start": {
+                                      "column": 42,
+                                      "line": 16
+                                    }
                                   }
                                 },
                                 {
                                   "type": "Property",
-                                  "start": 364,
-                                  "end": 368,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 364,
-                                    "end": 365,
                                     "decorators": [],
                                     "name": "y",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      364,
+                                      365
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 49,
+                                        "line": 16
+                                      },
+                                      "start": {
+                                        "column": 48,
+                                        "line": 16
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -498,16 +1150,84 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "Literal",
-                                    "start": 367,
-                                    "end": 368,
                                     "raw": "0",
-                                    "value": 0
+                                    "value": 0,
+                                    "range": [
+                                      367,
+                                      368
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 52,
+                                        "line": 16
+                                      },
+                                      "start": {
+                                        "column": 51,
+                                        "line": 16
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    364,
+                                    368
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 52,
+                                      "line": 16
+                                    },
+                                    "start": {
+                                      "column": 48,
+                                      "line": 16
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                356,
+                                370
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 54,
+                                  "line": 16
+                                },
+                                "start": {
+                                  "column": 40,
+                                  "line": 16
+                                }
+                              }
+                            },
+                            "range": [
+                              349,
+                              371
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 55,
+                                "line": 16
+                              },
+                              "start": {
+                                "column": 33,
+                                "line": 16
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "range": [
+                          347,
+                          373
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 57,
+                            "line": 16
+                          },
+                          "start": {
+                            "column": 31,
+                            "line": 16
+                          }
+                        }
                       },
                       "declare": false,
                       "expression": false,
@@ -516,127 +1236,392 @@ ClassAndModuleThatMergeWithStaticFunctionAndNonExportedFunctionThatShareAName.ts
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 339,
-                        "end": 346,
+                        "loc": {
+                          "end": {
+                            "column": 30,
+                            "line": 16
+                          },
+                          "start": {
+                            "column": 23,
+                            "line": 16
+                          }
+                        },
+                        "range": [
+                          339,
+                          346
+                        ],
                         "typeAnnotation": {
                           "type": "TSTypeReference",
-                          "start": 341,
-                          "end": 346,
                           "typeName": {
                             "type": "Identifier",
-                            "start": 341,
-                            "end": 346,
                             "decorators": [],
                             "name": "Point",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              341,
+                              346
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 30,
+                                "line": 16
+                              },
+                              "start": {
+                                "column": 25,
+                                "line": 16
+                              }
+                            }
+                          },
+                          "range": [
+                            341,
+                            346
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 30,
+                              "line": 16
+                            },
+                            "start": {
+                              "column": 25,
+                              "line": 16
+                            }
                           }
                         }
+                      },
+                      "loc": {
+                        "end": {
+                          "column": 57,
+                          "line": 16
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 16
+                        }
+                      }
+                    },
+                    "range": [
+                      324,
+                      373
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 57,
+                        "line": 16
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 16
                       }
                     }
                   }
-                ]
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 13
+                  }
+                }
               },
               "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 247,
-                "end": 252,
                 "decorators": [],
                 "name": "Point",
-                "optional": false
+                "optional": false,
+                "range": [
+                  247,
+                  252
+                ],
+                "loc": {
+                  "end": {
+                    "column": 22,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 13
+                  }
+                }
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "range": [
+                241,
+                379
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 17
+                },
+                "start": {
+                  "column": 11,
+                  "line": 13
+                }
+              }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 17
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
+            }
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 385,
-            "end": 487,
+            "range": [
+              385,
+              487
+            ],
             "attributes": [],
             "declaration": {
               "type": "TSModuleDeclaration",
-              "start": 392,
-              "end": 487,
               "body": {
                 "type": "TSModuleBlock",
-                "start": 405,
-                "end": 487,
                 "body": [
                   {
                     "type": "FunctionDeclaration",
-                    "start": 415,
-                    "end": 447,
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 433,
-                      "end": 447,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 435,
-                          "end": 445,
                           "argument": {
                             "type": "Literal",
-                            "start": 442,
-                            "end": 444,
                             "raw": "\"\"",
-                            "value": ""
+                            "value": "",
+                            "range": [
+                              442,
+                              444
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 37,
+                                "line": 20
+                              },
+                              "start": {
+                                "column": 35,
+                                "line": 20
+                              }
+                            }
+                          },
+                          "range": [
+                            435,
+                            445
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 38,
+                              "line": 20
+                            },
+                            "start": {
+                              "column": 28,
+                              "line": 20
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        433,
+                        447
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 40,
+                          "line": 20
+                        },
+                        "start": {
+                          "column": 26,
+                          "line": 20
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
                     "generator": false,
                     "id": {
                       "type": "Identifier",
-                      "start": 424,
-                      "end": 430,
                       "decorators": [],
                       "name": "Origin",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        424,
+                        430
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 20
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 20
+                        }
+                      }
                     },
-                    "params": []
+                    "params": [],
+                    "range": [
+                      415,
+                      447
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 40,
+                        "line": 20
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 20
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  405,
+                  487
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 21
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 19
+                  }
+                }
               },
               "declare": false,
               "global": false,
               "id": {
                 "type": "Identifier",
-                "start": 399,
-                "end": 404,
+                "range": [
+                  399,
+                  404
+                ],
                 "decorators": [],
                 "name": "Point",
-                "optional": false
+                "optional": false,
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 19
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 19
+                  }
+                }
               },
-              "kind": "module"
+              "kind": "module",
+              "range": [
+                392,
+                487
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 21
+                },
+                "start": {
+                  "column": 11,
+                  "line": 19
+                }
+              }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 21
+              },
+              "start": {
+                "column": 4,
+                "line": 19
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          228,
+          489
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 22
+          },
+          "start": {
+            "column": 9,
+            "line": 12
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 226,
-        "end": 227,
+        "range": [
+          226,
+          227
+        ],
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 12
+          },
+          "start": {
+            "column": 7,
+            "line": 12
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        219,
+        489
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 22
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 22
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

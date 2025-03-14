@@ -1,88 +1,210 @@
-file1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 51,
-  "end": 70,
+  "range": [
+    51,
+    70
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 70,
+      "range": [
+        51,
+        70
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 58,
-        "end": 70,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 68,
-          "end": 70,
-          "body": []
+          "range": [
+            68,
+            70
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 17,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 64,
-          "end": 67,
           "decorators": [],
           "name": "Foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            64,
+            67
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 13,
+              "line": 2
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          58,
+          70
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
-file2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 51,
-  "end": 70,
+  "range": [
+    51,
+    70
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 70,
+      "range": [
+        51,
+        70
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 58,
-        "end": 70,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 68,
-          "end": 70,
-          "body": []
+          "range": [
+            68,
+            70
+          ],
+          "body": [],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 17,
+              "line": 2
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 64,
-          "end": 67,
           "decorators": [],
           "name": "Bar",
-          "optional": false
+          "optional": false,
+          "range": [
+            64,
+            67
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 13,
+              "line": 2
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          58,
+          70
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 2
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

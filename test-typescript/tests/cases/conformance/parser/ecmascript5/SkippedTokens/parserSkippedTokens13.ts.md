@@ -1,4 +1,4 @@
-parserSkippedTokens13.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Invalid character.
 ```

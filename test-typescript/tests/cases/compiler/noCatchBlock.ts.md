@@ -1,29 +1,78 @@
-noCatchBlock.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
+  "range": [
+    0,
+    53
+  ],
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 53,
       "block": {
         "type": "BlockStatement",
-        "start": 4,
-        "end": 15,
-        "body": []
+        "body": [],
+        "range": [
+          4,
+          15
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 4,
+            "line": 1
+          }
+        }
       },
       "finalizer": {
         "type": "BlockStatement",
-        "start": 24,
-        "end": 53,
-        "body": []
+        "body": [],
+        "range": [
+          24,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 10,
+            "line": 3
+          }
+        }
       },
-      "handler": null
+      "handler": null,
+      "range": [
+        0,
+        53
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

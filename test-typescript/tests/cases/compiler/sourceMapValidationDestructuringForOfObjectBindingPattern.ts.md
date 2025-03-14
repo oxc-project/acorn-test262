@@ -1,67 +1,119 @@
-sourceMapValidationDestructuringForOfObjectBindingPattern.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 2170,
+  "range": [
+    0,
+    2170
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 49,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 49,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 49,
             "decorators": [],
             "name": "console",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 49,
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 3
+                },
+                "start": {
+                  "column": 19,
+                  "line": 1
+                }
+              },
+              "range": [
+                19,
+                49
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 21,
-                "end": 49,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 27,
-                    "end": 47,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 27,
-                      "end": 30,
                       "decorators": [],
                       "name": "log",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        27,
+                        30
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 7,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 4,
+                          "line": 2
+                        }
+                      }
                     },
                     "kind": "method",
                     "optional": false,
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 31,
-                        "end": 39,
                         "decorators": [],
                         "name": "msg",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 34,
-                          "end": 39,
+                          "loc": {
+                            "end": {
+                              "column": 16,
+                              "line": 2
+                            },
+                            "start": {
+                              "column": 11,
+                              "line": 2
+                            }
+                          },
+                          "range": [
+                            34,
+                            39
+                          ],
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
-                            "start": 36,
-                            "end": 39
+                            "range": [
+                              36,
+                              39
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 16,
+                                "line": 2
+                              },
+                              "start": {
+                                "column": 13,
+                                "line": 2
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          31,
+                          39
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 16,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 2
                           }
                         }
                       }
@@ -69,297 +121,813 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 40,
-                      "end": 46,
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 2
+                        }
+                      },
+                      "range": [
+                        40,
+                        46
+                      ],
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
-                        "start": 42,
-                        "end": 46
+                        "range": [
+                          42,
+                          46
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 2
+                          }
+                        }
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "range": [
+                      27,
+                      47
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 4,
+                        "line": 2
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  21,
+                  49
+                ],
+                "loc": {
+                  "end": {
+                    "column": 1,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              12,
+              49
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 3
+              },
+              "start": {
+                "column": 12,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            12,
+            49
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        49
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 50,
-      "end": 106,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 66,
-        "end": 106,
+        "range": [
+          66,
+          106
+        ],
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 72,
-            "end": 85,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 72,
-              "end": 76,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "range": [
+                72,
+                76
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 5
+                },
+                "start": {
+                  "column": 4,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 76,
-              "end": 84,
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 5
+                },
+                "start": {
+                  "column": 8,
+                  "line": 5
+                }
+              },
+              "range": [
+                76,
+                84
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 78,
-                "end": 84
+                "range": [
+                  78,
+                  84
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 5
+                  }
+                }
+              }
+            },
+            "range": [
+              72,
+              85
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
               }
             }
           },
           {
             "type": "TSPropertySignature",
-            "start": 90,
-            "end": 104,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 90,
-              "end": 95,
               "decorators": [],
               "name": "skill",
-              "optional": false
+              "optional": false,
+              "range": [
+                90,
+                95
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 95,
-              "end": 103,
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 6
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6
+                }
+              },
+              "range": [
+                95,
+                103
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 97,
-                "end": 103
+                "range": [
+                  97,
+                  103
+                ],
+                "loc": {
+                  "end": {
+                    "column": 17,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 6
+                  }
+                }
+              }
+            },
+            "range": [
+              90,
+              104
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 16,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 60,
-        "end": 65,
         "decorators": [],
         "name": "Robot",
-        "optional": false
+        "optional": false,
+        "range": [
+          60,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 4
+          },
+          "start": {
+            "column": 10,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        50,
+        106
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 108,
-      "end": 223,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 129,
-        "end": 223,
+        "range": [
+          129,
+          223
+        ],
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 135,
-            "end": 148,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 135,
-              "end": 139,
               "decorators": [],
               "name": "name",
-              "optional": false
+              "optional": false,
+              "range": [
+                135,
+                139
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 139,
-              "end": 147,
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 10
+                },
+                "start": {
+                  "column": 8,
+                  "line": 10
+                }
+              },
+              "range": [
+                139,
+                147
+              ],
               "typeAnnotation": {
                 "type": "TSStringKeyword",
-                "start": 141,
-                "end": 147
+                "range": [
+                  141,
+                  147
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 10
+                  }
+                }
+              }
+            },
+            "range": [
+              135,
+              148
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
               }
             }
           },
           {
             "type": "TSPropertySignature",
-            "start": 153,
-            "end": 221,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 153,
-              "end": 159,
               "decorators": [],
               "name": "skills",
-              "optional": false
+              "optional": false,
+              "range": [
+                153,
+                159
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 11
+                },
+                "start": {
+                  "column": 4,
+                  "line": 11
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 159,
-              "end": 220,
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 14
+                },
+                "start": {
+                  "column": 10,
+                  "line": 11
+                }
+              },
+              "range": [
+                159,
+                220
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 161,
-                "end": 220,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 171,
-                    "end": 187,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 171,
-                      "end": 178,
                       "decorators": [],
                       "name": "primary",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        171,
+                        178
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 15,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 12
+                        }
+                      }
                     },
                     "optional": false,
                     "readonly": false,
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 178,
-                      "end": 186,
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 12
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 12
+                        }
+                      },
+                      "range": [
+                        178,
+                        186
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 180,
-                        "end": 186
+                        "range": [
+                          180,
+                          186
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 23,
+                            "line": 12
+                          },
+                          "start": {
+                            "column": 17,
+                            "line": 12
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      171,
+                      187
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 12
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 12
                       }
                     }
                   },
                   {
                     "type": "TSPropertySignature",
-                    "start": 196,
-                    "end": 214,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 196,
-                      "end": 205,
                       "decorators": [],
                       "name": "secondary",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        196,
+                        205
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 8,
+                          "line": 13
+                        }
+                      }
                     },
                     "optional": false,
                     "readonly": false,
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 205,
-                      "end": 213,
+                      "loc": {
+                        "end": {
+                          "column": 25,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 13
+                        }
+                      },
+                      "range": [
+                        205,
+                        213
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 207,
-                        "end": 213
+                        "range": [
+                          207,
+                          213
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 25,
+                            "line": 13
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 13
+                          }
+                        }
+                      }
+                    },
+                    "range": [
+                      196,
+                      214
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 26,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 13
                       }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  161,
+                  220
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 11
+                  }
+                }
+              }
+            },
+            "range": [
+              153,
+              221
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 14
+              },
+              "start": {
+                "column": 4,
+                "line": 11
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 15
+          },
+          "start": {
+            "column": 21,
+            "line": 9
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 118,
-        "end": 128,
         "decorators": [],
         "name": "MultiRobot",
-        "optional": false
+        "optional": false,
+        "range": [
+          118,
+          128
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 9
+          },
+          "start": {
+            "column": 10,
+            "line": 9
+          }
+        }
+      },
+      "range": [
+        108,
+        223
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 225,
-      "end": 324,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 229,
-          "end": 323,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 229,
-            "end": 244,
             "decorators": [],
             "name": "robots",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 235,
-              "end": 244,
+              "loc": {
+                "end": {
+                  "column": 19,
+                  "line": 17
+                },
+                "start": {
+                  "column": 10,
+                  "line": 17
+                }
+              },
+              "range": [
+                235,
+                244
+              ],
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 237,
-                "end": 244,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 237,
-                  "end": 242,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 237,
-                    "end": 242,
                     "decorators": [],
                     "name": "Robot",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      237,
+                      242
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 12,
+                        "line": 17
+                      }
+                    }
+                  },
+                  "range": [
+                    237,
+                    242
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 17
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 17
+                    }
+                  }
+                },
+                "range": [
+                  237,
+                  244
+                ],
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 17
                   }
                 }
+              }
+            },
+            "range": [
+              229,
+              244
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 17
+              },
+              "start": {
+                "column": 4,
+                "line": 17
               }
             }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 247,
-            "end": 323,
             "elements": [
               {
                 "type": "ObjectExpression",
-                "start": 248,
-                "end": 282,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 250,
-                    "end": 263,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 250,
-                      "end": 254,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        250,
+                        254
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 25,
+                          "line": 17
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -367,24 +935,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 256,
-                      "end": 263,
                       "raw": "\"mower\"",
-                      "value": "mower"
+                      "value": "mower",
+                      "range": [
+                        256,
+                        263
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 38,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 31,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      250,
+                      263
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 38,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 25,
+                        "line": 17
+                      }
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 265,
-                    "end": 280,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 265,
-                      "end": 270,
                       "decorators": [],
                       "name": "skill",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        265,
+                        270
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 45,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 40,
+                          "line": 17
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -392,31 +996,79 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 272,
-                      "end": 280,
                       "raw": "\"mowing\"",
-                      "value": "mowing"
+                      "value": "mowing",
+                      "range": [
+                        272,
+                        280
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 55,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 47,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      265,
+                      280
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 55,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 40,
+                        "line": 17
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  248,
+                  282
+                ],
+                "loc": {
+                  "end": {
+                    "column": 57,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 17
+                  }
+                }
               },
               {
                 "type": "ObjectExpression",
-                "start": 284,
-                "end": 322,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 286,
-                    "end": 301,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 286,
-                      "end": 290,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        286,
+                        290
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 65,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 61,
+                          "line": 17
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -424,24 +1076,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 292,
-                      "end": 301,
                       "raw": "\"trimmer\"",
-                      "value": "trimmer"
+                      "value": "trimmer",
+                      "range": [
+                        292,
+                        301
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 76,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 67,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      286,
+                      301
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 76,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 61,
+                        "line": 17
+                      }
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 303,
-                    "end": 320,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 303,
-                      "end": 308,
                       "decorators": [],
                       "name": "skill",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        303,
+                        308
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 83,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 78,
+                          "line": 17
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -449,84 +1137,228 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 310,
-                      "end": 320,
                       "raw": "\"trimming\"",
-                      "value": "trimming"
+                      "value": "trimming",
+                      "range": [
+                        310,
+                        320
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 95,
+                          "line": 17
+                        },
+                        "start": {
+                          "column": 85,
+                          "line": 17
+                        }
+                      }
+                    },
+                    "range": [
+                      303,
+                      320
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 95,
+                        "line": 17
+                      },
+                      "start": {
+                        "column": 78,
+                        "line": 17
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  284,
+                  322
+                ],
+                "loc": {
+                  "end": {
+                    "column": 97,
+                    "line": 17
+                  },
+                  "start": {
+                    "column": 59,
+                    "line": 17
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              247,
+              323
+            ],
+            "loc": {
+              "end": {
+                "column": 98,
+                "line": 17
+              },
+              "start": {
+                "column": 22,
+                "line": 17
+              }
+            }
+          },
+          "range": [
+            229,
+            323
+          ],
+          "loc": {
+            "end": {
+              "column": 98,
+              "line": 17
+            },
+            "start": {
+              "column": 4,
+              "line": 17
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        225,
+        324
+      ],
+      "loc": {
+        "end": {
+          "column": 99,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 17
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 325,
-      "end": 506,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 329,
-          "end": 505,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 329,
-            "end": 354,
             "decorators": [],
             "name": "multiRobots",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 340,
-              "end": 354,
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 18
+                },
+                "start": {
+                  "column": 15,
+                  "line": 18
+                }
+              },
+              "range": [
+                340,
+                354
+              ],
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 342,
-                "end": 354,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 342,
-                  "end": 352,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 342,
-                    "end": 352,
                     "decorators": [],
                     "name": "MultiRobot",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      342,
+                      352
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 27,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 17,
+                        "line": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    342,
+                    352
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 18
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 18
+                    }
+                  }
+                },
+                "range": [
+                  342,
+                  354
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 18
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 18
                   }
                 }
+              }
+            },
+            "range": [
+              329,
+              354
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 18
+              },
+              "start": {
+                "column": 4,
+                "line": 18
               }
             }
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 357,
-            "end": 505,
             "elements": [
               {
                 "type": "ObjectExpression",
-                "start": 358,
-                "end": 425,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 360,
-                    "end": 373,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 360,
-                      "end": 364,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        360,
+                        364
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 39,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 35,
+                          "line": 18
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -534,24 +1366,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 366,
-                      "end": 373,
                       "raw": "\"mower\"",
-                      "value": "mower"
+                      "value": "mower",
+                      "range": [
+                        366,
+                        373
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 48,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 41,
+                          "line": 18
+                        }
+                      }
+                    },
+                    "range": [
+                      360,
+                      373
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 48,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 35,
+                        "line": 18
+                      }
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 375,
-                    "end": 423,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 375,
-                      "end": 381,
                       "decorators": [],
                       "name": "skills",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        375,
+                        381
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 56,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 50,
+                          "line": 18
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -559,21 +1427,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
-                      "start": 383,
-                      "end": 423,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 385,
-                          "end": 402,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 385,
-                            "end": 392,
                             "decorators": [],
                             "name": "primary",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              385,
+                              392
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 67,
+                                "line": 18
+                              },
+                              "start": {
+                                "column": 60,
+                                "line": 18
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -581,24 +1457,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 394,
-                            "end": 402,
                             "raw": "\"mowing\"",
-                            "value": "mowing"
+                            "value": "mowing",
+                            "range": [
+                              394,
+                              402
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 77,
+                                "line": 18
+                              },
+                              "start": {
+                                "column": 69,
+                                "line": 18
+                              }
+                            }
+                          },
+                          "range": [
+                            385,
+                            402
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 77,
+                              "line": 18
+                            },
+                            "start": {
+                              "column": 60,
+                              "line": 18
+                            }
                           }
                         },
                         {
                           "type": "Property",
-                          "start": 404,
-                          "end": 421,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 404,
-                            "end": 413,
                             "decorators": [],
                             "name": "secondary",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              404,
+                              413
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 88,
+                                "line": 18
+                              },
+                              "start": {
+                                "column": 79,
+                                "line": 18
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -606,34 +1518,110 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 415,
-                            "end": 421,
                             "raw": "\"none\"",
-                            "value": "none"
+                            "value": "none",
+                            "range": [
+                              415,
+                              421
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 96,
+                                "line": 18
+                              },
+                              "start": {
+                                "column": 90,
+                                "line": 18
+                              }
+                            }
+                          },
+                          "range": [
+                            404,
+                            421
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 96,
+                              "line": 18
+                            },
+                            "start": {
+                              "column": 79,
+                              "line": 18
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        383,
+                        423
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 98,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 58,
+                          "line": 18
+                        }
+                      }
+                    },
+                    "range": [
+                      375,
+                      423
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 98,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 50,
+                        "line": 18
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  358,
+                  425
+                ],
+                "loc": {
+                  "end": {
+                    "column": 100,
+                    "line": 18
+                  },
+                  "start": {
+                    "column": 33,
+                    "line": 18
+                  }
+                }
               },
               {
                 "type": "ObjectExpression",
-                "start": 431,
-                "end": 504,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 433,
-                    "end": 448,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 433,
-                      "end": 437,
                       "decorators": [],
                       "name": "name",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        433,
+                        437
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 10,
+                          "line": 19
+                        },
+                        "start": {
+                          "column": 6,
+                          "line": 19
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -641,24 +1629,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 439,
-                      "end": 448,
                       "raw": "\"trimmer\"",
-                      "value": "trimmer"
+                      "value": "trimmer",
+                      "range": [
+                        439,
+                        448
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 19
+                        },
+                        "start": {
+                          "column": 12,
+                          "line": 19
+                        }
+                      }
+                    },
+                    "range": [
+                      433,
+                      448
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 19
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 19
+                      }
                     }
                   },
                   {
                     "type": "Property",
-                    "start": 450,
-                    "end": 502,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 450,
-                      "end": 456,
                       "decorators": [],
                       "name": "skills",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        450,
+                        456
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 19
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 19
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -666,21 +1690,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                     "shorthand": false,
                     "value": {
                       "type": "ObjectExpression",
-                      "start": 458,
-                      "end": 502,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 460,
-                          "end": 479,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 460,
-                            "end": 467,
                             "decorators": [],
                             "name": "primary",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              460,
+                              467
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 40,
+                                "line": 19
+                              },
+                              "start": {
+                                "column": 33,
+                                "line": 19
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -688,24 +1720,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 469,
-                            "end": 479,
                             "raw": "\"trimming\"",
-                            "value": "trimming"
+                            "value": "trimming",
+                            "range": [
+                              469,
+                              479
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 52,
+                                "line": 19
+                              },
+                              "start": {
+                                "column": 42,
+                                "line": 19
+                              }
+                            }
+                          },
+                          "range": [
+                            460,
+                            479
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 52,
+                              "line": 19
+                            },
+                            "start": {
+                              "column": 33,
+                              "line": 19
+                            }
                           }
                         },
                         {
                           "type": "Property",
-                          "start": 481,
-                          "end": 500,
                           "computed": false,
                           "key": {
                             "type": "Identifier",
-                            "start": 481,
-                            "end": 490,
                             "decorators": [],
                             "name": "secondary",
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              481,
+                              490
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 63,
+                                "line": 19
+                              },
+                              "start": {
+                                "column": 54,
+                                "line": 19
+                              }
+                            }
                           },
                           "kind": "init",
                           "method": false,
@@ -713,185 +1781,501 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                           "shorthand": false,
                           "value": {
                             "type": "Literal",
-                            "start": 492,
-                            "end": 500,
                             "raw": "\"edging\"",
-                            "value": "edging"
+                            "value": "edging",
+                            "range": [
+                              492,
+                              500
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 73,
+                                "line": 19
+                              },
+                              "start": {
+                                "column": 65,
+                                "line": 19
+                              }
+                            }
+                          },
+                          "range": [
+                            481,
+                            500
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 73,
+                              "line": 19
+                            },
+                            "start": {
+                              "column": 54,
+                              "line": 19
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        458,
+                        502
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 75,
+                          "line": 19
+                        },
+                        "start": {
+                          "column": 31,
+                          "line": 19
+                        }
+                      }
+                    },
+                    "range": [
+                      450,
+                      502
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 75,
+                        "line": 19
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 19
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  431,
+                  504
+                ],
+                "loc": {
+                  "end": {
+                    "column": 77,
+                    "line": 19
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 19
+                  }
+                }
               }
-            ]
+            ],
+            "range": [
+              357,
+              505
+            ],
+            "loc": {
+              "end": {
+                "column": 78,
+                "line": 19
+              },
+              "start": {
+                "column": 32,
+                "line": 18
+              }
+            }
+          },
+          "range": [
+            329,
+            505
+          ],
+          "loc": {
+            "end": {
+              "column": 78,
+              "line": 19
+            },
+            "start": {
+              "column": 4,
+              "line": 18
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        325,
+        506
+      ],
+      "loc": {
+        "end": {
+          "column": 79,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "line": 18
+        }
+      }
     },
     {
       "type": "FunctionDeclaration",
-      "start": 508,
-      "end": 551,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 529,
-        "end": 551,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 535,
-            "end": 549,
             "argument": {
               "type": "Identifier",
-              "start": 542,
-              "end": 548,
               "decorators": [],
               "name": "robots",
-              "optional": false
+              "optional": false,
+              "range": [
+                542,
+                548
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 22
+                },
+                "start": {
+                  "column": 11,
+                  "line": 22
+                }
+              }
+            },
+            "range": [
+              535,
+              549
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 22
+              },
+              "start": {
+                "column": 4,
+                "line": 22
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          529,
+          551
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 23
+          },
+          "start": {
+            "column": 21,
+            "line": 21
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 517,
-        "end": 526,
         "decorators": [],
         "name": "getRobots",
-        "optional": false
+        "optional": false,
+        "range": [
+          517,
+          526
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 21
+          },
+          "start": {
+            "column": 9,
+            "line": 21
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        508,
+        551
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 23
+        },
+        "start": {
+          "column": 0,
+          "line": 21
+        }
+      }
     },
     {
       "type": "FunctionDeclaration",
-      "start": 553,
-      "end": 606,
       "async": false,
       "body": {
         "type": "BlockStatement",
-        "start": 579,
-        "end": 606,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 585,
-            "end": 604,
             "argument": {
               "type": "Identifier",
-              "start": 592,
-              "end": 603,
               "decorators": [],
               "name": "multiRobots",
-              "optional": false
+              "optional": false,
+              "range": [
+                592,
+                603
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 26
+                },
+                "start": {
+                  "column": 11,
+                  "line": 26
+                }
+              }
+            },
+            "range": [
+              585,
+              604
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 26
+              },
+              "start": {
+                "column": 4,
+                "line": 26
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          579,
+          606
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 27
+          },
+          "start": {
+            "column": 26,
+            "line": 25
+          }
+        }
       },
       "declare": false,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 562,
-        "end": 576,
         "decorators": [],
         "name": "getMultiRobots",
-        "optional": false
+        "optional": false,
+        "range": [
+          562,
+          576
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 25
+          },
+          "start": {
+            "column": 9,
+            "line": 25
+          }
+        }
       },
-      "params": []
+      "params": [],
+      "range": [
+        553,
+        606
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 27
+        },
+        "start": {
+          "column": 0,
+          "line": 25
+        }
+      }
     },
     {
       "type": "ForOfStatement",
-      "start": 608,
-      "end": 670,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 643,
-        "end": 670,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 649,
-            "end": 668,
             "expression": {
               "type": "CallExpression",
-              "start": 649,
-              "end": 667,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 661,
-                  "end": 666,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    661,
+                    666
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 30
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 30
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 649,
-                "end": 660,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 649,
-                  "end": 656,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    649,
+                    656
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 30
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 30
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 657,
-                  "end": 660,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    657,
+                    660
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 30
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 30
+                    }
+                  }
+                },
+                "range": [
+                  649,
+                  660
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 30
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 30
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                649,
+                667
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 30
+                },
+                "start": {
+                  "column": 4,
+                  "line": 30
+                }
+              }
+            },
+            "range": [
+              649,
+              668
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 30
+              },
+              "start": {
+                "column": 4,
+                "line": 30
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          643,
+          670
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 31
+          },
+          "start": {
+            "column": 35,
+            "line": 29
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 613,
-        "end": 631,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 617,
-            "end": 631,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 617,
-              "end": 631,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 618,
-                  "end": 629,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 618,
-                    "end": 622,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      618,
+                      622
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 29
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 29
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -899,115 +2283,295 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 624,
-                    "end": 629,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      624,
+                      629
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 29
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 29
+                      }
+                    }
+                  },
+                  "range": [
+                    618,
+                    629
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 29
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 29
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                617,
+                631
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 29
+                },
+                "start": {
+                  "column": 9,
+                  "line": 29
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              617,
+              631
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 29
+              },
+              "start": {
+                "column": 9,
+                "line": 29
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          613,
+          631
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 29
+          },
+          "start": {
+            "column": 5,
+            "line": 29
+          }
+        }
       },
       "right": {
         "type": "Identifier",
-        "start": 635,
-        "end": 641,
         "decorators": [],
         "name": "robots",
-        "optional": false
+        "optional": false,
+        "range": [
+          635,
+          641
+        ],
+        "loc": {
+          "end": {
+            "column": 33,
+            "line": 29
+          },
+          "start": {
+            "column": 27,
+            "line": 29
+          }
+        }
+      },
+      "range": [
+        608,
+        670
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 31
+        },
+        "start": {
+          "column": 0,
+          "line": 29
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 671,
-      "end": 738,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 711,
-        "end": 738,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 717,
-            "end": 736,
             "expression": {
               "type": "CallExpression",
-              "start": 717,
-              "end": 735,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 729,
-                  "end": 734,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    729,
+                    734
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 33
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 33
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 717,
-                "end": 728,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 717,
-                  "end": 724,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    717,
+                    724
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 33
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 33
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 725,
-                  "end": 728,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    725,
+                    728
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 33
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 33
+                    }
+                  }
+                },
+                "range": [
+                  717,
+                  728
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 33
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 33
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                717,
+                735
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 33
+                },
+                "start": {
+                  "column": 4,
+                  "line": 33
+                }
+              }
+            },
+            "range": [
+              717,
+              736
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 33
+              },
+              "start": {
+                "column": 4,
+                "line": 33
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          711,
+          738
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 34
+          },
+          "start": {
+            "column": 40,
+            "line": 32
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 676,
-        "end": 694,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 680,
-            "end": 694,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 680,
-              "end": 694,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 681,
-                  "end": 692,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 681,
-                    "end": 685,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      681,
+                      685
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 32
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 32
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -1015,122 +2579,314 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 687,
-                    "end": 692,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      687,
+                      692
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 32
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 32
+                      }
+                    }
+                  },
+                  "range": [
+                    681,
+                    692
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 32
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 32
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                680,
+                694
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 32
+                },
+                "start": {
+                  "column": 9,
+                  "line": 32
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              680,
+              694
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 32
+              },
+              "start": {
+                "column": 9,
+                "line": 32
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          676,
+          694
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 32
+          },
+          "start": {
+            "column": 5,
+            "line": 32
+          }
+        }
       },
       "right": {
         "type": "CallExpression",
-        "start": 698,
-        "end": 709,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 698,
-          "end": 707,
           "decorators": [],
           "name": "getRobots",
-          "optional": false
+          "optional": false,
+          "range": [
+            698,
+            707
+          ],
+          "loc": {
+            "end": {
+              "column": 36,
+              "line": 32
+            },
+            "start": {
+              "column": 27,
+              "line": 32
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          698,
+          709
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 32
+          },
+          "start": {
+            "column": 27,
+            "line": 32
+          }
+        }
+      },
+      "range": [
+        671,
+        738
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 34
+        },
+        "start": {
+          "column": 0,
+          "line": 32
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 739,
-      "end": 871,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 844,
-        "end": 871,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 850,
-            "end": 869,
             "expression": {
               "type": "CallExpression",
-              "start": 850,
-              "end": 868,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 862,
-                  "end": 867,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    862,
+                    867
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 36
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 36
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 850,
-                "end": 861,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 850,
-                  "end": 857,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    850,
+                    857
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 36
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 36
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 858,
-                  "end": 861,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    858,
+                    861
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 36
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 36
+                    }
+                  }
+                },
+                "range": [
+                  850,
+                  861
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 36
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 36
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                850,
+                868
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 36
+                },
+                "start": {
+                  "column": 4,
+                  "line": 36
+                }
+              }
+            },
+            "range": [
+              850,
+              869
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 36
+              },
+              "start": {
+                "column": 4,
+                "line": 36
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          844,
+          871
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 37
+          },
+          "start": {
+            "column": 105,
+            "line": 35
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 744,
-        "end": 762,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 748,
-            "end": 762,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 748,
-              "end": 762,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 749,
-                  "end": 760,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 749,
-                    "end": 753,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      749,
+                      753
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 35
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 35
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -1138,43 +2894,117 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 755,
-                    "end": 760,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      755,
+                      760
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 35
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 35
+                      }
+                    }
+                  },
+                  "range": [
+                    749,
+                    760
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 35
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                748,
+                762
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 35
+                },
+                "start": {
+                  "column": 9,
+                  "line": 35
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              748,
+              762
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 35
+              },
+              "start": {
+                "column": 9,
+                "line": 35
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          744,
+          762
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 35
+          },
+          "start": {
+            "column": 5,
+            "line": 35
+          }
+        }
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 766,
-        "end": 842,
         "elements": [
           {
             "type": "ObjectExpression",
-            "start": 767,
-            "end": 801,
             "properties": [
               {
                 "type": "Property",
-                "start": 769,
-                "end": 782,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 769,
-                  "end": 773,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    769,
+                    773
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 30,
+                      "line": 35
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1182,24 +3012,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 775,
-                  "end": 782,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "range": [
+                    775,
+                    782
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 43,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 36,
+                      "line": 35
+                    }
+                  }
+                },
+                "range": [
+                  769,
+                  782
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 35
+                  },
+                  "start": {
+                    "column": 30,
+                    "line": 35
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 784,
-                "end": 799,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 784,
-                  "end": 789,
                   "decorators": [],
                   "name": "skill",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    784,
+                    789
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 50,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 45,
+                      "line": 35
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1207,31 +3073,79 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 791,
-                  "end": 799,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "range": [
+                    791,
+                    799
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 60,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 52,
+                      "line": 35
+                    }
+                  }
+                },
+                "range": [
+                  784,
+                  799
+                ],
+                "loc": {
+                  "end": {
+                    "column": 60,
+                    "line": 35
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 35
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              767,
+              801
+            ],
+            "loc": {
+              "end": {
+                "column": 62,
+                "line": 35
+              },
+              "start": {
+                "column": 28,
+                "line": 35
+              }
+            }
           },
           {
             "type": "ObjectExpression",
-            "start": 803,
-            "end": 841,
             "properties": [
               {
                 "type": "Property",
-                "start": 805,
-                "end": 820,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 805,
-                  "end": 809,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    805,
+                    809
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 70,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 66,
+                      "line": 35
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1239,24 +3153,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 811,
-                  "end": 820,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "range": [
+                    811,
+                    820
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 81,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 72,
+                      "line": 35
+                    }
+                  }
+                },
+                "range": [
+                  805,
+                  820
+                ],
+                "loc": {
+                  "end": {
+                    "column": 81,
+                    "line": 35
+                  },
+                  "start": {
+                    "column": 66,
+                    "line": 35
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 822,
-                "end": 839,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 822,
-                  "end": 827,
                   "decorators": [],
                   "name": "skill",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    822,
+                    827
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 88,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 83,
+                      "line": 35
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1264,102 +3214,256 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 829,
-                  "end": 839,
                   "raw": "\"trimming\"",
-                  "value": "trimming"
+                  "value": "trimming",
+                  "range": [
+                    829,
+                    839
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 100,
+                      "line": 35
+                    },
+                    "start": {
+                      "column": 90,
+                      "line": 35
+                    }
+                  }
+                },
+                "range": [
+                  822,
+                  839
+                ],
+                "loc": {
+                  "end": {
+                    "column": 100,
+                    "line": 35
+                  },
+                  "start": {
+                    "column": 83,
+                    "line": 35
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              803,
+              841
+            ],
+            "loc": {
+              "end": {
+                "column": 102,
+                "line": 35
+              },
+              "start": {
+                "column": 64,
+                "line": 35
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          766,
+          842
+        ],
+        "loc": {
+          "end": {
+            "column": 103,
+            "line": 35
+          },
+          "start": {
+            "column": 27,
+            "line": 35
+          }
+        }
+      },
+      "range": [
+        739,
+        871
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 37
+        },
+        "start": {
+          "column": 0,
+          "line": 35
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 872,
-      "end": 984,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 954,
-        "end": 984,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 960,
-            "end": 982,
             "expression": {
               "type": "CallExpression",
-              "start": 960,
-              "end": 981,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 972,
-                  "end": 980,
                   "decorators": [],
                   "name": "primaryA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    972,
+                    980
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 39
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 39
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 960,
-                "end": 971,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 960,
-                  "end": 967,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    960,
+                    967
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 39
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 39
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 968,
-                  "end": 971,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    968,
+                    971
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 39
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 39
+                    }
+                  }
+                },
+                "range": [
+                  960,
+                  971
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 39
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 39
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                960,
+                981
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 39
+                },
+                "start": {
+                  "column": 4,
+                  "line": 39
+                }
+              }
+            },
+            "range": [
+              960,
+              982
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 39
+              },
+              "start": {
+                "column": 4,
+                "line": 39
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          954,
+          984
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 40
+          },
+          "start": {
+            "column": 82,
+            "line": 38
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 877,
-        "end": 937,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 881,
-            "end": 937,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 881,
-              "end": 937,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 883,
-                  "end": 935,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 883,
-                    "end": 889,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      883,
+                      889
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 38
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 38
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -1367,23 +3471,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 891,
-                    "end": 935,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 893,
-                        "end": 910,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 893,
-                          "end": 900,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            893,
+                            900
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 28,
+                              "line": 38
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 38
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1391,25 +3503,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 902,
-                          "end": 910,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            902,
+                            910
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 38,
+                              "line": 38
+                            },
+                            "start": {
+                              "column": 30,
+                              "line": 38
+                            }
+                          }
+                        },
+                        "range": [
+                          893,
+                          910
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 38,
+                            "line": 38
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 38
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 912,
-                        "end": 933,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 912,
-                          "end": 921,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            912,
+                            921
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 49,
+                              "line": 38
+                            },
+                            "start": {
+                              "column": 40,
+                              "line": 38
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1417,118 +3565,326 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 923,
-                          "end": 933,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            923,
+                            933
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 38
+                            },
+                            "start": {
+                              "column": 51,
+                              "line": 38
+                            }
+                          }
+                        },
+                        "range": [
+                          912,
+                          933
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 61,
+                            "line": 38
+                          },
+                          "start": {
+                            "column": 40,
+                            "line": 38
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      891,
+                      935
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 63,
+                        "line": 38
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 38
+                      }
+                    }
+                  },
+                  "range": [
+                    883,
+                    935
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 63,
+                      "line": 38
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 38
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                881,
+                937
+              ],
+              "loc": {
+                "end": {
+                  "column": 65,
+                  "line": 38
+                },
+                "start": {
+                  "column": 9,
+                  "line": 38
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              881,
+              937
+            ],
+            "loc": {
+              "end": {
+                "column": 65,
+                "line": 38
+              },
+              "start": {
+                "column": 9,
+                "line": 38
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          877,
+          937
+        ],
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 38
+          },
+          "start": {
+            "column": 5,
+            "line": 38
+          }
+        }
       },
       "right": {
         "type": "Identifier",
-        "start": 941,
-        "end": 952,
         "decorators": [],
         "name": "multiRobots",
-        "optional": false
+        "optional": false,
+        "range": [
+          941,
+          952
+        ],
+        "loc": {
+          "end": {
+            "column": 80,
+            "line": 38
+          },
+          "start": {
+            "column": 69,
+            "line": 38
+          }
+        }
+      },
+      "range": [
+        872,
+        984
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 40
+        },
+        "start": {
+          "column": 0,
+          "line": 38
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 985,
-      "end": 1102,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1072,
-        "end": 1102,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1078,
-            "end": 1100,
             "expression": {
               "type": "CallExpression",
-              "start": 1078,
-              "end": 1099,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1090,
-                  "end": 1098,
                   "decorators": [],
                   "name": "primaryA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1090,
+                    1098
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 42
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 42
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1078,
-                "end": 1089,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1078,
-                  "end": 1085,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1078,
+                    1085
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 42
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 42
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1086,
-                  "end": 1089,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1086,
+                    1089
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 42
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 42
+                    }
+                  }
+                },
+                "range": [
+                  1078,
+                  1089
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 42
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 42
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1078,
+                1099
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 42
+                },
+                "start": {
+                  "column": 4,
+                  "line": 42
+                }
+              }
+            },
+            "range": [
+              1078,
+              1100
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 42
+              },
+              "start": {
+                "column": 4,
+                "line": 42
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1072,
+          1102
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 43
+          },
+          "start": {
+            "column": 87,
+            "line": 41
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 990,
-        "end": 1050,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 994,
-            "end": 1050,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 994,
-              "end": 1050,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 996,
-                  "end": 1048,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 996,
-                    "end": 1002,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      996,
+                      1002
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 41
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 41
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -1536,23 +3892,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 1004,
-                    "end": 1048,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1006,
-                        "end": 1023,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1006,
-                          "end": 1013,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1006,
+                            1013
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 28,
+                              "line": 41
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 41
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1560,25 +3924,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1015,
-                          "end": 1023,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1015,
+                            1023
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 38,
+                              "line": 41
+                            },
+                            "start": {
+                              "column": 30,
+                              "line": 41
+                            }
+                          }
+                        },
+                        "range": [
+                          1006,
+                          1023
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 38,
+                            "line": 41
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 41
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 1025,
-                        "end": 1046,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1025,
-                          "end": 1034,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1025,
+                            1034
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 49,
+                              "line": 41
+                            },
+                            "start": {
+                              "column": 40,
+                              "line": 41
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1586,125 +3986,345 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1036,
-                          "end": 1046,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1036,
+                            1046
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 41
+                            },
+                            "start": {
+                              "column": 51,
+                              "line": 41
+                            }
+                          }
+                        },
+                        "range": [
+                          1025,
+                          1046
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 61,
+                            "line": 41
+                          },
+                          "start": {
+                            "column": 40,
+                            "line": 41
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      1004,
+                      1048
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 63,
+                        "line": 41
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 41
+                      }
+                    }
+                  },
+                  "range": [
+                    996,
+                    1048
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 63,
+                      "line": 41
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 41
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                994,
+                1050
+              ],
+              "loc": {
+                "end": {
+                  "column": 65,
+                  "line": 41
+                },
+                "start": {
+                  "column": 9,
+                  "line": 41
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              994,
+              1050
+            ],
+            "loc": {
+              "end": {
+                "column": 65,
+                "line": 41
+              },
+              "start": {
+                "column": 9,
+                "line": 41
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          990,
+          1050
+        ],
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 41
+          },
+          "start": {
+            "column": 5,
+            "line": 41
+          }
+        }
       },
       "right": {
         "type": "CallExpression",
-        "start": 1054,
-        "end": 1070,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 1054,
-          "end": 1068,
           "decorators": [],
           "name": "getMultiRobots",
-          "optional": false
+          "optional": false,
+          "range": [
+            1054,
+            1068
+          ],
+          "loc": {
+            "end": {
+              "column": 83,
+              "line": 41
+            },
+            "start": {
+              "column": 69,
+              "line": 41
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          1054,
+          1070
+        ],
+        "loc": {
+          "end": {
+            "column": 85,
+            "line": 41
+          },
+          "start": {
+            "column": 69,
+            "line": 41
+          }
+        }
+      },
+      "range": [
+        985,
+        1102
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 43
+        },
+        "start": {
+          "column": 0,
+          "line": 41
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1103,
-      "end": 1352,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1322,
-        "end": 1352,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1328,
-            "end": 1350,
             "expression": {
               "type": "CallExpression",
-              "start": 1328,
-              "end": 1349,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1340,
-                  "end": 1348,
                   "decorators": [],
                   "name": "primaryA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1340,
+                    1348
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 46
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 46
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1328,
-                "end": 1339,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1328,
-                  "end": 1335,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1328,
+                    1335
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 46
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 46
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1336,
-                  "end": 1339,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1336,
+                    1339
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 46
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 46
+                    }
+                  }
+                },
+                "range": [
+                  1328,
+                  1339
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 46
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 46
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1328,
+                1349
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 46
+                },
+                "start": {
+                  "column": 4,
+                  "line": 46
+                }
+              }
+            },
+            "range": [
+              1328,
+              1350
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 46
+              },
+              "start": {
+                "column": 4,
+                "line": 46
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1322,
+          1352
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 47
+          },
+          "start": {
+            "column": 80,
+            "line": 45
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1108,
-        "end": 1168,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1112,
-            "end": 1168,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1112,
-              "end": 1168,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1114,
-                  "end": 1166,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1114,
-                    "end": 1120,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1114,
+                      1120
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 44
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 44
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -1712,23 +4332,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 1122,
-                    "end": 1166,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1124,
-                        "end": 1141,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1124,
-                          "end": 1131,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1124,
+                            1131
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 28,
+                              "line": 44
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 44
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1736,25 +4364,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1133,
-                          "end": 1141,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1133,
+                            1141
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 38,
+                              "line": 44
+                            },
+                            "start": {
+                              "column": 30,
+                              "line": 44
+                            }
+                          }
+                        },
+                        "range": [
+                          1124,
+                          1141
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 38,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 44
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 1143,
-                        "end": 1164,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1143,
-                          "end": 1152,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1143,
+                            1152
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 49,
+                              "line": 44
+                            },
+                            "start": {
+                              "column": 40,
+                              "line": 44
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -1762,46 +4426,148 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1154,
-                          "end": 1164,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1154,
+                            1164
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 44
+                            },
+                            "start": {
+                              "column": 51,
+                              "line": 44
+                            }
+                          }
+                        },
+                        "range": [
+                          1143,
+                          1164
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 61,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 40,
+                            "line": 44
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      1122,
+                      1166
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 63,
+                        "line": 44
+                      },
+                      "start": {
+                        "column": 19,
+                        "line": 44
+                      }
+                    }
+                  },
+                  "range": [
+                    1114,
+                    1166
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 63,
+                      "line": 44
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 44
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1112,
+                1168
+              ],
+              "loc": {
+                "end": {
+                  "column": 65,
+                  "line": 44
+                },
+                "start": {
+                  "column": 9,
+                  "line": 44
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1112,
+              1168
+            ],
+            "loc": {
+              "end": {
+                "column": 65,
+                "line": 44
+              },
+              "start": {
+                "column": 9,
+                "line": 44
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1108,
+          1168
+        ],
+        "loc": {
+          "end": {
+            "column": 65,
+            "line": 44
+          },
+          "start": {
+            "column": 5,
+            "line": 44
+          }
+        }
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 1172,
-        "end": 1320,
         "elements": [
           {
             "type": "ObjectExpression",
-            "start": 1173,
-            "end": 1240,
             "properties": [
               {
                 "type": "Property",
-                "start": 1175,
-                "end": 1188,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1175,
-                  "end": 1179,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1175,
+                    1179
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 76,
+                      "line": 44
+                    },
+                    "start": {
+                      "column": 72,
+                      "line": 44
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1809,24 +4575,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1181,
-                  "end": 1188,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "range": [
+                    1181,
+                    1188
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 85,
+                      "line": 44
+                    },
+                    "start": {
+                      "column": 78,
+                      "line": 44
+                    }
+                  }
+                },
+                "range": [
+                  1175,
+                  1188
+                ],
+                "loc": {
+                  "end": {
+                    "column": 85,
+                    "line": 44
+                  },
+                  "start": {
+                    "column": 72,
+                    "line": 44
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 1190,
-                "end": 1238,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1190,
-                  "end": 1196,
                   "decorators": [],
                   "name": "skills",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1190,
+                    1196
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 93,
+                      "line": 44
+                    },
+                    "start": {
+                      "column": 87,
+                      "line": 44
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1834,21 +4636,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 1198,
-                  "end": 1238,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 1200,
-                      "end": 1217,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1200,
-                        "end": 1207,
                         "decorators": [],
                         "name": "primary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          1200,
+                          1207
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 104,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 97,
+                            "line": 44
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -1856,24 +4666,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 1209,
-                        "end": 1217,
                         "raw": "\"mowing\"",
-                        "value": "mowing"
+                        "value": "mowing",
+                        "range": [
+                          1209,
+                          1217
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 114,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 106,
+                            "line": 44
+                          }
+                        }
+                      },
+                      "range": [
+                        1200,
+                        1217
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 114,
+                          "line": 44
+                        },
+                        "start": {
+                          "column": 97,
+                          "line": 44
+                        }
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 1219,
-                      "end": 1236,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1219,
-                        "end": 1228,
                         "decorators": [],
                         "name": "secondary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          1219,
+                          1228
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 125,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 116,
+                            "line": 44
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -1881,34 +4727,110 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 1230,
-                        "end": 1236,
                         "raw": "\"none\"",
-                        "value": "none"
+                        "value": "none",
+                        "range": [
+                          1230,
+                          1236
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 133,
+                            "line": 44
+                          },
+                          "start": {
+                            "column": 127,
+                            "line": 44
+                          }
+                        }
+                      },
+                      "range": [
+                        1219,
+                        1236
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 133,
+                          "line": 44
+                        },
+                        "start": {
+                          "column": 116,
+                          "line": 44
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    1198,
+                    1238
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 135,
+                      "line": 44
+                    },
+                    "start": {
+                      "column": 95,
+                      "line": 44
+                    }
+                  }
+                },
+                "range": [
+                  1190,
+                  1238
+                ],
+                "loc": {
+                  "end": {
+                    "column": 135,
+                    "line": 44
+                  },
+                  "start": {
+                    "column": 87,
+                    "line": 44
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              1173,
+              1240
+            ],
+            "loc": {
+              "end": {
+                "column": 137,
+                "line": 44
+              },
+              "start": {
+                "column": 70,
+                "line": 44
+              }
+            }
           },
           {
             "type": "ObjectExpression",
-            "start": 1246,
-            "end": 1319,
             "properties": [
               {
                 "type": "Property",
-                "start": 1248,
-                "end": 1263,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1248,
-                  "end": 1252,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1248,
+                    1252
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 45
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1916,24 +4838,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1254,
-                  "end": 1263,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "range": [
+                    1254,
+                    1263
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 45
+                    }
+                  }
+                },
+                "range": [
+                  1248,
+                  1263
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 45
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 45
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 1265,
-                "end": 1317,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1265,
-                  "end": 1271,
                   "decorators": [],
                   "name": "skills",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1265,
+                    1271
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 45
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -1941,21 +4899,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 1273,
-                  "end": 1317,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 1275,
-                      "end": 1294,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1275,
-                        "end": 1282,
                         "decorators": [],
                         "name": "primary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          1275,
+                          1282
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 40,
+                            "line": 45
+                          },
+                          "start": {
+                            "column": 33,
+                            "line": 45
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -1963,24 +4929,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 1284,
-                        "end": 1294,
                         "raw": "\"trimming\"",
-                        "value": "trimming"
+                        "value": "trimming",
+                        "range": [
+                          1284,
+                          1294
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 45
+                          },
+                          "start": {
+                            "column": 42,
+                            "line": 45
+                          }
+                        }
+                      },
+                      "range": [
+                        1275,
+                        1294
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 33,
+                          "line": 45
+                        }
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 1296,
-                      "end": 1315,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 1296,
-                        "end": 1305,
                         "decorators": [],
                         "name": "secondary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          1296,
+                          1305
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 63,
+                            "line": 45
+                          },
+                          "start": {
+                            "column": 54,
+                            "line": 45
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -1988,105 +4990,287 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 1307,
-                        "end": 1315,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "range": [
+                          1307,
+                          1315
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 45
+                          },
+                          "start": {
+                            "column": 65,
+                            "line": 45
+                          }
+                        }
+                      },
+                      "range": [
+                        1296,
+                        1315
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 73,
+                          "line": 45
+                        },
+                        "start": {
+                          "column": 54,
+                          "line": 45
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    1273,
+                    1317
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 45
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 45
+                    }
+                  }
+                },
+                "range": [
+                  1265,
+                  1317
+                ],
+                "loc": {
+                  "end": {
+                    "column": 75,
+                    "line": 45
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 45
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              1246,
+              1319
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 45
+              },
+              "start": {
+                "column": 4,
+                "line": 45
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          1172,
+          1320
+        ],
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 45
+          },
+          "start": {
+            "column": 69,
+            "line": 44
+          }
+        }
+      },
+      "range": [
+        1103,
+        1352
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 47
+        },
+        "start": {
+          "column": 0,
+          "line": 44
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1354,
-      "end": 1431,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1404,
-        "end": 1431,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1410,
-            "end": 1429,
             "expression": {
               "type": "CallExpression",
-              "start": 1410,
-              "end": 1428,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1422,
-                  "end": 1427,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1422,
+                    1427
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 50
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 50
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1410,
-                "end": 1421,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1410,
-                  "end": 1417,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1410,
+                    1417
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 50
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 50
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1418,
-                  "end": 1421,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1418,
+                    1421
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 50
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 50
+                    }
+                  }
+                },
+                "range": [
+                  1410,
+                  1421
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 50
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 50
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1410,
+                1428
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 50
+                },
+                "start": {
+                  "column": 4,
+                  "line": 50
+                }
+              }
+            },
+            "range": [
+              1410,
+              1429
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 50
+              },
+              "start": {
+                "column": 4,
+                "line": 50
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1404,
+          1431
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 51
+          },
+          "start": {
+            "column": 50,
+            "line": 49
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1359,
-        "end": 1392,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1363,
-            "end": 1392,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1363,
-              "end": 1392,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1364,
-                  "end": 1375,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1364,
-                    "end": 1368,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1364,
+                      1368
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 49
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 49
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2094,25 +5278,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1370,
-                    "end": 1375,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1370,
+                      1375
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 49
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 49
+                      }
+                    }
+                  },
+                  "range": [
+                    1364,
+                    1375
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 49
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 49
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1377,
-                  "end": 1390,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1377,
-                    "end": 1382,
                     "decorators": [],
                     "name": "skill",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1377,
+                      1382
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 49
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 49
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2120,115 +5340,295 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1384,
-                    "end": 1390,
                     "decorators": [],
                     "name": "skillA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1384,
+                      1390
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 36,
+                        "line": 49
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 49
+                      }
+                    }
+                  },
+                  "range": [
+                    1377,
+                    1390
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 49
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 49
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1363,
+                1392
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 49
+                },
+                "start": {
+                  "column": 9,
+                  "line": 49
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1363,
+              1392
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 49
+              },
+              "start": {
+                "column": 9,
+                "line": 49
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1359,
+          1392
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 49
+          },
+          "start": {
+            "column": 5,
+            "line": 49
+          }
+        }
       },
       "right": {
         "type": "Identifier",
-        "start": 1396,
-        "end": 1402,
         "decorators": [],
         "name": "robots",
-        "optional": false
+        "optional": false,
+        "range": [
+          1396,
+          1402
+        ],
+        "loc": {
+          "end": {
+            "column": 48,
+            "line": 49
+          },
+          "start": {
+            "column": 42,
+            "line": 49
+          }
+        }
+      },
+      "range": [
+        1354,
+        1431
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 51
+        },
+        "start": {
+          "column": 0,
+          "line": 49
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1432,
-      "end": 1514,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1487,
-        "end": 1514,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1493,
-            "end": 1512,
             "expression": {
               "type": "CallExpression",
-              "start": 1493,
-              "end": 1511,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1505,
-                  "end": 1510,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1505,
+                    1510
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 53
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 53
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1493,
-                "end": 1504,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1493,
-                  "end": 1500,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1493,
+                    1500
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 53
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 53
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1501,
-                  "end": 1504,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1501,
+                    1504
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 53
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 53
+                    }
+                  }
+                },
+                "range": [
+                  1493,
+                  1504
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 53
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 53
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1493,
+                1511
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 53
+                },
+                "start": {
+                  "column": 4,
+                  "line": 53
+                }
+              }
+            },
+            "range": [
+              1493,
+              1512
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 53
+              },
+              "start": {
+                "column": 4,
+                "line": 53
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1487,
+          1514
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 54
+          },
+          "start": {
+            "column": 55,
+            "line": 52
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1437,
-        "end": 1470,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1441,
-            "end": 1470,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1441,
-              "end": 1470,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1442,
-                  "end": 1453,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1442,
-                    "end": 1446,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1442,
+                      1446
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 52
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 52
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2236,25 +5636,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1448,
-                    "end": 1453,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1448,
+                      1453
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 52
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 52
+                      }
+                    }
+                  },
+                  "range": [
+                    1442,
+                    1453
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 52
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 52
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1455,
-                  "end": 1468,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1455,
-                    "end": 1460,
                     "decorators": [],
                     "name": "skill",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1455,
+                      1460
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 52
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 52
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2262,122 +5698,314 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1462,
-                    "end": 1468,
                     "decorators": [],
                     "name": "skillA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1462,
+                      1468
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 36,
+                        "line": 52
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 52
+                      }
+                    }
+                  },
+                  "range": [
+                    1455,
+                    1468
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 52
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 52
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1441,
+                1470
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 52
+                },
+                "start": {
+                  "column": 9,
+                  "line": 52
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1441,
+              1470
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 52
+              },
+              "start": {
+                "column": 9,
+                "line": 52
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1437,
+          1470
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 52
+          },
+          "start": {
+            "column": 5,
+            "line": 52
+          }
+        }
       },
       "right": {
         "type": "CallExpression",
-        "start": 1474,
-        "end": 1485,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 1474,
-          "end": 1483,
           "decorators": [],
           "name": "getRobots",
-          "optional": false
+          "optional": false,
+          "range": [
+            1474,
+            1483
+          ],
+          "loc": {
+            "end": {
+              "column": 51,
+              "line": 52
+            },
+            "start": {
+              "column": 42,
+              "line": 52
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          1474,
+          1485
+        ],
+        "loc": {
+          "end": {
+            "column": 53,
+            "line": 52
+          },
+          "start": {
+            "column": 42,
+            "line": 52
+          }
+        }
+      },
+      "range": [
+        1432,
+        1514
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 54
+        },
+        "start": {
+          "column": 0,
+          "line": 52
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1515,
-      "end": 1662,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1635,
-        "end": 1662,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1641,
-            "end": 1660,
             "expression": {
               "type": "CallExpression",
-              "start": 1641,
-              "end": 1659,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1653,
-                  "end": 1658,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1653,
+                    1658
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 56
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 56
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1641,
-                "end": 1652,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1641,
-                  "end": 1648,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1641,
+                    1648
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 56
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 56
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1649,
-                  "end": 1652,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1649,
+                    1652
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 56
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 56
+                    }
+                  }
+                },
+                "range": [
+                  1641,
+                  1652
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 56
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 56
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1641,
+                1659
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 56
+                },
+                "start": {
+                  "column": 4,
+                  "line": 56
+                }
+              }
+            },
+            "range": [
+              1641,
+              1660
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 56
+              },
+              "start": {
+                "column": 4,
+                "line": 56
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1635,
+          1662
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 57
+          },
+          "start": {
+            "column": 120,
+            "line": 55
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1520,
-        "end": 1553,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1524,
-            "end": 1553,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1524,
-              "end": 1553,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1525,
-                  "end": 1536,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1525,
-                    "end": 1529,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1525,
+                      1529
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 55
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 55
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2385,25 +6013,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1531,
-                    "end": 1536,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1531,
+                      1536
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 55
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 55
+                      }
+                    }
+                  },
+                  "range": [
+                    1525,
+                    1536
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 55
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1538,
-                  "end": 1551,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1538,
-                    "end": 1543,
                     "decorators": [],
                     "name": "skill",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1538,
+                      1543
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 28,
+                        "line": 55
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 55
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2411,43 +6075,117 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1545,
-                    "end": 1551,
                     "decorators": [],
                     "name": "skillA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1545,
+                      1551
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 36,
+                        "line": 55
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 55
+                      }
+                    }
+                  },
+                  "range": [
+                    1538,
+                    1551
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 55
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1524,
+                1553
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 55
+                },
+                "start": {
+                  "column": 9,
+                  "line": 55
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1524,
+              1553
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 55
+              },
+              "start": {
+                "column": 9,
+                "line": 55
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1520,
+          1553
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 55
+          },
+          "start": {
+            "column": 5,
+            "line": 55
+          }
+        }
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 1557,
-        "end": 1633,
         "elements": [
           {
             "type": "ObjectExpression",
-            "start": 1558,
-            "end": 1592,
             "properties": [
               {
                 "type": "Property",
-                "start": 1560,
-                "end": 1573,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1560,
-                  "end": 1564,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1560,
+                    1564
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 49,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 45,
+                      "line": 55
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2455,24 +6193,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1566,
-                  "end": 1573,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "range": [
+                    1566,
+                    1573
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 58,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 51,
+                      "line": 55
+                    }
+                  }
+                },
+                "range": [
+                  1560,
+                  1573
+                ],
+                "loc": {
+                  "end": {
+                    "column": 58,
+                    "line": 55
+                  },
+                  "start": {
+                    "column": 45,
+                    "line": 55
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 1575,
-                "end": 1590,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1575,
-                  "end": 1580,
                   "decorators": [],
                   "name": "skill",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1575,
+                    1580
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 65,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 60,
+                      "line": 55
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2480,31 +6254,79 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1582,
-                  "end": 1590,
                   "raw": "\"mowing\"",
-                  "value": "mowing"
+                  "value": "mowing",
+                  "range": [
+                    1582,
+                    1590
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 67,
+                      "line": 55
+                    }
+                  }
+                },
+                "range": [
+                  1575,
+                  1590
+                ],
+                "loc": {
+                  "end": {
+                    "column": 75,
+                    "line": 55
+                  },
+                  "start": {
+                    "column": 60,
+                    "line": 55
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              1558,
+              1592
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 55
+              },
+              "start": {
+                "column": 43,
+                "line": 55
+              }
+            }
           },
           {
             "type": "ObjectExpression",
-            "start": 1594,
-            "end": 1632,
             "properties": [
               {
                 "type": "Property",
-                "start": 1596,
-                "end": 1611,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1596,
-                  "end": 1600,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1596,
+                    1600
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 85,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 81,
+                      "line": 55
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2512,24 +6334,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1602,
-                  "end": 1611,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "range": [
+                    1602,
+                    1611
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 96,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 87,
+                      "line": 55
+                    }
+                  }
+                },
+                "range": [
+                  1596,
+                  1611
+                ],
+                "loc": {
+                  "end": {
+                    "column": 96,
+                    "line": 55
+                  },
+                  "start": {
+                    "column": 81,
+                    "line": 55
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 1613,
-                "end": 1630,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1613,
-                  "end": 1618,
                   "decorators": [],
                   "name": "skill",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1613,
+                    1618
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 103,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 98,
+                      "line": 55
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -2537,102 +6395,256 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 1620,
-                  "end": 1630,
                   "raw": "\"trimming\"",
-                  "value": "trimming"
+                  "value": "trimming",
+                  "range": [
+                    1620,
+                    1630
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 115,
+                      "line": 55
+                    },
+                    "start": {
+                      "column": 105,
+                      "line": 55
+                    }
+                  }
+                },
+                "range": [
+                  1613,
+                  1630
+                ],
+                "loc": {
+                  "end": {
+                    "column": 115,
+                    "line": 55
+                  },
+                  "start": {
+                    "column": 98,
+                    "line": 55
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              1594,
+              1632
+            ],
+            "loc": {
+              "end": {
+                "column": 117,
+                "line": 55
+              },
+              "start": {
+                "column": 79,
+                "line": 55
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          1557,
+          1633
+        ],
+        "loc": {
+          "end": {
+            "column": 118,
+            "line": 55
+          },
+          "start": {
+            "column": 42,
+            "line": 55
+          }
+        }
+      },
+      "range": [
+        1515,
+        1662
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 57
+        },
+        "start": {
+          "column": 0,
+          "line": 55
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1663,
-      "end": 1784,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1757,
-        "end": 1784,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1763,
-            "end": 1782,
             "expression": {
               "type": "CallExpression",
-              "start": 1763,
-              "end": 1781,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1775,
-                  "end": 1780,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1775,
+                    1780
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 59
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 59
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1763,
-                "end": 1774,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1763,
-                  "end": 1770,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1763,
+                    1770
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 59
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 59
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1771,
-                  "end": 1774,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1771,
+                    1774
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 59
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 59
+                    }
+                  }
+                },
+                "range": [
+                  1763,
+                  1774
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 59
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 59
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1763,
+                1781
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 59
+                },
+                "start": {
+                  "column": 4,
+                  "line": 59
+                }
+              }
+            },
+            "range": [
+              1763,
+              1782
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 59
+              },
+              "start": {
+                "column": 4,
+                "line": 59
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1757,
+          1784
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 60
+          },
+          "start": {
+            "column": 94,
+            "line": 58
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1668,
-        "end": 1740,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1672,
-            "end": 1740,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1672,
-              "end": 1740,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1673,
-                  "end": 1684,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1673,
-                    "end": 1677,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1673,
+                      1677
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 58
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 58
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2640,25 +6652,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1679,
-                    "end": 1684,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1679,
+                      1684
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 58
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 58
+                      }
+                    }
+                  },
+                  "range": [
+                    1673,
+                    1684
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 58
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 58
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1686,
-                  "end": 1738,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1686,
-                    "end": 1692,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1686,
+                      1692
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 58
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 58
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2666,23 +6714,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 1694,
-                    "end": 1738,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1696,
-                        "end": 1713,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1696,
-                          "end": 1703,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1696,
+                            1703
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 40,
+                              "line": 58
+                            },
+                            "start": {
+                              "column": 33,
+                              "line": 58
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -2690,25 +6746,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1705,
-                          "end": 1713,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1705,
+                            1713
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 50,
+                              "line": 58
+                            },
+                            "start": {
+                              "column": 42,
+                              "line": 58
+                            }
+                          }
+                        },
+                        "range": [
+                          1696,
+                          1713
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 50,
+                            "line": 58
+                          },
+                          "start": {
+                            "column": 33,
+                            "line": 58
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 1715,
-                        "end": 1736,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1715,
-                          "end": 1724,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1715,
+                            1724
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 58
+                            },
+                            "start": {
+                              "column": 52,
+                              "line": 58
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -2716,118 +6808,326 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1726,
-                          "end": 1736,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1726,
+                            1736
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 73,
+                              "line": 58
+                            },
+                            "start": {
+                              "column": 63,
+                              "line": 58
+                            }
+                          }
+                        },
+                        "range": [
+                          1715,
+                          1736
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 58
+                          },
+                          "start": {
+                            "column": 52,
+                            "line": 58
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      1694,
+                      1738
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 75,
+                        "line": 58
+                      },
+                      "start": {
+                        "column": 31,
+                        "line": 58
+                      }
+                    }
+                  },
+                  "range": [
+                    1686,
+                    1738
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 58
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 58
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1672,
+                1740
+              ],
+              "loc": {
+                "end": {
+                  "column": 77,
+                  "line": 58
+                },
+                "start": {
+                  "column": 9,
+                  "line": 58
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1672,
+              1740
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 58
+              },
+              "start": {
+                "column": 9,
+                "line": 58
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1668,
+          1740
+        ],
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 58
+          },
+          "start": {
+            "column": 5,
+            "line": 58
+          }
+        }
       },
       "right": {
         "type": "Identifier",
-        "start": 1744,
-        "end": 1755,
         "decorators": [],
         "name": "multiRobots",
-        "optional": false
+        "optional": false,
+        "range": [
+          1744,
+          1755
+        ],
+        "loc": {
+          "end": {
+            "column": 92,
+            "line": 58
+          },
+          "start": {
+            "column": 81,
+            "line": 58
+          }
+        }
+      },
+      "range": [
+        1663,
+        1784
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 60
+        },
+        "start": {
+          "column": 0,
+          "line": 58
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1785,
-      "end": 1911,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 1884,
-        "end": 1911,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1890,
-            "end": 1909,
             "expression": {
               "type": "CallExpression",
-              "start": 1890,
-              "end": 1908,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 1902,
-                  "end": 1907,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1902,
+                    1907
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 62
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 62
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 1890,
-                "end": 1901,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 1890,
-                  "end": 1897,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1890,
+                    1897
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 62
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 62
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 1898,
-                  "end": 1901,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1898,
+                    1901
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 62
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 62
+                    }
+                  }
+                },
+                "range": [
+                  1890,
+                  1901
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 62
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 62
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                1890,
+                1908
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 62
+                },
+                "start": {
+                  "column": 4,
+                  "line": 62
+                }
+              }
+            },
+            "range": [
+              1890,
+              1909
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 62
+              },
+              "start": {
+                "column": 4,
+                "line": 62
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          1884,
+          1911
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 63
+          },
+          "start": {
+            "column": 99,
+            "line": 61
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1790,
-        "end": 1862,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1794,
-            "end": 1862,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1794,
-              "end": 1862,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1795,
-                  "end": 1806,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1795,
-                    "end": 1799,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1795,
+                      1799
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 61
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 61
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2835,25 +7135,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1801,
-                    "end": 1806,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1801,
+                      1806
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 61
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 61
+                      }
+                    }
+                  },
+                  "range": [
+                    1795,
+                    1806
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 61
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 61
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1808,
-                  "end": 1860,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1808,
-                    "end": 1814,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1808,
+                      1814
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 61
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 61
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -2861,23 +7197,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 1816,
-                    "end": 1860,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1818,
-                        "end": 1835,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1818,
-                          "end": 1825,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1818,
+                            1825
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 40,
+                              "line": 61
+                            },
+                            "start": {
+                              "column": 33,
+                              "line": 61
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -2885,25 +7229,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1827,
-                          "end": 1835,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1827,
+                            1835
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 50,
+                              "line": 61
+                            },
+                            "start": {
+                              "column": 42,
+                              "line": 61
+                            }
+                          }
+                        },
+                        "range": [
+                          1818,
+                          1835
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 50,
+                            "line": 61
+                          },
+                          "start": {
+                            "column": 33,
+                            "line": 61
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 1837,
-                        "end": 1858,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1837,
-                          "end": 1846,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1837,
+                            1846
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 61
+                            },
+                            "start": {
+                              "column": 52,
+                              "line": 61
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -2911,125 +7291,345 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1848,
-                          "end": 1858,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1848,
+                            1858
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 73,
+                              "line": 61
+                            },
+                            "start": {
+                              "column": 63,
+                              "line": 61
+                            }
+                          }
+                        },
+                        "range": [
+                          1837,
+                          1858
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 61
+                          },
+                          "start": {
+                            "column": 52,
+                            "line": 61
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      1816,
+                      1860
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 75,
+                        "line": 61
+                      },
+                      "start": {
+                        "column": 31,
+                        "line": 61
+                      }
+                    }
+                  },
+                  "range": [
+                    1808,
+                    1860
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 61
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 61
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1794,
+                1862
+              ],
+              "loc": {
+                "end": {
+                  "column": 77,
+                  "line": 61
+                },
+                "start": {
+                  "column": 9,
+                  "line": 61
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1794,
+              1862
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 61
+              },
+              "start": {
+                "column": 9,
+                "line": 61
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1790,
+          1862
+        ],
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 61
+          },
+          "start": {
+            "column": 5,
+            "line": 61
+          }
+        }
       },
       "right": {
         "type": "CallExpression",
-        "start": 1866,
-        "end": 1882,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 1866,
-          "end": 1880,
           "decorators": [],
           "name": "getMultiRobots",
-          "optional": false
+          "optional": false,
+          "range": [
+            1866,
+            1880
+          ],
+          "loc": {
+            "end": {
+              "column": 95,
+              "line": 61
+            },
+            "start": {
+              "column": 81,
+              "line": 61
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          1866,
+          1882
+        ],
+        "loc": {
+          "end": {
+            "column": 97,
+            "line": 61
+          },
+          "start": {
+            "column": 81,
+            "line": 61
+          }
+        }
+      },
+      "range": [
+        1785,
+        1911
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 63
+        },
+        "start": {
+          "column": 0,
+          "line": 61
+        }
       }
     },
     {
       "type": "ForOfStatement",
-      "start": 1912,
-      "end": 2170,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 2143,
-        "end": 2170,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2149,
-            "end": 2168,
             "expression": {
               "type": "CallExpression",
-              "start": 2149,
-              "end": 2167,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 2161,
-                  "end": 2166,
                   "decorators": [],
                   "name": "nameA",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2161,
+                    2166
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 66
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 66
+                    }
+                  }
                 }
               ],
               "callee": {
                 "type": "MemberExpression",
-                "start": 2149,
-                "end": 2160,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 2149,
-                  "end": 2156,
                   "decorators": [],
                   "name": "console",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2149,
+                    2156
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 66
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 66
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 2157,
-                  "end": 2160,
                   "decorators": [],
                   "name": "log",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2157,
+                    2160
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 15,
+                      "line": 66
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 66
+                    }
+                  }
+                },
+                "range": [
+                  2149,
+                  2160
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 66
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 66
+                  }
                 }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                2149,
+                2167
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 66
+                },
+                "start": {
+                  "column": 4,
+                  "line": 66
+                }
+              }
+            },
+            "range": [
+              2149,
+              2168
+            ],
+            "loc": {
+              "end": {
+                "column": 23,
+                "line": 66
+              },
+              "start": {
+                "column": 4,
+                "line": 66
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          2143,
+          2170
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 67
+          },
+          "start": {
+            "column": 80,
+            "line": 65
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 1917,
-        "end": 1989,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1921,
-            "end": 1989,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 1921,
-              "end": 1989,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 1922,
-                  "end": 1933,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1922,
-                    "end": 1926,
                     "decorators": [],
                     "name": "name",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1922,
+                      1926
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 64
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 64
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -3037,25 +7637,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "Identifier",
-                    "start": 1928,
-                    "end": 1933,
                     "decorators": [],
                     "name": "nameA",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1928,
+                      1933
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 64
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 64
+                      }
+                    }
+                  },
+                  "range": [
+                    1922,
+                    1933
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 64
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 1935,
-                  "end": 1987,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 1935,
-                    "end": 1941,
                     "decorators": [],
                     "name": "skills",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      1935,
+                      1941
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 64
+                      },
+                      "start": {
+                        "column": 23,
+                        "line": 64
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -3063,23 +7699,31 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                   "shorthand": false,
                   "value": {
                     "type": "ObjectPattern",
-                    "start": 1943,
-                    "end": 1987,
                     "decorators": [],
                     "optional": false,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 1945,
-                        "end": 1962,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1945,
-                          "end": 1952,
                           "decorators": [],
                           "name": "primary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1945,
+                            1952
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 40,
+                              "line": 64
+                            },
+                            "start": {
+                              "column": 33,
+                              "line": 64
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -3087,25 +7731,61 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1954,
-                          "end": 1962,
                           "decorators": [],
                           "name": "primaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1954,
+                            1962
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 50,
+                              "line": 64
+                            },
+                            "start": {
+                              "column": 42,
+                              "line": 64
+                            }
+                          }
+                        },
+                        "range": [
+                          1945,
+                          1962
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 50,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 33,
+                            "line": 64
+                          }
                         }
                       },
                       {
                         "type": "Property",
-                        "start": 1964,
-                        "end": 1985,
                         "computed": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 1964,
-                          "end": 1973,
                           "decorators": [],
                           "name": "secondary",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1964,
+                            1973
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 61,
+                              "line": 64
+                            },
+                            "start": {
+                              "column": 52,
+                              "line": 64
+                            }
+                          }
                         },
                         "kind": "init",
                         "method": false,
@@ -3113,46 +7793,148 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                         "shorthand": false,
                         "value": {
                           "type": "Identifier",
-                          "start": 1975,
-                          "end": 1985,
                           "decorators": [],
                           "name": "secondaryA",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            1975,
+                            1985
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 73,
+                              "line": 64
+                            },
+                            "start": {
+                              "column": 63,
+                              "line": 64
+                            }
+                          }
+                        },
+                        "range": [
+                          1964,
+                          1985
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 52,
+                            "line": 64
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      1943,
+                      1987
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 75,
+                        "line": 64
+                      },
+                      "start": {
+                        "column": 31,
+                        "line": 64
+                      }
+                    }
+                  },
+                  "range": [
+                    1935,
+                    1987
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 64
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                1921,
+                1989
+              ],
+              "loc": {
+                "end": {
+                  "column": 77,
+                  "line": 64
+                },
+                "start": {
+                  "column": 9,
+                  "line": 64
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              1921,
+              1989
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 64
+              },
+              "start": {
+                "column": 9,
+                "line": 64
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          1917,
+          1989
+        ],
+        "loc": {
+          "end": {
+            "column": 77,
+            "line": 64
+          },
+          "start": {
+            "column": 5,
+            "line": 64
+          }
+        }
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 1993,
-        "end": 2141,
         "elements": [
           {
             "type": "ObjectExpression",
-            "start": 1994,
-            "end": 2061,
             "properties": [
               {
                 "type": "Property",
-                "start": 1996,
-                "end": 2009,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 1996,
-                  "end": 2000,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    1996,
+                    2000
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 88,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 84,
+                      "line": 64
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -3160,24 +7942,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 2002,
-                  "end": 2009,
                   "raw": "\"mower\"",
-                  "value": "mower"
+                  "value": "mower",
+                  "range": [
+                    2002,
+                    2009
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 97,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 90,
+                      "line": 64
+                    }
+                  }
+                },
+                "range": [
+                  1996,
+                  2009
+                ],
+                "loc": {
+                  "end": {
+                    "column": 97,
+                    "line": 64
+                  },
+                  "start": {
+                    "column": 84,
+                    "line": 64
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 2011,
-                "end": 2059,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2011,
-                  "end": 2017,
                   "decorators": [],
                   "name": "skills",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2011,
+                    2017
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 105,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 99,
+                      "line": 64
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -3185,21 +8003,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 2019,
-                  "end": 2059,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 2021,
-                      "end": 2038,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 2021,
-                        "end": 2028,
                         "decorators": [],
                         "name": "primary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          2021,
+                          2028
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 116,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 109,
+                            "line": 64
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -3207,24 +8033,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 2030,
-                        "end": 2038,
                         "raw": "\"mowing\"",
-                        "value": "mowing"
+                        "value": "mowing",
+                        "range": [
+                          2030,
+                          2038
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 126,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 118,
+                            "line": 64
+                          }
+                        }
+                      },
+                      "range": [
+                        2021,
+                        2038
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 126,
+                          "line": 64
+                        },
+                        "start": {
+                          "column": 109,
+                          "line": 64
+                        }
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 2040,
-                      "end": 2057,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 2040,
-                        "end": 2049,
                         "decorators": [],
                         "name": "secondary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          2040,
+                          2049
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 137,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 128,
+                            "line": 64
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -3232,34 +8094,110 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 2051,
-                        "end": 2057,
                         "raw": "\"none\"",
-                        "value": "none"
+                        "value": "none",
+                        "range": [
+                          2051,
+                          2057
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 145,
+                            "line": 64
+                          },
+                          "start": {
+                            "column": 139,
+                            "line": 64
+                          }
+                        }
+                      },
+                      "range": [
+                        2040,
+                        2057
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 145,
+                          "line": 64
+                        },
+                        "start": {
+                          "column": 128,
+                          "line": 64
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    2019,
+                    2059
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 147,
+                      "line": 64
+                    },
+                    "start": {
+                      "column": 107,
+                      "line": 64
+                    }
+                  }
+                },
+                "range": [
+                  2011,
+                  2059
+                ],
+                "loc": {
+                  "end": {
+                    "column": 147,
+                    "line": 64
+                  },
+                  "start": {
+                    "column": 99,
+                    "line": 64
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              1994,
+              2061
+            ],
+            "loc": {
+              "end": {
+                "column": 149,
+                "line": 64
+              },
+              "start": {
+                "column": 82,
+                "line": 64
+              }
+            }
           },
           {
             "type": "ObjectExpression",
-            "start": 2067,
-            "end": 2140,
             "properties": [
               {
                 "type": "Property",
-                "start": 2069,
-                "end": 2084,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2069,
-                  "end": 2073,
                   "decorators": [],
                   "name": "name",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2069,
+                    2073
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 10,
+                      "line": 65
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 65
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -3267,24 +8205,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 2075,
-                  "end": 2084,
                   "raw": "\"trimmer\"",
-                  "value": "trimmer"
+                  "value": "trimmer",
+                  "range": [
+                    2075,
+                    2084
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 65
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 65
+                    }
+                  }
+                },
+                "range": [
+                  2069,
+                  2084
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 65
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 65
+                  }
                 }
               },
               {
                 "type": "Property",
-                "start": 2086,
-                "end": 2138,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 2086,
-                  "end": 2092,
                   "decorators": [],
                   "name": "skills",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    2086,
+                    2092
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 65
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 65
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -3292,21 +8266,29 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 2094,
-                  "end": 2138,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 2096,
-                      "end": 2115,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 2096,
-                        "end": 2103,
                         "decorators": [],
                         "name": "primary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          2096,
+                          2103
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 40,
+                            "line": 65
+                          },
+                          "start": {
+                            "column": 33,
+                            "line": 65
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -3314,24 +8296,60 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 2105,
-                        "end": 2115,
                         "raw": "\"trimming\"",
-                        "value": "trimming"
+                        "value": "trimming",
+                        "range": [
+                          2105,
+                          2115
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 65
+                          },
+                          "start": {
+                            "column": 42,
+                            "line": 65
+                          }
+                        }
+                      },
+                      "range": [
+                        2096,
+                        2115
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 65
+                        },
+                        "start": {
+                          "column": 33,
+                          "line": 65
+                        }
                       }
                     },
                     {
                       "type": "Property",
-                      "start": 2117,
-                      "end": 2136,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 2117,
-                        "end": 2126,
                         "decorators": [],
                         "name": "secondary",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          2117,
+                          2126
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 63,
+                            "line": 65
+                          },
+                          "start": {
+                            "column": 54,
+                            "line": 65
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -3339,21 +8357,128 @@ sourceMapValidationDestructuringForOfObjectBindingPattern.ts
                       "shorthand": false,
                       "value": {
                         "type": "Literal",
-                        "start": 2128,
-                        "end": 2136,
                         "raw": "\"edging\"",
-                        "value": "edging"
+                        "value": "edging",
+                        "range": [
+                          2128,
+                          2136
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 65
+                          },
+                          "start": {
+                            "column": 65,
+                            "line": 65
+                          }
+                        }
+                      },
+                      "range": [
+                        2117,
+                        2136
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 73,
+                          "line": 65
+                        },
+                        "start": {
+                          "column": 54,
+                          "line": 65
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    2094,
+                    2138
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 65
+                    },
+                    "start": {
+                      "column": 31,
+                      "line": 65
+                    }
+                  }
+                },
+                "range": [
+                  2086,
+                  2138
+                ],
+                "loc": {
+                  "end": {
+                    "column": 75,
+                    "line": 65
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 65
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              2067,
+              2140
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 65
+              },
+              "start": {
+                "column": 4,
+                "line": 65
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          1993,
+          2141
+        ],
+        "loc": {
+          "end": {
+            "column": 78,
+            "line": 65
+          },
+          "start": {
+            "column": 81,
+            "line": 64
+          }
+        }
+      },
+      "range": [
+        1912,
+        2170
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 67
+        },
+        "start": {
+          "column": 0,
+          "line": 64
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 67
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

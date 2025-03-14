@@ -1,4 +1,4 @@
-MemberFunctionDeclaration6_es6.ts
+__ESTREE_TEST__:FAIL:
 ```json
 '(' expected.
 ```

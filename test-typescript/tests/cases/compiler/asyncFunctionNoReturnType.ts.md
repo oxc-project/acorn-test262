@@ -1,53 +1,138 @@
-asyncFunctionNoReturnType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
+  "range": [
+    0,
+    48
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 47,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 0,
-        "end": 47,
         "async": true,
         "body": {
           "type": "BlockStatement",
-          "start": 12,
-          "end": 47,
           "body": [
             {
               "type": "IfStatement",
-              "start": 18,
-              "end": 45,
               "alternate": null,
               "consequent": {
                 "type": "ReturnStatement",
-                "start": 38,
-                "end": 45,
-                "argument": null
+                "argument": null,
+                "range": [
+                  38,
+                  45
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 3
+                  }
+                }
               },
               "test": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 28,
                 "decorators": [],
                 "name": "window",
-                "optional": false
+                "optional": false,
+                "range": [
+                  22,
+                  28
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                18,
+                45
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            12,
+            47
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 4
+            },
+            "start": {
+              "column": 12,
+              "line": 1
+            }
+          }
         },
         "expression": false,
         "generator": false,
         "id": null,
-        "params": []
+        "params": [],
+        "range": [
+          0,
+          47
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        47
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

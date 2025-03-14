@@ -1,48 +1,64 @@
-parserComputedPropertyName14.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
+  "range": [
+    0,
+    25
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 24,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 24,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 24,
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 1
+                },
+                "start": {
+                  "column": 5,
+                  "line": 1
+                }
+              },
+              "range": [
+                5,
+                24
+              ],
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 7,
-                "end": 24,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 9,
-                    "end": 22,
                     "computed": true,
                     "key": {
                       "type": "Identifier",
-                      "start": 10,
-                      "end": 11,
                       "decorators": [],
                       "name": "e",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        10,
+                        11
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 11,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 10,
+                          "line": 1
+                        }
+                      }
                     },
                     "kind": "method",
                     "optional": false,
@@ -50,27 +66,132 @@ parserComputedPropertyName14.ts
                     "readonly": false,
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 14,
-                      "end": 22,
+                      "loc": {
+                        "end": {
+                          "column": 22,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 14,
+                          "line": 1
+                        }
+                      },
+                      "range": [
+                        14,
+                        22
+                      ],
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
-                        "start": 16,
-                        "end": 22
+                        "range": [
+                          16,
+                          22
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 22,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 16,
+                            "line": 1
+                          }
+                        }
                       }
                     },
-                    "static": false
+                    "static": false,
+                    "range": [
+                      9,
+                      22
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 22,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 1
+                      }
+                    }
                   }
-                ]
+                ],
+                "range": [
+                  7,
+                  24
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 1
+                  }
+                }
+              }
+            },
+            "range": [
+              4,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            4,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 25,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,161 +1,426 @@
-avoidListingPropertiesForTypesWithOnlyCallOrConstructSignatures.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 138,
+  "range": [
+    0,
+    138
+  ],
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 36,
       "body": {
         "type": "TSInterfaceBody",
-        "start": 14,
-        "end": 36,
+        "range": [
+          14,
+          36
+        ],
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 20,
-            "end": 34,
             "computed": false,
             "key": {
               "type": "Identifier",
-              "start": 20,
-              "end": 28,
               "decorators": [],
               "name": "barkable",
-              "optional": false
+              "optional": false,
+              "range": [
+                20,
+                28
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 4,
+                  "line": 2
+                }
+              }
             },
             "optional": false,
             "readonly": false,
             "static": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 28,
-              "end": 34,
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 12,
+                  "line": 2
+                }
+              },
+              "range": [
+                28,
+                34
+              ],
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 30,
-                "end": 34,
                 "literal": {
                   "type": "Literal",
-                  "start": 30,
-                  "end": 34,
                   "raw": "true",
-                  "value": true
+                  "value": true,
+                  "range": [
+                    30,
+                    34
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  30,
+                  34
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
+                  }
                 }
+              }
+            },
+            "range": [
+              20,
+              34
+            ],
+            "loc": {
+              "end": {
+                "column": 18,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "extends": [],
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "Dog",
-        "optional": false
+        "optional": false,
+        "range": [
+          10,
+          13
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 1
+          },
+          "start": {
+            "column": 10,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        36
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "TSDeclareFunction",
-      "start": 38,
-      "end": 70,
       "async": false,
       "declare": true,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 55,
-        "end": 63,
         "decorators": [],
         "name": "getRover",
-        "optional": false
+        "optional": false,
+        "range": [
+          55,
+          63
+        ],
+        "loc": {
+          "end": {
+            "column": 25,
+            "line": 5
+          },
+          "start": {
+            "column": 17,
+            "line": 5
+          }
+        }
       },
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 65,
-        "end": 70,
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 5
+          },
+          "start": {
+            "column": 27,
+            "line": 5
+          }
+        },
+        "range": [
+          65,
+          70
+        ],
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 67,
-          "end": 70,
           "typeName": {
             "type": "Identifier",
-            "start": 67,
-            "end": 70,
             "decorators": [],
             "name": "Dog",
-            "optional": false
+            "optional": false,
+            "range": [
+              67,
+              70
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 5
+              },
+              "start": {
+                "column": 29,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            67,
+            70
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 5
+            },
+            "start": {
+              "column": 29,
+              "line": 5
+            }
           }
+        }
+      },
+      "range": [
+        38,
+        70
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 76,
-      "end": 104,
+      "range": [
+        76,
+        104
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 83,
-        "end": 104,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 87,
-            "end": 103,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 87,
-              "end": 92,
               "decorators": [],
               "name": "x",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 88,
-                "end": 92,
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 7
+                  }
+                },
+                "range": [
+                  88,
+                  92
+                ],
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 89,
-                  "end": 92,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 89,
-                    "end": 92,
                     "decorators": [],
                     "name": "Dog",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      89,
+                      92
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 16,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 7
+                      }
+                    }
+                  },
+                  "range": [
+                    89,
+                    92
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 16,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 7
+                    }
                   }
+                }
+              },
+              "range": [
+                87,
+                92
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 7
+                },
+                "start": {
+                  "column": 11,
+                  "line": 7
                 }
               }
             },
             "init": {
               "type": "Identifier",
-              "start": 95,
-              "end": 103,
               "decorators": [],
               "name": "getRover",
-              "optional": false
+              "optional": false,
+              "range": [
+                95,
+                103
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 7
+                },
+                "start": {
+                  "column": 19,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              87,
+              103
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 7
+              },
+              "start": {
+                "column": 11,
+                "line": 7
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          83,
+          104
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 7
+          },
+          "start": {
+            "column": 7,
+            "line": 7
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 33,
+      "line": 8
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

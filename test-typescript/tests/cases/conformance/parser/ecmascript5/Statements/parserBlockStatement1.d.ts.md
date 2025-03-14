@@ -1,17 +1,42 @@
-parserBlockStatement1.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 2,
+  "range": [
+    0,
+    2
+  ],
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 2,
-      "body": []
+      "body": [],
+      "range": [
+        0,
+        2
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 2,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

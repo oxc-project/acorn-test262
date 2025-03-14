@@ -1,32 +1,81 @@
-parser_breakInIterationOrSwitchStatement3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
+  "range": [
+    0,
+    21
+  ],
   "body": [
     {
       "type": "ForStatement",
-      "start": 0,
-      "end": 21,
       "body": {
         "type": "BlockStatement",
-        "start": 9,
-        "end": 21,
         "body": [
           {
             "type": "BreakStatement",
-            "start": 13,
-            "end": 19,
-            "label": null
+            "label": null,
+            "range": [
+              13,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 8,
+                "line": 2
+              },
+              "start": {
+                "column": 2,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          9,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "init": null,
       "test": null,
-      "update": null
+      "update": null,
+      "range": [
+        0,
+        21
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

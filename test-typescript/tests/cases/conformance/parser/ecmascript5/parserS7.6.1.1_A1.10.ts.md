@@ -1,10 +1,23 @@
-parserS7.6.1.1_A1.10.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 324,
-  "end": 324,
+  "range": [
+    324,
+    324
+  ],
   "body": [],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 14
+    }
+  },
+  "hashbang": null
 }
 ```

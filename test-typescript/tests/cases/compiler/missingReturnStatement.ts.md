@@ -1,48 +1,58 @@
-missingReturnStatement.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 89,
+  "range": [
+    0,
+    89
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 88,
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 88,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 18,
-            "end": 82,
+            "range": [
+              18,
+              82
+            ],
             "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 25,
-              "end": 82,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "start": 35,
-                "end": 82,
+                "range": [
+                  35,
+                  82
+                ],
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 45,
-                    "end": 76,
                     "accessibility": "public",
                     "computed": false,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 52,
-                      "end": 55,
                       "decorators": [],
                       "name": "foo",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        52,
+                        55
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 3
+                        }
+                      }
                     },
                     "kind": "method",
                     "optional": false,
@@ -50,14 +60,28 @@ missingReturnStatement.ts
                     "static": false,
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 55,
-                      "end": 76,
+                      "range": [
+                        55,
+                        76
+                      ],
                       "async": false,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 65,
-                        "end": 76,
-                        "body": []
+                        "body": [],
+                        "range": [
+                          65,
+                          76
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 9,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 28,
+                            "line": 3
+                          }
+                        }
                       },
                       "declare": false,
                       "expression": false,
@@ -66,50 +90,195 @@ missingReturnStatement.ts
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 57,
-                        "end": 64,
+                        "loc": {
+                          "end": {
+                            "column": 27,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 20,
+                            "line": 3
+                          }
+                        },
+                        "range": [
+                          57,
+                          64
+                        ],
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
-                          "start": 58,
-                          "end": 64
+                          "range": [
+                            58,
+                            64
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 27,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 21,
+                              "line": 3
+                            }
+                          }
                         }
+                      },
+                      "loc": {
+                        "end": {
+                          "column": 9,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      45,
+                      76
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 3
                       }
                     }
                   }
-                ]
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 31,
-                "end": 34,
                 "decorators": [],
                 "name": "Bug",
-                "optional": false
+                "optional": false,
+                "range": [
+                  31,
+                  34
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
+                }
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "range": [
+                25,
+                82
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 5
+                },
+                "start": {
+                  "column": 11,
+                  "line": 2
+                }
+              }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          12,
+          88
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 6
+          },
+          "start": {
+            "column": 12,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 11,
+        "range": [
+          7,
+          11
+        ],
         "decorators": [],
         "name": "Test",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        88
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

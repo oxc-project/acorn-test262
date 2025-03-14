@@ -1,45 +1,106 @@
-unicodeExtendedEscapesInRegularExpressions08.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 132,
-  "end": 154,
+  "range": [
+    132,
+    154
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 132,
-      "end": 153,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 136,
-          "end": 152,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 136,
-            "end": 137,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              136,
+              137
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
+            }
           },
           "init": {
             "type": "Literal",
-            "start": 140,
-            "end": 152,
             "raw": "/\\u{FFFF}/gu",
             "regex": {
               "flags": "gu",
               "pattern": "\\u{FFFF}"
             },
-            "value": {}
+            "value": null,
+            "range": [
+              140,
+              152
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 6
+              },
+              "start": {
+                "column": 8,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            136,
+            152
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        132,
+        153
+      ],
+      "loc": {
+        "end": {
+          "column": 21,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```

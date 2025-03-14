@@ -1,4 +1,4 @@
-invalidTryStatements.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'try' expected.
 ```

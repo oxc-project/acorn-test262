@@ -1,39 +1,45 @@
-destructuringTypeAssertionsES5_3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
+  "range": [
+    0,
+    25
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 24,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 6,
-                "end": 7,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    6,
+                    7
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 7,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -41,46 +47,173 @@ destructuringTypeAssertionsES5_3.ts
                 "shorthand": true,
                 "value": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    6,
+                    7
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 7,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  6,
+                  7
+                ],
+                "loc": {
+                  "end": {
+                    "column": 7,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              4,
+              9
+            ],
+            "loc": {
+              "end": {
+                "column": 9,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 12,
-            "end": 24,
             "expression": {
               "type": "CallExpression",
-              "start": 18,
-              "end": 23,
               "arguments": [],
               "callee": {
                 "type": "Identifier",
-                "start": 18,
-                "end": 21,
                 "decorators": [],
                 "name": "foo",
-                "optional": false
+                "optional": false,
+                "range": [
+                  18,
+                  21
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 1
+                  }
+                }
               },
-              "optional": false
+              "optional": false,
+              "range": [
+                18,
+                23
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 1
+                },
+                "start": {
+                  "column": 18,
+                  "line": 1
+                }
+              }
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
-              "start": 13,
-              "end": 16
+              "range": [
+                13,
+                16
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              12,
+              24
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 1
+              },
+              "start": {
+                "column": 12,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 24,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
             }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 25,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 25,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

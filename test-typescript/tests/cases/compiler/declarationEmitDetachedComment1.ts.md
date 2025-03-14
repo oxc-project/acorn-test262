@@ -1,105 +1,252 @@
-test1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 78,
+  "range": [
+    61,
+    78
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 61,
-      "end": 77,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 73,
-        "end": 77,
-        "body": []
+        "range": [
+          73,
+          77
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 12,
+            "line": 6
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 67,
-        "end": 72,
         "decorators": [],
         "name": "Hello",
-        "optional": false
+        "optional": false,
+        "range": [
+          67,
+          72
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 6
+          },
+          "start": {
+            "column": 6,
+            "line": 6
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        61,
+        77
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```
-test2.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 75,
+  "range": [
+    61,
+    75
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 61,
-      "end": 74,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 70,
-        "end": 74,
-        "body": []
+        "range": [
+          70,
+          74
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 9,
+            "line": 6
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 67,
-        "end": 69,
         "decorators": [],
         "name": "Hi",
-        "optional": false
+        "optional": false,
+        "range": [
+          67,
+          69
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 6
+          },
+          "start": {
+            "column": 6,
+            "line": 6
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        61,
+        74
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```
-test3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 69,
-  "end": 85,
+  "range": [
+    69,
+    85
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 69,
-      "end": 84,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 80,
-        "end": 84,
-        "body": []
+        "range": [
+          80,
+          84
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 11,
+            "line": 6
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 75,
-        "end": 79,
         "decorators": [],
         "name": "Hola",
-        "optional": false
+        "optional": false,
+        "range": [
+          75,
+          79
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 6
+          },
+          "start": {
+            "column": 6,
+            "line": 6
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        69,
+        84
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "line": 6
+        }
+      }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 9
+    },
+    "start": {
+      "column": 0,
+      "line": 6
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,69 +1,166 @@
-templateStringWithOpenCommentInStringPortionES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 76,
+  "range": [
+    17,
+    76
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 76,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 17,
-        "end": 76,
         "expressions": [
           {
             "type": "Literal",
-            "start": 31,
-            "end": 33,
             "raw": "10",
-            "value": 10
+            "value": 10,
+            "range": [
+              31,
+              33
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 2
+              },
+              "start": {
+                "column": 14,
+                "line": 2
+              }
+            }
           },
           {
             "type": "Literal",
-            "start": 56,
-            "end": 58,
             "raw": "20",
-            "value": 20
+            "value": 20,
+            "range": [
+              56,
+              58
+            ],
+            "loc": {
+              "end": {
+                "column": 41,
+                "line": 2
+              },
+              "start": {
+                "column": 39,
+                "line": 2
+              }
+            }
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 17,
-            "end": 30,
             "tail": false,
             "value": {
               "cooked": " /**head  ",
               "raw": " /**head  "
+            },
+            "range": [
+              17,
+              30
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 34,
-            "end": 55,
             "tail": false,
             "value": {
               "cooked": " // still middle  ",
               "raw": " // still middle  "
+            },
+            "range": [
+              34,
+              55
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 2
+              },
+              "start": {
+                "column": 17,
+                "line": 2
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 59,
-            "end": 76,
             "tail": true,
             "value": {
               "cooked": " /* still tail ",
               "raw": " /* still tail "
+            },
+            "range": [
+              59,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 59,
+                "line": 2
+              },
+              "start": {
+                "column": 42,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          17,
+          76
+        ],
+        "loc": {
+          "end": {
+            "column": 59,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        17,
+        76
+      ],
+      "loc": {
+        "end": {
+          "column": 59,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 59,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

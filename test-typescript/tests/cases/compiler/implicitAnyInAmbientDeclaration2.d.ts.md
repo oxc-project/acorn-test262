@@ -1,75 +1,147 @@
-implicitAnyInAmbientDeclaration2.d.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 539,
+  "range": [
+    0,
+    539
+  ],
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 24,
       "async": false,
       "declare": true,
       "expression": false,
       "generator": false,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 20,
         "decorators": [],
         "name": "foo",
-        "optional": false
+        "optional": false,
+        "range": [
+          17,
+          20
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1
+          },
+          "start": {
+            "column": 17,
+            "line": 1
+          }
+        }
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 21,
-          "end": 22,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            21,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 21,
+              "line": 1
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 53,
-      "end": 69,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 65,
-          "end": 68,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 65,
-            "end": 68,
             "decorators": [],
             "name": "bar",
-            "optional": false
+            "optional": false,
+            "range": [
+              65,
+              68
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 2
+              },
+              "start": {
+                "column": 12,
+                "line": 2
+              }
+            }
           },
-          "init": null
+          "init": null,
+          "range": [
+            65,
+            68
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 2
+            },
+            "start": {
+              "column": 12,
+              "line": 2
+            }
+          }
         }
       ],
       "declare": true,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        53,
+        69
+      ],
+      "loc": {
+        "end": {
+          "column": 16,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 100,
-      "end": 436,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 116,
-        "end": 436,
+        "range": [
+          116,
+          436
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 122,
-            "end": 142,
             "accessibility": "public",
             "computed": false,
             "declare": false,
@@ -77,22 +149,46 @@ implicitAnyInAmbientDeclaration2.d.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 129,
-              "end": 141,
               "decorators": [],
               "name": "publicMember",
-              "optional": false
+              "optional": false,
+              "range": [
+                129,
+                141
+              ],
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 4
+                },
+                "start": {
+                  "column": 11,
+                  "line": 4
+                }
+              }
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
-            "value": null
+            "value": null,
+            "range": [
+              122,
+              142
+            ],
+            "loc": {
+              "end": {
+                "column": 24,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           },
           {
             "type": "PropertyDefinition",
-            "start": 175,
-            "end": 197,
             "accessibility": "private",
             "computed": false,
             "declare": false,
@@ -100,32 +196,68 @@ implicitAnyInAmbientDeclaration2.d.ts
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 183,
-              "end": 196,
               "decorators": [],
               "name": "privateMember",
-              "optional": false
+              "optional": false,
+              "range": [
+                183,
+                196
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 5
+                },
+                "start": {
+                  "column": 12,
+                  "line": 5
+                }
+              }
             },
             "optional": false,
             "override": false,
             "readonly": false,
             "static": false,
-            "value": null
+            "value": null,
+            "range": [
+              175,
+              197
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 5
+              },
+              "start": {
+                "column": 4,
+                "line": 5
+              }
+            }
           },
           {
             "type": "MethodDefinition",
-            "start": 235,
-            "end": 260,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 242,
-              "end": 256,
               "decorators": [],
               "name": "publicFunction",
-              "optional": false
+              "optional": false,
+              "range": [
+                242,
+                256
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 7
+                },
+                "start": {
+                  "column": 11,
+                  "line": 7
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -133,8 +265,10 @@ implicitAnyInAmbientDeclaration2.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 256,
-              "end": 260,
+              "range": [
+                256,
+                260
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -144,29 +278,75 @@ implicitAnyInAmbientDeclaration2.d.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 257,
-                  "end": 258,
                   "decorators": [],
                   "name": "x",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    257,
+                    258
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 7
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 7
+                },
+                "start": {
+                  "column": 25,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              235,
+              260
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 293,
-            "end": 331,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 301,
-              "end": 316,
               "decorators": [],
               "name": "privateFunction",
-              "optional": false
+              "optional": false,
+              "range": [
+                301,
+                316
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 8
+                },
+                "start": {
+                  "column": 12,
+                  "line": 8
+                }
+              }
             },
             "kind": "method",
             "optional": false,
@@ -174,8 +354,10 @@ implicitAnyInAmbientDeclaration2.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 316,
-              "end": 331,
+              "range": [
+                316,
+                331
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -185,29 +367,75 @@ implicitAnyInAmbientDeclaration2.d.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 317,
-                  "end": 329,
                   "decorators": [],
                   "name": "privateParam",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    317,
+                    329
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 40,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 28,
+                      "line": 8
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 42,
+                  "line": 8
+                },
+                "start": {
+                  "column": 27,
+                  "line": 8
+                }
+              }
+            },
+            "range": [
+              293,
+              331
+            ],
+            "loc": {
+              "end": {
+                "column": 42,
+                "line": 8
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 368,
-            "end": 402,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 376,
-              "end": 387,
+              "range": [
+                376,
+                387
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 23,
+                  "line": 9
+                },
+                "start": {
+                  "column": 12,
+                  "line": 9
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -215,8 +443,10 @@ implicitAnyInAmbientDeclaration2.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 387,
-              "end": 402,
+              "range": [
+                387,
+                402
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -226,54 +456,136 @@ implicitAnyInAmbientDeclaration2.d.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 388,
-                  "end": 400,
                   "decorators": [],
                   "name": "privateParam",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    388,
+                    400
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 9
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 9
+                },
+                "start": {
+                  "column": 23,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              368,
+              402
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 10
+          },
+          "start": {
+            "column": 16,
+            "line": 3
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 114,
-        "end": 115,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          114,
+          115
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 3
+          },
+          "start": {
+            "column": 14,
+            "line": 3
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        100,
+        436
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 438,
-      "end": 539,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 454,
-        "end": 539,
+        "range": [
+          454,
+          539
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 460,
-            "end": 509,
             "accessibility": "public",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 467,
-              "end": 478,
+              "range": [
+                467,
+                478
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 13
+                },
+                "start": {
+                  "column": 11,
+                  "line": 13
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -281,8 +593,10 @@ implicitAnyInAmbientDeclaration2.d.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 478,
-              "end": 509,
+              "range": [
+                478,
+                509
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -292,49 +606,168 @@ implicitAnyInAmbientDeclaration2.d.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 479,
-                  "end": 494,
                   "decorators": [],
                   "name": "publicConsParam",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    479,
+                    494
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 13
+                    }
+                  }
                 },
                 {
                   "type": "Identifier",
-                  "start": 496,
-                  "end": 507,
                   "decorators": [],
                   "name": "int",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 499,
-                    "end": 507,
+                    "loc": {
+                      "end": {
+                        "column": 51,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 43,
+                        "line": 13
+                      }
+                    },
+                    "range": [
+                      499,
+                      507
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 501,
-                      "end": 507
+                      "range": [
+                        501,
+                        507
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 51,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 45,
+                          "line": 13
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    496,
+                    507
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 51,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 40,
+                      "line": 13
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 53,
+                  "line": 13
+                },
+                "start": {
+                  "column": 22,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              460,
+              509
+            ],
+            "loc": {
+              "end": {
+                "column": 53,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 16,
+            "line": 12
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 452,
-        "end": 453,
         "decorators": [],
         "name": "D",
-        "optional": false
+        "optional": false,
+        "range": [
+          452,
+          453
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 12
+          },
+          "start": {
+            "column": 14,
+            "line": 12
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        438,
+        539
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

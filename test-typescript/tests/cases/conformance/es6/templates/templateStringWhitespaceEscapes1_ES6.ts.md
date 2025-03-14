@@ -1,34 +1,83 @@
-templateStringWhitespaceEscapes1_ES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 30,
+  "range": [
+    17,
+    30
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 30,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 17,
-        "end": 29,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 17,
-            "end": 29,
             "tail": true,
             "value": {
               "cooked": "\t\n\u000b\f\r",
               "raw": "\\t\\n\\v\\f\\r"
+            },
+            "range": [
+              17,
+              29
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          17,
+          29
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        17,
+        30
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 13,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

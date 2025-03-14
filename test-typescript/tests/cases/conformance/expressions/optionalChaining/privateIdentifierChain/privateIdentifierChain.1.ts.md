@@ -1,4 +1,4 @@
-privateIdentifierChain.1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 An optional chain cannot contain private identifiers.
 ```

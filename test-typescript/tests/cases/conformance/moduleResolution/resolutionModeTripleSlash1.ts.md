@@ -1,37 +1,98 @@
-/app.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 30,
-  "end": 61,
+  "range": [
+    30,
+    61
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 30,
-      "end": 37,
       "expression": {
         "type": "Identifier",
-        "start": 30,
-        "end": 36,
         "decorators": [],
         "name": "MODULE",
-        "optional": false
+        "optional": false,
+        "range": [
+          30,
+          36
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        30,
+        37
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 51,
       "expression": {
         "type": "Identifier",
-        "start": 44,
-        "end": 50,
         "decorators": [],
         "name": "SCRIPT",
-        "optional": false
+        "optional": false,
+        "range": [
+          44,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        44,
+        51
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 4
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

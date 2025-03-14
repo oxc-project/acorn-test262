@@ -1,73 +1,206 @@
-duplicateLabel4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
+  "range": [
+    0,
+    51
+  ],
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 24,
       "body": {
         "type": "WhileStatement",
-        "start": 8,
-        "end": 24,
         "body": {
           "type": "BlockStatement",
-          "start": 21,
-          "end": 24,
-          "body": []
+          "body": [],
+          "range": [
+            21,
+            24
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 13,
+              "line": 2
+            }
+          }
         },
         "test": {
           "type": "Literal",
-          "start": 15,
-          "end": 19,
           "raw": "true",
-          "value": true
+          "value": true,
+          "range": [
+            15,
+            19
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 2
+            },
+            "start": {
+              "column": 7,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          8,
+          24
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
         }
       },
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        24
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "LabeledStatement",
-      "start": 26,
-      "end": 51,
       "body": {
         "type": "WhileStatement",
-        "start": 35,
-        "end": 51,
         "body": {
           "type": "BlockStatement",
-          "start": 48,
-          "end": 51,
-          "body": []
+          "body": [],
+          "range": [
+            48,
+            51
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 7
+            },
+            "start": {
+              "column": 13,
+              "line": 6
+            }
+          }
         },
         "test": {
           "type": "Literal",
-          "start": 42,
-          "end": 46,
           "raw": "true",
-          "value": true
+          "value": true,
+          "range": [
+            42,
+            46
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 6
+            },
+            "start": {
+              "column": 7,
+              "line": 6
+            }
+          }
+        },
+        "range": [
+          35,
+          51
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 0,
+            "line": 6
+          }
         }
       },
       "label": {
         "type": "Identifier",
-        "start": 26,
-        "end": 32,
         "decorators": [],
         "name": "target",
-        "optional": false
+        "optional": false,
+        "range": [
+          26,
+          32
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        26,
+        51
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

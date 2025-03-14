@@ -1,181 +1,482 @@
-library_RegExpExecArraySlice.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 62,
-  "end": 198,
+  "range": [
+    62,
+    198
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 62,
-      "end": 104,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 66,
-          "end": 103,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 66,
-            "end": 103,
             "decorators": [],
             "name": "regExpExecArrayValue",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 86,
-              "end": 103,
+              "loc": {
+                "end": {
+                  "column": 41,
+                  "line": 2
+                },
+                "start": {
+                  "column": 24,
+                  "line": 2
+                }
+              },
+              "range": [
+                86,
+                103
+              ],
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 88,
-                "end": 103,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 88,
-                  "end": 103,
                   "decorators": [],
                   "name": "RegExpExecArray",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    88,
+                    103
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 41,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 26,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  88,
+                  103
+                ],
+                "loc": {
+                  "end": {
+                    "column": 41,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 2
+                  }
                 }
+              }
+            },
+            "range": [
+              66,
+              103
+            ],
+            "loc": {
+              "end": {
+                "column": 41,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
               }
             }
           },
-          "init": null
+          "init": null,
+          "range": [
+            66,
+            103
+          ],
+          "loc": {
+            "end": {
+              "column": 41,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
+          }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        62,
+        104
+      ],
+      "loc": {
+        "end": {
+          "column": 42,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 105,
-      "end": 134,
       "expression": {
         "type": "CallExpression",
-        "start": 105,
-        "end": 133,
         "arguments": [],
         "callee": {
           "type": "MemberExpression",
-          "start": 105,
-          "end": 131,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 105,
-            "end": 125,
             "decorators": [],
             "name": "regExpExecArrayValue",
-            "optional": false
+            "optional": false,
+            "range": [
+              105,
+              125
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 126,
-            "end": 131,
             "decorators": [],
             "name": "slice",
-            "optional": false
+            "optional": false,
+            "range": [
+              126,
+              131
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 3
+              },
+              "start": {
+                "column": 21,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            105,
+            131
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          105,
+          133
+        ],
+        "loc": {
+          "end": {
+            "column": 28,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        105,
+        134
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 135,
-      "end": 165,
       "expression": {
         "type": "CallExpression",
-        "start": 135,
-        "end": 164,
         "arguments": [
           {
             "type": "Literal",
-            "start": 162,
-            "end": 163,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "range": [
+              162,
+              163
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 4
+              },
+              "start": {
+                "column": 27,
+                "line": 4
+              }
+            }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 135,
-          "end": 161,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 135,
-            "end": 155,
             "decorators": [],
             "name": "regExpExecArrayValue",
-            "optional": false
+            "optional": false,
+            "range": [
+              135,
+              155
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 4
+              },
+              "start": {
+                "column": 0,
+                "line": 4
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 156,
-            "end": 161,
             "decorators": [],
             "name": "slice",
-            "optional": false
+            "optional": false,
+            "range": [
+              156,
+              161
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 4
+              },
+              "start": {
+                "column": 21,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            135,
+            161
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 4
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          135,
+          164
+        ],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        135,
+        165
+      ],
+      "loc": {
+        "end": {
+          "column": 30,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 166,
-      "end": 198,
       "expression": {
         "type": "CallExpression",
-        "start": 166,
-        "end": 197,
         "arguments": [
           {
             "type": "Literal",
-            "start": 193,
-            "end": 194,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "range": [
+              193,
+              194
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 5
+              },
+              "start": {
+                "column": 27,
+                "line": 5
+              }
+            }
           },
           {
             "type": "Literal",
-            "start": 195,
-            "end": 196,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "range": [
+              195,
+              196
+            ],
+            "loc": {
+              "end": {
+                "column": 30,
+                "line": 5
+              },
+              "start": {
+                "column": 29,
+                "line": 5
+              }
+            }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 166,
-          "end": 192,
           "computed": false,
           "object": {
             "type": "Identifier",
-            "start": 166,
-            "end": 186,
             "decorators": [],
             "name": "regExpExecArrayValue",
-            "optional": false
+            "optional": false,
+            "range": [
+              166,
+              186
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 5
+              },
+              "start": {
+                "column": 0,
+                "line": 5
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 187,
-            "end": 192,
             "decorators": [],
             "name": "slice",
-            "optional": false
+            "optional": false,
+            "range": [
+              187,
+              192
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 5
+              },
+              "start": {
+                "column": 21,
+                "line": 5
+              }
+            }
+          },
+          "range": [
+            166,
+            192
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 5
+            },
+            "start": {
+              "column": 0,
+              "line": 5
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          166,
+          197
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        166,
+        198
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 32,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

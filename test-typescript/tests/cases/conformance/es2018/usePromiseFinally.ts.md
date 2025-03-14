@@ -1,71 +1,109 @@
-usePromiseFinally.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 98,
+  "range": [
+    0,
+    98
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 97,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 96,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 12,
             "decorators": [],
             "name": "promise1",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              12
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "CallExpression",
-            "start": 15,
-            "end": 96,
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 82,
-                "end": 95,
                 "async": false,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 93,
-                  "end": 95,
-                  "body": []
+                  "body": [],
+                  "range": [
+                    93,
+                    95
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 36,
+                      "line": 2
+                    }
+                  }
                 },
                 "declare": false,
                 "expression": false,
                 "generator": false,
                 "id": null,
-                "params": []
+                "params": [],
+                "range": [
+                  82,
+                  95
+                ],
+                "loc": {
+                  "end": {
+                    "column": 38,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 25,
+                    "line": 2
+                  }
+                }
               }
             ],
             "callee": {
               "type": "MemberExpression",
-              "start": 15,
-              "end": 81,
               "computed": false,
               "object": {
                 "type": "NewExpression",
-                "start": 15,
-                "end": 56,
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 27,
-                    "end": 55,
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 53,
-                      "end": 55,
-                      "body": []
+                      "body": [],
+                      "range": [
+                        53,
+                        55
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 55,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 53,
+                          "line": 1
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -74,50 +112,193 @@ usePromiseFinally.ts
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 36,
-                        "end": 43,
                         "decorators": [],
                         "name": "resolve",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          36,
+                          43
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 43,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 36,
+                            "line": 1
+                          }
+                        }
                       },
                       {
                         "type": "Identifier",
-                        "start": 45,
-                        "end": 51,
                         "decorators": [],
                         "name": "reject",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          45,
+                          51
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 51,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 45,
+                            "line": 1
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "range": [
+                      27,
+                      55
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 55,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 27,
+                        "line": 1
+                      }
+                    }
                   }
                 ],
                 "callee": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 26,
                   "decorators": [],
                   "name": "Promise",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    19,
+                    26
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 26,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  15,
+                  56
+                ],
+                "loc": {
+                  "end": {
+                    "column": 56,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 1
+                  }
                 }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 74,
-                "end": 81,
                 "decorators": [],
                 "name": "finally",
-                "optional": false
+                "optional": false,
+                "range": [
+                  74,
+                  81
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                15,
+                81
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 2
+                },
+                "start": {
+                  "column": 15,
+                  "line": 1
+                }
               }
             },
-            "optional": false
+            "optional": false,
+            "range": [
+              15,
+              96
+            ],
+            "loc": {
+              "end": {
+                "column": 39,
+                "line": 2
+              },
+              "start": {
+                "column": 15,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            96
+          ],
+          "loc": {
+            "end": {
+              "column": 39,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        0,
+        97
+      ],
+      "loc": {
+        "end": {
+          "column": 40,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

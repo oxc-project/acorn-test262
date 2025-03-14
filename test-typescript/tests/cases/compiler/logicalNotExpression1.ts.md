@@ -1,31 +1,80 @@
-logicalNotExpression1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 5,
+  "range": [
+    0,
+    5
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 5,
       "expression": {
         "type": "UnaryExpression",
-        "start": 0,
-        "end": 4,
         "argument": {
           "type": "Identifier",
-          "start": 1,
-          "end": 4,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            1,
+            4
+          ],
+          "loc": {
+            "end": {
+              "column": 4,
+              "line": 1
+            },
+            "start": {
+              "column": 1,
+              "line": 1
+            }
+          }
         },
         "operator": "!",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          0,
+          4
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        5
+      ],
+      "loc": {
+        "end": {
+          "column": 5,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 5,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,36 +1,97 @@
-parserGreaterThanTokenAmbiguity1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 7,
+  "range": [
+    0,
+    7
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 7,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 6,
         "operator": ">>",
         "left": {
           "type": "Literal",
-          "start": 0,
-          "end": 1,
           "raw": "1",
-          "value": 1
+          "value": 1,
+          "range": [
+            0,
+            1
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
         "right": {
           "type": "Literal",
-          "start": 5,
-          "end": 6,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "range": [
+            5,
+            6
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 1
+            },
+            "start": {
+              "column": 5,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        7
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 7,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

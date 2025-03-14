@@ -1,48 +1,121 @@
-usingDeclarations.9.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 23,
+  "range": [
+    0,
+    23
+  ],
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 23,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 6,
-          "end": 21,
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 12,
-              "end": 20,
               "definite": false,
               "id": {
                 "type": "Identifier",
-                "start": 12,
-                "end": 13,
                 "decorators": [],
                 "name": "a",
-                "optional": false
+                "optional": false,
+                "range": [
+                  12,
+                  13
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 2
+                  }
+                }
               },
               "init": {
                 "type": "Literal",
-                "start": 16,
-                "end": 20,
                 "raw": "null",
-                "value": null
+                "value": null,
+                "range": [
+                  16,
+                  20
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                12,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 18,
+                  "line": 2
+                },
+                "start": {
+                  "column": 10,
+                  "line": 2
+                }
               }
             }
           ],
           "declare": false,
-          "kind": "using"
+          "kind": "using",
+          "range": [
+            6,
+            21
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        0,
+        23
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

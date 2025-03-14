@@ -1,4 +1,4 @@
-templateStringInPropertyNameES6_2.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Property assignment expected.
 ```

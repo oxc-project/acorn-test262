@@ -1,17 +1,42 @@
-parserReturnStatement1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 7,
+  "range": [
+    0,
+    7
+  ],
   "body": [
     {
       "type": "ReturnStatement",
-      "start": 0,
-      "end": 7,
-      "argument": null
+      "argument": null,
+      "range": [
+        0,
+        7
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 7,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

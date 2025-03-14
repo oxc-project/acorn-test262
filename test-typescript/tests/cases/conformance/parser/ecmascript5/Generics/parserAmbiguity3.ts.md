@@ -1,82 +1,215 @@
-parserAmbiguity3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
+  "range": [
+    0,
+    19
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 19,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 18,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2,
-            "end": 7,
             "operator": "<",
             "left": {
               "type": "Identifier",
-              "start": 2,
-              "end": 3,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "range": [
+                2,
+                3
+              ],
+              "loc": {
+                "end": {
+                  "column": 3,
+                  "line": 1
+                },
+                "start": {
+                  "column": 2,
+                  "line": 1
+                }
+              }
             },
             "right": {
               "type": "Identifier",
-              "start": 6,
-              "end": 7,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "range": [
+                6,
+                7
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 1
+                },
+                "start": {
+                  "column": 6,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              2,
+              7
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 1
+              },
+              "start": {
+                "column": 2,
+                "line": 1
+              }
             }
           },
           {
             "type": "BinaryExpression",
-            "start": 9,
-            "end": 17,
             "operator": ">",
             "left": {
               "type": "Identifier",
-              "start": 9,
-              "end": 10,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "range": [
+                9,
+                10
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 1
+                },
+                "start": {
+                  "column": 9,
+                  "line": 1
+                }
+              }
             },
             "right": {
               "type": "UnaryExpression",
-              "start": 13,
-              "end": 17,
               "argument": {
                 "type": "Literal",
-                "start": 15,
-                "end": 16,
                 "raw": "7",
-                "value": 7
+                "value": 7,
+                "range": [
+                  15,
+                  16
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 1
+                  }
+                }
               },
               "operator": "+",
-              "prefix": true
+              "prefix": true,
+              "range": [
+                13,
+                17
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 1
+                },
+                "start": {
+                  "column": 13,
+                  "line": 1
+                }
+              }
+            },
+            "range": [
+              9,
+              17
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
             }
           }
         ],
         "callee": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "f",
-          "optional": false
+          "optional": false,
+          "range": [
+            0,
+            1
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          18
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

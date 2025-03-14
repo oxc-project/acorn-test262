@@ -1,4 +1,4 @@
-definiteAssignmentAssertionsWithObjectShortHand.ts
+__ESTREE_TEST__:FAIL:
 ```json
 A shorthand property assignment cannot have an exclamation token.
 ```

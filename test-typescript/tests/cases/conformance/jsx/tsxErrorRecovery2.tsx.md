@@ -1,8 +1,8 @@
-file1.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 JSX expressions must have one parent element.
 ```
-file2.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 JSX expressions must have one parent element.
 ```

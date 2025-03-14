@@ -1,98 +1,267 @@
-constEnum4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 87,
+  "range": [
+    0,
+    87
+  ],
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 86,
       "alternate": {
         "type": "IfStatement",
-        "start": 33,
-        "end": 86,
         "alternate": {
           "type": "TSEnumDeclaration",
-          "start": 70,
-          "end": 86,
           "body": {
             "type": "TSEnumBody",
-            "start": 83,
-            "end": 86,
-            "members": []
+            "range": [
+              83,
+              86
+            ],
+            "members": [],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 6
+              },
+              "start": {
+                "column": 17,
+                "line": 6
+              }
+            }
           },
           "const": true,
           "declare": false,
           "id": {
             "type": "Identifier",
-            "start": 81,
-            "end": 82,
             "decorators": [],
             "name": "C",
-            "optional": false
+            "optional": false,
+            "range": [
+              81,
+              82
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 6
+              },
+              "start": {
+                "column": 15,
+                "line": 6
+              }
+            }
+          },
+          "range": [
+            70,
+            86
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 6
+            },
+            "start": {
+              "column": 4,
+              "line": 6
+            }
           }
         },
         "consequent": {
           "type": "TSEnumDeclaration",
-          "start": 44,
-          "end": 60,
           "body": {
             "type": "TSEnumBody",
-            "start": 57,
-            "end": 60,
-            "members": []
+            "range": [
+              57,
+              60
+            ],
+            "members": [],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 4
+              },
+              "start": {
+                "column": 17,
+                "line": 4
+              }
+            }
           },
           "const": true,
           "declare": false,
           "id": {
             "type": "Identifier",
-            "start": 55,
-            "end": 56,
             "decorators": [],
             "name": "B",
-            "optional": false
+            "optional": false,
+            "range": [
+              55,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 4
+              },
+              "start": {
+                "column": 15,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            44,
+            60
+          ],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 4
+            }
           }
         },
         "test": {
           "type": "Literal",
-          "start": 37,
-          "end": 38,
           "raw": "2",
-          "value": 2
+          "value": 2,
+          "range": [
+            37,
+            38
+          ],
+          "loc": {
+            "end": {
+              "column": 10,
+              "line": 3
+            },
+            "start": {
+              "column": 9,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          33,
+          86
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 6
+          },
+          "start": {
+            "column": 5,
+            "line": 3
+          }
         }
       },
       "consequent": {
         "type": "TSEnumDeclaration",
-        "start": 11,
-        "end": 27,
         "body": {
           "type": "TSEnumBody",
-          "start": 24,
-          "end": 27,
-          "members": []
+          "range": [
+            24,
+            27
+          ],
+          "members": [],
+          "loc": {
+            "end": {
+              "column": 20,
+              "line": 2
+            },
+            "start": {
+              "column": 17,
+              "line": 2
+            }
+          }
         },
         "const": true,
         "declare": false,
         "id": {
           "type": "Identifier",
-          "start": 22,
-          "end": 23,
           "decorators": [],
           "name": "A",
-          "optional": false
+          "optional": false,
+          "range": [
+            22,
+            23
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 15,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          11,
+          27
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 2
+          },
+          "start": {
+            "column": 4,
+            "line": 2
+          }
         }
       },
       "test": {
         "type": "Literal",
-        "start": 4,
-        "end": 5,
         "raw": "1",
-        "value": 1
+        "value": 1,
+        "range": [
+          4,
+          5
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 1
+          },
+          "start": {
+            "column": 4,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        86
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 6
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

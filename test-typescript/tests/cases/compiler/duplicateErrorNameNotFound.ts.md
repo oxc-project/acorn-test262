@@ -1,34 +1,70 @@
-duplicateErrorNameNotFound.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
+  "range": [
+    0,
+    58
+  ],
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 23,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 17,
         "decorators": [],
         "name": "RoomInterfae",
-        "optional": false
+        "optional": false,
+        "range": [
+          5,
+          17
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
       },
       "typeAnnotation": {
         "type": "TSTypeLiteral",
-        "start": 20,
-        "end": 22,
-        "members": []
+        "members": [],
+        "range": [
+          20,
+          22
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1
+          },
+          "start": {
+            "column": 20,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        23
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 25,
-      "end": 58,
       "attributes": [],
       "declaration": null,
       "exportKind": "type",
@@ -36,29 +72,90 @@ duplicateErrorNameNotFound.ts
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 43,
-          "end": 56,
           "exported": {
             "type": "Identifier",
-            "start": 43,
-            "end": 56,
             "decorators": [],
             "name": "RoomInterface",
-            "optional": false
+            "optional": false,
+            "range": [
+              43,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
           },
           "exportKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 43,
-            "end": 56,
             "decorators": [],
             "name": "RoomInterface",
-            "optional": false
+            "optional": false,
+            "range": [
+              43,
+              56
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            43,
+            56
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 4
+            },
+            "start": {
+              "column": 4,
+              "line": 4
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        25,
+        58
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,39 +1,45 @@
-objectBindingPatternKeywordIdentifiers06.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 28,
+  "range": [
+    2,
+    28
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2,
-      "end": 28,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 28,
           "definite": false,
           "id": {
             "type": "ObjectPattern",
-            "start": 6,
-            "end": 16,
             "decorators": [],
             "optional": false,
             "properties": [
               {
                 "type": "Property",
-                "start": 8,
-                "end": 14,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 8,
-                  "end": 10,
                   "decorators": [],
                   "name": "as",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    8,
+                    10
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 8,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 6,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -41,32 +47,80 @@ objectBindingPatternKeywordIdentifiers06.ts
                 "shorthand": false,
                 "value": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 14,
                   "decorators": [],
                   "name": "as",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    12,
+                    14
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  8,
+                  14
+                ],
+                "loc": {
+                  "end": {
+                    "column": 12,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              6,
+              16
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 19,
-            "end": 28,
             "properties": [
               {
                 "type": "Property",
-                "start": 21,
-                "end": 26,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 21,
-                  "end": 23,
                   "decorators": [],
                   "name": "as",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    21,
+                    23
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -74,20 +128,99 @@ objectBindingPatternKeywordIdentifiers06.ts
                 "shorthand": false,
                 "value": {
                   "type": "Literal",
-                  "start": 25,
-                  "end": 26,
                   "raw": "1",
-                  "value": 1
+                  "value": 1,
+                  "range": [
+                    25,
+                    26
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 23,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  21,
+                  26
+                ],
+                "loc": {
+                  "end": {
+                    "column": 24,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              19,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 2
+              },
+              "start": {
+                "column": 17,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            6,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        2,
+        28
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 26,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

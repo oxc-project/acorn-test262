@@ -2,6 +2,7 @@ import * as parser from "@typescript-eslint/parser";
 import fs from "node:fs";
 import path from "node:path";
 import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
+import { jsonStringify } from "./utils/json.js"
 
 async function main() {
   const srcDir = "typescript";
@@ -29,7 +30,11 @@ async function main() {
   const destDir = "test-typescript";
   fs.rmSync(destDir, { recursive: true, force: true });
 
-  for (const srcFile of srcFiles) {
+  for (let i = 0; i < srcFiles.length; i++) {
+    // progress
+    process.stdout.write(`\r${i + 1} / ${srcFiles.length}`);
+
+    const srcFile = srcFiles[i];
     const code = fs.readFileSync(srcFile, "utf-8");
     const { tests } = makeUnitsFromTest(srcFile, code);
     let output = ``;
@@ -43,7 +48,7 @@ async function main() {
           },
         });
         const { comments, tokens, ...program } = result.ast;
-        const astJson = JSON.stringify(program, jsonReplacer, 2);
+        const astJson = jsonStringify(program);
         output += `__ESTREE_TEST__:PASS:` + "\n```json\n" + astJson + "\n```\n";
       } catch (e) {
         output += `__ESTREE_TEST__:FAIL:` + "\n```json\n" + e.message + "\n```\n";

@@ -1,47 +1,83 @@
-symbolProperty47.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 213,
+  "range": [
+    0,
+    213
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 145,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 145,
+        "range": [
+          8,
+          145
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 67,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
-              "start": 19,
-              "end": 37,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 25,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "range": [
+                  19,
+                  25
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 37,
                 "decorators": [],
                 "name": "hasInstance",
-                "optional": false
+                "optional": false,
+                "range": [
+                  26,
+                  37
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                19,
+                37
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 2
+                },
+                "start": {
+                  "column": 9,
+                  "line": 2
+                }
               }
             },
             "kind": "get",
@@ -50,62 +86,158 @@ symbolProperty47.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 38,
-              "end": 67,
+              "range": [
+                38,
+                67
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 41,
-                "end": 67,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 51,
-                    "end": 61,
                     "argument": {
                       "type": "Literal",
-                      "start": 58,
-                      "end": 60,
                       "raw": "\"\"",
-                      "value": ""
+                      "value": "",
+                      "range": [
+                        58,
+                        60
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      51,
+                      61
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 3
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  41,
+                  67
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 31,
+                    "line": 2
+                  }
+                }
               },
               "declare": false,
               "expression": false,
               "generator": false,
               "id": null,
-              "params": []
+              "params": [],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 4
+                },
+                "start": {
+                  "column": 28,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              14,
+              67
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 100,
-            "end": 143,
             "computed": true,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
-              "start": 105,
-              "end": 123,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 105,
-                "end": 111,
                 "decorators": [],
                 "name": "Symbol",
-                "optional": false
+                "optional": false,
+                "range": [
+                  105,
+                  111
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 6
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 112,
-                "end": 123,
                 "decorators": [],
                 "name": "hasInstance",
-                "optional": false
+                "optional": false,
+                "range": [
+                  112,
+                  123
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 6
+                  }
+                }
+              },
+              "range": [
+                105,
+                123
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 6
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6
+                }
               }
             },
             "kind": "set",
@@ -114,14 +246,28 @@ symbolProperty47.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 124,
-              "end": 143,
+              "range": [
+                124,
+                143
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 136,
-                "end": 143,
-                "body": []
+                "body": [],
+                "range": [
+                  136,
+                  143
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 7
+                  },
+                  "start": {
+                    "column": 40,
+                    "line": 6
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -130,165 +276,488 @@ symbolProperty47.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 125,
-                  "end": 134,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 126,
-                    "end": 134,
+                    "loc": {
+                      "end": {
+                        "column": 38,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 6
+                      }
+                    },
+                    "range": [
+                      126,
+                      134
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 128,
-                      "end": 134
+                      "range": [
+                        128,
+                        134
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 38,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 32,
+                          "line": 6
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    125,
+                    134
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 38,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 29,
+                      "line": 6
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 7
+                },
+                "start": {
+                  "column": 28,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              100,
+              143
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 8
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 147,
-      "end": 179,
-      "expression": {
-        "type": "AssignmentExpression",
-        "start": 147,
-        "end": 178,
-        "operator": "=",
-        "left": {
-          "type": "MemberExpression",
-          "start": 147,
-          "end": 174,
-          "computed": true,
-          "object": {
-            "type": "NewExpression",
-            "start": 148,
-            "end": 153,
-            "arguments": [],
-            "callee": {
-              "type": "Identifier",
-              "start": 152,
-              "end": 153,
-              "decorators": [],
-              "name": "C",
-              "optional": false
-            }
-          },
-          "optional": false,
-          "property": {
-            "type": "MemberExpression",
-            "start": 155,
-            "end": 173,
-            "computed": false,
-            "object": {
-              "type": "Identifier",
-              "start": 155,
-              "end": 161,
-              "decorators": [],
-              "name": "Symbol",
-              "optional": false
-            },
-            "optional": false,
-            "property": {
-              "type": "Identifier",
-              "start": 162,
-              "end": 173,
-              "decorators": [],
-              "name": "hasInstance",
-              "optional": false
-            }
-          }
+      "superClass": null,
+      "range": [
+        0,
+        145
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 8
         },
-        "right": {
-          "type": "Literal",
-          "start": 177,
-          "end": 178,
-          "raw": "0",
-          "value": 0
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 180,
-      "end": 213,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 180,
-        "end": 212,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 180,
-          "end": 207,
           "computed": true,
           "object": {
             "type": "NewExpression",
-            "start": 181,
-            "end": 186,
             "arguments": [],
             "callee": {
               "type": "Identifier",
-              "start": 185,
-              "end": 186,
               "decorators": [],
               "name": "C",
-              "optional": false
+              "optional": false,
+              "range": [
+                152,
+                153
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 10
+                },
+                "start": {
+                  "column": 5,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              148,
+              153
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 10
+              },
+              "start": {
+                "column": 1,
+                "line": 10
+              }
             }
           },
           "optional": false,
           "property": {
             "type": "MemberExpression",
-            "start": 188,
-            "end": 206,
             "computed": false,
             "object": {
               "type": "Identifier",
-              "start": 188,
-              "end": 194,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "range": [
+                155,
+                161
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 10
+                },
+                "start": {
+                  "column": 8,
+                  "line": 10
+                }
+              }
             },
             "optional": false,
             "property": {
               "type": "Identifier",
-              "start": 195,
-              "end": 206,
               "decorators": [],
               "name": "hasInstance",
-              "optional": false
+              "optional": false,
+              "range": [
+                162,
+                173
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 10
+                },
+                "start": {
+                  "column": 15,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              155,
+              173
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 10
+              },
+              "start": {
+                "column": 8,
+                "line": 10
+              }
+            }
+          },
+          "range": [
+            147,
+            174
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 10
+            },
+            "start": {
+              "column": 0,
+              "line": 10
             }
           }
         },
         "right": {
           "type": "Literal",
-          "start": 210,
-          "end": 212,
+          "raw": "0",
+          "value": 0,
+          "range": [
+            177,
+            178
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 10
+            },
+            "start": {
+              "column": 30,
+              "line": 10
+            }
+          }
+        },
+        "range": [
+          147,
+          178
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 10
+          },
+          "start": {
+            "column": 0,
+            "line": 10
+          }
+        }
+      },
+      "range": [
+        147,
+        179
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
+      }
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "MemberExpression",
+          "computed": true,
+          "object": {
+            "type": "NewExpression",
+            "arguments": [],
+            "callee": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "C",
+              "optional": false,
+              "range": [
+                185,
+                186
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 11
+                },
+                "start": {
+                  "column": 5,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              181,
+              186
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 11
+              },
+              "start": {
+                "column": 1,
+                "line": 11
+              }
+            }
+          },
+          "optional": false,
+          "property": {
+            "type": "MemberExpression",
+            "computed": false,
+            "object": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "Symbol",
+              "optional": false,
+              "range": [
+                188,
+                194
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 11
+                },
+                "start": {
+                  "column": 8,
+                  "line": 11
+                }
+              }
+            },
+            "optional": false,
+            "property": {
+              "type": "Identifier",
+              "decorators": [],
+              "name": "hasInstance",
+              "optional": false,
+              "range": [
+                195,
+                206
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 11
+                },
+                "start": {
+                  "column": 15,
+                  "line": 11
+                }
+              }
+            },
+            "range": [
+              188,
+              206
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 11
+              },
+              "start": {
+                "column": 8,
+                "line": 11
+              }
+            }
+          },
+          "range": [
+            180,
+            207
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 11
+            },
+            "start": {
+              "column": 0,
+              "line": 11
+            }
+          }
+        },
+        "right": {
+          "type": "Literal",
           "raw": "\"\"",
-          "value": ""
+          "value": "",
+          "range": [
+            210,
+            212
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 11
+            },
+            "start": {
+              "column": 30,
+              "line": 11
+            }
+          }
+        },
+        "range": [
+          180,
+          212
+        ],
+        "loc": {
+          "end": {
+            "column": 32,
+            "line": 11
+          },
+          "start": {
+            "column": 0,
+            "line": 11
+          }
+        }
+      },
+      "range": [
+        180,
+        213
+      ],
+      "loc": {
+        "end": {
+          "column": 33,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 33,
+      "line": 11
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

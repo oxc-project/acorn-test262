@@ -1,4 +1,4 @@
-file.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 Expected corresponding closing tag for JSX fragment.
 ```

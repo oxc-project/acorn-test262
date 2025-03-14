@@ -1,24 +1,24 @@
-1.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-2.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-3.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-5.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-6.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```

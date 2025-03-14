@@ -1,33 +1,45 @@
-ambientAccessors.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 47,
-  "end": 313,
+  "range": [
+    47,
+    313
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 47,
-      "end": 313,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 63,
-        "end": 313,
+        "range": [
+          63,
+          313
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 69,
-            "end": 92,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 80,
-              "end": 81,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                80,
+                81
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 15,
+                  "line": 3
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -35,8 +47,10 @@ ambientAccessors.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 81,
-              "end": 92,
+              "range": [
+                81,
+                92
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -46,29 +60,87 @@ ambientAccessors.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 83,
-                "end": 91,
+                "loc": {
+                  "end": {
+                    "column": 26,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 18,
+                    "line": 3
+                  }
+                },
+                "range": [
+                  83,
+                  91
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 85,
-                  "end": 91
+                  "range": [
+                    85,
+                    91
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 26,
+                      "line": 3
+                    },
+                    "start": {
+                      "column": 20,
+                      "line": 3
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 3
+                },
+                "start": {
+                  "column": 16,
+                  "line": 3
+                }
+              }
+            },
+            "range": [
+              69,
+              92
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 97,
-            "end": 125,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 108,
-              "end": 109,
               "decorators": [],
               "name": "a",
-              "optional": false
+              "optional": false,
+              "range": [
+                108,
+                109
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -76,8 +148,10 @@ ambientAccessors.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 109,
-              "end": 125,
+              "range": [
+                109,
+                125
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -87,39 +161,109 @@ ambientAccessors.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 110,
-                  "end": 123,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 115,
-                    "end": 123,
+                    "loc": {
+                      "end": {
+                        "column": 30,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 22,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      115,
+                      123
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 117,
-                      "end": 123
+                      "range": [
+                        117,
+                        123
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 30,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 24,
+                          "line": 4
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    110,
+                    123
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 30,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 17,
+                      "line": 4
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 32,
+                  "line": 4
+                },
+                "start": {
+                  "column": 16,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              97,
+              125
+            ],
+            "loc": {
+              "end": {
+                "column": 32,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 131,
-            "end": 162,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 150,
-              "end": 151,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "range": [
+                150,
+                151
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 6
+                },
+                "start": {
+                  "column": 23,
+                  "line": 6
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -127,8 +271,10 @@ ambientAccessors.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 151,
-              "end": 162,
+              "range": [
+                151,
+                162
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -138,30 +284,88 @@ ambientAccessors.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 153,
-                "end": 161,
+                "loc": {
+                  "end": {
+                    "column": 34,
+                    "line": 6
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 6
+                  }
+                },
+                "range": [
+                  153,
+                  161
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 155,
-                  "end": 161
+                  "range": [
+                    155,
+                    161
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 34,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 28,
+                      "line": 6
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 35,
+                  "line": 6
+                },
+                "start": {
+                  "column": 24,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              131,
+              162
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 167,
-            "end": 201,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 186,
-              "end": 187,
               "decorators": [],
               "name": "b",
-              "optional": false
+              "optional": false,
+              "range": [
+                186,
+                187
+              ],
+              "loc": {
+                "end": {
+                  "column": 24,
+                  "line": 7
+                },
+                "start": {
+                  "column": 23,
+                  "line": 7
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -169,8 +373,10 @@ ambientAccessors.ts
             "static": true,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 187,
-              "end": 201,
+              "range": [
+                187,
+                201
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -180,38 +386,108 @@ ambientAccessors.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 188,
-                  "end": 199,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 191,
-                    "end": 199,
+                    "loc": {
+                      "end": {
+                        "column": 36,
+                        "line": 7
+                      },
+                      "start": {
+                        "column": 28,
+                        "line": 7
+                      }
+                    },
+                    "range": [
+                      191,
+                      199
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 193,
-                      "end": 199
+                      "range": [
+                        193,
+                        199
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 36,
+                          "line": 7
+                        },
+                        "start": {
+                          "column": 30,
+                          "line": 7
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    188,
+                    199
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 36,
+                      "line": 7
+                    },
+                    "start": {
+                      "column": 25,
+                      "line": 7
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 38,
+                  "line": 7
+                },
+                "start": {
+                  "column": 24,
+                  "line": 7
+                }
+              }
+            },
+            "range": [
+              167,
+              201
+            ],
+            "loc": {
+              "end": {
+                "column": 38,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 207,
-            "end": 223,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 211,
-              "end": 212,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                211,
+                212
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 9
+                },
+                "start": {
+                  "column": 8,
+                  "line": 9
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -219,8 +495,10 @@ ambientAccessors.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 212,
-              "end": 223,
+              "range": [
+                212,
+                223
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -230,29 +508,87 @@ ambientAccessors.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 214,
-                "end": 222,
+                "loc": {
+                  "end": {
+                    "column": 19,
+                    "line": 9
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 9
+                  }
+                },
+                "range": [
+                  214,
+                  222
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 216,
-                  "end": 222
+                  "range": [
+                    216,
+                    222
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 19,
+                      "line": 9
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 9
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 9
+                },
+                "start": {
+                  "column": 9,
+                  "line": 9
+                }
+              }
+            },
+            "range": [
+              207,
+              223
+            ],
+            "loc": {
+              "end": {
+                "column": 20,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 228,
-            "end": 249,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 232,
-              "end": 233,
               "decorators": [],
               "name": "x",
-              "optional": false
+              "optional": false,
+              "range": [
+                232,
+                233
+              ],
+              "loc": {
+                "end": {
+                  "column": 9,
+                  "line": 10
+                },
+                "start": {
+                  "column": 8,
+                  "line": 10
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -260,8 +596,10 @@ ambientAccessors.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 233,
-              "end": 249,
+              "range": [
+                233,
+                249
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -271,39 +609,109 @@ ambientAccessors.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 234,
-                  "end": 247,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 239,
-                    "end": 247,
+                    "loc": {
+                      "end": {
+                        "column": 23,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 10
+                      }
+                    },
+                    "range": [
+                      239,
+                      247
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 241,
-                      "end": 247
+                      "range": [
+                        241,
+                        247
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 23,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 10
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    234,
+                    247
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 23,
+                      "line": 10
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 10
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 10
+                },
+                "start": {
+                  "column": 9,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              228,
+              249
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 255,
-            "end": 279,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 267,
-              "end": 268,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                267,
+                268
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 12
+                },
+                "start": {
+                  "column": 16,
+                  "line": 12
+                }
+              }
             },
             "kind": "get",
             "optional": false,
@@ -311,8 +719,10 @@ ambientAccessors.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 268,
-              "end": 279,
+              "range": [
+                268,
+                279
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -322,30 +732,88 @@ ambientAccessors.ts
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 270,
-                "end": 278,
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 12
+                  }
+                },
+                "range": [
+                  270,
+                  278
+                ],
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
-                  "start": 272,
-                  "end": 278
+                  "range": [
+                    272,
+                    278
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 27,
+                      "line": 12
+                    },
+                    "start": {
+                      "column": 21,
+                      "line": 12
+                    }
+                  }
                 }
+              },
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 12
+                },
+                "start": {
+                  "column": 17,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              255,
+              279
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 12
               }
             }
           },
           {
             "type": "MethodDefinition",
-            "start": 284,
-            "end": 311,
             "accessibility": "private",
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 296,
-              "end": 297,
               "decorators": [],
               "name": "y",
-              "optional": false
+              "optional": false,
+              "range": [
+                296,
+                297
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 13
+                },
+                "start": {
+                  "column": 16,
+                  "line": 13
+                }
+              }
             },
             "kind": "set",
             "optional": false,
@@ -353,8 +821,10 @@ ambientAccessors.ts
             "static": false,
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 297,
-              "end": 311,
+              "range": [
+                297,
+                311
+              ],
               "async": false,
               "body": null,
               "declare": false,
@@ -364,41 +834,148 @@ ambientAccessors.ts
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 298,
-                  "end": 309,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 301,
-                    "end": 309,
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 13
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 13
+                      }
+                    },
+                    "range": [
+                      301,
+                      309
+                    ],
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
-                      "start": 303,
-                      "end": 309
+                      "range": [
+                        303,
+                        309
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 29,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 13
+                        }
+                      }
+                    }
+                  },
+                  "range": [
+                    298,
+                    309
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 18,
+                      "line": 13
                     }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 31,
+                  "line": 13
+                },
+                "start": {
+                  "column": 17,
+                  "line": 13
+                }
+              }
+            },
+            "range": [
+              284,
+              311
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 14
+          },
+          "start": {
+            "column": 16,
+            "line": 2
+          }
+        }
       },
       "declare": true,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 61,
-        "end": 62,
         "decorators": [],
         "name": "C",
-        "optional": false
+        "optional": false,
+        "range": [
+          61,
+          62
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 2
+          },
+          "start": {
+            "column": 14,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        47,
+        313
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 14
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

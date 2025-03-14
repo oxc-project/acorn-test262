@@ -1,33 +1,45 @@
-typeOfThisInConstructorParamList.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 78,
-  "end": 153,
+  "range": [
+    78,
+    153
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 78,
-      "end": 152,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 93,
-        "end": 152,
+        "range": [
+          93,
+          152
+        ],
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 125,
-            "end": 150,
             "computed": false,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 125,
-              "end": 136,
+              "range": [
+                125,
+                136
+              ],
               "decorators": [],
               "name": "constructor",
-              "optional": false
+              "optional": false,
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             },
             "kind": "constructor",
             "optional": false,
@@ -35,14 +47,28 @@ typeOfThisInConstructorParamList.ts
             "static": false,
             "value": {
               "type": "FunctionExpression",
-              "start": 136,
-              "end": 150,
+              "range": [
+                136,
+                150
+              ],
               "async": false,
               "body": {
                 "type": "BlockStatement",
-                "start": 147,
-                "end": 150,
-                "body": []
+                "body": [],
+                "range": [
+                  147,
+                  150
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 26,
+                    "line": 4
+                  }
+                }
               },
               "declare": false,
               "expression": false,
@@ -51,43 +77,150 @@ typeOfThisInConstructorParamList.ts
               "params": [
                 {
                   "type": "AssignmentPattern",
-                  "start": 137,
-                  "end": 145,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 137,
-                    "end": 138,
                     "decorators": [],
                     "name": "f",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      137,
+                      138
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 16,
+                        "line": 4
+                      }
+                    }
                   },
                   "optional": false,
                   "right": {
                     "type": "ThisExpression",
-                    "start": 141,
-                    "end": 145
+                    "range": [
+                      141,
+                      145
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 20,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    137,
+                    145
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 24,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 16,
+                      "line": 4
+                    }
                   }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 29,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              125,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 29,
+                "line": 4
+              },
+              "start": {
+                "column": 4,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 15,
+            "line": 2
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 84,
-        "end": 92,
         "decorators": [],
         "name": "ErrClass",
-        "optional": false
+        "optional": false,
+        "range": [
+          84,
+          92
+        ],
+        "loc": {
+          "end": {
+            "column": 14,
+            "line": 2
+          },
+          "start": {
+            "column": 6,
+            "line": 2
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        78,
+        152
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

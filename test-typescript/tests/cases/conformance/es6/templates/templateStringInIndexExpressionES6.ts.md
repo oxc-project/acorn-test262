@@ -1,77 +1,186 @@
-templateStringInIndexExpressionES6.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 17,
-  "end": 35,
+  "range": [
+    17,
+    35
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 35,
       "expression": {
         "type": "MemberExpression",
-        "start": 17,
-        "end": 34,
         "computed": true,
         "object": {
           "type": "TemplateLiteral",
-          "start": 17,
-          "end": 29,
           "expressions": [
             {
               "type": "Literal",
-              "start": 23,
-              "end": 24,
               "raw": "0",
-              "value": 0
+              "value": 0,
+              "range": [
+                23,
+                24
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 2
+                },
+                "start": {
+                  "column": 6,
+                  "line": 2
+                }
+              }
             }
           ],
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 17,
-              "end": 23,
               "tail": false,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
+              },
+              "range": [
+                17,
+                23
+              ],
+              "loc": {
+                "end": {
+                  "column": 6,
+                  "line": 2
+                },
+                "start": {
+                  "column": 0,
+                  "line": 2
+                }
               }
             },
             {
               "type": "TemplateElement",
-              "start": 24,
-              "end": 29,
               "tail": true,
               "value": {
                 "cooked": "abc",
                 "raw": "abc"
+              },
+              "range": [
+                24,
+                29
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 2
+                },
+                "start": {
+                  "column": 7,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            17,
+            29
+          ],
+          "loc": {
+            "end": {
+              "column": 12,
+              "line": 2
+            },
+            "start": {
+              "column": 0,
+              "line": 2
+            }
+          }
         },
         "optional": false,
         "property": {
           "type": "TemplateLiteral",
-          "start": 30,
-          "end": 33,
           "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 30,
-              "end": 33,
               "tail": true,
               "value": {
                 "cooked": "0",
                 "raw": "0"
+              },
+              "range": [
+                30,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            30,
+            33
+          ],
+          "loc": {
+            "end": {
+              "column": 16,
+              "line": 2
+            },
+            "start": {
+              "column": 13,
+              "line": 2
+            }
+          }
+        },
+        "range": [
+          17,
+          34
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        17,
+        35
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 18,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,69 +1,178 @@
-errorForBareSpecifierWithImplicitModuleResolutionNone.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 59,
-  "end": 112,
+  "range": [
+    59,
+    112
+  ],
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 59,
-      "end": 103,
       "attributes": [],
       "importKind": "value",
       "source": {
         "type": "Literal",
-        "start": 81,
-        "end": 102,
         "raw": "\"non-existent-module\"",
-        "value": "non-existent-module"
+        "value": "non-existent-module",
+        "range": [
+          81,
+          102
+        ],
+        "loc": {
+          "end": {
+            "column": 43,
+            "line": 3
+          },
+          "start": {
+            "column": 22,
+            "line": 3
+          }
+        }
       },
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 68,
-          "end": 73,
           "imported": {
             "type": "Identifier",
-            "start": 68,
-            "end": 73,
             "decorators": [],
             "name": "thing",
-            "optional": false
+            "optional": false,
+            "range": [
+              68,
+              73
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 3
+              },
+              "start": {
+                "column": 9,
+                "line": 3
+              }
+            }
           },
           "importKind": "value",
           "local": {
             "type": "Identifier",
-            "start": 68,
-            "end": 73,
             "decorators": [],
             "name": "thing",
-            "optional": false
+            "optional": false,
+            "range": [
+              68,
+              73
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 3
+              },
+              "start": {
+                "column": 9,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            68,
+            73
+          ],
+          "loc": {
+            "end": {
+              "column": 14,
+              "line": 3
+            },
+            "start": {
+              "column": 9,
+              "line": 3
+            }
           }
         }
-      ]
+      ],
+      "range": [
+        59,
+        103
+      ],
+      "loc": {
+        "end": {
+          "column": 44,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 104,
-      "end": 111,
       "expression": {
         "type": "CallExpression",
-        "start": 104,
-        "end": 111,
         "arguments": [],
         "callee": {
           "type": "Identifier",
-          "start": 104,
-          "end": 109,
           "decorators": [],
           "name": "thing",
-          "optional": false
+          "optional": false,
+          "range": [
+            104,
+            109
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 4
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          104,
+          111
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        104,
+        111
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

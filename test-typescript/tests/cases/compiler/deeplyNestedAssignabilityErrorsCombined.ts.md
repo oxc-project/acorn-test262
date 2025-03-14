@@ -1,45 +1,63 @@
-deeplyNestedAssignabilityErrorsCombined.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 347,
+  "range": [
+    0,
+    347
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 78,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 77,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              4,
+              5
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 1
+              },
+              "start": {
+                "column": 4,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 77,
             "properties": [
               {
                 "type": "Property",
-                "start": 10,
-                "end": 75,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    10,
+                    11
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 1
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -47,21 +65,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 13,
-                  "end": 75,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 15,
-                      "end": 73,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 15,
-                        "end": 16,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          15,
+                          16
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 16,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 15,
+                            "line": 1
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -69,21 +95,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                       "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
-                        "start": 18,
-                        "end": 73,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 20,
-                            "end": 71,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 20,
-                              "end": 21,
                               "decorators": [],
                               "name": "c",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                20,
+                                21
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 21,
+                                  "line": 1
+                                },
+                                "start": {
+                                  "column": 20,
+                                  "line": 1
+                                }
+                              }
                             },
                             "kind": "init",
                             "method": false,
@@ -91,21 +125,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                             "shorthand": false,
                             "value": {
                               "type": "ObjectExpression",
-                              "start": 23,
-                              "end": 71,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 25,
-                                  "end": 69,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 25,
-                                    "end": 26,
                                     "decorators": [],
                                     "name": "d",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      25,
+                                      26
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 26,
+                                        "line": 1
+                                      },
+                                      "start": {
+                                        "column": 25,
+                                        "line": 1
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -113,21 +155,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "ObjectExpression",
-                                    "start": 28,
-                                    "end": 69,
                                     "properties": [
                                       {
                                         "type": "Property",
-                                        "start": 30,
-                                        "end": 67,
                                         "computed": false,
                                         "key": {
                                           "type": "Identifier",
-                                          "start": 30,
-                                          "end": 31,
                                           "decorators": [],
                                           "name": "e",
-                                          "optional": false
+                                          "optional": false,
+                                          "range": [
+                                            30,
+                                            31
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 31,
+                                              "line": 1
+                                            },
+                                            "start": {
+                                              "column": 30,
+                                              "line": 1
+                                            }
+                                          }
                                         },
                                         "kind": "init",
                                         "method": false,
@@ -135,21 +185,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                         "shorthand": false,
                                         "value": {
                                           "type": "ObjectExpression",
-                                          "start": 33,
-                                          "end": 67,
                                           "properties": [
                                             {
                                               "type": "Property",
-                                              "start": 35,
-                                              "end": 65,
                                               "computed": false,
                                               "key": {
                                                 "type": "Identifier",
-                                                "start": 35,
-                                                "end": 36,
                                                 "decorators": [],
                                                 "name": "f",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  35,
+                                                  36
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 36,
+                                                    "line": 1
+                                                  },
+                                                  "start": {
+                                                    "column": 35,
+                                                    "line": 1
+                                                  }
+                                                }
                                               },
                                               "kind": "init",
                                               "method": true,
@@ -157,35 +215,41 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                               "shorthand": false,
                                               "value": {
                                                 "type": "FunctionExpression",
-                                                "start": 36,
-                                                "end": 65,
+                                                "range": [
+                                                  36,
+                                                  65
+                                                ],
                                                 "async": false,
                                                 "body": {
                                                   "type": "BlockStatement",
-                                                  "start": 39,
-                                                  "end": 65,
                                                   "body": [
                                                     {
                                                       "type": "ReturnStatement",
-                                                      "start": 41,
-                                                      "end": 63,
                                                       "argument": {
                                                         "type": "ObjectExpression",
-                                                        "start": 48,
-                                                        "end": 62,
                                                         "properties": [
                                                           {
                                                             "type": "Property",
-                                                            "start": 50,
-                                                            "end": 60,
                                                             "computed": false,
                                                             "key": {
                                                               "type": "Identifier",
-                                                              "start": 50,
-                                                              "end": 51,
                                                               "decorators": [],
                                                               "name": "g",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "range": [
+                                                                50,
+                                                                51
+                                                              ],
+                                                              "loc": {
+                                                                "end": {
+                                                                  "column": 51,
+                                                                  "line": 1
+                                                                },
+                                                                "start": {
+                                                                  "column": 50,
+                                                                  "line": 1
+                                                                }
+                                                              }
                                                             },
                                                             "kind": "init",
                                                             "method": false,
@@ -193,81 +257,371 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                                             "shorthand": false,
                                                             "value": {
                                                               "type": "Literal",
-                                                              "start": 53,
-                                                              "end": 60,
                                                               "raw": "\"hello\"",
-                                                              "value": "hello"
+                                                              "value": "hello",
+                                                              "range": [
+                                                                53,
+                                                                60
+                                                              ],
+                                                              "loc": {
+                                                                "end": {
+                                                                  "column": 60,
+                                                                  "line": 1
+                                                                },
+                                                                "start": {
+                                                                  "column": 53,
+                                                                  "line": 1
+                                                                }
+                                                              }
+                                                            },
+                                                            "range": [
+                                                              50,
+                                                              60
+                                                            ],
+                                                            "loc": {
+                                                              "end": {
+                                                                "column": 60,
+                                                                "line": 1
+                                                              },
+                                                              "start": {
+                                                                "column": 50,
+                                                                "line": 1
+                                                              }
                                                             }
                                                           }
-                                                        ]
+                                                        ],
+                                                        "range": [
+                                                          48,
+                                                          62
+                                                        ],
+                                                        "loc": {
+                                                          "end": {
+                                                            "column": 62,
+                                                            "line": 1
+                                                          },
+                                                          "start": {
+                                                            "column": 48,
+                                                            "line": 1
+                                                          }
+                                                        }
+                                                      },
+                                                      "range": [
+                                                        41,
+                                                        63
+                                                      ],
+                                                      "loc": {
+                                                        "end": {
+                                                          "column": 63,
+                                                          "line": 1
+                                                        },
+                                                        "start": {
+                                                          "column": 41,
+                                                          "line": 1
+                                                        }
                                                       }
                                                     }
-                                                  ]
+                                                  ],
+                                                  "range": [
+                                                    39,
+                                                    65
+                                                  ],
+                                                  "loc": {
+                                                    "end": {
+                                                      "column": 65,
+                                                      "line": 1
+                                                    },
+                                                    "start": {
+                                                      "column": 39,
+                                                      "line": 1
+                                                    }
+                                                  }
                                                 },
                                                 "declare": false,
                                                 "expression": false,
                                                 "generator": false,
                                                 "id": null,
-                                                "params": []
+                                                "params": [],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 65,
+                                                    "line": 1
+                                                  },
+                                                  "start": {
+                                                    "column": 36,
+                                                    "line": 1
+                                                  }
+                                                }
+                                              },
+                                              "range": [
+                                                35,
+                                                65
+                                              ],
+                                              "loc": {
+                                                "end": {
+                                                  "column": 65,
+                                                  "line": 1
+                                                },
+                                                "start": {
+                                                  "column": 35,
+                                                  "line": 1
+                                                }
                                               }
                                             }
-                                          ]
+                                          ],
+                                          "range": [
+                                            33,
+                                            67
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 67,
+                                              "line": 1
+                                            },
+                                            "start": {
+                                              "column": 33,
+                                              "line": 1
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          30,
+                                          67
+                                        ],
+                                        "loc": {
+                                          "end": {
+                                            "column": 67,
+                                            "line": 1
+                                          },
+                                          "start": {
+                                            "column": 30,
+                                            "line": 1
+                                          }
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "range": [
+                                      28,
+                                      69
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 69,
+                                        "line": 1
+                                      },
+                                      "start": {
+                                        "column": 28,
+                                        "line": 1
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    25,
+                                    69
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 69,
+                                      "line": 1
+                                    },
+                                    "start": {
+                                      "column": 25,
+                                      "line": 1
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                23,
+                                71
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 71,
+                                  "line": 1
+                                },
+                                "start": {
+                                  "column": 23,
+                                  "line": 1
+                                }
+                              }
+                            },
+                            "range": [
+                              20,
+                              71
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 71,
+                                "line": 1
+                              },
+                              "start": {
+                                "column": 20,
+                                "line": 1
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "range": [
+                          18,
+                          73
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 73,
+                            "line": 1
+                          },
+                          "start": {
+                            "column": 18,
+                            "line": 1
+                          }
+                        }
+                      },
+                      "range": [
+                        15,
+                        73
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 73,
+                          "line": 1
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 1
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    13,
+                    75
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 75,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 1
+                    }
+                  }
+                },
+                "range": [
+                  10,
+                  75
+                ],
+                "loc": {
+                  "end": {
+                    "column": 75,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 1
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              8,
+              77
+            ],
+            "loc": {
+              "end": {
+                "column": 77,
+                "line": 1
+              },
+              "start": {
+                "column": 8,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            4,
+            77
+          ],
+          "loc": {
+            "end": {
+              "column": 77,
+              "line": 1
+            },
+            "start": {
+              "column": 4,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        0,
+        78
+      ],
+      "loc": {
+        "end": {
+          "column": 78,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 79,
-      "end": 155,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 83,
-          "end": 154,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 83,
-            "end": 84,
             "decorators": [],
             "name": "y",
-            "optional": false
+            "optional": false,
+            "range": [
+              83,
+              84
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 2
+              },
+              "start": {
+                "column": 4,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 87,
-            "end": 154,
             "properties": [
               {
                 "type": "Property",
-                "start": 89,
-                "end": 152,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 89,
-                  "end": 90,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    89,
+                    90
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -275,21 +629,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 92,
-                  "end": 152,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 94,
-                      "end": 150,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 94,
-                        "end": 95,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          94,
+                          95
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 16,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 15,
+                            "line": 2
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -297,21 +659,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                       "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
-                        "start": 97,
-                        "end": 150,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 99,
-                            "end": 148,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 99,
-                              "end": 100,
                               "decorators": [],
                               "name": "c",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                99,
+                                100
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 21,
+                                  "line": 2
+                                },
+                                "start": {
+                                  "column": 20,
+                                  "line": 2
+                                }
+                              }
                             },
                             "kind": "init",
                             "method": false,
@@ -319,21 +689,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                             "shorthand": false,
                             "value": {
                               "type": "ObjectExpression",
-                              "start": 102,
-                              "end": 148,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 104,
-                                  "end": 146,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 104,
-                                    "end": 105,
                                     "decorators": [],
                                     "name": "d",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      104,
+                                      105
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 26,
+                                        "line": 2
+                                      },
+                                      "start": {
+                                        "column": 25,
+                                        "line": 2
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -341,21 +719,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "ObjectExpression",
-                                    "start": 107,
-                                    "end": 146,
                                     "properties": [
                                       {
                                         "type": "Property",
-                                        "start": 109,
-                                        "end": 144,
                                         "computed": false,
                                         "key": {
                                           "type": "Identifier",
-                                          "start": 109,
-                                          "end": 110,
                                           "decorators": [],
                                           "name": "e",
-                                          "optional": false
+                                          "optional": false,
+                                          "range": [
+                                            109,
+                                            110
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 31,
+                                              "line": 2
+                                            },
+                                            "start": {
+                                              "column": 30,
+                                              "line": 2
+                                            }
+                                          }
                                         },
                                         "kind": "init",
                                         "method": false,
@@ -363,21 +749,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                         "shorthand": false,
                                         "value": {
                                           "type": "ObjectExpression",
-                                          "start": 112,
-                                          "end": 144,
                                           "properties": [
                                             {
                                               "type": "Property",
-                                              "start": 114,
-                                              "end": 142,
                                               "computed": false,
                                               "key": {
                                                 "type": "Identifier",
-                                                "start": 114,
-                                                "end": 115,
                                                 "decorators": [],
                                                 "name": "f",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  114,
+                                                  115
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 36,
+                                                    "line": 2
+                                                  },
+                                                  "start": {
+                                                    "column": 35,
+                                                    "line": 2
+                                                  }
+                                                }
                                               },
                                               "kind": "init",
                                               "method": true,
@@ -385,35 +779,41 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                               "shorthand": false,
                                               "value": {
                                                 "type": "FunctionExpression",
-                                                "start": 115,
-                                                "end": 142,
+                                                "range": [
+                                                  115,
+                                                  142
+                                                ],
                                                 "async": false,
                                                 "body": {
                                                   "type": "BlockStatement",
-                                                  "start": 118,
-                                                  "end": 142,
                                                   "body": [
                                                     {
                                                       "type": "ReturnStatement",
-                                                      "start": 120,
-                                                      "end": 140,
                                                       "argument": {
                                                         "type": "ObjectExpression",
-                                                        "start": 127,
-                                                        "end": 139,
                                                         "properties": [
                                                           {
                                                             "type": "Property",
-                                                            "start": 129,
-                                                            "end": 137,
                                                             "computed": false,
                                                             "key": {
                                                               "type": "Identifier",
-                                                              "start": 129,
-                                                              "end": 130,
                                                               "decorators": [],
                                                               "name": "g",
-                                                              "optional": false
+                                                              "optional": false,
+                                                              "range": [
+                                                                129,
+                                                                130
+                                                              ],
+                                                              "loc": {
+                                                                "end": {
+                                                                  "column": 51,
+                                                                  "line": 2
+                                                                },
+                                                                "start": {
+                                                                  "column": 50,
+                                                                  "line": 2
+                                                                }
+                                                              }
                                                             },
                                                             "kind": "init",
                                                             "method": false,
@@ -421,98 +821,430 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                                             "shorthand": false,
                                                             "value": {
                                                               "type": "Literal",
-                                                              "start": 132,
-                                                              "end": 137,
                                                               "raw": "12345",
-                                                              "value": 12345
+                                                              "value": 12345,
+                                                              "range": [
+                                                                132,
+                                                                137
+                                                              ],
+                                                              "loc": {
+                                                                "end": {
+                                                                  "column": 58,
+                                                                  "line": 2
+                                                                },
+                                                                "start": {
+                                                                  "column": 53,
+                                                                  "line": 2
+                                                                }
+                                                              }
+                                                            },
+                                                            "range": [
+                                                              129,
+                                                              137
+                                                            ],
+                                                            "loc": {
+                                                              "end": {
+                                                                "column": 58,
+                                                                "line": 2
+                                                              },
+                                                              "start": {
+                                                                "column": 50,
+                                                                "line": 2
+                                                              }
                                                             }
                                                           }
-                                                        ]
+                                                        ],
+                                                        "range": [
+                                                          127,
+                                                          139
+                                                        ],
+                                                        "loc": {
+                                                          "end": {
+                                                            "column": 60,
+                                                            "line": 2
+                                                          },
+                                                          "start": {
+                                                            "column": 48,
+                                                            "line": 2
+                                                          }
+                                                        }
+                                                      },
+                                                      "range": [
+                                                        120,
+                                                        140
+                                                      ],
+                                                      "loc": {
+                                                        "end": {
+                                                          "column": 61,
+                                                          "line": 2
+                                                        },
+                                                        "start": {
+                                                          "column": 41,
+                                                          "line": 2
+                                                        }
                                                       }
                                                     }
-                                                  ]
+                                                  ],
+                                                  "range": [
+                                                    118,
+                                                    142
+                                                  ],
+                                                  "loc": {
+                                                    "end": {
+                                                      "column": 63,
+                                                      "line": 2
+                                                    },
+                                                    "start": {
+                                                      "column": 39,
+                                                      "line": 2
+                                                    }
+                                                  }
                                                 },
                                                 "declare": false,
                                                 "expression": false,
                                                 "generator": false,
                                                 "id": null,
-                                                "params": []
+                                                "params": [],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 63,
+                                                    "line": 2
+                                                  },
+                                                  "start": {
+                                                    "column": 36,
+                                                    "line": 2
+                                                  }
+                                                }
+                                              },
+                                              "range": [
+                                                114,
+                                                142
+                                              ],
+                                              "loc": {
+                                                "end": {
+                                                  "column": 63,
+                                                  "line": 2
+                                                },
+                                                "start": {
+                                                  "column": 35,
+                                                  "line": 2
+                                                }
                                               }
                                             }
-                                          ]
+                                          ],
+                                          "range": [
+                                            112,
+                                            144
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 65,
+                                              "line": 2
+                                            },
+                                            "start": {
+                                              "column": 33,
+                                              "line": 2
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          109,
+                                          144
+                                        ],
+                                        "loc": {
+                                          "end": {
+                                            "column": 65,
+                                            "line": 2
+                                          },
+                                          "start": {
+                                            "column": 30,
+                                            "line": 2
+                                          }
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "range": [
+                                      107,
+                                      146
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 67,
+                                        "line": 2
+                                      },
+                                      "start": {
+                                        "column": 28,
+                                        "line": 2
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    104,
+                                    146
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 67,
+                                      "line": 2
+                                    },
+                                    "start": {
+                                      "column": 25,
+                                      "line": 2
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                102,
+                                148
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 69,
+                                  "line": 2
+                                },
+                                "start": {
+                                  "column": 23,
+                                  "line": 2
+                                }
+                              }
+                            },
+                            "range": [
+                              99,
+                              148
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 69,
+                                "line": 2
+                              },
+                              "start": {
+                                "column": 20,
+                                "line": 2
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "range": [
+                          97,
+                          150
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 71,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 18,
+                            "line": 2
+                          }
+                        }
+                      },
+                      "range": [
+                        94,
+                        150
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 71,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 15,
+                          "line": 2
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    92,
+                    152
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 73,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  89,
+                  152
+                ],
+                "loc": {
+                  "end": {
+                    "column": 73,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 10,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              87,
+              154
+            ],
+            "loc": {
+              "end": {
+                "column": 75,
+                "line": 2
+              },
+              "start": {
+                "column": 8,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            83,
+            154
+          ],
+          "loc": {
+            "end": {
+              "column": 75,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        79,
+        155
+      ],
+      "loc": {
+        "end": {
+          "column": 76,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 156,
-      "end": 162,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 156,
-        "end": 161,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 156,
-          "end": 157,
           "decorators": [],
           "name": "x",
-          "optional": false
+          "optional": false,
+          "range": [
+            156,
+            157
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 160,
-          "end": 161,
           "decorators": [],
           "name": "y",
-          "optional": false
+          "optional": false,
+          "range": [
+            160,
+            161
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          156,
+          161
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        156,
+        162
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 164,
-      "end": 192,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 176,
-        "end": 192,
+        "range": [
+          176,
+          192
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 182,
-            "end": 190,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 182,
-              "end": 183,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "range": [
+                182,
+                183
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 4,
+                  "line": 6
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -520,52 +1252,124 @@ deeplyNestedAssignabilityErrorsCombined.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 186,
-              "end": 190,
               "raw": "\"ok\"",
-              "value": "ok"
+              "value": "ok",
+              "range": [
+                186,
+                190
+              ],
+              "loc": {
+                "end": {
+                  "column": 12,
+                  "line": 6
+                },
+                "start": {
+                  "column": 8,
+                  "line": 6
+                }
+              }
+            },
+            "range": [
+              182,
+              190
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 6
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 7
+          },
+          "start": {
+            "column": 12,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 170,
-        "end": 175,
         "decorators": [],
         "name": "Ctor1",
-        "optional": false
+        "optional": false,
+        "range": [
+          170,
+          175
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 5
+          },
+          "start": {
+            "column": 6,
+            "line": 5
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        164,
+        192
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 194,
-      "end": 221,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 206,
-        "end": 221,
+        "range": [
+          206,
+          221
+        ],
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 212,
-            "end": 219,
             "computed": false,
             "declare": false,
             "decorators": [],
             "definite": false,
             "key": {
               "type": "Identifier",
-              "start": 212,
-              "end": 213,
               "decorators": [],
               "name": "g",
-              "optional": false
+              "optional": false,
+              "range": [
+                212,
+                213
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 10
+                },
+                "start": {
+                  "column": 4,
+                  "line": 10
+                }
+              }
             },
             "optional": false,
             "override": false,
@@ -573,62 +1377,140 @@ deeplyNestedAssignabilityErrorsCombined.ts
             "static": false,
             "value": {
               "type": "Literal",
-              "start": 216,
-              "end": 218,
               "raw": "12",
-              "value": 12
+              "value": 12,
+              "range": [
+                216,
+                218
+              ],
+              "loc": {
+                "end": {
+                  "column": 10,
+                  "line": 10
+                },
+                "start": {
+                  "column": 8,
+                  "line": 10
+                }
+              }
+            },
+            "range": [
+              212,
+              219
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 11
+          },
+          "start": {
+            "column": 12,
+            "line": 9
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 200,
-        "end": 205,
         "decorators": [],
         "name": "Ctor2",
-        "optional": false
+        "optional": false,
+        "range": [
+          200,
+          205
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 9
+          },
+          "start": {
+            "column": 6,
+            "line": 9
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        194,
+        221
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 223,
-      "end": 280,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 227,
-          "end": 279,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 227,
-            "end": 229,
             "decorators": [],
             "name": "x2",
-            "optional": false
+            "optional": false,
+            "range": [
+              227,
+              229
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 13
+              },
+              "start": {
+                "column": 4,
+                "line": 13
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 232,
-            "end": 279,
             "properties": [
               {
                 "type": "Property",
-                "start": 234,
-                "end": 277,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 234,
-                  "end": 235,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    234,
+                    235
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 13
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -636,21 +1518,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 237,
-                  "end": 277,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 239,
-                      "end": 275,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 239,
-                        "end": 240,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          239,
+                          240
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 13
+                          },
+                          "start": {
+                            "column": 16,
+                            "line": 13
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -658,21 +1548,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                       "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
-                        "start": 242,
-                        "end": 275,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 244,
-                            "end": 273,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 244,
-                              "end": 245,
                               "decorators": [],
                               "name": "c",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                244,
+                                245
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 22,
+                                  "line": 13
+                                },
+                                "start": {
+                                  "column": 21,
+                                  "line": 13
+                                }
+                              }
                             },
                             "kind": "init",
                             "method": false,
@@ -680,21 +1578,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                             "shorthand": false,
                             "value": {
                               "type": "ObjectExpression",
-                              "start": 247,
-                              "end": 273,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 249,
-                                  "end": 271,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 249,
-                                    "end": 250,
                                     "decorators": [],
                                     "name": "d",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      249,
+                                      250
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 27,
+                                        "line": 13
+                                      },
+                                      "start": {
+                                        "column": 26,
+                                        "line": 13
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -702,21 +1608,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "ObjectExpression",
-                                    "start": 252,
-                                    "end": 271,
                                     "properties": [
                                       {
                                         "type": "Property",
-                                        "start": 254,
-                                        "end": 269,
                                         "computed": false,
                                         "key": {
                                           "type": "Identifier",
-                                          "start": 254,
-                                          "end": 255,
                                           "decorators": [],
                                           "name": "e",
-                                          "optional": false
+                                          "optional": false,
+                                          "range": [
+                                            254,
+                                            255
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 32,
+                                              "line": 13
+                                            },
+                                            "start": {
+                                              "column": 31,
+                                              "line": 13
+                                            }
+                                          }
                                         },
                                         "kind": "init",
                                         "method": false,
@@ -724,21 +1638,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                         "shorthand": false,
                                         "value": {
                                           "type": "ObjectExpression",
-                                          "start": 257,
-                                          "end": 269,
                                           "properties": [
                                             {
                                               "type": "Property",
-                                              "start": 259,
-                                              "end": 267,
                                               "computed": false,
                                               "key": {
                                                 "type": "Identifier",
-                                                "start": 259,
-                                                "end": 260,
                                                 "decorators": [],
                                                 "name": "f",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  259,
+                                                  260
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 37,
+                                                    "line": 13
+                                                  },
+                                                  "start": {
+                                                    "column": 36,
+                                                    "line": 13
+                                                  }
+                                                }
                                               },
                                               "kind": "init",
                                               "method": false,
@@ -746,70 +1668,294 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                               "shorthand": false,
                                               "value": {
                                                 "type": "Identifier",
-                                                "start": 262,
-                                                "end": 267,
                                                 "decorators": [],
                                                 "name": "Ctor1",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  262,
+                                                  267
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 44,
+                                                    "line": 13
+                                                  },
+                                                  "start": {
+                                                    "column": 39,
+                                                    "line": 13
+                                                  }
+                                                }
+                                              },
+                                              "range": [
+                                                259,
+                                                267
+                                              ],
+                                              "loc": {
+                                                "end": {
+                                                  "column": 44,
+                                                  "line": 13
+                                                },
+                                                "start": {
+                                                  "column": 36,
+                                                  "line": 13
+                                                }
                                               }
                                             }
-                                          ]
+                                          ],
+                                          "range": [
+                                            257,
+                                            269
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 46,
+                                              "line": 13
+                                            },
+                                            "start": {
+                                              "column": 34,
+                                              "line": 13
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          254,
+                                          269
+                                        ],
+                                        "loc": {
+                                          "end": {
+                                            "column": 46,
+                                            "line": 13
+                                          },
+                                          "start": {
+                                            "column": 31,
+                                            "line": 13
+                                          }
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "range": [
+                                      252,
+                                      271
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 48,
+                                        "line": 13
+                                      },
+                                      "start": {
+                                        "column": 29,
+                                        "line": 13
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    249,
+                                    271
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 48,
+                                      "line": 13
+                                    },
+                                    "start": {
+                                      "column": 26,
+                                      "line": 13
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                247,
+                                273
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 50,
+                                  "line": 13
+                                },
+                                "start": {
+                                  "column": 24,
+                                  "line": 13
+                                }
+                              }
+                            },
+                            "range": [
+                              244,
+                              273
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 50,
+                                "line": 13
+                              },
+                              "start": {
+                                "column": 21,
+                                "line": 13
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "range": [
+                          242,
+                          275
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 13
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 13
+                          }
+                        }
+                      },
+                      "range": [
+                        239,
+                        275
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 13
+                        },
+                        "start": {
+                          "column": 16,
+                          "line": 13
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    237,
+                    277
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 54,
+                      "line": 13
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 13
+                    }
+                  }
+                },
+                "range": [
+                  234,
+                  277
+                ],
+                "loc": {
+                  "end": {
+                    "column": 54,
+                    "line": 13
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 13
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              232,
+              279
+            ],
+            "loc": {
+              "end": {
+                "column": 56,
+                "line": 13
+              },
+              "start": {
+                "column": 9,
+                "line": 13
+              }
+            }
+          },
+          "range": [
+            227,
+            279
+          ],
+          "loc": {
+            "end": {
+              "column": 56,
+              "line": 13
+            },
+            "start": {
+              "column": 4,
+              "line": 13
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        223,
+        280
+      ],
+      "loc": {
+        "end": {
+          "column": 57,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 13
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 281,
-      "end": 338,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 285,
-          "end": 337,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 285,
-            "end": 287,
             "decorators": [],
             "name": "y2",
-            "optional": false
+            "optional": false,
+            "range": [
+              285,
+              287
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 14
+              },
+              "start": {
+                "column": 4,
+                "line": 14
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 290,
-            "end": 337,
             "properties": [
               {
                 "type": "Property",
-                "start": 292,
-                "end": 335,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 292,
-                  "end": 293,
                   "decorators": [],
                   "name": "a",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    292,
+                    293
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 12,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 14
+                    }
+                  }
                 },
                 "kind": "init",
                 "method": false,
@@ -817,21 +1963,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                 "shorthand": false,
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 295,
-                  "end": 335,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 297,
-                      "end": 333,
                       "computed": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 297,
-                        "end": 298,
                         "decorators": [],
                         "name": "b",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          297,
+                          298
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 14
+                          },
+                          "start": {
+                            "column": 16,
+                            "line": 14
+                          }
+                        }
                       },
                       "kind": "init",
                       "method": false,
@@ -839,21 +1993,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                       "shorthand": false,
                       "value": {
                         "type": "ObjectExpression",
-                        "start": 300,
-                        "end": 333,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 302,
-                            "end": 331,
                             "computed": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 302,
-                              "end": 303,
                               "decorators": [],
                               "name": "c",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                302,
+                                303
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 22,
+                                  "line": 14
+                                },
+                                "start": {
+                                  "column": 21,
+                                  "line": 14
+                                }
+                              }
                             },
                             "kind": "init",
                             "method": false,
@@ -861,21 +2023,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                             "shorthand": false,
                             "value": {
                               "type": "ObjectExpression",
-                              "start": 305,
-                              "end": 331,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 307,
-                                  "end": 329,
                                   "computed": false,
                                   "key": {
                                     "type": "Identifier",
-                                    "start": 307,
-                                    "end": 308,
                                     "decorators": [],
                                     "name": "d",
-                                    "optional": false
+                                    "optional": false,
+                                    "range": [
+                                      307,
+                                      308
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 27,
+                                        "line": 14
+                                      },
+                                      "start": {
+                                        "column": 26,
+                                        "line": 14
+                                      }
+                                    }
                                   },
                                   "kind": "init",
                                   "method": false,
@@ -883,21 +2053,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                   "shorthand": false,
                                   "value": {
                                     "type": "ObjectExpression",
-                                    "start": 310,
-                                    "end": 329,
                                     "properties": [
                                       {
                                         "type": "Property",
-                                        "start": 312,
-                                        "end": 327,
                                         "computed": false,
                                         "key": {
                                           "type": "Identifier",
-                                          "start": 312,
-                                          "end": 313,
                                           "decorators": [],
                                           "name": "e",
-                                          "optional": false
+                                          "optional": false,
+                                          "range": [
+                                            312,
+                                            313
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 32,
+                                              "line": 14
+                                            },
+                                            "start": {
+                                              "column": 31,
+                                              "line": 14
+                                            }
+                                          }
                                         },
                                         "kind": "init",
                                         "method": false,
@@ -905,21 +2083,29 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                         "shorthand": false,
                                         "value": {
                                           "type": "ObjectExpression",
-                                          "start": 315,
-                                          "end": 327,
                                           "properties": [
                                             {
                                               "type": "Property",
-                                              "start": 317,
-                                              "end": 325,
                                               "computed": false,
                                               "key": {
                                                 "type": "Identifier",
-                                                "start": 317,
-                                                "end": 318,
                                                 "decorators": [],
                                                 "name": "f",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  317,
+                                                  318
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 37,
+                                                    "line": 14
+                                                  },
+                                                  "start": {
+                                                    "column": 36,
+                                                    "line": 14
+                                                  }
+                                                }
                                               },
                                               "kind": "init",
                                               "method": false,
@@ -927,63 +2113,330 @@ deeplyNestedAssignabilityErrorsCombined.ts
                                               "shorthand": false,
                                               "value": {
                                                 "type": "Identifier",
-                                                "start": 320,
-                                                "end": 325,
                                                 "decorators": [],
                                                 "name": "Ctor2",
-                                                "optional": false
+                                                "optional": false,
+                                                "range": [
+                                                  320,
+                                                  325
+                                                ],
+                                                "loc": {
+                                                  "end": {
+                                                    "column": 44,
+                                                    "line": 14
+                                                  },
+                                                  "start": {
+                                                    "column": 39,
+                                                    "line": 14
+                                                  }
+                                                }
+                                              },
+                                              "range": [
+                                                317,
+                                                325
+                                              ],
+                                              "loc": {
+                                                "end": {
+                                                  "column": 44,
+                                                  "line": 14
+                                                },
+                                                "start": {
+                                                  "column": 36,
+                                                  "line": 14
+                                                }
                                               }
                                             }
-                                          ]
+                                          ],
+                                          "range": [
+                                            315,
+                                            327
+                                          ],
+                                          "loc": {
+                                            "end": {
+                                              "column": 46,
+                                              "line": 14
+                                            },
+                                            "start": {
+                                              "column": 34,
+                                              "line": 14
+                                            }
+                                          }
+                                        },
+                                        "range": [
+                                          312,
+                                          327
+                                        ],
+                                        "loc": {
+                                          "end": {
+                                            "column": 46,
+                                            "line": 14
+                                          },
+                                          "start": {
+                                            "column": 31,
+                                            "line": 14
+                                          }
                                         }
                                       }
-                                    ]
+                                    ],
+                                    "range": [
+                                      310,
+                                      329
+                                    ],
+                                    "loc": {
+                                      "end": {
+                                        "column": 48,
+                                        "line": 14
+                                      },
+                                      "start": {
+                                        "column": 29,
+                                        "line": 14
+                                      }
+                                    }
+                                  },
+                                  "range": [
+                                    307,
+                                    329
+                                  ],
+                                  "loc": {
+                                    "end": {
+                                      "column": 48,
+                                      "line": 14
+                                    },
+                                    "start": {
+                                      "column": 26,
+                                      "line": 14
+                                    }
                                   }
                                 }
-                              ]
+                              ],
+                              "range": [
+                                305,
+                                331
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 50,
+                                  "line": 14
+                                },
+                                "start": {
+                                  "column": 24,
+                                  "line": 14
+                                }
+                              }
+                            },
+                            "range": [
+                              302,
+                              331
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 50,
+                                "line": 14
+                              },
+                              "start": {
+                                "column": 21,
+                                "line": 14
+                              }
                             }
                           }
-                        ]
+                        ],
+                        "range": [
+                          300,
+                          333
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 52,
+                            "line": 14
+                          },
+                          "start": {
+                            "column": 19,
+                            "line": 14
+                          }
+                        }
+                      },
+                      "range": [
+                        297,
+                        333
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 52,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 16,
+                          "line": 14
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "range": [
+                    295,
+                    335
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 54,
+                      "line": 14
+                    },
+                    "start": {
+                      "column": 14,
+                      "line": 14
+                    }
+                  }
+                },
+                "range": [
+                  292,
+                  335
+                ],
+                "loc": {
+                  "end": {
+                    "column": 54,
+                    "line": 14
+                  },
+                  "start": {
+                    "column": 11,
+                    "line": 14
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              290,
+              337
+            ],
+            "loc": {
+              "end": {
+                "column": 56,
+                "line": 14
+              },
+              "start": {
+                "column": 9,
+                "line": 14
+              }
+            }
+          },
+          "range": [
+            285,
+            337
+          ],
+          "loc": {
+            "end": {
+              "column": 56,
+              "line": 14
+            },
+            "start": {
+              "column": 4,
+              "line": 14
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        281,
+        338
+      ],
+      "loc": {
+        "end": {
+          "column": 57,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 14
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 347,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 339,
-        "end": 346,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 339,
-          "end": 341,
           "decorators": [],
           "name": "x2",
-          "optional": false
+          "optional": false,
+          "range": [
+            339,
+            341
+          ],
+          "loc": {
+            "end": {
+              "column": 2,
+              "line": 15
+            },
+            "start": {
+              "column": 0,
+              "line": 15
+            }
+          }
         },
         "right": {
           "type": "Identifier",
-          "start": 344,
-          "end": 346,
           "decorators": [],
           "name": "y2",
-          "optional": false
+          "optional": false,
+          "range": [
+            344,
+            346
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 15
+            },
+            "start": {
+              "column": 5,
+              "line": 15
+            }
+          }
+        },
+        "range": [
+          339,
+          346
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 15
+          },
+          "start": {
+            "column": 0,
+            "line": 15
+          }
+        }
+      },
+      "range": [
+        339,
+        347
+      ],
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 15
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 8,
+      "line": 15
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

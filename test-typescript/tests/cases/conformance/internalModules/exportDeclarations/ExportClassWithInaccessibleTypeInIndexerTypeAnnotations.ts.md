@@ -1,44 +1,52 @@
-ExportClassWithInaccessibleTypeInIndexerTypeAnnotations.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 171,
+  "range": [
+    0,
+    171
+  ],
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 169,
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 169,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 16,
-            "end": 73,
             "abstract": false,
             "body": {
               "type": "ClassBody",
-              "start": 28,
-              "end": 73,
+              "range": [
+                28,
+                73
+              ],
               "body": [
                 {
                   "type": "PropertyDefinition",
-                  "start": 38,
-                  "end": 48,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
                   "definite": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 39,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      38,
+                      39
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 4
+                      }
+                    }
                   },
                   "optional": false,
                   "override": false,
@@ -46,31 +54,79 @@ ExportClassWithInaccessibleTypeInIndexerTypeAnnotations.ts
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 39,
-                    "end": 47,
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 4
+                      }
+                    },
+                    "range": [
+                      39,
+                      47
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 41,
-                      "end": 47
+                      "range": [
+                        41,
+                        47
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 11,
+                          "line": 4
+                        }
+                      }
                     }
                   },
-                  "value": null
+                  "value": null,
+                  "range": [
+                    38,
+                    48
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 4
+                    }
+                  }
                 },
                 {
                   "type": "PropertyDefinition",
-                  "start": 57,
-                  "end": 67,
                   "computed": false,
                   "declare": false,
                   "decorators": [],
                   "definite": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 57,
-                    "end": 58,
                     "decorators": [],
                     "name": "y",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      57,
+                      58
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 5
+                      }
+                    }
                   },
                   "optional": false,
                   "override": false,
@@ -78,66 +134,176 @@ ExportClassWithInaccessibleTypeInIndexerTypeAnnotations.ts
                   "static": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 58,
-                    "end": 66,
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 9,
+                        "line": 5
+                      }
+                    },
+                    "range": [
+                      58,
+                      66
+                    ],
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
-                      "start": 60,
-                      "end": 66
+                      "range": [
+                        60,
+                        66
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 5
+                        },
+                        "start": {
+                          "column": 11,
+                          "line": 5
+                        }
+                      }
                     }
                   },
-                  "value": null
+                  "value": null,
+                  "range": [
+                    57,
+                    67
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 18,
+                      "line": 5
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 5
+                    }
+                  }
                 }
-              ]
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 6
+                },
+                "start": {
+                  "column": 16,
+                  "line": 3
+                }
+              }
             },
             "declare": false,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 22,
-              "end": 27,
               "decorators": [],
               "name": "Point",
-              "optional": false
+              "optional": false,
+              "range": [
+                22,
+                27
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 3
+                },
+                "start": {
+                  "column": 10,
+                  "line": 3
+                }
+              }
             },
             "implements": [],
-            "superClass": null
+            "superClass": null,
+            "range": [
+              16,
+              73
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 6
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 79,
-            "end": 167,
+            "range": [
+              79,
+              167
+            ],
             "attributes": [],
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 86,
-              "end": 167,
               "abstract": false,
               "body": {
                 "type": "ClassBody",
-                "start": 99,
-                "end": 167,
+                "range": [
+                  99,
+                  167
+                ],
                 "body": [
                   {
                     "type": "TSIndexSignature",
-                    "start": 110,
-                    "end": 131,
                     "parameters": [
                       {
                         "type": "Identifier",
-                        "start": 111,
-                        "end": 122,
                         "decorators": [],
                         "name": "idx",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 114,
-                          "end": 122,
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 10
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 10
+                            }
+                          },
+                          "range": [
+                            114,
+                            122
+                          ],
                           "typeAnnotation": {
                             "type": "TSNumberKeyword",
-                            "start": 116,
-                            "end": 122
+                            "range": [
+                              116,
+                              122
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 20,
+                                "line": 10
+                              },
+                              "start": {
+                                "column": 14,
+                                "line": 10
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          111,
+                          122
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 10
+                          },
+                          "start": {
+                            "column": 9,
+                            "line": 10
                           }
                         }
                       }
@@ -146,43 +312,127 @@ ExportClassWithInaccessibleTypeInIndexerTypeAnnotations.ts
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 123,
-                      "end": 130,
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 10
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 10
+                        }
+                      },
+                      "range": [
+                        123,
+                        130
+                      ],
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 125,
-                        "end": 130,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 125,
-                          "end": 130,
                           "decorators": [],
                           "name": "Point",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            125,
+                            130
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 28,
+                              "line": 10
+                            },
+                            "start": {
+                              "column": 23,
+                              "line": 10
+                            }
+                          }
+                        },
+                        "range": [
+                          125,
+                          130
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 28,
+                            "line": 10
+                          },
+                          "start": {
+                            "column": 23,
+                            "line": 10
+                          }
                         }
+                      }
+                    },
+                    "range": [
+                      110,
+                      131
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 10
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 10
                       }
                     }
                   },
                   {
                     "type": "TSIndexSignature",
-                    "start": 140,
-                    "end": 161,
                     "parameters": [
                       {
                         "type": "Identifier",
-                        "start": 141,
-                        "end": 152,
                         "decorators": [],
                         "name": "idx",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 144,
-                          "end": 152,
+                          "loc": {
+                            "end": {
+                              "column": 20,
+                              "line": 11
+                            },
+                            "start": {
+                              "column": 12,
+                              "line": 11
+                            }
+                          },
+                          "range": [
+                            144,
+                            152
+                          ],
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
-                            "start": 146,
-                            "end": 152
+                            "range": [
+                              146,
+                              152
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 20,
+                                "line": 11
+                              },
+                              "start": {
+                                "column": 14,
+                                "line": 11
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          141,
+                          152
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 20,
+                            "line": 11
+                          },
+                          "start": {
+                            "column": 9,
+                            "line": 11
                           }
                         }
                       }
@@ -191,57 +441,204 @@ ExportClassWithInaccessibleTypeInIndexerTypeAnnotations.ts
                     "static": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 153,
-                      "end": 160,
+                      "loc": {
+                        "end": {
+                          "column": 28,
+                          "line": 11
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 11
+                        }
+                      },
+                      "range": [
+                        153,
+                        160
+                      ],
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 155,
-                        "end": 160,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 155,
-                          "end": 160,
                           "decorators": [],
                           "name": "Point",
-                          "optional": false
+                          "optional": false,
+                          "range": [
+                            155,
+                            160
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 28,
+                              "line": 11
+                            },
+                            "start": {
+                              "column": 23,
+                              "line": 11
+                            }
+                          }
+                        },
+                        "range": [
+                          155,
+                          160
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 28,
+                            "line": 11
+                          },
+                          "start": {
+                            "column": 23,
+                            "line": 11
+                          }
                         }
+                      }
+                    },
+                    "range": [
+                      140,
+                      161
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 11
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 11
                       }
                     }
                   }
-                ]
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 12
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 8
+                  }
+                }
               },
               "declare": false,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 92,
-                "end": 98,
                 "decorators": [],
                 "name": "points",
-                "optional": false
+                "optional": false,
+                "range": [
+                  92,
+                  98
+                ],
+                "loc": {
+                  "end": {
+                    "column": 23,
+                    "line": 8
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 8
+                  }
+                }
               },
               "implements": [],
-              "superClass": null
+              "superClass": null,
+              "range": [
+                86,
+                167
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 12
+                },
+                "start": {
+                  "column": 11,
+                  "line": 8
+                }
+              }
             },
             "exportKind": "value",
             "source": null,
-            "specifiers": []
+            "specifiers": [],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 12
+              },
+              "start": {
+                "column": 4,
+                "line": 8
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          9,
+          169
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 13
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "global": false,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
+        "range": [
+          7,
+          8
+        ],
         "decorators": [],
         "name": "A",
-        "optional": false
+        "optional": false,
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
       },
-      "kind": "module"
+      "kind": "module",
+      "range": [
+        0,
+        169
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 13
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 15
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

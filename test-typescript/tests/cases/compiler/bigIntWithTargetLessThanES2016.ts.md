@@ -1,156 +1,409 @@
-bigIntWithTargetLessThanES2016.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
+  "range": [
+    0,
+    97
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 23,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 22,
         "operator": "**",
         "left": {
           "type": "CallExpression",
-          "start": 0,
-          "end": 9,
           "arguments": [
             {
               "type": "Literal",
-              "start": 7,
-              "end": 8,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                7,
+                8
+              ],
+              "loc": {
+                "end": {
+                  "column": 8,
+                  "line": 1
+                },
+                "start": {
+                  "column": 7,
+                  "line": 1
+                }
+              }
             }
           ],
           "callee": {
             "type": "Identifier",
-            "start": 0,
-            "end": 6,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "range": [
+              0,
+              6
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 1
+              },
+              "start": {
+                "column": 0,
+                "line": 1
+              }
+            }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            0,
+            9
+          ],
+          "loc": {
+            "end": {
+              "column": 9,
+              "line": 1
+            },
+            "start": {
+              "column": 0,
+              "line": 1
+            }
+          }
         },
         "right": {
           "type": "CallExpression",
-          "start": 13,
-          "end": 22,
           "arguments": [
             {
               "type": "Literal",
-              "start": 20,
-              "end": 21,
               "raw": "1",
-              "value": 1
+              "value": 1,
+              "range": [
+                20,
+                21
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 1
+                },
+                "start": {
+                  "column": 20,
+                  "line": 1
+                }
+              }
             }
           ],
           "callee": {
             "type": "Identifier",
-            "start": 13,
-            "end": 19,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "range": [
+              13,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 1
+              },
+              "start": {
+                "column": 13,
+                "line": 1
+              }
+            }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            13,
+            22
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 1
+            },
+            "start": {
+              "column": 13,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          0,
+          22
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        23
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 41,
-      "end": 61,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 45,
-          "end": 60,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 45,
-            "end": 48,
             "decorators": [],
             "name": "foo",
-            "optional": false
+            "optional": false,
+            "range": [
+              45,
+              48
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 3
+              },
+              "start": {
+                "column": 4,
+                "line": 3
+              }
+            }
           },
           "init": {
             "type": "CallExpression",
-            "start": 51,
-            "end": 60,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 58,
-                "end": 59,
                 "raw": "2",
-                "value": 2
+                "value": 2,
+                "range": [
+                  58,
+                  59
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 17,
+                    "line": 3
+                  }
+                }
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 51,
-              "end": 57,
               "decorators": [],
               "name": "BigInt",
-              "optional": false
+              "optional": false,
+              "range": [
+                51,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 3
+                },
+                "start": {
+                  "column": 10,
+                  "line": 3
+                }
+              }
             },
-            "optional": false
+            "optional": false,
+            "range": [
+              51,
+              60
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 3
+              },
+              "start": {
+                "column": 10,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            45,
+            60
+          ],
+          "loc": {
+            "end": {
+              "column": 19,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "let"
+      "kind": "let",
+      "range": [
+        41,
+        61
+      ],
+      "loc": {
+        "end": {
+          "column": 20,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 80,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 62,
-        "end": 79,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 62,
-          "end": 65,
           "decorators": [],
           "name": "foo",
-          "optional": false
+          "optional": false,
+          "range": [
+            62,
+            65
+          ],
+          "loc": {
+            "end": {
+              "column": 3,
+              "line": 4
+            },
+            "start": {
+              "column": 0,
+              "line": 4
+            }
+          }
         },
         "right": {
           "type": "CallExpression",
-          "start": 70,
-          "end": 79,
           "arguments": [
             {
               "type": "Literal",
-              "start": 77,
-              "end": 78,
               "raw": "2",
-              "value": 2
+              "value": 2,
+              "range": [
+                77,
+                78
+              ],
+              "loc": {
+                "end": {
+                  "column": 16,
+                  "line": 4
+                },
+                "start": {
+                  "column": 15,
+                  "line": 4
+                }
+              }
             }
           ],
           "callee": {
             "type": "Identifier",
-            "start": 70,
-            "end": 76,
             "decorators": [],
             "name": "BigInt",
-            "optional": false
+            "optional": false,
+            "range": [
+              70,
+              76
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 4
+              },
+              "start": {
+                "column": 8,
+                "line": 4
+              }
+            }
           },
-          "optional": false
+          "optional": false,
+          "range": [
+            70,
+            79
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 4
+            },
+            "start": {
+              "column": 8,
+              "line": 4
+            }
+          }
+        },
+        "range": [
+          62,
+          79
+        ],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 4
+          },
+          "start": {
+            "column": 0,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        62,
+        80
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

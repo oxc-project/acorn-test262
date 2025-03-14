@@ -1,4 +1,4 @@
-unicodeExtendedEscapesInTemplates17.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Hexadecimal digit expected.
 ```

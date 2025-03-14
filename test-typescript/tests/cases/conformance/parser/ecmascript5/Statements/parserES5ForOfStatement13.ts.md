@@ -1,50 +1,66 @@
-parserES5ForOfStatement13.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
+  "range": [
+    0,
+    25
+  ],
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 25,
       "await": false,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 25,
-        "body": []
+        "body": [],
+        "range": [
+          22,
+          25
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 2
+          },
+          "start": {
+            "column": 22,
+            "line": 1
+          }
+        }
       },
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 15,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 15,
             "definite": false,
             "id": {
               "type": "ObjectPattern",
-              "start": 9,
-              "end": 15,
               "decorators": [],
               "optional": false,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 10,
-                  "end": 11,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 10,
-                    "end": 11,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      10,
+                      11
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 1
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -52,25 +68,61 @@ parserES5ForOfStatement13.ts
                   "shorthand": true,
                   "value": {
                     "type": "Identifier",
-                    "start": 10,
-                    "end": 11,
                     "decorators": [],
                     "name": "a",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      10,
+                      11
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 11,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 10,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    10,
+                    11
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 10,
+                      "line": 1
+                    }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 13,
-                  "end": 14,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 13,
-                    "end": 14,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      13,
+                      14
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 1
+                      }
+                    }
                   },
                   "kind": "init",
                   "method": false,
@@ -78,31 +130,136 @@ parserES5ForOfStatement13.ts
                   "shorthand": true,
                   "value": {
                     "type": "Identifier",
-                    "start": 13,
-                    "end": 14,
                     "decorators": [],
                     "name": "b",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      13,
+                      14
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 1
+                      },
+                      "start": {
+                        "column": 13,
+                        "line": 1
+                      }
+                    }
+                  },
+                  "range": [
+                    13,
+                    14
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 14,
+                      "line": 1
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 1
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                9,
+                15
+              ],
+              "loc": {
+                "end": {
+                  "column": 15,
+                  "line": 1
+                },
+                "start": {
+                  "column": 9,
+                  "line": 1
+                }
+              }
             },
-            "init": null
+            "init": null,
+            "range": [
+              9,
+              15
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
+            }
           }
         ],
         "declare": false,
-        "kind": "let"
+        "kind": "let",
+        "range": [
+          5,
+          15
+        ],
+        "loc": {
+          "end": {
+            "column": 15,
+            "line": 1
+          },
+          "start": {
+            "column": 5,
+            "line": 1
+          }
+        }
       },
       "right": {
         "type": "Identifier",
-        "start": 19,
-        "end": 20,
         "decorators": [],
         "name": "X",
-        "optional": false
+        "optional": false,
+        "range": [
+          19,
+          20
+        ],
+        "loc": {
+          "end": {
+            "column": 20,
+            "line": 1
+          },
+          "start": {
+            "column": 19,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        25
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,4 +1,4 @@
-usingDeclarations.13.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'declare' modifier cannot appear on a 'using' declaration.
 ```

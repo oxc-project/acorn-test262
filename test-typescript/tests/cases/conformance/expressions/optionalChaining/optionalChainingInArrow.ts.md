@@ -1,54 +1,68 @@
-optionalChainingInArrow.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 144,
+  "range": [
+    56,
+    144
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 56,
-      "end": 143,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 62,
-          "end": 142,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 62,
-            "end": 66,
             "decorators": [],
             "name": "test",
-            "optional": false
+            "optional": false,
+            "range": [
+              62,
+              66
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 69,
-            "end": 142,
             "async": false,
             "body": {
               "type": "ChainExpression",
-              "start": 121,
-              "end": 142,
               "expression": {
                 "type": "CallExpression",
-                "start": 121,
-                "end": 142,
                 "arguments": [
                   {
                     "type": "ArrowFunctionExpression",
-                    "start": 135,
-                    "end": 141,
                     "async": false,
                     "body": {
                       "type": "Identifier",
-                      "start": 140,
-                      "end": 141,
                       "decorators": [],
                       "name": "x",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        140,
+                        141
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 24,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 23,
+                          "line": 4
+                        }
+                      }
                     },
                     "expression": true,
                     "generator": false,
@@ -56,39 +70,129 @@ optionalChainingInArrow.ts
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 135,
-                        "end": 136,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          135,
+                          136
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 19,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 18,
+                            "line": 4
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "range": [
+                      135,
+                      141
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 24,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 18,
+                        "line": 4
+                      }
+                    }
                   }
                 ],
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 121,
-                  "end": 134,
                   "computed": false,
                   "object": {
                     "type": "Identifier",
-                    "start": 121,
-                    "end": 126,
                     "decorators": [],
                     "name": "names",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      121,
+                      126
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 9,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 4,
+                        "line": 4
+                      }
+                    }
                   },
                   "optional": true,
                   "property": {
                     "type": "Identifier",
-                    "start": 128,
-                    "end": 134,
                     "decorators": [],
                     "name": "filter",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      128,
+                      134
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 17,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 11,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    121,
+                    134
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 17,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 4,
+                      "line": 4
+                    }
                   }
                 },
-                "optional": false
+                "optional": false,
+                "range": [
+                  121,
+                  142
+                ],
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 4
+                  }
+                }
+              },
+              "range": [
+                121,
+                142
+              ],
+              "loc": {
+                "end": {
+                  "column": 25,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
               }
             },
             "expression": true,
@@ -97,35 +201,136 @@ optionalChainingInArrow.ts
             "params": [
               {
                 "type": "Identifier",
-                "start": 70,
-                "end": 85,
                 "decorators": [],
                 "name": "names",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 75,
-                  "end": 85,
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 2
+                    }
+                  },
+                  "range": [
+                    75,
+                    85
+                  ],
                   "typeAnnotation": {
                     "type": "TSArrayType",
-                    "start": 77,
-                    "end": 85,
                     "elementType": {
                       "type": "TSStringKeyword",
-                      "start": 77,
-                      "end": 83
+                      "range": [
+                        77,
+                        83
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 27,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 21,
+                          "line": 2
+                        }
+                      }
+                    },
+                    "range": [
+                      77,
+                      85
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 29,
+                        "line": 2
+                      },
+                      "start": {
+                        "column": 21,
+                        "line": 2
+                      }
                     }
+                  }
+                },
+                "range": [
+                  70,
+                  85
+                ],
+                "loc": {
+                  "end": {
+                    "column": 29,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 14,
+                    "line": 2
                   }
                 }
               }
-            ]
+            ],
+            "range": [
+              69,
+              142
+            ],
+            "loc": {
+              "end": {
+                "column": 25,
+                "line": 4
+              },
+              "start": {
+                "column": 13,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            62,
+            142
+          ],
+          "loc": {
+            "end": {
+              "column": 25,
+              "line": 4
+            },
+            "start": {
+              "column": 6,
+              "line": 2
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        56,
+        143
+      ],
+      "loc": {
+        "end": {
+          "column": 26,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

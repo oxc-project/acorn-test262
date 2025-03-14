@@ -1,71 +1,180 @@
-taggedTemplateWithConstructableTag01.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
+  "range": [
+    0,
+    42
+  ],
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 17,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 17,
-        "body": []
+        "range": [
+          14,
+          17
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 17,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "CtorTag",
-        "optional": false
+        "optional": false,
+        "range": [
+          6,
+          13
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 1
+          },
+          "start": {
+            "column": 6,
+            "line": 1
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        0,
+        17
+      ],
+      "loc": {
+        "end": {
+          "column": 17,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 42,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 19,
-        "end": 41,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 27,
-          "end": 41,
           "expressions": [],
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 27,
-              "end": 41,
               "tail": true,
               "value": {
                 "cooked": "Hello world!",
                 "raw": "Hello world!"
+              },
+              "range": [
+                27,
+                41
+              ],
+              "loc": {
+                "end": {
+                  "column": 22,
+                  "line": 3
+                },
+                "start": {
+                  "column": 8,
+                  "line": 3
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            27,
+            41
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 3
+            },
+            "start": {
+              "column": 8,
+              "line": 3
+            }
+          }
         },
         "tag": {
           "type": "Identifier",
-          "start": 19,
-          "end": 26,
           "decorators": [],
           "name": "CtorTag",
-          "optional": false
+          "optional": false,
+          "range": [
+            19,
+            26
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
+          }
+        },
+        "range": [
+          19,
+          41
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        19,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
         }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 23,
+      "line": 3
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

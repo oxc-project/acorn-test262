@@ -1,4 +1,4 @@
-file.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 Unicode escape sequence cannot appear here.
 ```

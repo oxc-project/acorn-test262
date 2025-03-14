@@ -1,50 +1,70 @@
-declarationEmitObjectLiteralAccessors1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 23,
-  "end": 549,
+  "range": [
+    23,
+    549
+  ],
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 23,
-      "end": 213,
+      "range": [
+        23,
+        213
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 30,
-        "end": 213,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 36,
-            "end": 212,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 40,
               "decorators": [],
               "name": "obj1",
-              "optional": false
+              "optional": false,
+              "range": [
+                36,
+                40
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 2
+                },
+                "start": {
+                  "column": 13,
+                  "line": 2
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 43,
-              "end": 212,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 98,
-                  "end": 134,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 102,
-                    "end": 103,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      102,
+                      103
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 4
+                      }
+                    }
                   },
                   "kind": "get",
                   "method": false,
@@ -52,27 +72,65 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 103,
-                    "end": 134,
+                    "range": [
+                      103,
+                      134
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 114,
-                      "end": 134,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 120,
-                          "end": 130,
                           "argument": {
                             "type": "Literal",
-                            "start": 127,
-                            "end": 129,
                             "raw": "\"\"",
-                            "value": ""
+                            "value": "",
+                            "range": [
+                              127,
+                              129
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 13,
+                                "line": 5
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 5
+                              }
+                            }
+                          },
+                          "range": [
+                            120,
+                            130
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 14,
+                              "line": 5
+                            },
+                            "start": {
+                              "column": 4,
+                              "line": 5
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        114,
+                        134
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 3,
+                          "line": 6
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 4
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -81,28 +139,86 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 105,
-                      "end": 113,
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 4
+                        },
+                        "start": {
+                          "column": 9,
+                          "line": 4
+                        }
+                      },
+                      "range": [
+                        105,
+                        113
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 107,
-                        "end": 113
+                        "range": [
+                          107,
+                          113
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 4
+                          },
+                          "start": {
+                            "column": 11,
+                            "line": 4
+                          }
+                        }
                       }
+                    },
+                    "loc": {
+                      "end": {
+                        "column": 3,
+                        "line": 6
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 4
+                      }
+                    }
+                  },
+                  "range": [
+                    98,
+                    134
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 3,
+                      "line": 6
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 4
                     }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 190,
-                  "end": 209,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 194,
-                    "end": 195,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      194,
+                      195
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 8
+                      }
+                    }
                   },
                   "kind": "set",
                   "method": false,
@@ -110,14 +226,28 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 195,
-                    "end": 209,
+                    "range": [
+                      195,
+                      209
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 207,
-                      "end": 209,
-                      "body": []
+                      "body": [],
+                      "range": [
+                        207,
+                        209
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 8
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 8
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -126,76 +256,206 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 196,
-                        "end": 205,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 197,
-                          "end": 205,
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 8
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 8
+                            }
+                          },
+                          "range": [
+                            197,
+                            205
+                          ],
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
-                            "start": 199,
-                            "end": 205
+                            "range": [
+                              199,
+                              205
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 17,
+                                "line": 8
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 8
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          196,
+                          205
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 8
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 8
                           }
                         }
                       }
-                    ]
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 8
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 8
+                      }
+                    }
+                  },
+                  "range": [
+                    190,
+                    209
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 8
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 8
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                43,
+                212
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 9
+                },
+                "start": {
+                  "column": 20,
+                  "line": 2
+                }
+              }
+            },
+            "range": [
+              36,
+              212
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 9
+              },
+              "start": {
+                "column": 13,
+                "line": 2
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          30,
+          213
+        ],
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 9
+          },
+          "start": {
+            "column": 7,
+            "line": 2
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 238,
-      "end": 379,
+      "range": [
+        238,
+        379
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 245,
-        "end": 379,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 251,
-            "end": 378,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 251,
-              "end": 255,
               "decorators": [],
               "name": "obj2",
-              "optional": false
+              "optional": false,
+              "range": [
+                251,
+                255
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 12
+                },
+                "start": {
+                  "column": 13,
+                  "line": 12
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 258,
-              "end": 378,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 289,
-                  "end": 325,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 293,
-                    "end": 294,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      293,
+                      294
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 14
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 14
+                      }
+                    }
                   },
                   "kind": "get",
                   "method": false,
@@ -203,27 +463,65 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 294,
-                    "end": 325,
+                    "range": [
+                      294,
+                      325
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 305,
-                      "end": 325,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 311,
-                          "end": 321,
                           "argument": {
                             "type": "Literal",
-                            "start": 318,
-                            "end": 320,
                             "raw": "\"\"",
-                            "value": ""
+                            "value": "",
+                            "range": [
+                              318,
+                              320
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 13,
+                                "line": 15
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 15
+                              }
+                            }
+                          },
+                          "range": [
+                            311,
+                            321
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 14,
+                              "line": 15
+                            },
+                            "start": {
+                              "column": 4,
+                              "line": 15
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        305,
+                        325
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 3,
+                          "line": 16
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 14
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -232,28 +530,86 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 296,
-                      "end": 304,
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 14
+                        },
+                        "start": {
+                          "column": 9,
+                          "line": 14
+                        }
+                      },
+                      "range": [
+                        296,
+                        304
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 298,
-                        "end": 304
+                        "range": [
+                          298,
+                          304
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 14
+                          },
+                          "start": {
+                            "column": 11,
+                            "line": 14
+                          }
+                        }
                       }
+                    },
+                    "loc": {
+                      "end": {
+                        "column": 3,
+                        "line": 16
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 14
+                      }
+                    }
+                  },
+                  "range": [
+                    289,
+                    325
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 3,
+                      "line": 16
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 14
                     }
                   }
                 },
                 {
                   "type": "Property",
-                  "start": 356,
-                  "end": 375,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 360,
-                    "end": 361,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      360,
+                      361
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 18
+                      }
+                    }
                   },
                   "kind": "set",
                   "method": false,
@@ -261,14 +617,28 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 361,
-                    "end": 375,
+                    "range": [
+                      361,
+                      375
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 373,
-                      "end": 375,
-                      "body": []
+                      "body": [],
+                      "range": [
+                        373,
+                        375
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 18
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 18
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -277,76 +647,206 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 362,
-                        "end": 371,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 363,
-                          "end": 371,
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 18
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 18
+                            }
+                          },
+                          "range": [
+                            363,
+                            371
+                          ],
                           "typeAnnotation": {
                             "type": "TSNumberKeyword",
-                            "start": 365,
-                            "end": 371
+                            "range": [
+                              365,
+                              371
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 17,
+                                "line": 18
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 18
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          362,
+                          371
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 18
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 18
                           }
                         }
                       }
-                    ]
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 18
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 18
+                      }
+                    }
+                  },
+                  "range": [
+                    356,
+                    375
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 18
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 18
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                258,
+                378
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 19
+                },
+                "start": {
+                  "column": 20,
+                  "line": 12
+                }
+              }
+            },
+            "range": [
+              251,
+              378
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 19
+              },
+              "start": {
+                "column": 13,
+                "line": 12
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          245,
+          379
+        ],
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 19
+          },
+          "start": {
+            "column": 7,
+            "line": 12
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 19
+        },
+        "start": {
+          "column": 0,
+          "line": 12
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 381,
-      "end": 472,
+      "range": [
+        381,
+        472
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 388,
-        "end": 472,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 394,
-            "end": 471,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 394,
-              "end": 398,
               "decorators": [],
               "name": "obj3",
-              "optional": false
+              "optional": false,
+              "range": [
+                394,
+                398
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 21
+                },
+                "start": {
+                  "column": 13,
+                  "line": 21
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 401,
-              "end": 471,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 432,
-                  "end": 468,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 436,
-                    "end": 437,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      436,
+                      437
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 23
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 23
+                      }
+                    }
                   },
                   "kind": "get",
                   "method": false,
@@ -354,27 +854,65 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 437,
-                    "end": 468,
+                    "range": [
+                      437,
+                      468
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 448,
-                      "end": 468,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 454,
-                          "end": 464,
                           "argument": {
                             "type": "Literal",
-                            "start": 461,
-                            "end": 463,
                             "raw": "\"\"",
-                            "value": ""
+                            "value": "",
+                            "range": [
+                              461,
+                              463
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 13,
+                                "line": 24
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 24
+                              }
+                            }
+                          },
+                          "range": [
+                            454,
+                            464
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 14,
+                              "line": 24
+                            },
+                            "start": {
+                              "column": 4,
+                              "line": 24
+                            }
                           }
                         }
-                      ]
+                      ],
+                      "range": [
+                        448,
+                        468
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 3,
+                          "line": 25
+                        },
+                        "start": {
+                          "column": 18,
+                          "line": 23
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -383,67 +921,185 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 439,
-                      "end": 447,
+                      "loc": {
+                        "end": {
+                          "column": 17,
+                          "line": 23
+                        },
+                        "start": {
+                          "column": 9,
+                          "line": 23
+                        }
+                      },
+                      "range": [
+                        439,
+                        447
+                      ],
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
-                        "start": 441,
-                        "end": 447
+                        "range": [
+                          441,
+                          447
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 23
+                          },
+                          "start": {
+                            "column": 11,
+                            "line": 23
+                          }
+                        }
                       }
+                    },
+                    "loc": {
+                      "end": {
+                        "column": 3,
+                        "line": 25
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 23
+                      }
+                    }
+                  },
+                  "range": [
+                    432,
+                    468
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 3,
+                      "line": 25
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 23
                     }
                   }
                 }
-              ]
+              ],
+              "range": [
+                401,
+                471
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 26
+                },
+                "start": {
+                  "column": 20,
+                  "line": 21
+                }
+              }
+            },
+            "range": [
+              394,
+              471
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 26
+              },
+              "start": {
+                "column": 13,
+                "line": 21
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          388,
+          472
+        ],
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 26
+          },
+          "start": {
+            "column": 7,
+            "line": 21
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 26
+        },
+        "start": {
+          "column": 0,
+          "line": 21
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 474,
-      "end": 548,
+      "range": [
+        474,
+        548
+      ],
       "attributes": [],
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 481,
-        "end": 548,
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 487,
-            "end": 547,
             "definite": false,
             "id": {
               "type": "Identifier",
-              "start": 487,
-              "end": 491,
               "decorators": [],
               "name": "obj4",
-              "optional": false
+              "optional": false,
+              "range": [
+                487,
+                491
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 28
+                },
+                "start": {
+                  "column": 13,
+                  "line": 28
+                }
+              }
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 494,
-              "end": 547,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 525,
-                  "end": 544,
                   "computed": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 529,
-                    "end": 530,
                     "decorators": [],
                     "name": "x",
-                    "optional": false
+                    "optional": false,
+                    "range": [
+                      529,
+                      530
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 7,
+                        "line": 30
+                      },
+                      "start": {
+                        "column": 6,
+                        "line": 30
+                      }
+                    }
                   },
                   "kind": "set",
                   "method": false,
@@ -451,14 +1107,28 @@ declarationEmitObjectLiteralAccessors1.ts
                   "shorthand": false,
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 530,
-                    "end": 544,
+                    "range": [
+                      530,
+                      544
+                    ],
                     "async": false,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 542,
-                      "end": 544,
-                      "body": []
+                      "body": [],
+                      "range": [
+                        542,
+                        544
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 21,
+                          "line": 30
+                        },
+                        "start": {
+                          "column": 19,
+                          "line": 30
+                        }
+                      }
                     },
                     "declare": false,
                     "expression": false,
@@ -467,37 +1137,160 @@ declarationEmitObjectLiteralAccessors1.ts
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 531,
-                        "end": 540,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 532,
-                          "end": 540,
+                          "loc": {
+                            "end": {
+                              "column": 17,
+                              "line": 30
+                            },
+                            "start": {
+                              "column": 9,
+                              "line": 30
+                            }
+                          },
+                          "range": [
+                            532,
+                            540
+                          ],
                           "typeAnnotation": {
                             "type": "TSNumberKeyword",
-                            "start": 534,
-                            "end": 540
+                            "range": [
+                              534,
+                              540
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 17,
+                                "line": 30
+                              },
+                              "start": {
+                                "column": 11,
+                                "line": 30
+                              }
+                            }
+                          }
+                        },
+                        "range": [
+                          531,
+                          540
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 17,
+                            "line": 30
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 30
                           }
                         }
                       }
-                    ]
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 21,
+                        "line": 30
+                      },
+                      "start": {
+                        "column": 7,
+                        "line": 30
+                      }
+                    }
+                  },
+                  "range": [
+                    525,
+                    544
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 30
+                    },
+                    "start": {
+                      "column": 2,
+                      "line": 30
+                    }
                   }
                 }
-              ]
+              ],
+              "range": [
+                494,
+                547
+              ],
+              "loc": {
+                "end": {
+                  "column": 1,
+                  "line": 31
+                },
+                "start": {
+                  "column": 20,
+                  "line": 28
+                }
+              }
+            },
+            "range": [
+              487,
+              547
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 31
+              },
+              "start": {
+                "column": 13,
+                "line": 28
+              }
             }
           }
         ],
         "declare": false,
-        "kind": "const"
+        "kind": "const",
+        "range": [
+          481,
+          548
+        ],
+        "loc": {
+          "end": {
+            "column": 2,
+            "line": 31
+          },
+          "start": {
+            "column": 7,
+            "line": 28
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 31
+        },
+        "start": {
+          "column": 0,
+          "line": 28
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 32
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

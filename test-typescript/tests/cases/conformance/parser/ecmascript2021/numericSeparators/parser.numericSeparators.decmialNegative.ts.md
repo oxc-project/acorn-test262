@@ -1,224 +1,261 @@
-1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 4,
+  "range": [
+    0,
+    4
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 3,
       "expression": {
         "type": "Identifier",
-        "start": 0,
-        "end": 3,
         "decorators": [],
         "name": "_10",
-        "optional": false
+        "optional": false,
+        "range": [
+          0,
+          3
+        ],
+        "loc": {
+          "end": {
+            "column": 3,
+            "line": 1
+          },
+          "start": {
+            "column": 0,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        3
+      ],
+      "loc": {
+        "end": {
+          "column": 3,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```
-2.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-3.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-5.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-6.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-7.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-8.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-9.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-10.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-11.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-12.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-13.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-14.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-15.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-16.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Unexpected keyword or identifier.
 ```
-17.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-18.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-19.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-20.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-21.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-22.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-23.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-24.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-25.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-26.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-27.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-28.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-29.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Unexpected keyword or identifier.
 ```
-30.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-31.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-32.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-33.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-34.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-35.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-36.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-37.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-38.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-39.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-40.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-41.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-42.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Unexpected keyword or identifier.
 ```
-43.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-44.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-45.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-46.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Multiple consecutive numeric separators are not permitted.
 ```
-47.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Declaration or statement expected.
 ```
-48.ts
+__ESTREE_TEST__:FAIL:
 ```json
 ';' expected.
 ```
-49.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-50.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```
-51.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Numeric separators are not allowed here.
 ```

@@ -1,67 +1,176 @@
-awaitUsingDeclarationsInForOf.4.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 94,
+  "range": [
+    57,
+    94
+  ],
   "body": [
     {
       "type": "BlockStatement",
-      "start": 57,
-      "end": 93,
       "body": [
         {
           "type": "ForOfStatement",
-          "start": 61,
-          "end": 90,
           "await": false,
           "body": {
             "type": "BlockStatement",
-            "start": 88,
-            "end": 90,
-            "body": []
+            "body": [],
+            "range": [
+              88,
+              90
+            ],
+            "loc": {
+              "end": {
+                "column": 31,
+                "line": 4
+              },
+              "start": {
+                "column": 29,
+                "line": 4
+              }
+            }
           },
           "left": {
             "type": "VariableDeclaration",
-            "start": 66,
-            "end": 80,
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 78,
-                "end": 80,
                 "definite": false,
                 "id": {
                   "type": "Identifier",
-                  "start": 78,
-                  "end": 80,
                   "decorators": [],
                   "name": "of",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    78,
+                    80
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 21,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 19,
+                      "line": 4
+                    }
+                  }
                 },
-                "init": null
+                "init": null,
+                "range": [
+                  78,
+                  80
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 19,
+                    "line": 4
+                  }
+                }
               }
             ],
             "declare": false,
-            "kind": "await using"
+            "kind": "await using",
+            "range": [
+              66,
+              80
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 4
+              },
+              "start": {
+                "column": 7,
+                "line": 4
+              }
+            }
           },
           "right": {
             "type": "Identifier",
-            "start": 84,
-            "end": 86,
             "decorators": [],
             "name": "of",
-            "optional": false
+            "optional": false,
+            "range": [
+              84,
+              86
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 4
+              },
+              "start": {
+                "column": 25,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            61,
+            90
+          ],
+          "loc": {
+            "end": {
+              "column": 31,
+              "line": 4
+            },
+            "start": {
+              "column": 2,
+              "line": 4
+            }
           }
         },
         {
           "type": "EmptyStatement",
-          "start": 90,
-          "end": 91
+          "range": [
+            90,
+            91
+          ],
+          "loc": {
+            "end": {
+              "column": 32,
+              "line": 4
+            },
+            "start": {
+              "column": 31,
+              "line": 4
+            }
+          }
         }
-      ]
+      ],
+      "range": [
+        57,
+        93
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,186 +1,451 @@
-templateStringInSwitchAndCase.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 103,
+  "range": [
+    1,
+    103
+  ],
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 1,
-      "end": 103,
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 29,
-          "end": 40,
           "consequent": [],
           "test": {
             "type": "TemplateLiteral",
-            "start": 34,
-            "end": 39,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 34,
-                "end": 39,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  34,
+                  39
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              34,
+              39
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 2
+              },
+              "start": {
+                "column": 9,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            29,
+            40
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 2
+            },
+            "start": {
+              "column": 4,
+              "line": 2
+            }
           }
         },
         {
           "type": "SwitchCase",
-          "start": 45,
-          "end": 56,
           "consequent": [],
           "test": {
             "type": "TemplateLiteral",
-            "start": 50,
-            "end": 55,
             "expressions": [],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 50,
-                "end": 55,
                 "tail": true,
                 "value": {
                   "cooked": "123",
                   "raw": "123"
+                },
+                "range": [
+                  50,
+                  55
+                ],
+                "loc": {
+                  "end": {
+                    "column": 14,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 3
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              50,
+              55
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 3
+              },
+              "start": {
+                "column": 9,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            45,
+            56
+          ],
+          "loc": {
+            "end": {
+              "column": 15,
+              "line": 3
+            },
+            "start": {
+              "column": 4,
+              "line": 3
+            }
           }
         },
         {
           "type": "SwitchCase",
-          "start": 61,
-          "end": 101,
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 88,
-              "end": 101,
               "expression": {
                 "type": "TemplateLiteral",
-                "start": 88,
-                "end": 100,
                 "expressions": [
                   {
                     "type": "Literal",
-                    "start": 94,
-                    "end": 95,
                     "raw": "1",
-                    "value": 1
+                    "value": 1,
+                    "range": [
+                      94,
+                      95
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 15,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 5
+                      }
+                    }
                   }
                 ],
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 88,
-                    "end": 94,
                     "tail": false,
                     "value": {
                       "cooked": "def",
                       "raw": "def"
+                    },
+                    "range": [
+                      88,
+                      94
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 14,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 8,
+                        "line": 5
+                      }
                     }
                   },
                   {
                     "type": "TemplateElement",
-                    "start": 95,
-                    "end": 100,
                     "tail": true,
                     "value": {
                       "cooked": "def",
                       "raw": "def"
+                    },
+                    "range": [
+                      95,
+                      100
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 20,
+                        "line": 5
+                      },
+                      "start": {
+                        "column": 15,
+                        "line": 5
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  88,
+                  100
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 5
+                  },
+                  "start": {
+                    "column": 8,
+                    "line": 5
+                  }
+                }
+              },
+              "range": [
+                88,
+                101
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 5
+                },
+                "start": {
+                  "column": 8,
+                  "line": 5
+                }
               }
             }
           ],
           "test": {
             "type": "TemplateLiteral",
-            "start": 66,
-            "end": 78,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 72,
-                "end": 73,
                 "raw": "0",
-                "value": 0
+                "value": 0,
+                "range": [
+                  72,
+                  73
+                ],
+                "loc": {
+                  "end": {
+                    "column": 16,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 15,
+                    "line": 4
+                  }
+                }
               }
             ],
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 66,
-                "end": 72,
                 "tail": false,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  66,
+                  72
+                ],
+                "loc": {
+                  "end": {
+                    "column": 15,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 9,
+                    "line": 4
+                  }
                 }
               },
               {
                 "type": "TemplateElement",
-                "start": 73,
-                "end": 78,
                 "tail": true,
                 "value": {
                   "cooked": "abc",
                   "raw": "abc"
+                },
+                "range": [
+                  73,
+                  78
+                ],
+                "loc": {
+                  "end": {
+                    "column": 21,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 16,
+                    "line": 4
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              66,
+              78
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 4
+              },
+              "start": {
+                "column": 9,
+                "line": 4
+              }
+            }
+          },
+          "range": [
+            61,
+            101
+          ],
+          "loc": {
+            "end": {
+              "column": 21,
+              "line": 5
+            },
+            "start": {
+              "column": 4,
+              "line": 4
+            }
           }
         }
       ],
       "discriminant": {
         "type": "TemplateLiteral",
-        "start": 9,
-        "end": 21,
         "expressions": [
           {
             "type": "Literal",
-            "start": 15,
-            "end": 16,
             "raw": "0",
-            "value": 0
+            "value": 0,
+            "range": [
+              15,
+              16
+            ],
+            "loc": {
+              "end": {
+                "column": 16,
+                "line": 1
+              },
+              "start": {
+                "column": 15,
+                "line": 1
+              }
+            }
           }
         ],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 9,
-            "end": 15,
             "tail": false,
             "value": {
               "cooked": "abc",
               "raw": "abc"
+            },
+            "range": [
+              9,
+              15
+            ],
+            "loc": {
+              "end": {
+                "column": 15,
+                "line": 1
+              },
+              "start": {
+                "column": 9,
+                "line": 1
+              }
             }
           },
           {
             "type": "TemplateElement",
-            "start": 16,
-            "end": 21,
             "tail": true,
             "value": {
               "cooked": "abc",
               "raw": "abc"
+            },
+            "range": [
+              16,
+              21
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 1
+              },
+              "start": {
+                "column": 16,
+                "line": 1
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          9,
+          21
+        ],
+        "loc": {
+          "end": {
+            "column": 21,
+            "line": 1
+          },
+          "start": {
+            "column": 9,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        1,
+        103
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 6
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 1,
+      "line": 6
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

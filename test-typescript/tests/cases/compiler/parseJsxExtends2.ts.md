@@ -1,4 +1,4 @@
-index.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 Type expected.
 ```

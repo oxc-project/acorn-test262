@@ -1,16 +1,41 @@
-parserDebuggerStatement1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 8,
+  "range": [
+    0,
+    8
+  ],
   "body": [
     {
       "type": "DebuggerStatement",
-      "start": 0,
-      "end": 8
+      "range": [
+        0,
+        8
+      ],
+      "loc": {
+        "end": {
+          "column": 8,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 8,
+      "line": 1
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,29 +1,78 @@
-asiBreak.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 1,
-  "end": 19,
+  "range": [
+    1,
+    19
+  ],
   "body": [
     {
       "type": "WhileStatement",
-      "start": 1,
-      "end": 19,
       "body": {
         "type": "BreakStatement",
-        "start": 14,
-        "end": 19,
-        "label": null
+        "label": null,
+        "range": [
+          14,
+          19
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 1
+          },
+          "start": {
+            "column": 14,
+            "line": 1
+          }
+        }
       },
       "test": {
         "type": "Literal",
-        "start": 8,
-        "end": 12,
         "raw": "true",
-        "value": true
+        "value": true,
+        "range": [
+          8,
+          12
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 1
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        1,
+        19
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 1
+        },
+        "start": {
+          "column": 1,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 19,
+      "line": 1
+    },
+    "start": {
+      "column": 1,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

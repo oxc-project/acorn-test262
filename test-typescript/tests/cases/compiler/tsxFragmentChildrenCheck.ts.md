@@ -1,8 +1,8 @@
-my-component.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 ';' expected.
 ```
-file1.tsx
+__ESTREE_TEST__:FAIL:
 ```json
 Type expected.
 ```

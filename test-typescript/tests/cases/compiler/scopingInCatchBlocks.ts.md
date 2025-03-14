@@ -1,149 +1,414 @@
-scopingInCatchBlocks.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 154,
+  "range": [
+    0,
+    154
+  ],
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 35,
       "block": {
         "type": "BlockStatement",
-        "start": 4,
-        "end": 7,
-        "body": []
+        "body": [],
+        "range": [
+          4,
+          7
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 1
+          },
+          "start": {
+            "column": 4,
+            "line": 1
+          }
+        }
       },
       "finalizer": null,
       "handler": {
         "type": "CatchClause",
-        "start": 8,
-        "end": 35,
         "body": {
           "type": "BlockStatement",
-          "start": 19,
-          "end": 35,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 23,
-              "end": 33,
               "argument": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 32,
                 "decorators": [],
                 "name": "ex1",
-                "optional": false
+                "optional": false,
+                "range": [
+                  29,
+                  32
+                ],
+                "loc": {
+                  "end": {
+                    "column": 10,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                23,
+                33
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 2
+                },
+                "start": {
+                  "column": 1,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            19,
+            35
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 3
+            },
+            "start": {
+              "column": 19,
+              "line": 1
+            }
+          }
         },
         "param": {
           "type": "Identifier",
-          "start": 14,
-          "end": 17,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "range": [
+            14,
+            17
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 1
+            },
+            "start": {
+              "column": 14,
+              "line": 1
+            }
+          }
+        },
+        "range": [
+          8,
+          35
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 3
+          },
+          "start": {
+            "column": 8,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        35
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 1
         }
       }
     },
     {
       "type": "TryStatement",
-      "start": 37,
-      "end": 59,
       "block": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 44,
-        "body": []
+        "body": [],
+        "range": [
+          41,
+          44
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 5
+          },
+          "start": {
+            "column": 4,
+            "line": 5
+          }
+        }
       },
       "finalizer": null,
       "handler": {
         "type": "CatchClause",
-        "start": 45,
-        "end": 59,
         "body": {
           "type": "BlockStatement",
-          "start": 56,
-          "end": 59,
-          "body": []
+          "body": [],
+          "range": [
+            56,
+            59
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 5
+            },
+            "start": {
+              "column": 19,
+              "line": 5
+            }
+          }
         },
         "param": {
           "type": "Identifier",
-          "start": 51,
-          "end": 54,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "range": [
+            51,
+            54
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 5
+            },
+            "start": {
+              "column": 14,
+              "line": 5
+            }
+          }
+        },
+        "range": [
+          45,
+          59
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 5
+          },
+          "start": {
+            "column": 8,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        37,
+        59
+      ],
+      "loc": {
+        "end": {
+          "column": 22,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
         }
       }
     },
     {
       "type": "TryStatement",
-      "start": 81,
-      "end": 103,
       "block": {
         "type": "BlockStatement",
-        "start": 85,
-        "end": 88,
-        "body": []
+        "body": [],
+        "range": [
+          85,
+          88
+        ],
+        "loc": {
+          "end": {
+            "column": 7,
+            "line": 7
+          },
+          "start": {
+            "column": 4,
+            "line": 7
+          }
+        }
       },
       "finalizer": null,
       "handler": {
         "type": "CatchClause",
-        "start": 89,
-        "end": 103,
         "body": {
           "type": "BlockStatement",
-          "start": 100,
-          "end": 103,
-          "body": []
+          "body": [],
+          "range": [
+            100,
+            103
+          ],
+          "loc": {
+            "end": {
+              "column": 22,
+              "line": 7
+            },
+            "start": {
+              "column": 19,
+              "line": 7
+            }
+          }
         },
         "param": {
           "type": "Identifier",
-          "start": 95,
-          "end": 98,
           "decorators": [],
           "name": "ex1",
-          "optional": false
+          "optional": false,
+          "range": [
+            95,
+            98
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 7
+            },
+            "start": {
+              "column": 14,
+              "line": 7
+            }
+          }
+        },
+        "range": [
+          89,
+          103
+        ],
+        "loc": {
+          "end": {
+            "column": 22,
+            "line": 7
+          },
+          "start": {
+            "column": 8,
+            "line": 7
+          }
+        }
+      },
+      "range": [
+        81,
+        103
+      ],
+      "loc": {
+        "end": {
+          "column": 22,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
         }
       }
     },
     {
       "type": "VariableDeclaration",
-      "start": 125,
-      "end": 137,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 129,
-          "end": 136,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 129,
-            "end": 130,
             "decorators": [],
             "name": "x",
-            "optional": false
+            "optional": false,
+            "range": [
+              129,
+              130
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 9
+              },
+              "start": {
+                "column": 4,
+                "line": 9
+              }
+            }
           },
           "init": {
             "type": "Identifier",
-            "start": 133,
-            "end": 136,
             "decorators": [],
             "name": "ex1",
-            "optional": false
+            "optional": false,
+            "range": [
+              133,
+              136
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 9
+              },
+              "start": {
+                "column": 8,
+                "line": 9
+              }
+            }
+          },
+          "range": [
+            129,
+            136
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 9
+            },
+            "start": {
+              "column": 4,
+              "line": 9
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        125,
+        137
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 9
+        },
+        "start": {
+          "column": 0,
+          "line": 9
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 10
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

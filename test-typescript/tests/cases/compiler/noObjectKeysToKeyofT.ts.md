@@ -1,54 +1,68 @@
-noObjectKeysToKeyofT.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 102,
-  "end": 252,
+  "range": [
+    102,
+    252
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 102,
-      "end": 134,
       "expression": {
         "type": "CallExpression",
-        "start": 102,
-        "end": 133,
         "arguments": [
           {
             "type": "Literal",
-            "start": 129,
-            "end": 132,
             "raw": "\"b\"",
-            "value": "b"
+            "value": "b",
+            "range": [
+              129,
+              132
+            ],
+            "loc": {
+              "end": {
+                "column": 30,
+                "line": 3
+              },
+              "start": {
+                "column": 27,
+                "line": 3
+              }
+            }
           }
         ],
         "callee": {
           "type": "MemberExpression",
-          "start": 102,
-          "end": 128,
           "computed": false,
           "object": {
             "type": "CallExpression",
-            "start": 102,
-            "end": 123,
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 114,
-                "end": 122,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 116,
-                    "end": 120,
                     "computed": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 116,
-                      "end": 117,
                       "decorators": [],
                       "name": "a",
-                      "optional": false
+                      "optional": false,
+                      "range": [
+                        116,
+                        117
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 15,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 14,
+                          "line": 3
+                        }
+                      }
                     },
                     "kind": "init",
                     "method": false,
@@ -56,54 +70,209 @@ noObjectKeysToKeyofT.ts
                     "shorthand": false,
                     "value": {
                       "type": "Literal",
-                      "start": 119,
-                      "end": 120,
                       "raw": "0",
-                      "value": 0
+                      "value": 0,
+                      "range": [
+                        119,
+                        120
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 18,
+                          "line": 3
+                        },
+                        "start": {
+                          "column": 17,
+                          "line": 3
+                        }
+                      }
+                    },
+                    "range": [
+                      116,
+                      120
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 18,
+                        "line": 3
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 3
+                      }
                     }
                   }
-                ]
+                ],
+                "range": [
+                  114,
+                  122
+                ],
+                "loc": {
+                  "end": {
+                    "column": 20,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 12,
+                    "line": 3
+                  }
+                }
               }
             ],
             "callee": {
               "type": "MemberExpression",
-              "start": 102,
-              "end": 113,
               "computed": false,
               "object": {
                 "type": "Identifier",
-                "start": 102,
-                "end": 108,
                 "decorators": [],
                 "name": "Object",
-                "optional": false
+                "optional": false,
+                "range": [
+                  102,
+                  108
+                ],
+                "loc": {
+                  "end": {
+                    "column": 6,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 0,
+                    "line": 3
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Identifier",
-                "start": 109,
-                "end": 113,
                 "decorators": [],
                 "name": "keys",
-                "optional": false
+                "optional": false,
+                "range": [
+                  109,
+                  113
+                ],
+                "loc": {
+                  "end": {
+                    "column": 11,
+                    "line": 3
+                  },
+                  "start": {
+                    "column": 7,
+                    "line": 3
+                  }
+                }
+              },
+              "range": [
+                102,
+                113
+              ],
+              "loc": {
+                "end": {
+                  "column": 11,
+                  "line": 3
+                },
+                "start": {
+                  "column": 0,
+                  "line": 3
+                }
               }
             },
-            "optional": false
+            "optional": false,
+            "range": [
+              102,
+              123
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 3
+              },
+              "start": {
+                "column": 0,
+                "line": 3
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Identifier",
-            "start": 124,
-            "end": 128,
             "decorators": [],
             "name": "push",
-            "optional": false
+            "optional": false,
+            "range": [
+              124,
+              128
+            ],
+            "loc": {
+              "end": {
+                "column": 26,
+                "line": 3
+              },
+              "start": {
+                "column": 22,
+                "line": 3
+              }
+            }
+          },
+          "range": [
+            102,
+            128
+          ],
+          "loc": {
+            "end": {
+              "column": 26,
+              "line": 3
+            },
+            "start": {
+              "column": 0,
+              "line": 3
+            }
           }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          102,
+          133
+        ],
+        "loc": {
+          "end": {
+            "column": 31,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        102,
+        134
+      ],
+      "loc": {
+        "end": {
+          "column": 32,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 104,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

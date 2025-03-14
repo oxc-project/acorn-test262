@@ -1,29 +1,37 @@
-classWithStaticFieldInParameterInitializer.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 95,
+  "range": [
+    56,
+    95
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 56,
-      "end": 95,
       "expression": {
         "type": "CallExpression",
-        "start": 56,
-        "end": 94,
         "arguments": [],
         "callee": {
           "type": "ArrowFunctionExpression",
-          "start": 57,
-          "end": 91,
           "async": false,
           "body": {
             "type": "BlockStatement",
-            "start": 89,
-            "end": 91,
-            "body": []
+            "body": [],
+            "range": [
+              89,
+              91
+            ],
+            "loc": {
+              "end": {
+                "column": 35,
+                "line": 2
+              },
+              "start": {
+                "column": 33,
+                "line": 2
+              }
+            }
           },
           "expression": false,
           "generator": false,
@@ -31,43 +39,63 @@ classWithStaticFieldInParameterInitializer.ts
           "params": [
             {
               "type": "AssignmentPattern",
-              "start": 58,
-              "end": 84,
               "decorators": [],
               "left": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 59,
                 "decorators": [],
                 "name": "b",
-                "optional": false
+                "optional": false,
+                "range": [
+                  58,
+                  59
+                ],
+                "loc": {
+                  "end": {
+                    "column": 3,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 2,
+                    "line": 2
+                  }
+                }
               },
               "optional": false,
               "right": {
                 "type": "ClassExpression",
-                "start": 62,
-                "end": 84,
                 "abstract": false,
                 "body": {
                   "type": "ClassBody",
-                  "start": 68,
-                  "end": 84,
+                  "range": [
+                    68,
+                    84
+                  ],
                   "body": [
                     {
                       "type": "PropertyDefinition",
-                      "start": 70,
-                      "end": 82,
                       "computed": false,
                       "declare": false,
                       "decorators": [],
                       "definite": false,
                       "key": {
                         "type": "Identifier",
-                        "start": 77,
-                        "end": 78,
                         "decorators": [],
                         "name": "x",
-                        "optional": false
+                        "optional": false,
+                        "range": [
+                          77,
+                          78
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 22,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 21,
+                            "line": 2
+                          }
+                        }
                       },
                       "optional": false,
                       "override": false,
@@ -75,27 +103,144 @@ classWithStaticFieldInParameterInitializer.ts
                       "static": true,
                       "value": {
                         "type": "Literal",
-                        "start": 81,
-                        "end": 82,
                         "raw": "1",
-                        "value": 1
+                        "value": 1,
+                        "range": [
+                          81,
+                          82
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 26,
+                            "line": 2
+                          },
+                          "start": {
+                            "column": 25,
+                            "line": 2
+                          }
+                        }
+                      },
+                      "range": [
+                        70,
+                        82
+                      ],
+                      "loc": {
+                        "end": {
+                          "column": 26,
+                          "line": 2
+                        },
+                        "start": {
+                          "column": 14,
+                          "line": 2
+                        }
                       }
                     }
-                  ]
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 28,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 12,
+                      "line": 2
+                    }
+                  }
                 },
                 "declare": false,
                 "decorators": [],
                 "id": null,
                 "implements": [],
-                "superClass": null
+                "superClass": null,
+                "range": [
+                  62,
+                  84
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 2
+                  },
+                  "start": {
+                    "column": 6,
+                    "line": 2
+                  }
+                }
+              },
+              "range": [
+                58,
+                84
+              ],
+              "loc": {
+                "end": {
+                  "column": 28,
+                  "line": 2
+                },
+                "start": {
+                  "column": 2,
+                  "line": 2
+                }
               }
             }
-          ]
+          ],
+          "range": [
+            57,
+            91
+          ],
+          "loc": {
+            "end": {
+              "column": 35,
+              "line": 2
+            },
+            "start": {
+              "column": 1,
+              "line": 2
+            }
+          }
         },
-        "optional": false
+        "optional": false,
+        "range": [
+          56,
+          94
+        ],
+        "loc": {
+          "end": {
+            "column": 38,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        56,
+        95
+      ],
+      "loc": {
+        "end": {
+          "column": 39,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 39,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

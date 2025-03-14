@@ -1,4 +1,4 @@
-asyncSetter_es5.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'async' modifier cannot be used here.
 ```

@@ -1,4 +1,4 @@
-autoAccessorDisallowedModifiers.ts
+__ESTREE_TEST__:FAIL:
 ```json
 'accessor' modifier can only appear on a property declaration.
 ```

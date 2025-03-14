@@ -1,4 +1,4 @@
-scannerS7.8.4_A7.1_T4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Hexadecimal digit expected.
 ```

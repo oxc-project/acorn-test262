@@ -1,10 +1,23 @@
-parserSyntaxWalker.generated.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 7439,
-  "end": 7439,
+  "range": [
+    7439,
+    7439
+  ],
   "body": [],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 279
+    },
+    "start": {
+      "column": 0,
+      "line": 279
+    }
+  },
+  "hashbang": null
 }
 ```

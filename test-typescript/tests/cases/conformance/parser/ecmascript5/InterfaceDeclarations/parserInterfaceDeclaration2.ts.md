@@ -1,4 +1,4 @@
-parserInterfaceDeclaration2.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Interface declaration cannot have 'implements' clause.
 ```

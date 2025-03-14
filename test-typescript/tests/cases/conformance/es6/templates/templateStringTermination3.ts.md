@@ -1,34 +1,83 @@
-templateStringTermination3.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 6,
+  "range": [
+    2,
+    6
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 2,
-      "end": 6,
       "expression": {
         "type": "TemplateLiteral",
-        "start": 2,
-        "end": 6,
         "expressions": [],
         "quasis": [
           {
             "type": "TemplateElement",
-            "start": 2,
-            "end": 6,
             "tail": true,
             "value": {
               "cooked": "`",
               "raw": "\\`"
+            },
+            "range": [
+              2,
+              6
+            ],
+            "loc": {
+              "end": {
+                "column": 4,
+                "line": 2
+              },
+              "start": {
+                "column": 0,
+                "line": 2
+              }
             }
           }
-        ]
+        ],
+        "range": [
+          2,
+          6
+        ],
+        "loc": {
+          "end": {
+            "column": 4,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        2,
+        6
+      ],
+      "loc": {
+        "end": {
+          "column": 4,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 4,
+      "line": 2
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

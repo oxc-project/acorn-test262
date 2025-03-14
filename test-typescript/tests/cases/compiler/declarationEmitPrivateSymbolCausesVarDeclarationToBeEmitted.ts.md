@@ -1,75 +1,149 @@
-declarationEmitPrivateSymbolCausesVarDeclarationToBeEmitted.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
+  "range": [
+    0,
+    81
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 28,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 11,
             "decorators": [],
             "name": "_data",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              11
+            ],
+            "loc": {
+              "end": {
+                "column": 11,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "CallExpression",
-            "start": 14,
-            "end": 28,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 21,
-                "end": 27,
                 "raw": "'data'",
-                "value": "data"
+                "value": "data",
+                "range": [
+                  21,
+                  27
+                ],
+                "loc": {
+                  "end": {
+                    "column": 27,
+                    "line": 1
+                  },
+                  "start": {
+                    "column": 21,
+                    "line": 1
+                  }
+                }
               }
             ],
             "callee": {
               "type": "Identifier",
-              "start": 14,
-              "end": 20,
               "decorators": [],
               "name": "Symbol",
-              "optional": false
+              "optional": false,
+              "range": [
+                14,
+                20
+              ],
+              "loc": {
+                "end": {
+                  "column": 20,
+                  "line": 1
+                },
+                "start": {
+                  "column": 14,
+                  "line": 1
+                }
+              }
             },
-            "optional": false
+            "optional": false,
+            "range": [
+              14,
+              28
+            ],
+            "loc": {
+              "end": {
+                "column": 28,
+                "line": 1
+              },
+              "start": {
+                "column": 14,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 28,
+              "line": 1
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        29
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 31,
-      "end": 79,
+      "range": [
+        31,
+        79
+      ],
       "attributes": [],
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 38,
-        "end": 79,
         "abstract": false,
         "body": {
           "type": "ClassBody",
-          "start": 49,
-          "end": 79,
+          "range": [
+            49,
+            79
+          ],
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 55,
-              "end": 77,
               "accessibility": "private",
               "computed": true,
               "declare": false,
@@ -77,11 +151,23 @@ declarationEmitPrivateSymbolCausesVarDeclarationToBeEmitted.ts
               "definite": false,
               "key": {
                 "type": "Identifier",
-                "start": 64,
-                "end": 69,
                 "decorators": [],
                 "name": "_data",
-                "optional": false
+                "optional": false,
+                "range": [
+                  64,
+                  69
+                ],
+                "loc": {
+                  "end": {
+                    "column": 18,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 13,
+                    "line": 4
+                  }
+                }
               },
               "optional": false,
               "override": false,
@@ -89,41 +175,148 @@ declarationEmitPrivateSymbolCausesVarDeclarationToBeEmitted.ts
               "static": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 71,
-                "end": 76,
+                "loc": {
+                  "end": {
+                    "column": 25,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 20,
+                    "line": 4
+                  }
+                },
+                "range": [
+                  71,
+                  76
+                ],
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
-                  "start": 73,
-                  "end": 76
+                  "range": [
+                    73,
+                    76
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 25,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 22,
+                      "line": 4
+                    }
+                  }
                 }
               },
-              "value": null
+              "value": null,
+              "range": [
+                55,
+                77
+              ],
+              "loc": {
+                "end": {
+                  "column": 26,
+                  "line": 4
+                },
+                "start": {
+                  "column": 4,
+                  "line": 4
+                }
+              }
             }
-          ]
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 18,
+              "line": 3
+            }
+          }
         },
         "declare": false,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 44,
-          "end": 48,
           "decorators": [],
           "name": "User",
-          "optional": false
+          "optional": false,
+          "range": [
+            44,
+            48
+          ],
+          "loc": {
+            "end": {
+              "column": 17,
+              "line": 3
+            },
+            "start": {
+              "column": 13,
+              "line": 3
+            }
+          }
         },
         "implements": [],
-        "superClass": null
+        "superClass": null,
+        "range": [
+          38,
+          79
+        ],
+        "loc": {
+          "end": {
+            "column": 1,
+            "line": 5
+          },
+          "start": {
+            "column": 7,
+            "line": 3
+          }
+        }
       },
       "exportKind": "value",
       "source": null,
-      "specifiers": []
+      "specifiers": [],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
+      }
     },
     {
       "type": "EmptyStatement",
-      "start": 79,
-      "end": 80
+      "range": [
+        79,
+        80
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 5
+        },
+        "start": {
+          "column": 1,
+          "line": 5
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

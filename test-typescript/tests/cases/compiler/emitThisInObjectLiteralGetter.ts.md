@@ -1,45 +1,63 @@
-emitThisInObjectLiteralGetter.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 82,
+  "range": [
+    0,
+    82
+  ],
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 81,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 80,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 13,
             "decorators": [],
             "name": "example",
-            "optional": false
+            "optional": false,
+            "range": [
+              6,
+              13
+            ],
+            "loc": {
+              "end": {
+                "column": 13,
+                "line": 1
+              },
+              "start": {
+                "column": 6,
+                "line": 1
+              }
+            }
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 16,
-            "end": 80,
             "properties": [
               {
                 "type": "Property",
-                "start": 22,
-                "end": 78,
                 "computed": false,
                 "key": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 29,
                   "decorators": [],
                   "name": "foo",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    26,
+                    29
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 11,
+                      "line": 2
+                    },
+                    "start": {
+                      "column": 8,
+                      "line": 2
+                    }
+                  }
                 },
                 "kind": "get",
                 "method": false,
@@ -47,58 +65,114 @@ emitThisInObjectLiteralGetter.ts
                 "shorthand": false,
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 29,
-                  "end": 78,
+                  "range": [
+                    29,
+                    78
+                  ],
                   "async": false,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 32,
-                    "end": 78,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 42,
-                        "end": 72,
                         "argument": {
                           "type": "ArrowFunctionExpression",
-                          "start": 49,
-                          "end": 71,
                           "async": false,
                           "body": {
                             "type": "CallExpression",
-                            "start": 57,
-                            "end": 71,
                             "arguments": [
                               {
                                 "type": "Identifier",
-                                "start": 66,
-                                "end": 70,
                                 "decorators": [],
                                 "name": "item",
-                                "optional": false
+                                "optional": false,
+                                "range": [
+                                  66,
+                                  70
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 36,
+                                    "line": 3
+                                  },
+                                  "start": {
+                                    "column": 32,
+                                    "line": 3
+                                  }
+                                }
                               }
                             ],
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 57,
-                              "end": 65,
                               "computed": false,
                               "object": {
                                 "type": "ThisExpression",
-                                "start": 57,
-                                "end": 61
+                                "range": [
+                                  57,
+                                  61
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 27,
+                                    "line": 3
+                                  },
+                                  "start": {
+                                    "column": 23,
+                                    "line": 3
+                                  }
+                                }
                               },
                               "optional": false,
                               "property": {
                                 "type": "Identifier",
-                                "start": 62,
-                                "end": 65,
                                 "decorators": [],
                                 "name": "bar",
-                                "optional": false
+                                "optional": false,
+                                "range": [
+                                  62,
+                                  65
+                                ],
+                                "loc": {
+                                  "end": {
+                                    "column": 31,
+                                    "line": 3
+                                  },
+                                  "start": {
+                                    "column": 28,
+                                    "line": 3
+                                  }
+                                }
+                              },
+                              "range": [
+                                57,
+                                65
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 31,
+                                  "line": 3
+                                },
+                                "start": {
+                                  "column": 23,
+                                  "line": 3
+                                }
                               }
                             },
-                            "optional": false
+                            "optional": false,
+                            "range": [
+                              57,
+                              71
+                            ],
+                            "loc": {
+                              "end": {
+                                "column": 37,
+                                "line": 3
+                              },
+                              "start": {
+                                "column": 23,
+                                "line": 3
+                              }
+                            }
                           },
                           "expression": true,
                           "generator": false,
@@ -106,32 +180,163 @@ emitThisInObjectLiteralGetter.ts
                           "params": [
                             {
                               "type": "Identifier",
-                              "start": 49,
-                              "end": 53,
                               "decorators": [],
                               "name": "item",
-                              "optional": false
+                              "optional": false,
+                              "range": [
+                                49,
+                                53
+                              ],
+                              "loc": {
+                                "end": {
+                                  "column": 19,
+                                  "line": 3
+                                },
+                                "start": {
+                                  "column": 15,
+                                  "line": 3
+                                }
+                              }
                             }
-                          ]
+                          ],
+                          "range": [
+                            49,
+                            71
+                          ],
+                          "loc": {
+                            "end": {
+                              "column": 37,
+                              "line": 3
+                            },
+                            "start": {
+                              "column": 15,
+                              "line": 3
+                            }
+                          }
+                        },
+                        "range": [
+                          42,
+                          72
+                        ],
+                        "loc": {
+                          "end": {
+                            "column": 38,
+                            "line": 3
+                          },
+                          "start": {
+                            "column": 8,
+                            "line": 3
+                          }
                         }
                       }
-                    ]
+                    ],
+                    "range": [
+                      32,
+                      78
+                    ],
+                    "loc": {
+                      "end": {
+                        "column": 5,
+                        "line": 4
+                      },
+                      "start": {
+                        "column": 14,
+                        "line": 2
+                      }
+                    }
                   },
                   "declare": false,
                   "expression": false,
                   "generator": false,
                   "id": null,
-                  "params": []
+                  "params": [],
+                  "loc": {
+                    "end": {
+                      "column": 5,
+                      "line": 4
+                    },
+                    "start": {
+                      "column": 11,
+                      "line": 2
+                    }
+                  }
+                },
+                "range": [
+                  22,
+                  78
+                ],
+                "loc": {
+                  "end": {
+                    "column": 5,
+                    "line": 4
+                  },
+                  "start": {
+                    "column": 4,
+                    "line": 2
+                  }
                 }
               }
-            ]
+            ],
+            "range": [
+              16,
+              80
+            ],
+            "loc": {
+              "end": {
+                "column": 1,
+                "line": 5
+              },
+              "start": {
+                "column": 16,
+                "line": 1
+              }
+            }
+          },
+          "range": [
+            6,
+            80
+          ],
+          "loc": {
+            "end": {
+              "column": 1,
+              "line": 5
+            },
+            "start": {
+              "column": 6,
+              "line": 1
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "const"
+      "kind": "const",
+      "range": [
+        0,
+        81
+      ],
+      "loc": {
+        "end": {
+          "column": 2,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
+      }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 6
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

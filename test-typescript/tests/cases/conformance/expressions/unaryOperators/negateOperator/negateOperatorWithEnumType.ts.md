@@ -1,385 +1,1034 @@
-negateOperatorWithEnumType.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 283,
+  "range": [
+    28,
+    283
+  ],
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 28,
-      "end": 41,
       "body": {
         "type": "TSEnumBody",
-        "start": 38,
-        "end": 41,
-        "members": []
+        "range": [
+          38,
+          41
+        ],
+        "members": [],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 3
+          },
+          "start": {
+            "column": 10,
+            "line": 3
+          }
+        }
       },
       "const": false,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 37,
         "decorators": [],
         "name": "ENUM",
-        "optional": false
+        "optional": false,
+        "range": [
+          33,
+          37
+        ],
+        "loc": {
+          "end": {
+            "column": 9,
+            "line": 3
+          },
+          "start": {
+            "column": 5,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        28,
+        41
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "EmptyStatement",
-      "start": 41,
-      "end": 42
+      "range": [
+        41,
+        42
+      ],
+      "loc": {
+        "end": {
+          "column": 14,
+          "line": 3
+        },
+        "start": {
+          "column": 13,
+          "line": 3
+        }
+      }
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 43,
-      "end": 66,
       "body": {
         "type": "TSEnumBody",
-        "start": 54,
-        "end": 66,
+        "range": [
+          54,
+          66
+        ],
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 56,
-            "end": 57,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 56,
-              "end": 57,
               "decorators": [],
               "name": "A",
-              "optional": false
+              "optional": false,
+              "range": [
+                56,
+                57
+              ],
+              "loc": {
+                "end": {
+                  "column": 14,
+                  "line": 4
+                },
+                "start": {
+                  "column": 13,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              56,
+              57
+            ],
+            "loc": {
+              "end": {
+                "column": 14,
+                "line": 4
+              },
+              "start": {
+                "column": 13,
+                "line": 4
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 59,
-            "end": 60,
             "computed": false,
             "id": {
               "type": "Identifier",
-              "start": 59,
-              "end": 60,
               "decorators": [],
               "name": "B",
-              "optional": false
+              "optional": false,
+              "range": [
+                59,
+                60
+              ],
+              "loc": {
+                "end": {
+                  "column": 17,
+                  "line": 4
+                },
+                "start": {
+                  "column": 16,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              59,
+              60
+            ],
+            "loc": {
+              "end": {
+                "column": 17,
+                "line": 4
+              },
+              "start": {
+                "column": 16,
+                "line": 4
+              }
             }
           },
           {
             "type": "TSEnumMember",
-            "start": 62,
-            "end": 64,
             "computed": false,
             "id": {
               "type": "Literal",
-              "start": 62,
-              "end": 64,
               "raw": "\"\"",
-              "value": ""
+              "value": "",
+              "range": [
+                62,
+                64
+              ],
+              "loc": {
+                "end": {
+                  "column": 21,
+                  "line": 4
+                },
+                "start": {
+                  "column": 19,
+                  "line": 4
+                }
+              }
+            },
+            "range": [
+              62,
+              64
+            ],
+            "loc": {
+              "end": {
+                "column": 21,
+                "line": 4
+              },
+              "start": {
+                "column": 19,
+                "line": 4
+              }
             }
           }
-        ]
+        ],
+        "loc": {
+          "end": {
+            "column": 23,
+            "line": 4
+          },
+          "start": {
+            "column": 11,
+            "line": 4
+          }
+        }
       },
       "const": false,
       "declare": false,
       "id": {
         "type": "Identifier",
-        "start": 48,
-        "end": 53,
         "decorators": [],
         "name": "ENUM1",
-        "optional": false
+        "optional": false,
+        "range": [
+          48,
+          53
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 4
+          },
+          "start": {
+            "column": 5,
+            "line": 4
+          }
+        }
+      },
+      "range": [
+        43,
+        66
+      ],
+      "loc": {
+        "end": {
+          "column": 23,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
       }
     },
     {
       "type": "EmptyStatement",
-      "start": 66,
-      "end": 67
+      "range": [
+        66,
+        67
+      ],
+      "loc": {
+        "end": {
+          "column": 24,
+          "line": 4
+        },
+        "start": {
+          "column": 23,
+          "line": 4
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 86,
-      "end": 114,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 90,
-          "end": 113,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 90,
-            "end": 105,
             "decorators": [],
             "name": "ResultIsNumber1",
-            "optional": false
+            "optional": false,
+            "range": [
+              90,
+              105
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 7
+              },
+              "start": {
+                "column": 4,
+                "line": 7
+              }
+            }
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 108,
-            "end": 113,
             "argument": {
               "type": "Identifier",
-              "start": 109,
-              "end": 113,
               "decorators": [],
               "name": "ENUM",
-              "optional": false
+              "optional": false,
+              "range": [
+                109,
+                113
+              ],
+              "loc": {
+                "end": {
+                  "column": 27,
+                  "line": 7
+                },
+                "start": {
+                  "column": 23,
+                  "line": 7
+                }
+              }
             },
             "operator": "-",
-            "prefix": true
+            "prefix": true,
+            "range": [
+              108,
+              113
+            ],
+            "loc": {
+              "end": {
+                "column": 27,
+                "line": 7
+              },
+              "start": {
+                "column": 22,
+                "line": 7
+              }
+            }
+          },
+          "range": [
+            90,
+            113
+          ],
+          "loc": {
+            "end": {
+              "column": 27,
+              "line": 7
+            },
+            "start": {
+              "column": 4,
+              "line": 7
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        86,
+        114
+      ],
+      "loc": {
+        "end": {
+          "column": 28,
+          "line": 7
+        },
+        "start": {
+          "column": 0,
+          "line": 7
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 131,
-      "end": 165,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 135,
-          "end": 164,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 135,
-            "end": 150,
             "decorators": [],
             "name": "ResultIsNumber2",
-            "optional": false
+            "optional": false,
+            "range": [
+              135,
+              150
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 10
+              },
+              "start": {
+                "column": 4,
+                "line": 10
+              }
+            }
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 153,
-            "end": 164,
             "argument": {
               "type": "MemberExpression",
-              "start": 154,
-              "end": 164,
               "computed": true,
               "object": {
                 "type": "Identifier",
-                "start": 154,
-                "end": 159,
                 "decorators": [],
                 "name": "ENUM1",
-                "optional": false
+                "optional": false,
+                "range": [
+                  154,
+                  159
+                ],
+                "loc": {
+                  "end": {
+                    "column": 28,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 23,
+                    "line": 10
+                  }
+                }
               },
               "optional": false,
               "property": {
                 "type": "Literal",
-                "start": 160,
-                "end": 163,
                 "raw": "\"B\"",
-                "value": "B"
+                "value": "B",
+                "range": [
+                  160,
+                  163
+                ],
+                "loc": {
+                  "end": {
+                    "column": 32,
+                    "line": 10
+                  },
+                  "start": {
+                    "column": 29,
+                    "line": 10
+                  }
+                }
+              },
+              "range": [
+                154,
+                164
+              ],
+              "loc": {
+                "end": {
+                  "column": 33,
+                  "line": 10
+                },
+                "start": {
+                  "column": 23,
+                  "line": 10
+                }
               }
             },
             "operator": "-",
-            "prefix": true
+            "prefix": true,
+            "range": [
+              153,
+              164
+            ],
+            "loc": {
+              "end": {
+                "column": 33,
+                "line": 10
+              },
+              "start": {
+                "column": 22,
+                "line": 10
+              }
+            }
+          },
+          "range": [
+            135,
+            164
+          ],
+          "loc": {
+            "end": {
+              "column": 33,
+              "line": 10
+            },
+            "start": {
+              "column": 4,
+              "line": 10
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        131,
+        165
+      ],
+      "loc": {
+        "end": {
+          "column": 34,
+          "line": 10
+        },
+        "start": {
+          "column": 0,
+          "line": 10
+        }
+      }
     },
     {
       "type": "VariableDeclaration",
-      "start": 166,
-      "end": 211,
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 170,
-          "end": 210,
           "definite": false,
           "id": {
             "type": "Identifier",
-            "start": 170,
-            "end": 185,
             "decorators": [],
             "name": "ResultIsNumber3",
-            "optional": false
+            "optional": false,
+            "range": [
+              170,
+              185
+            ],
+            "loc": {
+              "end": {
+                "column": 19,
+                "line": 11
+              },
+              "start": {
+                "column": 4,
+                "line": 11
+              }
+            }
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 188,
-            "end": 210,
             "argument": {
               "type": "BinaryExpression",
-              "start": 190,
-              "end": 209,
               "operator": "+",
               "left": {
                 "type": "MemberExpression",
-                "start": 190,
-                "end": 197,
                 "computed": false,
                 "object": {
                   "type": "Identifier",
-                  "start": 190,
-                  "end": 195,
                   "decorators": [],
                   "name": "ENUM1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    190,
+                    195
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 29,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 24,
+                      "line": 11
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Identifier",
-                  "start": 196,
-                  "end": 197,
                   "decorators": [],
                   "name": "B",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    196,
+                    197
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 31,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 30,
+                      "line": 11
+                    }
+                  }
+                },
+                "range": [
+                  190,
+                  197
+                ],
+                "loc": {
+                  "end": {
+                    "column": 31,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 24,
+                    "line": 11
+                  }
                 }
               },
               "right": {
                 "type": "MemberExpression",
-                "start": 200,
-                "end": 209,
                 "computed": true,
                 "object": {
                   "type": "Identifier",
-                  "start": 200,
-                  "end": 205,
                   "decorators": [],
                   "name": "ENUM1",
-                  "optional": false
+                  "optional": false,
+                  "range": [
+                    200,
+                    205
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 39,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 34,
+                      "line": 11
+                    }
+                  }
                 },
                 "optional": false,
                 "property": {
                   "type": "Literal",
-                  "start": 206,
-                  "end": 208,
                   "raw": "\"\"",
-                  "value": ""
+                  "value": "",
+                  "range": [
+                    206,
+                    208
+                  ],
+                  "loc": {
+                    "end": {
+                      "column": 42,
+                      "line": 11
+                    },
+                    "start": {
+                      "column": 40,
+                      "line": 11
+                    }
+                  }
+                },
+                "range": [
+                  200,
+                  209
+                ],
+                "loc": {
+                  "end": {
+                    "column": 43,
+                    "line": 11
+                  },
+                  "start": {
+                    "column": 34,
+                    "line": 11
+                  }
+                }
+              },
+              "range": [
+                190,
+                209
+              ],
+              "loc": {
+                "end": {
+                  "column": 43,
+                  "line": 11
+                },
+                "start": {
+                  "column": 24,
+                  "line": 11
                 }
               }
             },
             "operator": "-",
-            "prefix": true
+            "prefix": true,
+            "range": [
+              188,
+              210
+            ],
+            "loc": {
+              "end": {
+                "column": 44,
+                "line": 11
+              },
+              "start": {
+                "column": 22,
+                "line": 11
+              }
+            }
+          },
+          "range": [
+            170,
+            210
+          ],
+          "loc": {
+            "end": {
+              "column": 44,
+              "line": 11
+            },
+            "start": {
+              "column": 4,
+              "line": 11
+            }
           }
         }
       ],
       "declare": false,
-      "kind": "var"
+      "kind": "var",
+      "range": [
+        166,
+        211
+      ],
+      "loc": {
+        "end": {
+          "column": 45,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "line": 11
+        }
+      }
     },
     {
       "type": "ExpressionStatement",
-      "start": 242,
-      "end": 248,
       "expression": {
         "type": "UnaryExpression",
-        "start": 242,
-        "end": 247,
         "argument": {
           "type": "Identifier",
-          "start": 243,
-          "end": 247,
           "decorators": [],
           "name": "ENUM",
-          "optional": false
+          "optional": false,
+          "range": [
+            243,
+            247
+          ],
+          "loc": {
+            "end": {
+              "column": 5,
+              "line": 14
+            },
+            "start": {
+              "column": 1,
+              "line": 14
+            }
+          }
         },
         "operator": "-",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          242,
+          247
+        ],
+        "loc": {
+          "end": {
+            "column": 5,
+            "line": 14
+          },
+          "start": {
+            "column": 0,
+            "line": 14
+          }
+        }
+      },
+      "range": [
+        242,
+        248
+      ],
+      "loc": {
+        "end": {
+          "column": 6,
+          "line": 14
+        },
+        "start": {
+          "column": 0,
+          "line": 14
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 256,
       "expression": {
         "type": "UnaryExpression",
-        "start": 249,
-        "end": 255,
         "argument": {
           "type": "Identifier",
-          "start": 250,
-          "end": 255,
           "decorators": [],
           "name": "ENUM1",
-          "optional": false
+          "optional": false,
+          "range": [
+            250,
+            255
+          ],
+          "loc": {
+            "end": {
+              "column": 6,
+              "line": 15
+            },
+            "start": {
+              "column": 1,
+              "line": 15
+            }
+          }
         },
         "operator": "-",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          249,
+          255
+        ],
+        "loc": {
+          "end": {
+            "column": 6,
+            "line": 15
+          },
+          "start": {
+            "column": 0,
+            "line": 15
+          }
+        }
+      },
+      "range": [
+        249,
+        256
+      ],
+      "loc": {
+        "end": {
+          "column": 7,
+          "line": 15
+        },
+        "start": {
+          "column": 0,
+          "line": 15
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 257,
-      "end": 269,
       "expression": {
         "type": "UnaryExpression",
-        "start": 257,
-        "end": 268,
         "argument": {
           "type": "MemberExpression",
-          "start": 258,
-          "end": 268,
           "computed": true,
           "object": {
             "type": "Identifier",
-            "start": 258,
-            "end": 263,
             "decorators": [],
             "name": "ENUM1",
-            "optional": false
+            "optional": false,
+            "range": [
+              258,
+              263
+            ],
+            "loc": {
+              "end": {
+                "column": 6,
+                "line": 16
+              },
+              "start": {
+                "column": 1,
+                "line": 16
+              }
+            }
           },
           "optional": false,
           "property": {
             "type": "Literal",
-            "start": 264,
-            "end": 267,
             "raw": "\"B\"",
-            "value": "B"
+            "value": "B",
+            "range": [
+              264,
+              267
+            ],
+            "loc": {
+              "end": {
+                "column": 10,
+                "line": 16
+              },
+              "start": {
+                "column": 7,
+                "line": 16
+              }
+            }
+          },
+          "range": [
+            258,
+            268
+          ],
+          "loc": {
+            "end": {
+              "column": 11,
+              "line": 16
+            },
+            "start": {
+              "column": 1,
+              "line": 16
+            }
           }
         },
         "operator": "-",
-        "prefix": true
+        "prefix": true,
+        "range": [
+          257,
+          268
+        ],
+        "loc": {
+          "end": {
+            "column": 11,
+            "line": 16
+          },
+          "start": {
+            "column": 0,
+            "line": 16
+          }
+        }
+      },
+      "range": [
+        257,
+        269
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 16
+        },
+        "start": {
+          "column": 0,
+          "line": 16
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 283,
       "expression": {
         "type": "SequenceExpression",
-        "start": 270,
-        "end": 282,
         "expressions": [
           {
             "type": "UnaryExpression",
-            "start": 270,
-            "end": 275,
             "argument": {
               "type": "Identifier",
-              "start": 271,
-              "end": 275,
               "decorators": [],
               "name": "ENUM",
-              "optional": false
+              "optional": false,
+              "range": [
+                271,
+                275
+              ],
+              "loc": {
+                "end": {
+                  "column": 5,
+                  "line": 17
+                },
+                "start": {
+                  "column": 1,
+                  "line": 17
+                }
+              }
             },
             "operator": "-",
-            "prefix": true
+            "prefix": true,
+            "range": [
+              270,
+              275
+            ],
+            "loc": {
+              "end": {
+                "column": 5,
+                "line": 17
+              },
+              "start": {
+                "column": 0,
+                "line": 17
+              }
+            }
           },
           {
             "type": "Identifier",
-            "start": 277,
-            "end": 282,
             "decorators": [],
             "name": "ENUM1",
-            "optional": false
+            "optional": false,
+            "range": [
+              277,
+              282
+            ],
+            "loc": {
+              "end": {
+                "column": 12,
+                "line": 17
+              },
+              "start": {
+                "column": 7,
+                "line": 17
+              }
+            }
           }
-        ]
+        ],
+        "range": [
+          270,
+          282
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 17
+          },
+          "start": {
+            "column": 0,
+            "line": 17
+          }
+        }
+      },
+      "range": [
+        270,
+        283
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 17
+        },
+        "start": {
+          "column": 0,
+          "line": 17
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 13,
+      "line": 17
+    },
+    "start": {
+      "column": 0,
+      "line": 3
+    }
+  },
+  "hashbang": null
 }
 ```

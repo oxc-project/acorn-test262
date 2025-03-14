@@ -1,96 +1,241 @@
-test.ts
+__ESTREE_TEST__:FAIL:
 ```json
 '#!' can only be used at the start of a file.
 ```
-test1.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 94,
+  "range": [
+    19,
+    94
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 31,
       "directive": "use strict",
       "expression": {
         "type": "Literal",
-        "start": 19,
-        "end": 31,
         "raw": "\"use strict\"",
-        "value": "use strict"
+        "value": "use strict",
+        "range": [
+          19,
+          31
+        ],
+        "loc": {
+          "end": {
+            "column": 12,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        19,
+        31
+      ],
+      "loc": {
+        "end": {
+          "column": 12,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 50,
       "directive": "Another prologue",
       "expression": {
         "type": "Literal",
-        "start": 32,
-        "end": 50,
         "raw": "\"Another prologue\"",
-        "value": "Another prologue"
+        "value": "Another prologue",
+        "range": [
+          32,
+          50
+        ],
+        "loc": {
+          "end": {
+            "column": 18,
+            "line": 3
+          },
+          "start": {
+            "column": 0,
+            "line": 3
+          }
+        }
+      },
+      "range": [
+        32,
+        50
+      ],
+      "loc": {
+        "end": {
+          "column": 18,
+          "line": 3
+        },
+        "start": {
+          "column": 0,
+          "line": 3
+        }
       }
     },
     {
       "type": "ClassDeclaration",
-      "start": 51,
-      "end": 64,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 62,
-        "end": 64,
-        "body": []
+        "range": [
+          62,
+          64
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 4
+          },
+          "start": {
+            "column": 11,
+            "line": 4
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 61,
         "decorators": [],
         "name": "Dood",
-        "optional": false
+        "optional": false,
+        "range": [
+          57,
+          61
+        ],
+        "loc": {
+          "end": {
+            "column": 10,
+            "line": 4
+          },
+          "start": {
+            "column": 6,
+            "line": 4
+          }
+        }
       },
       "implements": [],
-      "superClass": null
+      "superClass": null,
+      "range": [
+        51,
+        64
+      ],
+      "loc": {
+        "end": {
+          "column": 13,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 4
+        }
+      }
     },
     {
       "type": "ClassDeclaration",
-      "start": 65,
-      "end": 94,
       "abstract": false,
       "body": {
         "type": "ClassBody",
-        "start": 92,
-        "end": 94,
-        "body": []
+        "range": [
+          92,
+          94
+        ],
+        "body": [],
+        "loc": {
+          "end": {
+            "column": 29,
+            "line": 5
+          },
+          "start": {
+            "column": 27,
+            "line": 5
+          }
+        }
       },
       "declare": false,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 71,
-        "end": 78,
         "decorators": [],
         "name": "Scoobyd",
-        "optional": false
+        "optional": false,
+        "range": [
+          71,
+          78
+        ],
+        "loc": {
+          "end": {
+            "column": 13,
+            "line": 5
+          },
+          "start": {
+            "column": 6,
+            "line": 5
+          }
+        }
       },
       "implements": [],
       "superClass": {
         "type": "Identifier",
-        "start": 87,
-        "end": 91,
         "decorators": [],
         "name": "Dood",
-        "optional": false
+        "optional": false,
+        "range": [
+          87,
+          91
+        ],
+        "loc": {
+          "end": {
+            "column": 26,
+            "line": 5
+          },
+          "start": {
+            "column": 22,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        65,
+        94
+      ],
+      "loc": {
+        "end": {
+          "column": 29,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "module"
+  "sourceType": "module",
+  "loc": {
+    "end": {
+      "column": 29,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```

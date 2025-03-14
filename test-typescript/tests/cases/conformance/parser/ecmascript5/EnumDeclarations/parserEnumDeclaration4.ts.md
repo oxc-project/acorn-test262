@@ -1,4 +1,4 @@
-parserEnumDeclaration4.ts
+__ESTREE_TEST__:FAIL:
 ```json
 Identifier expected. 'void' is a reserved word that cannot be used here.
 ```

@@ -1,45 +1,118 @@
-switchCases.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
+  "range": [
+    0,
+    31
+  ],
   "body": [
     {
       "type": "SwitchStatement",
-      "start": 0,
-      "end": 30,
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 13,
-          "end": 28,
           "consequent": [
             {
               "type": "BreakStatement",
-              "start": 22,
-              "end": 28,
-              "label": null
+              "label": null,
+              "range": [
+                22,
+                28
+              ],
+              "loc": {
+                "end": {
+                  "column": 7,
+                  "line": 3
+                },
+                "start": {
+                  "column": 1,
+                  "line": 3
+                }
+              }
             }
           ],
           "test": {
             "type": "Literal",
-            "start": 18,
-            "end": 19,
             "raw": "1",
-            "value": 1
+            "value": 1,
+            "range": [
+              18,
+              19
+            ],
+            "loc": {
+              "end": {
+                "column": 7,
+                "line": 2
+              },
+              "start": {
+                "column": 6,
+                "line": 2
+              }
+            }
+          },
+          "range": [
+            13,
+            28
+          ],
+          "loc": {
+            "end": {
+              "column": 7,
+              "line": 3
+            },
+            "start": {
+              "column": 1,
+              "line": 2
+            }
           }
         }
       ],
       "discriminant": {
         "type": "Literal",
-        "start": 7,
-        "end": 8,
         "raw": "0",
-        "value": 0
+        "value": 0,
+        "range": [
+          7,
+          8
+        ],
+        "loc": {
+          "end": {
+            "column": 8,
+            "line": 1
+          },
+          "start": {
+            "column": 7,
+            "line": 1
+          }
+        }
+      },
+      "range": [
+        0,
+        30
+      ],
+      "loc": {
+        "end": {
+          "column": 1,
+          "line": 4
+        },
+        "start": {
+          "column": 0,
+          "line": 1
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 5
+    },
+    "start": {
+      "column": 0,
+      "line": 1
+    }
+  },
+  "hashbang": null
 }
 ```

@@ -1,37 +1,98 @@
-scannerNonAsciiHorizontalWhitespace.ts
+__ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 46,
-  "end": 134,
+  "range": [
+    46,
+    134
+  ],
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 46,
-      "end": 65,
       "directive": "  function f() {}",
       "expression": {
         "type": "Literal",
-        "start": 46,
-        "end": 65,
         "raw": "\"  function f() {}\"",
-        "value": "  function f() {}"
+        "value": "  function f() {}",
+        "range": [
+          46,
+          65
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 2
+          },
+          "start": {
+            "column": 0,
+            "line": 2
+          }
+        }
+      },
+      "range": [
+        46,
+        65
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "line": 2
+        }
       }
     },
     {
       "type": "ExpressionStatement",
-      "start": 113,
-      "end": 132,
       "directive": "  function f() {}",
       "expression": {
         "type": "Literal",
-        "start": 113,
-        "end": 132,
         "raw": "\"  function f() {}\"",
-        "value": "  function f() {}"
+        "value": "  function f() {}",
+        "range": [
+          113,
+          132
+        ],
+        "loc": {
+          "end": {
+            "column": 19,
+            "line": 5
+          },
+          "start": {
+            "column": 0,
+            "line": 5
+          }
+        }
+      },
+      "range": [
+        113,
+        132
+      ],
+      "loc": {
+        "end": {
+          "column": 19,
+          "line": 5
+        },
+        "start": {
+          "column": 0,
+          "line": 5
+        }
       }
     }
   ],
-  "sourceType": "script"
+  "sourceType": "script",
+  "loc": {
+    "end": {
+      "column": 0,
+      "line": 7
+    },
+    "start": {
+      "column": 0,
+      "line": 2
+    }
+  },
+  "hashbang": null
 }
 ```
