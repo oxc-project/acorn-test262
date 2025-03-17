@@ -2,7 +2,7 @@ import { Parser } from "acorn";
 import fs from "fs/promises";
 import path from "path";
 import YAML from "yaml";
-import { jsonStringify } from "./utils/json.js";
+import { jsonStringifyAcorn } from "./utils/json.js";
 
 async function* walk(dir) {
   for await (const d of await fs.opendir(dir)) {
@@ -54,7 +54,7 @@ for await (const p of walk("./test262/test")) {
       // It defaults to `true` for modules, `false` for scripts, which is what we want.
     });
 
-    const json = jsonStringify(ast);
+    const json = jsonStringifyAcorn(ast);
 
     await fs.writeFile(writeFile, json);
   } catch (err) {
