@@ -1,7 +1,7 @@
 import * as parser from "@typescript-eslint/parser";
 import fs from "node:fs";
 import path from "node:path";
-import { jsonStringify } from "./utils/json.js";
+import { jsonStringifyTs } from "./utils/json.js";
 import { makeUnitsFromTest } from "./utils/typescript-make-units-from-test.cjs";
 
 async function main() {
@@ -39,7 +39,7 @@ async function main() {
           },
         });
         const { comments, tokens, ...program } = result.ast;
-        const astJson = jsonStringify(program);
+        const astJson = jsonStringifyTs(program);
         output += `__ESTREE_TEST__:PASS:` + "\n```json\n" + astJson + "\n```\n";
       } catch (e) {
         output += `__ESTREE_TEST__:FAIL:` + "\n```json\n" + e.message + "\n```\n";
